@@ -1,0 +1,108 @@
+{
+  "browser_actions": [
+    "Select sugar/vinegar/yeast/warm/bright in Experiment settings and run",
+    "Send human message 左转",
+    "Reload and verify restored live session"
+  ],
+  "visible_reception_translation": "左转 → 模拟果蝇的右前腿被触碰",
+  "chat_caption": "果蝇 · 神经读出",
+  "candidate_prefix_visible": true,
+  "separate_datasets_visible": true,
+  "restored_session_visible": true,
+  "console_errors": [],
+  "environment_revision": 5,
+  "environment_objects": 8,
+  "service": {
+    "dialogue_mode": "neural_readout_only",
+    "expression_source": "blind_neural_readout",
+    "external_action_control": false,
+    "llm_in_pathway": false
+  },
+  "records": [
+    {
+      "dialogue_record": "reports\\dialogue\\be06a22270b241b3b552d663e93fd320.json",
+      "record_sha256": "3bc3de8bc6d344c36f3e34669fc300d6f8b9738159c312e86d0e61f9a4863b09",
+      "llm_called": false,
+      "external_action_control": false,
+      "observations": [
+        {
+          "observation_id": "f1d67c46a9dd40d8809bd297fb25f508",
+          "dataset": "FlyWire v783",
+          "decoded_words": [
+            "sugar",
+            "vinegar",
+            "yeast",
+            "warm",
+            "bright"
+          ],
+          "chat_text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+          "expression_status": "decoded",
+          "raw_hash_matches": true,
+          "count_stream_matches": true,
+          "reread_matches_chat": true,
+          "direct_driven_features_excluded": true,
+          "physics_run": true,
+          "duration_ms": 300,
+          "feedback_samples": 0,
+          "feedback_interval_ms": null,
+          "raw_record": {
+            "file": "data\\derived\\pathway-trials\\f1d67c46a9dd40d8809bd297fb25f508.npz",
+            "sha256": "3272a6aa9f60758867bebda7ea2ce9d28274c720c2a923173d8b6152e6205c46"
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_record": "reports\\dialogue\\2f28a1edd8604ab6bc1a1a58b5b34181.json",
+      "record_sha256": "2a280d35614ab67b695b3f164e2d915662dd09c3fe0c260c29959dc26f19b1ae",
+      "llm_called": false,
+      "external_action_control": false,
+      "observations": [
+        {
+          "observation_id": "0fa5d54c80cc4b4c9574ebefebefad61",
+          "dataset": "FlyWire v783",
+          "decoded_words": [
+            "bright:left",
+            "bright:right"
+          ],
+          "chat_text": "候选神经读出（连续反馈尚未校准）：我在左侧察觉到了光。我在右侧察觉到了光。",
+          "expression_status": "candidate",
+          "raw_hash_matches": true,
+          "count_stream_matches": true,
+          "reread_matches_chat": true,
+          "direct_driven_features_excluded": true,
+          "physics_run": true,
+          "duration_ms": 500.0,
+          "feedback_samples": 5,
+          "feedback_interval_ms": 100.0,
+          "raw_record": {
+            "file": "data\\derived\\pathway-trials\\0fa5d54c80cc4b4c9574ebefebefad61.npz",
+            "sha256": "2ad7d29415f1f5ed7436a4b76e541455d597ed0590378b1059cc5b20dad27d27"
+          }
+        },
+        {
+          "observation_id": "7cf5b6527cbe47aca85adf64e498797e",
+          "dataset": "MaleCNS v1.0",
+          "decoded_words": [
+            "foreleg_touch:right"
+          ],
+          "chat_text": "候选神经读出（连续反馈尚未校准）：我感到右前腿被碰到了。",
+          "expression_status": "candidate",
+          "raw_hash_matches": true,
+          "count_stream_matches": true,
+          "reread_matches_chat": true,
+          "direct_driven_features_excluded": true,
+          "physics_run": true,
+          "duration_ms": 500.0,
+          "feedback_samples": 5,
+          "feedback_interval_ms": 100.0,
+          "raw_record": {
+            "file": "data\\derived\\pathway-trials\\7cf5b6527cbe47aca85adf64e498797e.npz",
+            "sha256": "66be34e75cd73924de0fa023cf3940be9fb3af63f968b750dd8964523b2966c5"
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Record rereading verifies provenance, not biological calibration or successful left turn."
+}

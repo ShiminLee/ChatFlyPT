@@ -1,0 +1,71 @@
+{
+  "microct_sample": "20240701; separate eye specimen, not the MaleCNS EM specimen",
+  "source_axes_basis": {
+    "vf": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vleft": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "vn": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "source_code_basis_lines": "upstream/proc_uCT.R:37-81 and 141-182",
+  "fafb_pairs": 778,
+  "source_eye_lens_grid_count": 852,
+  "standalone_lens_grid_count": 786,
+  "auxiliary_extrapolated_count": 39,
+  "sides": {
+    "left": {
+      "microct_lenses": 857,
+      "atlas_axes": 850,
+      "nearest_source_microct_axis_angle_deg": {
+        "min": 0.0,
+        "p50": 0.1575913240559814,
+        "p95": 0.36937878098615695,
+        "max": 0.626292801392038
+      },
+      "source_axis_agreement_status": "Supports unchanged anatomical axis convention; nearest-neighbor similarity is not a column identity proof.",
+      "theta_matches_acos_z_max_abs_deg": 8.526512829121202e-14,
+      "phi_matches_negative_atan2_y_x_wrapped_max_abs_deg": 1.5973000699887052e-11,
+      "DRA_variant_common_columns": 816,
+      "DRA_variant_axis_difference_deg": {
+        "min": 1.6429507703947965,
+        "p50": 4.820965537489743,
+        "p95": 6.45376738637685,
+        "max": 9.070190800906184
+      },
+      "v1_official_L1_column_table_matches": 868,
+      "v1_official_L1_column_table_mismatches": 4
+    },
+    "right": {
+      "microct_lenses": 852,
+      "atlas_axes": 846,
+      "nearest_source_microct_axis_angle_deg": {
+        "min": 0.0,
+        "p50": 0.15982272358332555,
+        "p95": 0.3754933789863137,
+        "max": 0.7473611510222885
+      },
+      "source_axis_agreement_status": "Supports unchanged anatomical axis convention; nearest-neighbor similarity is not a column identity proof.",
+      "theta_matches_acos_z_max_abs_deg": 8.526512829121202e-14,
+      "phi_matches_negative_atan2_y_x_wrapped_max_abs_deg": 5.5422333389287814e-12,
+      "DRA_variant_common_columns": 846,
+      "DRA_variant_axis_difference_deg": {
+        "min": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "max": 8.537736462515939e-07
+      },
+      "v1_official_L1_column_table_matches": 892,
+      "v1_official_L1_column_table_mismatches": 0
+    }
+  }
+}

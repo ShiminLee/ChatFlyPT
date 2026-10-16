@@ -1,0 +1,14 @@
+{
+  "status": "superseded_not_fit",
+  "reason": "Temperature receptor positions and non-leg touch pathways require correction before training.",
+  "stopped_at": "2026-09-24T20:03:45+08:00",
+  "protocol_sha256": "e0ee622ab4c9cf1719b63e17b1be618ba7a3420657cde8ce140a25bda4f81920",
+  "completed_episodes": 2,
+  "complete_windows": 5,
+  "unfinished_episodes": [
+    "train-yeast",
+    "train-dark_yeast"
+  ],
+  "evidence_preserved": true,
+  "fitted_model": false
+}

@@ -1,0 +1,159 @@
+{
+  "schema": "chatflypt.command-readout-evaluation.v1",
+  "run_id": "conspecific-v9",
+  "protocol_sha256": "35d329ed2717634237684d0818aaf43f3e1a5889b13a8e978645c70758ec622e",
+  "artifact": "data\\derived\\command-readout\\malecns-command.candidate.npz",
+  "artifact_sha256": "9c3c76e20d9f6243e5a15c9cb791fbb1700cedbff56955d563d6b4bb2614f135",
+  "windows": {
+    "train": 266,
+    "validation": 266,
+    "test": 266
+  },
+  "command_distribution": {
+    "nonzero_windows": 390,
+    "informative_windows": 111,
+    "informative_abs_command": 0.015274723326867565,
+    "left_windows": 4,
+    "right_windows": 107
+  },
+  "features": {
+    "blind_features": 17097,
+    "excluded_motor_cells": 105,
+    "motor_cells_already_blinded": 0,
+    "motor_only_features": 50
+  },
+  "verified_against_recorded_drive": 798,
+  "training_class_counts": {
+    "left": 3,
+    "right": 37,
+    "quiet": 226
+  },
+  "sample_weighting": "balanced across the three training classes (v3 revision); the motor-group ceiling control keeps the unweighted fit of v2",
+  "extension": null,
+  "qualified": true,
+  "direction_support": {
+    "train": {
+      "command:turn-left": 3,
+      "command:turn-right": 37
+    },
+    "validation": {
+      "command:turn-left": 1,
+      "command:turn-right": 36
+    },
+    "test": {
+      "command:turn-left": 0,
+      "command:turn-right": 34
+    }
+  },
+  "served_directions": {
+    "command:turn-left": false,
+    "command:turn-right": true
+  },
+  "direction_accuracy": {
+    "left": {
+      "windows": 1,
+      "sign_correct": 0,
+      "accuracy": 0.0
+    },
+    "right": {
+      "windows": 36,
+      "sign_correct": 36,
+      "accuracy": 1.0
+    }
+  },
+  "validation": {
+    "correlation": 0.7208082347206524,
+    "turn_sign": {
+      "windows": 37,
+      "accuracy": 0.972972972972973
+    },
+    "zero_command_false_positive": {
+      "windows": 138,
+      "spoken": 0,
+      "rate": 0.0
+    }
+  },
+  "test": {
+    "correlation": 0.8191195708252526,
+    "turn_sign": {
+      "windows": 34,
+      "accuracy": 0.9411764705882353
+    },
+    "zero_command_false_positive": {
+      "windows": 135,
+      "spoken": 0,
+      "rate": 0.0
+    },
+    "labels": {
+      "command:turn-left": 0,
+      "command:turn-right": 34
+    },
+    "predicted_labels": {
+      "command:turn-left": 0,
+      "command:turn-right": 26
+    }
+  },
+  "controls": {
+    "shuffled_test_correlation": -0.012464124937103967,
+    "motor_only_ceiling": {
+      "correlation": {
+        "validation": 0.8786319998803361,
+        "test": 0.9107128503267502
+      },
+      "explanation": "Same fit restricted to the mapped motor groups the command is computed from: the shortcut this artifact excludes"
+    },
+    "zero_input_prediction": -0.004871961438391323,
+    "served_matches_fitted_matrix": true
+  },
+  "sign_calibration": {
+    "probe": "reports\\command-readout\\controller-sign-probe.json",
+    "sha256": "cf5d5f103b80137d34a6c711108314d8712fc83dbbdba4f231f50540e984f866",
+    "convention": "steer = mean(right - left) over the window frames; positive steer = left turn",
+    "conditions": {
+      "forward_turn_inside_L": {
+        "mean_yaw_deg": 38.25842202884584,
+        "repeats": 2,
+        "required": true
+      },
+      "forward_turn_inside_R": {
+        "mean_yaw_deg": -34.87452634801831,
+        "repeats": 2,
+        "required": true
+      },
+      "turn_outside_L_only": {
+        "mean_yaw_deg": 26.008425778580616,
+        "sign_consistent": true,
+        "repeats": 2,
+        "required": false
+      },
+      "turn_outside_R_only": {
+        "mean_yaw_deg": -25.0449698494174,
+        "sign_consistent": true,
+        "repeats": 2,
+        "required": false
+      },
+      "forward_only": {
+        "mean_yaw_deg": 3.4739226181266787,
+        "sign_consistent": true,
+        "repeats": 2,
+        "required": false
+      },
+      "forward_both_sides_plus_context": {
+        "mean_yaw_deg": 1.6476043053643536,
+        "sign_consistent": false,
+        "repeats": 2,
+        "required": false
+      }
+    }
+  },
+  "direction_words_available": true,
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "limitations": [
+    "The command is a recorded controller output, not a validated intention of the fly.",
+    "A qualified readout does not claim that the body followed the command; measured motion is reported separately.",
+    "No window is labelled from the human sentence, the scene, the planned stimulus or the measured body motion.",
+    "Small environment-only corpus; windows within a session are correlated.",
+    "The command channel only carries steering when stepping is commanded; quiet windows are silent."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "action": "Disable optional FlyWire feedback adapter; preserve immutable failed-test records",
+  "reason": "Both new heat-only trials generated false yeast labels from the small feedback adapter.",
+  "backup": "data\\derived\\feedback-readout\\flywire-adapter.disabled-after-heat-fp.npz",
+  "sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+  "active_adapter_exists": false,
+  "serving_loader_returns_base": true,
+  "requires_restart": false,
+  "retrained": false,
+  "remaining_problem": "Base model still predicts evaporative_cooling:left in one heat trial. Feedback labels remain candidates.",
+  "heat_trials": [
+    {
+      "seed": 491701,
+      "previous_words": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "fallback_words": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-heat\\turn-0\\observation.npz",
+      "additional_known_false_labels": []
+    },
+    {
+      "seed": 491702,
+      "previous_words": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right",
+        "warm:left",
+        "warm:right",
+        "evaporative_cooling:left"
+      ],
+      "fallback_words": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right",
+        "evaporative_cooling:left"
+      ],
+      "record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-heat\\turn-0\\observation.npz",
+      "additional_known_false_labels": [
+        "evaporative_cooling:left"
+      ]
+    }
+  ]
+}

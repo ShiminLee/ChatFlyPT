@@ -1,0 +1,18 @@
+[
+  {
+    "path": "vendor\\fly-brain-chat\\data\\2025_Connectivity_783.parquet",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347\nsize 100804642\n"
+  },
+  {
+    "path": "vendor\\fly-brain-chat\\data\\flywire_annotations.tsv",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:533db093e12d8de350fd20875a967f8f74acace633ff22118eefff550d5dcbc1\nsize 32638576\n"
+  },
+  {
+    "path": "vendor\\fly-brain-chat\\data\\archive\\2023_Completeness_630.csv",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:479ed718404e7b1d898ee9a353410f481e6ed7694c30f579a7c2699f1c708a5d\nsize 3185012\n"
+  },
+  {
+    "path": "vendor\\fly-brain-chat\\data\\archive\\2023_Connectivity_630.parquet",
+    "pointer": "version https://git-lfs.github.com/spec/v1\noid sha256:94db8c650533bc36ffa3223f2e62325d5648b8d6bd31c3a4e1c804628c7557b3\nsize 86630944\n"
+  }
+]

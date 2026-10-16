@@ -1,0 +1,58 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 13251,
+    "sha256": "89151d5aa8dbf973edd085b3e09747ccbca755be49dcffaa216afe7bd838ae1f"
+  },
+  {
+    "path": "/app.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 57723,
+    "sha256": "9fcf90a62a520b8e9dd0c8f485a65b692b19fac2684c2eda310d243b7652368a"
+  },
+  {
+    "path": "/app.css",
+    "status": 200,
+    "content_type": "text/css; charset=utf-8",
+    "bytes": 25246,
+    "sha256": "396af7b44db3830ef1f31e2b69ec2ce0a52a7765c9ea2406a28641fafc0ec0a6"
+  },
+  {
+    "path": "/body-view.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 8816,
+    "sha256": "0b0aac0c1c5cb98c5cc091f9be06c00231a1f357f2be301f22a2dee2a668d89c"
+  },
+  {
+    "path": "/vendor/three.module.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 603113,
+    "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+  },
+  {
+    "path": "/vendor/three.core.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 1403455,
+    "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+  },
+  {
+    "path": "/vendor/OrbitControls.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes": 38703,
+    "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+  },
+  {
+    "path": "/assets/neuromechfly-scene.json",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 3252280,
+    "sha256": "afceec16c68347240783521f3b956cdc54391ef3b59b57bf32d1129a053ce37d"
+  }
+]

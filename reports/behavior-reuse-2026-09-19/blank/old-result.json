@@ -1,0 +1,41 @@
+{
+  "schema": "chatflypt.body.v1",
+  "dataset": "FlyWire v783",
+  "physics_run": false,
+  "trajectory": [],
+  "legs": [
+    "lf",
+    "lm",
+    "lh",
+    "rf",
+    "rm",
+    "rh"
+  ],
+  "source_duration_ms": 500.0,
+  "motor_spikes": 0,
+  "active_motor_neurons": 0,
+  "source_spikes_sha256": "70200482b9fe6656f215a97b71332dd6725b80e2cb32e0052a4d47916ca1579b",
+  "source_mapping": "FlyWire DNa01/DNa02 + side; each side shared by 3 legs",
+  "units": {
+    "position": "mm",
+    "time": "ms",
+    "angles": "rad",
+    "actuator_force": "Native MuJoCo per-actuator units; force and torque are mixed, no SI conversion"
+  },
+  "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+  "biologically_calibrated": false,
+  "limitations": [
+    "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+    "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+    "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+    "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+    "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+    "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+    "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+  ],
+  "duration_ms": 500.0,
+  "truncated": false,
+  "motor_activity_in_window": false,
+  "status": "no_motor_activity",
+  "reason": "当前物理时间窗内没有可用于此腿控制器的运动神经驱动，未生成主动动作。"
+}

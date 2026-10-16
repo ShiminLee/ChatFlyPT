@@ -1,0 +1,63 @@
+{
+  "status": "passed_server_artifact_after_client_timeout",
+  "observation_id": "fc81ab59b874442fbb12d1f30dd71ea1",
+  "server_artifact": "reports\\general-sensory\\interactive\\fc81ab59b874442fbb12d1f30dd71ea1.json",
+  "raw_record": {
+    "file": "data\\derived\\pathway-trials\\fc81ab59b874442fbb12d1f30dd71ea1.npz",
+    "sha256": "3a242c1ea1a97b3f7623b48ff9c012851fa04c2261db2321435c613750a1b547"
+  },
+  "motor_source_sha256": "836a2e3458c08a009dc4fee35cce17681a1d1d692b2f431fb6c450f07c7b750b",
+  "motor_spikes": 32,
+  "active_motor_neurons": 25,
+  "groups": [
+    {
+      "leg": "lf",
+      "neuron_count": 68,
+      "spikes": 12
+    },
+    {
+      "leg": "lm",
+      "neuron_count": 58,
+      "spikes": 9
+    },
+    {
+      "leg": "lh",
+      "neuron_count": 66,
+      "spikes": 3
+    },
+    {
+      "leg": "rf",
+      "neuron_count": 67,
+      "spikes": 3
+    },
+    {
+      "leg": "rm",
+      "neuron_count": 58,
+      "spikes": 3
+    },
+    {
+      "leg": "rh",
+      "neuron_count": 64,
+      "spikes": 2
+    }
+  ],
+  "frames": 51,
+  "body_duration_ms": 499.99999999996123,
+  "neural_duration_ms": 500.0,
+  "body_elapsed_seconds": 19.054298600007314,
+  "observation_latency_seconds": 146.40291539998725,
+  "readout_model": "uncalibrated",
+  "checks": [
+    "Raw NPZ SHA matches response",
+    "Rebuilt drive source SHA matches body",
+    "Recorded unique motor counts match",
+    "Six foot coordinates finite, correct order/shape",
+    "Physical time preserved",
+    "Per-frame coordinates and 66 joint angles finite",
+    "No force on zero-drive actuators",
+    "Zero MuJoCo numerical warnings",
+    "Saved physical trajectory equals returned server artifact",
+    "Uncalibrated engineering label retained"
+  ],
+  "first_http_request": "Client read timeout after 180s; server completed later; not counted as successful HTTP response"
+}

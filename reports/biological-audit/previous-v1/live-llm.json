@@ -1,0 +1,6 @@
+{
+  "status": "unavailable",
+  "original_chatgpt_called": false,
+  "calls": [],
+  "reason": "Configure API credentials and CHATFLYPT_MODEL locally; no offline answer is substituted."
+}

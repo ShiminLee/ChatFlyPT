@@ -1,0 +1,75 @@
+{
+  "kind": "independent functional reconstruction",
+  "exact_author_replication": false,
+  "examples": [
+    {
+      "example": "Sugar -> MN9, bitter suppresses it",
+      "status": "passed_direction",
+      "measured": [
+        85.9,
+        9.4
+      ],
+      "reference": [
+        78,
+        3
+      ],
+      "exact_author_replication": false
+    },
+    {
+      "example": "16 proxy words: all_non_sensory",
+      "status": "target_met",
+      "measured": 1.0,
+      "reference": 1.0,
+      "exact_author_replication": false
+    },
+    {
+      "example": "16 proxy words: descending_motor",
+      "status": "target_met",
+      "measured": 0.90625,
+      "reference": 0.85,
+      "exact_author_replication": false
+    },
+    {
+      "example": "Vinegar + yeast + sugar + warm + bright sentence",
+      "status": "passed",
+      "measured": [
+        20,
+        20
+      ],
+      "exact_author_replication": false
+    },
+    {
+      "example": "Auditory left code -> external motor-population readout",
+      "status": "target_met",
+      "measured": [
+        37,
+        37
+      ],
+      "native_left_turn_validated": false,
+      "exact_author_replication": false
+    },
+    {
+      "example": "Native DNa01/DNa02 directionality under the left auditory code",
+      "status": "not_demonstrated",
+      "left_larger_trials": 0,
+      "tied_trials": 37,
+      "total": 37,
+      "note": "The external command decoder success does not establish native turning."
+    },
+    {
+      "example": "Actual ChatGPT interaction",
+      "status": "not_reproduced",
+      "substitute_status": "unavailable"
+    },
+    {
+      "example": "Wall turning and foraging in independently specified toy environment",
+      "status": "executed",
+      "left_turns": [
+        37,
+        37
+      ],
+      "food_found": false,
+      "exact_author_replication": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "documentation": "https://janclemenslab.org/das/unsupervised/flies.html",
+  "source": "https://github.com/janclemenslab/das_unsupervised/releases/download/v0.4/flies.npz",
+  "sha256": "75aa388dc554a6cb24bd765f78ac808f410d723e2a8e1e5173737298b7dbc113",
+  "scope": "Recorded courtship song with signal class annotations; not utterance meaning labels"
+}

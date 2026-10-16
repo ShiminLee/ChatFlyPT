@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-09-24",
+  "repositories": [
+    {
+      "name": "jevmeter",
+      "html_url": "https://github.com/ChetasLua/jevmeter",
+      "description": "Put a live Jev (TypeSafe) meter on any video: every sentence scored, rendered as a 16:9 edit",
+      "pushed_at": "2026-09-17T12:36:32Z"
+    },
+    {
+      "name": "sudoku-graph-coloring",
+      "html_url": "https://github.com/ChetasLua/sudoku-graph-coloring",
+      "description": "Solve any standard 9x9 Sudoku with exact graph coloring. Interactive browser demo, real backtracking traces, Python solver, and a verified 16:9 animation.",
+      "pushed_at": "2026-09-20T13:25:22Z"
+    },
+    {
+      "name": "xbox360-svg-controller",
+      "html_url": "https://github.com/ChetasLua/xbox360-svg-controller",
+      "description": "Interactive Xbox 360 controller drawn entirely in SVG, with native animation and no embedded images or JavaScript.",
+      "pushed_at": "2026-09-20T13:00:51Z"
+    },
+    {
+      "name": "ChetasLua",
+      "html_url": "https://github.com/ChetasLua/ChetasLua",
+      "description": "Profile README.",
+      "pushed_at": "2026-09-21T09:14:07Z"
+    },
+    {
+      "name": "little-neighbourhood",
+      "html_url": "https://github.com/ChetasLua/little-neighbourhood",
+      "description": "A living sketchbook of animal neighbors and Claude. One HTML file, procedural JavaScript artwork, physical work scenes and synthesized sound.",
+      "pushed_at": "2026-09-20T18:46:56Z"
+    },
+    {
+      "name": "antidetect-page",
+      "html_url": "https://github.com/ChetasLua/antidetect-page",
+      "description": "Repository for hosting antidetect.html",
+      "pushed_at": "2026-05-07T03:19:32Z"
+    },
+    {
+      "name": "scrubwatch",
+      "html_url": "https://github.com/ChetasLua/scrubwatch",
+      "description": "Prints text edited out of public GitHub issue and PR bodies. Public by design, not a disclosure.",
+      "pushed_at": "2026-08-26T10:42:34Z"
+    },
+    {
+      "name": "negative-controls",
+      "html_url": "https://github.com/ChetasLua/negative-controls",
+      "description": "A zero result is not a verified absence. A harness that refuses one without a positive control.",
+      "pushed_at": "2026-08-26T10:44:38Z"
+    }
+  ],
+  "gists": []
+}

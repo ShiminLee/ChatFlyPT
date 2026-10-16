@@ -1,0 +1,468 @@
+{
+  "schema": "chatflypt.acoustic-readout.v2",
+  "status": "acoustic_classes_only",
+  "model": "DAS Dmel_single_v1.0 original weights",
+  "source": "external_DAS_release_recording_5_to_7_seconds",
+  "sample_rate_hz": 10000,
+  "duration_ms": 2000.0,
+  "class_names": [
+    "noise",
+    "sine",
+    "pulse"
+  ],
+  "sample_counts": {
+    "noise": 11593,
+    "sine": 5192,
+    "pulse": 317
+  },
+  "abstained_samples": 2898,
+  "intervals": [
+    {
+      "class": "pulse",
+      "start_ms": 162.3,
+      "end_ms": 165.6,
+      "mean_score": 0.7896144390106201,
+      "minimum_score": 0.5531108975410461
+    },
+    {
+      "class": "pulse",
+      "start_ms": 165.7,
+      "end_ms": 165.8,
+      "mean_score": 0.5250562429428101,
+      "minimum_score": 0.5250562429428101
+    },
+    {
+      "class": "pulse",
+      "start_ms": 484.0,
+      "end_ms": 486.9,
+      "mean_score": 0.7256132364273071,
+      "minimum_score": 0.5226826667785645
+    },
+    {
+      "class": "pulse",
+      "start_ms": 521.3,
+      "end_ms": 525.0,
+      "mean_score": 0.8006088733673096,
+      "minimum_score": 0.509377658367157
+    },
+    {
+      "class": "pulse",
+      "start_ms": 552.2,
+      "end_ms": 555.7,
+      "mean_score": 0.7557919025421143,
+      "minimum_score": 0.5267632603645325
+    },
+    {
+      "class": "sine",
+      "start_ms": 846.7,
+      "end_ms": 846.8,
+      "mean_score": 0.5208725929260254,
+      "minimum_score": 0.5208725929260254
+    },
+    {
+      "class": "sine",
+      "start_ms": 862.8,
+      "end_ms": 863.3,
+      "mean_score": 0.6026700139045715,
+      "minimum_score": 0.5592179298400879
+    },
+    {
+      "class": "sine",
+      "start_ms": 863.5,
+      "end_ms": 864.1,
+      "mean_score": 0.5397257208824158,
+      "minimum_score": 0.5214244723320007
+    },
+    {
+      "class": "sine",
+      "start_ms": 864.2,
+      "end_ms": 865.3,
+      "mean_score": 0.590785562992096,
+      "minimum_score": 0.5325930714607239
+    },
+    {
+      "class": "sine",
+      "start_ms": 866.6,
+      "end_ms": 1074.8,
+      "mean_score": 0.9352940917015076,
+      "minimum_score": 0.5221149921417236
+    },
+    {
+      "class": "sine",
+      "start_ms": 1074.9,
+      "end_ms": 1075.3,
+      "mean_score": 0.5124294757843018,
+      "minimum_score": 0.5036447048187256
+    },
+    {
+      "class": "sine",
+      "start_ms": 1075.5,
+      "end_ms": 1076.2,
+      "mean_score": 0.5751100778579712,
+      "minimum_score": 0.543584406375885
+    },
+    {
+      "class": "sine",
+      "start_ms": 1076.3,
+      "end_ms": 1076.7,
+      "mean_score": 0.519645094871521,
+      "minimum_score": 0.5046752691268921
+    },
+    {
+      "class": "sine",
+      "start_ms": 1077.9,
+      "end_ms": 1078.4,
+      "mean_score": 0.5490354895591736,
+      "minimum_score": 0.5148230195045471
+    },
+    {
+      "class": "sine",
+      "start_ms": 1080.4,
+      "end_ms": 1080.9,
+      "mean_score": 0.5241658091545105,
+      "minimum_score": 0.5128700137138367
+    },
+    {
+      "class": "sine",
+      "start_ms": 1084.4,
+      "end_ms": 1084.5,
+      "mean_score": 0.5067523121833801,
+      "minimum_score": 0.5067523121833801
+    },
+    {
+      "class": "sine",
+      "start_ms": 1086.0,
+      "end_ms": 1086.6,
+      "mean_score": 0.5210142731666565,
+      "minimum_score": 0.5091109871864319
+    },
+    {
+      "class": "sine",
+      "start_ms": 1126.8,
+      "end_ms": 1127.1,
+      "mean_score": 0.530864953994751,
+      "minimum_score": 0.510772168636322
+    },
+    {
+      "class": "sine",
+      "start_ms": 1127.3,
+      "end_ms": 1128.9,
+      "mean_score": 0.6014978885650635,
+      "minimum_score": 0.5279024839401245
+    },
+    {
+      "class": "sine",
+      "start_ms": 1130.3,
+      "end_ms": 1131.3,
+      "mean_score": 0.5649421215057373,
+      "minimum_score": 0.539555549621582
+    },
+    {
+      "class": "sine",
+      "start_ms": 1131.5,
+      "end_ms": 1132.8,
+      "mean_score": 0.6567414999008179,
+      "minimum_score": 0.5462707281112671
+    },
+    {
+      "class": "sine",
+      "start_ms": 1134.1,
+      "end_ms": 1134.6,
+      "mean_score": 0.5713375210762024,
+      "minimum_score": 0.5247780680656433
+    },
+    {
+      "class": "sine",
+      "start_ms": 1134.8,
+      "end_ms": 1135.9,
+      "mean_score": 0.5468253493309021,
+      "minimum_score": 0.5089974403381348
+    },
+    {
+      "class": "sine",
+      "start_ms": 1136.0,
+      "end_ms": 1136.2,
+      "mean_score": 0.5242781639099121,
+      "minimum_score": 0.5238281488418579
+    },
+    {
+      "class": "sine",
+      "start_ms": 1138.3,
+      "end_ms": 1140.8,
+      "mean_score": 0.6287776827812195,
+      "minimum_score": 0.5017209649085999
+    },
+    {
+      "class": "sine",
+      "start_ms": 1141.6,
+      "end_ms": 1142.4,
+      "mean_score": 0.5998241901397705,
+      "minimum_score": 0.5102753043174744
+    },
+    {
+      "class": "sine",
+      "start_ms": 1145.2,
+      "end_ms": 1145.3,
+      "mean_score": 0.5167621970176697,
+      "minimum_score": 0.5167621970176697
+    },
+    {
+      "class": "sine",
+      "start_ms": 1146.6,
+      "end_ms": 1147.5,
+      "mean_score": 0.5646451711654663,
+      "minimum_score": 0.502519965171814
+    },
+    {
+      "class": "sine",
+      "start_ms": 1147.6,
+      "end_ms": 1148.1,
+      "mean_score": 0.5140043497085571,
+      "minimum_score": 0.5029245615005493
+    },
+    {
+      "class": "sine",
+      "start_ms": 1148.2,
+      "end_ms": 1148.7,
+      "mean_score": 0.565034031867981,
+      "minimum_score": 0.517649233341217
+    },
+    {
+      "class": "sine",
+      "start_ms": 1149.2,
+      "end_ms": 1150.1,
+      "mean_score": 0.599814772605896,
+      "minimum_score": 0.530623733997345
+    },
+    {
+      "class": "sine",
+      "start_ms": 1150.6,
+      "end_ms": 1153.0,
+      "mean_score": 0.6064062714576721,
+      "minimum_score": 0.5181627869606018
+    },
+    {
+      "class": "sine",
+      "start_ms": 1153.1,
+      "end_ms": 1154.2,
+      "mean_score": 0.5692787766456604,
+      "minimum_score": 0.5152407884597778
+    },
+    {
+      "class": "sine",
+      "start_ms": 1154.7,
+      "end_ms": 1155.3,
+      "mean_score": 0.5824592709541321,
+      "minimum_score": 0.5096870064735413
+    },
+    {
+      "class": "sine",
+      "start_ms": 1156.0,
+      "end_ms": 1156.4,
+      "mean_score": 0.5407724380493164,
+      "minimum_score": 0.5174663662910461
+    },
+    {
+      "class": "sine",
+      "start_ms": 1158.6,
+      "end_ms": 1158.9,
+      "mean_score": 0.5213606357574463,
+      "minimum_score": 0.509554386138916
+    },
+    {
+      "class": "sine",
+      "start_ms": 1159.0,
+      "end_ms": 1159.5,
+      "mean_score": 0.5802777409553528,
+      "minimum_score": 0.5455660820007324
+    },
+    {
+      "class": "sine",
+      "start_ms": 1159.6,
+      "end_ms": 1159.7,
+      "mean_score": 0.5123125314712524,
+      "minimum_score": 0.5123125314712524
+    },
+    {
+      "class": "sine",
+      "start_ms": 1160.0,
+      "end_ms": 1160.2,
+      "mean_score": 0.5561659336090088,
+      "minimum_score": 0.5528705716133118
+    },
+    {
+      "class": "sine",
+      "start_ms": 1162.5,
+      "end_ms": 1162.9,
+      "mean_score": 0.5327630043029785,
+      "minimum_score": 0.5282965898513794
+    },
+    {
+      "class": "sine",
+      "start_ms": 1164.0,
+      "end_ms": 1257.9,
+      "mean_score": 0.9107156991958618,
+      "minimum_score": 0.507472813129425
+    },
+    {
+      "class": "pulse",
+      "start_ms": 1272.3,
+      "end_ms": 1275.7,
+      "mean_score": 0.7697809338569641,
+      "minimum_score": 0.5247141122817993
+    },
+    {
+      "class": "pulse",
+      "start_ms": 1308.6,
+      "end_ms": 1312.0,
+      "mean_score": 0.7431693077087402,
+      "minimum_score": 0.5136388540267944
+    },
+    {
+      "class": "pulse",
+      "start_ms": 1312.2,
+      "end_ms": 1312.5,
+      "mean_score": 0.5398871302604675,
+      "minimum_score": 0.511905312538147
+    },
+    {
+      "class": "pulse",
+      "start_ms": 1345.2,
+      "end_ms": 1348.7,
+      "mean_score": 0.8011045455932617,
+      "minimum_score": 0.5259813070297241
+    },
+    {
+      "class": "pulse",
+      "start_ms": 1383.3,
+      "end_ms": 1386.7,
+      "mean_score": 0.7491757273674011,
+      "minimum_score": 0.5107449889183044
+    },
+    {
+      "class": "pulse",
+      "start_ms": 1418.5,
+      "end_ms": 1422.5,
+      "mean_score": 0.7346709966659546,
+      "minimum_score": 0.5106894969940186
+    },
+    {
+      "class": "pulse",
+      "start_ms": 1422.6,
+      "end_ms": 1422.8,
+      "mean_score": 0.5241896510124207,
+      "minimum_score": 0.5133134126663208
+    },
+    {
+      "class": "sine",
+      "start_ms": 1452.8,
+      "end_ms": 1453.4,
+      "mean_score": 0.5655030608177185,
+      "minimum_score": 0.5014168620109558
+    },
+    {
+      "class": "sine",
+      "start_ms": 1454.4,
+      "end_ms": 1457.0,
+      "mean_score": 0.5988760590553284,
+      "minimum_score": 0.5056972503662109
+    },
+    {
+      "class": "sine",
+      "start_ms": 1457.1,
+      "end_ms": 1637.7,
+      "mean_score": 0.9494442939758301,
+      "minimum_score": 0.5057816505432129
+    },
+    {
+      "class": "sine",
+      "start_ms": 1637.8,
+      "end_ms": 1638.2,
+      "mean_score": 0.5529721975326538,
+      "minimum_score": 0.506243109703064
+    },
+    {
+      "class": "sine",
+      "start_ms": 1638.3,
+      "end_ms": 1639.8,
+      "mean_score": 0.6092675924301147,
+      "minimum_score": 0.5190712809562683
+    },
+    {
+      "class": "sine",
+      "start_ms": 1641.6,
+      "end_ms": 1642.2,
+      "mean_score": 0.5357695817947388,
+      "minimum_score": 0.502393364906311
+    },
+    {
+      "class": "sine",
+      "start_ms": 1642.9,
+      "end_ms": 1645.2,
+      "mean_score": 0.6413129568099976,
+      "minimum_score": 0.5379610061645508
+    },
+    {
+      "class": "sine",
+      "start_ms": 1645.4,
+      "end_ms": 1645.9,
+      "mean_score": 0.5468829274177551,
+      "minimum_score": 0.5312129855155945
+    },
+    {
+      "class": "sine",
+      "start_ms": 1646.3,
+      "end_ms": 1646.5,
+      "mean_score": 0.5218989253044128,
+      "minimum_score": 0.5147392153739929
+    },
+    {
+      "class": "sine",
+      "start_ms": 1646.6,
+      "end_ms": 1646.8,
+      "mean_score": 0.5167436599731445,
+      "minimum_score": 0.5000046491622925
+    },
+    {
+      "class": "sine",
+      "start_ms": 1647.2,
+      "end_ms": 1649.4,
+      "mean_score": 0.6562401056289673,
+      "minimum_score": 0.5435052514076233
+    },
+    {
+      "class": "sine",
+      "start_ms": 1649.9,
+      "end_ms": 1651.0,
+      "mean_score": 0.630028247833252,
+      "minimum_score": 0.5143130421638489
+    },
+    {
+      "class": "sine",
+      "start_ms": 1653.0,
+      "end_ms": 1653.5,
+      "mean_score": 0.5468994379043579,
+      "minimum_score": 0.5136142373085022
+    },
+    {
+      "class": "sine",
+      "start_ms": 1654.8,
+      "end_ms": 1654.9,
+      "mean_score": 0.5017386078834534,
+      "minimum_score": 0.5017386078834534
+    }
+  ],
+  "lookahead_ms": 144.3,
+  "left_context_ms": 144.0,
+  "model_sha256": "e8724980d93a56fa682c0b9fc35f8e902ad8afc8489fc7a8b44eb082f7f2a83c",
+  "llm_called": false,
+  "semantics_decoded": false,
+  "expression_messages": [],
+  "limitations": [
+    "Classifies noise/sine/pulse acoustic patterns; no utterance meanings.",
+    "External recording classification does not establish a signal emitted by this simulation.",
+    "Release example evaluation has unknown training overlap; not an independent-animal test.",
+    "Noncausal model requires 144.3 ms future context; global edges are unclassified.",
+    "Current body has no calibrated acoustic emitter; chat cannot use these external recordings as its voice."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "chatflypt.command-direction-summary.v1",
+  "informative_abs_command": 0.01193268861737812,
+  "source": "derived from the run's own windows.json; nothing refitted",
+  "splits": {
+    "train": {
+      "left": {
+        "windows": 1,
+        "sign_correct": 1,
+        "accuracy": 1.0,
+        "spoken": 1
+      },
+      "right": {
+        "windows": 21,
+        "sign_correct": 21,
+        "accuracy": 1.0,
+        "spoken": 21
+      },
+      "zero_command_windows": 124
+    },
+    "validation": {
+      "left": {
+        "windows": 4,
+        "sign_correct": 0,
+        "accuracy": 0.0,
+        "spoken": 0
+      },
+      "right": {
+        "windows": 27,
+        "sign_correct": 26,
+        "accuracy": 0.9629629629629629,
+        "spoken": 11
+      },
+      "zero_command_windows": 115
+    },
+    "test": {
+      "left": {
+        "windows": 1,
+        "sign_correct": 1,
+        "accuracy": 1.0,
+        "spoken": 0
+      },
+      "right": {
+        "windows": 26,
+        "sign_correct": 24,
+        "accuracy": 0.9230769230769231,
+        "spoken": 15
+      },
+      "zero_command_windows": 119
+    }
+  },
+  "served_directions": {
+    "command:turn-left": false,
+    "command:turn-right": true
+  },
+  "rule": "A direction is served only when validation holds at least two windows of that direction and the readout gets their sign right at least half the time; the gate lives in chatflypt/command_readout.py (MIN_DIRECTION_WINDOWS, MIN_DIRECTION_SIGN)."
+}

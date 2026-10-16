@@ -1,0 +1,227 @@
+{
+  "schema": "chatflypt.acoustic-acceptance.v1",
+  "source": "research\\outward-signals\\flies.npz",
+  "source_sha256": "75aa388dc554a6cb24bd765f78ac808f410d723e2a8e1e5173737298b7dbc113",
+  "model_sha256": "cc3ef4092581b6632f893b47c6aae8a0d05447906df8c158cc111a6cb74f5be4",
+  "threshold_selection": "validation precision >= 0.90 with at least 10 predictions; otherwise reject class",
+  "acceptance_thresholds": {
+    "unannotated_background": 0.5,
+    "pulse": 1.01,
+    "sine": 0.54
+  },
+  "partition_seconds": {
+    "train": [
+      0.0,
+      60.0
+    ],
+    "validation": [
+      60.0,
+      80.0
+    ],
+    "test": [
+      80.0,
+      112.4352
+    ]
+  },
+  "overlapping_samples_between_partitions": 0,
+  "random_clip_split": false,
+  "independent_animal_validation": false,
+  "label_scope": "pulse +/-5ms core, sine author 20ms intervals; all other centers unannotated background",
+  "semantic_translation": false,
+  "llm_called": false,
+  "metrics": {
+    "train": {
+      "confusion_matrix": [
+        [
+          9371,
+          0,
+          74,
+          125
+        ],
+        [
+          0,
+          0,
+          0,
+          315
+        ],
+        [
+          79,
+          0,
+          1997,
+          36
+        ]
+      ],
+      "rows": [
+        "unannotated_background",
+        "pulse",
+        "sine"
+      ],
+      "columns": [
+        "unannotated_background",
+        "pulse",
+        "sine",
+        "abstain"
+      ],
+      "classes": {
+        "unannotated_background": {
+          "precision": 0.9916402116402117,
+          "recall": 0.9792058516196447,
+          "f1": 0.9853838065194531,
+          "support": 9570
+        },
+        "pulse": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 315
+        },
+        "sine": {
+          "precision": 0.9642684693384839,
+          "recall": 0.9455492424242424,
+          "f1": 0.9548171169017451,
+          "support": 2112
+        }
+      },
+      "accuracy": 0.9475702258898058,
+      "coverage": 0.96032341418688,
+      "macro_f1": 0.6467336411403993,
+      "export_max_score_error": 4.440892098500626e-16
+    },
+    "validation": {
+      "confusion_matrix": [
+        [
+          2864,
+          0,
+          60,
+          82
+        ],
+        [
+          26,
+          0,
+          0,
+          145
+        ],
+        [
+          253,
+          0,
+          545,
+          22
+        ]
+      ],
+      "rows": [
+        "unannotated_background",
+        "pulse",
+        "sine"
+      ],
+      "columns": [
+        "unannotated_background",
+        "pulse",
+        "sine",
+        "abstain"
+      ],
+      "classes": {
+        "unannotated_background": {
+          "precision": 0.9112313076678333,
+          "recall": 0.9527611443779108,
+          "f1": 0.9315335826963734,
+          "support": 3006
+        },
+        "pulse": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 171
+        },
+        "sine": {
+          "precision": 0.9008264462809917,
+          "recall": 0.6646341463414634,
+          "f1": 0.7649122807017543,
+          "support": 820
+        }
+      },
+      "accuracy": 0.8528896672504378,
+      "coverage": 0.9377032774580936,
+      "macro_f1": 0.5654819544660427,
+      "export_max_score_error": 4.440892098500626e-16
+    },
+    "test": {
+      "confusion_matrix": [
+        [
+          5747,
+          0,
+          59,
+          86
+        ],
+        [
+          61,
+          0,
+          0,
+          171
+        ],
+        [
+          182,
+          0,
+          162,
+          16
+        ]
+      ],
+      "rows": [
+        "unannotated_background",
+        "pulse",
+        "sine"
+      ],
+      "columns": [
+        "unannotated_background",
+        "pulse",
+        "sine",
+        "abstain"
+      ],
+      "classes": {
+        "unannotated_background": {
+          "precision": 0.9594323873121869,
+          "recall": 0.9753903598099117,
+          "f1": 0.9673455647197442,
+          "support": 5892
+        },
+        "pulse": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 232
+        },
+        "sine": {
+          "precision": 0.7330316742081447,
+          "recall": 0.45,
+          "f1": 0.5576592082616179,
+          "support": 360
+        }
+      },
+      "accuracy": 0.9113201727328809,
+      "coverage": 0.9578963602714374,
+      "macro_f1": 0.5083349243271207,
+      "export_max_score_error": 4.440892098500626e-16
+    }
+  },
+  "arrays": {
+    "train": {
+      "first_window_start": 0,
+      "last_window_end_exclusive": 600000,
+      "frames": 11997
+    },
+    "validation": {
+      "first_window_start": 600000,
+      "last_window_end_exclusive": 800000,
+      "frames": 3997
+    },
+    "test": {
+      "first_window_start": 800000,
+      "last_window_end_exclusive": 1124350,
+      "frames": 6484
+    }
+  },
+  "controls": {
+    "silent_song_false_positives": 0,
+    "white_noise_song_false_positives": 0,
+    "noise_windows": 200
+  }
+}

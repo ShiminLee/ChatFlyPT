@@ -1,0 +1,17 @@
+{
+  "success": {
+    "text": "OK",
+    "provider_protocol": "openai",
+    "api_style": "chat_completions",
+    "provider_host": "api.requestme.top",
+    "requested_model": "gpt-5.5",
+    "returned_model": "gpt-5.5",
+    "response_id": "resp_localheartbeat",
+    "usage": {
+      "prompt_tokens": 100,
+      "completion_tokens": 50,
+      "total_tokens": 150
+    },
+    "provenance": "live API response; third-party gateway model identity is not independently attested"
+  }
+}

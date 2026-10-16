@@ -1,0 +1,164 @@
+{
+  "saved_environment_unchanged": true,
+  "turns": [
+    {
+      "message": "右边有糖",
+      "dialogue_record": "reports/dialogue/23c59969c9984580a4601383551ccf14.json",
+      "environment_revision": 1,
+      "environment_event": {
+        "label": "环境改动",
+        "revision": 1,
+        "object_count": 1,
+        "changes": [
+          {
+            "kind": "added",
+            "object": {
+              "id": "chat_sugar_right",
+              "type": "sugar",
+              "position_mm": [
+                0.5529951506659172,
+                -3.0000334634706327,
+                0.2
+              ],
+              "size_mm": [
+                0.6,
+                0.6,
+                0.4
+              ],
+              "yaw_deg": 0.0,
+              "strength": 1.0,
+              "range_mm": 6.0
+            }
+          }
+        ],
+        "source": "human_message"
+      },
+      "observations": [
+        {
+          "dataset": "FlyWire v783",
+          "channels": [
+            "bright:left",
+            "bright:right"
+          ],
+          "input_events": 23914,
+          "physical_presentation": null,
+          "start_ms": 0.0,
+          "end_ms": 500.0,
+          "neural_resets": 1,
+          "body_resets": 1,
+          "finite": true
+        },
+        {
+          "dataset": "MaleCNS v1.0",
+          "channels": [],
+          "input_events": 0,
+          "physical_presentation": null,
+          "start_ms": 0.0,
+          "end_ms": 500.0,
+          "neural_resets": 1,
+          "body_resets": 1,
+          "finite": true
+        }
+      ],
+      "reply": "FlyWire v783：候选神经读出（连续反馈尚未校准）：我在左侧察觉到了光。我在右侧察觉到了光。"
+    },
+    {
+      "message": "左转",
+      "dialogue_record": "reports/dialogue/f322888415374a09a89e18e3cc943745.json",
+      "environment_revision": 1,
+      "environment_event": null,
+      "observations": [
+        {
+          "dataset": "FlyWire v783",
+          "channels": [
+            "bright:left",
+            "bright:right"
+          ],
+          "input_events": 23599,
+          "physical_presentation": {
+            "requested": [
+              {
+                "kind": "touch",
+                "side": "right",
+                "body_part": "foreleg",
+                "strength": 1.0,
+                "onset_ms": 50.0,
+                "duration_ms": 300.0
+              }
+            ],
+            "measured_leg_contacts": 3,
+            "contact_recorded": true,
+            "force_calibrated": false
+          },
+          "start_ms": 500.0,
+          "end_ms": 1000.0,
+          "neural_resets": 0,
+          "body_resets": 0,
+          "finite": true
+        },
+        {
+          "dataset": "MaleCNS v1.0",
+          "channels": [
+            "foreleg_touch:right"
+          ],
+          "input_events": 233,
+          "physical_presentation": {
+            "requested": [
+              {
+                "kind": "touch",
+                "side": "right",
+                "body_part": "foreleg",
+                "strength": 1.0,
+                "onset_ms": 50.0,
+                "duration_ms": 300.0
+              }
+            ],
+            "measured_leg_contacts": 2,
+            "contact_recorded": true,
+            "force_calibrated": false
+          },
+          "start_ms": 500.0,
+          "end_ms": 1000.0,
+          "neural_resets": 0,
+          "body_resets": 0,
+          "finite": true
+        }
+      ],
+      "reply": "FlyWire v783：候选神经读出（连续反馈尚未校准）：我在左侧察觉到了光。我在右侧察觉到了光。\nMaleCNS v1.0：候选神经读出（连续反馈仅有限验证）：我感到右前腿被碰到了。"
+    },
+    {
+      "message": "看看环境",
+      "dialogue_record": "reports/dialogue/15769545b4df4ef2b6512fa5d3b990ce.json",
+      "environment_revision": 1,
+      "environment_event": null,
+      "observations": [
+        {
+          "dataset": "FlyWire v783",
+          "channels": [
+            "bright:left",
+            "bright:right"
+          ],
+          "input_events": 23908,
+          "physical_presentation": null,
+          "start_ms": 1000.0,
+          "end_ms": 1500.0,
+          "neural_resets": 0,
+          "body_resets": 0,
+          "finite": true
+        },
+        {
+          "dataset": "MaleCNS v1.0",
+          "channels": [],
+          "input_events": 0,
+          "physical_presentation": null,
+          "start_ms": 1000.0,
+          "end_ms": 1500.0,
+          "neural_resets": 0,
+          "body_resets": 0,
+          "finite": true
+        }
+      ],
+      "reply": "FlyWire v783：候选神经读出（连续反馈尚未校准）：我在左侧察觉到了光。我在右侧察觉到了光。"
+    }
+  ]
+}

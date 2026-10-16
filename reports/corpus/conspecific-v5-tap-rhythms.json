@@ -1,0 +1,89 @@
+{
+  "schema": "chatflypt.tap-rhythm-analysis.v1",
+  "run_id": "conspecific-v5",
+  "question": "Equal total contact time (180 ms), three rhythms: distinguishable?",
+  "criterion": "Report separation on measured bout counts and on the blind readout score for the touched leg; no separation is reported as such.",
+  "decoder": "data\\derived\\unified-readout\\malecns-decoder.npz",
+  "decoder_sha256": "ab76541d17a45fa34542428c3fcef9ce0c9ab8914843b5a97013cb5e71596969",
+  "per_rhythm": {
+    "tap1x180": {
+      "windows": 12,
+      "requested_taps": [
+        0,
+        1
+      ],
+      "measured_contact_bouts": {
+        "min": 0,
+        "median": 0.0,
+        "max": 1
+      },
+      "spikes": {
+        "min": 11521,
+        "median": 12467.5,
+        "max": 14193
+      },
+      "foreleg_touch_score": {
+        "min": -0.022,
+        "median": 0.027,
+        "max": 1.0
+      },
+      "spoken_windows": 4
+    },
+    "tap3x60": {
+      "windows": 12,
+      "requested_taps": [
+        0,
+        3
+      ],
+      "measured_contact_bouts": {
+        "min": 0,
+        "median": 1.0,
+        "max": 3
+      },
+      "spikes": {
+        "min": 11014,
+        "median": 12951.0,
+        "max": 19005
+      },
+      "foreleg_touch_score": {
+        "min": -0.001,
+        "median": 0.433,
+        "max": 1.045
+      },
+      "spoken_windows": 6
+    },
+    "tap6x30": {
+      "windows": 12,
+      "requested_taps": [
+        0,
+        6
+      ],
+      "measured_contact_bouts": {
+        "min": 0,
+        "median": 1.0,
+        "max": 4
+      },
+      "spikes": {
+        "min": 10646,
+        "median": 16749.0,
+        "max": 20900
+      },
+      "foreleg_touch_score": {
+        "min": 0.0,
+        "median": 0.515,
+        "max": 1.247
+      },
+      "spoken_windows": 6
+    }
+  },
+  "comparisons": {
+    "tap1x180 vs tap3x60": "ranges overlap; not separated in this corpus",
+    "tap1x180 vs tap6x30": "ranges overlap; not separated in this corpus",
+    "tap3x60 vs tap6x30": "ranges overlap; not separated in this corpus"
+  },
+  "limitations": [
+    "Windows within a session are correlated; a few sessions per rhythm.",
+    "Contact bouts are counted from 10 ms sampled contacts and can miss very short taps.",
+    "The readout score is a linear neural-state score, not a probability."
+  ]
+}

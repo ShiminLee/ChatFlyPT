@@ -1,0 +1,151 @@
+{
+  "mujoco_version": "3.9.0",
+  "head_position_world": [
+    0.5817742878229093,
+    -3.392487236207314e-05,
+    1.1591142043849987
+  ],
+  "head_rotation_world": [
+    [
+      0.9997520831929114,
+      -5.788368627186225e-06,
+      0.022265940760026196
+    ],
+    [
+      -1.691360597443354e-05,
+      0.9999994802742165,
+      0.0010193945394310435
+    ],
+    [
+      -0.02226593508847406,
+      -0.0010195184117403294,
+      0.9997515634980743
+    ]
+  ],
+  "initialization": {
+    "method": "Unchanged upstream Body() then Body.reset(seed, context)",
+    "constructor_warmup_ms": 50.000000000000405,
+    "constructor_state_discarded": true,
+    "warmup_ms": 50.000000000000405,
+    "warmup_active_posture_control": true,
+    "warmup_neural_commands": false,
+    "neural_time_origin_mujoco_ms": 50.000000000000405,
+    "neural_time_origin": "After the selected reset's original warmup; body.elapsed = 0",
+    "context": "ground",
+    "seed": 1
+  },
+  "cameras": {
+    "left": {
+      "id": 0,
+      "name": "fly/l_eye_cam_camera",
+      "world_rotation": [
+        [
+          0.8913498749047841,
+          0.022626485626485976,
+          -0.45275097200936026
+        ],
+        [
+          -0.4529011296371147,
+          0.0017293673897365407,
+          -0.8915590704276734
+        ],
+        [
+          -0.01938987572553047,
+          0.9997424925632731,
+          0.011789032306459519
+        ]
+      ],
+      "head_rotation": [
+        [
+          0.8915682881953293,
+          0.0003606454459721098,
+          -0.4528861417832449
+        ],
+        [
+          -0.45288628537906844,
+          0.0007099796423327491,
+          -0.8915680055074077
+        ],
+        [
+          1.4708947100284784e-17,
+          0.9999996829318348,
+          0.0007963267107333298
+        ]
+      ],
+      "world_position": [
+        0.783100777957532,
+        0.37997980677321014,
+        1.1712471110161704
+      ],
+      "head_position": [
+        0.201,
+        0.37999999906900006,
+        0.016999999999999904
+      ],
+      "fovy_deg": 157.0
+    },
+    "right": {
+      "id": 1,
+      "name": "fly/r_eye_cam_camera",
+      "world_rotation": [
+        [
+          -0.8913789634068925,
+          0.020485743137832246,
+          -0.4527956248946592
+        ],
+        [
+          -0.4528720195455694,
+          0.001008112253438942,
+          0.8915749646678076
+        ],
+        [
+          0.01872104453206644,
+          0.9997896368925693,
+          0.008378809811253662
+        ]
+      ],
+      "head_rotation": [
+        [
+          -0.8915671574438226,
+          -0.0017806038301897505,
+          -0.4528850110320968
+        ],
+        [
+          -0.45288571099586494,
+          -1.1310792215025392e-05,
+          0.8915685798904291
+        ],
+        [
+          -0.0015926529164867937,
+          0.9999984146597765,
+          -0.0007963257007738809
+        ]
+      ],
+      "world_position": [
+        0.7831051771176779,
+        -0.3800197963731954,
+        1.1720219450071947
+      ],
+      "head_position": [
+        0.2010000000000001,
+        -0.37999999906900006,
+        0.01699999999999989
+      ],
+      "fovy_deg": 157.0
+    }
+  },
+  "geometry_source_sha256": {
+    "vendor/flygym/src/flygym/assets/model/neuromechfly/compound_eye.npz": "51afb29664ac1f4ef05535f417ae37ed8a625911c99995720ca382799eef36b3",
+    "vendor/flygym/src/flygym/assets/model/neuromechfly/vision.yaml": "aeaf9c67603e85ac81d251a01e7a20821687c1a62be0626af49ef09919e10545",
+    "vendor/flygym/src/flygym/assets/model/neuromechfly/rigging.yaml": "4e51d5ed3f151aefc125c91ff9298921b3b79a9d64e03e6fe88f1ce9945dbe3d",
+    "vendor/flygym/src/flygym/assets/model/neuromechfly/mujoco_globals.yaml": "e5b70e5bd5199ab2a9a68eb119ce9ef3f0b1dfa1890e13f1adb6d6cc20579988",
+    "vendor/flygym/src/flygym/compose/fly/base_fly.py": "9f7ec2c3786972467085cf6a92363cc72a95551226151ff1941fd96800ec677f",
+    "vendor/flygym/src/flygym/compose/fly/neuromechfly.py": "c47f422e5719f712b3f8b60913a22ce9d89d3943c81a8433549a129197ed50e3",
+    "vendor/flygym/src/flygym/vision/retina.py": "fbb43595de2d7736423424b5cb4ea8eabc369d500fb028c26065c0e2ec4746c6",
+    "vendor/flygym/src/flygym/simulation.py": "c2a6fded0ccedb2124c1ac421e1b52cb2c087bfa40fcb38f8a32722d21c012d2",
+    "vendor/badapple-fly/backend/body.py": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+    "chatflypt/behavior_body.py": "6bdb22c863c92f15945eac14a325b719df917777288bbfb00647d9f418b969d5",
+    "chatflypt/environment.py": "1fbec387c87fe5f4bafbe5aae8921e4ee2af73fe1dadef3f4a7b456b6d45c6e8",
+    "chatflypt/body_measurement.py": "c19ec38fa3e2ccd94f96ea429f7a9c7a6b28f1d201854110e16a5b19691a585e"
+  }
+}

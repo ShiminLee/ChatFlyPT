@@ -1,0 +1,131 @@
+{
+  "schema": "chatflypt.unified-readout-placement.v1",
+  "neutral_receptors_mm": {
+    "left_funiculus": [
+      1.0560902041669535,
+      0.10785251385696054,
+      1.1859366230476975
+    ],
+    "left_arista": [
+      1.0700763016993582,
+      0.18887282564351435,
+      1.1512633169777007
+    ],
+    "right_funiculus": [
+      1.0560915038350354,
+      -0.10785907037419784,
+      1.1861566084458162
+    ],
+    "right_arista": [
+      1.0700785780906061,
+      -0.1889497655742428,
+      1.1516486252282683
+    ]
+  },
+  "neutral_eye_cameras_mm": {
+    "left": [
+      0.783065655763253,
+      0.3799802077992463,
+      1.1712736694524453
+    ],
+    "right": [
+      0.7830702347812493,
+      -0.3800193951185045,
+      1.1720487266465867
+    ]
+  },
+  "eye_position_source": "compiled MuJoCo camera frames",
+  "local_sources": {
+    "funiculus": {
+      "left": {
+        "position_mm": [
+          1.1760902041669534,
+          0.18785251385696056,
+          1.1859366230476975
+        ],
+        "range_mm": 0.2
+      },
+      "right": {
+        "position_mm": [
+          1.1760915038350355,
+          -0.18785907037419786,
+          1.1861566084458162
+        ],
+        "range_mm": 0.2
+      }
+    },
+    "arista": {
+      "left": {
+        "position_mm": [
+          1.0700763016993582,
+          0.26887282564351433,
+          1.1912633169777007
+        ],
+        "range_mm": 0.16
+      },
+      "right": {
+        "position_mm": [
+          1.0700785780906061,
+          -0.2689497655742428,
+          1.1916486252282683
+        ],
+        "range_mm": 0.16
+      }
+    }
+  },
+  "verified_no_initial_yeast_contact": true,
+  "yeast_geometry_mm": [
+    0.05,
+    0.05,
+    0.05
+  ],
+  "yeast_checks": [
+    {
+      "side": "left",
+      "contacts": [],
+      "max_initial_body_position_change_mm": 0.0,
+      "record": "reports\\unified-readout\\placement-checks-v3\\yeast-left-probe-attempt3.json",
+      "sha256": "2d752acf67275723a9f2dbcbfba0ef923c1f62e102c5e7098772c9fe13c2b512"
+    },
+    {
+      "side": "right",
+      "contacts": [],
+      "max_initial_body_position_change_mm": 0.0,
+      "record": "reports\\unified-readout\\placement-checks-v3\\yeast-right-probe-attempt3.json",
+      "sha256": "2d752acf67275723a9f2dbcbfba0ef923c1f62e102c5e7098772c9fe13c2b512"
+    }
+  ],
+  "initial_unilateral_fields": {
+    "funiculus": {
+      "left": {
+        "left": 0.07777948981440456,
+        "right": 0.0
+      },
+      "right": {
+        "left": 0.0,
+        "right": 0.07777948981440401
+      }
+    },
+    "arista": {
+      "left": {
+        "left": 0.19446601125010513,
+        "right": 0.0
+      },
+      "right": {
+        "left": 0.0,
+        "right": 0.19446601125010504
+      }
+    }
+  },
+  "neutral_record": "reports\\unified-readout\\placement-checks-v3\\neutral-probe-attempt3.json",
+  "neutral_record_sha256": "4a579015d7185f6e14d59ed8985db95c8ac68063c984f5f2bcaaafaf8c75a86d",
+  "rationale": [
+    "Odor uses actual funiculus, temperature uses actual arista.",
+    "Fixed odor cube center: 0.12 mm forward and 0.08 mm outward from neutral funiculus (0.144 mm center distance; nearest cube point 0.110 mm). Closer checked placements were rejected for contact or altered warmup; engineering range 0.20 mm remains unilateral initially.",
+    "Fixed non-solid thermal source center: 0.08 mm outward and 0.04 mm upward from neutral arista.",
+    "0.05 mm yeast cube is checked to have no initial contact or body displacement; full trials can still bring a receptor into contact.",
+    "Opposing eye shade uses actual compiled camera positions, not merged eye-body proxies.",
+    "Movement can end, switch or combine receptor exposure. Targets always use delivered events."
+  ],
+  "biologically_calibrated": false
+}

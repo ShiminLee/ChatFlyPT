@@ -1,0 +1,116 @@
+{
+  "schema": "offline.retinal_registration.v1",
+  "live_map_modified": false,
+  "author_atlas_commit": "503c7f055d5491a48b60b49ade8c71798d24d8f1",
+  "frozen_map_json_sha256": "0582803fad7384a75a5e01f48f80d3a813864ff07abf8f8996f5f9f8dee4124d",
+  "frozen_map_npz_sha256": "867d66de2ce189361971a418dcdb5cd2b93000779264a629341347247d2c2d41",
+  "annotations_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "compound_eye_sha256": "51afb29664ac1f4ef05535f417ae37ed8a625911c99995720ca382799eef36b3",
+  "vision_yaml_sha256": "aeaf9c67603e85ac81d251a01e7a20821687c1a62be0626af49ef09919e10545",
+  "camera_geometry_sha256": "27fdf0539dddae894fdd3d6ce45e8600b1dff0abfff8291a7014c672b60f654d",
+  "coordinate_convention": "+x anterior, +y left, +z dorsal; vector fields used, not signed phi",
+  "status": "author_atlas_registration_with_engineering_angular_resampling_not_physiological_calibration",
+  "sides": {
+    "left": {
+      "author_columns": 850,
+      "author_columns_on_pins": 850,
+      "author_columns_not_on_pins": [],
+      "official_body_id_hex_checks": {
+        "matched": 1564,
+        "mismatched": 1071,
+        "absent_body_ids": 0
+      },
+      "column_crosswalk": {
+        "accepted": 872,
+        "changed_coordinates": 352,
+        "rejected": 5
+      },
+      "author_columns_in_retina_field": 742,
+      "mapped_receptors": 713,
+      "rejected_receptors": 393,
+      "rejection_counts": {
+        "outside_compound_eye_mask": 175,
+        "outside_rectilinear_camera": 157,
+        "no_author_atlas_column": 45,
+        "behind_eye_camera": 15,
+        "no_unambiguous_body_id_column_crosswalk": 1
+      },
+      "unique_sampled_ommatidia": 171,
+      "mean_ray_nearest_error_deg": {
+        "min": 0.2213992401923277,
+        "p50": 1.636666448129165,
+        "p95": 2.6577213614781643,
+        "max": 3.6041785025084914
+      },
+      "old_bbox_error_deg_on_same_receptors": {
+        "min": 1.1436243741758763,
+        "p50": 44.5098391283195,
+        "p95": 111.93241656618565,
+        "max": 127.80175584051617
+      },
+      "retina_footprint_radius_deg": {
+        "min": 1.9958842903989207,
+        "p50": 2.7788197335991867,
+        "p95": 3.8740142167204583,
+        "max": 4.343693013841503
+      },
+      "retina_valid_pixel_fraction": {
+        "min": 0.9913793103448276,
+        "p50": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "source_xlsx_sha256": "e42e1781dc40bcecb2f90bd154172b626bfb58841dd68218362aeaebe90abd30"
+    },
+    "right": {
+      "author_columns": 846,
+      "author_columns_on_pins": 846,
+      "author_columns_not_on_pins": [],
+      "official_body_id_hex_checks": {
+        "matched": 3674,
+        "mismatched": 0,
+        "absent_body_ids": 0
+      },
+      "column_crosswalk": {
+        "accepted": 892,
+        "changed_coordinates": 0,
+        "rejected": 0
+      },
+      "author_columns_in_retina_field": 725,
+      "mapped_receptors": 1609,
+      "rejected_receptors": 614,
+      "rejection_counts": {
+        "outside_rectilinear_camera": 228,
+        "outside_compound_eye_mask": 210,
+        "no_author_atlas_column": 97,
+        "behind_eye_camera": 79
+      },
+      "unique_sampled_ommatidia": 333,
+      "mean_ray_nearest_error_deg": {
+        "min": 0.19237616598641644,
+        "p50": 1.7344081968099254,
+        "p95": 2.8190321341455253,
+        "max": 3.545998834549282
+      },
+      "old_bbox_error_deg_on_same_receptors": {
+        "min": 3.1981601168162612,
+        "p50": 51.82104898641129,
+        "p95": 111.72394330296525,
+        "max": 132.41559453601496
+      },
+      "retina_footprint_radius_deg": {
+        "min": 1.9958842903992855,
+        "p50": 2.7788197335986617,
+        "p95": 3.87401421672027,
+        "max": 4.343693013841503
+      },
+      "retina_valid_pixel_fraction": {
+        "min": 0.9913793103448276,
+        "p50": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "source_xlsx_sha256": "f78e2059a5dceaab9380fb0893fe88cc1b2902954d9d11165e174093587af793"
+    }
+  }
+}

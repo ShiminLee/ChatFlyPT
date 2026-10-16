@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-20",
+  "distinct_automated_tests_passed": 254,
+  "full_repository_suite_run": false,
+  "remote": {
+    "five_senses_round_trip": true,
+    "blank_no_feedback": true,
+    "right_foreleg_touch_readout": true,
+    "touch_adviser": "timeout in script and UI; measured feeling preserved"
+  },
+  "local_models": {
+    "qwen3_1_7b": {
+      "protocol_passes": 19,
+      "cases": 24,
+      "manual_semantic_acceptable": 8,
+      "latency_median_seconds": 0.499,
+      "live_pipeline_passes": 2,
+      "live_pipeline_cases": 3
+    },
+    "qwen3_4b_instruct_2507": {
+      "protocol_passes": 21,
+      "cases": 24,
+      "manual_semantic_acceptable": 9,
+      "latency_median_seconds": 0.848,
+      "live_pipeline_passes": 3,
+      "live_pipeline_cases": 3
+    }
+  },
+  "ui": {
+    "five_senses_dialogue_record": "reports/dialogue/a9f035ce13394e3698cd24835d6c5224.json",
+    "touch_dialogue_record": "reports/dialogue/e87ec9b359ed4b9babbce04d1b499a96.json",
+    "initial_and_feedback_replay_verified": true,
+    "feedback_reception_details_verified": true,
+    "free_chat_grounded_after_fix": true,
+    "free_chat_response": "我感到右前腿被碰到了。\n这是来自神经试次的解码感觉摘要，第一人称表达不代表主观体验。\n工程回传信号为“向左”，不等于动作完成或环境变化。",
+    "selected_backend_at_completion": "configured",
+    "local_service_kept_running": true
+  },
+  "limits": [
+    "one independent neural return trial",
+    "no embodied neural feedback",
+    "direction code readout does not prove completed movement",
+    "structural acceptance does not prove advice quality"
+  ]
+}

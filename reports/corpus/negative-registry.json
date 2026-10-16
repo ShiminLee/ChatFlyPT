@@ -1,0 +1,237 @@
+{
+  "schema": "chatflypt.negative-registry.v1",
+  "purpose": "One place for what was tested and did NOT work, did not qualify, or is deliberately refused. Field practice treats an unattested form as data; here a negative result is evidence and must not be silently dropped, retuned or reworded as a capability.",
+  "entry_format": {
+    "claim_tested": "what was expected to be readable or true",
+    "result": "what was actually measured",
+    "status": "refuted | unqualified | unmapped | superseded | retracted",
+    "evidence": "files that hold the record",
+    "consequence": "what the project does because of it"
+  },
+  "entries": [
+    {
+      "id": "strong-touch-no-avoidance",
+      "claim_tested": "A strong leg contact produces an avoidant movement command usable by the controller.",
+      "result": "No usable motor command was produced; the body kept posture without stepping away.",
+      "status": "refuted",
+      "evidence": ["reports/motor-repair-20260924/README.md", "reports/unified-pathway-20260924/remaining-gaps.md"],
+      "consequence": "Touch conditions are reported as measured contact and readout only; no avoidance or escape claim is made."
+    },
+    {
+      "id": "flywire-feedback-adapter-heat-false-positive",
+      "claim_tested": "The FlyWire continuous-feedback adapter improves channel coverage.",
+      "result": "It reported yeast in two heat-source negative controls where no yeast was present.",
+      "status": "refuted",
+      "evidence": ["data/derived/feedback-readout/flywire-disabled.json", "reports/sugar-pressure-20260924/README.md"],
+      "consequence": "The adapter is disabled in the live path and the base readout is used instead; continuous-feedback labels keep a candidate prefix."
+    },
+    {
+      "id": "base-readout-heat-false-positive",
+      "claim_tested": "The base feedback readout is free of heat confusions.",
+      "result": "One heat-source negative control produced a spurious evaporative-cooling label.",
+      "status": "refuted",
+      "evidence": ["reports/sugar-pressure-20260924/README.md"],
+      "consequence": "Feedback-distribution labels remain candidate-only; the falsifying case is kept rather than tuned away."
+    },
+    {
+      "id": "mouth-contact-is-not-labellum-taste",
+      "claim_tested": "Rostrum or haustellum collisions can stand in for labellum taste.",
+      "result": "The official body has no registered labellum surface; those contacts are recorded as unmapped and produce no taste label.",
+      "status": "unmapped",
+      "evidence": ["research/labellum-registration-followup-20260924.md", "chatflypt/environment.py LIMITATIONS"],
+      "consequence": "Mouth-object scenes stay in the corpus as physical negatives; sugar/high-salt mouth labels are never inferred from scene names."
+    },
+    {
+      "id": "leg-high-salt-unmapped",
+      "claim_tested": "High salt on the tarsus has an executable leg taste entry.",
+      "result": "No executable mapping exists; contacts are recorded as unsupported with a reason.",
+      "status": "unmapped",
+      "evidence": ["chatflypt/environment.py", "tests/test_scene_language.py::test_leg_salt_never_reuses_sugar_or_mouth"],
+      "consequence": "high_salt:* labels can only come from other (non-leg) routes; leg high-salt is an explicit abstention."
+    },
+    {
+      "id": "fe-reductor-no-mapping",
+      "claim_tested": "The Fe reductor motor neuron can be mapped to a joint.",
+      "result": "No reliable function or independent joint mapping was established.",
+      "status": "unmapped",
+      "evidence": ["research/motor-pathway-audit-20260924.md"],
+      "consequence": "It is excluded from the tibia motor mapping instead of being assigned by guesswork."
+    },
+    {
+      "id": "lb3d-transmitter-conflict",
+      "claim_tested": "LB3d high-salt cells are glutamatergic.",
+      "result": "Official MaleCNS consensus assigns all 26 cells acetylcholine, while single-cell predictions give 11 ACh / 7 glutamate / 8 unclear; no experimental ground truth.",
+      "status": "unqualified",
+      "evidence": ["research/lb3d-transmitter-followup-20260924.md"],
+      "consequence": "The consensus sign model is kept as default; the inhibitory variant is reported as a contrast only."
+    },
+    {
+      "id": "receptors-v2-not-released",
+      "claim_tested": "The first receptor-fix batch could be published as the default readout.",
+      "result": "Stale retinal geometry, a merged-eye body-id bug and a physical confound (mid/hind-leg touch and leg taste co-occurring on the sugar platform) made it a baseline only.",
+      "status": "superseded",
+      "evidence": ["reports/unified-readout/runs/receptors-v2/README.md"],
+      "consequence": "It was never promoted; retinal-axes-v3 (and now conspecific-v4) carry the release."
+    },
+    {
+      "id": "intent-protocol-v1-no-qualified-label",
+      "claim_tested": "Fixed outcome thresholds (5 deg turn, 0.5 mm path) can label motor intent.",
+      "result": "Zero qualified labels: right turns were absent from validation and 'forward' covered ~80% of windows, so no threshold met precision>=0.90 with recall>=0.75.",
+      "status": "refuted",
+      "evidence": ["reports/intent-readout/protocol.json (explicit_non_claims)", "reports/intent-readout/README.md"],
+      "consequence": "Thresholds now come from training-split quantiles only, and the failed first design is kept in the record instead of being tuned away."
+    },
+    {
+      "id": "intent-turn-labels-unqualified",
+      "claim_tested": "Left/right turn intent is readable from internal activity.",
+      "result": "Turn scores carry real signal (validation AUC 0.87 left / 0.69 right) but the corpus holds too few turn windows (1-6 per split) to meet the qualification gates.",
+      "status": "unqualified",
+      "evidence": ["reports/intent-readout/evaluation.json"],
+      "consequence": "Turn labels abstain; only move:active / move:still are spoken, with a candidate prefix."
+    },
+    {
+      "id": "no-physical-presentation-for-innate-odor-plume",
+      "claim_tested": "Odor is presented as a plume with concentration.",
+      "result": "Only a static finite-range engineering field exists; no plume, no concentration units, no adaptation.",
+      "status": "unmapped",
+      "evidence": ["chatflypt/environment.py LIMITATIONS", "research/unified-pathway README"],
+      "consequence": "Odor conditions are described as position fields and never as concentrations."
+    },
+    {
+      "id": "chordotonal-leg-cell-is-not-auditory",
+      "claim_tested": "MaleCNS 'chordotonal organ' cells could serve as an auditory proxy.",
+      "result": "All 425 are leg proprioceptors (MetaLN/MesoLN/ProLN/ProCN); Johnston's organ is the antennal auditory subclass (114 cells).",
+      "status": "refuted",
+      "evidence": ["chatflypt/proprioception.py", "chatflypt/malecns_senses.py (auditory notes)"],
+      "consequence": "Song uses the antennal auditory subclass only; leg chordotonal cells are never relabelled as hearing."
+    },
+    {
+      "id": "proprioception-partial",
+      "claim_tested": "Load and joint-position sense is fully transduced.",
+      "result": "Only claw/club populations are bridged (223 candidates); hook direction, campaniform load and high-frequency vibration are absent, and the calcium-to-rate gain is an engineering value.",
+      "status": "unmapped",
+      "evidence": ["chatflypt/proprioception.py", "research/proprioception-bridge-20260924.md"],
+      "consequence": "Proprioceptive input is reported as a partial population approximation, never as calibrated load sensing."
+    },
+    {
+      "id": "adviser-pathway-removed-not-restored",
+      "claim_tested": "The historical external-adviser loop could be re-enabled.",
+      "result": "It is removed from the tree: app.receive, INPUT_ALIASES/message_channel, command_feedback.py, the dialogue adviser protocol, demo closed-loop/LLM stages, and the scripts that served them.",
+      "status": "retracted",
+      "evidence": ["research/chatflypt-contract.md", "reports/dialogue-integration-2026-09-20/README.md (archive note)"],
+      "consequence": "Historical experiments stay archived as records; they are not authorization to restore the pathway."
+    },
+    {
+      "id": "readout-modules-briefly-deleted",
+      "claim_tested": "touch_readout.py and social_readout.py were orphaned dead code.",
+      "result": "The deletion precondition was wrong (a findstr search missed test_malecns.py and scripts/reproduce-pathway.ps1). Both were restored: touch_readout line-for-line from the agent transcript, social_readout reconstructed from its bytecode and verified by reproducing the recorded model SHA256.",
+      "status": "retracted",
+      "evidence": ["research/readout-module-recovery-20260929.md"],
+      "consequence": "Both modules are back in place with tests passing; the recovery method and its limits are recorded."
+    },
+    {
+      "id": "tap-rhythm-not-separated",
+      "claim_tested": "Three contact rhythms with equal total contact time (1x180 ms, 3x60 ms, 6x30 ms) are distinguishable by the readout.",
+      "result": "Not separated: every pairwise comparison of the touched-leg readout score overlaps (medians 0.023 / 0.412 / 0.571 over 12 windows each). A delivery difference was measured instead: the single long press lost contact in half its windows (median 0 bouts) because the probe is aimed once, while tap trains re-aim each tap and landed in most windows (median 1, max 3-4).",
+      "status": "unqualified",
+      "evidence": ["reports/corpus/conspecific-v4-tap-rhythms.json", "reports/unified-readout/runs/conspecific-v4/README.md"],
+      "consequence": "No rhythm code is claimed. The graded score trend with tap count is reported as a tendency; establishing rhythm sensitivity needs more windows per rhythm and a tracked aiming strategy."
+    },
+    {
+      "id": "conspecific-emitters-not-qualified",
+      "claim_tested": "cVA and courtship-song fields can be read out from internal activity as qualified labels.",
+      "result": "In conspecific-v4 they did not qualify (1-4 positive windows per split): the fixed source sat at the receptor's initial position and the walking fly left the 0.20 mm field, even though the fields did deliver (mc_cva 9 windows, mc_auditory 15 of 228).",
+      "status": "superseded",
+      "superseded_by": "conspecific-v5 qualified cva:left/right and auditory:left/right after the delivery fixes (borrowed upstream plume grid + following sources): 18/30 labels qualified, test recall cva 0.80-0.889 and auditory 0.75-0.818.",
+      "evidence": ["reports/unified-readout/runs/conspecific-v4/evaluation.json", "reports/unified-readout/runs/conspecific-v5/README.md", "reports/unified-readout/runs/conspecific-v5/evaluation.json"],
+      "consequence": "The v4 abstention is kept as the diagnosis that motivated the fix; the fix was a delivery change (field model and anchoring), never a threshold change."
+    },
+    {
+      "id": "intent-turn-component-unqualified",
+      "claim_tested": "Left/right turning can be read out from internal activity, validated against measured body motion.",
+      "result": "Three revisions failed on the turn component (v3 discrete: 1-6 validation positives; v4 continuous: validation r=0.078). The motor audit explains it and corrected an earlier misreading in this registry: command_summary.left/right are left/right LEG-STEPPING drives (vendor/badapple-fly/backend/evidence.py:95-101), turning lives in their asymmetry with an inverted sign, and tethered flight is hard-coded to left=right=0 (probe: 9 flight windows gave zero commands, zero yaw, zero path). On the ground, asymmetric-drive windows move the body by only ~0.3 deg while uncommanded windows show 3-7 deg standard deviation (extremes -19.9/+59.1 deg). Correction (same day, synthetic-drive calibration): that ~0.3 deg used the command sizes that happen to occur in this corpus, so it does not mean the body cannot turn. With one mapped steering group driven at a fixed rate, asymmetry 0.34-0.76 turns the body 22-46 deg in 500 ms (turn_inside L +46.3/+30.2, R -39.0/-30.8; turn_outside L +29.2/+22.8, R -27.6/-22.5); symmetric conditions give inconsistent signs and a 3-9 deg floor. Corpus asymmetries never exceed 0.083 (172/294 windows exactly zero; training 85th percentile 0.012), about five times below the size that visibly turns the body. Also a measurement gap: command_summary is a per-window min/max and every window's first frame is the zero dict, so a negative-only (backward) drive reads as max 0 and was counted as 'no command'; the turn-command audit figures are a lower bound.",
+      "status": "unqualified",
+      "evidence": ["reports/intent-readout/conspecific-v5-motor-command-audit.json", "reports/intent-readout/conspecific-v5-turn-commands-by-condition.json", "reports/intent-readout/flight-context-probe.json", "reports/command-readout/controller-sign-probe.json", "reports/intent-readout/README.md"],
+      "consequence": "A behaviour-validated turn label stays unavailable with this pinned controller/body, because the commands in this corpus are too small to stand out against the gait's own rotation; the fixed-version controller itself does turn strongly. Turning abstains in the measured-motion readout, and the direction is served instead by the separate command readout, which reads the fly's own issued steering command with every mapped motor group excluded from its features and is labelled as not behaviour-validated."
+    },
+    {
+      "id": "flight-level-nll-gain-not-wiring-specific",
+      "claim_tested": "Conditioning a language model on this connectome adds something beyond a same-size direct input.",
+      "result": "The vendored FLM adapter reached NLL 1.3128 vs a 1.3368 base on 24 held-out conversations, but the parameter-matched direct-input control reached 1.3132 and the relabeled-wiring control fell back to 1.3355 - the connectome structure adds no measurable, specific gain in this setup, and all wording comes from the pretrained LM.",
+      "status": "unqualified",
+      "evidence": ["research/flm-experiment.md", "data/local/flm-runs/conversation-v2"],
+      "consequence": "FLM stays a separately labelled experiment; the chat's words keep coming from the grounded compositional renderer (no language model)."
+    },
+    {
+      "id": "two-fly-a-sang-nothing",
+      "claim_tested": "A recorded song motor group can carry a conspecific signal from one fly to another.",
+      "result": "In six sampled windows fly A produced no recorded song motor activity, so no signal was presented; the loop reported the no-response instead of fabricating one.",
+      "status": "unqualified",
+      "evidence": ["reports/conspecific-loop/latest.json", "reports/conspecific-loop/README.md"],
+      "consequence": "The loop is wired and records every stage; producing a signal needs conditions (or longer sampling) in which the pinned controller's song group actually fires."
+    },
+    {
+      "id": "conspecific-v4-first-attempt-superseded",
+      "claim_tested": "The first conspecific protocol could ship without the v3 confound controls.",
+      "result": "22 of 72 episodes were collected before the omission was noticed.",
+      "status": "superseded",
+      "evidence": ["data/derived/unified-readout/runs/conspecific-v4-partial-base-only/SUPERSEDED.json"],
+      "consequence": "Those windows are never trained on; the union protocol (base + v3 controls + conspecific conditions) replaced them."
+    },
+    {
+      "id": "no-elicitation-route-for-wing-thorax-labellum-labels",
+      "claim_tested": "The wing-touch, body-touch, sugar-specific and high-salt labels can be elicited by presenting an object to those surfaces.",
+      "result": "They cannot, in this build, and not for lack of sessions: environment.py refuses to register the contact even where it is physically measured. A wing contact is measured but not mapped to the ADMN bristle population because the wing mesh is not registered to margin sensilla; a thorax contact is measured but not mapped to the PDMN candidate group because the contact point is not registered to the notum field; the official body has no registered labellum surface at all, so mouth contacts stay unmapped. The v5 coverage matrix (reports/unified-readout/coverage-conspecific-v5.json) shows all eight of these labels with zero delivered windows across 294 windows and 47 conditions.",
+      "status": "unmapped",
+      "evidence": ["chatflypt/environment.py", "chatflypt/malecns_senses.py", "reports/unified-readout/coverage-conspecific-v5.json"],
+      "consequence": "These labels stay abstentions in the current build, and the v6 elicitation round adds no conditions for them. The wing and thorax cases are *not* beyond reach, though: published maps exist for the sensory axons of the ADMN wing nerve with margin-bristle domains (Lesser et al. 2025) and for the thoracic bristle innervation through the PDMN (Ghysen 1980; VNC nomenclature Court et al. 2020), so the missing piece is registering our measured contact patches onto those sensillum fields on the pinned NeuroMechFly mesh - a registration sub-project of the same kind as the retinal one, needing its own round. The labellum case is different: the pinned body has no labellum surface at all, so it needs a body-model change first. Substituting whole-body or mouth contacts for these fields stays forbidden in the meantime."
+    },
+    {
+      "id": "anchored-following-source-cannot-produce-a-side-contrast",
+      "claim_tested": "The anchored ('following') field model makes odor/thermal/cVA/song delivery reliable *and* lateralized, i.e. a conspecific or a local source that stays with the animal.",
+      "result": "It makes delivery reliable but cannot be lateralized at all, and this is an implementation defect, not physics. environment.measured_field builds the moved source as 'the sampled point plus the declared offset', and sample_environment calls it once per receptor, so *every* receptor is placed at exactly the same distance from the source and receives the same field by construction. Measured consequence: the v6 follow-source sessions delivered to both sides of every group (12/12/12 bilateral windows, 0 strictly unilateral) and the v5 partner conditions qualified only because delivery was uniform on both sides. The declared intent ('the source keeps its initial offset from the receptor but follows the receptor's measured pose') is not what the code does.",
+      "status": "refuted",
+      "evidence": ["chatflypt/environment.py (measured_field, anchored branch)", "scripts/train_unified_readout.py (extend_v6_protocol docstring)",
+                   "reports/unified-readout/coverage-conspecific-v6.json", "tests/test_anchored_field.py"],
+      "consequence": "Found and fixed. measured_field now honours a declared anchor_side: the source keeps its offset from its own receptor, which is verified strictly one-sided (far field exactly 0, unchanged when the animal moves) in tests/test_anchored_field.py. Scenes without a declared side keep the old behaviour byte-for-byte so previously frozen corpora stay reproducible, and their records are labelled anchor_mode='legacy_bilateral'. Because environment.py is contract-hashed, the fix makes every earlier window unfittable and every published decoder stale, so the whole union is re-collected as conspecific-v9 (393 episodes) and all readouts are re-fitted and re-published from it; the spatial registration map was rebuilt from the documented camera re-capture and came out bit-identical (71fbfa7b)."
+    },
+    {
+      "id": "degraded-wmi-aborts-the-body-worker",
+      "claim_tested": "The chat's physics path is robust to the host's platform services.",
+      "result": "It was not. On 2026-10-04, after the v9 round, every body worker died at import with status 0xC0000409 and no stderr, and /api/converse returned 400 '环境物理初始化失败：' with an empty reason. The cause is not this project: platform.uname() asks WMI for the CPU architecture through platform._get_machine_win32, which catches only OSError, while the degraded service raised 0x8007000e (E_OUTOFMEMORY) as a fatal exception; MuJoCo calls platform.system() at import time, so the abort happened before any project code ran. The same call succeeded again a few minutes later, i.e. it is a transient of the host, not of the corpus or the readouts.",
+      "status": "refuted",
+      "evidence": [".venv-body/Lib/site-packages/sitecustomize.py", "data/local/mujoco_import.log"],
+      "consequence": "Mitigated inside the isolated body virtualenv (not in repository code and not in any model contract): sitecustomize replaces platform._get_machine_win32 with an environment-variable read that needs no COM or WMI. Verified afterwards: platform.uname() reports machine AMD64, mujoco imports, and probe_environment returns 69 bodies. Any future hard failure of the body worker with an empty reason should be checked against this class of host flake before suspecting the project."
+    },
+    {
+      "id": "yeast-side-labels-not-readable-under-a-balanced-corpus",
+      "claim_tested": "The yeast odor labels (yeast:left / yeast:right) are readable from internal activity.",
+      "result": "They are not, and the earlier qualification did not survive a fair contrast. In conspecific-v5 only the right side had delivered windows (5/5/5 positives, mostly from bilateral scenes), so 'yeast:right' could be qualified by what was effectively an odor-present detector; the corpus was skewed 43:1. The v7 round added placement-verified strictly-unilateral yeast scenes (each side now has 4/6/5 and 4/5/4 positives in train/validation/test, from its own side's scenes), and under that balanced corpus both yeast side labels fail their gates with tp = 0: the readout does not separate the two sides, and does not even fire on them. A threshold-scale explanation was tested and rejected: switching the candidate thresholds from the absolute 0.2-0.8 grid to per-label quantiles of the training scores (declared revision, see threshold_candidates) changed nothing, and the stored thresholds sit mid-grid (0.29 / 0.46), so the grid was never the limit.",
+      "status": "unqualified",
+      "evidence": ["reports/unified-readout/runs/conspecific-v9/evaluation.json", "reports/unified-readout/runs/conspecific-v8/evaluation.json",
+                   "reports/unified-readout/coverage-conspecific-v9.json", "scripts/train_unified_readout.py (threshold_candidates)",
+                   "reports/unified-readout/side-delivery-probe.json"],
+      "consequence": "The v9 readout (fitted on the whole re-collected union, with strictly unilateral declared-side sources) has 19 of 30 qualified labels: it keeps bright, the six leg-touch, both leg-taste and both conspecific labels, adds cold:left / cold:right / warm:left (validation precision 0.92-0.93 / recall 0.83-0.93) and drops yeast:left/right and warm:right. The chat therefore reports the thermal sides it can validate and stays silent about yeast rather than reporting an unvalidated side; the odor side discrimination stays an open measured problem (threshold-scale and corpus-skew explanations both tested, one kept and one rejected)."
+    },
+    {
+      "id": "left-turn-commands-elicited-but-not-readable",
+      "claim_tested": "Adding sessions that elicit left-turn commands would let the command readout serve the left direction.",
+      "result": "Half of it worked and half did not, measured on the join round (conspecific-v5 + conspecific-v6, 438 windows). Elicitation worked: the targeted round raised informative left-turn windows from 1 to 6 (4 of them in validation) and raised the overall validation correlation coverage (right-turn windows 43 -> 74). Readout did not: the fitted readout gets the sign right on 0 of those 4 validation left windows (right: 26 of 27), and 0 of 1 in test, so the left word would be spoken on evidence that does not exist. The direction gate was therefore tightened from 'this direction has >=2 validation windows' to 'and sign accuracy >= 0.5 on them' - a tightening, disclosed in protocol-conspecific-v6.json revision_history, not a relaxation. served_directions stays {turn-left: false, turn-right: true}.",
+      "status": "unqualified",
+      "evidence": ["reports/command-readout/protocol-conspecific-v6.json", "reports/command-readout/evaluation.json",
+                   "reports/command-readout/README.md", "reports/unified-readout/runs/conspecific-v6/protocol.json"],
+      "consequence": "The chat still speaks only 'right' for the steering command, and the elicitation round's value is recorded as better right-turn coverage, not as a left-direction capability. Serving 'left' needs either a readout that demonstrates the left sign on validation or an account of why the command channel is asymmetric (state the finding, do not paper over it)."
+    },
+    {
+      "id": "side-contrast-under-elicited-in-v5",
+      "claim_tested": "The unqualified left-side odor/thermal labels (yeast:left, warm:left, cold:left, cold:right) only lacked window count, or could be recovered by a side-dominance transcription rule.",
+      "result": "Neither holds, and the second was tested rather than assumed. Their positives came mostly from bilateral scenes, so the side contrast was never transcribed; but the contrast is not present in the measured events either: at window resolution the per-side delivered-event totals of bilateral windows have minor/major ratios with median 0.82 (yeast), 0.85 (warm) and 0.77 (cold), and only 6/6/5 strictly unilateral windows exist in the 294 windows of conspecific-v5. A declared dominance rule (a side counts when it received >=2 events and >=2x the other side) was implemented, unit-tested and applied: it collapses the four labels from 5/5/5 and 3/3/3 positives per split to 0-1, i.e. it makes support worse, so it was rejected and no run uses it. A following (anchored) source geometry was also collected in conspecific-v6 and is no better: 12/12/12 bilateral windows and zero strictly unilateral ones for the same three groups.",
+      "status": "refuted",
+      "evidence": ["reports/unified-readout/coverage-conspecific-v5.json",
+                   "reports/unified-readout/coverage-conspecific-v6.json",
+                   "scripts/train_unified_readout.py (DOMINANCE_GROUPS comment)",
+                   "scripts/readout_coverage.py"],
+      "consequence": "These four labels stay abstentions with a measured reason: the apparatus delivers near-symmetric bilateral antennal input, so left vs right odor/thermal cannot be elicited at window resolution. Recovering them needs a geometry that separates the two antennae by more than the declared source range, which is an apparatus change, not more sessions."
+    }
+  ]
+}

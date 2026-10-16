@@ -1,0 +1,1371 @@
+{
+  "command": "left",
+  "training_trials": 80,
+  "test_trials": 148,
+  "encoding": "Artificial code: left/right = left/right auditory cells; forward = both; stop = silence.",
+  "controller": "Decoded label becomes a turn in a toy grid. This is not direct biomechanical steering.",
+  "by_readout": {
+    "non_sensory": {
+      "features": 273,
+      "successes_by_command": {
+        "left": 37,
+        "right": 37,
+        "stop": 37,
+        "forward": 37
+      },
+      "trials_per_command": 37,
+      "correct": 148,
+      "predictions": [
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ]
+    },
+    "descending_motor": {
+      "features": 52,
+      "successes_by_command": {
+        "left": 37,
+        "right": 37,
+        "stop": 37,
+        "forward": 37
+      },
+      "trials_per_command": 37,
+      "correct": 148,
+      "predictions": [
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward",
+        "forward"
+      ]
+    }
+  },
+  "anatomical_laterality": [
+    {
+      "seed": 83000,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83001,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83002,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83003,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83004,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83005,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83006,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83007,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83008,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83009,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83010,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83011,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83012,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83013,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83014,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83015,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83016,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83017,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83018,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83019,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83020,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83021,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83022,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83023,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83024,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83025,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83026,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83027,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83028,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83029,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83030,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83031,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83032,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83033,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83034,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83035,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83036,
+      "input_command": "left",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83100,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83101,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83102,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83103,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83104,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83105,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83106,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83107,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83108,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83109,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83110,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83111,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83112,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83113,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83114,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83115,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83116,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83117,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83118,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83119,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83120,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83121,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83122,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83123,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83124,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83125,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83126,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83127,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83128,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83129,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83130,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83131,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83132,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83133,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83134,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83135,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83136,
+      "input_command": "right",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83200,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83201,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83202,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83203,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83204,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83205,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83206,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83207,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83208,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83209,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83210,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83211,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83212,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83213,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83214,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83215,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83216,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83217,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83218,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83219,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83220,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83221,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83222,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83223,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83224,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83225,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83226,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83227,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83228,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83229,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83230,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83231,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83232,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83233,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83234,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83235,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83236,
+      "input_command": "stop",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83300,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83301,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83302,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83303,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83304,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83305,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83306,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83307,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83308,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83309,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83310,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83311,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83312,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83313,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83314,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83315,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83316,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83317,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83318,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83319,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83320,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83321,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83322,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83323,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83324,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83325,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83326,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83327,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83328,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83329,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83330,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83331,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83332,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83333,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83334,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83335,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    },
+    {
+      "seed": 83336,
+      "input_command": "forward",
+      "DNa01_DNa02_left_summed_hz": 0.0,
+      "DNa01_DNa02_right_summed_hz": 0.0,
+      "larger_side": "tie"
+    }
+  ],
+  "native_motor_behavior_validated": false,
+  "note": "DNa laterality is only a neural measurement; this experiment has no body physics."
+}

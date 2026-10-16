@@ -1,0 +1,412 @@
+{
+  "dataset": "FlyWire v783",
+  "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+  "artifact": "data\\derived\\feedback-readout\\flywire-adapter.npz",
+  "artifact_sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+  "model_selection": "Training sessions only; validation thresholds and label selection locked before loading test",
+  "train_trials": 8,
+  "validation_trials": 8,
+  "test_trials": 8,
+  "groups": {
+    "train": [
+      "flywire-train-00",
+      "flywire-train-01",
+      "flywire-train-10",
+      "flywire-train-11"
+    ],
+    "validation": [
+      "flywire-validation-00",
+      "flywire-validation-01",
+      "flywire-validation-10",
+      "flywire-validation-11"
+    ],
+    "test": [
+      "flywire-test-00",
+      "flywire-test-01",
+      "flywire-test-10",
+      "flywire-test-11"
+    ]
+  },
+  "enabled_labels": [
+    "bright:left",
+    "bright:right",
+    "yeast:left",
+    "yeast:right"
+  ],
+  "candidate_only": true,
+  "baseline_validation": {
+    "trials": 8,
+    "exact_set_accuracy": 0.5,
+    "micro_f1": 0.6666666666666666,
+    "per_label": {
+      "bright:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "bright:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "yeast:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "adapted_validation": {
+    "trials": 8,
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0,
+    "per_label": {
+      "bright:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "bright:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "yeast:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "yeast:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "baseline_test": {
+    "trials": 8,
+    "exact_set_accuracy": 0.5,
+    "micro_f1": 0.6666666666666666,
+    "per_label": {
+      "bright:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "bright:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "yeast:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "adapted_test": {
+    "trials": 8,
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0,
+    "per_label": {
+      "bright:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "bright:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "yeast:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "yeast:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "shuffled_test": {
+    "trials": 8,
+    "exact_set_accuracy": 0.125,
+    "micro_f1": 0.5,
+    "per_label": {
+      "bright:left": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 3,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.25,
+        "recall": 0.25,
+        "f1": 0.25
+      },
+      "bright:right": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 3,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.25,
+        "recall": 0.25,
+        "f1": 0.25
+      },
+      "yeast:left": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75
+      },
+      "yeast:right": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 4,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75
+      }
+    }
+  },
+  "zero_feature_false_positives": 0,
+  "serving_class_matches_test_predictions": true,
+  "unscored_baseline_predictions": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "test_predictions": [
+    {
+      "episode": "flywire-test-00",
+      "turn": 0,
+      "record": "data\\derived\\feedback-readout\\flywire-test-00\\turn-0\\observation.npz",
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "baseline": [
+        "bright:left",
+        "bright:right"
+      ],
+      "adapted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "flywire-test-00",
+      "turn": 1,
+      "record": "data\\derived\\feedback-readout\\flywire-test-00\\turn-1\\observation.npz",
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "baseline": [
+        "bright:left",
+        "bright:right"
+      ],
+      "adapted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "flywire-test-10",
+      "turn": 0,
+      "record": "data\\derived\\feedback-readout\\flywire-test-10\\turn-0\\observation.npz",
+      "expected": [],
+      "baseline": [],
+      "adapted": []
+    },
+    {
+      "episode": "flywire-test-10",
+      "turn": 1,
+      "record": "data\\derived\\feedback-readout\\flywire-test-10\\turn-1\\observation.npz",
+      "expected": [],
+      "baseline": [],
+      "adapted": []
+    },
+    {
+      "episode": "flywire-test-01",
+      "turn": 0,
+      "record": "data\\derived\\feedback-readout\\flywire-test-01\\turn-0\\observation.npz",
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "baseline": [
+        "bright:left",
+        "bright:right"
+      ],
+      "adapted": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "flywire-test-01",
+      "turn": 1,
+      "record": "data\\derived\\feedback-readout\\flywire-test-01\\turn-1\\observation.npz",
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "baseline": [
+        "bright:left",
+        "bright:right"
+      ],
+      "adapted": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "flywire-test-11",
+      "turn": 0,
+      "record": "data\\derived\\feedback-readout\\flywire-test-11\\turn-0\\observation.npz",
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "baseline": [],
+      "adapted": [
+        "yeast:left",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "flywire-test-11",
+      "turn": 1,
+      "record": "data\\derived\\feedback-readout\\flywire-test-11\\turn-1\\observation.npz",
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "baseline": [],
+      "adapted": [
+        "yeast:left",
+        "yeast:right"
+      ]
+    }
+  ],
+  "limitations": [
+    "Small synthetic simulation benchmark, not biological calibration.",
+    "Visual and odor scenes mainly co-activate both sides; lateral discrimination is not established.",
+    "Only 500 ms windows and the named channels are adapted; unrelated baseline labels are not evaluated here.",
+    "Current-window input identity is the target; residual activity is not a decoded memory or intent."
+  ]
+}

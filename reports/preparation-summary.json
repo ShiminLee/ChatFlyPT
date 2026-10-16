@@ -1,0 +1,24 @@
+{
+  "prepared_date": "2026-09-19",
+  "source_snapshots": 8,
+  "malecns_verified_bytes": 1109008094,
+  "flywire_versions": [
+    "630",
+    "783"
+  ],
+  "chetaslua_source_found": false,
+  "smoke_630_passed": true,
+  "smoke_783_passed": true,
+  "paper_replicated": false,
+  "chat_product_implemented": false,
+  "v783_legacy_ids_rejected": {
+    "dataset_version": "783",
+    "stimulus_set": "shiu-paper",
+    "missing_ids": [
+      "720575940620900446",
+      "720575940618600651"
+    ],
+    "status": "rejected_before_simulation",
+    "reason": "Version-specific neuron IDs must not be silently replaced or dropped"
+  }
+}

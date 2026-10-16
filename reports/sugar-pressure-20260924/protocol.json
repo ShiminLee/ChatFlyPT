@@ -1,0 +1,697 @@
+{
+  "schema": "chatflypt.sugar-pressure-trials.v1",
+  "duration_ms": 500.0,
+  "interval_ms": 100.0,
+  "seeds": [
+    491701,
+    491702
+  ],
+  "cases": [
+    {
+      "id": "malecns-491701-empty",
+      "condition": "empty",
+      "label": "空环境",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491701-far_sugar",
+      "condition": "far_sugar",
+      "label": "远处糖",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              4.0,
+              -2.0,
+              0.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491701-mouth_block",
+      "condition": "mouth_block",
+      "label": "口器位置普通方块",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "block",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491701-mouth_sugar",
+      "condition": "mouth_sugar",
+      "label": "口器位置糖",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491701-mouth_high_salt",
+      "condition": "mouth_high_salt",
+      "label": "口器位置高盐",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "high_salt",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491701-leg_sugar",
+      "condition": "leg_sugar",
+      "label": "脚下糖平台",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              0.0,
+              0.0,
+              0.1
+            ],
+            "size_mm": [
+              5.0,
+              4.0,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491701-sweet_cue",
+      "condition": "sweet_cue",
+      "label": "人类消息：糖",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        "糖"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491701-weak_touch",
+      "condition": "weak_touch",
+      "label": "弱触碰右前腿",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        "轻轻触碰右前腿"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491701-strong_touch",
+      "condition": "strong_touch",
+      "label": "强触碰右前腿及撤除",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        "非常强触碰右前腿",
+        "停止输入"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491701-sugar_strong_touch",
+      "condition": "sugar_strong_touch",
+      "label": "口器糖与强触碰",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491701,
+      "messages": [
+        "非常强触碰右前腿"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491702-empty",
+      "condition": "empty",
+      "label": "空环境",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491702-far_sugar",
+      "condition": "far_sugar",
+      "label": "远处糖",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              4.0,
+              -2.0,
+              0.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491702-mouth_block",
+      "condition": "mouth_block",
+      "label": "口器位置普通方块",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "block",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491702-mouth_sugar",
+      "condition": "mouth_sugar",
+      "label": "口器位置糖",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491702-mouth_high_salt",
+      "condition": "mouth_high_salt",
+      "label": "口器位置高盐",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "high_salt",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491702-leg_sugar",
+      "condition": "leg_sugar",
+      "label": "脚下糖平台",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              0.0,
+              0.0,
+              0.1
+            ],
+            "size_mm": [
+              5.0,
+              4.0,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "malecns-491702-sweet_cue",
+      "condition": "sweet_cue",
+      "label": "人类消息：糖",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        "糖"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491702-weak_touch",
+      "condition": "weak_touch",
+      "label": "弱触碰右前腿",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        "轻轻触碰右前腿"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491702-strong_touch",
+      "condition": "strong_touch",
+      "label": "强触碰右前腿及撤除",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        "非常强触碰右前腿",
+        "停止输入"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "malecns-491702-sugar_strong_touch",
+      "condition": "sugar_strong_touch",
+      "label": "口器糖与强触碰",
+      "dataset": "MaleCNS v1.0",
+      "seed": 491702,
+      "messages": [
+        "非常强触碰右前腿"
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "flywire-491701-empty",
+      "condition": "empty",
+      "label": "空环境",
+      "dataset": "FlyWire v783",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "flywire-491701-far_sugar",
+      "condition": "far_sugar",
+      "label": "远处糖",
+      "dataset": "FlyWire v783",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              4.0,
+              -2.0,
+              0.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "flywire-491701-heat",
+      "condition": "heat",
+      "label": "位置相关热源",
+      "dataset": "FlyWire v783",
+      "seed": 491701,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "heat",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "flywire-491702-empty",
+      "condition": "empty",
+      "label": "空环境",
+      "dataset": "FlyWire v783",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "flywire-491702-far_sugar",
+      "condition": "far_sugar",
+      "label": "远处糖",
+      "dataset": "FlyWire v783",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              4.0,
+              -2.0,
+              0.5
+            ],
+            "size_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "flywire-491702-heat",
+      "condition": "heat",
+      "label": "位置相关热源",
+      "dataset": "FlyWire v783",
+      "seed": 491702,
+      "messages": [
+        ""
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "heat",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0
+          }
+        ]
+      }
+    }
+  ],
+  "comparison": "Matched initialization seed across conditions; independent sessions.",
+  "scope": "Exploratory virtual stimulation, not biological reward/punishment or semantic obedience.",
+  "model_fit": false,
+  "llm_called": false,
+  "controller_changed": false,
+  "intensity_units": "Engineering rate multiplier, not physical force or temperature."
+}

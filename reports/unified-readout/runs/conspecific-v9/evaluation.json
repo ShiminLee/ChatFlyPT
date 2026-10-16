@@ -1,0 +1,5197 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "artifact": "data\\derived\\unified-readout\\runs\\conspecific-v9\\malecns-decoder.candidate.npz",
+  "artifact_sha256": "cbd72e069700a9c23cf8a970a557eb49072fdb4bd0279846be03f8db109dfaa1",
+  "protocol_sha256": "6c0222678dcd38e1197befad07bff97002c18e5f31d8bd2f21dbda6f1d68dfd7",
+  "contract": {
+    "schema": "chatflypt.unified-neural-readout.v1",
+    "dataset": "MaleCNS v1.0",
+    "neurons": 166700,
+    "graph": {
+      "ids": "e6b1bf8ffd66796cef781324c78c6c60b142851eb80ceb0efc0e7e0881832f6a",
+      "indptr": "f5454c71497faea87d4c6078af2d8233fb1bf0ee3b3da1bd0fd71c81af7a396f",
+      "indices": "4b1983ff790b5a46584b882f9127fd072c9eb37d6caa69b696075dd71cb324bb",
+      "weights": "da2f9cfd08c94a9f1810e25c088f8674bdfe00437d9bc1cbe1f7f4e5f952ef27"
+    },
+    "input_mapping_sha256": "cef425b8188a5fde72c0c2efbc62486d8bb2b4c9e029855ed90f5b854336e349",
+    "blind_mask_sha256": "875e8a546604c3daecb7cc17fb6f3379bbfe4d29ba820b9bb27d82147270c9ad",
+    "engine": {
+      "brain.py": "5ee9078ce125e44b309db1676b155c2b5516b607b5a7d91774dcb344ab13a3e9",
+      "malecns.py": "3ffd95d1332187127c5209c9d2a6a1d777059cebdb0411cdc37d75ce1c492483",
+      "neural_session.py": "a3a3ee1c3ef2798ca071a12a01ea1571fc607a00616af58f159215d44ce3e491",
+      "sensory_events.py": "0b7468ac325289abe94343b13e2af9bcb2b6b1b1259f493223bb4ffa3bc34a1e",
+      "social.py": "8144896801dcf7fa6f9a3e9e4921019515a17dbd355635d92735fb58d409c33f"
+    },
+    "physical_transduction": {
+      "environment.py": "1fbec387c87fe5f4bafbe5aae8921e4ee2af73fe1dadef3f4a7b456b6d45c6e8",
+      "embodied.py": "cd14101d985b32a0caa8a2f017f9ce2761f4f7562c699081cd6994453ee0c0f5",
+      "body_feedback.py": "2bd54cd87987092b4f2498166a4e074187c7bf913bf02ef4ffcc7f89e099a9aa",
+      "physical_touch.py": "9dd3e4dc9699ecc0c91e8b3fa1151621c7b4cc5d1facd0bb32edf593660302dd",
+      "malecns_senses.py": "e5daf7f6d8ba6b46dedbc4cac247d5335f272a2d7c296c1791076010cfd27eba",
+      "proprioception.py": "a763899e8a6d18d0359f39a7c8c8f1bfac2f7f29c06e165b8579d447842fe298",
+      "spatial_vision.py": "567486e702708d5b89b1c98de5499109266e1368acc9d87db14f60a88f0c8fe0",
+      "behavior_readout.py": "573b413f7b3fe63c331069c3a21bc5e37bac299e8e475f5010e6d54c5feeda0e",
+      "behavior_body.py": "6bdb22c863c92f15945eac14a325b719df917777288bbfb00647d9f418b969d5",
+      "joint_motor.py": "7964260c806004b8e428c31c26fdd3445cc063476f9d04b3eac9f5593dc797b8",
+      "live_environment.py": "5066b15355d0a37dd6c0be0e2622e7e1e184d3c5cca47453cfbcdc30d3ce2a5f",
+      "body_measurement.py": "c19ec38fa3e2ccd94f96ea429f7a9c7a6b28f1d201854110e16a5b19691a585e"
+    },
+    "readout_modules": {
+      "unified_readout.py": "c789c604454387577d33aaf86c5e155d544c1ee010c3726ea68641f32532100a",
+      "intent_readout.py": "5a85e8decc184938e7f6e08335cb2cf734c54574ee7dd0ec35ef693dffdb92ef",
+      "plume_field.py": "17d1667353d31c1f3f601b3124d755aeca2691a9a80239c851c1863b960a8e10"
+    },
+    "source_artifacts": {
+      "malecns_annotations": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "spatial_vision_receptor_map": "71fbfa7bb4f45272f641044473b988f913a676349b9b9c00fb45aa08cb56e756",
+      "spatial_vision_mapping_provenance": "1da03ab9fed94646265c62acae329bad6a1e5c905c407393aab66490184e17bd",
+      "spatial:chatflypt/retinal_registration.py": "3f14a69e52b1f701cb5225ed234d0aa3d35aef3da3ad4632c4fd6bd6156f7f4f",
+      "spatial:chatflypt/spatial_vision.py": "567486e702708d5b89b1c98de5499109266e1368acc9d87db14f60a88f0c8fe0",
+      "spatial:research/retinal-registration-followup-20260924/camera-geometry.json": "ea66ef19bfbc74a60581938befb2318f4dc6395a97a0cf40824b9bd289206a03",
+      "spatial:research/retinal-registration-followup-20260924/camera_scan.py": "14b8bca3038d238a98b3babf96dff1f920238fce337a876f26b7121eefae747a",
+      "spatial:research/retinal-registration-followup-20260924/eyemap-archive-manifest.json": "d88b27fa04e7b06d6a40e2050aa30a1264d44ff7cad3b24009bb9ec70a21d70b",
+      "spatial:research/retinal-registration-followup-20260924/visualpathways-manifest.json": "0fa99d3771b2af7b3873aedae4aa28a2499fb8ab46c432172dee199a8470215e",
+      "spatial:research/retinal-registration-followup-20260924/eyemap-archive/maps/eyemap_mcns_f20240701/pqxyztp_left.xlsx": "e42e1781dc40bcecb2f90bd154172b626bfb58841dd68218362aeaebe90abd30",
+      "spatial:research/retinal-registration-followup-20260924/eyemap-archive/maps/eyemap_mcns_f20240701/pqxyztp_right.xlsx": "f78e2059a5dceaab9380fb0893fe88cc1b2902954d9d11165e174093587af793",
+      "spatial:research/retinal-registration-followup-20260924/visualpathways/params/ME_L_columnar-cells_location.xlsx": "877b4cc33c504540406e55c33f3d7a7ed6b3542469db64184cbcecd68df3abc4",
+      "spatial:research/retinal-registration-followup-20260924/visualpathways/params/ME_columnar-cells_location.xlsx": "cabb48a8ab040a63c5d379e01bd4a9189b27b816add372d0a472187323e294be",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/compound_eye.npz": "51afb29664ac1f4ef05535f417ae37ed8a625911c99995720ca382799eef36b3",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/vision.yaml": "aeaf9c67603e85ac81d251a01e7a20821687c1a62be0626af49ef09919e10545",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/rigging.yaml": "4e51d5ed3f151aefc125c91ff9298921b3b79a9d64e03e6fe88f1ce9945dbe3d",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/mujoco_globals.yaml": "e5b70e5bd5199ab2a9a68eb119ce9ef3f0b1dfa1890e13f1adb6d6cc20579988",
+      "spatial:vendor/flygym/src/flygym/compose/fly/base_fly.py": "9f7ec2c3786972467085cf6a92363cc72a95551226151ff1941fd96800ec677f",
+      "spatial:vendor/flygym/src/flygym/compose/fly/neuromechfly.py": "c47f422e5719f712b3f8b60913a22ce9d89d3943c81a8433549a129197ed50e3",
+      "spatial:vendor/flygym/src/flygym/vision/retina.py": "fbb43595de2d7736423424b5cb4ea8eabc369d500fb028c26065c0e2ec4746c6",
+      "spatial:vendor/flygym/src/flygym/simulation.py": "c2a6fded0ccedb2124c1ac421e1b52cb2c087bfa40fcb38f8a32722d21c012d2",
+      "spatial:vendor/badapple-fly/backend/body.py": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+      "spatial:chatflypt/behavior_body.py": "6bdb22c863c92f15945eac14a325b719df917777288bbfb00647d9f418b969d5",
+      "spatial:chatflypt/environment.py": "1fbec387c87fe5f4bafbe5aae8921e4ee2af73fe1dadef3f4a7b456b6d45c6e8",
+      "spatial:chatflypt/body_measurement.py": "c19ec38fa3e2ccd94f96ea429f7a9c7a6b28f1d201854110e16a5b19691a585e",
+      "spatial:data/raw/malecns-v1.0/body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "spatial:data/derived/malecns/graph.npz": "5abc663b90d17b025d79bce663551c8575e2e48f858dd20fb68199ad6af3862c"
+    },
+    "readout_features_sha256": "c789c604454387577d33aaf86c5e155d544c1ee010c3726ea68641f32532100a",
+    "features": "sqrt spikes; log1p positive/negative voltage area; normalized to 500 ms"
+  },
+  "features": 252673,
+  "all_sensory_and_direct_cells_excluded": true,
+  "train_windows": 266,
+  "validation_windows": 266,
+  "test_windows": 266,
+  "groups": {
+    "train": [
+      "unified-train-bright",
+      "unified-train-cold",
+      "unified-train-cold_follow_left_r1",
+      "unified-train-cold_follow_left_r2",
+      "unified-train-cold_follow_left_r3",
+      "unified-train-cold_follow_right_r1",
+      "unified-train-cold_follow_right_r2",
+      "unified-train-cold_follow_right_r3",
+      "unified-train-cold_side_left_r1",
+      "unified-train-cold_side_left_r2",
+      "unified-train-cold_side_left_r3",
+      "unified-train-cold_side_right_r1",
+      "unified-train-cold_side_right_r2",
+      "unified-train-cold_side_right_r3",
+      "unified-train-dark",
+      "unified-train-dark_leg_block_control",
+      "unified-train-dark_leg_sugar_control",
+      "unified-train-dark_yeast",
+      "unified-train-far_pheromone_control",
+      "unified-train-far_song_control",
+      "unified-train-far_sugar_control",
+      "unified-train-heat",
+      "unified-train-heat_follow_left_r1",
+      "unified-train-heat_follow_left_r2",
+      "unified-train-heat_follow_left_r3",
+      "unified-train-heat_follow_right_r1",
+      "unified-train-heat_follow_right_r2",
+      "unified-train-heat_follow_right_r3",
+      "unified-train-heat_side_left_r1",
+      "unified-train-heat_side_left_r2",
+      "unified-train-heat_side_left_r3",
+      "unified-train-heat_side_right_r1",
+      "unified-train-heat_side_right_r2",
+      "unified-train-heat_side_right_r3",
+      "unified-train-leg_block_control",
+      "unified-train-leg_sugar",
+      "unified-train-mouth_block",
+      "unified-train-mouth_high_salt",
+      "unified-train-mouth_sugar",
+      "unified-train-nudge_alternating",
+      "unified-train-nudge_left",
+      "unified-train-nudge_left_r1",
+      "unified-train-nudge_left_r2",
+      "unified-train-nudge_left_r3",
+      "unified-train-nudge_right",
+      "unified-train-nudge_right_r1",
+      "unified-train-nudge_right_r2",
+      "unified-train-nudge_right_r3",
+      "unified-train-pheromone_follow_left_r1",
+      "unified-train-pheromone_follow_left_r2",
+      "unified-train-pheromone_follow_left_r3",
+      "unified-train-pheromone_follow_right_r1",
+      "unified-train-pheromone_follow_right_r2",
+      "unified-train-pheromone_follow_right_r3",
+      "unified-train-pheromone_left",
+      "unified-train-pheromone_partner_left",
+      "unified-train-pheromone_partner_right",
+      "unified-train-pheromone_plume_left",
+      "unified-train-pheromone_plume_right",
+      "unified-train-pheromone_right",
+      "unified-train-song_follow_left_r1",
+      "unified-train-song_follow_left_r2",
+      "unified-train-song_follow_left_r3",
+      "unified-train-song_follow_right_r1",
+      "unified-train-song_follow_right_r2",
+      "unified-train-song_follow_right_r3",
+      "unified-train-song_left",
+      "unified-train-song_partner_left",
+      "unified-train-song_partner_right",
+      "unified-train-song_plume_left",
+      "unified-train-song_plume_right",
+      "unified-train-song_right",
+      "unified-train-tap1x180_left",
+      "unified-train-tap1x180_right",
+      "unified-train-tap3x60_left",
+      "unified-train-tap3x60_right",
+      "unified-train-tap6x30_left",
+      "unified-train-tap6x30_right",
+      "unified-train-touch_left",
+      "unified-train-touch_right",
+      "unified-train-turn_left_combo_r1",
+      "unified-train-turn_left_combo_r2",
+      "unified-train-turn_left_combo_r3",
+      "unified-train-turn_right_combo_r1",
+      "unified-train-turn_right_combo_r2",
+      "unified-train-turn_right_combo_r3",
+      "unified-train-unilateral_bright_left",
+      "unified-train-unilateral_bright_right",
+      "unified-train-unilateral_cold_left",
+      "unified-train-unilateral_cold_left_u1",
+      "unified-train-unilateral_cold_left_u2",
+      "unified-train-unilateral_cold_left_u3",
+      "unified-train-unilateral_cold_left_u4",
+      "unified-train-unilateral_cold_right",
+      "unified-train-unilateral_cold_right_u1",
+      "unified-train-unilateral_cold_right_u2",
+      "unified-train-unilateral_cold_right_u3",
+      "unified-train-unilateral_cold_right_u4",
+      "unified-train-unilateral_heat_left",
+      "unified-train-unilateral_heat_left_u1",
+      "unified-train-unilateral_heat_left_u2",
+      "unified-train-unilateral_heat_left_u3",
+      "unified-train-unilateral_heat_left_u4",
+      "unified-train-unilateral_heat_right",
+      "unified-train-unilateral_heat_right_u1",
+      "unified-train-unilateral_heat_right_u2",
+      "unified-train-unilateral_heat_right_u3",
+      "unified-train-unilateral_heat_right_u4",
+      "unified-train-unilateral_yeast_left",
+      "unified-train-unilateral_yeast_left_u1",
+      "unified-train-unilateral_yeast_left_u2",
+      "unified-train-unilateral_yeast_left_u3",
+      "unified-train-unilateral_yeast_left_u4",
+      "unified-train-unilateral_yeast_right",
+      "unified-train-unilateral_yeast_right_u1",
+      "unified-train-unilateral_yeast_right_u2",
+      "unified-train-unilateral_yeast_right_u3",
+      "unified-train-unilateral_yeast_right_u4",
+      "unified-train-yeast",
+      "unified-train-yeast_follow_left_r1",
+      "unified-train-yeast_follow_left_r2",
+      "unified-train-yeast_follow_left_r3",
+      "unified-train-yeast_follow_right_r1",
+      "unified-train-yeast_follow_right_r2",
+      "unified-train-yeast_follow_right_r3",
+      "unified-train-yeast_side_left_r1",
+      "unified-train-yeast_side_left_r2",
+      "unified-train-yeast_side_left_r3",
+      "unified-train-yeast_side_right_r1",
+      "unified-train-yeast_side_right_r2",
+      "unified-train-yeast_side_right_r3"
+    ],
+    "validation": [
+      "unified-validation-bright",
+      "unified-validation-cold",
+      "unified-validation-cold_follow_left_r1",
+      "unified-validation-cold_follow_left_r2",
+      "unified-validation-cold_follow_left_r3",
+      "unified-validation-cold_follow_right_r1",
+      "unified-validation-cold_follow_right_r2",
+      "unified-validation-cold_follow_right_r3",
+      "unified-validation-cold_side_left_r1",
+      "unified-validation-cold_side_left_r2",
+      "unified-validation-cold_side_left_r3",
+      "unified-validation-cold_side_right_r1",
+      "unified-validation-cold_side_right_r2",
+      "unified-validation-cold_side_right_r3",
+      "unified-validation-dark",
+      "unified-validation-dark_leg_block_control",
+      "unified-validation-dark_leg_sugar_control",
+      "unified-validation-dark_yeast",
+      "unified-validation-far_pheromone_control",
+      "unified-validation-far_song_control",
+      "unified-validation-far_sugar_control",
+      "unified-validation-heat",
+      "unified-validation-heat_follow_left_r1",
+      "unified-validation-heat_follow_left_r2",
+      "unified-validation-heat_follow_left_r3",
+      "unified-validation-heat_follow_right_r1",
+      "unified-validation-heat_follow_right_r2",
+      "unified-validation-heat_follow_right_r3",
+      "unified-validation-heat_side_left_r1",
+      "unified-validation-heat_side_left_r2",
+      "unified-validation-heat_side_left_r3",
+      "unified-validation-heat_side_right_r1",
+      "unified-validation-heat_side_right_r2",
+      "unified-validation-heat_side_right_r3",
+      "unified-validation-leg_block_control",
+      "unified-validation-leg_sugar",
+      "unified-validation-mouth_block",
+      "unified-validation-mouth_high_salt",
+      "unified-validation-mouth_sugar",
+      "unified-validation-nudge_alternating",
+      "unified-validation-nudge_left",
+      "unified-validation-nudge_left_r1",
+      "unified-validation-nudge_left_r2",
+      "unified-validation-nudge_left_r3",
+      "unified-validation-nudge_right",
+      "unified-validation-nudge_right_r1",
+      "unified-validation-nudge_right_r2",
+      "unified-validation-nudge_right_r3",
+      "unified-validation-pheromone_follow_left_r1",
+      "unified-validation-pheromone_follow_left_r2",
+      "unified-validation-pheromone_follow_left_r3",
+      "unified-validation-pheromone_follow_right_r1",
+      "unified-validation-pheromone_follow_right_r2",
+      "unified-validation-pheromone_follow_right_r3",
+      "unified-validation-pheromone_left",
+      "unified-validation-pheromone_partner_left",
+      "unified-validation-pheromone_partner_right",
+      "unified-validation-pheromone_plume_left",
+      "unified-validation-pheromone_plume_right",
+      "unified-validation-pheromone_right",
+      "unified-validation-song_follow_left_r1",
+      "unified-validation-song_follow_left_r2",
+      "unified-validation-song_follow_left_r3",
+      "unified-validation-song_follow_right_r1",
+      "unified-validation-song_follow_right_r2",
+      "unified-validation-song_follow_right_r3",
+      "unified-validation-song_left",
+      "unified-validation-song_partner_left",
+      "unified-validation-song_partner_right",
+      "unified-validation-song_plume_left",
+      "unified-validation-song_plume_right",
+      "unified-validation-song_right",
+      "unified-validation-tap1x180_left",
+      "unified-validation-tap1x180_right",
+      "unified-validation-tap3x60_left",
+      "unified-validation-tap3x60_right",
+      "unified-validation-tap6x30_left",
+      "unified-validation-tap6x30_right",
+      "unified-validation-touch_left",
+      "unified-validation-touch_right",
+      "unified-validation-turn_left_combo_r1",
+      "unified-validation-turn_left_combo_r2",
+      "unified-validation-turn_left_combo_r3",
+      "unified-validation-turn_right_combo_r1",
+      "unified-validation-turn_right_combo_r2",
+      "unified-validation-turn_right_combo_r3",
+      "unified-validation-unilateral_bright_left",
+      "unified-validation-unilateral_bright_right",
+      "unified-validation-unilateral_cold_left",
+      "unified-validation-unilateral_cold_left_u1",
+      "unified-validation-unilateral_cold_left_u2",
+      "unified-validation-unilateral_cold_left_u3",
+      "unified-validation-unilateral_cold_left_u4",
+      "unified-validation-unilateral_cold_right",
+      "unified-validation-unilateral_cold_right_u1",
+      "unified-validation-unilateral_cold_right_u2",
+      "unified-validation-unilateral_cold_right_u3",
+      "unified-validation-unilateral_cold_right_u4",
+      "unified-validation-unilateral_heat_left",
+      "unified-validation-unilateral_heat_left_u1",
+      "unified-validation-unilateral_heat_left_u2",
+      "unified-validation-unilateral_heat_left_u3",
+      "unified-validation-unilateral_heat_left_u4",
+      "unified-validation-unilateral_heat_right",
+      "unified-validation-unilateral_heat_right_u1",
+      "unified-validation-unilateral_heat_right_u2",
+      "unified-validation-unilateral_heat_right_u3",
+      "unified-validation-unilateral_heat_right_u4",
+      "unified-validation-unilateral_yeast_left",
+      "unified-validation-unilateral_yeast_left_u1",
+      "unified-validation-unilateral_yeast_left_u2",
+      "unified-validation-unilateral_yeast_left_u3",
+      "unified-validation-unilateral_yeast_left_u4",
+      "unified-validation-unilateral_yeast_right",
+      "unified-validation-unilateral_yeast_right_u1",
+      "unified-validation-unilateral_yeast_right_u2",
+      "unified-validation-unilateral_yeast_right_u3",
+      "unified-validation-unilateral_yeast_right_u4",
+      "unified-validation-yeast",
+      "unified-validation-yeast_follow_left_r1",
+      "unified-validation-yeast_follow_left_r2",
+      "unified-validation-yeast_follow_left_r3",
+      "unified-validation-yeast_follow_right_r1",
+      "unified-validation-yeast_follow_right_r2",
+      "unified-validation-yeast_follow_right_r3",
+      "unified-validation-yeast_side_left_r1",
+      "unified-validation-yeast_side_left_r2",
+      "unified-validation-yeast_side_left_r3",
+      "unified-validation-yeast_side_right_r1",
+      "unified-validation-yeast_side_right_r2",
+      "unified-validation-yeast_side_right_r3"
+    ],
+    "test": [
+      "unified-test-bright",
+      "unified-test-cold",
+      "unified-test-cold_follow_left_r1",
+      "unified-test-cold_follow_left_r2",
+      "unified-test-cold_follow_left_r3",
+      "unified-test-cold_follow_right_r1",
+      "unified-test-cold_follow_right_r2",
+      "unified-test-cold_follow_right_r3",
+      "unified-test-cold_side_left_r1",
+      "unified-test-cold_side_left_r2",
+      "unified-test-cold_side_left_r3",
+      "unified-test-cold_side_right_r1",
+      "unified-test-cold_side_right_r2",
+      "unified-test-cold_side_right_r3",
+      "unified-test-dark",
+      "unified-test-dark_leg_block_control",
+      "unified-test-dark_leg_sugar_control",
+      "unified-test-dark_yeast",
+      "unified-test-far_pheromone_control",
+      "unified-test-far_song_control",
+      "unified-test-far_sugar_control",
+      "unified-test-heat",
+      "unified-test-heat_follow_left_r1",
+      "unified-test-heat_follow_left_r2",
+      "unified-test-heat_follow_left_r3",
+      "unified-test-heat_follow_right_r1",
+      "unified-test-heat_follow_right_r2",
+      "unified-test-heat_follow_right_r3",
+      "unified-test-heat_side_left_r1",
+      "unified-test-heat_side_left_r2",
+      "unified-test-heat_side_left_r3",
+      "unified-test-heat_side_right_r1",
+      "unified-test-heat_side_right_r2",
+      "unified-test-heat_side_right_r3",
+      "unified-test-leg_block_control",
+      "unified-test-leg_sugar",
+      "unified-test-mouth_block",
+      "unified-test-mouth_high_salt",
+      "unified-test-mouth_sugar",
+      "unified-test-nudge_alternating",
+      "unified-test-nudge_left",
+      "unified-test-nudge_left_r1",
+      "unified-test-nudge_left_r2",
+      "unified-test-nudge_left_r3",
+      "unified-test-nudge_right",
+      "unified-test-nudge_right_r1",
+      "unified-test-nudge_right_r2",
+      "unified-test-nudge_right_r3",
+      "unified-test-pheromone_follow_left_r1",
+      "unified-test-pheromone_follow_left_r2",
+      "unified-test-pheromone_follow_left_r3",
+      "unified-test-pheromone_follow_right_r1",
+      "unified-test-pheromone_follow_right_r2",
+      "unified-test-pheromone_follow_right_r3",
+      "unified-test-pheromone_left",
+      "unified-test-pheromone_partner_left",
+      "unified-test-pheromone_partner_right",
+      "unified-test-pheromone_plume_left",
+      "unified-test-pheromone_plume_right",
+      "unified-test-pheromone_right",
+      "unified-test-song_follow_left_r1",
+      "unified-test-song_follow_left_r2",
+      "unified-test-song_follow_left_r3",
+      "unified-test-song_follow_right_r1",
+      "unified-test-song_follow_right_r2",
+      "unified-test-song_follow_right_r3",
+      "unified-test-song_left",
+      "unified-test-song_partner_left",
+      "unified-test-song_partner_right",
+      "unified-test-song_plume_left",
+      "unified-test-song_plume_right",
+      "unified-test-song_right",
+      "unified-test-tap1x180_left",
+      "unified-test-tap1x180_right",
+      "unified-test-tap3x60_left",
+      "unified-test-tap3x60_right",
+      "unified-test-tap6x30_left",
+      "unified-test-tap6x30_right",
+      "unified-test-touch_left",
+      "unified-test-touch_right",
+      "unified-test-turn_left_combo_r1",
+      "unified-test-turn_left_combo_r2",
+      "unified-test-turn_left_combo_r3",
+      "unified-test-turn_right_combo_r1",
+      "unified-test-turn_right_combo_r2",
+      "unified-test-turn_right_combo_r3",
+      "unified-test-unilateral_bright_left",
+      "unified-test-unilateral_bright_right",
+      "unified-test-unilateral_cold_left",
+      "unified-test-unilateral_cold_left_u1",
+      "unified-test-unilateral_cold_left_u2",
+      "unified-test-unilateral_cold_left_u3",
+      "unified-test-unilateral_cold_left_u4",
+      "unified-test-unilateral_cold_right",
+      "unified-test-unilateral_cold_right_u1",
+      "unified-test-unilateral_cold_right_u2",
+      "unified-test-unilateral_cold_right_u3",
+      "unified-test-unilateral_cold_right_u4",
+      "unified-test-unilateral_heat_left",
+      "unified-test-unilateral_heat_left_u1",
+      "unified-test-unilateral_heat_left_u2",
+      "unified-test-unilateral_heat_left_u3",
+      "unified-test-unilateral_heat_left_u4",
+      "unified-test-unilateral_heat_right",
+      "unified-test-unilateral_heat_right_u1",
+      "unified-test-unilateral_heat_right_u2",
+      "unified-test-unilateral_heat_right_u3",
+      "unified-test-unilateral_heat_right_u4",
+      "unified-test-unilateral_yeast_left",
+      "unified-test-unilateral_yeast_left_u1",
+      "unified-test-unilateral_yeast_left_u2",
+      "unified-test-unilateral_yeast_left_u3",
+      "unified-test-unilateral_yeast_left_u4",
+      "unified-test-unilateral_yeast_right",
+      "unified-test-unilateral_yeast_right_u1",
+      "unified-test-unilateral_yeast_right_u2",
+      "unified-test-unilateral_yeast_right_u3",
+      "unified-test-unilateral_yeast_right_u4",
+      "unified-test-yeast",
+      "unified-test-yeast_follow_left_r1",
+      "unified-test-yeast_follow_left_r2",
+      "unified-test-yeast_follow_left_r3",
+      "unified-test-yeast_follow_right_r1",
+      "unified-test-yeast_follow_right_r2",
+      "unified-test-yeast_follow_right_r3",
+      "unified-test-yeast_side_left_r1",
+      "unified-test-yeast_side_left_r2",
+      "unified-test-yeast_side_left_r3",
+      "unified-test-yeast_side_right_r1",
+      "unified-test-yeast_side_right_r2",
+      "unified-test-yeast_side_right_r3"
+    ]
+  },
+  "qualified_labels": [
+    "bright:left",
+    "bright:right",
+    "warm:left",
+    "cold:left",
+    "cold:right",
+    "foreleg_touch:left",
+    "foreleg_touch:right",
+    "midleg_touch:left",
+    "midleg_touch:right",
+    "hindleg_touch:left",
+    "hindleg_touch:right",
+    "leg_sweet_local:left",
+    "leg_sweet_local:right",
+    "leg_appetitive_ascending:left",
+    "leg_appetitive_ascending:right",
+    "cva:left",
+    "cva:right",
+    "auditory:left",
+    "auditory:right"
+  ],
+  "unqualified_labels": [
+    "yeast:left",
+    "yeast:right",
+    "warm:right",
+    "body_touch:left",
+    "body_touch:right",
+    "wing_touch:left",
+    "wing_touch:right",
+    "sugar_specific:left",
+    "sugar_specific:right",
+    "high_salt:left",
+    "high_salt:right"
+  ],
+  "validation": {
+    "windows": 266,
+    "exact_set_accuracy": 0.6879699248120301,
+    "micro_f1": 0.9361194029850747,
+    "per_label": {
+      "bright:left": {
+        "tp": 258,
+        "fp": 0,
+        "fn": 0,
+        "positives": 258,
+        "negatives": 8,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "bright:right": {
+        "tp": 257,
+        "fp": 0,
+        "fn": 0,
+        "positives": 257,
+        "negatives": 9,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "positives": 29,
+        "negatives": 237,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "yeast:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "positives": 28,
+        "negatives": 238,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:left": {
+        "tp": 19,
+        "fp": 2,
+        "fn": 6,
+        "positives": 25,
+        "negatives": 241,
+        "precision": 0.9047619047619048,
+        "recall": 0.76
+      },
+      "warm:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "positives": 24,
+        "negatives": 242,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:left": {
+        "tp": 24,
+        "fp": 2,
+        "fn": 5,
+        "positives": 29,
+        "negatives": 237,
+        "precision": 0.9230769230769231,
+        "recall": 0.8275862068965517
+      },
+      "cold:right": {
+        "tp": 28,
+        "fp": 2,
+        "fn": 2,
+        "positives": 30,
+        "negatives": 236,
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333
+      },
+      "foreleg_touch:left": {
+        "tp": 28,
+        "fp": 0,
+        "fn": 0,
+        "positives": 28,
+        "negatives": 238,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 0,
+        "positives": 29,
+        "negatives": 237,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_sweet_local:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cva:left": {
+        "tp": 21,
+        "fp": 0,
+        "fn": 1,
+        "positives": 22,
+        "negatives": 244,
+        "precision": 1.0,
+        "recall": 0.9545454545454546
+      },
+      "cva:right": {
+        "tp": 21,
+        "fp": 0,
+        "fn": 0,
+        "positives": 21,
+        "negatives": 245,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "auditory:left": {
+        "tp": 27,
+        "fp": 0,
+        "fn": 0,
+        "positives": 27,
+        "negatives": 239,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "auditory:right": {
+        "tp": 24,
+        "fp": 2,
+        "fn": 4,
+        "positives": 28,
+        "negatives": 238,
+        "precision": 0.9230769230769231,
+        "recall": 0.8571428571428571
+      }
+    }
+  },
+  "test": {
+    "windows": 266,
+    "exact_set_accuracy": 0.6616541353383458,
+    "micro_f1": 0.9285714285714286,
+    "per_label": {
+      "bright:left": {
+        "tp": 258,
+        "fp": 0,
+        "fn": 0,
+        "positives": 258,
+        "negatives": 8,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "bright:right": {
+        "tp": 258,
+        "fp": 0,
+        "fn": 0,
+        "positives": 258,
+        "negatives": 8,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "positives": 28,
+        "negatives": 238,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "yeast:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "positives": 27,
+        "negatives": 239,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:left": {
+        "tp": 20,
+        "fp": 7,
+        "fn": 5,
+        "positives": 25,
+        "negatives": 241,
+        "precision": 0.7407407407407407,
+        "recall": 0.8
+      },
+      "warm:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "positives": 27,
+        "negatives": 239,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:left": {
+        "tp": 23,
+        "fp": 4,
+        "fn": 6,
+        "positives": 29,
+        "negatives": 237,
+        "precision": 0.8518518518518519,
+        "recall": 0.7931034482758621
+      },
+      "cold:right": {
+        "tp": 28,
+        "fp": 3,
+        "fn": 3,
+        "positives": 31,
+        "negatives": 235,
+        "precision": 0.9032258064516129,
+        "recall": 0.9032258064516129
+      },
+      "foreleg_touch:left": {
+        "tp": 31,
+        "fp": 0,
+        "fn": 1,
+        "positives": 32,
+        "negatives": 234,
+        "precision": 1.0,
+        "recall": 0.96875
+      },
+      "foreleg_touch:right": {
+        "tp": 33,
+        "fp": 0,
+        "fn": 0,
+        "positives": 33,
+        "negatives": 233,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "leg_sweet_local:right": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "cva:left": {
+        "tp": 20,
+        "fp": 0,
+        "fn": 1,
+        "positives": 21,
+        "negatives": 245,
+        "precision": 1.0,
+        "recall": 0.9523809523809523
+      },
+      "cva:right": {
+        "tp": 20,
+        "fp": 0,
+        "fn": 2,
+        "positives": 22,
+        "negatives": 244,
+        "precision": 1.0,
+        "recall": 0.9090909090909091
+      },
+      "auditory:left": {
+        "tp": 30,
+        "fp": 0,
+        "fn": 1,
+        "positives": 31,
+        "negatives": 235,
+        "precision": 1.0,
+        "recall": 0.967741935483871
+      },
+      "auditory:right": {
+        "tp": 28,
+        "fp": 1,
+        "fn": 2,
+        "positives": 30,
+        "negatives": 236,
+        "precision": 0.9655172413793104,
+        "recall": 0.9333333333333333
+      }
+    }
+  },
+  "shuffled_control": {
+    "windows": 266,
+    "exact_set_accuracy": 0.13533834586466165,
+    "micro_f1": 0.6147540983606558,
+    "per_label": {
+      "bright:left": {
+        "tp": 250,
+        "fp": 8,
+        "fn": 8,
+        "positives": 258,
+        "negatives": 8,
+        "precision": 0.9689922480620154,
+        "recall": 0.9689922480620154
+      },
+      "bright:right": {
+        "tp": 250,
+        "fp": 8,
+        "fn": 8,
+        "positives": 258,
+        "negatives": 8,
+        "precision": 0.9689922480620154,
+        "recall": 0.9689922480620154
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 28,
+        "positives": 28,
+        "negatives": 238,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "yeast:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "positives": 27,
+        "negatives": 239,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:left": {
+        "tp": 5,
+        "fp": 22,
+        "fn": 20,
+        "positives": 25,
+        "negatives": 241,
+        "precision": 0.18518518518518517,
+        "recall": 0.2
+      },
+      "warm:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 27,
+        "positives": 27,
+        "negatives": 239,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:left": {
+        "tp": 2,
+        "fp": 25,
+        "fn": 27,
+        "positives": 29,
+        "negatives": 237,
+        "precision": 0.07407407407407407,
+        "recall": 0.06896551724137931
+      },
+      "cold:right": {
+        "tp": 6,
+        "fp": 25,
+        "fn": 25,
+        "positives": 31,
+        "negatives": 235,
+        "precision": 0.1935483870967742,
+        "recall": 0.1935483870967742
+      },
+      "foreleg_touch:left": {
+        "tp": 3,
+        "fp": 28,
+        "fn": 29,
+        "positives": 32,
+        "negatives": 234,
+        "precision": 0.0967741935483871,
+        "recall": 0.09375
+      },
+      "foreleg_touch:right": {
+        "tp": 2,
+        "fp": 31,
+        "fn": 31,
+        "positives": 33,
+        "negatives": 233,
+        "precision": 0.06060606060606061,
+        "recall": 0.06060606060606061
+      },
+      "midleg_touch:left": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "midleg_touch:right": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "hindleg_touch:left": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "hindleg_touch:right": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 258,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 266,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:right": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 262,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cva:left": {
+        "tp": 0,
+        "fp": 20,
+        "fn": 21,
+        "positives": 21,
+        "negatives": 245,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cva:right": {
+        "tp": 0,
+        "fp": 20,
+        "fn": 22,
+        "positives": 22,
+        "negatives": 244,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "auditory:left": {
+        "tp": 4,
+        "fp": 26,
+        "fn": 27,
+        "positives": 31,
+        "negatives": 235,
+        "precision": 0.13333333333333333,
+        "recall": 0.12903225806451613
+      },
+      "auditory:right": {
+        "tp": 3,
+        "fp": 26,
+        "fn": 27,
+        "positives": 30,
+        "negatives": 236,
+        "precision": 0.10344827586206896,
+        "recall": 0.1
+      }
+    }
+  },
+  "zero_false_positives": 0,
+  "serving_matches_test_matrix": true,
+  "selection": "Train selects features/weights; validation selects thresholds and per-label qualification; saved before opening test.",
+  "extension": null,
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "test_predictions": [
+    {
+      "episode": "test-bright",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-bright",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-dark",
+      "turn": 0,
+      "expected": [],
+      "predicted": []
+    },
+    {
+      "episode": "test-dark",
+      "turn": 1,
+      "expected": [],
+      "predicted": []
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 0,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": []
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 1,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": []
+    },
+    {
+      "episode": "test-heat",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-cold",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-leg_block_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-leg_block_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-far_sugar_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_sugar_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_sugar_control",
+      "turn": 0,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_sugar_control",
+      "turn": 1,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 0,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 1,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-pheromone_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_pheromone_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_pheromone_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-song_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-song_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-far_song_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_song_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_alternating",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_alternating",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_follow_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_follow_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_follow_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u4",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left_u4",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u4",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right_u4",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u4",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left_u4",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u4",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right_u4",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u4",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left_u4",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u4",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right_u4",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_follow_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_follow_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-yeast_side_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_side_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_side_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_side_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_side_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_side_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_side_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left"
+      ]
+    },
+    {
+      "episode": "test-heat_side_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_side_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_side_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_side_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_side_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-heat_side_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_left_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ]
+    },
+    {
+      "episode": "test-cold_side_left_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_left_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ]
+    },
+    {
+      "episode": "test-cold_side_left_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ]
+    },
+    {
+      "episode": "test-cold_side_left_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_left_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_right_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_right_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_right_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_right_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_right_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold_side_right_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-turn_left_combo_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-turn_left_combo_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-turn_left_combo_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "cold:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-turn_left_combo_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right",
+        "foreleg_touch:left",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-turn_left_combo_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-turn_left_combo_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "foreleg_touch:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-turn_right_combo_r1",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ]
+    },
+    {
+      "episode": "test-turn_right_combo_r1",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ]
+    },
+    {
+      "episode": "test-turn_right_combo_r2",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ]
+    },
+    {
+      "episode": "test-turn_right_combo_r2",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ]
+    },
+    {
+      "episode": "test-turn_right_combo_r3",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ]
+    },
+    {
+      "episode": "test-turn_right_combo_r3",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:right",
+        "foreleg_touch:right",
+        "auditory:left"
+      ]
+    }
+  ],
+  "limitations": [
+    "Some conditions occupy only one session per split.",
+    "Persistent windows within a session are correlated, not independent replicates.",
+    "Lateralized population delivery is not spatial object localization.",
+    "No natural-language intent or behavior target is fitted.",
+    "A nominal unilateral scene can become bilateral or silent as the free body moves; planned side is never a target.",
+    "Tap timing and emitter field strengths are engineering parameter sets; the sources are not calibrated concentrations or sound pressures.",
+    "The plume is upstream data from a different arena scale; it is not a cVA concentration. The following source is a different physical claim from a fixed source and is labelled as such. Nudge trains are engineering timings, and no direction code is claimed for them.",
+    "A following source can still become bilateral if the two antennae come within its declared range; delivered events, never the planned side, decide labels.",
+    "No held-out test failure is retuned away in this run.",
+    "Whole-brain dynamics, receptor transduction and motor behavior are not calibrated by this classifier."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\README.md",
+      "sha256": "450860e6a1291b465b8969ecc5b44c4b3ca9083df3b61313e9b19328efd03896",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/README.md"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\proc_eyemap.R",
+      "sha256": "35c0d8d48a67ea6bd11237464f01a6e87f13146e07baef7ad863ec1e8795df6d",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/proc_eyemap.R"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\proc_uCT.R",
+      "sha256": "ba96990c55887a5e046323f5ea6e58e676f92de5909c0ef08ba10a4bc9acf65f",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/proc_uCT.R"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\eyemap_func.R",
+      "sha256": "d139cd26ef5aa2ef60b54236b399a1eaef8cc3ce0c95d7026884d34c68d948ac",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/eyemap_func.R"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\data_eyemap.RData",
+      "sha256": "c3f63c69afdc3f381cdafabb1d376b8e25ec5a71bce67550ae42fcdd79cf618e",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/eyemap.RData"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\data_med_ixy.RData",
+      "sha256": "4c2430e8e2b8e488d2d26643e141b1622d46b464ea3f43b016d0cb0b27bd5ff7",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/med_ixy.RData"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\data_lens_ixy.RData",
+      "sha256": "49aaf06808a13b55f659ae02fbcd86db52849472196e6d891c54ca5824cc1b25",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/lens_ixy.RData"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\data_neu_PR.RData",
+      "sha256": "79246ee6f26f7cb3312b02bc2d97f5f73d8b39550956b35a600c943ec6f593ae",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/neu_PR.RData"
+    },
+    {
+      "file": "D:\\Projects\\python\\fly\\research\\retinotopy\\data_chiasm.RData",
+      "sha256": "50a995006226cc8d752db111ade30ac606b38ae2b75cff679fe6665129af01df",
+      "source": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/chiasm.RData"
+    }
+  ],
+  "commit": "99d2a43123db636cedb55af9ff31a59657e7d17e",
+  "repository": "https://github.com/reiserlab/eyemap_T4"
+}

@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8765",
+  "http_status": 200,
+  "channels": 537,
+  "observation_id": "e4f757891b2d4f33a2ef7425dc04b0b0",
+  "readout_model": "general_sensory_state",
+  "decoded": [
+    "vision_r7:left"
+  ],
+  "same_seed_neural_arrays_equal_to_acceptance": true,
+  "server_source_sha256": "9b6eb852703d904e854350c4b8690342a256365fbd0f3f9c944d775a4913a58e",
+  "app_source_sha256": "83762df796792523c1677593efe5765fa2eeaf3cb2cad18abfe3d40bb2fef951",
+  "raw_record": {
+    "file": "data\\derived\\pathway-trials\\e4f757891b2d4f33a2ef7425dc04b0b0.npz",
+    "sha256": "429a166807fcb8195c00c9436d0dda93355c85522c0a4c7cc1523568d4843ebd"
+  }
+}

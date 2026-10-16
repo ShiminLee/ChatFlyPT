@@ -1,0 +1,408 @@
+{
+  "repo": "reiserlab/visualpathways",
+  "commit": "23f6ac131529b5f56894c6eeb9b88b17894fc00d",
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/CLAUDE.md",
+      "bytes": 28291,
+      "sha256": "b9184957073877d2b2e80e1fcce6b47ed5850fb327fe045483c1cdd4889a6507"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/README.md",
+      "bytes": 3152,
+      "sha256": "a709832878a9bac44c3bff97178ef935f35b27a0a58e2d650662317398812766"
+    },
+    {
+      "path": "docs/coordinate-systems.md",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/docs/coordinate-systems.md",
+      "bytes": 1025,
+      "sha256": "3537f9d2d909731b448c1b00e7f149bdea2e9d3a12ef818abfb4a1667145494c"
+    },
+    {
+      "path": "docs/python-getting-started.md",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/docs/python-getting-started.md",
+      "bytes": 17122,
+      "sha256": "c01583edea69c9000ea0b492cab3536262f83e63a593ac2dd3329800a0289081"
+    },
+    {
+      "path": "docs/run_order.md",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/docs/run_order.md",
+      "bytes": 13087,
+      "sha256": "a85cd82f679bef9fabfeefa6945011f6481c54cdabcdeb3187d75d90e814e5e7"
+    },
+    {
+      "path": "params/ME_L_columnar-cells_location.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/ME_L_columnar-cells_location.xlsx",
+      "bytes": 92505,
+      "sha256": "877b4cc33c504540406e55c33f3d7a7ed6b3542469db64184cbcecd68df3abc4"
+    },
+    {
+      "path": "params/ME_columnar-cells_location.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/ME_columnar-cells_location.xlsx",
+      "bytes": 103433,
+      "sha256": "cabb48a8ab040a63c5d379e01bd4a9189b27b816add372d0a472187323e294be"
+    },
+    {
+      "path": "params/Nern-et-al_SuppTable01_Cell-types-and-counts.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/Nern-et-al_SuppTable01_Cell-types-and-counts.xlsx",
+      "bytes": 42144,
+      "sha256": "660bb74b645d0c1ab5ff8d43735a8dca20bb45b76845f7a06f6dde2aef41200e"
+    },
+    {
+      "path": "params/TableS2_experimental_data.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/TableS2_experimental_data.xlsx",
+      "bytes": 36431,
+      "sha256": "37676beaeb06d3237dd68f623b9a6d39ce154fe866e104bb244a0a8887bf01b1"
+    },
+    {
+      "path": "params/fly_literature_experiments_orig.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/fly_literature_experiments_orig.xlsx",
+      "bytes": 51396,
+      "sha256": "7faa0ab05d9dc847abd8081470671d12e05762307f4c164d0b18ebb303db4ae3"
+    },
+    {
+      "path": "params/mi1_t4_alignment.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/mi1_t4_alignment.xlsx",
+      "bytes": 61876,
+      "sha256": "ebbbca99b4845a0ccad293eaa3e160a1afa08e07b3789012868379c4150c22a5"
+    },
+    {
+      "path": "params/mi1_t4_alignment_L.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/mi1_t4_alignment_L.xlsx",
+      "bytes": 53879,
+      "sha256": "87936258591e25a2c562fe130579f58d766ce537e3074bf8e68a4df5de6bfc13"
+    },
+    {
+      "path": "params/outline_cb_1.csv",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/outline_cb_1.csv",
+      "bytes": 5760,
+      "sha256": "f0aa6fd8a718dab45a37fdbb02bb6b69e8c7b58df77a84da798516bd597738aa"
+    },
+    {
+      "path": "params/outline_cb_2.csv",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/outline_cb_2.csv",
+      "bytes": 730,
+      "sha256": "e334b892d2aa598d55ad9defcdb5f00fde8e2b9f13e3640e54e1269131604769"
+    },
+    {
+      "path": "params/paper_figs.xlsx",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/params/paper_figs.xlsx",
+      "bytes": 11423,
+      "sha256": "7d3a4cf57fd37d12a596f33ad89b8d84b781b24c725b36d1ba939e15decc1f33"
+    },
+    {
+      "path": "results/tables/TableS1_VPN_in_out_summary.csv",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/results/tables/TableS1_VPN_in_out_summary.csv",
+      "bytes": 109344,
+      "sha256": "c1d5a2ebebdaaa39518493a8792567d2293636ede88ced77e13b2e064a286917"
+    },
+    {
+      "path": "results/tables/TableS3_VCBN_in_out_summary.csv",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/results/tables/TableS3_VCBN_in_out_summary.csv",
+      "bytes": 884736,
+      "sha256": "c6db0e359a3d4dad14e2cce9fb7d413ee9ff6bd0ea31c36d5701235397a9bea5"
+    },
+    {
+      "path": "results/tables/malecns_v1.0_VCBNs.csv",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/results/tables/malecns_v1.0_VCBNs.csv",
+      "bytes": 1794746,
+      "sha256": "1407572ac48915e90a3132275f193e629ef14ecf40669e35e8b9e455cba19a9b"
+    },
+    {
+      "path": "src/make_figures/figures.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/make_figures/figures.py",
+      "bytes": 29432,
+      "sha256": "e0b35f8f77bdc798e7521a64f02ca145c3a9e11f8b9c8a61a679ebd7837aaebf"
+    },
+    {
+      "path": "src/make_figures/gallery_vcbn.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/make_figures/gallery_vcbn.py",
+      "bytes": 27779,
+      "sha256": "daba35ad7ed6b65410bd31a421f91b4520549e1f5233ba49caa9357344fc7eeb"
+    },
+    {
+      "path": "src/make_figures/gallery_vpn.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/make_figures/gallery_vpn.py",
+      "bytes": 40044,
+      "sha256": "c335fd409ea4f0ca05cfdb5d8a202486b839f5edddf07a91152fa58ce4dabcf2"
+    },
+    {
+      "path": "src/make_figures/paper_figures.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/make_figures/paper_figures.py",
+      "bytes": 122515,
+      "sha256": "5bd9c970465453168d3e72d82278a0be6283a407befa87146112251444c3b160"
+    },
+    {
+      "path": "src/setup_data/flow.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/flow.py",
+      "bytes": 4691,
+      "sha256": "56113648ce8d64fc8eb3d80b1bc1355b8a84c2d0d77b40c15c5340e4dd57526e"
+    },
+    {
+      "path": "src/setup_data/malecns.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/malecns.py",
+      "bytes": 22210,
+      "sha256": "e134458bc16c26ca7db6edd324dda715c480cad03694738ffe6620d7e4b90a20"
+    },
+    {
+      "path": "src/setup_data/s1_flywirefafb_data.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/s1_flywirefafb_data.py",
+      "bytes": 7486,
+      "sha256": "ae29629d364a668a1a6effd17b6df48e0d0c01cc1bd1ffc588a7ae6ea8fd780a"
+    },
+    {
+      "path": "src/setup_data/s1_malecns_data.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/s1_malecns_data.py",
+      "bytes": 3409,
+      "sha256": "a22b03f4b3e1b554e98629f73e41f934e1cf2e26fbadef20903af10af3e0f4a7"
+    },
+    {
+      "path": "src/setup_data/s2_layers.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/s2_layers.py",
+      "bytes": 7532,
+      "sha256": "8ebcb0f28f929261b5417cb50d02e44e80694a2fc9dd42693661ad2b50da48e4"
+    },
+    {
+      "path": "src/setup_data/s3_effconn.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/s3_effconn.py",
+      "bytes": 7055,
+      "sha256": "9dbfb5f5de7741e3c55fbf5a44c78f79ed7635d3a3e0be45e45a088260a0713f"
+    },
+    {
+      "path": "src/setup_data/s4_assemble_vpn_vcbn.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/s4_assemble_vpn_vcbn.py",
+      "bytes": 6092,
+      "sha256": "45ac02ab02d54ffa6ad9d8e0af60c1986214d7b436ed314955d6c9f90f9e7ef6"
+    },
+    {
+      "path": "src/setup_data/s5_tbar.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/setup_data/s5_tbar.py",
+      "bytes": 3924,
+      "sha256": "82518f0206fd7e16cde48ee0870c6d7ce2caeb950eda7fc5db61a4b35710b443"
+    },
+    {
+      "path": "src/sync-nb.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/sync-nb.py",
+      "bytes": 342,
+      "sha256": "790b47377096e1b41e4b95a064371e16d3eea94e4e77fa47c5dc2fa38e381cfa"
+    },
+    {
+      "path": "src/utils/alpha_shape.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/alpha_shape.py",
+      "bytes": 6629,
+      "sha256": "1c28b0d36f7d7c953e9a858e4e6bc68be3ab5ae783e6b9e55f0ab385394f0215"
+    },
+    {
+      "path": "src/utils/cache.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/cache.py",
+      "bytes": 5244,
+      "sha256": "bc92463502ad440803748dadfc0d8ddd52df40073a83f052a898b36230d23ffc"
+    },
+    {
+      "path": "src/utils/cb_data.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/cb_data.py",
+      "bytes": 46689,
+      "sha256": "0e12e584356c1be126cc48ce78f9a147f95f0b987bb2bab41fd0e91f5c72f4d9"
+    },
+    {
+      "path": "src/utils/config.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/config.py",
+      "bytes": 2100,
+      "sha256": "195fb9c2c1c539a7d60cbb1446a3196ebef66c92837282598d52db6097504561"
+    },
+    {
+      "path": "src/utils/core_data.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/core_data.py",
+      "bytes": 16427,
+      "sha256": "e0facf45b0c082cda77e7b7f5e734dc5df245c7b3aa6b606dfec2bfac382cce6"
+    },
+    {
+      "path": "src/utils/external_rf.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/external_rf.py",
+      "bytes": 5080,
+      "sha256": "0533e62df97d9c0cbbaf624f1f3b37dfefa758164035b3813780ef41e8fc9bff"
+    },
+    {
+      "path": "src/utils/figure_helpers.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/figure_helpers.py",
+      "bytes": 9339,
+      "sha256": "34986f77274fee536efbc4fb2d2b3b3fd25ce3b89e33234d59a25681181243a2"
+    },
+    {
+      "path": "src/utils/gallery_common.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/gallery_common.py",
+      "bytes": 1652,
+      "sha256": "ee8ed1ed2ab58a36bb59492737a978e4802e43dd1b8d54fc13499562e8cae2a8"
+    },
+    {
+      "path": "src/utils/gallery_index.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/gallery_index.py",
+      "bytes": 8213,
+      "sha256": "eec546d4c5a659367f19efcdb4577aebc885b222574de7b75e0b93db08255f6b"
+    },
+    {
+      "path": "src/utils/geometry.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/geometry.py",
+      "bytes": 4170,
+      "sha256": "44c4ae6c04e6e17d687e4db58c5fa0b007086c6b1490f9971b76b86556fdb0b7"
+    },
+    {
+      "path": "src/utils/hex_hex.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/hex_hex.py",
+      "bytes": 2829,
+      "sha256": "a7b21cecf332cd941c8c834c2fe92c2b1297bc3bd09a9419e31cdb3f9c951df5"
+    },
+    {
+      "path": "src/utils/ng_view.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/ng_view.py",
+      "bytes": 1283,
+      "sha256": "a59194a28b91f1635c222a17b362c736f69324d9f03b1efa82bcac222ac185fc"
+    },
+    {
+      "path": "src/utils/ol_color.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/ol_color.py",
+      "bytes": 5997,
+      "sha256": "1cfd5c89091fdb2e8ce7cfe8a4b7a8488af8f040b6490a2d4b4f7393e5692cf8"
+    },
+    {
+      "path": "src/utils/ol_data.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/ol_data.py",
+      "bytes": 38522,
+      "sha256": "2b9a300a01674cfaea117fb7d553ea8eb9df29ddd5b9f7e44c49e52076672abd"
+    },
+    {
+      "path": "src/utils/ol_rf.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/ol_rf.py",
+      "bytes": 45800,
+      "sha256": "ef698065770b6a8e262e613b49f97d3eb1bcab9f53c0a8fc68f24f73480e09ff"
+    },
+    {
+      "path": "src/utils/olc_client.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/olc_client.py",
+      "bytes": 2536,
+      "sha256": "0e57684346f1479f6ac6b6edfa9d27f592e3a521867313a11bef834fb4148dac"
+    },
+    {
+      "path": "src/utils/palettes.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/palettes.py",
+      "bytes": 2100,
+      "sha256": "48872431684089bb253d807432d27d9e63a17e6d484abdb0e57dbe7ab8e4bc94"
+    },
+    {
+      "path": "src/utils/path_filtering.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/path_filtering.py",
+      "bytes": 11721,
+      "sha256": "5e3908519de2fc9efd302803be01e25c8128b0fc3e4444a454f4936d15dd8dc3"
+    },
+    {
+      "path": "src/utils/pdf_report.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/pdf_report.py",
+      "bytes": 15036,
+      "sha256": "a1be9d473b2cfc2da2b35bc563a63cb9251cf7bd70136649b4d2b9227667f50b"
+    },
+    {
+      "path": "src/utils/plotter.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotter.py",
+      "bytes": 44193,
+      "sha256": "bb4014539b9d52dea9e97cfc6d54a63a0b81e44d31024bfdcd88fdfcba427d8a"
+    },
+    {
+      "path": "src/utils/plotting.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting.py",
+      "bytes": 5659,
+      "sha256": "df867329da403b81fa25907e4ff40690ab525ddf2a857884b1d08adee0317967"
+    },
+    {
+      "path": "src/utils/plotting_cb_lr_clustering.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_cb_lr_clustering.py",
+      "bytes": 41547,
+      "sha256": "6e020b045996f18e0d1d614b2c7b961775ef20c179ae43abc40e0a09d46bf5a1"
+    },
+    {
+      "path": "src/utils/plotting_cb_rf.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_cb_rf.py",
+      "bytes": 29161,
+      "sha256": "ea8555412b8b7995843d2a81f4ea8bf2fe7a841d6a5804b7a421d04b83739e58"
+    },
+    {
+      "path": "src/utils/plotting_cb_vic.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_cb_vic.py",
+      "bytes": 5336,
+      "sha256": "091d391f7ba580475a21478f6a54af9dc0a2b31b4905681612a7e4216b6f4303"
+    },
+    {
+      "path": "src/utils/plotting_clusters.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_clusters.py",
+      "bytes": 51401,
+      "sha256": "5f7d8cc62bd8a9d745eaa324873f8b8742de12f177069f3cc3633fc7931aae25"
+    },
+    {
+      "path": "src/utils/plotting_flow.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_flow.py",
+      "bytes": 22574,
+      "sha256": "251ad3003c18e088965e261f5b111f72f88078ad819e2461b0afa09c3cc586ab"
+    },
+    {
+      "path": "src/utils/plotting_inventory.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_inventory.py",
+      "bytes": 5319,
+      "sha256": "32e6f48b309a9825b43c8f5485c8dc91b57192eae318146e4e90d4e43393c0be"
+    },
+    {
+      "path": "src/utils/plotting_lr_clustering.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_lr_clustering.py",
+      "bytes": 5862,
+      "sha256": "b23fadb11201038d57581ecad78cc015c8324639bcaf7a6e4d8b17d59ed85e63"
+    },
+    {
+      "path": "src/utils/plotting_polarity.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_polarity.py",
+      "bytes": 2811,
+      "sha256": "7ec8ba2241c6bde72b423b99e523e1d92a5a9dbf256ab513e470ae16d1fe4500"
+    },
+    {
+      "path": "src/utils/plotting_rf.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_rf.py",
+      "bytes": 32833,
+      "sha256": "2d9ccc598017feb21d6c9a52111419d244ffaf36d1575197796d17c89825763f"
+    },
+    {
+      "path": "src/utils/plotting_rf_experimental.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_rf_experimental.py",
+      "bytes": 15590,
+      "sha256": "824e9333c7454f2a105fbbe0b924618922474bd3c44f9b4e49ee4e2f27dcf299"
+    },
+    {
+      "path": "src/utils/plotting_shared.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/plotting_shared.py",
+      "bytes": 27488,
+      "sha256": "58de50db6b052566d5f8afeb61122d9a46aff8aa8c901f88951edf2cdaa2a315"
+    },
+    {
+      "path": "src/utils/polarity.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/polarity.py",
+      "bytes": 17668,
+      "sha256": "2cd7cfbc429b35e08c2dd4c95045981d593e3fab5d390ea7fd5f8a0ba11dc4e9"
+    },
+    {
+      "path": "src/utils/projection_plots.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/projection_plots.py",
+      "bytes": 25723,
+      "sha256": "688a4a40a88b10e5d42d64db3c3d7746fb25c34fd2d0aa44169a5c095d778017"
+    },
+    {
+      "path": "src/utils/query_roi.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/query_roi.py",
+      "bytes": 2150,
+      "sha256": "b1da05a932bee48eecf9ac586989e7d16cf59b8bea3f2d6419cd7f3ac63da22c"
+    },
+    {
+      "path": "src/utils/vic.py",
+      "url": "https://raw.githubusercontent.com/reiserlab/visualpathways/23f6ac131529b5f56894c6eeb9b88b17894fc00d/src/utils/vic.py",
+      "bytes": 14386,
+      "sha256": "714bbfe9e7720432bcc95e6a61ed096e78b1470258e84df824335089786acef7"
+    }
+  ]
+}

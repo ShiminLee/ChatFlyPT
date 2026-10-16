@@ -1,0 +1,25 @@
+{
+  "scope": "Anatomical input connectivity only; not a simulated or observed turn",
+  "dataset": "MaleCNS v1.0",
+  "target_count_note": "Raw edge targets can include small/unclassified fragments; they are not a count of identified downstream neurons.",
+  "channels": {
+    "right_foreleg_touch": {
+      "selected_sensory_cells": 100,
+      "cells_with_outgoing_edges": 100,
+      "outgoing_edge_rows": 46788,
+      "summed_connection_weight": 69375,
+      "unique_raw_target_bodies": 37477,
+      "targets_with_annotated_superclass": 765,
+      "selected_ids_without_outgoing_edges": []
+    },
+    "left_foreleg_touch": {
+      "selected_sensory_cells": 124,
+      "cells_with_outgoing_edges": 124,
+      "outgoing_edge_rows": 65778,
+      "summed_connection_weight": 103796,
+      "unique_raw_target_bodies": 53144,
+      "targets_with_annotated_superclass": 1037,
+      "selected_ids_without_outgoing_edges": []
+    }
+  }
+}

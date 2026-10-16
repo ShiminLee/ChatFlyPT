@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-24",
+  "pytest": {
+    "passed": 125,
+    "failed": 0,
+    "duration_seconds": 82.33,
+    "files": ["tests/test_behavior_readout.py", "tests/test_behavior_body.py", "tests/test_joint_motor.py", "tests/test_neural_session.py", "tests/test_dialogue.py", "tests/test_feedback_readout.py", "tests/test_embodied_physics.py"]
+  },
+  "formal_physics_runs": 30,
+  "physics_finite_without_warnings": true,
+  "ui": {
+    "url": "http://127.0.0.1:8766/",
+    "input_message": "糖",
+    "reply_malecns": "候选神经读出（连续反馈仅有限验证）：我在左侧尝到了甜味。我在右侧尝到了甜味。",
+    "datasets_displayed_independently": ["FlyWire v783", "MaleCNS v1.0"],
+    "body_note": "实测姿态 · 神经驱动工程控制器 · 未接 363 个运动相关细胞（累计）",
+    "coverage_details_visible": true,
+    "joint_command_details_visible": true,
+    "footer_bottom_px": 643.2000370025635,
+    "body_card_bottom_px": 675,
+    "layout_screenshot_visually_checked": true
+  },
+  "applied_environment": {"revision": 5, "objects": 8, "modified_by_this_task": false},
+  "default_transmitter_model_changed": false,
+  "llm_action_controller_added": false
+}

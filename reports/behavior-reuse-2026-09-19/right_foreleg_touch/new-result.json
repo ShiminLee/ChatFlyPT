@@ -1,0 +1,134 @@
+{
+  "schema": "chatflypt.body.v1",
+  "dataset": "MaleCNS v1.0",
+  "context": "ground",
+  "physics_run": false,
+  "trajectory": [],
+  "legs": [
+    "lf",
+    "lm",
+    "lh",
+    "rf",
+    "rm",
+    "rh"
+  ],
+  "geometry_asset": "/assets/neuromechfly-behavior-scene.json",
+  "model_variant": "badapple-fly-full-behavior",
+  "source_duration_ms": 500.0,
+  "motor_spikes": 0,
+  "active_motor_neurons": 0,
+  "source_spikes_sha256": "d19b5cc22ae02092a4e78ea3c08055bd9a17f4c9daf7725e2c93d99f21f02755",
+  "source_mapping": "Bad Apple Fly 13 original groups and unchanged motor_commands; type+somaSide; directly driven cells excluded",
+  "mapping_source": {
+    "repository": "https://github.com/kevinlinxc/badapple-fly",
+    "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+    "file": "backend/evidence.py",
+    "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+    "url": "https://github.com/kevinlinxc/badapple-fly/blob/6726892e7ebd93e6c5ffab056ab8db09433c28a6/backend/evidence.py"
+  },
+  "controller": "Bad Apple Fly Body + official FlyGym HybridTurningController; original qualitative mouth/wing/grooming programs",
+  "controller_id": "badapple_hybrid_v1",
+  "source": {
+    "repository": "https://github.com/kevinlinxc/badapple-fly",
+    "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+    "body_path": "vendor/badapple-fly/backend/body.py",
+    "body_sha256": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+    "evidence_path": "vendor/badapple-fly/backend/evidence.py",
+    "evidence_sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+    "adapter_sha256": "facd95564ce1829e1cb4387c9d7d90f8e1b88b15711e53e32f530f6891f0d5a4",
+    "reuse": "Body construction, reset, advance, _gesture and Hybrid controller are executed unchanged",
+    "adaptations": [
+      "Replay one original physics step at a time using only completed neural bins.",
+      "Export full-precision body/geom poses and separate warmup and neural timestamps.",
+      "No-command windows return no active trajectory.",
+      "Validation passive replay disables all actuator gains/biases and bypasses the motor controller after the same warmup."
+    ],
+    "license": "No root license file found in the recorded Bad Apple Fly tree. Official FlyGym model/assets: Apache-2.0."
+  },
+  "sourcehash": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+  "biologically_calibrated": false,
+  "units": {
+    "position": "mm",
+    "time": "ms",
+    "angles": "rad",
+    "actuator_force": "Native MuJoCo per-actuator units; mixed force/torque, not SI-converted"
+  },
+  "initialization": {
+    "performed": false
+  },
+  "controls": {
+    "active_posture_hold_when_commands_zero": true,
+    "controller_local_feedback": "Official Hybrid foot height/contact and heading feedback; no feedback into the neural connectome",
+    "passive_control": false
+  },
+  "summary": {
+    "finite_state": null,
+    "physics_warnings": 0
+  },
+  "limitations": [
+    "采用 Bad Apple Fly 的定性细胞群映射及原控制公式，增益和动作模板未经行为生理校准。",
+    "只读真实记录的 spike；直接刺激细胞已排除，不能把刺激输出细胞当作下游反应。",
+    "MaleCNS 按 type/somaSide，FlyWire 按 cell_type/side；只匹配原类型名，缺失类型或侧别不猜测补齐。",
+    "DNg12/DNg02 采用原作者明确的下划线子类型家族规则；个别子类型的动作作用未验证。",
+    "FlyWire 不含完整 VNC；同名细胞到同一动作程序的跨数据集应用仍是工程映射。",
+    "先完成神经记录再因果回放身体；没有地面接触向神经网络的感觉反馈。",
+    "行为命令不等于已发生的动作；是否运动须由实际身体仿真轨迹确定。",
+    "复用 Bad Apple Fly 原动作程序与增益；它们是定性工程映射，未经行为或肌肉生理校准。",
+    "原版零命令仍有主动姿态维持及 Hybrid 局部反馈；这种力和位移不是神经指令证据。",
+    "预热使用原版姿态执行器，预热结束另设神经回放时间零点，不计作神经响应。",
+    "身体接触和关节状态只反馈到 Hybrid 局部控制器，没有反馈到连接组神经网络。",
+    "飞行场景为显式系留：固定胸部位置姿态并挥翅；没有气动力或自由飞行。",
+    "NeuroMechFly 雌蝇几何与 MaleCNS 雄蝇连接组未做个体或性别配准。",
+    "此官方模型有 rostrum/haustellum 口器关节，没有独立 labellum 网格或关节；原程序中该名称的分支不会创建新结构。",
+    "行为命令不等于实现的动作；实际位姿来自 MuJoCo，重力和被动关节同样影响运动。"
+  ],
+  "duration_ms": 500.0,
+  "requested_duration_ms": 500.0,
+  "truncated": false,
+  "motor_activity_in_window": false,
+  "command_summary": {
+    "left": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "right": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "antenna": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "rub": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "anterior": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "feeding": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "song": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "escape": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "flight": {
+      "min": 0.0,
+      "max": 0.0
+    },
+    "landing": {
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "status": "no_motor_activity",
+  "reason": "当前时间窗没有可用的非零行为指令，未生成主动动作记录。",
+  "source_drive_artifact": "D:\\Projects\\python\\fly\\reports\\behavior-reuse-2026-09-19\\right_foreleg_touch\\new\\behavior-drive.json"
+}

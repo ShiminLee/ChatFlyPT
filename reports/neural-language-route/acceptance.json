@@ -1,0 +1,2388 @@
+{
+  "scope": "Independent reconstruction of finite neural readout -> natural language",
+  "exact_author_replication": false,
+  "llm_called": false,
+  "external_action_control": false,
+  "body_physics_tested_here": false,
+  "continuous_feedback_calibrated_here": false,
+  "decoder_sha256": "b5545a440cd1fdd6f1dd20de596bf20d8f4dbd03f9f9f68f547b36aab1a6f305",
+  "expression_source_sha256": "f84fdc9b12b1c7f757f9b0dc1a86b349ece07c2ee7855bab4e4556202eb18b95",
+  "direct_input_and_sensory_features_excluded": true,
+  "fresh_successes": 20,
+  "fresh_total": 20,
+  "archived_successes": 20,
+  "all_archived_hashes_match": true,
+  "fixed_question_suffix_used": false,
+  "silence": {
+    "decoded_words": [],
+    "expression": {
+      "schema": "chatflypt.expression.v2",
+      "source": "blind_neural_readout",
+      "status": "no_signal",
+      "text": null,
+      "messages": [],
+      "labels": [],
+      "observation_id": "fresh-silence",
+      "dataset": "FlyWire v783",
+      "activity": {
+        "non_sensory_spikes": 0,
+        "membrane_internal_cells": null
+      },
+      "llm_called": false,
+      "scope": "finite_neural_labels_to_language",
+      "outward_signal_decoded": false,
+      "limitations": [
+        "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+        "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+        "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+      ],
+      "reason": "本轮没有记录到可供翻译的内部神经反应。"
+    },
+    "english_sensory_text": "I cannot identify a supported sensory signal.",
+    "matches_example_words": false
+  },
+  "fresh_trials": [
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092400",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092400",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136634,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092400,
+      "raw_record": "data\\derived\\neural-language-route\\2026092400.npz",
+      "raw_sha256": "e20093cfabc31cab5609ca9b6139805b004ca1dd35c62558669dd9cdfce2309a"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092401",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092401",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136057,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092401,
+      "raw_record": "data\\derived\\neural-language-route\\2026092401.npz",
+      "raw_sha256": "d831461950b6d78499c7e3e68fac2b52357afd28ff25d950bdd52f9eb4d676d8"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092402",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092402",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137070,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092402,
+      "raw_record": "data\\derived\\neural-language-route\\2026092402.npz",
+      "raw_sha256": "0fe47d098d29394d3d1cb32d1a6619b7e59fd629931535c346295dfd1bb367ad"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092403",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092403",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136917,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092403,
+      "raw_record": "data\\derived\\neural-language-route\\2026092403.npz",
+      "raw_sha256": "dfa078c12815fd8981a6798a7654080dc475d3e28cd803a3fc5e4cc5e19aad05"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092404",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092404",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137098,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092404,
+      "raw_record": "data\\derived\\neural-language-route\\2026092404.npz",
+      "raw_sha256": "bf2b1f71b8f8d1ff18a9a7c9b448021753e8b530c710cfbec1c29b5d8a2951e6"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092405",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092405",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137326,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092405,
+      "raw_record": "data\\derived\\neural-language-route\\2026092405.npz",
+      "raw_sha256": "25ff1d669ba5fde5d56e16b039271cac69e3563241b2841db5224a94f9e29943"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092406",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092406",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136475,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092406,
+      "raw_record": "data\\derived\\neural-language-route\\2026092406.npz",
+      "raw_sha256": "cd561b7ffbb87eddb6c1475d8fe0cb7333211680f904ddec79ce0ee01fa68a97"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092407",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092407",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136114,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092407,
+      "raw_record": "data\\derived\\neural-language-route\\2026092407.npz",
+      "raw_sha256": "19c444f2b0fda48167cb2128e24c4d7a9b34e7c8a25b5e055db2b37394df5b1f"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092408",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092408",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137277,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092408,
+      "raw_record": "data\\derived\\neural-language-route\\2026092408.npz",
+      "raw_sha256": "408c21f06457c75df3807b12be436d34bdb9694d1bbb2536bcb2380428cc7872"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092409",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092409",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137101,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092409,
+      "raw_record": "data\\derived\\neural-language-route\\2026092409.npz",
+      "raw_sha256": "81a80c2459b26e70e913570924b9f76c23f8ee53baba47b06a5a0bfbdb7ba055"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092410",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092410",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136094,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092410,
+      "raw_record": "data\\derived\\neural-language-route\\2026092410.npz",
+      "raw_sha256": "631c13a70911bd32d6a54fd670bb49de7a08f044f226077abac1da316a314a39"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092411",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092411",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137037,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092411,
+      "raw_record": "data\\derived\\neural-language-route\\2026092411.npz",
+      "raw_sha256": "4ebe6ad4546e0d3d7aa4f98a4d3f0e7f1ef9d6351cacfbe66acf38ed9800cb12"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092412",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092412",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137468,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092412,
+      "raw_record": "data\\derived\\neural-language-route\\2026092412.npz",
+      "raw_sha256": "f055315e8e9f4ad844e19f24a2c04a7fad9aa27f6eca85373b5c6454d495b59f"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092413",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092413",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137313,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092413,
+      "raw_record": "data\\derived\\neural-language-route\\2026092413.npz",
+      "raw_sha256": "e0acf535b0e260b29f81ead88174413482e84a6cf6cfde4ef86d05b0f080a572"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092414",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092414",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137351,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092414,
+      "raw_record": "data\\derived\\neural-language-route\\2026092414.npz",
+      "raw_sha256": "ce8128cb20b65109282a3bcaf92e6e593b43b8d9a2a05d73eb8f879d79dc0ec0"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092415",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092415",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136321,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092415,
+      "raw_record": "data\\derived\\neural-language-route\\2026092415.npz",
+      "raw_sha256": "3d08c85c53d8cbaa5a79763f0bcf742993b0d12b4f0d42243d57131a653f718b"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092416",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092416",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136887,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092416,
+      "raw_record": "data\\derived\\neural-language-route\\2026092416.npz",
+      "raw_sha256": "419b3242ca0c34648e63d48937b5f35a80846e1ed305d9b5b882bec4f146dd3a"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092417",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092417",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136423,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092417,
+      "raw_record": "data\\derived\\neural-language-route\\2026092417.npz",
+      "raw_sha256": "479983c17fc72e88a7a52793d91a2765d9b43b9eded4b8460d2162ece995b310"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092418",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092418",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137106,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092418,
+      "raw_record": "data\\derived\\neural-language-route\\2026092418.npz",
+      "raw_sha256": "43bc4ba7f82a23daa22d0d080f6b6b74a49e1a4179f7bd7dbe9cc4690435af00"
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "fresh-2026092419",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "fresh-2026092419",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136734,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 2026092419,
+      "raw_record": "data\\derived\\neural-language-route\\2026092419.npz",
+      "raw_sha256": "ec95f285f5aa838fff631581e6c8e73cc7eadab5ddab593c8fb062f4223c2f06"
+    }
+  ],
+  "archived_trials": [
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81000",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81000",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136530,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81000,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81001",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81001",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136605,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81001,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81002",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81002",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136755,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81002,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81003",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81003",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136811,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81003,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81004",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81004",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136540,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81004,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81005",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81005",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136752,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81005,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81006",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81006",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136339,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81006,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81007",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81007",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136429,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81007,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81008",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81008",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136594,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81008,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81009",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81009",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136657,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81009,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81010",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81010",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136701,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81010,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81011",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81011",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 135785,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81011,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81012",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81012",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 135990,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81012,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81013",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81013",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 135670,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81013,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81014",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81014",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137375,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81014,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81015",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81015",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136512,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81015,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81016",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81016",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 136433,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81016,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81017",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81017",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137209,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81017,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81018",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81018",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 135771,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81018,
+      "raw_sha256_matches": true
+    },
+    {
+      "decoded_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "decoded",
+        "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "decoded",
+            "dataset": "FlyWire v783",
+            "observation_id": "archived-81019",
+            "labels": [
+              "bright",
+              "sugar",
+              "vinegar",
+              "warm",
+              "yeast"
+            ]
+          }
+        ],
+        "labels": [
+          "bright",
+          "sugar",
+          "vinegar",
+          "warm",
+          "yeast"
+        ],
+        "observation_id": "archived-81019",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 137133,
+          "membrane_internal_cells": null
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "english_sensory_text": "I smell vinegar and yeast. I taste sugar. It is warm and bright.",
+      "matches_example_words": true,
+      "seed": 81019,
+      "raw_sha256_matches": true
+    }
+  ]
+}

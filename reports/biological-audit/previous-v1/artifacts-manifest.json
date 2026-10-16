@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "chatflypt/__init__.py",
+      "sha256": "a5ecfbb67f5fd34d478b5180da6cabe9da678d8b40e0cd4d301b010b501e016e",
+      "bytes": 99
+    },
+    {
+      "path": "chatflypt/brain.py",
+      "sha256": "2f797e3616c7d7c674367e48192568d272b895c451da36e01c12058761c3af93",
+      "bytes": 6531
+    },
+    {
+      "path": "chatflypt/demo.py",
+      "sha256": "7dcd01eec3826c7faaf1e1894a0ccc99e85f2cb88d59585f935f8a42dbf1aeca",
+      "bytes": 15322
+    },
+    {
+      "path": "chatflypt/experiment.py",
+      "sha256": "db54532de9ffffdc60cec7aae83eabdbaaa97fb40d2c634872af3934e5f5f860",
+      "bytes": 12175
+    },
+    {
+      "path": "chatflypt/language.py",
+      "sha256": "ef083e6b7ed495ae478c8158b0508d714e7e2252d8e376158abbf79a9a9d5d7d",
+      "bytes": 6756
+    },
+    {
+      "path": "chatflypt/paths.py",
+      "sha256": "6b55918f7758635571c58dd829dd8b08413c592e3f8794fde3a0ae31457a7957",
+      "bytes": 496
+    },
+    {
+      "path": "chatflypt/report.py",
+      "sha256": "3616f6067e3c58c774b5ce38977896dd28171d52776a1f09da7341c1f2c5bbb4",
+      "bytes": 6782
+    },
+    {
+      "path": "chatflypt/server.py",
+      "sha256": "defcac8146fc07749530b43b93ae9a5c0b16565b221cf054b7c384925af8f1d0",
+      "bytes": 7042
+    },
+    {
+      "path": "chatflypt/stimuli.py",
+      "sha256": "b85d498960801e0d591a483ae8aa63fa4687fdd3feca0e81068f67a5d1fc9dd5",
+      "bytes": 6524
+    },
+    {
+      "path": "chatflypt/verify.py",
+      "sha256": "a3ca270224bfca56d18c6a40f48a499fe63d5f520dc5817a559a98c1bf39a94f",
+      "bytes": 3347
+    },
+    {
+      "path": "chatflypt/web/index.html",
+      "sha256": "d5a46ebce889b43678823275e400a8a80f41a4be154a3b1221a3c69595ee47fa",
+      "bytes": 8580
+    },
+    {
+      "path": "research/requirements-reconstruction.lock.txt",
+      "sha256": "06f58a6e100907a42f9319db5dd73485886956fcdd5e16d75ae0614991c9065f",
+      "bytes": 742
+    },
+    {
+      "path": "data/derived/reconstruction/decoder.npz",
+      "sha256": "429d90ac15652d542c65964880229b1d4ff4949b95a8c9822fff7444e72de6f1",
+      "bytes": 1297179
+    },
+    {
+      "path": "data/derived/reconstruction/decoder-motor.npz",
+      "sha256": "8f5adae7934c66115dd8e58f7304af00ac78b4d741f9623c4e7b136374230799",
+      "bytes": 65589
+    },
+    {
+      "path": "data/derived/reconstruction/command-decoder-descending_motor.npz",
+      "sha256": "44f7dd054855c3edfff77fd7ca1a320c9ddc609414606d7e9ed25050bf2c1649",
+      "bytes": 2684
+    },
+    {
+      "path": "data/derived/reconstruction/corpus.json",
+      "sha256": "e39ff055d2b4656530d81899f0d18bbeb92ca8725fff7675270fef7b53d438a3",
+      "bytes": 195161
+    }
+  ]
+}

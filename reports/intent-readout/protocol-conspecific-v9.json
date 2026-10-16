@@ -1,0 +1,44 @@
+{
+  "schema": "chatflypt.intent-readout-protocol.v1",
+  "run_id": "conspecific-v9",
+  "mode": "continuous",
+  "dataset": "MaleCNS v1.0",
+  "input_mode": "environment_only",
+  "duration_ms": 500.0,
+  "split_unit": "whole_session",
+  "label_source": "Measured body outcome in the same 500 ms window: yaw change and path length",
+  "features": "sqrt spikes; log1p positive/negative voltage area; normalized to 500 ms",
+  "feature_rule": "All annotated sensory classes and every registered input cell excluded; training-active internal cells only",
+  "readout": "sqrt spike counts and log1p voltage areas -> Ridge alpha=10",
+  "thresholds_from": "Training split quantiles only, before any validation or test window is scored",
+  "turn_quantile_of_abs_yaw": 0.85,
+  "activity_quantile_of_path": 0.5,
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "revision_history": [
+    "v1 (fixed 5 deg / 0.5 mm discrete rules): zero qualified labels on retinal-axes-v3; right turns absent from validation and \"forward\" covered ~80% of windows.",
+    "v2 (discrete labels, training-quantile thresholds): move:active/move:still qualified on retinal-axes-v3, nothing qualified on conspecific-v4.",
+    "v3 (continuous vector regression, this mode): rules fixed before the conspecific-v5 corpus exists."
+  ],
+  "explicit_non_claims": [
+    "The body is driven by recorded neural activity through a pinned engineering controller; part of what is learned is that controller map.",
+    "A label is a measured movement, not a validated internal intention or a decoded command.",
+    "No window is labelled from the human sentence, the scene, the planned stimulus or the recorded motor commands."
+  ],
+  "targets": [
+    "yaw_change_deg",
+    "path_length_mm"
+  ],
+  "rules": {
+    "turn_r_min": 0.5,
+    "turn_sign_min": 0.75,
+    "move_r_min": 0.5,
+    "move_precision": 0.85,
+    "move_recall": 0.7
+  },
+  "qualification": {
+    "turn": "r(predicted, measured yaw) >= turn_r_min over validation AND sign agreement >= turn_sign_min over validation windows whose |measured yaw| exceeds the training-split turn quantile",
+    "move": "r(predicted, measured path) >= move_r_min AND a threshold at the training median of path reaches >= move_precision and >= move_recall on validation"
+  },
+  "speech": "Only qualified components are spoken; the other abstains."
+}

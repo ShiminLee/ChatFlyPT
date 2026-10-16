@@ -1,0 +1,451 @@
+{
+  "schema": "chatflypt.turn-exchange.v1",
+  "rounds": 6,
+  "policy": {
+    "song_reply": "measured song motor activity > 0 -> present a courtship-song field at the pedicel",
+    "nudge_back": "a measured foreleg touch -> tap the opposite foreleg three times",
+    "offer_food": "measured motion active -> place a sugar platform 1 mm ahead",
+    "prompt": "nothing measured -> a single gentle tap on the right foreleg"
+  },
+  "llm_called": false,
+  "human_text_used": false,
+  "session": "one MaleCNS neural/body session; state preserved across rounds",
+  "readouts": {
+    "unified": "data\\derived\\unified-readout\\malecns-decoder.npz",
+    "slots": "data\\derived\\slot-readout\\malecns-slots.npz",
+    "intent": "data\\derived\\intent-readout\\malecns-intent.npz"
+  },
+  "exchange": [
+    {
+      "round": 0,
+      "presented": [
+        {
+          "kind": "touch",
+          "side": "left",
+          "body_part": "foreleg",
+          "strength": 1.0,
+          "onset_ms": 50.0,
+          "duration_ms": 60.0,
+          "taps": 3,
+          "interval_ms": 140.0
+        }
+      ],
+      "presented_reason": "开场：对左前腿轻敲三次（声明的开场刺激）",
+      "measured": {
+        "delivered_items": {
+          "mc_bright:left": 50,
+          "mc_bright:right": 50,
+          "foreleg_touch:left": 6
+        },
+        "contact_samples": 6,
+        "song_motor_max": 0.0,
+        "touched_channels": [
+          "foreleg_touch:left"
+        ],
+        "outcome": {
+          "yaw_change_deg": -1.836150377325879,
+          "path_length_mm": 3.903049880537796
+        }
+      },
+      "readout": {
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:left"
+        ],
+        "slots": [
+          "pattern:sustained",
+          "activity:moderate"
+        ],
+        "intent": [
+          "move:active"
+        ],
+        "text": "它这一轮：这一轮它状态一般。我在左侧察觉到了光；同时我在右侧察觉到了光；同时我感到左前腿被碰到了。整个窗口里这种感觉都没有停。",
+        "render_slots": [
+          "activity:moderate",
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:left",
+          "pattern:sustained"
+        ]
+      },
+      "audit": {
+        "invented": [],
+        "unsupported": [],
+        "contradicted": [],
+        "audited_slots": 5
+      }
+    },
+    {
+      "round": 1,
+      "presented": [
+        {
+          "kind": "touch",
+          "side": "right",
+          "body_part": "foreleg",
+          "strength": 1.2,
+          "onset_ms": 50.0,
+          "duration_ms": 60.0,
+          "taps": 3,
+          "interval_ms": 140.0
+        }
+      ],
+      "presented_reason": "实测到 foreleg_touch:left 的接触 → 敲右前腿三次（对侧轻推）",
+      "measured": {
+        "delivered_items": {
+          "mc_bright:left": 50,
+          "mc_bright:right": 50,
+          "foreleg_touch:right": 6
+        },
+        "contact_samples": 6,
+        "song_motor_max": 0.0,
+        "touched_channels": [
+          "foreleg_touch:right"
+        ],
+        "outcome": {
+          "yaw_change_deg": 2.3592431343045916,
+          "path_length_mm": 1.5248142661240371
+        }
+      },
+      "readout": {
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:right"
+        ],
+        "slots": [
+          "pattern:sustained",
+          "activity:moderate"
+        ],
+        "intent": [
+          "move:still"
+        ],
+        "text": "以下是这一轮盲读出的内容：它的活动处于中等水平。我在左侧察觉到了光；另外我在右侧察觉到了光；另外我感到右前腿被碰到了。整个窗口里这种感觉都没有停。",
+        "render_slots": [
+          "activity:moderate",
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:right",
+          "pattern:sustained"
+        ]
+      },
+      "audit": {
+        "invented": [],
+        "unsupported": [],
+        "contradicted": [],
+        "audited_slots": 5
+      }
+    },
+    {
+      "round": 2,
+      "presented": [
+        {
+          "kind": "touch",
+          "side": "left",
+          "body_part": "foreleg",
+          "strength": 1.2,
+          "onset_ms": 50.0,
+          "duration_ms": 60.0,
+          "taps": 3,
+          "interval_ms": 140.0
+        }
+      ],
+      "presented_reason": "实测到 foreleg_touch:right 的接触 → 敲左前腿三次（对侧轻推）",
+      "measured": {
+        "delivered_items": {
+          "mc_bright:left": 50,
+          "mc_bright:right": 50,
+          "foreleg_touch:left": 7
+        },
+        "contact_samples": 7,
+        "song_motor_max": 0.0,
+        "touched_channels": [
+          "foreleg_touch:left"
+        ],
+        "outcome": {
+          "yaw_change_deg": -2.4335251431958795,
+          "path_length_mm": 0.6040964061628177
+        }
+      },
+      "readout": {
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:left"
+        ],
+        "slots": [
+          "pattern:sustained",
+          "activity:moderate"
+        ],
+        "intent": [
+          "move:still"
+        ],
+        "text": "它这一轮：它不算安静，也不算活跃。我在左侧察觉到了光；而且我在右侧察觉到了光；而且我感到左前腿被碰到了。整个窗口里这种感觉都没有停。",
+        "render_slots": [
+          "activity:moderate",
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:left",
+          "pattern:sustained"
+        ]
+      },
+      "audit": {
+        "invented": [],
+        "unsupported": [],
+        "contradicted": [],
+        "audited_slots": 5
+      }
+    },
+    {
+      "round": 3,
+      "presented": [
+        {
+          "kind": "touch",
+          "side": "right",
+          "body_part": "foreleg",
+          "strength": 1.2,
+          "onset_ms": 50.0,
+          "duration_ms": 60.0,
+          "taps": 3,
+          "interval_ms": 140.0
+        }
+      ],
+      "presented_reason": "实测到 foreleg_touch:left 的接触 → 敲右前腿三次（对侧轻推）",
+      "measured": {
+        "delivered_items": {
+          "mc_bright:left": 50,
+          "mc_bright:right": 50,
+          "foreleg_touch:right": 5
+        },
+        "contact_samples": 5,
+        "song_motor_max": 0.0,
+        "touched_channels": [
+          "foreleg_touch:right"
+        ],
+        "outcome": {
+          "yaw_change_deg": -3.4376498100667447,
+          "path_length_mm": 4.067728293444928
+        }
+      },
+      "readout": {
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:right"
+        ],
+        "slots": [
+          "pattern:sustained",
+          "activity:moderate"
+        ],
+        "intent": [
+          "move:active"
+        ],
+        "text": "它这一轮：它不算安静，也不算活跃。我在左侧察觉到了光；同时我在右侧察觉到了光；同时我感到右前腿被碰到了。这种感觉一直持续着。",
+        "render_slots": [
+          "activity:moderate",
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:right",
+          "pattern:sustained"
+        ]
+      },
+      "audit": {
+        "invented": [],
+        "unsupported": [],
+        "contradicted": [],
+        "audited_slots": 5
+      }
+    },
+    {
+      "round": 4,
+      "presented": [
+        {
+          "kind": "touch",
+          "side": "left",
+          "body_part": "foreleg",
+          "strength": 1.2,
+          "onset_ms": 50.0,
+          "duration_ms": 60.0,
+          "taps": 3,
+          "interval_ms": 140.0
+        }
+      ],
+      "presented_reason": "实测到 foreleg_touch:right 的接触 → 敲左前腿三次（对侧轻推）",
+      "measured": {
+        "delivered_items": {
+          "mc_bright:left": 50,
+          "mc_bright:right": 50,
+          "foreleg_touch:left": 8
+        },
+        "contact_samples": 8,
+        "song_motor_max": 0.0,
+        "touched_channels": [
+          "foreleg_touch:left"
+        ],
+        "outcome": {
+          "yaw_change_deg": -1.7127058781530025,
+          "path_length_mm": 2.9975427430520747
+        }
+      },
+      "readout": {
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:left"
+        ],
+        "slots": [
+          "pattern:sustained",
+          "activity:moderate"
+        ],
+        "intent": [
+          "move:still"
+        ],
+        "text": "它不算安静，也不算活跃。我在左侧察觉到了光；另外我在右侧察觉到了光；另外我感到左前腿被碰到了。这种感觉一直持续着。",
+        "render_slots": [
+          "activity:moderate",
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:left",
+          "pattern:sustained"
+        ]
+      },
+      "audit": {
+        "invented": [],
+        "unsupported": [],
+        "contradicted": [],
+        "audited_slots": 5
+      }
+    },
+    {
+      "round": 5,
+      "presented": [
+        {
+          "kind": "touch",
+          "side": "right",
+          "body_part": "foreleg",
+          "strength": 1.2,
+          "onset_ms": 50.0,
+          "duration_ms": 60.0,
+          "taps": 3,
+          "interval_ms": 140.0
+        }
+      ],
+      "presented_reason": "实测到 foreleg_touch:left 的接触 → 敲右前腿三次（对侧轻推）",
+      "measured": {
+        "delivered_items": {
+          "mc_bright:left": 50,
+          "mc_bright:right": 50,
+          "foreleg_touch:right": 5
+        },
+        "contact_samples": 5,
+        "song_motor_max": 0.0,
+        "touched_channels": [
+          "foreleg_touch:right"
+        ],
+        "outcome": {
+          "yaw_change_deg": 2.9068466437965697,
+          "path_length_mm": 0.600691799352845
+        }
+      },
+      "readout": {
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:right"
+        ],
+        "slots": [
+          "pattern:sustained"
+        ],
+        "intent": [
+          "move:still"
+        ],
+        "text": "它这一轮：我在左侧察觉到了光；另外我在右侧察觉到了光；另外我感到右前腿被碰到了。这种感觉一直持续着。",
+        "render_slots": [
+          "bright:left",
+          "bright:right",
+          "foreleg_touch:right",
+          "pattern:sustained"
+        ]
+      },
+      "audit": {
+        "invented": [],
+        "unsupported": [],
+        "contradicted": [],
+        "audited_slots": 4
+      }
+    }
+  ],
+  "summary": {
+    "rounds_recorded": 6,
+    "rounds_with_sensation": 6,
+    "rounds_with_motion": 6,
+    "rounds_song_reply": 0,
+    "rounds_nudge_back": 5,
+    "nudged_side_by_round": [
+      [
+        0,
+        "left"
+      ],
+      [
+        1,
+        "right"
+      ],
+      [
+        2,
+        "left"
+      ],
+      [
+        3,
+        "right"
+      ],
+      [
+        4,
+        "left"
+      ],
+      [
+        5,
+        "right"
+      ]
+    ],
+    "touched_side_by_round": [
+      [
+        0,
+        [
+          "foreleg_touch:left"
+        ]
+      ],
+      [
+        1,
+        [
+          "foreleg_touch:right"
+        ]
+      ],
+      [
+        2,
+        [
+          "foreleg_touch:left"
+        ]
+      ],
+      [
+        3,
+        [
+          "foreleg_touch:right"
+        ]
+      ],
+      [
+        4,
+        [
+          "foreleg_touch:left"
+        ]
+      ],
+      [
+        5,
+        [
+          "foreleg_touch:right"
+        ]
+      ]
+    ],
+    "contradictions": 0,
+    "invented_slots": 0
+  }
+}

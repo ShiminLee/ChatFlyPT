@@ -1,0 +1,21 @@
+{
+  "kind": "storage#object",
+  "id": "flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather/1780494878811468",
+  "selfLink": "https://www.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fconnectome-data%2Fflat-connectome%2Fbody-annotations-male-cns-v1.0-minconf-0.5.feather",
+  "mediaLink": "https://storage.googleapis.com/download/storage/v1/b/flyem-male-cns/o/v1.0%2Fconnectome-data%2Fflat-connectome%2Fbody-annotations-male-cns-v1.0-minconf-0.5.feather?generation=1780494878811468&alt=media",
+  "name": "v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+  "bucket": "flyem-male-cns",
+  "generation": "1780494878811468",
+  "metageneration": "1",
+  "contentType": "application/octet-stream",
+  "storageClass": "STANDARD",
+  "size": "14483314",
+  "md5Hash": "UKdxh3DFciDxYLpPQxq4ng==",
+  "contentLanguage": "en",
+  "crc32c": "vjz9cg==",
+  "etag": "CMzKmqac65QDEAE=",
+  "timeCreated": "2026-06-03T13:54:38.876Z",
+  "updated": "2026-06-03T13:54:38.876Z",
+  "timeStorageClassUpdated": "2026-06-03T13:54:38.876Z",
+  "timeFinalized": "2026-06-03T13:54:38.876Z"
+}

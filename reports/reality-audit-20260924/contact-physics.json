@@ -1,0 +1,51 @@
+{
+  "mujoco_version": "3.9.0",
+  "cases": [
+    {
+      "z": 0.35,
+      "raw": [
+        {
+          "dist": 0.24999999999999997,
+          "active": false
+        }
+      ],
+      "measured": []
+    },
+    {
+      "z": 0.15,
+      "raw": [
+        {
+          "dist": 0.04999999999999999,
+          "active": true
+        }
+      ],
+      "measured": []
+    },
+    {
+      "z": 0.05,
+      "raw": [
+        {
+          "dist": -0.05,
+          "active": true
+        }
+      ],
+      "measured": [
+        {
+          "object_id": "food",
+          "fly_geom": "fly/rf_tarsus5",
+          "distance_mm": -0.05,
+          "position_mm": [
+            0.0,
+            0.0,
+            -0.02500000000000001
+          ],
+          "active_constraint": true,
+          "surface_contact": true,
+          "normal_force_model_units": 2657.031308304994,
+          "tangential_force_model_units": 0.0,
+          "force_calibrated": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4581 @@
+{
+  "schema": "offline.retinal_camera_scan.v1",
+  "mujoco_version": "3.9.0",
+  "scope": "Real MuJoCo sphere rendering with actual compiled eye-camera extrinsics and official Retina; controlled scene excludes body/ground occlusion; no neural runs.",
+  "cases": 150,
+  "visible_cases": 82,
+  "author_axis_cases": 40,
+  "author_axis_received_light": 40,
+  "peak_ray_error_deg": {
+    "min": 0.22139924019068152,
+    "median": 1.8351444259117562,
+    "p95": 2.863494533914691,
+    "max": 3.5928792962399836
+  },
+  "records": [
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": -60,
+      "direction": [
+        -0.43301270189221946,
+        -0.25,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -8.260634702260923,
+        -4.637527549825965,
+        -15.947031671919662
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 44.6152752724503,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": -30,
+      "direction": [
+        -0.7500000000000001,
+        -0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -14.435789748793628,
+        -8.290209971418554,
+        -8.48345020919553
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 15,
+      "nearest_ray_angular_error_deg": 61.471168363667786,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": 0,
+      "direction": [
+        -0.8660254037844387,
+        -0.49999999999999994,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -16.533055368985693,
+        -9.619722043720085,
+        1.5670996036462506
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 15,
+      "nearest_ray_angular_error_deg": 74.20607105583163,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": 30,
+      "direction": [
+        -0.7500000000000001,
+        -0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -13.990470933593102,
+        -8.269822080629933,
+        11.511581060765952
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 0,
+      "nearest_ray_angular_error_deg": 61.398676121798914,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": 60,
+      "direction": [
+        -0.43301270189221946,
+        -0.25,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -7.489319888767241,
+        -4.602214687120909,
+        18.685378386582084
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 44.53519384507284,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": -60,
+      "direction": [
+        -0.24999999999999994,
+        -0.43301270189221946,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -4.601266916011089,
+        -8.29784159343652,
+        -16.0247989543504
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 46.560539413813224,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": -30,
+      "direction": [
+        -0.4330127018922192,
+        -0.7500000000000001,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -8.097578819428067,
+        -14.630059866609914,
+        -8.618147093532128
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 76.55184686881513,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": 0,
+      "direction": [
+        -0.4999999999999998,
+        -0.8660254037844387,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -9.214319796486027,
+        -16.94035013094119,
+        1.4115650387847727
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 0,
+      "nearest_ray_angular_error_deg": 100.35282417945763,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": 30,
+      "direction": [
+        -0.4330127018922192,
+        -0.7500000000000001,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -7.652260004227545,
+        -14.609671975821293,
+        11.376884176429355
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 76.46500583201393,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": 60,
+      "direction": [
+        -0.24999999999999994,
+        -0.43301270189221946,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -3.829952102517406,
+        -8.262528730731463,
+        18.607611104151346
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 46.47363936199754,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": -60,
+      "direction": [
+        3.0616169978683836e-17,
+        -0.5000000000000001,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.3975012548969629,
+        -9.637671427321486,
+        -16.134762734117295
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 45.45341175402093,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": -30,
+      "direction": [
+        5.3028761936245346e-17,
+        -0.8660254037844387,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.5605416278428234,
+        -16.950713212395243,
+        -8.80860994708071
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 720,
+      "nearest_ray_angular_error_deg": 66.87740143626182,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": 0,
+      "direction": [
+        6.123233995736766e-17,
+        -1.0,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.7832165453300769,
+        -19.62000979871112,
+        1.191637479250977
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 720,
+      "nearest_ray_angular_error_deg": 80.09618888819205,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": 30,
+      "direction": [
+        5.3028761936245346e-17,
+        -0.8660254037844387,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        1.005860443043347,
+        -16.93032532160662,
+        11.186421322880774
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 705,
+      "nearest_ray_angular_error_deg": 66.79328814038237,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": 60,
+      "direction": [
+        3.0616169978683836e-17,
+        -0.5000000000000001,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        1.168816068390646,
+        -9.602358564616427,
+        18.497647324384445
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 45.37091363848739,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": -60,
+      "direction": [
+        0.2500000000000001,
+        -0.4330127018922194,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        5.3962539159180265,
+        -8.298010729496262,
+        -16.24745830523514
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 564,
+      "nearest_ray_angular_error_deg": 38.165666815624235,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": -30,
+      "direction": [
+        0.43301270189221946,
+        -0.75,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.218635211201429,
+        -14.63035281885878,
+        -9.003804402044805
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 720,
+      "nearest_ray_angular_error_deg": 41.97725566310664,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": 0,
+      "direction": [
+        0.5000000000000001,
+        -0.8660254037844386,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        10.7807218673722,
+        -16.940688403060673,
+        0.9662463370152915
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 713,
+      "nearest_ray_angular_error_deg": 52.793540952654524,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": 30,
+      "direction": [
+        0.43301270189221946,
+        -0.75,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.663954026401953,
+        -14.60996492807016,
+        10.991226867916678
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 705,
+      "nearest_ray_angular_error_deg": 41.91916372488162,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": 60,
+      "direction": [
+        0.2500000000000001,
+        -0.4330127018922194,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        6.167568729411709,
+        -8.262697866791205,
+        18.384951753266602
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 541,
+      "nearest_ray_angular_error_deg": 38.06277002794549,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": -60,
+      "direction": [
+        0.43301270189221946,
+        -0.25,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.055579328368578,
+        -4.637820502074835,
+        -16.332688980432337
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 587,
+      "nearest_ray_angular_error_deg": 23.724619101690447,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": -30,
+      "direction": [
+        0.7500000000000001,
+        -0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        15.556772746993719,
+        -8.290717379597787,
+        -9.151428261849752
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 720,
+      "nearest_ray_angular_error_deg": 16.211677435496306,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": 0,
+      "direction": [
+        0.8660254037844387,
+        -0.49999999999999994,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        18.099372692273302,
+        -9.620307948217823,
+        0.7957849866208967
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 713,
+      "nearest_ray_angular_error_deg": 22.85127830534339,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": 30,
+      "direction": [
+        0.7500000000000001,
+        -0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        16.002091562194245,
+        -8.270329488809166,
+        10.843603008111732
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 705,
+      "nearest_ray_angular_error_deg": 16.17268665567674,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": 60,
+      "direction": [
+        0.43301270189221946,
+        -0.25,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.82689414186226,
+        -4.602507639369778,
+        18.299721078069407
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 565,
+      "nearest_ray_angular_error_deg": 23.621032803432726,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": -60,
+      "direction": [
+        0.5000000000000001,
+        0.0,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        10.394964203139807,
+        0.3621542393609374,
+        -16.367617269119442
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 564,
+      "nearest_ray_angular_error_deg": 9.212334881061864,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": -30,
+      "direction": [
+        0.8660254037844387,
+        0.0,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        17.876655400986767,
+        0.3694929091300305,
+        -9.21192583247725
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.48956146774062437,
+      "peak_ommatidium_index": 667,
+      "nearest_ray_ommatidium_index": 667,
+      "nearest_ray_angular_error_deg": 1.194612938502074,
+      "observed_peak_ray_error_deg": 1.194612938502074,
+      "nearest_ray_ommatidium_intensity": 0.48956146774062437,
+      "illuminated_ommatidia": [
+        647,
+        666,
+        667,
+        685
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": 0,
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        20.77814244181576,
+        0.37964153465372147,
+        0.7259284092466892
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.26666666666666666,
+      "peak_ommatidium_index": 679,
+      "nearest_ray_ommatidium_index": 679,
+      "nearest_ray_angular_error_deg": 2.240101164580039,
+      "observed_peak_ray_error_deg": 2.240101164580039,
+      "nearest_ray_ommatidium_intensity": 0.26666666666666666,
+      "illuminated_ommatidia": [
+        660,
+        678,
+        679
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": 30,
+      "direction": [
+        0.8660254037844387,
+        0.0,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        18.321974216187293,
+        0.3898807999186514,
+        10.783105437484235
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.44185176145146976,
+      "peak_ommatidium_index": 653,
+      "nearest_ray_ommatidium_index": 653,
+      "nearest_ray_angular_error_deg": 1.3868812099976255,
+      "observed_peak_ray_error_deg": 1.3868812099976255,
+      "nearest_ray_ommatidium_intensity": 0.44185176145146976,
+      "illuminated_ommatidia": [
+        634,
+        653,
+        654,
+        672
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": 60,
+      "direction": [
+        0.5000000000000001,
+        0.0,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        11.16627901663349,
+        0.3974671020659942,
+        18.2647927893823
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 541,
+      "nearest_ray_angular_error_deg": 9.111400763697192,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": -60,
+      "direction": [
+        0.43301270189221946,
+        0.25,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.055521444682306,
+        5.36217430066733,
+        -16.34288416454974
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.4309499661933731,
+      "peak_ommatidium_index": 488,
+      "nearest_ray_ommatidium_index": 488,
+      "nearest_ray_angular_error_deg": 1.5750921292511164,
+      "observed_peak_ray_error_deg": 1.5750921292511164,
+      "nearest_ray_ommatidium_intensity": 0.4309499661933731,
+      "illuminated_ommatidia": [
+        487,
+        488,
+        514,
+        515
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": -30,
+      "direction": [
+        0.7500000000000001,
+        0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        15.556672489508166,
+        9.029781694176354,
+        -9.169086838733612
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.31079241614001013,
+      "peak_ommatidium_index": 533,
+      "nearest_ray_ommatidium_index": 533,
+      "nearest_ray_angular_error_deg": 1.6625572756210547,
+      "observed_peak_ray_error_deg": 1.6625572756210547,
+      "nearest_ray_ommatidium_intensity": 0.31079241614001013,
+      "illuminated_ommatidia": [
+        508,
+        533,
+        534
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": 0,
+      "direction": [
+        0.8660254037844387,
+        0.49999999999999994,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        18.099256924900757,
+        10.379681657266506,
+        0.7753946183860901
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.31069053708439875,
+      "peak_ommatidium_index": 528,
+      "nearest_ray_ommatidium_index": 528,
+      "nearest_ray_angular_error_deg": 0.32583046352991174,
+      "observed_peak_ray_error_deg": 0.32583046352991174,
+      "nearest_ray_ommatidium_intensity": 0.31069053708439875,
+      "illuminated_ommatidia": [
+        528
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": 30,
+      "direction": [
+        0.7500000000000001,
+        0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        16.001991304708692,
+        9.050169584964975,
+        10.82594443122787
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3314049586776866,
+      "peak_ommatidium_index": 523,
+      "nearest_ray_ommatidium_index": 523,
+      "nearest_ray_angular_error_deg": 1.490439791887144,
+      "observed_peak_ray_error_deg": 1.490439791887144,
+      "nearest_ray_ommatidium_intensity": 0.3314049586776866,
+      "illuminated_ommatidia": [
+        497,
+        523
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": 60,
+      "direction": [
+        0.43301270189221946,
+        0.25,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.826836258175987,
+        5.397487163372386,
+        18.289525893952003
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.4148918187964836,
+      "peak_ommatidium_index": 464,
+      "nearest_ray_ommatidium_index": 464,
+      "nearest_ray_angular_error_deg": 1.6573879304675347,
+      "observed_peak_ray_error_deg": 1.6573879304675347,
+      "nearest_ray_ommatidium_intensity": 0.4148918187964836,
+      "illuminated_ommatidia": [
+        464,
+        465,
+        490,
+        491
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": -60,
+      "direction": [
+        0.2500000000000001,
+        0.4330127018922194,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        5.396153658432474,
+        9.022488344277882,
+        -16.265116882119003
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.35477992026686245,
+      "peak_ommatidium_index": 371,
+      "nearest_ray_ommatidium_index": 371,
+      "nearest_ray_angular_error_deg": 1.900033641289372,
+      "observed_peak_ray_error_deg": 1.900033641289372,
+      "nearest_ray_ommatidium_intensity": 0.35477992026686245,
+      "illuminated_ommatidia": [
+        371,
+        401,
+        402
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": -30,
+      "direction": [
+        0.43301270189221946,
+        0.75,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.218461560142615,
+        15.369631589367712,
+        -9.034389954397016
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2063135627695062,
+      "peak_ommatidium_index": 395,
+      "nearest_ray_ommatidium_index": 395,
+      "nearest_ray_angular_error_deg": 2.505439720983822,
+      "observed_peak_ray_error_deg": 2.505439720983822,
+      "nearest_ray_ommatidium_intensity": 0.2063135627695062,
+      "illuminated_ommatidia": [
+        365,
+        395
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": 0,
+      "direction": [
+        0.5000000000000001,
+        0.8660254037844386,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        10.780521352401097,
+        17.70030974448761,
+        0.930929183247568
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.08358056265984659,
+      "peak_ommatidium_index": 360,
+      "nearest_ray_ommatidium_index": 360,
+      "nearest_ray_angular_error_deg": 3.5928792962399836,
+      "observed_peak_ray_error_deg": 3.5928792962399836,
+      "nearest_ray_ommatidium_intensity": 0.08358056265984659,
+      "illuminated_ommatidia": [
+        360,
+        390,
+        391
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": 30,
+      "direction": [
+        0.43301270189221946,
+        0.75,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.663780375343137,
+        15.390019480156333,
+        10.960641315564468
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.20629729070051261,
+      "peak_ommatidium_index": 386,
+      "nearest_ray_ommatidium_index": 386,
+      "nearest_ray_angular_error_deg": 2.373475471120885,
+      "observed_peak_ray_error_deg": 2.373475471120885,
+      "nearest_ray_ommatidium_intensity": 0.20629729070051261,
+      "illuminated_ommatidia": [
+        355,
+        386
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": 60,
+      "direction": [
+        0.2500000000000001,
+        0.4330127018922194,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        6.167468471926157,
+        9.057801206982939,
+        18.36729317638274
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3526808233666915,
+      "peak_ommatidium_index": 349,
+      "nearest_ray_ommatidium_index": 349,
+      "nearest_ray_angular_error_deg": 1.892776544707375,
+      "observed_peak_ray_error_deg": 1.892776544707375,
+      "nearest_ray_ommatidium_intensity": 0.3526808233666915,
+      "illuminated_ommatidia": [
+        349,
+        379,
+        380
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": -60,
+      "direction": [
+        3.0616169978683836e-17,
+        0.5000000000000001,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.39738548752441916,
+        10.362318178162848,
+        -16.155153102352102
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.47500426257459394,
+      "peak_ommatidium_index": 283,
+      "nearest_ray_ommatidium_index": 283,
+      "nearest_ray_angular_error_deg": 1.3920432269755985,
+      "observed_peak_ray_error_deg": 1.3920432269755985,
+      "nearest_ray_ommatidium_intensity": 0.47500426257459394,
+      "illuminated_ommatidia": [
+        255,
+        256,
+        283
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": -30,
+      "direction": [
+        5.3028761936245346e-17,
+        0.8660254037844387,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.5603411128717188,
+        17.69028493515304,
+        -8.843927100848434
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.22706045073631115,
+      "peak_ommatidium_index": 249,
+      "nearest_ray_ommatidium_index": 249,
+      "nearest_ray_angular_error_deg": 2.1947101981069617,
+      "observed_peak_ray_error_deg": 2.1947101981069617,
+      "nearest_ray_ommatidium_intensity": 0.22706045073631115,
+      "illuminated_ommatidia": [
+        222,
+        223,
+        249
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": 0,
+      "direction": [
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.7829850105849895,
+        20.37996941225754,
+        1.1508567427813639
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.1166585642521471,
+      "peak_ommatidium_index": 218,
+      "nearest_ray_ommatidium_index": 218,
+      "nearest_ray_angular_error_deg": 3.437035488193854,
+      "observed_peak_ray_error_deg": 3.437035488193854,
+      "nearest_ray_ommatidium_intensity": 0.1166585642521471,
+      "illuminated_ommatidia": [
+        217,
+        218,
+        244
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": 30,
+      "direction": [
+        5.3028761936245346e-17,
+        0.8660254037844387,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        1.0056599280722427,
+        17.710672825941664,
+        11.151104169113049
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.23221869660727368,
+      "peak_ommatidium_index": 239,
+      "nearest_ray_ommatidium_index": 239,
+      "nearest_ray_angular_error_deg": 2.2089395029811114,
+      "observed_peak_ray_error_deg": 2.2089395029811114,
+      "nearest_ray_ommatidium_intensity": 0.23221869660727368,
+      "illuminated_ommatidia": [
+        212,
+        213,
+        239
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": 60,
+      "direction": [
+        3.0616169978683836e-17,
+        0.5000000000000001,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        1.1687003010181023,
+        10.397631040867907,
+        18.47725695614964
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.46296675191815756,
+      "peak_ommatidium_index": 260,
+      "nearest_ray_ommatidium_index": 260,
+      "nearest_ray_angular_error_deg": 1.4073837753833864,
+      "observed_peak_ray_error_deg": 1.4073837753833864,
+      "nearest_ray_ommatidium_intensity": 0.46296675191815756,
+      "illuminated_ommatidia": [
+        232,
+        233,
+        260
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": -60,
+      "direction": [
+        -0.24999999999999994,
+        0.43301270189221946,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -4.601367173496642,
+        9.022657480337628,
+        -16.04245753123426
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 204,
+      "nearest_ray_angular_error_deg": 6.439193081614489,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": -30,
+      "direction": [
+        -0.4330127018922192,
+        0.7500000000000001,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -8.097752470486883,
+        15.369924541616584,
+        -8.648732645884339
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3332654273830747,
+      "peak_ommatidium_index": 106,
+      "nearest_ray_ommatidium_index": 106,
+      "nearest_ray_angular_error_deg": 1.7775123071161374,
+      "observed_peak_ray_error_deg": 1.7775123071161374,
+      "nearest_ray_ommatidium_intensity": 0.3332654273830747,
+      "illuminated_ommatidia": [
+        86,
+        106,
+        107
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": 0,
+      "direction": [
+        -0.4999999999999998,
+        0.8660254037844387,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -9.21452031145713,
+        17.7006480166071,
+        1.3762478850170492
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.22294361728093734,
+      "peak_ommatidium_index": 80,
+      "nearest_ray_ommatidium_index": 80,
+      "nearest_ray_angular_error_deg": 2.448506674988995,
+      "observed_peak_ray_error_deg": 2.448506674988995,
+      "nearest_ray_ommatidium_intensity": 0.22294361728093734,
+      "illuminated_ommatidia": [
+        60,
+        79,
+        80
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": 30,
+      "direction": [
+        -0.4330127018922192,
+        0.7500000000000001,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -7.652433655286359,
+        15.390312432405203,
+        11.346298624077145
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3527883880825059,
+      "peak_ommatidium_index": 94,
+      "nearest_ray_ommatidium_index": 94,
+      "nearest_ray_angular_error_deg": 1.6803652067615475,
+      "observed_peak_ray_error_deg": 1.6803652067615475,
+      "nearest_ray_ommatidium_intensity": 0.3527883880825059,
+      "illuminated_ommatidia": [
+        73,
+        74,
+        93,
+        94
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": 60,
+      "direction": [
+        -0.24999999999999994,
+        0.43301270189221946,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -3.830052360002959,
+        9.057970343042685,
+        18.58995252726748
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 180,
+      "nearest_ray_angular_error_deg": 6.368785285833758,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": -60,
+      "direction": [
+        -0.43301270189221946,
+        0.25,
+        -0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -8.260692585947195,
+        5.362467252916199,
+        -15.957226856037066
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 155,
+      "nearest_ray_angular_error_deg": 20.3896674477249,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": -30,
+      "direction": [
+        -0.7500000000000001,
+        0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -14.43589000627918,
+        9.030289102355587,
+        -8.501108786079392
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 15,
+      "nearest_ray_angular_error_deg": 10.394297703270333,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": 0,
+      "direction": [
+        -0.8660254037844387,
+        0.49999999999999994,
+        0.0
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -16.533171136358238,
+        10.380267561764244,
+        1.546709235411444
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 8,
+      "nearest_ray_angular_error_deg": 16.08960294295757,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": 30,
+      "direction": [
+        -0.7500000000000001,
+        0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -13.990571191078654,
+        9.050676993144208,
+        11.493922483882091
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 0,
+      "nearest_ray_angular_error_deg": 10.358836954362044,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": 60,
+      "direction": [
+        -0.43301270189221946,
+        0.25,
+        0.8660254037844386
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -7.489377772453514,
+        5.397780115621256,
+        18.67518320246468
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 133,
+      "nearest_ray_angular_error_deg": 20.284111591980587,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        7,
+        6
+      ],
+      "mapped_ommatidium_index": 458,
+      "direction": [
+        0.4325536921105378,
+        0.421470277554748,
+        -0.7970320624538674
+      ],
+      "side": "left",
+      "target_world_mm": [
+        9.077047707328017,
+        8.792984853390204,
+        -14.966652083686432
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.5172890025575438,
+      "peak_ommatidium_index": 458,
+      "nearest_ray_ommatidium_index": 458,
+      "nearest_ray_angular_error_deg": 0.942427877461039,
+      "observed_peak_ray_error_deg": 0.942427877461039,
+      "nearest_ray_ommatidium_intensity": 0.5172890025575438,
+      "illuminated_ommatidia": [
+        429,
+        430,
+        458
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.5172890025575438
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        10,
+        22
+      ],
+      "mapped_ommatidium_index": 146,
+      "direction": [
+        -0.3292920944414759,
+        0.9267806269145638,
+        -0.1806775750174719
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -5.881674784577105,
+        18.91201046729605,
+        -2.3136641214950346
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.16272819472616634,
+      "peak_ommatidium_index": 146,
+      "nearest_ray_ommatidium_index": 146,
+      "nearest_ray_angular_error_deg": 2.7960952863084074,
+      "observed_peak_ray_error_deg": 2.7960952863084074,
+      "nearest_ray_ommatidium_intensity": 0.16272819472616634,
+      "illuminated_ommatidia": [
+        123,
+        124,
+        146
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.16272819472616634
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        14,
+        22
+      ],
+      "mapped_ommatidium_index": 244,
+      "direction": [
+        0.05159450530178324,
+        0.9983812896628477,
+        0.0239333966208995
+      ],
+      "side": "left",
+      "target_world_mm": [
+        1.8252774729410843,
+        20.34806572083405,
+        1.6064627645930512
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2510485933503836,
+      "peak_ommatidium_index": 244,
+      "nearest_ray_ommatidium_index": 244,
+      "nearest_ray_angular_error_deg": 1.4747090483870169,
+      "observed_peak_ray_error_deg": 1.4747090483870169,
+      "nearest_ray_ommatidium_intensity": 0.2510485933503836,
+      "illuminated_ommatidia": [
+        244
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.2510485933503836
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        15,
+        26
+      ],
+      "mapped_ommatidium_index": 166,
+      "direction": [
+        -0.2057261416232306,
+        0.9641017210770974,
+        0.16788277478347
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -3.2557522483077252,
+        19.665496574040247,
+        4.600023751698683
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.35681181563534553,
+      "peak_ommatidium_index": 166,
+      "nearest_ray_ommatidium_index": 166,
+      "nearest_ray_angular_error_deg": 0.7915838614264183,
+      "observed_peak_ray_error_deg": 0.7915838614264183,
+      "nearest_ray_ommatidium_intensity": 0.35681181563534553,
+      "illuminated_ommatidia": [
+        166
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.35681181563534553
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        16,
+        32
+      ],
+      "mapped_ommatidium_index": 3,
+      "direction": [
+        -0.6756038958551056,
+        0.6683054519685505,
+        0.3113313327863339
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -12.587062935645264,
+        13.75265782660644,
+        7.683558900951335
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.7219754291758197,
+      "peak_ommatidium_index": 3,
+      "nearest_ray_ommatidium_index": 3,
+      "nearest_ray_angular_error_deg": 0.22139924019068152,
+      "observed_peak_ray_error_deg": 0.22139924019068152,
+      "nearest_ray_ommatidium_intensity": 0.7219754291758197,
+      "illuminated_ommatidia": [
+        3,
+        20
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.7219754291758197
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        19,
+        31
+      ],
+      "mapped_ommatidium_index": 116,
+      "direction": [
+        -0.3445960621401438,
+        0.8158782688187912,
+        0.4643233834589405
+      ],
+      "side": "left",
+      "target_world_mm": [
+        -5.900434354827786,
+        16.70711984416246,
+        10.592226695343136
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.46220419202163554,
+      "peak_ommatidium_index": 116,
+      "nearest_ray_ommatidium_index": 116,
+      "nearest_ray_angular_error_deg": 0.7942107473394602,
+      "observed_peak_ray_error_deg": 0.7942107473394602,
+      "nearest_ray_ommatidium_intensity": 0.46220419202163554,
+      "illuminated_ommatidia": [
+        116,
+        117
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.46220419202163554
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        21,
+        18
+      ],
+      "mapped_ommatidium_index": 475,
+      "direction": [
+        0.7449207660385125,
+        0.6526328297707518,
+        0.1384320838173594
+      ],
+      "side": "left",
+      "target_world_mm": [
+        15.739393389134129,
+        13.435199970666204,
+        3.5941663835356543
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2445794846864364,
+      "peak_ommatidium_index": 475,
+      "nearest_ray_ommatidium_index": 475,
+      "nearest_ray_angular_error_deg": 1.4706057303933424,
+      "observed_peak_ray_error_deg": 1.4706057303933424,
+      "nearest_ray_ommatidium_intensity": 0.2445794846864364,
+      "illuminated_ommatidia": [
+        474,
+        475
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.2445794846864364
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        22,
+        19
+      ],
+      "mapped_ommatidium_index": 474,
+      "direction": [
+        0.7383893656862812,
+        0.6423943249486016,
+        0.2052088592513537
+      ],
+      "side": "left",
+      "target_world_mm": [
+        15.638535906771901,
+        13.231793627642901,
+        4.932487418054656
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2724137931034486,
+      "peak_ommatidium_index": 474,
+      "nearest_ray_ommatidium_index": 474,
+      "nearest_ray_angular_error_deg": 0.9969065301143568,
+      "observed_peak_ray_error_deg": 0.9969065301143568,
+      "nearest_ray_ommatidium_intensity": 0.2724137931034486,
+      "illuminated_ommatidia": [
+        474
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.2724137931034486
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        23,
+        19
+      ],
+      "mapped_ommatidium_index": 500,
+      "direction": [
+        0.7657043469076118,
+        0.5940927418540896,
+        0.2464765043631496
+      ],
+      "side": "left",
+      "target_world_mm": [
+        16.203082944914577,
+        12.266594588169273,
+        5.746456287591968
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.15232283784883258,
+      "peak_ommatidium_index": 500,
+      "nearest_ray_ommatidium_index": 500,
+      "nearest_ray_angular_error_deg": 2.8177257577920236,
+      "observed_peak_ray_error_deg": 2.8177257577920236,
+      "nearest_ray_ommatidium_intensity": 0.15232283784883258,
+      "illuminated_ommatidia": [
+        474,
+        500
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.15232283784883258
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        24,
+        20
+      ],
+      "mapped_ommatidium_index": 473,
+      "direction": [
+        0.7451103678993133,
+        0.5833410200204991,
+        0.3233013980953281
+      ],
+      "side": "left",
+      "target_world_mm": [
+        15.825518291972333,
+        12.053133527168594,
+        7.291962555641935
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.22081197624277932,
+      "peak_ommatidium_index": 473,
+      "nearest_ray_ommatidium_index": 473,
+      "nearest_ray_angular_error_deg": 2.352124108955421,
+      "observed_peak_ray_error_deg": 2.352124108955421,
+      "nearest_ray_ommatidium_intensity": 0.22081197624277932,
+      "illuminated_ommatidia": [
+        473,
+        499,
+        500
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.22081197624277932
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        24,
+        31
+      ],
+      "mapped_ommatidium_index": 210,
+      "direction": [
+        -0.03241141664364708,
+        0.7324135386762191,
+        0.6800881622517264
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.4378044168379931,
+        15.04211949427081,
+        14.769130409798573
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.28982420554428684,
+      "peak_ommatidium_index": 210,
+      "nearest_ray_ommatidium_index": 210,
+      "nearest_ray_angular_error_deg": 2.009787500441425,
+      "observed_peak_ray_error_deg": 2.009787500441425,
+      "nearest_ray_ommatidium_intensity": 0.28982420554428684,
+      "illuminated_ommatidia": [
+        210,
+        236,
+        237
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.28982420554428684
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        25,
+        29
+      ],
+      "mapped_ommatidium_index": 322,
+      "direction": [
+        0.2093485765719519,
+        0.6957180167254845,
+        0.6871314391663766
+      ],
+      "side": "left",
+      "target_world_mm": [
+        5.274946305712899,
+        14.308271253583518,
+        14.803048940836577
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.20769034886681967,
+      "peak_ommatidium_index": 322,
+      "nearest_ray_ommatidium_index": 322,
+      "nearest_ray_angular_error_deg": 2.545927273030988,
+      "observed_peak_ray_error_deg": 2.545927273030988,
+      "nearest_ray_ommatidium_intensity": 0.20769034886681967,
+      "illuminated_ommatidia": [
+        292,
+        293,
+        322,
+        323
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.20769034886681967
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        26,
+        26
+      ],
+      "mapped_ommatidium_index": 414,
+      "direction": [
+        0.471691993275929,
+        0.6277362805832759,
+        0.6192364859396253
+      ],
+      "side": "left",
+      "target_world_mm": [
+        10.490286822885784,
+        12.947164259021477,
+        13.330046970883908
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2747984042101692,
+      "peak_ommatidium_index": 414,
+      "nearest_ray_ommatidium_index": 414,
+      "nearest_ray_angular_error_deg": 2.005099966013937,
+      "observed_peak_ray_error_deg": 2.005099966013937,
+      "nearest_ray_ommatidium_intensity": 0.2747984042101692,
+      "illuminated_ommatidia": [
+        384,
+        413,
+        414
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.2747984042101692
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        27,
+        23
+      ],
+      "mapped_ommatidium_index": 497,
+      "direction": [
+        0.6788787184897644,
+        0.5027226569421308,
+        0.5351575616383832
+      ],
+      "side": "left",
+      "target_world_mm": [
+        14.595566571280347,
+        10.4451088082357,
+        11.559171200660161
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.24457403651115614,
+      "peak_ommatidium_index": 497,
+      "nearest_ray_ommatidium_index": 497,
+      "nearest_ray_angular_error_deg": 2.2227177473107056,
+      "observed_peak_ray_error_deg": 2.2227177473107056,
+      "nearest_ray_ommatidium_intensity": 0.24457403651115614,
+      "illuminated_ommatidia": [
+        470,
+        471,
+        497
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.24457403651115614
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        27,
+        33
+      ],
+      "mapped_ommatidium_index": 233,
+      "direction": [
+        -0.05073823861989999,
+        0.5445950165885685,
+        0.8371630062590242
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.14132897454465754,
+        11.288959629018542,
+        17.921837792845526
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.501993328451714,
+      "peak_ommatidium_index": 233,
+      "nearest_ray_ommatidium_index": 233,
+      "nearest_ray_angular_error_deg": 1.2060419478295272,
+      "observed_peak_ray_error_deg": 1.2060419478295272,
+      "nearest_ray_ommatidium_intensity": 0.501993328451714,
+      "illuminated_ommatidia": [
+        206,
+        207,
+        233
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.501993328451714
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        28,
+        33
+      ],
+      "mapped_ommatidium_index": 260,
+      "direction": [
+        0.008089197335288251,
+        0.4967714377223346,
+        0.8678437091721961
+      ],
+      "side": "left",
+      "target_world_mm": [
+        1.3312542381274821,
+        10.333094163935677,
+        18.510077589954193
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.5966751918158554,
+      "peak_ommatidium_index": 260,
+      "nearest_ray_ommatidium_index": 260,
+      "nearest_ray_angular_error_deg": 0.9046863183946298,
+      "observed_peak_ray_error_deg": 0.9046863183946298,
+      "nearest_ray_ommatidium_intensity": 0.5966751918158554,
+      "illuminated_ommatidia": [
+        232,
+        233,
+        260
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.5966751918158554
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        29,
+        34
+      ],
+      "mapped_ommatidium_index": 231,
+      "direction": [
+        -0.03546365967592361,
+        0.4218307964625835,
+        0.9059807437236913
+      ],
+      "side": "left",
+      "target_world_mm": [
+        0.47740486233110957,
+        8.835074384125011,
+        19.293551757368565
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.49057033601822586,
+      "peak_ommatidium_index": 231,
+      "nearest_ray_ommatidium_index": 231,
+      "nearest_ray_angular_error_deg": 1.360121100653446,
+      "observed_peak_ray_error_deg": 1.360121100653446,
+      "nearest_ray_ommatidium_intensity": 0.49057033601822586,
+      "illuminated_ommatidia": [
+        231,
+        258,
+        259
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.49057033601822586
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        31,
+        31
+      ],
+      "mapped_ommatidium_index": 379,
+      "direction": [
+        0.280464855216125,
+        0.3602992281559009,
+        0.8896763069672363
+      ],
+      "side": "left",
+      "target_world_mm": [
+        6.787155131287571,
+        7.60400437469791,
+        18.82810980981629
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3003955230160736,
+      "peak_ommatidium_index": 379,
+      "nearest_ray_ommatidium_index": 379,
+      "nearest_ray_angular_error_deg": 1.9858875430330385,
+      "observed_peak_ray_error_deg": 1.9858875430330385,
+      "nearest_ray_ommatidium_intensity": 0.3003955230160736,
+      "illuminated_ommatidia": [
+        378,
+        379,
+        408,
+        409
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.3003955230160736
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        33,
+        26
+      ],
+      "mapped_ommatidium_index": 542,
+      "direction": [
+        0.6002228730619273,
+        0.1789631037979476,
+        0.7795541739560443
+      ],
+      "side": "left",
+      "target_world_mm": [
+        13.13171155547388,
+        3.9749304491963686,
+        16.487517601705104
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.6015946627613707,
+      "peak_ommatidium_index": 542,
+      "nearest_ray_ommatidium_index": 542,
+      "nearest_ray_angular_error_deg": 0.6665316561209016,
+      "observed_peak_ray_error_deg": 0.6665316561209016,
+      "nearest_ray_ommatidium_intensity": 0.6015946627613707,
+      "illuminated_ommatidia": [
+        542,
+        543,
+        566
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.6015946627613707
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        34,
+        26
+      ],
+      "mapped_ommatidium_index": 565,
+      "direction": [
+        0.6236949110661189,
+        0.08607548015743968,
+        0.7769141970809211
+      ],
+      "side": "left",
+      "target_world_mm": [
+        13.599871055285295,
+        2.117117178411811,
+        16.426172656893616
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3215360833129935,
+      "peak_ommatidium_index": 565,
+      "nearest_ray_ommatidium_index": 565,
+      "nearest_ray_angular_error_deg": 1.9476844791021635,
+      "observed_peak_ray_error_deg": 1.9476844791021635,
+      "nearest_ray_ommatidium_intensity": 0.3215360833129935,
+      "illuminated_ommatidia": [
+        565,
+        588
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.3215360833129935
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": -60,
+      "direction": [
+        -0.43301270189221946,
+        -0.25,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -8.260630303100777,
+        -5.397527152972371,
+        -15.946256837928637
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 587,
+      "nearest_ray_angular_error_deg": 20.736573634431796,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": -30,
+      "direction": [
+        -0.7500000000000001,
+        -0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -14.435785349633482,
+        -9.05020957456496,
+        -8.482675375204504
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 720,
+      "nearest_ray_angular_error_deg": 10.939639337255647,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": 0,
+      "direction": [
+        -0.8660254037844387,
+        -0.49999999999999994,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -16.533050969825545,
+        -10.379721646866491,
+        1.567874437637275
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 713,
+      "nearest_ray_angular_error_deg": 16.754143666040314,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": 30,
+      "direction": [
+        -0.7500000000000001,
+        -0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -13.990466534432956,
+        -9.029821683776339,
+        11.512355894756977
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 705,
+      "nearest_ray_angular_error_deg": 10.80772222109522,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -150,
+      "elevation_deg": 60,
+      "direction": [
+        -0.43301270189221946,
+        -0.25,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -7.489315489607096,
+        -5.362214290267315,
+        18.686153220573107
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 565,
+      "nearest_ray_angular_error_deg": 20.49016907869071,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": -60,
+      "direction": [
+        -0.24999999999999994,
+        -0.43301270189221946,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -4.601262516850944,
+        -9.057841196582926,
+        -16.024024120359375
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 564,
+      "nearest_ray_angular_error_deg": 6.719918497489082,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": -30,
+      "direction": [
+        -0.4330127018922192,
+        -0.7500000000000001,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -8.097574420267922,
+        -15.39005946975632,
+        -8.617372259541103
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.32697712418300656,
+      "peak_ommatidium_index": 647,
+      "nearest_ray_ommatidium_index": 647,
+      "nearest_ray_angular_error_deg": 1.7313721651743434,
+      "observed_peak_ray_error_deg": 1.7313721651743434,
+      "nearest_ray_ommatidium_intensity": 0.32697712418300656,
+      "illuminated_ommatidia": [
+        626,
+        627,
+        646,
+        647
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": 0,
+      "direction": [
+        -0.4999999999999998,
+        -0.8660254037844387,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -9.214315397325882,
+        -17.700349734087595,
+        1.412339872775797
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.16937287311618848,
+      "peak_ommatidium_index": 641,
+      "nearest_ray_ommatidium_index": 660,
+      "nearest_ray_angular_error_deg": 2.631572571993564,
+      "observed_peak_ray_error_deg": 2.7380181099982255,
+      "nearest_ray_ommatidium_intensity": 0.1583502366463827,
+      "illuminated_ommatidia": [
+        640,
+        641,
+        660
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": 30,
+      "direction": [
+        -0.4330127018922192,
+        -0.7500000000000001,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -7.652255605067399,
+        -15.369671578967699,
+        11.37765901042038
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2854084967320261,
+      "peak_ommatidium_index": 634,
+      "nearest_ray_ommatidium_index": 634,
+      "nearest_ray_angular_error_deg": 1.907752798227971,
+      "observed_peak_ray_error_deg": 1.907752798227971,
+      "nearest_ray_ommatidium_intensity": 0.2854084967320261,
+      "illuminated_ommatidia": [
+        613,
+        614,
+        634,
+        635
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -120,
+      "elevation_deg": 60,
+      "direction": [
+        -0.24999999999999994,
+        -0.43301270189221946,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -3.82994770335726,
+        -9.022528333877869,
+        18.60838593814237
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 541,
+      "nearest_ray_angular_error_deg": 6.476569292571056,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": -60,
+      "direction": [
+        3.0616169978683836e-17,
+        -0.5000000000000001,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        0.39750565405710886,
+        -10.397671030467892,
+        -16.13398790012627
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.25851926977687645,
+      "peak_ommatidium_index": 488,
+      "nearest_ray_ommatidium_index": 488,
+      "nearest_ray_angular_error_deg": 2.085567387131329,
+      "observed_peak_ray_error_deg": 2.085567387131329,
+      "nearest_ray_ommatidium_intensity": 0.25851926977687645,
+      "illuminated_ommatidia": [
+        460,
+        487,
+        488
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": -30,
+      "direction": [
+        5.3028761936245346e-17,
+        -0.8660254037844387,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        0.5605460270029693,
+        -17.710712815541648,
+        -8.807835113089684
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.1421906693711967,
+      "peak_ommatidium_index": 508,
+      "nearest_ray_ommatidium_index": 508,
+      "nearest_ray_angular_error_deg": 2.863812112581176,
+      "observed_peak_ray_error_deg": 2.863812112581176,
+      "nearest_ray_ommatidium_intensity": 0.1421906693711967,
+      "illuminated_ommatidia": [
+        481,
+        507,
+        508
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": 0,
+      "direction": [
+        6.123233995736766e-17,
+        -1.0,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        0.7832209444902228,
+        -20.380009401857524,
+        1.1924123132420013
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.14985294117647058,
+      "peak_ommatidium_index": 503,
+      "nearest_ray_ommatidium_index": 503,
+      "nearest_ray_angular_error_deg": 3.0672006812749286,
+      "observed_peak_ray_error_deg": 3.0672006812749286,
+      "nearest_ray_ommatidium_intensity": 0.14985294117647058,
+      "illuminated_ommatidia": [
+        476,
+        502,
+        503
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": 30,
+      "direction": [
+        5.3028761936245346e-17,
+        -0.8660254037844387,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        1.005864842203493,
+        -17.690324924753025,
+        11.1871961568718
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.12335855504027342,
+      "peak_ommatidium_index": 498,
+      "nearest_ray_ommatidium_index": 471,
+      "nearest_ray_angular_error_deg": 3.126844993193054,
+      "observed_peak_ray_error_deg": 3.2770444906569245,
+      "nearest_ray_ommatidium_intensity": 0.11811894882434304,
+      "illuminated_ommatidia": [
+        471,
+        497,
+        498
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -90,
+      "elevation_deg": 60,
+      "direction": [
+        3.0616169978683836e-17,
+        -0.5000000000000001,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        1.1688204675507918,
+        -10.362358167762833,
+        18.49842215837547
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3010059676044329,
+      "peak_ommatidium_index": 437,
+      "nearest_ray_ommatidium_index": 437,
+      "nearest_ray_angular_error_deg": 2.066439886564448,
+      "observed_peak_ray_error_deg": 2.066439886564448,
+      "nearest_ray_ommatidium_intensity": 0.3010059676044329,
+      "illuminated_ommatidia": [
+        437,
+        464,
+        465
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": -60,
+      "direction": [
+        0.2500000000000001,
+        -0.4330127018922194,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        5.396258315078172,
+        -9.058010332642668,
+        -16.246683471244115
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.49473598568058047,
+      "peak_ommatidium_index": 371,
+      "nearest_ray_ommatidium_index": 371,
+      "nearest_ray_angular_error_deg": 1.127949686285289,
+      "observed_peak_ray_error_deg": 1.127949686285289,
+      "nearest_ray_ommatidium_intensity": 0.49473598568058047,
+      "illuminated_ommatidia": [
+        340,
+        341,
+        371
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": -30,
+      "direction": [
+        0.43301270189221946,
+        -0.75,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.218639610361574,
+        -15.390352422005186,
+        -9.00302956805378
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.20964187327823694,
+      "peak_ommatidium_index": 365,
+      "nearest_ray_ommatidium_index": 365,
+      "nearest_ray_angular_error_deg": 2.526133192507647,
+      "observed_peak_ray_error_deg": 2.526133192507647,
+      "nearest_ray_ommatidium_intensity": 0.20964187327823694,
+      "illuminated_ommatidia": [
+        334,
+        364,
+        365
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": 0,
+      "direction": [
+        0.5000000000000001,
+        -0.8660254037844386,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        10.780726266532346,
+        -17.700688006207077,
+        0.9670211710063158
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.1759590792838875,
+      "peak_ommatidium_index": 360,
+      "nearest_ray_ommatidium_index": 360,
+      "nearest_ray_angular_error_deg": 2.5568112203910767,
+      "observed_peak_ray_error_deg": 2.5568112203910767,
+      "nearest_ray_ommatidium_intensity": 0.1759590792838875,
+      "illuminated_ommatidia": [
+        329,
+        330,
+        360
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": 30,
+      "direction": [
+        0.43301270189221946,
+        -0.75,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.663958425562098,
+        -15.369964531216565,
+        10.992001701907704
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.1734726948630691,
+      "peak_ommatidium_index": 355,
+      "nearest_ray_ommatidium_index": 355,
+      "nearest_ray_angular_error_deg": 2.8528191245896797,
+      "observed_peak_ray_error_deg": 2.8528191245896797,
+      "nearest_ray_ommatidium_intensity": 0.1734726948630691,
+      "illuminated_ommatidia": [
+        325,
+        355,
+        356
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -60,
+      "elevation_deg": 60,
+      "direction": [
+        0.2500000000000001,
+        -0.4330127018922194,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        6.1675731285718545,
+        -9.022697469937611,
+        18.385726587257626
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.45844927182491346,
+      "peak_ommatidium_index": 349,
+      "nearest_ray_ommatidium_index": 349,
+      "nearest_ray_angular_error_deg": 1.257982452696627,
+      "observed_peak_ray_error_deg": 1.257982452696627,
+      "nearest_ray_ommatidium_intensity": 0.45844927182491346,
+      "illuminated_ommatidia": [
+        318,
+        319,
+        349
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": -60,
+      "direction": [
+        0.43301270189221946,
+        -0.25,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.055583727528724,
+        -5.397820105221241,
+        -16.331914146441314
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.6162148337595892,
+      "peak_ommatidium_index": 256,
+      "nearest_ray_ommatidium_index": 256,
+      "nearest_ray_angular_error_deg": 0.8515043035293871,
+      "observed_peak_ray_error_deg": 0.8515043035293871,
+      "nearest_ray_ommatidium_intensity": 0.6162148337595892,
+      "illuminated_ommatidia": [
+        229,
+        230,
+        255,
+        256
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": -30,
+      "direction": [
+        0.7500000000000001,
+        -0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        15.556777146153864,
+        -9.050716982744193,
+        -9.150653427858726
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2145960458872346,
+      "peak_ommatidium_index": 197,
+      "nearest_ray_ommatidium_index": 197,
+      "nearest_ray_angular_error_deg": 2.507050455848017,
+      "observed_peak_ray_error_deg": 2.507050455848017,
+      "nearest_ray_ommatidium_intensity": 0.2145960458872346,
+      "illuminated_ommatidia": [
+        197,
+        223
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": 0,
+      "direction": [
+        0.8660254037844387,
+        -0.49999999999999994,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        18.09937709143345,
+        -10.38030755136423,
+        0.796559820611921
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2972954699121027,
+      "peak_ommatidium_index": 192,
+      "nearest_ray_ommatidium_index": 192,
+      "nearest_ray_angular_error_deg": 0.7128516108103169,
+      "observed_peak_ray_error_deg": 0.7128516108103169,
+      "nearest_ray_ommatidium_intensity": 0.2972954699121027,
+      "illuminated_ommatidia": [
+        192
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": 30,
+      "direction": [
+        0.7500000000000001,
+        -0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        16.002095961354392,
+        -9.030329091955572,
+        10.844377842102757
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.24155886420958433,
+      "peak_ommatidium_index": 187,
+      "nearest_ray_ommatidium_index": 187,
+      "nearest_ray_angular_error_deg": 2.2196381276636012,
+      "observed_peak_ray_error_deg": 2.2196381276636012,
+      "nearest_ray_ommatidium_intensity": 0.24155886420958433,
+      "illuminated_ommatidia": [
+        187,
+        212,
+        213
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": -30,
+      "elevation_deg": 60,
+      "direction": [
+        0.43301270189221946,
+        -0.25,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.826898541022405,
+        -5.362507242516184,
+        18.30049591206043
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.5129582267689673,
+      "peak_ommatidium_index": 232,
+      "nearest_ray_ommatidium_index": 232,
+      "nearest_ray_angular_error_deg": 1.2049820272322789,
+      "observed_peak_ray_error_deg": 1.2049820272322789,
+      "nearest_ray_ommatidium_intensity": 0.5129582267689673,
+      "illuminated_ommatidia": [
+        206,
+        232,
+        233
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": -60,
+      "direction": [
+        0.5000000000000001,
+        0.0,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        10.394968602299953,
+        -0.39784536378546814,
+        -16.36684243512842
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 179,
+      "nearest_ray_angular_error_deg": 9.037057755337047,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": -30,
+      "direction": [
+        0.8660254037844387,
+        0.0,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        17.876659800146914,
+        -0.390506694016375,
+        -9.211150998486225
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.45506535947712423,
+      "peak_ommatidium_index": 67,
+      "nearest_ray_ommatidium_index": 67,
+      "nearest_ray_angular_error_deg": 1.2070764101581006,
+      "observed_peak_ray_error_deg": 1.2070764101581006,
+      "nearest_ray_ommatidium_intensity": 0.45506535947712423,
+      "illuminated_ommatidia": [
+        66,
+        67,
+        86
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": 0,
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        20.778146840975907,
+        -0.38035806849268405,
+        0.7267032432377135
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2385159873077862,
+      "peak_ommatidium_index": 42,
+      "nearest_ray_ommatidium_index": 42,
+      "nearest_ray_angular_error_deg": 2.30274995247369,
+      "observed_peak_ray_error_deg": 2.30274995247369,
+      "nearest_ray_ommatidium_intensity": 0.2385159873077862,
+      "illuminated_ommatidia": [
+        41,
+        42,
+        60
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": 30,
+      "direction": [
+        0.8660254037844387,
+        0.0,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        18.32197861534744,
+        -0.37011880322775415,
+        10.78388027147526
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.37915032679738564,
+      "peak_ommatidium_index": 53,
+      "nearest_ray_ommatidium_index": 53,
+      "nearest_ray_angular_error_deg": 1.5651469981234858,
+      "observed_peak_ray_error_deg": 1.5651469981234858,
+      "nearest_ray_ommatidium_intensity": 0.37915032679738564,
+      "illuminated_ommatidia": [
+        53,
+        54,
+        73
+      ]
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 0,
+      "elevation_deg": 60,
+      "direction": [
+        0.5000000000000001,
+        0.0,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        11.166283415793636,
+        -0.3625325010804113,
+        18.265567623373325
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 156,
+      "nearest_ray_angular_error_deg": 8.751583754823821,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": -60,
+      "direction": [
+        0.43301270189221946,
+        0.25,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.055525843842451,
+        4.6021746975209235,
+        -16.342109330558717
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 155,
+      "nearest_ray_angular_error_deg": 23.52781833184618,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": -30,
+      "direction": [
+        0.7500000000000001,
+        0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        15.556676888668312,
+        8.269782091029947,
+        -9.168312004742587
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 15,
+      "nearest_ray_angular_error_deg": 15.759152955569212,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": 0,
+      "direction": [
+        0.8660254037844387,
+        0.49999999999999994,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        18.099261324060905,
+        9.6196820541201,
+        0.7761694523771144
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 8,
+      "nearest_ray_angular_error_deg": 22.18830471868809,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": 30,
+      "direction": [
+        0.7500000000000001,
+        0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        16.00199570386884,
+        8.290169981818568,
+        10.826719265218895
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 0,
+      "nearest_ray_angular_error_deg": 15.631488741452518,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 30,
+      "elevation_deg": 60,
+      "direction": [
+        0.43301270189221946,
+        0.25,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.826840657336133,
+        4.6374875602259795,
+        18.290300727943027
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 133,
+      "nearest_ray_angular_error_deg": 23.247778337266016,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": -60,
+      "direction": [
+        0.2500000000000001,
+        0.4330127018922194,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        5.396158057592619,
+        8.262488741131476,
+        -16.26434204812798
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 204,
+      "nearest_ray_angular_error_deg": 37.951050667265335,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": -30,
+      "direction": [
+        0.43301270189221946,
+        0.75,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.21846595930276,
+        14.609631986221306,
+        -9.03361512040599
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 15,
+      "nearest_ray_angular_error_deg": 41.5685349867689,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": 0,
+      "direction": [
+        0.5000000000000001,
+        0.8660254037844386,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        10.780525751561242,
+        16.940310141341204,
+        0.9317040172385923
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 8,
+      "nearest_ray_angular_error_deg": 52.13653658593625,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": 30,
+      "direction": [
+        0.43301270189221946,
+        0.75,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.663784774503283,
+        14.630019877009927,
+        10.961416149555493
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 0,
+      "nearest_ray_angular_error_deg": 41.40289495987792,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 60,
+      "elevation_deg": 60,
+      "direction": [
+        0.2500000000000001,
+        0.4330127018922194,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        6.167472871086303,
+        8.297801603836533,
+        18.368068010373765
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 180,
+      "nearest_ray_angular_error_deg": 37.69962375078589,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": -60,
+      "direction": [
+        3.0616169978683836e-17,
+        0.5000000000000001,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        0.3973898866845651,
+        9.602318575016442,
+        -16.15437826836108
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 45.31547461157442,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": -30,
+      "direction": [
+        5.3028761936245346e-17,
+        0.8660254037844387,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        0.5603455120318648,
+        16.930285332006637,
+        -8.843152266857409
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 15,
+      "nearest_ray_angular_error_deg": 66.54500736208934,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": 0,
+      "direction": [
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        0.7829894097451354,
+        19.619969809111137,
+        1.1516315767723881
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 0,
+      "nearest_ray_angular_error_deg": 79.525847804928,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": 30,
+      "direction": [
+        5.3028761936245346e-17,
+        0.8660254037844387,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        1.0056643272323886,
+        16.95067322279526,
+        11.151879003104074
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 0,
+      "nearest_ray_angular_error_deg": 66.323348261537,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 90,
+      "elevation_deg": 60,
+      "direction": [
+        3.0616169978683836e-17,
+        0.5000000000000001,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        1.1687047001782482,
+        9.6376314377215,
+        18.478031790140662
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 45.11441938168348,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": -60,
+      "direction": [
+        -0.24999999999999994,
+        0.43301270189221946,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -4.601362774336496,
+        8.262657877191222,
+        -16.041682697243235
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 46.678481353878475,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": -30,
+      "direction": [
+        -0.4330127018922192,
+        0.7500000000000001,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -8.097748071326738,
+        14.609924938470177,
+        -8.647957811893313
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 76.67703796829626,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": 0,
+      "direction": [
+        -0.4999999999999998,
+        0.8660254037844387,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -9.214515912296985,
+        16.940648413460696,
+        1.3770227190080735
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 705,
+      "nearest_ray_angular_error_deg": 100.80699509367408,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": 30,
+      "direction": [
+        -0.4330127018922192,
+        0.7500000000000001,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -7.652429256126213,
+        14.630312829258797,
+        11.34707345806817
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 76.39901120482311,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 120,
+      "elevation_deg": 60,
+      "direction": [
+        -0.24999999999999994,
+        0.43301270189221946,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -3.830047960842813,
+        8.297970739896279,
+        18.590727361258505
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 46.40159350792778,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": -60,
+      "direction": [
+        -0.43301270189221946,
+        0.25,
+        -0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -8.26068818678705,
+        4.6024676497697925,
+        -15.95645202204604
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 375,
+      "nearest_ray_angular_error_deg": 44.97415336069295,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": -30,
+      "direction": [
+        -0.7500000000000001,
+        0.4330127018922193,
+        -0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -14.435885607119035,
+        8.27028949920918,
+        -8.500333952088367
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 720,
+      "nearest_ray_angular_error_deg": 61.91934803084229,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": 0,
+      "direction": [
+        -0.8660254037844387,
+        0.49999999999999994,
+        0.0
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -16.53316673719809,
+        9.620267958617838,
+        1.5474840694024685
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 705,
+      "nearest_ray_angular_error_deg": 74.7226564690612,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": 30,
+      "direction": [
+        -0.7500000000000001,
+        0.4330127018922193,
+        0.49999999999999994
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -13.990566791918509,
+        8.290677389997802,
+        11.494697317873117
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 705,
+      "nearest_ray_angular_error_deg": 61.78251454416664,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "head_direction_grid",
+      "azimuth_left_deg": 150,
+      "elevation_deg": 60,
+      "direction": [
+        -0.43301270189221946,
+        0.25,
+        0.8660254037844386
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -7.489373373293368,
+        4.6377805124748495,
+        18.675958036455704
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": false,
+      "peak_intensity": 0.0,
+      "peak_ommatidium_index": null,
+      "nearest_ray_ommatidium_index": 345,
+      "nearest_ray_angular_error_deg": 44.65713461486446,
+      "observed_peak_ray_error_deg": null,
+      "nearest_ray_ommatidium_intensity": 0.0,
+      "illuminated_ommatidia": []
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        2,
+        10
+      ],
+      "mapped_ommatidium_index": 564,
+      "direction": [
+        -0.1848147421736615,
+        -0.5219690931945322,
+        -0.8327014932284923
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -3.2830305081296522,
+        -10.836310744076837,
+        -15.384925847570067
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.42821824381926593,
+      "peak_ommatidium_index": 564,
+      "nearest_ray_ommatidium_index": 564,
+      "nearest_ray_angular_error_deg": 1.5844145954984112,
+      "observed_peak_ray_error_deg": 1.5844145954984112,
+      "nearest_ray_ommatidium_intensity": 0.42821824381926593,
+      "illuminated_ommatidia": [
+        539,
+        540,
+        564
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.42821824381926593
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        4,
+        17
+      ],
+      "mapped_ommatidium_index": 668,
+      "direction": [
+        -0.5136274156344197,
+        -0.65472807497857,
+        -0.5545430783478981
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -9.733769068670936,
+        -13.485706708247786,
+        -9.674006206633717
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.4772090654443599,
+      "peak_ommatidium_index": 668,
+      "nearest_ray_ommatidium_index": 668,
+      "nearest_ray_angular_error_deg": 1.3662904089234233,
+      "observed_peak_ray_error_deg": 1.3662904089234233,
+      "nearest_ray_ommatidium_intensity": 0.4772090654443599,
+      "illuminated_ommatidia": [
+        667,
+        668,
+        686
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.4772090654443599
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        6,
+        7
+      ],
+      "mapped_ommatidium_index": 338,
+      "direction": [
+        0.3486772476164233,
+        -0.5222908936023215,
+        -0.7782264448441237
+      ],
+      "side": "right",
+      "target_world_mm": [
+        7.408422856316229,
+        -10.841816583016616,
+        -14.533262950360879
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.27778317938745767,
+      "peak_ommatidium_index": 338,
+      "nearest_ray_ommatidium_index": 338,
+      "nearest_ray_angular_error_deg": 1.9710698915503202,
+      "observed_peak_ray_error_deg": 1.9710698915503202,
+      "nearest_ray_ommatidium_intensity": 0.27778317938745767,
+      "illuminated_ommatidia": [
+        338,
+        339,
+        369
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.27778317938745767
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        7,
+        9
+      ],
+      "mapped_ommatidium_index": 367,
+      "direction": [
+        0.3333545769434293,
+        -0.6681007972110589,
+        -0.6652187991907738
+      ],
+      "side": "right",
+      "target_world_mm": [
+        7.1523867287085166,
+        -13.755703968797889,
+        -12.263874952338817
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.33810104954845044,
+      "peak_ommatidium_index": 367,
+      "nearest_ray_ommatidium_index": 367,
+      "nearest_ray_angular_error_deg": 0.9154371397488379,
+      "observed_peak_ray_error_deg": 0.9154371397488379,
+      "nearest_ray_ommatidium_intensity": 0.33810104954845044,
+      "illuminated_ommatidia": [
+        367,
+        397
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.33810104954845044
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        8,
+        11
+      ],
+      "mapped_ommatidium_index": 396,
+      "direction": [
+        0.3025382488036577,
+        -0.7760114381565189,
+        -0.5534228544802495
+      ],
+      "side": "right",
+      "target_world_mm": [
+        6.586010293800743,
+        -15.911625958212236,
+        -10.012588117051163
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3134212305611898,
+      "peak_ommatidium_index": 396,
+      "nearest_ray_ommatidium_index": 396,
+      "nearest_ray_angular_error_deg": 0.6210127675127134,
+      "observed_peak_ray_error_deg": 0.6210127675127134,
+      "nearest_ray_ommatidium_intensity": 0.3134212305611898,
+      "illuminated_ommatidia": [
+        396
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.3134212305611898
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        9,
+        13
+      ],
+      "mapped_ommatidium_index": 424,
+      "direction": [
+        0.2705022504863768,
+        -0.8508465210823994,
+        -0.4504317151842035
+      ],
+      "side": "right",
+      "target_world_mm": [
+        5.991321728291812,
+        -17.406216229870193,
+        -7.937484922219481
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.210158891142664,
+      "peak_ommatidium_index": 424,
+      "nearest_ray_ommatidium_index": 424,
+      "nearest_ray_angular_error_deg": 2.3005794885550865,
+      "observed_peak_ray_error_deg": 2.3005794885550865,
+      "nearest_ray_ommatidium_intensity": 0.210158891142664,
+      "illuminated_ommatidia": [
+        395,
+        424,
+        425
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.210158891142664
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        10,
+        16
+      ],
+      "mapped_ommatidium_index": 451,
+      "direction": [
+        0.1289248659223958,
+        -0.9483160320666424,
+        -0.2899570352177561
+      ],
+      "side": "right",
+      "target_world_mm": [
+        3.231949703416463,
+        -19.352285804475247,
+        -4.663754181938717
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.19497193068098612,
+      "peak_ommatidium_index": 451,
+      "nearest_ray_ommatidium_index": 451,
+      "nearest_ray_angular_error_deg": 2.5213954524079014,
+      "observed_peak_ray_error_deg": 2.5213954524079014,
+      "nearest_ray_ommatidium_intensity": 0.19497193068098612,
+      "illuminated_ommatidia": [
+        451,
+        479
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.19497193068098612
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        11,
+        16
+      ],
+      "mapped_ommatidium_index": 422,
+      "direction": [
+        0.223515319543412,
+        -0.9434187254706318,
+        -0.2449530778756926
+      ],
+      "side": "right",
+      "target_world_mm": [
+        5.143330306586518,
+        -19.253454185006053,
+        -3.8061214035032944
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.14275528393175455,
+      "peak_ommatidium_index": 422,
+      "nearest_ray_ommatidium_index": 422,
+      "nearest_ray_angular_error_deg": 2.857460539251473,
+      "observed_peak_ray_error_deg": 2.857460539251473,
+      "nearest_ray_ommatidium_intensity": 0.14275528393175455,
+      "illuminated_ommatidia": [
+        422,
+        451
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.14275528393175455
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        12,
+        23
+      ],
+      "mapped_ommatidium_index": 552,
+      "direction": [
+        -0.2015470642169669,
+        -0.9792841879553726,
+        0.01952588349110217
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -3.238028156669471,
+        -19.965227106963056,
+        1.672163238166891
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.23020096005207066,
+      "peak_ommatidium_index": 552,
+      "nearest_ray_ommatidium_index": 552,
+      "nearest_ray_angular_error_deg": 2.2238576567186614,
+      "observed_peak_ray_error_deg": 2.2238576567186614,
+      "nearest_ray_ommatidium_intensity": 0.23020096005207066,
+      "illuminated_ommatidia": [
+        552,
+        553,
+        576
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.23020096005207066
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        13,
+        28
+      ],
+      "mapped_ommatidium_index": 677,
+      "direction": [
+        -0.5706914510340649,
+        -0.8103940973829343,
+        0.1325619652974882
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -10.56876800899385,
+        -16.58499761249981,
+        4.093266396484404
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3700704524233939,
+      "peak_ommatidium_index": 677,
+      "nearest_ray_ommatidium_index": 677,
+      "nearest_ray_angular_error_deg": 1.553688422657883,
+      "observed_peak_ray_error_deg": 1.553688422657883,
+      "nearest_ray_ommatidium_intensity": 0.3700704524233939,
+      "illuminated_ommatidia": [
+        658,
+        659,
+        677
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.3700704524233939
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        15,
+        2
+      ],
+      "mapped_ommatidium_index": 49,
+      "direction": [
+        0.8658411030652202,
+        0.09240390825173833,
+        -0.4917120112246671
+      ],
+      "side": "right",
+      "target_world_mm": [
+        17.876654799571615,
+        1.4577395474783232,
+        -9.047234480916924
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.30971867007672615,
+      "peak_ommatidium_index": 49,
+      "nearest_ray_ommatidium_index": 49,
+      "nearest_ray_angular_error_deg": 2.0496582823241565,
+      "observed_peak_ray_error_deg": 2.0496582823241565,
+      "nearest_ray_ommatidium_intensity": 0.30971867007672615,
+      "illuminated_ommatidia": [
+        31,
+        48,
+        49
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.30971867007672615
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        16,
+        28
+      ],
+      "mapped_ommatidium_index": 595,
+      "direction": [
+        -0.3277267522654594,
+        -0.8933242216024858,
+        0.3075174969783784
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -5.632758143585321,
+        -18.240114448783206,
+        7.485001974835688
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3743315508021393,
+      "peak_ommatidium_index": 595,
+      "nearest_ray_ommatidium_index": 595,
+      "nearest_ray_angular_error_deg": 1.2612442753497701,
+      "observed_peak_ray_error_deg": 1.2612442753497701,
+      "nearest_ray_ommatidium_intensity": 0.3743315508021393,
+      "illuminated_ommatidia": [
+        573,
+        595,
+        596
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.3743315508021393
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        18,
+        30
+      ],
+      "mapped_ommatidium_index": 615,
+      "direction": [
+        -0.3846191441693825,
+        -0.8022364076458502,
+        0.4566014237668264
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -6.7039445574148315,
+        -16.41530036453651,
+        10.489417684854288
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.26648767390773725,
+      "peak_ommatidium_index": 615,
+      "nearest_ray_ommatidium_index": 615,
+      "nearest_ray_angular_error_deg": 2.1782437265358943,
+      "observed_peak_ray_error_deg": 2.1782437265358943,
+      "nearest_ray_ommatidium_intensity": 0.26648767390773725,
+      "illuminated_ommatidia": [
+        593,
+        614,
+        615
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.26648767390773725
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        21,
+        7
+      ],
+      "mapped_ommatidium_index": 62,
+      "direction": [
+        0.9885058114720793,
+        -0.01964321361133705,
+        -0.1499013170220509
+      ],
+      "side": "right",
+      "target_world_mm": [
+        20.48156845961786,
+        -0.7762744200547342,
+        -2.2650591685546067
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.40225532272995096,
+      "peak_ommatidium_index": 62,
+      "nearest_ray_ommatidium_index": 62,
+      "nearest_ray_angular_error_deg": 1.429906875678189,
+      "observed_peak_ray_error_deg": 1.429906875678189,
+      "nearest_ray_ommatidium_intensity": 0.40225532272995096,
+      "illuminated_ommatidia": [
+        43,
+        44,
+        62
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.40225532272995096
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        23,
+        31
+      ],
+      "mapped_ommatidium_index": 544,
+      "direction": [
+        -0.1734879764037909,
+        -0.6969140229813466,
+        0.6958539836885845
+      ],
+      "side": "right",
+      "target_world_mm": [
+        -2.3758365877804803,
+        -14.304047330746643,
+        15.177111882169054
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3527797950455898,
+      "peak_ommatidium_index": 544,
+      "nearest_ray_ommatidium_index": 544,
+      "nearest_ray_angular_error_deg": 1.6273529762949692,
+      "observed_peak_ray_error_deg": 1.6273529762949692,
+      "nearest_ray_ommatidium_intensity": 0.3527797950455898,
+      "illuminated_ommatidia": [
+        519,
+        520,
+        544,
+        545
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.3527797950455898
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        25,
+        29
+      ],
+      "mapped_ommatidium_index": 441,
+      "direction": [
+        0.1265409036798288,
+        -0.6836623510595825,
+        0.718744175238712
+      ],
+      "side": "right",
+      "target_world_mm": [
+        3.633445268721796,
+        -14.038648838735789,
+        15.50092330014686
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.20100596760443312,
+      "peak_ommatidium_index": 441,
+      "nearest_ray_ommatidium_index": 441,
+      "nearest_ray_angular_error_deg": 2.5908339336552415,
+      "observed_peak_ray_error_deg": 2.5908339336552415,
+      "nearest_ray_ommatidium_intensity": 0.20100596760443312,
+      "illuminated_ommatidia": [
+        412,
+        440,
+        441
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.20100596760443312
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        27,
+        27
+      ],
+      "mapped_ommatidium_index": 322,
+      "direction": [
+        0.3792455869869493,
+        -0.5725208270175272,
+        0.7269062438733699
+      ],
+      "side": "right",
+      "target_world_mm": [
+        8.689907796271523,
+        -11.815738588741892,
+        15.549323779621627
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.2878193701723116,
+      "peak_ommatidium_index": 322,
+      "nearest_ray_ommatidium_index": 322,
+      "nearest_ray_angular_error_deg": 1.7722986605817748,
+      "observed_peak_ray_error_deg": 1.7722986605817748,
+      "nearest_ray_ommatidium_intensity": 0.2878193701723116,
+      "illuminated_ommatidia": [
+        321,
+        322,
+        352
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.2878193701723116
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        29,
+        29
+      ],
+      "mapped_ommatidium_index": 320,
+      "direction": [
+        0.3204137004672998,
+        -0.4642926383898811,
+        0.8256920772841498
+      ],
+      "side": "right",
+      "target_world_mm": [
+        7.5575404351478035,
+        -9.649142005198584,
+        17.548541734407454
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.34259634888438106,
+      "peak_ommatidium_index": 320,
+      "nearest_ray_ommatidium_index": 320,
+      "nearest_ray_angular_error_deg": 1.7040483491294474,
+      "observed_peak_ray_error_deg": 1.7040483491294474,
+      "nearest_ray_ommatidium_intensity": 0.34259634888438106,
+      "illuminated_ommatidia": [
+        290,
+        319,
+        320,
+        350
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.34259634888438106
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        31,
+        33
+      ],
+      "mapped_ommatidium_index": 376,
+      "direction": [
+        0.0647618719438737,
+        -0.2946691149344363,
+        0.9534023351377325
+      ],
+      "side": "right",
+      "target_world_mm": [
+        2.5026236162270377,
+        -6.253983076568469,
+        20.212500187963187
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.44811650801399505,
+      "peak_ommatidium_index": 376,
+      "nearest_ray_ommatidium_index": 376,
+      "nearest_ray_angular_error_deg": 1.5712004559218609,
+      "observed_peak_ray_error_deg": 1.5712004559218609,
+      "nearest_ray_ommatidium_intensity": 0.44811650801399505,
+      "illuminated_ommatidia": [
+        376,
+        406
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.44811650801399505
+    },
+    {
+      "kind": "author_column_axis",
+      "author_hex": [
+        33,
+        29
+      ],
+      "mapped_ommatidium_index": 231,
+      "direction": [
+        0.4039380197560563,
+        -0.1849699349269447,
+        0.8958907295918838
+      ],
+      "side": "right",
+      "target_world_mm": [
+        9.258841123490768,
+        -4.06128789085583,
+        18.909275548197947
+      ],
+      "distance_from_eye_mm": 20.0,
+      "sphere_radius_mm": 0.6,
+      "angular_radius_deg": 1.719131320877811,
+      "renderer_visible": true,
+      "peak_intensity": 0.3360182247172732,
+      "peak_ommatidium_index": 231,
+      "nearest_ray_ommatidium_index": 231,
+      "nearest_ray_angular_error_deg": 1.9391144559026399,
+      "observed_peak_ray_error_deg": 1.9391144559026399,
+      "nearest_ray_ommatidium_intensity": 0.3360182247172732,
+      "illuminated_ommatidia": [
+        205,
+        231
+      ],
+      "mapped_sample_received_light": true,
+      "mapped_sample_intensity": 0.3360182247172732
+    }
+  ]
+}

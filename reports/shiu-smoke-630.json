@@ -1,0 +1,54 @@
+{
+  "purpose": "installation/data/execution smoke test; not statistical or biological validation",
+  "dataset": "FlyWire v630",
+  "neurons": 127400,
+  "backend": "Brian2 numpy",
+  "brian2_version": "2.10.1",
+  "dt_ms": 0.1,
+  "upstream_model_sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+  "upstream_code_modified": false,
+  "stimulus_ids_source": "upstream figures.ipynb literal assignments",
+  "mn9_id": "720575940660219265",
+  "trials": [
+    {
+      "condition": "no_input",
+      "seed": 42,
+      "duration_ms": 100.0,
+      "sugar_hz": 0,
+      "bitter_hz": 0,
+      "total_spikes": 0,
+      "active_neurons": 0,
+      "non_input_spikes": 0,
+      "mn9_spikes": 0,
+      "mn9_rate_hz": 0.0,
+      "wall_seconds": 4.853526999999303
+    },
+    {
+      "condition": "sugar",
+      "seed": 42,
+      "duration_ms": 100.0,
+      "sugar_hz": 150,
+      "bitter_hz": 0,
+      "total_spikes": 1312,
+      "active_neurons": 327,
+      "non_input_spikes": 1001,
+      "mn9_spikes": 8,
+      "mn9_rate_hz": 80.0,
+      "wall_seconds": 3.681905799996457
+    },
+    {
+      "condition": "sugar_bitter",
+      "seed": 42,
+      "duration_ms": 100.0,
+      "sugar_hz": 150,
+      "bitter_hz": 150,
+      "total_spikes": 1210,
+      "active_neurons": 225,
+      "non_input_spikes": 574,
+      "mn9_spikes": 1,
+      "mn9_rate_hz": 10.0,
+      "wall_seconds": 3.595135299998219
+    }
+  ],
+  "checks_passed": true
+}

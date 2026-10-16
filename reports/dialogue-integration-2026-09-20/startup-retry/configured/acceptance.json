@@ -1,0 +1,43 @@
+{
+  "backend": "configured",
+  "cases": [
+    {
+      "name": "right_foreleg_touch",
+      "request": {
+        "kind": "message",
+        "message": "模拟右前腿触碰",
+        "seed": 81000,
+        "backend": "configured",
+        "feedback_enabled": true
+      },
+      "status": "adviser_failed",
+      "messages": [
+        {
+          "kind": "sensation",
+          "text": "我感到右前腿被碰到了。",
+          "observation_id": "945697b16a11406fb70d9606b07e46b8",
+          "dataset": "MaleCNS v1.0"
+        },
+        {
+          "kind": "status",
+          "text": "感觉已经读出。模型建议这次未完成，未发送回传刺激。"
+        }
+      ],
+      "feedback": {
+        "status": "not_run"
+      },
+      "initial_words": [
+        "foreleg_touch:right"
+      ],
+      "observation_ids": [
+        "945697b16a11406fb70d9606b07e46b8"
+      ],
+      "adviser_seconds": 55.05806060001487,
+      "model_response": null,
+      "passed": false,
+      "error": "API 请求超时（55 秒）；请稍后重试或更换模型。",
+      "elapsed_seconds": 64.97591030001058
+    }
+  ],
+  "passed": false
+}

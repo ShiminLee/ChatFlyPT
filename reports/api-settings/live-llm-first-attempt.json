@@ -1,0 +1,70 @@
+{
+  "status": "partial",
+  "original_chatgpt_called": true,
+  "calls": [
+    {
+      "example": "first_sentence",
+      "input": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "response": {
+        "text": "Move toward the sugar source and feed. Avoid the vinegar if possible; its acidity may be irritating. Stay in the warm, bright area unless you detect danger.",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "api.requestme.top",
+        "requested_model": "gpt-5.5",
+        "returned_model": "gpt-5.5",
+        "response_id": "resp_ft_84943ccefea58abb87aa6263944dc8d5",
+        "usage": {
+          "prompt_tokens": 4474,
+          "completion_tokens": 36,
+          "total_tokens": 4510
+        },
+        "provenance": "live API response; third-party gateway model identity is not independently attested"
+      }
+    },
+    {
+      "example": "navigation",
+      "input": "There is a wall ahead. Both left and right are clear.",
+      "expected": "left",
+      "action": "left",
+      "passed": true,
+      "response": {
+        "text": "left",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "api.requestme.top",
+        "requested_model": "gpt-5.5",
+        "returned_model": "gpt-5.5",
+        "response_id": "resp_ft_3dde62d118d5def8eda82fa48a7cac02",
+        "usage": {
+          "prompt_tokens": 4497,
+          "completion_tokens": 5,
+          "total_tokens": 4502
+        },
+        "provenance": "live API response; third-party gateway model identity is not independently attested"
+      }
+    },
+    {
+      "example": "navigation",
+      "input": "There is a wall ahead and a wall to the left. Right is clear.",
+      "expected": "right",
+      "action": "right",
+      "passed": true,
+      "response": {
+        "text": "right",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "api.requestme.top",
+        "requested_model": "gpt-5.5",
+        "returned_model": "gpt-5.5",
+        "response_id": "resp_ft_9f0f55e4aa153540053bc7be35a53912",
+        "usage": {
+          "prompt_tokens": 4500,
+          "completion_tokens": 5,
+          "total_tokens": 4505
+        },
+        "provenance": "live API response; third-party gateway model identity is not independently attested"
+      }
+    }
+  ],
+  "reason": "API rejected request: HTTP 502, upstream_error; response body omitted"
+}

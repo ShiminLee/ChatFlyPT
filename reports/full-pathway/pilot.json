@@ -1,0 +1,234 @@
+[
+  {
+    "channel": "right_foreleg_touch",
+    "input_events": 229,
+    "elapsed": 3.996515000006184,
+    "nonsensory_spikes": 3991,
+    "groups": {
+      "ENS": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "ascending_neuron": {
+        "spikes": 978,
+        "active_cells": 102
+      },
+      "cb_efferent": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "cb_endocrine": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "cb_intrinsic": {
+        "spikes": 217,
+        "active_cells": 176
+      },
+      "cb_motor": {
+        "spikes": 15,
+        "active_cells": 11
+      },
+      "cb_sensory": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "cb_sensory_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "descending_neuron": {
+        "spikes": 230,
+        "active_cells": 76
+      },
+      "descending_neuron_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "efferent_ascending": {
+        "spikes": 90,
+        "active_cells": 2
+      },
+      "efferent_descending": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "ol_intrinsic": {
+        "spikes": 28,
+        "active_cells": 28
+      },
+      "ol_sensory": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "sensory_ascending": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "sensory_ascending_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "sensory_descending": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "visual_centrifugal": {
+        "spikes": 38,
+        "active_cells": 30
+      },
+      "visual_projection": {
+        "spikes": 17,
+        "active_cells": 15
+      },
+      "visual_projection_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "vnc_efferent": {
+        "spikes": 50,
+        "active_cells": 5
+      },
+      "vnc_endocrine": {
+        "spikes": 8,
+        "active_cells": 1
+      },
+      "vnc_intrinsic": {
+        "spikes": 1315,
+        "active_cells": 544
+      },
+      "vnc_motor": {
+        "spikes": 996,
+        "active_cells": 102
+      },
+      "vnc_sensory": {
+        "spikes": 239,
+        "active_cells": 92
+      },
+      "vnc_sensory_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "vnc_tbc": {
+        "spikes": 9,
+        "active_cells": 1
+      }
+    }
+  },
+  {
+    "channel": "left_foreleg_touch",
+    "input_events": 295,
+    "elapsed": 1.9262742999999318,
+    "nonsensory_spikes": 452,
+    "groups": {
+      "ENS": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "ascending_neuron": {
+        "spikes": 61,
+        "active_cells": 41
+      },
+      "cb_efferent": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "cb_endocrine": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "cb_intrinsic": {
+        "spikes": 93,
+        "active_cells": 85
+      },
+      "cb_motor": {
+        "spikes": 3,
+        "active_cells": 3
+      },
+      "cb_sensory": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "cb_sensory_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "descending_neuron": {
+        "spikes": 22,
+        "active_cells": 20
+      },
+      "descending_neuron_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "efferent_ascending": {
+        "spikes": 2,
+        "active_cells": 2
+      },
+      "efferent_descending": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "ol_intrinsic": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "ol_sensory": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "sensory_ascending": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "sensory_ascending_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "sensory_descending": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "visual_centrifugal": {
+        "spikes": 3,
+        "active_cells": 3
+      },
+      "visual_projection": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "visual_projection_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "vnc_efferent": {
+        "spikes": 1,
+        "active_cells": 1
+      },
+      "vnc_endocrine": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "vnc_intrinsic": {
+        "spikes": 201,
+        "active_cells": 141
+      },
+      "vnc_motor": {
+        "spikes": 66,
+        "active_cells": 53
+      },
+      "vnc_sensory": {
+        "spikes": 290,
+        "active_cells": 114
+      },
+      "vnc_sensory_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      },
+      "vnc_tbc": {
+        "spikes": 0,
+        "active_cells": 0
+      }
+    }
+  }
+]

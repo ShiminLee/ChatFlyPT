@@ -1,0 +1,44 @@
+{
+  "src/flygym/anatomy.py": {
+    "local_sha256": "64ac2cb6239d26ff872e34f2b59e6e35c9182b4b05e21e151e7e7d2c129c0e87",
+    "upstream_blob_sha1": "7b4c318dd2c0ed4ad0c00ef30ad17a8ab99b62d5",
+    "local_git_blob_sha1": "7b4c318dd2c0ed4ad0c00ef30ad17a8ab99b62d5",
+    "matches_official_frozen_head": true
+  },
+  "src/flygym/assets/model/neuromechfly/rigging.yaml": {
+    "local_sha256": "4e51d5ed3f151aefc125c91ff9298921b3b79a9d64e03e6fe88f1ce9945dbe3d",
+    "upstream_blob_sha1": "95da6ad5a7df97715728903581860ae1a23642f9",
+    "local_git_blob_sha1": "95da6ad5a7df97715728903581860ae1a23642f9",
+    "matches_official_frozen_head": true
+  },
+  "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_haustellum.stl": {
+    "local_sha256": "babceb7a6adf0c88e8de6ce9810c32b397d3d1cdd073c0b1bea1df9d8c6ac4e9",
+    "upstream_blob_sha1": "5760d2b021b45574c62c995b1b374e2826f2a8e0",
+    "local_git_blob_sha1": "5760d2b021b45574c62c995b1b374e2826f2a8e0",
+    "matches_official_frozen_head": true
+  },
+  "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_rostrum.stl": {
+    "local_sha256": "4ed0fa33c5867013482011e2ff656b71189f2b29dfb0bda2b0797961d95d12e4",
+    "upstream_blob_sha1": "a3130611d2820821b94e3ba50070f5ded04326ac",
+    "local_git_blob_sha1": "a3130611d2820821b94e3ba50070f5ded04326ac",
+    "matches_official_frozen_head": true
+  },
+  "src/flygym/compose/fly/flybody.py": {
+    "local_sha256": "2b1f0b304d0ed70a79b70dc6f7cf9eabb434ec9ac34a7e338e66baf9464bc928",
+    "upstream_blob_sha1": "767772879245d2415851d8d324d04a66ee2358ad",
+    "local_git_blob_sha1": "767772879245d2415851d8d324d04a66ee2358ad",
+    "matches_official_frozen_head": true
+  },
+  "src/flygym/flybody/anatomy_flybody.py": {
+    "local_sha256": "87c7a74e23e42ed876fb57e208d1d27d4966abe4a95ad861b27da0c9f3f9f230",
+    "upstream_blob_sha1": "12e8f9634c96966234d416812507ff75651032c1",
+    "local_git_blob_sha1": "12e8f9634c96966234d416812507ff75651032c1",
+    "matches_official_frozen_head": true
+  },
+  "src/flygym/assets/model/flybody/rigging.yaml": {
+    "local_sha256": "eb852760f6cc7fedea4e2d75cff89b0b4eec6dad09b67368266644d8db628737",
+    "upstream_blob_sha1": "b5c1c74483703f0ff84171e3c2908c73d2a5069e",
+    "local_git_blob_sha1": "b5c1c74483703f0ff84171e3c2908c73d2a5069e",
+    "matches_official_frozen_head": true
+  }
+}

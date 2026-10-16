@@ -1,0 +1,278 @@
+{
+  "protocol_fingerprint": "81d2001e08ba45cf454f4919e22a091a61b3045c5d1b60f836a9c9b3e156eb22",
+  "original_author_replication": false,
+  "feature_selection": "All sensory/sensory_ascending and stimulated cells excluded before fitting",
+  "models": {
+    "all_non_sensory": {
+      "features": 10436,
+      "artifact_sha256": "429d90ac15652d542c65964880229b1d4ff4949b95a8c9822fff7444e72de6f1",
+      "metrics": {
+        "train": {
+          "trials": 424,
+          "exact_set_accuracy": 1.0,
+          "micro_f1": 1.0,
+          "macro_f1": 1.0,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 1.0,
+            "vinegar": 1.0,
+            "yeast": 1.0,
+            "geosmin": 1.0,
+            "pheromone": 1.0,
+            "warm": 1.0,
+            "cold": 1.0,
+            "humid": 1.0,
+            "dry": 1.0,
+            "bright": 1.0,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          },
+          "single_word_top1_accuracy": 1.0,
+          "single_word_trials": 192
+        },
+        "validation": {
+          "trials": 120,
+          "exact_set_accuracy": 1.0,
+          "micro_f1": 1.0,
+          "macro_f1": 1.0,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 1.0,
+            "vinegar": 1.0,
+            "yeast": 1.0,
+            "geosmin": 1.0,
+            "pheromone": 1.0,
+            "warm": 1.0,
+            "cold": 1.0,
+            "humid": 1.0,
+            "dry": 1.0,
+            "bright": 1.0,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          },
+          "single_word_top1_accuracy": 1.0,
+          "single_word_trials": 48
+        },
+        "test": {
+          "trials": 168,
+          "exact_set_accuracy": 0.9940476190476191,
+          "micro_f1": 0.9986091794158554,
+          "macro_f1": 0.9982142857142857,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 1.0,
+            "vinegar": 1.0,
+            "yeast": 1.0,
+            "geosmin": 1.0,
+            "pheromone": 1.0,
+            "warm": 1.0,
+            "cold": 1.0,
+            "humid": 1.0,
+            "dry": 1.0,
+            "bright": 0.9714285714285714,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          },
+          "single_word_top1_accuracy": 1.0,
+          "single_word_trials": 96
+        },
+        "ood": {
+          "trials": 64,
+          "exact_set_accuracy": 0.84375,
+          "micro_f1": 0.9822695035460993,
+          "macro_f1": 0.9824750830564783,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 0.9767441860465116,
+            "vinegar": 1.0,
+            "yeast": 1.0,
+            "geosmin": 1.0,
+            "pheromone": 1.0,
+            "warm": 1.0,
+            "cold": 1.0,
+            "humid": 1.0,
+            "dry": 1.0,
+            "bright": 0.7428571428571429,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          }
+        }
+      }
+    },
+    "descending_motor": {
+      "features": 519,
+      "artifact_sha256": "8f5adae7934c66115dd8e58f7304af00ac78b4d741f9623c4e7b136374230799",
+      "metrics": {
+        "train": {
+          "trials": 424,
+          "exact_set_accuracy": 0.7476415094339622,
+          "micro_f1": 0.94375,
+          "macro_f1": 0.9478783797986944,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 0.8299319727891157,
+            "vinegar": 1.0,
+            "yeast": 0.8170731707317073,
+            "geosmin": 0.9182389937106918,
+            "pheromone": 1.0,
+            "warm": 0.9915966386554622,
+            "cold": 0.9781021897810219,
+            "humid": 0.8533333333333334,
+            "dry": 1.0,
+            "bright": 0.7777777777777778,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          },
+          "single_word_top1_accuracy": 0.9375,
+          "single_word_trials": 192
+        },
+        "validation": {
+          "trials": 120,
+          "exact_set_accuracy": 0.24166666666666667,
+          "micro_f1": 0.7727272727272727,
+          "macro_f1": 0.813557995550337,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 0.576271186440678,
+            "vinegar": 0.8717948717948718,
+            "yeast": 0.4918032786885246,
+            "geosmin": 0.4727272727272727,
+            "pheromone": 1.0,
+            "warm": 0.926829268292683,
+            "cold": 0.8260869565217391,
+            "humid": 0.625,
+            "dry": 1.0,
+            "bright": 0.22641509433962265,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          },
+          "single_word_top1_accuracy": 0.875,
+          "single_word_trials": 48
+        },
+        "test": {
+          "trials": 168,
+          "exact_set_accuracy": 0.3630952380952381,
+          "micro_f1": 0.7590221187427241,
+          "macro_f1": 0.7964846212701604,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 0.5846153846153846,
+            "vinegar": 0.8095238095238095,
+            "yeast": 0.5432098765432098,
+            "geosmin": 0.38095238095238093,
+            "pheromone": 1.0,
+            "warm": 0.8235294117647058,
+            "cold": 0.7307692307692307,
+            "humid": 0.625,
+            "dry": 1.0,
+            "bright": 0.24615384615384617,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          },
+          "single_word_top1_accuracy": 0.90625,
+          "single_word_trials": 96
+        },
+        "ood": {
+          "trials": 64,
+          "exact_set_accuracy": 0.0625,
+          "micro_f1": 0.799347471451876,
+          "macro_f1": 0.8179947776943477,
+          "per_word_f1": {
+            "sugar": 1.0,
+            "bitter": 1.0,
+            "water": 1.0,
+            "salt": 0.8085106382978723,
+            "vinegar": 0.7692307692307693,
+            "yeast": 0.4897959183673469,
+            "geosmin": 0.43902439024390244,
+            "pheromone": 0.9444444444444444,
+            "warm": 0.8636363636363636,
+            "cold": 0.7567567567567568,
+            "humid": 0.6341463414634146,
+            "dry": 0.9142857142857143,
+            "bright": 0.46808510638297873,
+            "touch": 1.0,
+            "sound": 1.0,
+            "wind": 1.0
+          }
+        }
+      }
+    }
+  },
+  "controls": {
+    "shuffled_neural_observations": {
+      "trials": 168,
+      "exact_set_accuracy": 0.02976190476190476,
+      "micro_f1": 0.1502086230876217,
+      "macro_f1": 0.14572018055473937,
+      "per_word_f1": {
+        "sugar": 0.125,
+        "bitter": 0.13636363636363635,
+        "water": 0.125,
+        "salt": 0.14285714285714285,
+        "vinegar": 0.09090909090909091,
+        "yeast": 0.17857142857142858,
+        "geosmin": 0.17647058823529413,
+        "pheromone": 0.058823529411764705,
+        "warm": 0.16666666666666666,
+        "cold": 0.047619047619047616,
+        "humid": 0.14285714285714285,
+        "dry": 0.11538461538461539,
+        "bright": 0.17142857142857143,
+        "touch": 0.26666666666666666,
+        "sound": 0.09523809523809523,
+        "wind": 0.2916666666666667
+      },
+      "single_word_top1_accuracy": 0.052083333333333336,
+      "single_word_trials": 96
+    },
+    "zero_neural_observations": {
+      "trials": 168,
+      "exact_set_accuracy": 0.047619047619047616,
+      "micro_f1": 0.0,
+      "macro_f1": 0.0,
+      "per_word_f1": {
+        "sugar": 0.0,
+        "bitter": 0.0,
+        "water": 0.0,
+        "salt": 0.0,
+        "vinegar": 0.0,
+        "yeast": 0.0,
+        "geosmin": 0.0,
+        "pheromone": 0.0,
+        "warm": 0.0,
+        "cold": 0.0,
+        "humid": 0.0,
+        "dry": 0.0,
+        "bright": 0.0,
+        "touch": 0.0,
+        "sound": 0.0,
+        "wind": 0.0
+      },
+      "single_word_top1_accuracy": 0.0625,
+      "single_word_trials": 96
+    },
+    "interpretation": "Negative controls test whether predictions depend on neural observations. No claim of connectome superiority over random wiring is made."
+  }
+}

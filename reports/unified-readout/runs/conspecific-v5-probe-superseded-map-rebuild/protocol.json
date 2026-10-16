@@ -1,0 +1,2765 @@
+{
+  "schema": "chatflypt.unified-readout-protocol.v1",
+  "dataset": "MaleCNS v1.0",
+  "input_mode": "environment_only",
+  "duration_ms": 500.0,
+  "interval_ms": "environment-only default; actual interval saved in every physical record",
+  "split_unit": "whole_session",
+  "episodes": [
+    {
+      "id": "train-bright",
+      "split": "train",
+      "condition": "bright",
+      "seed": 924500,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "train-dark",
+      "split": "train",
+      "condition": "dark",
+      "seed": 924510,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "shade",
+            "type": "shade",
+            "position_mm": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "size_mm": [
+              20.0,
+              20.0,
+              20.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-yeast",
+      "split": "train",
+      "condition": "yeast",
+      "seed": 924520,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "yeast",
+            "position_mm": [
+              3.0,
+              -0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 7.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-dark_yeast",
+      "split": "train",
+      "condition": "dark_yeast",
+      "seed": 924530,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "shade",
+            "type": "shade",
+            "position_mm": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "size_mm": [
+              20.0,
+              20.0,
+              20.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0,
+            "field": "range"
+          },
+          {
+            "id": "sample",
+            "type": "yeast",
+            "position_mm": [
+              3.0,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 7.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-heat",
+      "split": "train",
+      "condition": "heat",
+      "seed": 924540,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "heat",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-cold",
+      "split": "train",
+      "condition": "cold",
+      "seed": 924550,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "cold",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-mouth_block",
+      "split": "train",
+      "condition": "mouth_block",
+      "seed": 924560,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "block",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-mouth_sugar",
+      "split": "train",
+      "condition": "mouth_sugar",
+      "seed": 924570,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-mouth_high_salt",
+      "split": "train",
+      "condition": "mouth_high_salt",
+      "seed": 924580,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "high_salt",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-leg_sugar",
+      "split": "train",
+      "condition": "leg_sugar",
+      "seed": 924590,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              0.0,
+              0.0,
+              0.1
+            ],
+            "size_mm": [
+              5.0,
+              4.0,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-touch_left",
+      "split": "train",
+      "condition": "touch_left",
+      "seed": 924600,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.0,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        [],
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.0,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "train-touch_right",
+      "split": "train",
+      "condition": "touch_right",
+      "seed": 924610,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.0,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        [],
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.0,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "validation-bright",
+      "split": "validation",
+      "condition": "bright",
+      "seed": 924620,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "validation-dark",
+      "split": "validation",
+      "condition": "dark",
+      "seed": 924630,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "shade",
+            "type": "shade",
+            "position_mm": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "size_mm": [
+              20.0,
+              20.0,
+              20.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-yeast",
+      "split": "validation",
+      "condition": "yeast",
+      "seed": 924640,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "yeast",
+            "position_mm": [
+              3.2,
+              -0.2,
+              0.4
+            ],
+            "size_mm": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 7.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-dark_yeast",
+      "split": "validation",
+      "condition": "dark_yeast",
+      "seed": 924650,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "shade",
+            "type": "shade",
+            "position_mm": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "size_mm": [
+              20.0,
+              20.0,
+              20.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0,
+            "field": "range"
+          },
+          {
+            "id": "sample",
+            "type": "yeast",
+            "position_mm": [
+              3.0,
+              0.2,
+              0.4
+            ],
+            "size_mm": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 7.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-heat",
+      "split": "validation",
+      "condition": "heat",
+      "seed": 924660,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "heat",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-cold",
+      "split": "validation",
+      "condition": "cold",
+      "seed": 924670,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "cold",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-mouth_block",
+      "split": "validation",
+      "condition": "mouth_block",
+      "seed": 924680,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "block",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-mouth_sugar",
+      "split": "validation",
+      "condition": "mouth_sugar",
+      "seed": 924690,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-mouth_high_salt",
+      "split": "validation",
+      "condition": "mouth_high_salt",
+      "seed": 924700,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "high_salt",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-leg_sugar",
+      "split": "validation",
+      "condition": "leg_sugar",
+      "seed": 924710,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              0.0,
+              0.0,
+              0.1
+            ],
+            "size_mm": [
+              5.0,
+              4.0,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-touch_left",
+      "split": "validation",
+      "condition": "touch_left",
+      "seed": 924720,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 0.85,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        [],
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 0.85,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "validation-touch_right",
+      "split": "validation",
+      "condition": "touch_right",
+      "seed": 924730,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 0.85,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        [],
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 0.85,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "test-bright",
+      "split": "test",
+      "condition": "bright",
+      "seed": 924740,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "test-dark",
+      "split": "test",
+      "condition": "dark",
+      "seed": 924750,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "shade",
+            "type": "shade",
+            "position_mm": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "size_mm": [
+              20.0,
+              20.0,
+              20.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-yeast",
+      "split": "test",
+      "condition": "yeast",
+      "seed": 924760,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "yeast",
+            "position_mm": [
+              3.4,
+              -0.4,
+              0.4
+            ],
+            "size_mm": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 7.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-dark_yeast",
+      "split": "test",
+      "condition": "dark_yeast",
+      "seed": 924770,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "shade",
+            "type": "shade",
+            "position_mm": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "size_mm": [
+              20.0,
+              20.0,
+              20.0
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 4.0,
+            "field": "range"
+          },
+          {
+            "id": "sample",
+            "type": "yeast",
+            "position_mm": [
+              3.0,
+              0.4,
+              0.4
+            ],
+            "size_mm": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 7.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-heat",
+      "split": "test",
+      "condition": "heat",
+      "seed": 924780,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "heat",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-cold",
+      "split": "test",
+      "condition": "cold",
+      "seed": 924790,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "cold",
+            "position_mm": [
+              1.0,
+              0.0,
+              1.0
+            ],
+            "size_mm": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-mouth_block",
+      "split": "test",
+      "condition": "mouth_block",
+      "seed": 924800,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "block",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-mouth_sugar",
+      "split": "test",
+      "condition": "mouth_sugar",
+      "seed": 924810,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-mouth_high_salt",
+      "split": "test",
+      "condition": "mouth_high_salt",
+      "seed": 924820,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "high_salt",
+            "position_mm": [
+              1.1,
+              0.0,
+              0.4
+            ],
+            "size_mm": [
+              0.7,
+              1.0,
+              0.8
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-leg_sugar",
+      "split": "test",
+      "condition": "leg_sugar",
+      "seed": 924830,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "sample",
+            "type": "sugar",
+            "position_mm": [
+              0.0,
+              0.0,
+              0.1
+            ],
+            "size_mm": [
+              5.0,
+              4.0,
+              0.2
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 5.0,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-touch_left",
+      "split": "test",
+      "condition": "touch_left",
+      "seed": 924840,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.15,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        [],
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.15,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "test-touch_right",
+      "split": "test",
+      "condition": "touch_right",
+      "seed": 924850,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.15,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        [],
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.15,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "train-pheromone_plume_left",
+      "split": "train",
+      "condition": "pheromone_plume_left",
+      "seed": 950000,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560902041669535,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-pheromone_partner_left",
+      "split": "train",
+      "condition": "pheromone_partner_left",
+      "seed": 950010,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560902041669535,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "funiculus",
+            "anchor_origin_mm": [
+              1.0560902041669535,
+              0.10785251385696054,
+              1.1859366230476975
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-pheromone_plume_right",
+      "split": "train",
+      "condition": "pheromone_plume_right",
+      "seed": 950020,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560915038350354,
+              -0.18785907037419786,
+              1.1861566084458162
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-pheromone_partner_right",
+      "split": "train",
+      "condition": "pheromone_partner_right",
+      "seed": 950030,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560915038350354,
+              -0.18785907037419786,
+              1.1861566084458162
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "funiculus",
+            "anchor_origin_mm": [
+              1.0560915038350354,
+              -0.10785907037419784,
+              1.1861566084458162
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-far_pheromone_control",
+      "split": "train",
+      "condition": "far_pheromone_control",
+      "seed": 950040,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              5.056090204166954,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-song_plume_left",
+      "split": "train",
+      "condition": "song_plume_left",
+      "seed": 950050,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.0124750393723547,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-song_partner_left",
+      "split": "train",
+      "condition": "song_partner_left",
+      "seed": 950060,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.0124750393723547,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "pedicel",
+            "anchor_origin_mm": [
+              1.0124750393723547,
+              0.08604387829811753,
+              1.2325008559309047
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-song_plume_right",
+      "split": "train",
+      "condition": "song_plume_right",
+      "seed": 950070,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.01247607567643,
+              -0.16595603225729952,
+              1.2326762636121138
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-song_partner_right",
+      "split": "train",
+      "condition": "song_partner_right",
+      "seed": 950080,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.01247607567643,
+              -0.16595603225729952,
+              1.2326762636121138
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "pedicel",
+            "anchor_origin_mm": [
+              1.01247607567643,
+              -0.08595603225729952,
+              1.2326762636121138
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-far_song_control",
+      "split": "train",
+      "condition": "far_song_control",
+      "seed": 950090,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              5.0124750393723545,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.0,
+            "range_mm": 0.2,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "train-nudge_left",
+      "split": "train",
+      "condition": "nudge_left",
+      "seed": 950100,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.5,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ],
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.5,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ]
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "train-nudge_right",
+      "split": "train",
+      "condition": "nudge_right",
+      "seed": 950110,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.5,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ],
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.5,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ]
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "train-nudge_alternating",
+      "split": "train",
+      "condition": "nudge_alternating",
+      "seed": 950120,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.5,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          },
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.5,
+            "onset_ms": 210.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          },
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.5,
+            "onset_ms": 370.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "validation-pheromone_plume_left",
+      "split": "validation",
+      "condition": "pheromone_plume_left",
+      "seed": 950130,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560902041669535,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-pheromone_partner_left",
+      "split": "validation",
+      "condition": "pheromone_partner_left",
+      "seed": 950140,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560902041669535,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "funiculus",
+            "anchor_origin_mm": [
+              1.0560902041669535,
+              0.10785251385696054,
+              1.1859366230476975
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-pheromone_plume_right",
+      "split": "validation",
+      "condition": "pheromone_plume_right",
+      "seed": 950150,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560915038350354,
+              -0.18785907037419786,
+              1.1861566084458162
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-pheromone_partner_right",
+      "split": "validation",
+      "condition": "pheromone_partner_right",
+      "seed": 950160,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560915038350354,
+              -0.18785907037419786,
+              1.1861566084458162
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "funiculus",
+            "anchor_origin_mm": [
+              1.0560915038350354,
+              -0.10785907037419784,
+              1.1861566084458162
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-far_pheromone_control",
+      "split": "validation",
+      "condition": "far_pheromone_control",
+      "seed": 950170,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              5.056090204166954,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-song_plume_left",
+      "split": "validation",
+      "condition": "song_plume_left",
+      "seed": 950180,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.0124750393723547,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-song_partner_left",
+      "split": "validation",
+      "condition": "song_partner_left",
+      "seed": 950190,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.0124750393723547,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "pedicel",
+            "anchor_origin_mm": [
+              1.0124750393723547,
+              0.08604387829811753,
+              1.2325008559309047
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-song_plume_right",
+      "split": "validation",
+      "condition": "song_plume_right",
+      "seed": 950200,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.01247607567643,
+              -0.16595603225729952,
+              1.2326762636121138
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-song_partner_right",
+      "split": "validation",
+      "condition": "song_partner_right",
+      "seed": 950210,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.01247607567643,
+              -0.16595603225729952,
+              1.2326762636121138
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "pedicel",
+            "anchor_origin_mm": [
+              1.01247607567643,
+              -0.08595603225729952,
+              1.2326762636121138
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-far_song_control",
+      "split": "validation",
+      "condition": "far_song_control",
+      "seed": 950220,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              5.0124750393723545,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 0.85,
+            "range_mm": 0.2,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "validation-nudge_left",
+      "split": "validation",
+      "condition": "nudge_left",
+      "seed": 950230,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.275,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ],
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.275,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ]
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "validation-nudge_right",
+      "split": "validation",
+      "condition": "nudge_right",
+      "seed": 950240,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.275,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ],
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.275,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ]
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "validation-nudge_alternating",
+      "split": "validation",
+      "condition": "nudge_alternating",
+      "seed": 950250,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.275,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          },
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.275,
+            "onset_ms": 210.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          },
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.275,
+            "onset_ms": 370.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "test-pheromone_plume_left",
+      "split": "test",
+      "condition": "pheromone_plume_left",
+      "seed": 950260,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560902041669535,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-pheromone_partner_left",
+      "split": "test",
+      "condition": "pheromone_partner_left",
+      "seed": 950270,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560902041669535,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "funiculus",
+            "anchor_origin_mm": [
+              1.0560902041669535,
+              0.10785251385696054,
+              1.1859366230476975
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-pheromone_plume_right",
+      "split": "test",
+      "condition": "pheromone_plume_right",
+      "seed": 950280,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560915038350354,
+              -0.18785907037419786,
+              1.1861566084458162
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-pheromone_partner_right",
+      "split": "test",
+      "condition": "pheromone_partner_right",
+      "seed": 950290,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              1.0560915038350354,
+              -0.18785907037419786,
+              1.1861566084458162
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "funiculus",
+            "anchor_origin_mm": [
+              1.0560915038350354,
+              -0.10785907037419784,
+              1.1861566084458162
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-far_pheromone_control",
+      "split": "test",
+      "condition": "far_pheromone_control",
+      "seed": 950300,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "pheromone",
+            "position_mm": [
+              5.056090204166954,
+              0.18785251385696056,
+              1.1859366230476975
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-song_plume_left",
+      "split": "test",
+      "condition": "song_plume_left",
+      "seed": 950310,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.0124750393723547,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-song_partner_left",
+      "split": "test",
+      "condition": "song_partner_left",
+      "seed": 950320,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.0124750393723547,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "pedicel",
+            "anchor_origin_mm": [
+              1.0124750393723547,
+              0.08604387829811753,
+              1.2325008559309047
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-song_plume_right",
+      "split": "test",
+      "condition": "song_plume_right",
+      "seed": 950330,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.01247607567643,
+              -0.16595603225729952,
+              1.2326762636121138
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "plume"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-song_partner_right",
+      "split": "test",
+      "condition": "song_partner_right",
+      "seed": 950340,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              1.01247607567643,
+              -0.16595603225729952,
+              1.2326762636121138
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "anchored",
+            "anchor": "pedicel",
+            "anchor_origin_mm": [
+              1.01247607567643,
+              -0.08595603225729952,
+              1.2326762636121138
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-far_song_control",
+      "split": "test",
+      "condition": "far_song_control",
+      "seed": 950350,
+      "turns": [
+        [],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": [
+          {
+            "id": "conspecific_source",
+            "type": "song",
+            "position_mm": [
+              5.0124750393723545,
+              0.16604387829811754,
+              1.2325008559309047
+            ],
+            "size_mm": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "yaw_deg": 0.0,
+            "strength": 1.15,
+            "range_mm": 0.2,
+            "field": "range"
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-nudge_left",
+      "split": "test",
+      "condition": "nudge_left",
+      "seed": 950360,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.7249999999999999,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ],
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.7249999999999999,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ]
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "test-nudge_right",
+      "split": "test",
+      "condition": "nudge_right",
+      "seed": 950370,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.7249999999999999,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ],
+        [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.7249999999999999,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 3,
+            "interval_ms": 140.0
+          }
+        ]
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    },
+    {
+      "id": "test-nudge_alternating",
+      "split": "test",
+      "condition": "nudge_alternating",
+      "seed": 950380,
+      "turns": [
+        [
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.7249999999999999,
+            "onset_ms": 50.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          },
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.7249999999999999,
+            "onset_ms": 210.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          },
+          {
+            "kind": "touch",
+            "side": "right",
+            "body_part": "foreleg",
+            "strength": 1.7249999999999999,
+            "onset_ms": 370.0,
+            "duration_ms": 60.0,
+            "taps": 1
+          }
+        ],
+        []
+      ],
+      "environment": {
+        "schema": "chatflypt.environment.v1",
+        "revision": 1,
+        "objects": []
+      }
+    }
+  ],
+  "channels": [
+    "mc_bright",
+    "mc_yeast",
+    "mc_warm",
+    "mc_cold",
+    "foreleg_touch",
+    "midleg_touch",
+    "hindleg_touch",
+    "head_touch",
+    "body_touch",
+    "wing_touch",
+    "sugar",
+    "sugar_specific",
+    "high_salt",
+    "leg_sweet_local",
+    "leg_appetitive_ascending",
+    "mc_cva",
+    "mc_auditory"
+  ],
+  "alpha": 10.0,
+  "threshold_grid": [
+    0.2,
+    0.8,
+    0.01
+  ],
+  "qualification": {
+    "minimum_positive_windows": 2,
+    "minimum_negative_windows": 2,
+    "precision": 0.9,
+    "recall": 0.75
+  },
+  "target": "Actually delivered receptor-population events in this observation window",
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "limitations": [
+    "Some conditions occupy only one session per split.",
+    "Persistent windows within a session are correlated, not independent replicates.",
+    "Lateralized population delivery is not spatial object localization.",
+    "No natural-language intent or behavior target is fitted.",
+    "The plume is upstream data from a different arena scale; it is not a cVA concentration. The following source is a different physical claim from a fixed source and is labelled as such. Nudge trains are engineering timings, and no direction code is claimed for them."
+  ],
+  "run_id": "conspecific-v5-probe",
+  "plume_provenance": {
+    "available": true,
+    "path": "vendor\\flygym-gymnasium\\flygym_gymnasium\\data\\test_data\\plume_tracking\\plume_short.hdf5",
+    "sha256": "40a7605793fde5e0afda1f0d94e7bfedd5abcbd8af57683758f81d5f87b9ee7e",
+    "shape": [
+      60,
+      320,
+      480
+    ],
+    "dtype": "float32 (file stores float16)",
+    "value_range": [
+      0.0,
+      0.7890625
+    ],
+    "cell_mm": 0.5,
+    "fps": 200.0,
+    "origin_cell": [
+      160,
+      23
+    ],
+    "inflow": {
+      "inflow_pos": [
+        5,
+        40
+      ],
+      "inflow_radius": [
+        1
+      ],
+      "inflow_scaler": [
+        0.2
+      ]
+    },
+    "license": "Apache-2.0 (flygym-gymnasium)",
+    "upstream": "flygym-gymnasium/examples/olfaction/plume_tracking_arena.py",
+    "model": "Precomputed 2-D Navier-Stokes plume with Brownian inflow (upstream generator)",
+    "calibrated_to_cva": false,
+    "concentration_units": false
+  },
+  "scope_additions": [
+    "Borrowed upstream plume grid sampled at the funiculus (spatially and temporally structured)",
+    "Following sources that keep their declared offset relative to the measured receptor pose",
+    "Multi-tap nudges on the opposite foreleg and an alternating nudge, for turn-rich windows"
+  ]
+}

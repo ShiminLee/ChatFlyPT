@@ -1,0 +1,218 @@
+[
+  {
+    "seed": 491701,
+    "condition": "mouth_sugar",
+    "controller": "legacy",
+    "summary": {
+      "displacement_mm": [
+        0.04881095258899393,
+        -0.11654693655925595,
+        -0.06623710291797269
+      ],
+      "path_length_mm": 2.3650456775605937,
+      "max_contacts": 17,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_sugar\\legacy\\body-result.json",
+    "source_spikes_sha256": "bb0d52175ae96977931f95f9b201c3d8f0ad9d894320687d46f8de493b1375d1"
+  },
+  {
+    "seed": 491701,
+    "condition": "mouth_sugar",
+    "controller": "tibia",
+    "summary": {
+      "displacement_mm": [
+        0.05390404746455946,
+        -0.11602309932473893,
+        -0.06506411080947205
+      ],
+      "path_length_mm": 2.36885811130366,
+      "max_contacts": 17,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_sugar\\tibia\\body-result.json",
+    "source_spikes_sha256": "bb0d52175ae96977931f95f9b201c3d8f0ad9d894320687d46f8de493b1375d1"
+  },
+  {
+    "seed": 491701,
+    "condition": "mouth_high_salt",
+    "controller": "legacy",
+    "summary": {
+      "displacement_mm": [
+        0.06674519851348848,
+        0.03056276678358602,
+        -0.09315885525015011
+      ],
+      "path_length_mm": 2.362408321794574,
+      "max_contacts": 19,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_high_salt\\legacy\\body-result.json",
+    "source_spikes_sha256": "ad0412b67f57b0b91b8faca247bd09cf7bf93e12701cd431f14879fa839b00b0"
+  },
+  {
+    "seed": 491701,
+    "condition": "mouth_high_salt",
+    "controller": "tibia",
+    "summary": {
+      "displacement_mm": [
+        0.09678324515196146,
+        0.04477392987091316,
+        -0.09838380778391942
+      ],
+      "path_length_mm": 2.0881334987884523,
+      "max_contacts": 19,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_high_salt\\tibia\\body-result.json",
+    "source_spikes_sha256": "ad0412b67f57b0b91b8faca247bd09cf7bf93e12701cd431f14879fa839b00b0"
+  },
+  {
+    "seed": 491701,
+    "condition": "leg_sugar",
+    "controller": "legacy",
+    "summary": {
+      "displacement_mm": [
+        0.3447922366389835,
+        -0.09956267553782454,
+        -0.09972456108539629
+      ],
+      "path_length_mm": 1.971936120740379,
+      "max_contacts": 9,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491701-leg_sugar\\legacy\\body-result.json",
+    "source_spikes_sha256": "66d7c6ad08ae417869059f0869d2d866c680a3d68f877c8fbd3b5de5980fc11c"
+  },
+  {
+    "seed": 491701,
+    "condition": "leg_sugar",
+    "controller": "tibia",
+    "summary": {
+      "displacement_mm": [
+        0.36037154134885485,
+        -0.08227772388153377,
+        -0.07896882612249212
+      ],
+      "path_length_mm": 2.0656849887967046,
+      "max_contacts": 9,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491701-leg_sugar\\tibia\\body-result.json",
+    "source_spikes_sha256": "66d7c6ad08ae417869059f0869d2d866c680a3d68f877c8fbd3b5de5980fc11c"
+  },
+  {
+    "seed": 491702,
+    "condition": "mouth_sugar",
+    "controller": "legacy",
+    "summary": {
+      "displacement_mm": [
+        0.10367097727666719,
+        0.044204541469442145,
+        -0.08058440222082619
+      ],
+      "path_length_mm": 1.6277392985694343,
+      "max_contacts": 17,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_sugar\\legacy\\body-result.json",
+    "source_spikes_sha256": "3ba3d5d3c9c4a6e61bb3f1dcc1090bb2864f913776034b2ed8c080f1a3e3c3b2"
+  },
+  {
+    "seed": 491702,
+    "condition": "mouth_sugar",
+    "controller": "tibia",
+    "summary": {
+      "displacement_mm": [
+        0.08662454619185955,
+        0.04866844126211383,
+        -0.0729929856673126
+      ],
+      "path_length_mm": 1.642056780239605,
+      "max_contacts": 18,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_sugar\\tibia\\body-result.json",
+    "source_spikes_sha256": "3ba3d5d3c9c4a6e61bb3f1dcc1090bb2864f913776034b2ed8c080f1a3e3c3b2"
+  },
+  {
+    "seed": 491702,
+    "condition": "mouth_high_salt",
+    "controller": "legacy",
+    "summary": {
+      "displacement_mm": [
+        0.07894669097710827,
+        0.04929267906396255,
+        -0.08445703155231099
+      ],
+      "path_length_mm": 1.3538188559214221,
+      "max_contacts": 17,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_high_salt\\legacy\\body-result.json",
+    "source_spikes_sha256": "fe6d5f0c953647fd8d70ebc8a2ddf7bff319aa945406d6cae51aae82d2e75c7c"
+  },
+  {
+    "seed": 491702,
+    "condition": "mouth_high_salt",
+    "controller": "tibia",
+    "summary": {
+      "displacement_mm": [
+        0.08341673923682147,
+        0.058102096466846886,
+        -0.08619371559655353
+      ],
+      "path_length_mm": 1.5309963566443938,
+      "max_contacts": 17,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_high_salt\\tibia\\body-result.json",
+    "source_spikes_sha256": "fe6d5f0c953647fd8d70ebc8a2ddf7bff319aa945406d6cae51aae82d2e75c7c"
+  },
+  {
+    "seed": 491702,
+    "condition": "leg_sugar",
+    "controller": "legacy",
+    "summary": {
+      "displacement_mm": [
+        0.28877587193752263,
+        0.0983064503500754,
+        -0.1608068332460908
+      ],
+      "path_length_mm": 2.003171027188541,
+      "max_contacts": 8,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491702-leg_sugar\\legacy\\body-result.json",
+    "source_spikes_sha256": "ab0a3be9e5324ac0b72e87be423790f1809a189b6f0b56ef86fd547376bb49ff"
+  },
+  {
+    "seed": 491702,
+    "condition": "leg_sugar",
+    "controller": "tibia",
+    "summary": {
+      "displacement_mm": [
+        0.2606768372581707,
+        0.0771138543270592,
+        -0.12511067774347162
+      ],
+      "path_length_mm": 2.2657795944824772,
+      "max_contacts": 9,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "record": "data\\derived\\motor-repair-20260924\\replay\\491702-leg_sugar\\tibia\\body-result.json",
+    "source_spikes_sha256": "ab0a3be9e5324ac0b72e87be423790f1809a189b6f0b56ef86fd547376bb49ff"
+  }
+]

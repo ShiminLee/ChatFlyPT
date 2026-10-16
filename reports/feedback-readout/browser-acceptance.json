@@ -1,0 +1,146 @@
+{
+  "service_url": "http://127.0.0.1:8766/",
+  "environment_revision": 5,
+  "environment_objects": 8,
+  "browser_actions": [
+    "Send 请你往左转一下",
+    "Send 停止输入 in the same session",
+    "Reload and restore the 1.0 s session",
+    "Ask 你现在感受到了什么？; display 上次记录"
+  ],
+  "reception_translation_visible": "模拟果蝇的右前腿被触碰",
+  "candidate_prefix_visible": true,
+  "separate_datasets_visible": true,
+  "session_restore_visible": true,
+  "console_errors": [],
+  "records": [
+    {
+      "dialogue_record": "reports\\dialogue\\09957b5b028443ef8f938fe5e506400c.json",
+      "sha256": "2209ecc4bcd23cb97525bdf6f81683273e6d481a05c7b17fe06a9ee13fc55346",
+      "observations": [
+        {
+          "observation_id": "21e8cd2a9f2e491d867341002dd7aa43",
+          "dataset": "FlyWire v783",
+          "decoded_words": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "chat_text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。我在左侧闻到了酵母相关气味。我在右侧闻到了酵母相关气味。",
+          "expression_status": "candidate",
+          "raw_record": {
+            "file": "data\\derived\\pathway-trials\\21e8cd2a9f2e491d867341002dd7aa43.npz",
+            "sha256": "bb5cce9945b4bdf8da616ca8697c26bd531e83fbf6a57a33c96db5dd743572a5"
+          },
+          "raw_hash_matches": true,
+          "count_stream_matches": true,
+          "blind_reread_matches_chat": true,
+          "direct_driven_features_excluded": true,
+          "physics_run": true,
+          "physics_warnings": 0,
+          "duration_ms": 500.0,
+          "sample_count": 5,
+          "session_start_ms": 0.0,
+          "session_end_ms": 500.0,
+          "neural_resets": 1,
+          "body_resets": 1
+        },
+        {
+          "observation_id": "2ad95c3ce9334d5b9dad73c9baeec9e3",
+          "dataset": "MaleCNS v1.0",
+          "decoded_words": [
+            "foreleg_touch:right"
+          ],
+          "chat_text": "候选神经读出（连续反馈仅有限验证）：我感到右前腿被碰到了。",
+          "expression_status": "candidate",
+          "raw_record": {
+            "file": "data\\derived\\pathway-trials\\2ad95c3ce9334d5b9dad73c9baeec9e3.npz",
+            "sha256": "1f5cbc613e82b2c3bbd2afe17b27064b61fbbaa48ef51c0e24aa490eba7cf634"
+          },
+          "raw_hash_matches": true,
+          "count_stream_matches": true,
+          "blind_reread_matches_chat": true,
+          "direct_driven_features_excluded": true,
+          "physics_run": true,
+          "physics_warnings": 0,
+          "duration_ms": 500.0,
+          "sample_count": 5,
+          "session_start_ms": 0.0,
+          "session_end_ms": 500.0,
+          "neural_resets": 1,
+          "body_resets": 1
+        }
+      ]
+    },
+    {
+      "dialogue_record": "reports\\dialogue\\7b909c4f0b424b4596720bdb9ea0becb.json",
+      "sha256": "0b76a8722bddeb1a4080c2fba12063b778ec15e7903340a806c83c5bb9c03fa2",
+      "observations": [
+        {
+          "observation_id": "94c3f25d00e74857a31a9f1335c19722",
+          "dataset": "FlyWire v783",
+          "decoded_words": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "chat_text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。我在左侧闻到了酵母相关气味。我在右侧闻到了酵母相关气味。",
+          "expression_status": "candidate",
+          "raw_record": {
+            "file": "data\\derived\\pathway-trials\\94c3f25d00e74857a31a9f1335c19722.npz",
+            "sha256": "da087b06327581fafe4d3d5c7101a4bb7cecad2380f5a21164f9b71f8af3029e"
+          },
+          "raw_hash_matches": true,
+          "count_stream_matches": true,
+          "blind_reread_matches_chat": true,
+          "direct_driven_features_excluded": true,
+          "physics_run": true,
+          "physics_warnings": 0,
+          "duration_ms": 500.0,
+          "sample_count": 5,
+          "session_start_ms": 500.0,
+          "session_end_ms": 1000.0,
+          "neural_resets": 0,
+          "body_resets": 0
+        },
+        {
+          "observation_id": "842407122e9e42c28555181345289dc2",
+          "dataset": "MaleCNS v1.0",
+          "decoded_words": [],
+          "chat_text": null,
+          "expression_status": "no_signal",
+          "raw_record": {
+            "file": "data\\derived\\pathway-trials\\842407122e9e42c28555181345289dc2.npz",
+            "sha256": "4204167a53d2781eff751cfa5e7913fc61d6f194d43a9724b926d051f037a4ec"
+          },
+          "raw_hash_matches": true,
+          "count_stream_matches": true,
+          "blind_reread_matches_chat": true,
+          "direct_driven_features_excluded": true,
+          "physics_run": true,
+          "physics_warnings": 0,
+          "duration_ms": 500.0,
+          "sample_count": 5,
+          "session_start_ms": 500.0,
+          "session_end_ms": 1000.0,
+          "neural_resets": 0,
+          "body_resets": 0
+        }
+      ]
+    }
+  ],
+  "ordinary_question": {
+    "reply": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。我在左侧闻到了酵母相关气味。我在右侧闻到了酵母相关气味。",
+    "neural_simulation_run": false,
+    "llm_called": false,
+    "uses_previous_record": true
+  },
+  "left_turn_achieved": false,
+  "limitations": [
+    "No left turn command was produced by the MaleCNS physical controller.",
+    "Small synthetic benchmark; candidate words remain uncalibrated outside its limited scope."
+  ],
+  "deployment_note": "Existing 8765 service was preserved after automatic approval rejected the combined restart; tested new service runs on 8766."
+}

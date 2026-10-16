@@ -1,0 +1,25 @@
+{
+  "frames": 11,
+  "compared_fields": [
+    "time_ms",
+    "position_mm",
+    "quaternion_wxyz",
+    "yaw_rad",
+    "feet_mm",
+    "joint_angles_rad",
+    "body_positions_mm",
+    "body_quaternions_wxyz",
+    "geom_positions_mm",
+    "geom_rotation_matrices",
+    "contact_count",
+    "environment_contacts",
+    "commands",
+    "joint_motor_offsets_rad",
+    "max_actuator_force_model_units"
+  ],
+  "body_values_bitwise_equal_as_saved": true,
+  "summary_equal": true,
+  "trajectory_sha256": "ab58dc5fbdbb9dd4c0260418007b782beaf58aabfa24f0e60cfc70ac933b0976",
+  "brain_run": false,
+  "source_drive_sha256": "c60bee46ca0ad2328f518b500bcf915028d8c6f381178f532db2c62a1854ddcc"
+}

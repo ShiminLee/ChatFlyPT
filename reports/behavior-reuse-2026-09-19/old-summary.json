@@ -1,0 +1,304 @@
+{
+  "variant": "old",
+  "implementation_sha256": {
+    "chatflypt/body_simulation.py": "406bebe1ccb280d96f05991e0d4ea1d5ed21ba33b9c7ef2b07eb6abc262e0fa9"
+  },
+  "cases": [
+    {
+      "name": "right_foreleg_touch",
+      "observation_id": "7972d97a4ddb4d06a404f9781d6aa09f",
+      "dataset": "MaleCNS v1.0",
+      "seed": 81000,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\7972d97a4ddb4d06a404f9781d6aa09f.npz",
+        "sha256": "1f5cbc613e82b2c3bbd2afe17b27064b61fbbaa48ef51c0e24aa490eba7cf634"
+      },
+      "source_sha256_unchanged": true,
+      "body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "MaleCNS v1.0",
+        "source_spikes_sha256": "d19b5cc22ae02092a4e78ea3c08055bd9a17f4c9daf7725e2c93d99f21f02755",
+        "source_mapping": "MaleCNS vnc_motor subclass fl/ml/hl + somaSide",
+        "motor_spikes": 2,
+        "active_motor_neurons": 2,
+        "motor_activity_in_window": true,
+        "duration_ms": 499.99999999996123,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 73,
+          "nv": 72,
+          "nu": 48,
+          "timestep_ms": 0.1,
+          "model": "NeuroMechFly simplified_max2000faces / FlatGroundWorld"
+        },
+        "controls": {
+          "reference_rate_hz": 20.0,
+          "smoothing_ms": 30.0,
+          "bin_ms": 10.0,
+          "frequency_hz": 12,
+          "passive_control": false,
+          "powered_steps": 4300,
+          "max_drive": 0.04230875961585234,
+          "max_actuator_force_model_units": 1.8315118863134652,
+          "max_force_on_zero_drive_actuators": 0.0
+        },
+        "summary": {
+          "displacement_mm": [
+            0.18986883280465805,
+            -0.0010719986552786087,
+            -1.5387649316246623
+          ],
+          "path_length_mm": 1.7594691991001563,
+          "max_contacts": 13,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "elapsed_seconds": 3.7182474000146613,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            0.18986883280465805,
+            -0.0010719986552786087,
+            -1.5387649316246623
+          ],
+          "horizontal_displacement_mm": 0.18987185903055806,
+          "yaw_change_deg": -0.5607097218798719,
+          "min_thorax_height_mm": 0.7461376188525003,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true
+        },
+        "trajectory_sha256": "74b289abd372c2d82e7789582c63d923d96f4ee16187fde368df8e997e890ae7"
+      },
+      "wall_seconds": 65.69335230000434,
+      "historical_body_status_matches": true,
+      "historical_trajectory_exact_match": true
+    },
+    {
+      "name": "left_cold",
+      "observation_id": "301732e8b7334dd9b267ce880cee77b5",
+      "dataset": "FlyWire v783",
+      "seed": 5900005,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\301732e8b7334dd9b267ce880cee77b5.npz",
+        "sha256": "ed926f5251da43af54537188ab78428ef2deea83a9cc22c5368b875292867d47"
+      },
+      "source_sha256_unchanged": true,
+      "body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "FlyWire v783",
+        "source_spikes_sha256": "35e7e52db19732505c68dce752a4a2c98cd5204e8b4b088035d3f42793a23aba",
+        "source_mapping": "FlyWire DNa01/DNa02 + side; each side shared by 3 legs",
+        "motor_spikes": 36,
+        "active_motor_neurons": 3,
+        "motor_activity_in_window": true,
+        "duration_ms": 499.99999999996123,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 73,
+          "nv": 72,
+          "nu": 48,
+          "timestep_ms": 0.1,
+          "model": "NeuroMechFly simplified_max2000faces / FlatGroundWorld"
+        },
+        "controls": {
+          "reference_rate_hz": 20.0,
+          "smoothing_ms": 30.0,
+          "bin_ms": 10.0,
+          "frequency_hz": 12,
+          "passive_control": false,
+          "powered_steps": 4000,
+          "max_drive": 0.791636129602117,
+          "max_actuator_force_model_units": 31.665445184084682,
+          "max_force_on_zero_drive_actuators": 0.0
+        },
+        "summary": {
+          "displacement_mm": [
+            1.0518007018714912,
+            -0.8546601902506473,
+            -1.6613885196189866
+          ],
+          "path_length_mm": 4.773890792146357,
+          "max_contacts": 11,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "elapsed_seconds": 3.4885267000063322,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            1.0518007018714912,
+            -0.8546601902506473,
+            -1.6613885196189866
+          ],
+          "horizontal_displacement_mm": 1.3552596641443417,
+          "yaw_change_deg": -17.020286058671495,
+          "min_thorax_height_mm": 0.5045844576373615,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true
+        },
+        "trajectory_sha256": "ad80fcca4dc8c18fac7c343bf2cb8fbbd918667035d3da3cdf297acbb642e5d3"
+      },
+      "wall_seconds": 6.814869299996644,
+      "historical_body_status_matches": true,
+      "historical_trajectory_exact_match": true
+    },
+    {
+      "name": "left_sugar",
+      "observation_id": "9c5281bc5fda4816b89af0812a26958e",
+      "dataset": "MaleCNS v1.0",
+      "seed": 5900001,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\9c5281bc5fda4816b89af0812a26958e.npz",
+        "sha256": "407861ded8ae4ae9987dfe143892b863931e2c6e7cd3ef4d03a54e4519fa9b02"
+      },
+      "source_sha256_unchanged": true,
+      "body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "MaleCNS v1.0",
+        "source_spikes_sha256": "a081dea05b7b31290001995affafb69b39887352138255141c72c3495fb62a25",
+        "source_mapping": "MaleCNS vnc_motor subclass fl/ml/hl + somaSide",
+        "motor_spikes": 305,
+        "active_motor_neurons": 63,
+        "motor_activity_in_window": true,
+        "duration_ms": 499.99999999996123,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 73,
+          "nv": 72,
+          "nu": 48,
+          "timestep_ms": 0.1,
+          "model": "NeuroMechFly simplified_max2000faces / FlatGroundWorld"
+        },
+        "controls": {
+          "reference_rate_hz": 20.0,
+          "smoothing_ms": 30.0,
+          "bin_ms": 10.0,
+          "frequency_hz": 12,
+          "passive_control": false,
+          "powered_steps": 3900,
+          "max_drive": 0.33850809553352745,
+          "max_actuator_force_model_units": 13.540323821341097,
+          "max_force_on_zero_drive_actuators": 0.0
+        },
+        "summary": {
+          "displacement_mm": [
+            0.4233304133777436,
+            0.01242130164425585,
+            -1.6863582187782569
+          ],
+          "path_length_mm": 2.5255175459862067,
+          "max_contacts": 11,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "elapsed_seconds": 3.498301799991168,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            0.4233304133777436,
+            0.01242130164425585,
+            -1.6863582187782569
+          ],
+          "horizontal_displacement_mm": 0.42351260621746417,
+          "yaw_change_deg": -1.2761729314032677,
+          "min_thorax_height_mm": 0.602203822656257,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true
+        },
+        "trajectory_sha256": "b6e9f74e76373459c2a2e2e79b4aee3649ccd645965a8d82fce33ecb288e0752"
+      },
+      "wall_seconds": 6.460603699990315,
+      "historical_body_status_matches": true,
+      "historical_trajectory_exact_match": true
+    },
+    {
+      "name": "blank",
+      "observation_id": "26b566cee24d4c77b4945fdb91e4c739",
+      "dataset": "FlyWire v783",
+      "seed": 5900007,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\26b566cee24d4c77b4945fdb91e4c739.npz",
+        "sha256": "cc5f82fc09152fa5a79b76675cfe7f391d67b12755e0c54b730edf814a0ab6bb"
+      },
+      "source_sha256_unchanged": true,
+      "body": {
+        "status": "no_motor_activity",
+        "physics_run": false,
+        "reason": "当前物理时间窗内没有可用于此腿控制器的运动神经驱动，未生成主动动作。",
+        "dataset": "FlyWire v783",
+        "source_spikes_sha256": "70200482b9fe6656f215a97b71332dd6725b80e2cb32e0052a4d47916ca1579b",
+        "source_mapping": "FlyWire DNa01/DNa02 + side; each side shared by 3 legs",
+        "motor_spikes": 0,
+        "active_motor_neurons": 0,
+        "motor_activity_in_window": false,
+        "duration_ms": 500.0,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "trajectory_frames": 0
+      },
+      "wall_seconds": 1.1338702000211924,
+      "historical_body_status_matches": true,
+      "historical_trajectory_exact_match": true
+    }
+  ],
+  "complete": true
+}

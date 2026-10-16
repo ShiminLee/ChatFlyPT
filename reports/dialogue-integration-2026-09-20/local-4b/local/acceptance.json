@@ -1,0 +1,277 @@
+{
+  "backend": "local",
+  "cases": [
+    {
+      "name": "right_foreleg_touch",
+      "request": {
+        "kind": "message",
+        "message": "模拟右前腿触碰",
+        "seed": 81000,
+        "backend": "local",
+        "feedback_enabled": true
+      },
+      "status": "completed",
+      "messages": [
+        {
+          "kind": "sensation",
+          "text": "我感到右前腿被碰到了。",
+          "observation_id": "e86e375cf29d4938af89bb15ff0c99f4",
+          "dataset": "MaleCNS v1.0"
+        },
+        {
+          "kind": "advice",
+          "text": "可以尝试向左移动，避开右前腿被碰的区域。",
+          "backend": "local",
+          "model": "chatflypt-qwen3-4b-instruct-2507",
+          "action": "left"
+        },
+        {
+          "kind": "feedback_input",
+          "text": "工程码本：左侧听觉细胞 100 Hz 输入",
+          "action": "left",
+          "observation_id": "23314fa9cf434c3093c9e353e76357d3"
+        },
+        {
+          "kind": "feedback_sensation",
+          "text": "我收到了“向左”的回传信号。",
+          "observation_id": "23314fa9cf434c3093c9e353e76357d3",
+          "dataset": "FlyWire v783"
+        }
+      ],
+      "feedback": {
+        "status": "executed",
+        "action": "left",
+        "observation_id": "23314fa9cf434c3093c9e353e76357d3",
+        "decoded_command": "left",
+        "encoding": {
+          "kind": "engineered_auditory_codebook",
+          "requested_action": "left",
+          "description": "左/右听觉细胞=左右，双侧=前进，静默=停止码；未经自然语言或运动生理校准。",
+          "rate_hz": 100.0,
+          "active_code_rate_hz": 100.0,
+          "duration_ms": 300.0,
+          "source": {
+            "codebook": "data/derived/reconstruction/stimuli.json:auditory_commands",
+            "codebook_sha256": "5924b707ca8cf72bd6590d5a85c78b5bd6c9029df831306bd1277a4fc9c710e3",
+            "manifest_sha256": "6b4559dbe7a05ecac68eb5d86b90cb544ba631f2e43f73ffb1188b16bc56c847",
+            "annotation_sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+            "protocol": "chatflypt/demo.py:command_examples",
+            "protocol_sha256": "7dcd01eec3826c7faaf1e1894a0ccc99e85f2cb88d59585f935f8a42dbf1aeca",
+            "model": "D:\\Projects\\python\\fly\\data\\derived\\reconstruction\\command-decoder-non_sensory.npz",
+            "model_sha256": "f4b3e1407ca5aa0b18f61a83fec9d64ed40035b5dfbfd7dd13baf99fa3f24bbf",
+            "features": 273,
+            "feature_check": "All sensory/sensory_ascending and all manifest input cells excluded"
+          },
+          "input_tape_sha256": "0f92ba3714ac9a56c86b41f0b020680c4567ed61dcfe6bf6c286bbe92a8810b3",
+          "event_recording": "Exact deterministic Brain.input_tape schedule using the same groups/duration/seed as Brain.run",
+          "event_index_namespace": "event_neuron_indices and neuron_indices index brain.ids; neuron_ids align with neuron_indices",
+          "limitations": [
+            "工程听觉码本：左/右听觉细胞编码左右，双侧编码前进，静默编码停止；不是英语或人类语言理解。",
+            "解码器只读取非感觉、非直接输入细胞的计数；解码标签不是已经发生的运动。",
+            "静默只表示没有可解码的下游活动，不能证明听到了停止指令。",
+            "每次独立复位运行 300 ms；不把建议标签直接变成身体轨迹。"
+          ]
+        },
+        "model_sha256": "f4b3e1407ca5aa0b18f61a83fec9d64ed40035b5dfbfd7dd13baf99fa3f24bbf"
+      },
+      "initial_words": [
+        "foreleg_touch:right"
+      ],
+      "observation_ids": [
+        "e86e375cf29d4938af89bb15ff0c99f4",
+        "23314fa9cf434c3093c9e353e76357d3"
+      ],
+      "adviser_seconds": 1.1667140999925323,
+      "model_response": {
+        "text": "{\"advice\": \"可以尝试向左移动，避开右前腿被碰的区域。\", \"action\": \"left\"}",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "127.0.0.1",
+        "requested_model": "chatflypt-qwen3-4b-instruct-2507",
+        "returned_model": "chatflypt-qwen3-4b-instruct-2507",
+        "response_id": "chatcmpl-R5BSxUwWu9nCVfIMwCFwSSc6ujIP1ADR",
+        "usage": {
+          "completion_tokens": 28,
+          "prompt_tokens": 595,
+          "total_tokens": 623,
+          "prompt_tokens_details": {
+            "cached_tokens": 390
+          }
+        },
+        "provenance": "live response from a local inference endpoint"
+      },
+      "feedback_decoding_match": true,
+      "passed": true,
+      "elapsed_seconds": 10.968464000005042
+    },
+    {
+      "name": "five_senses",
+      "request": {
+        "kind": "words",
+        "words": [
+          "vinegar",
+          "yeast",
+          "sugar",
+          "warm",
+          "bright"
+        ],
+        "seed": 81000,
+        "backend": "local",
+        "feedback_enabled": true
+      },
+      "status": "completed",
+      "messages": [
+        {
+          "kind": "sensation",
+          "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+          "observation_id": "406633c3a9a646f393dd224b20f4b577",
+          "dataset": "FlyWire v783"
+        },
+        {
+          "kind": "advice",
+          "text": "可以尝试向前移动，因为检测到甜味和酵母气味可能表明存在适合果蝇觅食的环境，温暖和光的感知也提示当前环境适宜活动。",
+          "backend": "local",
+          "model": "chatflypt-qwen3-4b-instruct-2507",
+          "action": "forward"
+        },
+        {
+          "kind": "feedback_input",
+          "text": "工程码本：双侧听觉细胞 100 Hz 输入",
+          "action": "forward",
+          "observation_id": "c385253b87474b9f8ab7ee5eb761ceb8"
+        },
+        {
+          "kind": "feedback_sensation",
+          "text": "我收到了“向前”的回传信号。",
+          "observation_id": "c385253b87474b9f8ab7ee5eb761ceb8",
+          "dataset": "FlyWire v783"
+        }
+      ],
+      "feedback": {
+        "status": "executed",
+        "action": "forward",
+        "observation_id": "c385253b87474b9f8ab7ee5eb761ceb8",
+        "decoded_command": "forward",
+        "encoding": {
+          "kind": "engineered_auditory_codebook",
+          "requested_action": "forward",
+          "description": "左/右听觉细胞=左右，双侧=前进，静默=停止码；未经自然语言或运动生理校准。",
+          "rate_hz": 100.0,
+          "active_code_rate_hz": 100.0,
+          "duration_ms": 300.0,
+          "source": {
+            "codebook": "data/derived/reconstruction/stimuli.json:auditory_commands",
+            "codebook_sha256": "5924b707ca8cf72bd6590d5a85c78b5bd6c9029df831306bd1277a4fc9c710e3",
+            "manifest_sha256": "6b4559dbe7a05ecac68eb5d86b90cb544ba631f2e43f73ffb1188b16bc56c847",
+            "annotation_sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+            "protocol": "chatflypt/demo.py:command_examples",
+            "protocol_sha256": "7dcd01eec3826c7faaf1e1894a0ccc99e85f2cb88d59585f935f8a42dbf1aeca",
+            "model": "D:\\Projects\\python\\fly\\data\\derived\\reconstruction\\command-decoder-non_sensory.npz",
+            "model_sha256": "f4b3e1407ca5aa0b18f61a83fec9d64ed40035b5dfbfd7dd13baf99fa3f24bbf",
+            "features": 273,
+            "feature_check": "All sensory/sensory_ascending and all manifest input cells excluded"
+          },
+          "input_tape_sha256": "1ed92e572d067de62a1ccbdc766230098540c1f36e1eb4d1b15bca1ea5a856c7",
+          "event_recording": "Exact deterministic Brain.input_tape schedule using the same groups/duration/seed as Brain.run",
+          "event_index_namespace": "event_neuron_indices and neuron_indices index brain.ids; neuron_ids align with neuron_indices",
+          "limitations": [
+            "工程听觉码本：左/右听觉细胞编码左右，双侧编码前进，静默编码停止；不是英语或人类语言理解。",
+            "解码器只读取非感觉、非直接输入细胞的计数；解码标签不是已经发生的运动。",
+            "静默只表示没有可解码的下游活动，不能证明听到了停止指令。",
+            "每次独立复位运行 300 ms；不把建议标签直接变成身体轨迹。"
+          ]
+        },
+        "model_sha256": "f4b3e1407ca5aa0b18f61a83fec9d64ed40035b5dfbfd7dd13baf99fa3f24bbf"
+      },
+      "initial_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "observation_ids": [
+        "406633c3a9a646f393dd224b20f4b577",
+        "c385253b87474b9f8ab7ee5eb761ceb8"
+      ],
+      "adviser_seconds": 1.7474898000073154,
+      "model_response": {
+        "text": "{\"advice\": \"可以尝试向前移动，因为检测到甜味和酵母气味可能表明存在适合果蝇觅食的环境，温暖和光的感知也提示当前环境适宜活动。\", \"action\": \"forward\"}",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "127.0.0.1",
+        "requested_model": "chatflypt-qwen3-4b-instruct-2507",
+        "returned_model": "chatflypt-qwen3-4b-instruct-2507",
+        "response_id": "chatcmpl-jCVUlZfVY04HuZAgEctRCfFCsOAuwlZG",
+        "usage": {
+          "completion_tokens": 50,
+          "prompt_tokens": 735,
+          "total_tokens": 785,
+          "prompt_tokens_details": {
+            "cached_tokens": 390
+          }
+        },
+        "provenance": "live response from a local inference endpoint"
+      },
+      "feedback_decoding_match": true,
+      "passed": true,
+      "elapsed_seconds": 27.128455800004303
+    },
+    {
+      "name": "blank",
+      "request": {
+        "kind": "stimuli",
+        "items": [],
+        "seed": 812399,
+        "backend": "local",
+        "feedback_enabled": true
+      },
+      "status": "completed",
+      "messages": [
+        {
+          "kind": "sensation",
+          "text": "我这轮没有收到新的感觉信号。",
+          "observation_id": "590182e5212849d1a031f8f4e7fc751d",
+          "dataset": "FlyWire v783"
+        },
+        {
+          "kind": "advice",
+          "text": "可以尝试暂停观察，等待下一轮感觉信号出现。",
+          "backend": "local",
+          "model": "chatflypt-qwen3-4b-instruct-2507",
+          "action": "none"
+        }
+      ],
+      "feedback": {
+        "status": "not_requested",
+        "action": "none"
+      },
+      "initial_words": [],
+      "observation_ids": [
+        "590182e5212849d1a031f8f4e7fc751d"
+      ],
+      "adviser_seconds": 1.321048099984182,
+      "model_response": {
+        "text": "{\"advice\": \"可以尝试暂停观察，等待下一轮感觉信号出现。\", \"action\": \"none\"}",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "127.0.0.1",
+        "requested_model": "chatflypt-qwen3-4b-instruct-2507",
+        "returned_model": "chatflypt-qwen3-4b-instruct-2507",
+        "response_id": "chatcmpl-0OIOmZdX8kAtdw2995bacqYe93FbIvif",
+        "usage": {
+          "completion_tokens": 25,
+          "prompt_tokens": 539,
+          "total_tokens": 564,
+          "prompt_tokens_details": {
+            "cached_tokens": 390
+          }
+        },
+        "provenance": "live response from a local inference endpoint"
+      },
+      "passed": true,
+      "elapsed_seconds": 5.324335400015116
+    }
+  ],
+  "passed": true
+}

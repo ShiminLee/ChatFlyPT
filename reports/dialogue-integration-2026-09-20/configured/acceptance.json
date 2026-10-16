@@ -1,0 +1,187 @@
+{
+  "backend": "configured",
+  "cases": [
+    {
+      "name": "right_foreleg_touch",
+      "request": {
+        "kind": "message",
+        "message": "模拟右前腿触碰",
+        "seed": 81000,
+        "backend": "configured",
+        "feedback_enabled": true
+      },
+      "passed": false,
+      "error": "<urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
+      "elapsed_seconds": 2.0645992000063416
+    },
+    {
+      "name": "five_senses",
+      "request": {
+        "kind": "words",
+        "words": [
+          "vinegar",
+          "yeast",
+          "sugar",
+          "warm",
+          "bright"
+        ],
+        "seed": 81000,
+        "backend": "configured",
+        "feedback_enabled": true
+      },
+      "status": "completed",
+      "messages": [
+        {
+          "kind": "sensation",
+          "text": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+          "observation_id": "93d95464c71c4929ab498469a8818e5d",
+          "dataset": "FlyWire v783"
+        },
+        {
+          "kind": "advice",
+          "text": "可以尝试向前探索当前感知到的光、甜味、醋和酵母相关气味及温暖，但这些感觉未指示具体方向。",
+          "backend": "configured",
+          "model": "gpt-5.5",
+          "action": "forward"
+        },
+        {
+          "kind": "feedback_input",
+          "text": "工程码本：双侧听觉细胞 100 Hz 输入",
+          "action": "forward",
+          "observation_id": "e506063ec9a84608a85a8dfc962b7380"
+        },
+        {
+          "kind": "feedback_sensation",
+          "text": "我收到了“向前”的回传信号。",
+          "observation_id": "e506063ec9a84608a85a8dfc962b7380",
+          "dataset": "FlyWire v783"
+        }
+      ],
+      "feedback": {
+        "status": "executed",
+        "action": "forward",
+        "observation_id": "e506063ec9a84608a85a8dfc962b7380",
+        "decoded_command": "forward",
+        "encoding": {
+          "kind": "engineered_auditory_codebook",
+          "requested_action": "forward",
+          "description": "左/右听觉细胞=左右，双侧=前进，静默=停止码；未经自然语言或运动生理校准。",
+          "rate_hz": 100.0,
+          "active_code_rate_hz": 100.0,
+          "duration_ms": 300.0,
+          "source": {
+            "codebook": "data/derived/reconstruction/stimuli.json:auditory_commands",
+            "codebook_sha256": "5924b707ca8cf72bd6590d5a85c78b5bd6c9029df831306bd1277a4fc9c710e3",
+            "manifest_sha256": "6b4559dbe7a05ecac68eb5d86b90cb544ba631f2e43f73ffb1188b16bc56c847",
+            "annotation_sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+            "protocol": "chatflypt/demo.py:command_examples",
+            "protocol_sha256": "7dcd01eec3826c7faaf1e1894a0ccc99e85f2cb88d59585f935f8a42dbf1aeca",
+            "model": "D:\\Projects\\python\\fly\\data\\derived\\reconstruction\\command-decoder-non_sensory.npz",
+            "model_sha256": "f4b3e1407ca5aa0b18f61a83fec9d64ed40035b5dfbfd7dd13baf99fa3f24bbf",
+            "features": 273,
+            "feature_check": "All sensory/sensory_ascending and all manifest input cells excluded"
+          },
+          "input_tape_sha256": "1ed92e572d067de62a1ccbdc766230098540c1f36e1eb4d1b15bca1ea5a856c7",
+          "event_recording": "Exact deterministic Brain.input_tape schedule using the same groups/duration/seed as Brain.run",
+          "event_index_namespace": "event_neuron_indices and neuron_indices index brain.ids; neuron_ids align with neuron_indices",
+          "limitations": [
+            "工程听觉码本：左/右听觉细胞编码左右，双侧编码前进，静默编码停止；不是英语或人类语言理解。",
+            "解码器只读取非感觉、非直接输入细胞的计数；解码标签不是已经发生的运动。",
+            "静默只表示没有可解码的下游活动，不能证明听到了停止指令。",
+            "每次独立复位运行 300 ms；不把建议标签直接变成身体轨迹。"
+          ]
+        },
+        "model_sha256": "f4b3e1407ca5aa0b18f61a83fec9d64ed40035b5dfbfd7dd13baf99fa3f24bbf"
+      },
+      "initial_words": [
+        "sugar",
+        "vinegar",
+        "yeast",
+        "warm",
+        "bright"
+      ],
+      "observation_ids": [
+        "93d95464c71c4929ab498469a8818e5d",
+        "e506063ec9a84608a85a8dfc962b7380"
+      ],
+      "adviser_seconds": 7.6996172000071965,
+      "model_response": {
+        "text": "{\"advice\":\"可以尝试向前探索当前感知到的光、甜味、醋和酵母相关气味及温暖，但这些感觉未指示具体方向。\",\"action\":\"forward\"}",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "api.requestme.top",
+        "requested_model": "gpt-5.5",
+        "returned_model": "gpt-5.5",
+        "response_id": "resp_07dbac550e225af8016aaf6b60db8c87d0b3d61802d8f08e39",
+        "usage": {
+          "prompt_tokens": 763,
+          "completion_tokens": 220,
+          "total_tokens": 983,
+          "completion_tokens_details": {
+            "reasoning_tokens": 168
+          }
+        },
+        "provenance": "live API response; third-party gateway model identity is not independently attested"
+      },
+      "feedback_decoding_match": true,
+      "passed": true,
+      "elapsed_seconds": 53.424275400000624
+    },
+    {
+      "name": "blank",
+      "request": {
+        "kind": "stimuli",
+        "items": [],
+        "seed": 812399,
+        "backend": "configured",
+        "feedback_enabled": true
+      },
+      "status": "completed",
+      "messages": [
+        {
+          "kind": "sensation",
+          "text": "我这轮没有收到新的感觉信号。",
+          "observation_id": "19d9924fc35a47b2aa5110f9ab767986",
+          "dataset": "FlyWire v783"
+        },
+        {
+          "kind": "advice",
+          "text": "这轮没有新的感觉信号，暂不发送回传刺激。",
+          "backend": "configured",
+          "model": "gpt-5.5",
+          "action": "none"
+        }
+      ],
+      "feedback": {
+        "status": "not_requested",
+        "action": "none"
+      },
+      "initial_words": [],
+      "observation_ids": [
+        "19d9924fc35a47b2aa5110f9ab767986"
+      ],
+      "adviser_seconds": 50.07412840001052,
+      "model_response": {
+        "text": "{\"advice\":\"这轮没有新的感觉信号，暂不发送回传刺激。\",\"action\":\"none\"}",
+        "provider_protocol": "openai",
+        "api_style": "chat_completions",
+        "provider_host": "api.requestme.top",
+        "requested_model": "gpt-5.5",
+        "returned_model": "gpt-5.5",
+        "response_id": "resp_76ce855e-9d9d-4a0d-8949-4f054e8e6356",
+        "usage": {
+          "prompt_tokens": 818,
+          "completion_tokens": 32,
+          "total_tokens": 850,
+          "prompt_tokens_details": {
+            "cached_tokens": 101
+          }
+        },
+        "provenance": "live API response; third-party gateway model identity is not independently attested"
+      },
+      "passed": true,
+      "elapsed_seconds": 58.81164549998357
+    }
+  ],
+  "passed": false
+}

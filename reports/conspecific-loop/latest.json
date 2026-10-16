@@ -1,0 +1,86 @@
+{
+  "schema": "chatflypt.conspecific-loop.v1",
+  "mapping": {
+    "direction": "A recorded song motor activity -> song field at B pedicel",
+    "convention": "engineering, not a decoded song",
+    "song_group": "song",
+    "source_geometry_mm": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "source_range_mm": 0.2,
+    "source_offset_mm": 0.08,
+    "biologically_calibrated": false
+  },
+  "stages": [
+    {
+      "stage": "fly_a_window",
+      "index": 0,
+      "seed": 970000,
+      "song_motor_max": 0.0,
+      "spikes": 11198,
+      "measured_outcome": {
+        "yaw_change_deg": -1.3680260724728441,
+        "path_length_mm": 0.6136679942952321
+      }
+    },
+    {
+      "stage": "fly_a_window",
+      "index": 1,
+      "seed": 970001,
+      "song_motor_max": 0.0,
+      "spikes": 11285,
+      "measured_outcome": {
+        "yaw_change_deg": 1.9396930296086055,
+        "path_length_mm": 1.0129246543856052
+      }
+    },
+    {
+      "stage": "fly_a_window",
+      "index": 2,
+      "seed": 970002,
+      "song_motor_max": 0.0,
+      "spikes": 11361,
+      "measured_outcome": {
+        "yaw_change_deg": -0.933951703183169,
+        "path_length_mm": 0.40273245077159253
+      }
+    },
+    {
+      "stage": "fly_a_window",
+      "index": 3,
+      "seed": 970003,
+      "song_motor_max": 0.0,
+      "spikes": 10763,
+      "measured_outcome": {
+        "yaw_change_deg": -4.240776661802215,
+        "path_length_mm": 1.2871047683063577
+      }
+    },
+    {
+      "stage": "fly_a_window",
+      "index": 4,
+      "seed": 970004,
+      "song_motor_max": 0.0,
+      "spikes": 12146,
+      "measured_outcome": {
+        "yaw_change_deg": -1.7305828377500063,
+        "path_length_mm": 1.239776517809124
+      }
+    },
+    {
+      "stage": "fly_a_window",
+      "index": 5,
+      "seed": 970005,
+      "song_motor_max": 0.0,
+      "spikes": 12541,
+      "measured_outcome": {
+        "yaw_change_deg": 0.8137598413468652,
+        "path_length_mm": 0.5613398358406516
+      }
+    }
+  ],
+  "fly_a_sang": false,
+  "result": "fly A produced no recorded song motor activity in 6 sampled windows; no conspecific signal was presented to B"
+}

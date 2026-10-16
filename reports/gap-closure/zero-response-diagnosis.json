@@ -1,0 +1,322 @@
+[
+  {
+    "channel": "advanced_fw_jo_936d7589",
+    "dataset": "FlyWire v783",
+    "seed": 250013,
+    "input_events": 16,
+    "driven_spikes": 16,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\flywire\\73b51f5b64e88442.npz",
+    "diagnosis": {
+      "input_cells": 1,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_fw_jo_b1_a_98e3bee5",
+    "dataset": "FlyWire v783",
+    "seed": 250014,
+    "input_events": 15,
+    "driven_spikes": 15,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\flywire\\b1dba01194cd7963.npz",
+    "diagnosis": {
+      "input_cells": 1,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_fw_jo_fv_8f359a17",
+    "dataset": "FlyWire v783",
+    "seed": 250026,
+    "input_events": 14,
+    "driven_spikes": 14,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\flywire\\91ee63543c0f4179.npz",
+    "diagnosis": {
+      "input_cells": 1,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_gng642_761ac132",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250156,
+    "input_events": 34,
+    "driven_spikes": 34,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\7fd2454fb46f34b8.npz",
+    "diagnosis": {
+      "input_cells": 2,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_jo_a_unclear_8fe83125",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250166,
+    "input_events": 352,
+    "driven_spikes": 350,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\4fcd7ad6e7cc59c6.npz",
+    "diagnosis": {
+      "input_cells": 24,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_jo_b_unclear_31bf9676",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250180,
+    "input_events": 198,
+    "driven_spikes": 197,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\a97a39bbf73a069a.npz",
+    "diagnosis": {
+      "input_cells": 13,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lb1b_d4bbc879",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250211,
+    "input_events": 77,
+    "driven_spikes": 76,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\77437bb8fa7c67a0.npz",
+    "diagnosis": {
+      "input_cells": 6,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lb2b_456844a7",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250217,
+    "input_events": 43,
+    "driven_spikes": 43,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\2fc64d4473fc7be0.npz",
+    "diagnosis": {
+      "input_cells": 2,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lb2b_9a45d2cd",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250218,
+    "input_events": 16,
+    "driven_spikes": 16,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\28f466f5f1b647c3.npz",
+    "diagnosis": {
+      "input_cells": 1,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lb2d_9dc67223",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250220,
+    "input_events": 53,
+    "driven_spikes": 53,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\76e9ceb3b85c723d.npz",
+    "diagnosis": {
+      "input_cells": 4,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lb2d_d471734e",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250221,
+    "input_events": 27,
+    "driven_spikes": 27,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\c940b9dfc75676f9.npz",
+    "diagnosis": {
+      "input_cells": 1,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lb3_6c34510d",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250222,
+    "input_events": 20,
+    "driven_spikes": 20,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\2d668b8b6c244ebb.npz",
+    "diagnosis": {
+      "input_cells": 1,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lglg1b_cb555940",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250240,
+    "input_events": 2010,
+    "driven_spikes": 1997,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\0148263b6366e319.npz",
+    "diagnosis": {
+      "input_cells": 134,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_lglg8_5e130ab4",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250247,
+    "input_events": 221,
+    "driven_spikes": 221,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\4d25284cfbc902ea.npz",
+    "diagnosis": {
+      "input_cells": 14,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_snpp23_34cdf8b8",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250336,
+    "input_events": 161,
+    "driven_spikes": 161,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\40303ae7d296700a.npz",
+    "diagnosis": {
+      "input_cells": 10,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  },
+  {
+    "channel": "advanced_mc_wg3_c9fcae54",
+    "dataset": "MaleCNS v1.0",
+    "seed": 250375,
+    "input_events": 1449,
+    "driven_spikes": 1437,
+    "non_sensory_spikes": 0,
+    "membrane_internal_cells": 0,
+    "electrical_response": false,
+    "evidence_type": "new_passive_voltage_record",
+    "same_spikes_as_original": true,
+    "max_positive_mv": 0.0,
+    "max_negative_mv": 0.0,
+    "raw_record": "data\\derived\\state-sensory\\electrical-audit\\malecns\\bf07787de08daeb9.npz",
+    "diagnosis": {
+      "input_cells": 96,
+      "modeled_outgoing_edges": 0,
+      "edges_to_internal_cells": 0
+    }
+  }
+]

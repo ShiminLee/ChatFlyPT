@@ -1,0 +1,2531 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "artifact": "data\\derived\\unified-readout\\runs\\conspecific-v5\\malecns-decoder.candidate.npz",
+  "artifact_sha256": "ab76541d17a45fa34542428c3fcef9ce0c9ab8914843b5a97013cb5e71596969",
+  "protocol_sha256": "d87a8236506528576a64be08921d3653a24cf3b5b71df1afd747388d02722aa3",
+  "contract": {
+    "schema": "chatflypt.unified-neural-readout.v1",
+    "dataset": "MaleCNS v1.0",
+    "neurons": 166700,
+    "graph": {
+      "ids": "e6b1bf8ffd66796cef781324c78c6c60b142851eb80ceb0efc0e7e0881832f6a",
+      "indptr": "f5454c71497faea87d4c6078af2d8233fb1bf0ee3b3da1bd0fd71c81af7a396f",
+      "indices": "4b1983ff790b5a46584b882f9127fd072c9eb37d6caa69b696075dd71cb324bb",
+      "weights": "da2f9cfd08c94a9f1810e25c088f8674bdfe00437d9bc1cbe1f7f4e5f952ef27"
+    },
+    "input_mapping_sha256": "cef425b8188a5fde72c0c2efbc62486d8bb2b4c9e029855ed90f5b854336e349",
+    "blind_mask_sha256": "875e8a546604c3daecb7cc17fb6f3379bbfe4d29ba820b9bb27d82147270c9ad",
+    "engine": {
+      "brain.py": "5ee9078ce125e44b309db1676b155c2b5516b607b5a7d91774dcb344ab13a3e9",
+      "malecns.py": "3ffd95d1332187127c5209c9d2a6a1d777059cebdb0411cdc37d75ce1c492483",
+      "neural_session.py": "a3a3ee1c3ef2798ca071a12a01ea1571fc607a00616af58f159215d44ce3e491",
+      "sensory_events.py": "0b7468ac325289abe94343b13e2af9bcb2b6b1b1259f493223bb4ffa3bc34a1e",
+      "social.py": "8144896801dcf7fa6f9a3e9e4921019515a17dbd355635d92735fb58d409c33f"
+    },
+    "physical_transduction": {
+      "environment.py": "0e8fec8cea90be6d82afe6532ee69ac1c1cb33931cdf3f8901cff3140b8fb41e",
+      "embodied.py": "cd14101d985b32a0caa8a2f017f9ce2761f4f7562c699081cd6994453ee0c0f5",
+      "body_feedback.py": "2bd54cd87987092b4f2498166a4e074187c7bf913bf02ef4ffcc7f89e099a9aa",
+      "physical_touch.py": "9dd3e4dc9699ecc0c91e8b3fa1151621c7b4cc5d1facd0bb32edf593660302dd",
+      "malecns_senses.py": "e5daf7f6d8ba6b46dedbc4cac247d5335f272a2d7c296c1791076010cfd27eba",
+      "proprioception.py": "a763899e8a6d18d0359f39a7c8c8f1bfac2f7f29c06e165b8579d447842fe298",
+      "spatial_vision.py": "567486e702708d5b89b1c98de5499109266e1368acc9d87db14f60a88f0c8fe0",
+      "behavior_readout.py": "573b413f7b3fe63c331069c3a21bc5e37bac299e8e475f5010e6d54c5feeda0e",
+      "behavior_body.py": "6bdb22c863c92f15945eac14a325b719df917777288bbfb00647d9f418b969d5",
+      "joint_motor.py": "7964260c806004b8e428c31c26fdd3445cc063476f9d04b3eac9f5593dc797b8",
+      "live_environment.py": "5066b15355d0a37dd6c0be0e2622e7e1e184d3c5cca47453cfbcdc30d3ce2a5f",
+      "body_measurement.py": "c19ec38fa3e2ccd94f96ea429f7a9c7a6b28f1d201854110e16a5b19691a585e"
+    },
+    "readout_modules": {
+      "unified_readout.py": "c789c604454387577d33aaf86c5e155d544c1ee010c3726ea68641f32532100a",
+      "intent_readout.py": "5a85e8decc184938e7f6e08335cb2cf734c54574ee7dd0ec35ef693dffdb92ef",
+      "plume_field.py": "17d1667353d31c1f3f601b3124d755aeca2691a9a80239c851c1863b960a8e10"
+    },
+    "source_artifacts": {
+      "malecns_annotations": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "spatial_vision_receptor_map": "71fbfa7bb4f45272f641044473b988f913a676349b9b9c00fb45aa08cb56e756",
+      "spatial_vision_mapping_provenance": "1a74ddc53367fda509f143db6e8f7e8619a84665ae87106df5cadc82ea9d0046",
+      "spatial:chatflypt/retinal_registration.py": "3f14a69e52b1f701cb5225ed234d0aa3d35aef3da3ad4632c4fd6bd6156f7f4f",
+      "spatial:chatflypt/spatial_vision.py": "567486e702708d5b89b1c98de5499109266e1368acc9d87db14f60a88f0c8fe0",
+      "spatial:research/retinal-registration-followup-20260924/camera-geometry.json": "c057780de41dfe95f147e66d66cb658ba6d4fc86d012df9e65b29e3901fe41a3",
+      "spatial:research/retinal-registration-followup-20260924/camera_scan.py": "14b8bca3038d238a98b3babf96dff1f920238fce337a876f26b7121eefae747a",
+      "spatial:research/retinal-registration-followup-20260924/eyemap-archive-manifest.json": "d88b27fa04e7b06d6a40e2050aa30a1264d44ff7cad3b24009bb9ec70a21d70b",
+      "spatial:research/retinal-registration-followup-20260924/visualpathways-manifest.json": "0fa99d3771b2af7b3873aedae4aa28a2499fb8ab46c432172dee199a8470215e",
+      "spatial:research/retinal-registration-followup-20260924/eyemap-archive/maps/eyemap_mcns_f20240701/pqxyztp_left.xlsx": "e42e1781dc40bcecb2f90bd154172b626bfb58841dd68218362aeaebe90abd30",
+      "spatial:research/retinal-registration-followup-20260924/eyemap-archive/maps/eyemap_mcns_f20240701/pqxyztp_right.xlsx": "f78e2059a5dceaab9380fb0893fe88cc1b2902954d9d11165e174093587af793",
+      "spatial:research/retinal-registration-followup-20260924/visualpathways/params/ME_L_columnar-cells_location.xlsx": "877b4cc33c504540406e55c33f3d7a7ed6b3542469db64184cbcecd68df3abc4",
+      "spatial:research/retinal-registration-followup-20260924/visualpathways/params/ME_columnar-cells_location.xlsx": "cabb48a8ab040a63c5d379e01bd4a9189b27b816add372d0a472187323e294be",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/compound_eye.npz": "51afb29664ac1f4ef05535f417ae37ed8a625911c99995720ca382799eef36b3",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/vision.yaml": "aeaf9c67603e85ac81d251a01e7a20821687c1a62be0626af49ef09919e10545",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/rigging.yaml": "4e51d5ed3f151aefc125c91ff9298921b3b79a9d64e03e6fe88f1ce9945dbe3d",
+      "spatial:vendor/flygym/src/flygym/assets/model/neuromechfly/mujoco_globals.yaml": "e5b70e5bd5199ab2a9a68eb119ce9ef3f0b1dfa1890e13f1adb6d6cc20579988",
+      "spatial:vendor/flygym/src/flygym/compose/fly/base_fly.py": "9f7ec2c3786972467085cf6a92363cc72a95551226151ff1941fd96800ec677f",
+      "spatial:vendor/flygym/src/flygym/compose/fly/neuromechfly.py": "c47f422e5719f712b3f8b60913a22ce9d89d3943c81a8433549a129197ed50e3",
+      "spatial:vendor/flygym/src/flygym/vision/retina.py": "fbb43595de2d7736423424b5cb4ea8eabc369d500fb028c26065c0e2ec4746c6",
+      "spatial:vendor/flygym/src/flygym/simulation.py": "c2a6fded0ccedb2124c1ac421e1b52cb2c087bfa40fcb38f8a32722d21c012d2",
+      "spatial:vendor/badapple-fly/backend/body.py": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+      "spatial:chatflypt/behavior_body.py": "6bdb22c863c92f15945eac14a325b719df917777288bbfb00647d9f418b969d5",
+      "spatial:chatflypt/environment.py": "0e8fec8cea90be6d82afe6532ee69ac1c1cb33931cdf3f8901cff3140b8fb41e",
+      "spatial:chatflypt/body_measurement.py": "c19ec38fa3e2ccd94f96ea429f7a9c7a6b28f1d201854110e16a5b19691a585e",
+      "spatial:data/raw/malecns-v1.0/body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "spatial:data/derived/malecns/graph.npz": "5abc663b90d17b025d79bce663551c8575e2e48f858dd20fb68199ad6af3862c"
+    },
+    "readout_features_sha256": "c789c604454387577d33aaf86c5e155d544c1ee010c3726ea68641f32532100a",
+    "features": "sqrt spikes; log1p positive/negative voltage area; normalized to 500 ms"
+  },
+  "features": 250916,
+  "all_sensory_and_direct_cells_excluded": true,
+  "train_windows": 98,
+  "validation_windows": 98,
+  "test_windows": 98,
+  "groups": {
+    "train": [
+      "unified-train-bright",
+      "unified-train-cold",
+      "unified-train-dark",
+      "unified-train-dark_leg_block_control",
+      "unified-train-dark_leg_sugar_control",
+      "unified-train-dark_yeast",
+      "unified-train-far_pheromone_control",
+      "unified-train-far_song_control",
+      "unified-train-far_sugar_control",
+      "unified-train-heat",
+      "unified-train-leg_block_control",
+      "unified-train-leg_sugar",
+      "unified-train-mouth_block",
+      "unified-train-mouth_high_salt",
+      "unified-train-mouth_sugar",
+      "unified-train-nudge_alternating",
+      "unified-train-nudge_left",
+      "unified-train-nudge_right",
+      "unified-train-pheromone_left",
+      "unified-train-pheromone_partner_left",
+      "unified-train-pheromone_partner_right",
+      "unified-train-pheromone_plume_left",
+      "unified-train-pheromone_plume_right",
+      "unified-train-pheromone_right",
+      "unified-train-song_left",
+      "unified-train-song_partner_left",
+      "unified-train-song_partner_right",
+      "unified-train-song_plume_left",
+      "unified-train-song_plume_right",
+      "unified-train-song_right",
+      "unified-train-tap1x180_left",
+      "unified-train-tap1x180_right",
+      "unified-train-tap3x60_left",
+      "unified-train-tap3x60_right",
+      "unified-train-tap6x30_left",
+      "unified-train-tap6x30_right",
+      "unified-train-touch_left",
+      "unified-train-touch_right",
+      "unified-train-unilateral_bright_left",
+      "unified-train-unilateral_bright_right",
+      "unified-train-unilateral_cold_left",
+      "unified-train-unilateral_cold_right",
+      "unified-train-unilateral_heat_left",
+      "unified-train-unilateral_heat_right",
+      "unified-train-unilateral_yeast_left",
+      "unified-train-unilateral_yeast_right",
+      "unified-train-yeast"
+    ],
+    "validation": [
+      "unified-validation-bright",
+      "unified-validation-cold",
+      "unified-validation-dark",
+      "unified-validation-dark_leg_block_control",
+      "unified-validation-dark_leg_sugar_control",
+      "unified-validation-dark_yeast",
+      "unified-validation-far_pheromone_control",
+      "unified-validation-far_song_control",
+      "unified-validation-far_sugar_control",
+      "unified-validation-heat",
+      "unified-validation-leg_block_control",
+      "unified-validation-leg_sugar",
+      "unified-validation-mouth_block",
+      "unified-validation-mouth_high_salt",
+      "unified-validation-mouth_sugar",
+      "unified-validation-nudge_alternating",
+      "unified-validation-nudge_left",
+      "unified-validation-nudge_right",
+      "unified-validation-pheromone_left",
+      "unified-validation-pheromone_partner_left",
+      "unified-validation-pheromone_partner_right",
+      "unified-validation-pheromone_plume_left",
+      "unified-validation-pheromone_plume_right",
+      "unified-validation-pheromone_right",
+      "unified-validation-song_left",
+      "unified-validation-song_partner_left",
+      "unified-validation-song_partner_right",
+      "unified-validation-song_plume_left",
+      "unified-validation-song_plume_right",
+      "unified-validation-song_right",
+      "unified-validation-tap1x180_left",
+      "unified-validation-tap1x180_right",
+      "unified-validation-tap3x60_left",
+      "unified-validation-tap3x60_right",
+      "unified-validation-tap6x30_left",
+      "unified-validation-tap6x30_right",
+      "unified-validation-touch_left",
+      "unified-validation-touch_right",
+      "unified-validation-unilateral_bright_left",
+      "unified-validation-unilateral_bright_right",
+      "unified-validation-unilateral_cold_left",
+      "unified-validation-unilateral_cold_right",
+      "unified-validation-unilateral_heat_left",
+      "unified-validation-unilateral_heat_right",
+      "unified-validation-unilateral_yeast_left",
+      "unified-validation-unilateral_yeast_right",
+      "unified-validation-yeast"
+    ],
+    "test": [
+      "unified-test-bright",
+      "unified-test-cold",
+      "unified-test-dark",
+      "unified-test-dark_leg_block_control",
+      "unified-test-dark_leg_sugar_control",
+      "unified-test-dark_yeast",
+      "unified-test-far_pheromone_control",
+      "unified-test-far_song_control",
+      "unified-test-far_sugar_control",
+      "unified-test-heat",
+      "unified-test-leg_block_control",
+      "unified-test-leg_sugar",
+      "unified-test-mouth_block",
+      "unified-test-mouth_high_salt",
+      "unified-test-mouth_sugar",
+      "unified-test-nudge_alternating",
+      "unified-test-nudge_left",
+      "unified-test-nudge_right",
+      "unified-test-pheromone_left",
+      "unified-test-pheromone_partner_left",
+      "unified-test-pheromone_partner_right",
+      "unified-test-pheromone_plume_left",
+      "unified-test-pheromone_plume_right",
+      "unified-test-pheromone_right",
+      "unified-test-song_left",
+      "unified-test-song_partner_left",
+      "unified-test-song_partner_right",
+      "unified-test-song_plume_left",
+      "unified-test-song_plume_right",
+      "unified-test-song_right",
+      "unified-test-tap1x180_left",
+      "unified-test-tap1x180_right",
+      "unified-test-tap3x60_left",
+      "unified-test-tap3x60_right",
+      "unified-test-tap6x30_left",
+      "unified-test-tap6x30_right",
+      "unified-test-touch_left",
+      "unified-test-touch_right",
+      "unified-test-unilateral_bright_left",
+      "unified-test-unilateral_bright_right",
+      "unified-test-unilateral_cold_left",
+      "unified-test-unilateral_cold_right",
+      "unified-test-unilateral_heat_left",
+      "unified-test-unilateral_heat_right",
+      "unified-test-unilateral_yeast_left",
+      "unified-test-unilateral_yeast_right",
+      "unified-test-yeast"
+    ]
+  },
+  "qualified_labels": [
+    "bright:left",
+    "bright:right",
+    "yeast:right",
+    "warm:right",
+    "foreleg_touch:left",
+    "foreleg_touch:right",
+    "midleg_touch:left",
+    "midleg_touch:right",
+    "hindleg_touch:left",
+    "hindleg_touch:right",
+    "leg_sweet_local:left",
+    "leg_sweet_local:right",
+    "leg_appetitive_ascending:left",
+    "leg_appetitive_ascending:right",
+    "cva:left",
+    "cva:right",
+    "auditory:left",
+    "auditory:right"
+  ],
+  "unqualified_labels": [
+    "yeast:left",
+    "warm:left",
+    "cold:left",
+    "cold:right",
+    "body_touch:left",
+    "body_touch:right",
+    "wing_touch:left",
+    "wing_touch:right",
+    "sugar_specific:left",
+    "sugar_specific:right",
+    "high_salt:left",
+    "high_salt:right"
+  ],
+  "validation": {
+    "windows": 98,
+    "exact_set_accuracy": 0.8367346938775511,
+    "micro_f1": 0.9694041867954911,
+    "per_label": {
+      "bright:left": {
+        "tp": 90,
+        "fp": 0,
+        "fn": 0,
+        "positives": 90,
+        "negatives": 8,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "bright:right": {
+        "tp": 89,
+        "fp": 0,
+        "fn": 0,
+        "positives": 89,
+        "negatives": 9,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "positives": 5,
+        "negatives": 93,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "yeast:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "positives": 5,
+        "negatives": 93,
+        "precision": 1.0,
+        "recall": 0.8
+      },
+      "warm:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:right": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cold:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "foreleg_touch:left": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 0,
+        "positives": 16,
+        "negatives": 82,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 17,
+        "fp": 0,
+        "fn": 0,
+        "positives": 17,
+        "negatives": 81,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_sweet_local:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cva:left": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 1,
+        "positives": 10,
+        "negatives": 88,
+        "precision": 1.0,
+        "recall": 0.9
+      },
+      "cva:right": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "positives": 9,
+        "negatives": 89,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "auditory:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 1,
+        "positives": 9,
+        "negatives": 89,
+        "precision": 1.0,
+        "recall": 0.8888888888888888
+      },
+      "auditory:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 2,
+        "positives": 10,
+        "negatives": 88,
+        "precision": 1.0,
+        "recall": 0.8
+      }
+    }
+  },
+  "test": {
+    "windows": 98,
+    "exact_set_accuracy": 0.8163265306122449,
+    "micro_f1": 0.9561128526645768,
+    "per_label": {
+      "bright:left": {
+        "tp": 90,
+        "fp": 0,
+        "fn": 0,
+        "positives": 90,
+        "negatives": 8,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "bright:right": {
+        "tp": 90,
+        "fp": 0,
+        "fn": 0,
+        "positives": 90,
+        "negatives": 8,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "positives": 5,
+        "negatives": 93,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "yeast:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "positives": 5,
+        "negatives": 93,
+        "precision": 1.0,
+        "recall": 0.8
+      },
+      "warm:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 96,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 1.0,
+        "recall": 0.6666666666666666
+      },
+      "cold:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "foreleg_touch:left": {
+        "tp": 20,
+        "fp": 0,
+        "fn": 0,
+        "positives": 20,
+        "negatives": 78,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 21,
+        "fp": 0,
+        "fn": 0,
+        "positives": 21,
+        "negatives": 77,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:left": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "leg_sweet_local:right": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 1.0,
+        "recall": 0.75
+      },
+      "cva:left": {
+        "tp": 8,
+        "fp": 1,
+        "fn": 1,
+        "positives": 9,
+        "negatives": 89,
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888
+      },
+      "cva:right": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 2,
+        "positives": 10,
+        "negatives": 88,
+        "precision": 1.0,
+        "recall": 0.8
+      },
+      "auditory:left": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 2,
+        "positives": 11,
+        "negatives": 87,
+        "precision": 1.0,
+        "recall": 0.8181818181818182
+      },
+      "auditory:right": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "positives": 12,
+        "negatives": 86,
+        "precision": 1.0,
+        "recall": 0.75
+      }
+    }
+  },
+  "shuffled_control": {
+    "windows": 98,
+    "exact_set_accuracy": 0.22448979591836735,
+    "micro_f1": 0.5830721003134797,
+    "per_label": {
+      "bright:left": {
+        "tp": 85,
+        "fp": 5,
+        "fn": 5,
+        "positives": 90,
+        "negatives": 8,
+        "precision": 0.9444444444444444,
+        "recall": 0.9444444444444444
+      },
+      "bright:right": {
+        "tp": 85,
+        "fp": 5,
+        "fn": 5,
+        "positives": 90,
+        "negatives": 8,
+        "precision": 0.9444444444444444,
+        "recall": 0.9444444444444444
+      },
+      "yeast:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "positives": 5,
+        "negatives": 93,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "yeast:right": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 5,
+        "positives": 5,
+        "negatives": 93,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 96,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "positives": 3,
+        "negatives": 95,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "foreleg_touch:left": {
+        "tp": 4,
+        "fp": 16,
+        "fn": 16,
+        "positives": 20,
+        "negatives": 78,
+        "precision": 0.2,
+        "recall": 0.2
+      },
+      "foreleg_touch:right": {
+        "tp": 4,
+        "fp": 17,
+        "fn": 17,
+        "positives": 21,
+        "negatives": 77,
+        "precision": 0.19047619047619047,
+        "recall": 0.19047619047619047
+      },
+      "midleg_touch:left": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "midleg_touch:right": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "hindleg_touch:left": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "hindleg_touch:right": {
+        "tp": 0,
+        "fp": 8,
+        "fn": 8,
+        "positives": 8,
+        "negatives": 90,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 98,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:right": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "positives": 4,
+        "negatives": 94,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cva:left": {
+        "tp": 2,
+        "fp": 7,
+        "fn": 7,
+        "positives": 9,
+        "negatives": 89,
+        "precision": 0.2222222222222222,
+        "recall": 0.2222222222222222
+      },
+      "cva:right": {
+        "tp": 2,
+        "fp": 6,
+        "fn": 8,
+        "positives": 10,
+        "negatives": 88,
+        "precision": 0.25,
+        "recall": 0.2
+      },
+      "auditory:left": {
+        "tp": 2,
+        "fp": 7,
+        "fn": 9,
+        "positives": 11,
+        "negatives": 87,
+        "precision": 0.2222222222222222,
+        "recall": 0.18181818181818182
+      },
+      "auditory:right": {
+        "tp": 2,
+        "fp": 7,
+        "fn": 10,
+        "positives": 12,
+        "negatives": 86,
+        "precision": 0.2222222222222222,
+        "recall": 0.16666666666666666
+      }
+    }
+  },
+  "zero_false_positives": 0,
+  "serving_matches_test_matrix": true,
+  "selection": "Train selects features/weights; validation selects thresholds and per-label qualification; saved before opening test.",
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "test_predictions": [
+    {
+      "episode": "test-bright",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-bright",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-dark",
+      "turn": 0,
+      "expected": [],
+      "predicted": []
+    },
+    {
+      "episode": "test-dark",
+      "turn": 1,
+      "expected": [],
+      "predicted": []
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 0,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 1,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-heat",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ]
+    },
+    {
+      "episode": "test-heat",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ]
+    },
+    {
+      "episode": "test-cold",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-cold",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-leg_block_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-leg_block_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-far_sugar_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_sugar_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_sugar_control",
+      "turn": 0,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_sugar_control",
+      "turn": 1,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 0,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 1,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_bright_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_yeast_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-unilateral_cold_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-tap6x30_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left"
+      ]
+    },
+    {
+      "episode": "test-pheromone_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_pheromone_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_pheromone_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-song_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-song_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-song_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-song_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-far_song_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-far_song_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_plume_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-pheromone_partner_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cva:left",
+        "cva:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_plume_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-song_partner_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-nudge_alternating",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-nudge_alternating",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    }
+  ],
+  "limitations": [
+    "Some conditions occupy only one session per split.",
+    "Persistent windows within a session are correlated, not independent replicates.",
+    "Lateralized population delivery is not spatial object localization.",
+    "No natural-language intent or behavior target is fitted.",
+    "A nominal unilateral scene can become bilateral or silent as the free body moves; planned side is never a target.",
+    "Tap timing and emitter field strengths are engineering parameter sets; the sources are not calibrated concentrations or sound pressures.",
+    "The plume is upstream data from a different arena scale; it is not a cVA concentration. The following source is a different physical claim from a fixed source and is labelled as such. Nudge trains are engineering timings, and no direction code is claimed for them.",
+    "No held-out test failure is retuned away in this run.",
+    "Whole-brain dynamics, receptor transduction and motor behavior are not calibrated by this classifier."
+  ]
+}

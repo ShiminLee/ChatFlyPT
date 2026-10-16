@@ -1,0 +1,890 @@
+{
+  "reference_sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+  "trials": [
+    {
+      "seed": 81000,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0139535104036659,
+          "bitter": -0.0020088588444152978,
+          "water": 0.021053423538380297,
+          "salt": 0.04582873230228291,
+          "vinegar": 0.9835736715661345,
+          "yeast": 0.993253216610722,
+          "geosmin": 0.08781687429650857,
+          "pheromone": 0.026272061506946626,
+          "warm": 0.9306804882757318,
+          "cold": 0.03169541352663805,
+          "humid": 0.004361058175848909,
+          "dry": 0.011955265937750988,
+          "bright": 0.7830836216754536,
+          "touch": 0.0044732239411106635,
+          "sound": -0.00046072235482157164,
+          "wind": -6.408047398180194e-05
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151457,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81000.npz",
+      "raw_sha256": "1b678dfef1aad260ad2c018ac5913bc16d0bb5a9ddd65f519015664c3efbde95"
+    },
+    {
+      "seed": 81001,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0195509082569612,
+          "bitter": 0.010787964969450097,
+          "water": 0.027342894098761658,
+          "salt": 0.030718748692517454,
+          "vinegar": 0.9916124194814684,
+          "yeast": 0.9317778334810798,
+          "geosmin": 0.06851409146456744,
+          "pheromone": -0.0011359588686329133,
+          "warm": 0.9486422109102289,
+          "cold": 0.0164251570332615,
+          "humid": 0.0037593818968825188,
+          "dry": 0.017315602428737583,
+          "bright": 0.6702500851142955,
+          "touch": 0.0007920197286794377,
+          "sound": -0.005942776055990575,
+          "wind": -0.007398824338208314
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151459,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81001.npz",
+      "raw_sha256": "d0d9dc4b691f62cf1415b88d8ea23f64d49e3e25f60c1f65adad222751d44bca"
+    },
+    {
+      "seed": 81002,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0158605127934253,
+          "bitter": 0.014123914563831257,
+          "water": 0.014339572131005179,
+          "salt": 0.058397269666117475,
+          "vinegar": 0.9875381446381034,
+          "yeast": 0.9440944453674867,
+          "geosmin": 0.06296550284618432,
+          "pheromone": 0.011071809660147085,
+          "warm": 0.9601749926665007,
+          "cold": 0.0753551249168448,
+          "humid": -0.033992647767965026,
+          "dry": 0.05543044596629641,
+          "bright": 0.4555947455011367,
+          "touch": -0.0029440882538561957,
+          "sound": -0.022812387314781666,
+          "wind": 0.004112462192542663
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151618,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81002.npz",
+      "raw_sha256": "3474b93dda309a1cc7ad9e92b3cc530df42abb2716baed8699fd380defdb075c"
+    },
+    {
+      "seed": 81003,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 0.9811359201614697,
+          "bitter": 0.01338695294803097,
+          "water": 0.01665694154567069,
+          "salt": 0.05540601086497185,
+          "vinegar": 0.995040623942588,
+          "yeast": 0.9936889484581746,
+          "geosmin": 0.03435562211621394,
+          "pheromone": -0.014597854493498715,
+          "warm": 1.0412922089120131,
+          "cold": 0.05228272626021814,
+          "humid": -0.0558983710914042,
+          "dry": 0.038434483399713906,
+          "bright": 0.9785039092205788,
+          "touch": 0.012187661256947434,
+          "sound": -0.008512116258770866,
+          "wind": 0.004921476500348026
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151740,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81003.npz",
+      "raw_sha256": "3c1c9a0484c4f284a8d1b279186cf0a700fb6746f5c204ba9ae1370fe652142b"
+    },
+    {
+      "seed": 81004,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.029773569533736,
+          "bitter": 0.013597673839430472,
+          "water": 0.00977932446135122,
+          "salt": -0.0013396832704602804,
+          "vinegar": 0.9592300470398336,
+          "yeast": 0.9718804072220049,
+          "geosmin": 0.10462681361687272,
+          "pheromone": 0.01426005796322112,
+          "warm": 0.8711715825202129,
+          "cold": -0.006997571421497473,
+          "humid": 0.014508338966335254,
+          "dry": 0.0025689399483859038,
+          "bright": 0.818683708870132,
+          "touch": 0.004213227945590125,
+          "sound": -0.02073086633113143,
+          "wind": -0.006203381068970036
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151430,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81004.npz",
+      "raw_sha256": "c982d991b433b47855fad8c059428333080ac1b72e4881d0a3ae2736ede91746"
+    },
+    {
+      "seed": 81005,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0354701119439427,
+          "bitter": 0.0025575958635464073,
+          "water": 0.03485709364845509,
+          "salt": 0.02703730137968755,
+          "vinegar": 0.9549198349845361,
+          "yeast": 0.9800831403731225,
+          "geosmin": 0.06804218546664713,
+          "pheromone": -0.01709489775512701,
+          "warm": 0.9064893614747052,
+          "cold": 0.008893243961949016,
+          "humid": -0.04089587170385874,
+          "dry": -0.021061898806709303,
+          "bright": 0.8861722278206356,
+          "touch": 0.006147286373112673,
+          "sound": -0.0026890075734324233,
+          "wind": -0.010580867364318507
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151517,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81005.npz",
+      "raw_sha256": "3e8d4aba7a91bd60bf2476b8a0fe36662a8e7967dfbb8b6ced4da3eb72281f47"
+    },
+    {
+      "seed": 81006,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.008493736322713,
+          "bitter": 0.01439786833664883,
+          "water": 0.0359216520423621,
+          "salt": -0.018037415247579538,
+          "vinegar": 0.9298739323399863,
+          "yeast": 0.927206705567345,
+          "geosmin": 0.08795719216743339,
+          "pheromone": -0.004652580610840552,
+          "warm": 0.9843879214999535,
+          "cold": 7.267437481062525e-05,
+          "humid": -0.03512619070497944,
+          "dry": 0.030639226909363423,
+          "bright": 0.6539997747018746,
+          "touch": -0.0009495406405556801,
+          "sound": -0.010740337195369537,
+          "wind": 9.04715465031348e-05
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151098,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81006.npz",
+      "raw_sha256": "072f0eb40ca17136d2f514a561d56cb4c00d37b38b13e035bbb9d5340768d22d"
+    },
+    {
+      "seed": 81007,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0060788472021336,
+          "bitter": 0.003064323419556786,
+          "water": 0.00773782846758253,
+          "salt": 0.02963134909773294,
+          "vinegar": 0.9668879976101526,
+          "yeast": 1.0030302859116669,
+          "geosmin": 0.06884075872758479,
+          "pheromone": 0.04171744200341833,
+          "warm": 0.8350115105120655,
+          "cold": 0.025675184953507776,
+          "humid": -0.027837964063966564,
+          "dry": 0.04778835724742051,
+          "bright": 0.9678841585994542,
+          "touch": 0.0013244516402453315,
+          "sound": -0.01037003484397438,
+          "wind": -0.00034910495522779425
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151309,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81007.npz",
+      "raw_sha256": "60648aff07139182556183c049bc33a163bbd07ecb7202fc1b6512a533fcfaec"
+    },
+    {
+      "seed": 81008,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 0.9946028989888265,
+          "bitter": 0.01920311959973634,
+          "water": 0.021265111388291118,
+          "salt": 0.04296183813514214,
+          "vinegar": 0.9833110301421831,
+          "yeast": 0.9484801945135239,
+          "geosmin": 0.11237589739207471,
+          "pheromone": -0.022850028930719725,
+          "warm": 0.8970813391954157,
+          "cold": -0.026641372809397493,
+          "humid": -0.04286367111300606,
+          "dry": 0.022600568378116564,
+          "bright": 0.627133972293602,
+          "touch": 0.0037760591040026364,
+          "sound": 0.00016940291428224792,
+          "wind": -0.0013926791952420564
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151331,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81008.npz",
+      "raw_sha256": "344a3642393459b965137f806bb0af2540c7a9155b9563600d9b4f18944d2c82"
+    },
+    {
+      "seed": 81009,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0474612565325945,
+          "bitter": 0.017250123547840786,
+          "water": 0.006869526707786167,
+          "salt": 0.012058174640943005,
+          "vinegar": 0.9872946320549049,
+          "yeast": 0.9697695377932263,
+          "geosmin": 0.027705247780111446,
+          "pheromone": 0.022090698438990208,
+          "warm": 0.919509710309373,
+          "cold": 0.005780669446698583,
+          "humid": -0.016555310084532426,
+          "dry": 0.05571808986128687,
+          "bright": 0.7393449242499909,
+          "touch": 0.00449324561244855,
+          "sound": -0.023975429720161125,
+          "wind": -0.0010377358796967084
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151557,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81009.npz",
+      "raw_sha256": "beefbb7fbc933f38a3edcf1861aa29eedf5e40ed682682acc371c0f37a4de7b2"
+    },
+    {
+      "seed": 81010,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0280964768605074,
+          "bitter": 0.009122833267003156,
+          "water": 0.010635615656359919,
+          "salt": -0.001941384156441659,
+          "vinegar": 0.9876100997831605,
+          "yeast": 0.9275215850945533,
+          "geosmin": 0.09011735415283308,
+          "pheromone": 0.035341396742406814,
+          "warm": 0.9482104710822286,
+          "cold": -0.013215292704151612,
+          "humid": 0.01896364028446169,
+          "dry": 0.0008675861107024091,
+          "bright": 0.6522056834577202,
+          "touch": 0.00576733441840892,
+          "sound": -0.02745782528112023,
+          "wind": -0.0035446505219296404
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151630,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81010.npz",
+      "raw_sha256": "bb95f614093c2c0a51beba00a4fc2a9a93de48dee3ef118c54c2ea55a11ab1fa"
+    },
+    {
+      "seed": 81011,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0166282183680238,
+          "bitter": -0.0025966099344953367,
+          "water": -0.02872256686988714,
+          "salt": -0.018753719128548403,
+          "vinegar": 0.9461356669476817,
+          "yeast": 0.9547031079290385,
+          "geosmin": 0.1373415286751706,
+          "pheromone": 0.02284934619217116,
+          "warm": 0.968692003363426,
+          "cold": -0.007456578819803952,
+          "humid": 0.013979587296180956,
+          "dry": -0.009896014541681597,
+          "bright": 0.9901656507221728,
+          "touch": 0.001725958166276775,
+          "sound": -0.011426839730916532,
+          "wind": 0.002692305058405106
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 150738,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81011.npz",
+      "raw_sha256": "14a12a6a76ee62f1163a7605c857f92511d1a3c85650c43b80e98b264a0995cb"
+    },
+    {
+      "seed": 81012,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0285630365283822,
+          "bitter": 0.003415399160955278,
+          "water": 0.0003671553391841331,
+          "salt": 0.005300350570038914,
+          "vinegar": 0.932602191300988,
+          "yeast": 0.9270833382295938,
+          "geosmin": 0.09917205859241064,
+          "pheromone": -0.008336034898267522,
+          "warm": 0.9608314180492182,
+          "cold": -0.06781894498846741,
+          "humid": -0.032565409253475563,
+          "dry": 0.02604651462595345,
+          "bright": 0.6068658923578619,
+          "touch": 0.0057006810345193015,
+          "sound": -0.0052724497558992705,
+          "wind": 0.0021264171693405306
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 150695,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81012.npz",
+      "raw_sha256": "31547164f8c39cedb6f0d0a40b2a618fb70886d984ba3c447b94abe509760dd5"
+    },
+    {
+      "seed": 81013,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 0.9776886137647136,
+          "bitter": 0.015947401042637158,
+          "water": 0.009627500828850557,
+          "salt": 0.03860352182742144,
+          "vinegar": 0.9712421756827485,
+          "yeast": 0.9532622985010857,
+          "geosmin": 0.042033844170867085,
+          "pheromone": -0.03800841232122899,
+          "warm": 0.8572525856658703,
+          "cold": 0.02930032224919294,
+          "humid": -0.03866327268810356,
+          "dry": 0.03198532298652068,
+          "bright": 0.8202778444511485,
+          "touch": 0.009949776668344183,
+          "sound": -0.010969913649359382,
+          "wind": -0.007606022990317485
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 150498,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81013.npz",
+      "raw_sha256": "f18b9d308176779eac5190b855d33a7ed7b21120c2b7b46e4ffc28cbb9578756"
+    },
+    {
+      "seed": 81014,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0041518616162093,
+          "bitter": 0.007132145524313606,
+          "water": 0.018421762889237542,
+          "salt": 0.00826296934045186,
+          "vinegar": 0.9862025662514939,
+          "yeast": 0.9547359874503119,
+          "geosmin": 0.1067314865610436,
+          "pheromone": -0.013459861583937242,
+          "warm": 1.014608692847588,
+          "cold": 0.01186750021494504,
+          "humid": 0.062086357790115954,
+          "dry": 0.023842502962914673,
+          "bright": 0.6037538646026276,
+          "touch": -0.0028305550203393875,
+          "sound": -0.00935249246883297,
+          "wind": -0.004038305444130429
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 152387,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81014.npz",
+      "raw_sha256": "93479d22999c64f01304047bdc005bedb598dcfa813db99d54fb3d4c7e3bdcb0"
+    },
+    {
+      "seed": 81015,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0447780808970362,
+          "bitter": 0.0016644639798116187,
+          "water": 0.010561516866391178,
+          "salt": 0.025216625450718035,
+          "vinegar": 0.9491192348407224,
+          "yeast": 0.9285099631380833,
+          "geosmin": 0.09114264575378253,
+          "pheromone": 0.05866021094666184,
+          "warm": 0.9357794924073667,
+          "cold": -0.04258712983553016,
+          "humid": -0.004191433776149028,
+          "dry": 0.025241127513234193,
+          "bright": 0.8249467731532039,
+          "touch": 0.00849892369546296,
+          "sound": -0.014979654204495933,
+          "wind": -0.006061802233873026
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151542,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81015.npz",
+      "raw_sha256": "1dfe6cde46aa35880841ba657521a26b51709ac2084091306439ce2098329668"
+    },
+    {
+      "seed": 81016,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0051634052070595,
+          "bitter": 0.008074648537790906,
+          "water": -0.023800947828983402,
+          "salt": 0.03833218739332587,
+          "vinegar": 0.9321050902564589,
+          "yeast": 0.9291633073531569,
+          "geosmin": 0.11649277834986012,
+          "pheromone": 0.00496806432004703,
+          "warm": 0.9341808113994032,
+          "cold": -0.05594450361230754,
+          "humid": 0.006115906030804488,
+          "dry": 0.013015286055519305,
+          "bright": 1.040715692903453,
+          "touch": 0.002712467311724193,
+          "sound": -0.0090244218759022,
+          "wind": -0.0010408105088758914
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151351,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81016.npz",
+      "raw_sha256": "9d9482a72a8260195766155db8d99f027741e448b007c6e53f59774ed65bb302"
+    },
+    {
+      "seed": 81017,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0452956644739944,
+          "bitter": 0.013275204540108786,
+          "water": 0.02529346291780025,
+          "salt": -0.010744122925532743,
+          "vinegar": 0.9843953449452123,
+          "yeast": 0.9667692810310704,
+          "geosmin": 0.14875822978354825,
+          "pheromone": -0.026877181322864444,
+          "warm": 0.9030174662648568,
+          "cold": 0.10302489089968411,
+          "humid": 0.009325333292449417,
+          "dry": 0.02274531424210805,
+          "bright": 0.8021357279899641,
+          "touch": 0.014521019041588833,
+          "sound": -0.0021000702341173244,
+          "wind": 0.005599452314736073
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 152062,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81017.npz",
+      "raw_sha256": "fadccba621a67aff716af5def35d3c5f66a592f332f6d1b32af951db457b0812"
+    },
+    {
+      "seed": 81018,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.017012192425913,
+          "bitter": 0.013149637278570433,
+          "water": 0.007304965617884258,
+          "salt": -0.013529391029332104,
+          "vinegar": 0.9246904373801794,
+          "yeast": 0.9222903288921795,
+          "geosmin": 2.4628952428849826e-06,
+          "pheromone": -0.07625283297983962,
+          "warm": 1.0176605484346786,
+          "cold": 0.05214842142149939,
+          "humid": -0.025506636947924835,
+          "dry": 0.0093151285147553,
+          "bright": 0.9875323287465303,
+          "touch": 0.0042424934538041635,
+          "sound": -0.013833846715401821,
+          "wind": 0.005058071535864175
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 150485,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81018.npz",
+      "raw_sha256": "d0111ac812fb89375ac3e92431932e2e82b8dc0da641c26affd663cc8184bc4a"
+    },
+    {
+      "seed": 81019,
+      "expected_words": [
+        "vinegar",
+        "yeast",
+        "sugar",
+        "warm",
+        "bright"
+      ],
+      "decoded": {
+        "words": [
+          "sugar",
+          "vinegar",
+          "yeast",
+          "warm",
+          "bright"
+        ],
+        "scores": {
+          "sugar": 1.0351323509721655,
+          "bitter": -0.0013106322101594271,
+          "water": 0.020750175320961756,
+          "salt": -0.04128201828335638,
+          "vinegar": 0.9860625052171409,
+          "yeast": 0.9289539929962722,
+          "geosmin": 0.08805526686360284,
+          "pheromone": -0.0027013045122756124,
+          "warm": 0.9997871862081685,
+          "cold": -0.014351900721154574,
+          "humid": 0.009435407762457881,
+          "dry": 0.03841047284024207,
+          "bright": 1.0056557355926807,
+          "touch": 0.013294328279752948,
+          "sound": -0.010388883185961352,
+          "wind": 0.0009828555940311037
+        },
+        "score_type": "uncalibrated linear scores; not probabilities"
+      },
+      "sentence": "I smell vinegar and yeast. I taste sugar. It is warm and bright. What should I do?",
+      "exact_words": true,
+      "exact_sentence": true,
+      "spikes": 151974,
+      "raw_spikes": "data\\derived\\reconstruction\\demo-spikes\\first-sentence-81019.npz",
+      "raw_sha256": "d285cb1148dbeb13086305b338434e7a4a8a7685c7ae1a976be78638f12401b7"
+    }
+  ],
+  "exact_sentence_successes": 20,
+  "total": 20,
+  "zero_signal_sentence": "I cannot identify a supported sensory signal. What should I do?",
+  "training_excluded_this_combination": true,
+  "semantics": "Engineering sensory proxies. The final question is a fixed template, not a decoded intention."
+}

@@ -1,0 +1,254 @@
+{
+  "selection": "Four records fixed before the new adapter is run: required right foreleg, different-modality cold and sugar, and a saved all-zero blank. Not selected using new behavior outputs.",
+  "cases": [
+    {
+      "name": "right_foreleg_touch",
+      "observation_id": "7972d97a4ddb4d06a404f9781d6aa09f",
+      "response_file": "reports/general-sensory/interactive/7972d97a4ddb4d06a404f9781d6aa09f.json",
+      "dataset": "MaleCNS v1.0",
+      "seed": 81000,
+      "duration_ms": 500.0,
+      "spikes": 434,
+      "input_items": [
+        {
+          "channel": "foreleg_touch",
+          "label": "前腿触毛接触",
+          "side": "right",
+          "neuron_count": 100,
+          "status": "candidate",
+          "notes": [
+            "Rate and time profiles are engineering inputs, not calibrated physical stimulus-to-spike transformations.",
+            "Side denotes annotated peripheral nerve entry, not requested movement direction or a fabricated split.",
+            "Anatomical candidate population; neither exact distal sensillum identity nor an ensuing movement is assigned."
+          ],
+          "intensity": 1.0,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "response_sha256": "136ab32f5eb736172335aaa96e423ad318e3745db4f8e2601acad4bf42ff4568",
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\7972d97a4ddb4d06a404f9781d6aa09f.npz",
+        "sha256": "1f5cbc613e82b2c3bbd2afe17b27064b61fbbaa48ef51c0e24aa490eba7cf634"
+      },
+      "existing_body_status": "ok",
+      "existing_body_motor_spikes": 2
+    },
+    {
+      "name": "left_cold",
+      "observation_id": "301732e8b7334dd9b267ce880cee77b5",
+      "response_file": "reports/general-sensory/interactive/301732e8b7334dd9b267ce880cee77b5.json",
+      "dataset": "FlyWire v783",
+      "seed": 5900005,
+      "duration_ms": 500.0,
+      "spikes": 196395,
+      "input_items": [
+        {
+          "channel": "cold",
+          "label": "低温通道",
+          "side": "left",
+          "neuron_count": 4,
+          "status": "ready",
+          "notes": [
+            "Rate and time profiles are engineering inputs, not calibrated physical stimulus-to-spike transformations.",
+            "Side denotes annotated peripheral nerve entry, not requested movement direction or a fabricated split."
+          ],
+          "intensity": 1,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "response_sha256": "0550d25482171092ae49d2c0e70e7ee22b1bf38120547f216b7ccd613382946b",
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\301732e8b7334dd9b267ce880cee77b5.npz",
+        "sha256": "ed926f5251da43af54537188ab78428ef2deea83a9cc22c5368b875292867d47"
+      },
+      "existing_body_status": "ok",
+      "existing_body_motor_spikes": 36
+    },
+    {
+      "name": "left_sugar",
+      "observation_id": "9c5281bc5fda4816b89af0812a26958e",
+      "response_file": "reports/general-sensory/interactive/9c5281bc5fda4816b89af0812a26958e.json",
+      "dataset": "MaleCNS v1.0",
+      "seed": 5900001,
+      "duration_ms": 500.0,
+      "spikes": 10259,
+      "input_items": [
+        {
+          "channel": "sugar_specific",
+          "label": "糖感觉候选（LB3b/c）",
+          "side": "left",
+          "neuron_count": 17,
+          "status": "candidate",
+          "notes": [
+            "Rate and time profiles are engineering inputs, not calibrated physical stimulus-to-spike transformations.",
+            "Side denotes annotated peripheral nerve entry, not requested movement direction or a fabricated split.",
+            "The receptor assignment is a proposed population morphology/connectivity match (Cell 2026 Figure 2D/E), not single-cell receptor expression or physiological validation.",
+            "Body IDs are selected from the local official MaleCNS v1.0 type annotations; the article Table S1 body-ID list has not been independently cross-checked.",
+            "LB3b also matches Ir56b low-salt neurons. The channel name identifies a sugar-related population distinct from LB3a, not exclusive molecular selectivity for sugar.",
+            "Some typed labellar cells lack entryNerve annotation; their explicitly annotated rootSide is retained. These IDs are listed in missing_entry_nerve_ids."
+          ],
+          "intensity": 1.0,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "response_sha256": "110febc97846b22b116a570df87551cc895858ef88550ce38b846b364b814858",
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\9c5281bc5fda4816b89af0812a26958e.npz",
+        "sha256": "407861ded8ae4ae9987dfe143892b863931e2c6e7cd3ef4d03a54e4519fa9b02"
+      },
+      "existing_body_status": "ok",
+      "existing_body_motor_spikes": 305
+    },
+    {
+      "name": "blank",
+      "observation_id": "26b566cee24d4c77b4945fdb91e4c739",
+      "response_file": "reports/general-sensory/interactive/26b566cee24d4c77b4945fdb91e4c739.json",
+      "dataset": "FlyWire v783",
+      "seed": 5900007,
+      "duration_ms": 500,
+      "spikes": 0,
+      "input_items": [],
+      "response_sha256": "00bb83ddd5c5b00b097a83df5890d60911d935bb608594a26ae2d783c89333c6",
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\26b566cee24d4c77b4945fdb91e4c739.npz",
+        "sha256": "cc5f82fc09152fa5a79b76675cfe7f391d67b12755e0c54b730edf814a0ab6bb"
+      },
+      "existing_body_status": "no_motor_activity",
+      "existing_body_motor_spikes": 0
+    }
+  ],
+  "max_duration_ms": 500,
+  "sample_ms": 10,
+  "timeout_seconds": 90,
+  "same_neural_source": "Existing NPZ only; counts, spike indices, spike times, IDs, seed and directly driven cells preserved. No neuronal rerun, added spikes or parameter tuning.",
+  "old_adapter_sha256": "406bebe1ccb280d96f05991e0d4ea1d5ed21ba33b9c7ef2b07eb6abc262e0fa9",
+  "annotation_sha256": {
+    "MaleCNS v1.0": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "FlyWire v783": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be"
+  },
+  "upstream_manifest": {
+    "repository": "https://github.com/kevinlinxc/badapple-fly",
+    "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+    "files": [
+      {
+        "path": ".gitignore",
+        "sha256": "ecc3561d772481707d0d9f1c5a078f2a19b06c8ec559edcab5bbdd9361f4ed55",
+        "size": 196
+      },
+      {
+        "path": "README.md",
+        "sha256": "4f105807da4cf27dfd176b2d80c0b067ecc66e938e0745c02ec80a6d70d026cf",
+        "size": 2002
+      },
+      {
+        "path": "backend/app.py",
+        "sha256": "1c9e14e0b165024a18b0ac91ca5c10b3f3a30902f39be107812bb636be4da792",
+        "size": 15313
+      },
+      {
+        "path": "backend/body.py",
+        "sha256": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+        "size": 8150
+      },
+      {
+        "path": "backend/brain.py",
+        "sha256": "25ad55ca3eb8d32f955ea18010f4db49c4fa73932071b94776ae68fd51965b24",
+        "size": 4714
+      },
+      {
+        "path": "backend/evidence.py",
+        "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+        "size": 8320
+      },
+      {
+        "path": "backend/recording.py",
+        "sha256": "547bc6175c9957590f5b39f34dd5c0d9ab01d794e23123db36e4d99bf5862ec1",
+        "size": 1308
+      },
+      {
+        "path": "backend/video.py",
+        "sha256": "84804a1477fedc55722128e2b75bdd9bfe2ae056f107e074688b378551dee358",
+        "size": 2364
+      },
+      {
+        "path": "frontend/activity.js",
+        "sha256": "dbcf1a22434f07af1c7bf38b9a9ffb756d845ea195e00215984d126b85b173b4",
+        "size": 492
+      },
+      {
+        "path": "frontend/group-colors.js",
+        "sha256": "8b7575d605ae7c3547585c5753b71134d40a4badc475e38125346c3ccc77b268",
+        "size": 609
+      },
+      {
+        "path": "frontend/index.html",
+        "sha256": "1790ee4fee24ed6cef52e05856ad526916f3e91df7bc3c8c66bae9d6fe002c62",
+        "size": 6264
+      },
+      {
+        "path": "frontend/main.js",
+        "sha256": "1d21c99499ebad0b526657c4e0ca76b0d9526ad8792a4d8da2d28a8d5ce67977",
+        "size": 28739
+      },
+      {
+        "path": "frontend/recording.js",
+        "sha256": "de815b77dcd3254b2b93b8314399d429c605ed48e34d5be2100114613b91adcb",
+        "size": 2393
+      },
+      {
+        "path": "frontend/style.css",
+        "sha256": "8cdfbbca9cb57210a07a75d8a8d1463e1ed8cb80ed83ac4e764127835ed66d9d",
+        "size": 9155
+      },
+      {
+        "path": "frontend/vendor/OrbitControls.js",
+        "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+        "size": 38703
+      },
+      {
+        "path": "frontend/vendor/THREE-LICENSE.txt",
+        "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+        "size": 1081
+      },
+      {
+        "path": "frontend/vendor/three.core.js",
+        "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+        "size": 1403455
+      },
+      {
+        "path": "frontend/vendor/three.module.js",
+        "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+        "size": 603113
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "9eac6acd1b30ce741ee9013f3c4f945214fe5712d19495fceeef450f08b69143",
+        "size": 526
+      },
+      {
+        "path": "scripts/download_data.py",
+        "sha256": "c0f5ba652998d705b2117d2c61eef024c0cab517ca4d9e99b1f93b969b35a5cd",
+        "size": 1529
+      },
+      {
+        "path": "scripts/prepare_data.py",
+        "sha256": "df07fac1afcf50ad15197f82d9ab13bc786d542f6660cd836116580ede3af4be",
+        "size": 3500
+      },
+      {
+        "path": "scripts/prepare_visual_groups.py",
+        "sha256": "be732541fd56f87aa74c42cc04a03d41409db4fd054c593582961e1045c81e59",
+        "size": 2778
+      },
+      {
+        "path": "uv.lock",
+        "sha256": "19f552bf302123bdc81403347e6ff8428cbb7cab4caf3a1ff876cb1b44635ae4",
+        "size": 93863
+      }
+    ]
+  },
+  "comparison_limit": "Different controllers, mappings and initialization are compared; displacement differences are not biological calibration or a one-factor ablation."
+}

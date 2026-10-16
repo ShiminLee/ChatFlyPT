@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "condition": "sugar",
+      "neurons": 127400,
+      "edges": 14687178,
+      "custom_spikes": 1279,
+      "brian_spikes": 1279,
+      "spikes_identical": true,
+      "voltage_max_error_mv": 1.5063505998114124e-12
+    },
+    {
+      "condition": "sugar_bitter",
+      "neurons": 127400,
+      "edges": 14687178,
+      "custom_spikes": 1269,
+      "brian_spikes": 1269,
+      "spikes_identical": true,
+      "voltage_max_error_mv": 5.968558980384842e-13
+    }
+  ],
+  "upstream_model_sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e"
+}

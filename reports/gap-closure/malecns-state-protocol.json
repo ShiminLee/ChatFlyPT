@@ -1,0 +1,7776 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "labels": [
+    "water_specific:left",
+    "water_specific:right",
+    "sugar_specific:left",
+    "sugar_specific:right",
+    "high_salt:left",
+    "high_salt:right",
+    "fatty_acid_taste:left",
+    "fatty_acid_taste:right",
+    "foreleg_touch:left",
+    "foreleg_touch:right",
+    "midleg_touch:left",
+    "midleg_touch:right",
+    "hindleg_touch:left",
+    "hindleg_touch:right",
+    "wing_touch:left",
+    "wing_touch:right",
+    "body_touch:left",
+    "body_touch:right",
+    "chordotonal_proprioception:left",
+    "chordotonal_proprioception:right",
+    "hair_plate_proprioception:left",
+    "hair_plate_proprioception:right",
+    "campaniform_proprioception:left",
+    "campaniform_proprioception:right",
+    "haltere_proprioception:left",
+    "haltere_proprioception:right",
+    "leg_proprioception:left",
+    "leg_proprioception:right"
+  ],
+  "names": [
+    "左侧水感觉候选（LB3a）",
+    "右侧水感觉候选（LB3a）",
+    "左侧糖感觉候选（LB3b/c）",
+    "右侧糖感觉候选（LB3b/c）",
+    "左侧高盐相关候选（LB3d）",
+    "右侧高盐相关候选（LB3d）",
+    "左侧己酸相关味觉候选（IR56d）",
+    "右侧己酸相关味觉候选（IR56d）",
+    "左侧前腿触毛接触",
+    "右侧前腿触毛接触",
+    "左侧中腿触毛接触",
+    "右侧中腿触毛接触",
+    "左侧后腿触毛接触",
+    "右侧后腿触毛接触",
+    "左侧翅触毛接触",
+    "右侧翅触毛接触",
+    "左侧背胸体表接触候选",
+    "右侧背胸体表接触候选",
+    "左侧弦音器本体输入",
+    "右侧弦音器本体输入",
+    "左侧毛板本体输入",
+    "右侧毛板本体输入",
+    "左侧钟状感器本体输入",
+    "右侧钟状感器本体输入",
+    "左侧平衡棒本体输入",
+    "右侧平衡棒本体输入",
+    "左侧腿部本体感觉总群",
+    "右侧腿部本体感觉总群"
+  ],
+  "cases": [
+    {
+      "split": "train",
+      "seed": 700000,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.161217687220705,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700001,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.9022881920261638,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700002,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.0316665983686155,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700003,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.7520608144899157,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700004,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 1.2067614031839167,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700005,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9473172255899598,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700006,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.8996549242443509,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700007,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.8647103826034139,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700008,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.9214096611654767,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700009,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0914912122709108,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700010,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0576292361558937,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700011,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.851780155600327,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700012,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.9653657430578857,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700013,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.0499711164469914,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700014,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.8003088689704916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700015,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.961533978272504,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700016,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.2182591468450947,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700017,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.8937448774986745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700018,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.0407427803237133,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700019,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.1378996288767005,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700020,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.954841410412449,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700021,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.070764749839017,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700022,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.9932479035362827,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700023,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.169359306384302,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700024,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.8943745211916785,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700025,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.02513296915587,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700026,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.2264925717465052,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700027,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.8266199309015512,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700028,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.8651783204824551,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700029,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 1.0040623594947213,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700030,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0431716084103049,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700031,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.9211244544175081,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700032,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.9909203035009396,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700033,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9883960625506225,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700034,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.0309794450291796,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700035,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9253594221043662,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700036,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.0618138031575741,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700037,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.9682875908221371,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700038,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.1845285713456295,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700039,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.1478375780761119,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700040,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.98477322018944,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700041,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.165663430098707,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700042,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1798951939148945,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700043,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9547390135681745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700044,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0410630111721753,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700045,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.0348120481005958,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700046,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 0.9078882145802124,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700047,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 0.9769487897360425,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700048,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1474315185230197,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700049,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1938235177025822,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700050,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.2348005200313075,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700051,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9550174149497827,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700052,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9522323753783029,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700053,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9441164130473796,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700054,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.1594841884904692,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700055,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.1118081734456222,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700056,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.8755069407223732,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700057,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.0604220024995006,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700058,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 0.8388973626644278,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700059,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 0.898316082096522,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700060,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.2043086516387265,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700061,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0140741877641712,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700062,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1157634550302329,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700063,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8916908277100571,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700064,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.238546142299406,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700065,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.0495117114378913,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700066,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.8472118678474663,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700067,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.9584146951829322,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700068,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.7937276109894074,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700069,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.0734184588018545,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700070,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.1422848337662441,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700071,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.1910629351286763,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700072,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.8074231182339422,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700073,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.0873266906546184,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700074,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.9305139450968463,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700075,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 1.1549134567659942,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700076,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 1.07007410003193,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700077,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.8745902866476746,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700078,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.2088770616633302,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700079,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.2403578036281873,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700080,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.9406698916163454,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700081,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.9096616974261857,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700082,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.103433967133187,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700083,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.9875345869834071,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700084,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.9686639917236533,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700085,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 1.2460693306832336,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700086,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.7524577745378179,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700087,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.984977052466972,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700088,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.7506577119301279,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700089,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8509436092360079,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700090,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1891999831591926,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700091,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.9468563622431334,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700092,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.9974501727643679,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700093,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.8703587753725883,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700094,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.0686745741168093,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700095,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.2072807579847267,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700096,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0651941619146004,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700097,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9639602352520309,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700098,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.207568140694542,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700099,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.1530868705938722,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700100,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.889451006149747,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700101,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.7839586105368777,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700102,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.9599922363444993,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700103,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.844607622342979,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700104,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.8221577611186934,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700105,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0613971411359957,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700106,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8799079379202862,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700107,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 1.210533693248103,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700108,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.8636976500564089,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700109,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.8124861738047663,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700110,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.8809651706732116,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700111,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.854915831620825,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700112,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 1.1213366928437425,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700113,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.8990579597343189,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700114,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8199775201788766,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700115,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0684328548692177,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700116,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0125144022520556,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700117,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.9221862748499776,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700118,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.1197690399361866,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700119,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.0058933343473042,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700120,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.9540624061025698,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700121,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.8850449685542127,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700122,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.1702531597032149,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700123,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9710165024073507,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700124,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0890582822944341,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700125,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9202250814811935,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700126,
+      "kind": "blank",
+      "items": []
+    },
+    {
+      "split": "validation",
+      "seed": 700127,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.9078696227091594,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700128,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9901366662612934,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700129,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 1.0485230599788837,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700130,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.7748892999590392,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700131,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.027259388001482,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700132,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.7736353050012139,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700133,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.9963988130169183,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700134,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.1364472165129773,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700135,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.8752565927077253,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700136,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.8688309467611786,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700137,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0182780782295597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700138,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9072829403488449,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700139,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.1215203905710607,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700140,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.0377727171515234,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700141,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1221244436193352,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700142,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.2440999393616512,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700143,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.0145488148154378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700144,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.7841902525044588,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700145,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.7605559669002389,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700146,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 0.8777678051205047,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700147,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.2376775213916613,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700148,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8881917983307673,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700149,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.911429245392203,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700150,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.9997700280854631,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700151,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.9122665608446453,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700152,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.7991087613609607,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700153,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.8690362518275123,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700154,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.092045647980822,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700155,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.8718702187755236,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700156,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9510975650318276,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700157,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.128279693487287,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700158,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.0866589881529258,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700159,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.7870443496829501,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700160,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.8102520138850959,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700161,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.9000976965656652,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700162,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.7670536641233978,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700163,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1645187656714229,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700164,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.9746950507893282,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700165,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8025302283176546,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700166,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.1649267576568099,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700167,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.8455360710997133,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700168,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1176618702153098,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700169,
+      "kind": "blank",
+      "items": []
+    },
+    {
+      "split": "test",
+      "seed": 700170,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1555061747795592,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700171,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1880658074001285,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700172,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9583655390017738,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700173,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 1.2447593784286697,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700174,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.9158446401769367,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700175,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.8629068760181862,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700176,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.1319478870387467,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700177,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.2065574525676201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700178,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.7604328566166383,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700179,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.2223104046882787,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700180,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.152909288449441,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700181,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.1998331712410666,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700182,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.7547199609012967,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700183,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.1679536527476206,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700184,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.0988785901896276,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700185,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.2320177040977556,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700186,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.0208123877431896,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700187,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.2329524285305666,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700188,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 1.1391177399314407,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700189,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.7650918329945561,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700190,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.7760002609664187,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700191,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.8986947081539548,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700192,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.8818663919839665,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700193,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9834575433080941,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700194,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.7947537397399753,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700195,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.8779886496305176,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700196,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.7832129185629688,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700197,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.1255543627683946,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700198,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9129540453215108,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700199,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.963812423351233,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700200,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1431793535816563,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700201,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 0.9954301756498924,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700202,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1597777705350862,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700203,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.0971212585448273,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700204,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8756489553648912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700205,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0473661183955318,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700206,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.803897073039318,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700207,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.0485920474301276,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700208,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.2456878907842102,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700209,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.139504581207283,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700210,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0798138399799488,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700211,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8784987616532871,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700212,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8124025695237915,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700213,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.2486172290493474,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700214,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.8460083975919745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700215,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.9292476725128267,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700216,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.9323541595474096,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700217,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.9694433514306313,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700218,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1462065814704947,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700219,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.0133107277454185,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700220,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.9268754172283902,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700221,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 1.0142538326763335,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700222,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.8295816166304555,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700223,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.7811379368437754,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700224,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.10242631541403,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700225,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.9939523658141372,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700226,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.8034356298538539,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700227,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 1.08292033045268,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700228,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.993580175153068,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700229,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8236504671659026,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700230,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.9111956951482916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700231,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1735821981914745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700232,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.9178913551894855,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700233,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.8474585760464393,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700234,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9884099672776586,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700235,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.7785717848892986,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700236,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.9326902718269494,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700237,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.7961650312665403,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700238,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.0675824658663857,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700239,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.0800645843317984,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700240,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9604372139745366,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700241,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 1.2231678429256014,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700242,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.2263335100421762,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700243,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.7533080521607477,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700244,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 1.09154422799389,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700245,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.9517822500985211,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700246,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0043905717105517,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700247,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8969381463754489,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700248,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8668349437049572,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700249,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.0912834670695801,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700250,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.0727141262125637,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700251,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.9127917745682359,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700252,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.2189084618221049,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700253,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.002455083454463,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700254,
+      "kind": "blank",
+      "items": []
+    },
+    {
+      "split": "ood",
+      "seed": 700255,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700256,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700257,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700258,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700259,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700260,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700261,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700262,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700263,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700264,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700265,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700266,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700267,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700268,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700269,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700270,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700271,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700272,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700273,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700274,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700275,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700276,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700277,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700278,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700279,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700280,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700281,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700282,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700283,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700284,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700285,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700286,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700287,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700288,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700289,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700290,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700291,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700292,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700293,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700294,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700295,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700296,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700297,
+      "kind": "blank",
+      "items": []
+    },
+    {
+      "split": "train",
+      "seed": 700298,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.9179508143553307,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.9179508143553307,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.9179508143553307,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700299,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.1481350896662361,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1481350896662361,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.1481350896662361,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700300,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 1.1973442601941233,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1973442601941233,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1973442601941233,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700301,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.1864977861153454,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.1864977861153454,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.1864977861153454,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1864977861153454,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700302,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.8702523703850468,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.8702523703850468,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.8702523703850468,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700303,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.8308162995801248,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.8308162995801248,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700304,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.053480322400931,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 1.053480322400931,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700305,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.0627700749667675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.0627700749667675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0627700749667675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 1.0627700749667675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 1.0627700749667675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700306,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.1604289439218405,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1604289439218405,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 1.1604289439218405,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1604289439218405,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700307,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.0648348162955061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0648348162955061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.0648348162955061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.0648348162955061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.0648348162955061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700308,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.075602046754308,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.075602046754308,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700309,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.9408457752787688,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.9408457752787688,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700310,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.9907743215796035,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.9907743215796035,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.9907743215796035,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9907743215796035,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.9907743215796035,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700311,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.1856161615912226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1856161615912226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700312,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.0986269392160917,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0986269392160917,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 1.0986269392160917,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0986269392160917,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.0986269392160917,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700313,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.032616578726763,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.032616578726763,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.032616578726763,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.032616578726763,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.032616578726763,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700314,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.8206250968415567,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8206250968415567,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700315,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1227624058818961,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1227624058818961,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.1227624058818961,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700316,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.9205758975564795,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9205758975564795,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.9205758975564795,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.9205758975564795,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.9205758975564795,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700317,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.069012560817503,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.069012560817503,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.069012560817503,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.069012560817503,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.069012560817503,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700318,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.12175296105151,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.12175296105151,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.12175296105151,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700319,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.0530870744980505,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 1.0530870744980505,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700320,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.9012000513644507,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.9012000513644507,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.9012000513644507,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700321,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.1634292460385216,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.1634292460385216,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.1634292460385216,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1634292460385216,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1634292460385216,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700322,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.049604236083982,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.049604236083982,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.049604236083982,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.049604236083982,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.049604236083982,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700323,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.985776210174868,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.985776210174868,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.985776210174868,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700324,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.8889385217009242,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.8889385217009242,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700325,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8293484110658886,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8293484110658886,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.8293484110658886,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8293484110658886,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700326,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1564638031972658,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1564638031972658,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700327,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.8601943890386115,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8601943890386115,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.8601943890386115,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.8601943890386115,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.8601943890386115,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700328,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0302175712024455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.0302175712024455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700329,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.9073435121470855,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.9073435121470855,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9073435121470855,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 0.9073435121470855,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700330,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.9661525096107504,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.9661525096107504,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700331,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.1514314378631068,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.1514314378631068,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700332,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.9855983394158105,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9855983394158105,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9855983394158105,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9855983394158105,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700333,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.0547326144281253,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0547326144281253,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700334,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.9971286512633221,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.9971286512633221,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.9971286512633221,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.9971286512633221,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.9971286512633221,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700335,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 1.1087960506785153,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.1087960506785153,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700336,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8859384743736491,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.8859384743736491,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8859384743736491,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8859384743736491,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.8859384743736491,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700337,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.8714600249654236,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8714600249654236,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700338,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.125715157473759,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.125715157473759,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700339,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1810453764817446,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1810453764817446,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700340,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 1.1772707197193544,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.1772707197193544,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.1772707197193544,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700341,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1442645478087567,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1442645478087567,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1442645478087567,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1442645478087567,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1442645478087567,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700342,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1752795756219745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 1.1752795756219745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700343,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 1.1777346328539888,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.1777346328539888,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700344,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.0273360820828747,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.0273360820828747,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700345,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.183866158719706,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.183866158719706,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.183866158719706,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.183866158719706,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.183866158719706,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700346,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.8659598321931079,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.8659598321931079,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700347,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.156175882677604,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.156175882677604,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700348,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.8192010389490226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8192010389490226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.8192010389490226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8192010389490226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.8192010389490226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700349,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8144135777098027,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.8144135777098027,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8144135777098027,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700350,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.063517291849997,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 1.063517291849997,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.063517291849997,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700351,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.8000189138004875,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.8000189138004875,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.8000189138004875,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.8000189138004875,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8000189138004875,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700352,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.0094939808294534,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0094939808294534,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0094939808294534,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0094939808294534,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0094939808294534,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700353,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1485742056431636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.1485742056431636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.1485742056431636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700354,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.0396038962186218,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.0396038962186218,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.0396038962186218,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.0396038962186218,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700355,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.9266003871562732,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9266003871562732,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.9266003871562732,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.9266003871562732,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9266003871562732,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700356,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9109967453369313,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9109967453369313,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9109967453369313,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9109967453369313,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700357,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.8920337579374543,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.8920337579374543,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8920337579374543,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8920337579374543,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.8920337579374543,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700358,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.0082120559187493,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0082120559187493,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700359,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8110204206453953,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.8110204206453953,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.8110204206453953,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8110204206453953,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700360,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.0940313813984675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.0940313813984675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.0940313813984675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0940313813984675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "seed": 700361,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.8250221068575296,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.8250221068575296,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.8250221068575296,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700362,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8493404088030916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.8493404088030916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700363,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.9408645339605837,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.9408645339605837,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.9408645339605837,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9408645339605837,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700364,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.984853023583768,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.984853023583768,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.984853023583768,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700365,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1112040978895747,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.1112040978895747,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 1.1112040978895747,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700366,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.9609255724687916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.9609255724687916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.9609255724687916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9609255724687916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.9609255724687916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700367,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.8861268248625306,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.8861268248625306,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.8861268248625306,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8861268248625306,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700368,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8952765981283385,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.8952765981283385,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8952765981283385,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700369,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.0255258340781241,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 1.0255258340781241,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.0255258340781241,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700370,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.1248459319920352,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1248459319920352,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 1.1248459319920352,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700371,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.1773176703315633,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.1773176703315633,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.1773176703315633,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.1773176703315633,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1773176703315633,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700372,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.1631439445299583,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.1631439445299583,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.1631439445299583,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.1631439445299583,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700373,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.8974534887431267,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.8974534887431267,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8974534887431267,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 0.8974534887431267,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700374,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1570132588618804,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.1570132588618804,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.1570132588618804,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1570132588618804,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700375,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.1254907150336952,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.1254907150336952,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 1.1254907150336952,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700376,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 1.1383368616647895,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.1383368616647895,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 1.1383368616647895,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.1383368616647895,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700377,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.125526521656147,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.125526521656147,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.125526521656147,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 1.125526521656147,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700378,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 1.1609221586986254,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.1609221586986254,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1609221586986254,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.1609221586986254,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700379,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.9955219827159274,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9955219827159274,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.9955219827159274,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700380,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.9991209119959847,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.9991209119959847,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.9991209119959847,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.9991209119959847,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.9991209119959847,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700381,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1819714140161957,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1819714140161957,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.1819714140161957,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700382,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.9670574280737696,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.9670574280737696,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700383,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.8725868013493189,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.8725868013493189,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.8725868013493189,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700384,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.8201852015508779,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.8201852015508779,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.8201852015508779,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.8201852015508779,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.8201852015508779,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "validation",
+      "seed": 700385,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9133915751002636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.9133915751002636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.9133915751002636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700386,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.8831665386734591,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8831665386734591,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8831665386734591,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700387,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.912739539623739,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.912739539623739,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.912739539623739,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700388,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700389,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700390,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8676474351094854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.8676474351094854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8676474351094854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700391,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700392,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700393,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 1.1932002777328201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1932002777328201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1932002777328201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700394,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.0764868498972027,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.0764868498972027,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700395,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.8845852104864146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8845852104864146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.8845852104864146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700396,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700397,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700398,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700399,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.9971991099432636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9971991099432636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9971991099432636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700400,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700401,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700402,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700403,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700404,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9918948010187854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9918948010187854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.9918948010187854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700405,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700406,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700407,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700408,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700409,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ]
+    }
+  ],
+  "catalogue_fingerprint": "3b5deaf24f434164b0c9c2c79f3cc1f73369ae76c1eca85f69253f3d7fa2bf83",
+  "seed_overlap": false,
+  "mixture_configurations_disjoint": true,
+  "features": "sqrt spike count; log1p positive and negative voltage area in mV ms",
+  "fit": "Ridge alpha=10; per-label F1 thresholds on validation only",
+  "interpretation": "Artificial intervention identity and input side; not language comprehension.",
+  "model": "passive voltage observation; unchanged LIF dynamics",
+  "catalogue_signature": "f42264d4f658419e596c3c8444db96a4eef2c14498ea4ce4217b5e6baeb45487"
+}

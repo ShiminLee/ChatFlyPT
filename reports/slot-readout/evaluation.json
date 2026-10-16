@@ -1,0 +1,124 @@
+{
+  "schema": "chatflypt.slot-readout-evaluation.v1",
+  "run_id": "conspecific-v9",
+  "artifact": "data\\derived\\slot-readout\\malecns-slots.candidate.npz",
+  "artifact_sha256": "e6127ec2cbcf5d1b125655519113ceb043c89c0ae8f7ca82895cc3acb54cd907",
+  "protocol_sha256": "0518af7992087451896d1ee08e8133d83b6279f9b402e180d1f07194b659f7d4",
+  "rules": {
+    "pattern_transient_max_fraction": 0.3,
+    "activity_spike_quantiles": [
+      6384.500000000001,
+      228375.0
+    ],
+    "training_windows": 266,
+    "rule": "Transient/sustained split is fixed at 0.3 of sampled windows; activity bands are the training split's 33rd and 66th percentiles of measured non-sensory spikes."
+  },
+  "features": 17147,
+  "qualified": {
+    "pattern": [
+      "pattern:sustained"
+    ],
+    "activity": [
+      "activity:quiet",
+      "activity:moderate",
+      "activity:busy"
+    ]
+  },
+  "unqualified": {
+    "pattern": [
+      "pattern:transient"
+    ],
+    "activity": []
+  },
+  "metrics": {
+    "pattern": {
+      "validation": {
+        "windows": 266,
+        "exact_set_accuracy": 0.9924812030075187,
+        "micro_f1": 0.9924812030075187,
+        "per_label": {
+          "pattern:transient": {
+            "positives": 2,
+            "predicted": 0,
+            "matched": 0
+          },
+          "pattern:sustained": {
+            "positives": 264,
+            "predicted": 266,
+            "matched": 264
+          }
+        }
+      },
+      "test": {
+        "windows": 266,
+        "exact_set_accuracy": 0.9924812030075187,
+        "micro_f1": 0.9924812030075187,
+        "per_label": {
+          "pattern:transient": {
+            "positives": 2,
+            "predicted": 0,
+            "matched": 0
+          },
+          "pattern:sustained": {
+            "positives": 264,
+            "predicted": 266,
+            "matched": 264
+          }
+        }
+      }
+    },
+    "activity": {
+      "validation": {
+        "windows": 266,
+        "exact_set_accuracy": 0.924812030075188,
+        "micro_f1": 0.9562043795620438,
+        "per_label": {
+          "activity:quiet": {
+            "positives": 93,
+            "predicted": 94,
+            "matched": 92
+          },
+          "activity:moderate": {
+            "positives": 86,
+            "predicted": 93,
+            "matched": 84
+          },
+          "activity:busy": {
+            "positives": 87,
+            "predicted": 95,
+            "matched": 86
+          }
+        }
+      },
+      "test": {
+        "windows": 266,
+        "exact_set_accuracy": 0.924812030075188,
+        "micro_f1": 0.9542961608775137,
+        "per_label": {
+          "activity:quiet": {
+            "positives": 86,
+            "predicted": 89,
+            "matched": 85
+          },
+          "activity:moderate": {
+            "positives": 88,
+            "predicted": 98,
+            "matched": 87
+          },
+          "activity:busy": {
+            "positives": 92,
+            "predicted": 94,
+            "matched": 89
+          }
+        }
+      }
+    }
+  },
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "limitations": [
+    "Pattern and activity are measured properties of the receptor events and of internal activity, not emotions or intentions.",
+    "A slot that fails qualification abstains; nothing is spoken that was not decoded.",
+    "The renderer that consumes these slots may vary phrasing but may not add slots (see generative_renderer.audit_grounding)."
+  ]
+}

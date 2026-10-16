@@ -1,0 +1,271 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+  "artifact": "data\\derived\\feedback-readout\\malecns-adapter.npz",
+  "artifact_sha256": "975ec54949b6de7fcdb707f135f3320ba9c54feedc4cdc30f2f5a38d093f0856",
+  "model_selection": "Training sessions only; validation thresholds and label selection locked before loading test",
+  "train_trials": 8,
+  "validation_trials": 8,
+  "test_trials": 8,
+  "groups": {
+    "train": [
+      "malecns-train-left",
+      "malecns-train-right"
+    ],
+    "validation": [
+      "malecns-validation-left",
+      "malecns-validation-right"
+    ],
+    "test": [
+      "malecns-test-left",
+      "malecns-test-right"
+    ]
+  },
+  "enabled_labels": [
+    "foreleg_touch:left"
+  ],
+  "candidate_only": true,
+  "baseline_validation": {
+    "trials": 8,
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0,
+    "per_label": {
+      "foreleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "adapted_validation": {
+    "trials": 8,
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0,
+    "per_label": {
+      "foreleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "baseline_test": {
+    "trials": 8,
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0,
+    "per_label": {
+      "foreleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "adapted_test": {
+    "trials": 8,
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0,
+    "per_label": {
+      "foreleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "shuffled_test": {
+    "trials": 8,
+    "exact_set_accuracy": 0.125,
+    "micro_f1": 0.0,
+    "per_label": {
+      "foreleg_touch:left": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "foreleg_touch:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "zero_feature_false_positives": 0,
+  "serving_class_matches_test_predictions": true,
+  "unscored_baseline_predictions": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "test_predictions": [
+    {
+      "episode": "malecns-test-left",
+      "turn": 0,
+      "record": "data\\derived\\feedback-readout\\malecns-test-left\\turn-0\\observation.npz",
+      "expected": [
+        "foreleg_touch:left"
+      ],
+      "baseline": [
+        "foreleg_touch:left"
+      ],
+      "adapted": [
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "malecns-test-left",
+      "turn": 1,
+      "record": "data\\derived\\feedback-readout\\malecns-test-left\\turn-1\\observation.npz",
+      "expected": [],
+      "baseline": [],
+      "adapted": []
+    },
+    {
+      "episode": "malecns-test-left",
+      "turn": 2,
+      "record": "data\\derived\\feedback-readout\\malecns-test-left\\turn-2\\observation.npz",
+      "expected": [
+        "foreleg_touch:right"
+      ],
+      "baseline": [
+        "foreleg_touch:right"
+      ],
+      "adapted": [
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "malecns-test-left",
+      "turn": 3,
+      "record": "data\\derived\\feedback-readout\\malecns-test-left\\turn-3\\observation.npz",
+      "expected": [],
+      "baseline": [],
+      "adapted": []
+    },
+    {
+      "episode": "malecns-test-right",
+      "turn": 0,
+      "record": "data\\derived\\feedback-readout\\malecns-test-right\\turn-0\\observation.npz",
+      "expected": [
+        "foreleg_touch:right"
+      ],
+      "baseline": [
+        "foreleg_touch:right"
+      ],
+      "adapted": [
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "malecns-test-right",
+      "turn": 1,
+      "record": "data\\derived\\feedback-readout\\malecns-test-right\\turn-1\\observation.npz",
+      "expected": [],
+      "baseline": [],
+      "adapted": []
+    },
+    {
+      "episode": "malecns-test-right",
+      "turn": 2,
+      "record": "data\\derived\\feedback-readout\\malecns-test-right\\turn-2\\observation.npz",
+      "expected": [
+        "foreleg_touch:left"
+      ],
+      "baseline": [
+        "foreleg_touch:left"
+      ],
+      "adapted": [
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "malecns-test-right",
+      "turn": 3,
+      "record": "data\\derived\\feedback-readout\\malecns-test-right\\turn-3\\observation.npz",
+      "expected": [],
+      "baseline": [],
+      "adapted": []
+    }
+  ],
+  "limitations": [
+    "Small synthetic simulation benchmark, not biological calibration.",
+    "Visual and odor scenes mainly co-activate both sides; lateral discrimination is not established.",
+    "Only 500 ms windows and the named channels are adapted; unrelated baseline labels are not evaluated here.",
+    "Current-window input identity is the target; residual activity is not a decoded memory or intent."
+  ]
+}

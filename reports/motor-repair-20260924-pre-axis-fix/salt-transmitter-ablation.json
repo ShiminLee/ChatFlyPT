@@ -1,0 +1,205 @@
+{
+  "source": "https://www.sciencedirect.com/science/article/abs/pii/S0092867426009438",
+  "default_changed": false,
+  "scope": "Counterfactual replay of identical archived input events, not independent biological validation or closed-loop equivalent.",
+  "changed_presynaptic_cells": [
+    "33339",
+    "93290",
+    "125405",
+    "129171",
+    "130693",
+    "140851",
+    "158537",
+    "178321",
+    "199196",
+    "201075",
+    "204726",
+    "210344",
+    "236475",
+    "261048",
+    "312102",
+    "317616",
+    "512552",
+    "516216",
+    "516218",
+    "550065",
+    "916953",
+    "147619274",
+    "245892505",
+    "422510463",
+    "581710868",
+    "885642755"
+  ],
+  "changed_edges": 1980,
+  "reference": "Cell 2026 Fig 2D/E, putative population-level glutamatergic identity; raw EM classifier predicts ACh.",
+  "records": [
+    {
+      "seed": 491701,
+      "condition": "mouth_sugar",
+      "profile": "official_prediction",
+      "MN9_spikes": 20,
+      "feeding_max": 0.4830496821138191,
+      "body_summary": {
+        "displacement_mm": [
+          0.05390404746455946,
+          -0.11602309932473893,
+          -0.06506411080947205
+        ],
+        "path_length_mm": 2.36885811130366,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_sugar-official_prediction\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_sugar-official_prediction\\body-result.json",
+      "events_sha256": "6f41e1d969822efd2c07f7311b0155bcc588bc48fa5b9e5bd4c19b91a4966362"
+    },
+    {
+      "seed": 491701,
+      "condition": "mouth_sugar",
+      "profile": "LB3d_inhibitory_hypothesis",
+      "MN9_spikes": 20,
+      "feeding_max": 0.4830496821138191,
+      "body_summary": {
+        "displacement_mm": [
+          0.05390404746455946,
+          -0.11602309932473893,
+          -0.06506411080947205
+        ],
+        "path_length_mm": 2.36885811130366,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_sugar-LB3d_inhibitory_hypothesis\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_sugar-LB3d_inhibitory_hypothesis\\body-result.json",
+      "events_sha256": "6f41e1d969822efd2c07f7311b0155bcc588bc48fa5b9e5bd4c19b91a4966362"
+    },
+    {
+      "seed": 491701,
+      "condition": "mouth_high_salt",
+      "profile": "official_prediction",
+      "MN9_spikes": 38,
+      "feeding_max": 0.6111228165637106,
+      "body_summary": {
+        "displacement_mm": [
+          0.09678324515196146,
+          0.04477392987091316,
+          -0.09838380778391942
+        ],
+        "path_length_mm": 2.0881334987884523,
+        "max_contacts": 19,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_high_salt-official_prediction\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_high_salt-official_prediction\\body-result.json",
+      "events_sha256": "f34d8a668811909864917ad9025c7b3a7a7dc1d95d3f72679e38e7ceda146d97"
+    },
+    {
+      "seed": 491701,
+      "condition": "mouth_high_salt",
+      "profile": "LB3d_inhibitory_hypothesis",
+      "MN9_spikes": 0,
+      "feeding_max": 0.0,
+      "body_summary": {
+        "displacement_mm": [
+          0.07056336433402977,
+          0.011082081633266995,
+          -0.08181350354334693
+        ],
+        "path_length_mm": 0.19258517531243816,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_high_salt-LB3d_inhibitory_hypothesis\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491701-mouth_high_salt-LB3d_inhibitory_hypothesis\\body-result.json",
+      "events_sha256": "f34d8a668811909864917ad9025c7b3a7a7dc1d95d3f72679e38e7ceda146d97"
+    },
+    {
+      "seed": 491702,
+      "condition": "mouth_sugar",
+      "profile": "official_prediction",
+      "MN9_spikes": 18,
+      "feeding_max": 0.433923538687864,
+      "body_summary": {
+        "displacement_mm": [
+          0.08662454619185955,
+          0.04866844126211383,
+          -0.0729929856673126
+        ],
+        "path_length_mm": 1.642056780239605,
+        "max_contacts": 18,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_sugar-official_prediction\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_sugar-official_prediction\\body-result.json",
+      "events_sha256": "4c47fee0aa3a1d8bdc8038d01293544ee0c8a4991ca76b90fab73e900af4a694"
+    },
+    {
+      "seed": 491702,
+      "condition": "mouth_sugar",
+      "profile": "LB3d_inhibitory_hypothesis",
+      "MN9_spikes": 18,
+      "feeding_max": 0.433923538687864,
+      "body_summary": {
+        "displacement_mm": [
+          0.08662454619185955,
+          0.04866844126211383,
+          -0.0729929856673126
+        ],
+        "path_length_mm": 1.642056780239605,
+        "max_contacts": 18,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_sugar-LB3d_inhibitory_hypothesis\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_sugar-LB3d_inhibitory_hypothesis\\body-result.json",
+      "events_sha256": "4c47fee0aa3a1d8bdc8038d01293544ee0c8a4991ca76b90fab73e900af4a694"
+    },
+    {
+      "seed": 491702,
+      "condition": "mouth_high_salt",
+      "profile": "official_prediction",
+      "MN9_spikes": 27,
+      "feeding_max": 0.57245775419326,
+      "body_summary": {
+        "displacement_mm": [
+          0.08341673923682147,
+          0.058102096466846886,
+          -0.08619371559655353
+        ],
+        "path_length_mm": 1.5309963566443938,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_high_salt-official_prediction\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_high_salt-official_prediction\\body-result.json",
+      "events_sha256": "b608d7bf9eef553bbe27bb6ca1390524b2ec6a1c94c9f67487f08d1a1ca77d75"
+    },
+    {
+      "seed": 491702,
+      "condition": "mouth_high_salt",
+      "profile": "LB3d_inhibitory_hypothesis",
+      "MN9_spikes": 0,
+      "feeding_max": 0.0,
+      "body_summary": {
+        "displacement_mm": [
+          0.07010990319699761,
+          0.009830122188908288,
+          -0.0776238433594485
+        ],
+        "path_length_mm": 0.20893889096895932,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "neural_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_high_salt-LB3d_inhibitory_hypothesis\\neural.npz",
+      "body_record": "data\\derived\\motor-repair-20260924\\salt-sign\\491702-mouth_high_salt-LB3d_inhibitory_hypothesis\\body-result.json",
+      "events_sha256": "b608d7bf9eef553bbe27bb6ca1390524b2ec6a1c94c9f67487f08d1a1ca77d75"
+    }
+  ]
+}

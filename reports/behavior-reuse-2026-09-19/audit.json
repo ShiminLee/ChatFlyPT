@@ -1,0 +1,1240 @@
+{
+  "complete": true,
+  "all_checks_passed": true,
+  "cases": [
+    {
+      "name": "right_foreleg_touch",
+      "raw_sha256_unchanged": true,
+      "response_sha256_unchanged": true,
+      "same_old_new_source_spikes_sha256": "d19b5cc22ae02092a4e78ea3c08055bd9a17f4c9daf7725e2c93d99f21f02755",
+      "historical_old_trajectory_exact_match": true,
+      "old_body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "MaleCNS v1.0",
+        "source_spikes_sha256": "d19b5cc22ae02092a4e78ea3c08055bd9a17f4c9daf7725e2c93d99f21f02755",
+        "source_mapping": "MaleCNS vnc_motor subclass fl/ml/hl + somaSide",
+        "motor_spikes": 2,
+        "active_motor_neurons": 2,
+        "motor_activity_in_window": true,
+        "duration_ms": 499.99999999996123,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 73,
+          "nv": 72,
+          "nu": 48,
+          "timestep_ms": 0.1,
+          "model": "NeuroMechFly simplified_max2000faces / FlatGroundWorld"
+        },
+        "controls": {
+          "reference_rate_hz": 20.0,
+          "smoothing_ms": 30.0,
+          "bin_ms": 10.0,
+          "frequency_hz": 12,
+          "passive_control": false,
+          "powered_steps": 4300,
+          "max_drive": 0.04230875961585234,
+          "max_actuator_force_model_units": 1.8315118863134652,
+          "max_force_on_zero_drive_actuators": 0.0
+        },
+        "summary": {
+          "displacement_mm": [
+            0.18986883280465805,
+            -0.0010719986552786087,
+            -1.5387649316246623
+          ],
+          "path_length_mm": 1.7594691991001563,
+          "max_contacts": 13,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "elapsed_seconds": 3.7182474000146613,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            0.18986883280465805,
+            -0.0010719986552786087,
+            -1.5387649316246623
+          ],
+          "horizontal_displacement_mm": 0.18987185903055806,
+          "yaw_change_deg": -0.5607097218798719,
+          "min_thorax_height_mm": 0.7461376188525003,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true,
+          "max_tilt_deg": 7.684244965632533,
+          "overturned_sampled": false,
+          "overturn_metric": "Sampled thorax local vertical at least 90 degrees from world vertical; not a complete fall detector"
+        },
+        "trajectory_sha256": "74b289abd372c2d82e7789582c63d923d96f4ee16187fde368df8e997e890ae7"
+      },
+      "new_body": {
+        "status": "no_motor_activity",
+        "physics_run": false,
+        "reason": "当前时间窗没有可用的非零行为指令，未生成主动动作记录。",
+        "dataset": "MaleCNS v1.0",
+        "source_spikes_sha256": "d19b5cc22ae02092a4e78ea3c08055bd9a17f4c9daf7725e2c93d99f21f02755",
+        "source_mapping": "Bad Apple Fly 13 original groups and unchanged motor_commands; type+somaSide; directly driven cells excluded",
+        "motor_spikes": 0,
+        "active_motor_neurons": 0,
+        "motor_activity_in_window": false,
+        "duration_ms": 500.0,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Bad Apple Fly Body + official FlyGym HybridTurningController; original qualitative mouth/wing/grooming programs",
+        "controls": {
+          "active_posture_hold_when_commands_zero": true,
+          "controller_local_feedback": "Official Hybrid foot height/contact and heading feedback; no feedback into the neural connectome",
+          "passive_control": false
+        },
+        "summary": {
+          "finite_state": null,
+          "physics_warnings": 0
+        },
+        "initialization": {
+          "performed": false
+        },
+        "context": "ground",
+        "geometry_asset": "/assets/neuromechfly-behavior-scene.json",
+        "source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "body_path": "vendor/badapple-fly/backend/body.py",
+          "body_sha256": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+          "evidence_path": "vendor/badapple-fly/backend/evidence.py",
+          "evidence_sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "adapter_sha256": "facd95564ce1829e1cb4387c9d7d90f8e1b88b15711e53e32f530f6891f0d5a4",
+          "reuse": "Body construction, reset, advance, _gesture and Hybrid controller are executed unchanged",
+          "adaptations": [
+            "Replay one original physics step at a time using only completed neural bins.",
+            "Export full-precision body/geom poses and separate warmup and neural timestamps.",
+            "No-command windows return no active trajectory.",
+            "Validation passive replay disables all actuator gains/biases and bypasses the motor controller after the same warmup."
+          ],
+          "license": "No root license file found in the recorded Bad Apple Fly tree. Official FlyGym model/assets: Apache-2.0."
+        },
+        "mapping_source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "file": "backend/evidence.py",
+          "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "url": "https://github.com/kevinlinxc/badapple-fly/blob/6726892e7ebd93e6c5ffab056ab8db09433c28a6/backend/evidence.py"
+        },
+        "model_variant": "badapple-fly-full-behavior",
+        "controller_id": "badapple_hybrid_v1",
+        "command_summary": {
+          "left": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "right": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "antenna": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "rub": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "anterior": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "feeding": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "song": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "escape": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "flight": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "landing": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "采用 Bad Apple Fly 的定性细胞群映射及原控制公式，增益和动作模板未经行为生理校准。",
+          "只读真实记录的 spike；直接刺激细胞已排除，不能把刺激输出细胞当作下游反应。",
+          "MaleCNS 按 type/somaSide，FlyWire 按 cell_type/side；只匹配原类型名，缺失类型或侧别不猜测补齐。",
+          "DNg12/DNg02 采用原作者明确的下划线子类型家族规则；个别子类型的动作作用未验证。",
+          "FlyWire 不含完整 VNC；同名细胞到同一动作程序的跨数据集应用仍是工程映射。",
+          "先完成神经记录再因果回放身体；没有地面接触向神经网络的感觉反馈。",
+          "行为命令不等于已发生的动作；是否运动须由实际身体仿真轨迹确定。",
+          "复用 Bad Apple Fly 原动作程序与增益；它们是定性工程映射，未经行为或肌肉生理校准。",
+          "原版零命令仍有主动姿态维持及 Hybrid 局部反馈；这种力和位移不是神经指令证据。",
+          "预热使用原版姿态执行器，预热结束另设神经回放时间零点，不计作神经响应。",
+          "身体接触和关节状态只反馈到 Hybrid 局部控制器，没有反馈到连接组神经网络。",
+          "飞行场景为显式系留：固定胸部位置姿态并挥翅；没有气动力或自由飞行。",
+          "NeuroMechFly 雌蝇几何与 MaleCNS 雄蝇连接组未做个体或性别配准。",
+          "此官方模型有 rostrum/haustellum 口器关节，没有独立 labellum 网格或关节；原程序中该名称的分支不会创建新结构。",
+          "行为命令不等于实现的动作；实际位姿来自 MuJoCo，重力和被动关节同样影响运动。"
+        ],
+        "trajectory_frames": 0
+      },
+      "completed_bin_timing": {
+        "checked": false,
+        "reason": "No physics trajectory was generated"
+      },
+      "geometry": {
+        "checked": false,
+        "reason": "No physical frames"
+      }
+    },
+    {
+      "name": "left_cold",
+      "raw_sha256_unchanged": true,
+      "response_sha256_unchanged": true,
+      "same_old_new_source_spikes_sha256": "35e7e52db19732505c68dce752a4a2c98cd5204e8b4b088035d3f42793a23aba",
+      "historical_old_trajectory_exact_match": true,
+      "old_body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "FlyWire v783",
+        "source_spikes_sha256": "35e7e52db19732505c68dce752a4a2c98cd5204e8b4b088035d3f42793a23aba",
+        "source_mapping": "FlyWire DNa01/DNa02 + side; each side shared by 3 legs",
+        "motor_spikes": 36,
+        "active_motor_neurons": 3,
+        "motor_activity_in_window": true,
+        "duration_ms": 499.99999999996123,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 73,
+          "nv": 72,
+          "nu": 48,
+          "timestep_ms": 0.1,
+          "model": "NeuroMechFly simplified_max2000faces / FlatGroundWorld"
+        },
+        "controls": {
+          "reference_rate_hz": 20.0,
+          "smoothing_ms": 30.0,
+          "bin_ms": 10.0,
+          "frequency_hz": 12,
+          "passive_control": false,
+          "powered_steps": 4000,
+          "max_drive": 0.791636129602117,
+          "max_actuator_force_model_units": 31.665445184084682,
+          "max_force_on_zero_drive_actuators": 0.0
+        },
+        "summary": {
+          "displacement_mm": [
+            1.0518007018714912,
+            -0.8546601902506473,
+            -1.6613885196189866
+          ],
+          "path_length_mm": 4.773890792146357,
+          "max_contacts": 11,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "elapsed_seconds": 3.4885267000063322,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            1.0518007018714912,
+            -0.8546601902506473,
+            -1.6613885196189866
+          ],
+          "horizontal_displacement_mm": 1.3552596641443417,
+          "yaw_change_deg": -17.020286058671495,
+          "min_thorax_height_mm": 0.5045844576373615,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true,
+          "max_tilt_deg": 65.22512165948872,
+          "overturned_sampled": false,
+          "overturn_metric": "Sampled thorax local vertical at least 90 degrees from world vertical; not a complete fall detector"
+        },
+        "trajectory_sha256": "ad80fcca4dc8c18fac7c343bf2cb8fbbd918667035d3da3cdf297acbb642e5d3"
+      },
+      "new_body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "FlyWire v783",
+        "source_spikes_sha256": "35e7e52db19732505c68dce752a4a2c98cd5204e8b4b088035d3f42793a23aba",
+        "source_mapping": "Bad Apple Fly 13 original groups and unchanged motor_commands; cell_type+side; directly driven cells excluded",
+        "motor_spikes": 91,
+        "active_motor_neurons": 6,
+        "motor_activity_in_window": true,
+        "duration_ms": 500.0,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Bad Apple Fly Body + official FlyGym HybridTurningController; original qualitative mouth/wing/grooming programs",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 88,
+          "nv": 87,
+          "nu": 63,
+          "timestep_ms": 0.1,
+          "model": "Bad Apple Fly NeuroMechFly full behavior body / FlatGroundWorld"
+        },
+        "controls": {
+          "active_posture_hold_when_commands_zero": true,
+          "controller_local_feedback": "Official Hybrid foot height/contact and heading feedback; no feedback into the neural connectome",
+          "passive_control": false,
+          "all_actuators_disabled_during_replay": false,
+          "reference_rate_hz": 100.0,
+          "smoothing_ms": 40.0,
+          "bin_ms": 20.0,
+          "powered_steps": 4000,
+          "zero_command_steps": 1000,
+          "max_actuator_force_model_units": 40.0,
+          "max_force_during_zero_commands": 40.0,
+          "neural_feedback": false,
+          "aerodynamics": false,
+          "kinematic_tether": false
+        },
+        "summary": {
+          "displacement_mm": [
+            1.4745740187914436,
+            0.1513891191165614,
+            -0.1893307313321092
+          ],
+          "path_length_mm": 2.2983333825784684,
+          "max_contacts": 14,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "initialization": {
+          "method": "Unchanged upstream Body() then Body.reset(seed, context)",
+          "constructor_warmup_ms": 50.000000000000405,
+          "constructor_state_discarded": true,
+          "warmup_ms": 50.000000000000405,
+          "warmup_active_posture_control": true,
+          "warmup_neural_commands": false,
+          "neural_time_origin_mujoco_ms": 50.000000000000405,
+          "neural_time_origin": "After the selected reset's original warmup; body.elapsed = 0",
+          "context": "ground",
+          "seed": 5900005,
+          "performed": true
+        },
+        "context": "ground",
+        "geometry_asset": "/assets/neuromechfly-behavior-scene.json",
+        "source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "body_path": "vendor/badapple-fly/backend/body.py",
+          "body_sha256": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+          "evidence_path": "vendor/badapple-fly/backend/evidence.py",
+          "evidence_sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "adapter_sha256": "facd95564ce1829e1cb4387c9d7d90f8e1b88b15711e53e32f530f6891f0d5a4",
+          "reuse": "Body construction, reset, advance, _gesture and Hybrid controller are executed unchanged",
+          "adaptations": [
+            "Replay one original physics step at a time using only completed neural bins.",
+            "Export full-precision body/geom poses and separate warmup and neural timestamps.",
+            "No-command windows return no active trajectory.",
+            "Validation passive replay disables all actuator gains/biases and bypasses the motor controller after the same warmup."
+          ],
+          "license": "No root license file found in the recorded Bad Apple Fly tree. Official FlyGym model/assets: Apache-2.0."
+        },
+        "mapping_source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "file": "backend/evidence.py",
+          "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "url": "https://github.com/kevinlinxc/badapple-fly/blob/6726892e7ebd93e6c5ffab056ab8db09433c28a6/backend/evidence.py"
+        },
+        "model_variant": "badapple-fly-full-behavior",
+        "controller_id": "badapple_hybrid_v1",
+        "command_summary": {
+          "left": {
+            "min": 0.0,
+            "max": 0.40310468157585083
+          },
+          "right": {
+            "min": 0.0,
+            "max": 0.48356215965382493
+          },
+          "antenna": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "rub": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "anterior": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "feeding": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "song": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "escape": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "flight": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "landing": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "采用 Bad Apple Fly 的定性细胞群映射及原控制公式，增益和动作模板未经行为生理校准。",
+          "只读真实记录的 spike；直接刺激细胞已排除，不能把刺激输出细胞当作下游反应。",
+          "MaleCNS 按 type/somaSide，FlyWire 按 cell_type/side；只匹配原类型名，缺失类型或侧别不猜测补齐。",
+          "DNg12/DNg02 采用原作者明确的下划线子类型家族规则；个别子类型的动作作用未验证。",
+          "FlyWire 不含完整 VNC；同名细胞到同一动作程序的跨数据集应用仍是工程映射。",
+          "先完成神经记录再因果回放身体；没有地面接触向神经网络的感觉反馈。",
+          "行为命令不等于已发生的动作；是否运动须由实际身体仿真轨迹确定。",
+          "复用 Bad Apple Fly 原动作程序与增益；它们是定性工程映射，未经行为或肌肉生理校准。",
+          "原版零命令仍有主动姿态维持及 Hybrid 局部反馈；这种力和位移不是神经指令证据。",
+          "预热使用原版姿态执行器，预热结束另设神经回放时间零点，不计作神经响应。",
+          "身体接触和关节状态只反馈到 Hybrid 局部控制器，没有反馈到连接组神经网络。",
+          "飞行场景为显式系留：固定胸部位置姿态并挥翅；没有气动力或自由飞行。",
+          "NeuroMechFly 雌蝇几何与 MaleCNS 雄蝇连接组未做个体或性别配准。",
+          "此官方模型有 rostrum/haustellum 口器关节，没有独立 labellum 网格或关节；原程序中该名称的分支不会创建新结构。",
+          "行为命令不等于实现的动作；实际位姿来自 MuJoCo，重力和被动关节同样影响运动。"
+        ],
+        "elapsed_seconds": 24.084616200008895,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            1.4745740187914436,
+            0.1513891191165614,
+            -0.1893307313321092
+          ],
+          "horizontal_displacement_mm": 1.4823249314106663,
+          "yaw_change_deg": 5.616589566795527,
+          "min_thorax_height_mm": 0.9117934358883841,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true,
+          "max_tilt_deg": 3.084672228440893,
+          "overturned_sampled": false,
+          "overturn_metric": "Sampled thorax local vertical at least 90 degrees from world vertical; not a complete fall detector"
+        },
+        "trajectory_sha256": "e76f65966bcdfaa201b3d0e5b9212abbc37683c008b4120deccfc942c8cdd155",
+        "actual_geometry": {
+          "path": "chatflypt\\web\\assets\\neuromechfly-behavior-scene.json",
+          "sha256": "8c37a825c1dcebd936d9244f8c3a0fff94cbf669bd55af323e94a78c97ccab5a",
+          "asset_top_level_keys": [
+            "schema",
+            "model_variant",
+            "units",
+            "up_axis",
+            "quaternion_order",
+            "transform_order",
+            "body_names",
+            "geoms",
+            "frame",
+            "joint_names",
+            "geom_indices",
+            "initialization",
+            "bounds_mm",
+            "ground",
+            "engine",
+            "validation",
+            "provenance"
+          ],
+          "frame_geom_count": 69,
+          "geom_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "geom_names": [
+            "fly/c_thorax",
+            "fly/c_head",
+            "fly/l_eye",
+            "fly/c_rostrum",
+            "fly/c_haustellum",
+            "fly/r_eye",
+            "fly/l_pedicel",
+            "fly/l_funiculus",
+            "fly/l_arista",
+            "fly/r_pedicel",
+            "fly/r_funiculus",
+            "fly/r_arista",
+            "fly/c_abdomen12",
+            "fly/c_abdomen3",
+            "fly/c_abdomen4",
+            "fly/c_abdomen5",
+            "fly/c_abdomen6",
+            "fly/l_wing",
+            "fly/r_wing",
+            "fly/l_haltere",
+            "fly/r_haltere",
+            "fly/lf_coxa",
+            "fly/lf_trochanterfemur",
+            "fly/lf_tibia",
+            "fly/lf_tarsus1",
+            "fly/lf_tarsus2",
+            "fly/lf_tarsus3",
+            "fly/lf_tarsus4",
+            "fly/lf_tarsus5",
+            "fly/lm_coxa",
+            "fly/lm_trochanterfemur",
+            "fly/lm_tibia",
+            "fly/lm_tarsus1",
+            "fly/lm_tarsus2",
+            "fly/lm_tarsus3",
+            "fly/lm_tarsus4",
+            "fly/lm_tarsus5",
+            "fly/lh_coxa",
+            "fly/lh_trochanterfemur",
+            "fly/lh_tibia",
+            "fly/lh_tarsus1",
+            "fly/lh_tarsus2",
+            "fly/lh_tarsus3",
+            "fly/lh_tarsus4",
+            "fly/lh_tarsus5",
+            "fly/rf_coxa",
+            "fly/rf_trochanterfemur",
+            "fly/rf_tibia",
+            "fly/rf_tarsus1",
+            "fly/rf_tarsus2",
+            "fly/rf_tarsus3",
+            "fly/rf_tarsus4",
+            "fly/rf_tarsus5",
+            "fly/rm_coxa",
+            "fly/rm_trochanterfemur",
+            "fly/rm_tibia",
+            "fly/rm_tarsus1",
+            "fly/rm_tarsus2",
+            "fly/rm_tarsus3",
+            "fly/rm_tarsus4",
+            "fly/rm_tarsus5",
+            "fly/rh_coxa",
+            "fly/rh_trochanterfemur",
+            "fly/rh_tibia",
+            "fly/rh_tarsus1",
+            "fly/rh_tarsus2",
+            "fly/rh_tarsus3",
+            "fly/rh_tarsus4",
+            "fly/rh_tarsus5"
+          ]
+        }
+      },
+      "completed_bin_timing": {
+        "checked": true,
+        "frames_checked": 51,
+        "timestep_ms": 0.1,
+        "no_future_bin_commands": true,
+        "timing_rule": "Sampled state is at integration end; its recorded command was available at or before that step's start. Initial frame has no neural command."
+      },
+      "geometry": {
+        "checked": true,
+        "asset_sha256": "8c37a825c1dcebd936d9244f8c3a0fff94cbf669bd55af323e94a78c97ccab5a",
+        "asset_path": "chatflypt\\web\\assets\\neuromechfly-behavior-scene.json",
+        "matched_body_names": 69,
+        "matched_joint_names": 81,
+        "matched_geom_names": 69,
+        "frames_checked": 51,
+        "max_geom_position_error_mm": 1.887379141862766e-15,
+        "max_geom_rotation_error": 4.85722573273506e-15,
+        "passed": true
+      }
+    },
+    {
+      "name": "left_sugar",
+      "raw_sha256_unchanged": true,
+      "response_sha256_unchanged": true,
+      "same_old_new_source_spikes_sha256": "a081dea05b7b31290001995affafb69b39887352138255141c72c3495fb62a25",
+      "historical_old_trajectory_exact_match": true,
+      "old_body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "MaleCNS v1.0",
+        "source_spikes_sha256": "a081dea05b7b31290001995affafb69b39887352138255141c72c3495fb62a25",
+        "source_mapping": "MaleCNS vnc_motor subclass fl/ml/hl + somaSide",
+        "motor_spikes": 305,
+        "active_motor_neurons": 63,
+        "motor_activity_in_window": true,
+        "duration_ms": 499.99999999996123,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 73,
+          "nv": 72,
+          "nu": 48,
+          "timestep_ms": 0.1,
+          "model": "NeuroMechFly simplified_max2000faces / FlatGroundWorld"
+        },
+        "controls": {
+          "reference_rate_hz": 20.0,
+          "smoothing_ms": 30.0,
+          "bin_ms": 10.0,
+          "frequency_hz": 12,
+          "passive_control": false,
+          "powered_steps": 3900,
+          "max_drive": 0.33850809553352745,
+          "max_actuator_force_model_units": 13.540323821341097,
+          "max_force_on_zero_drive_actuators": 0.0
+        },
+        "summary": {
+          "displacement_mm": [
+            0.4233304133777436,
+            0.01242130164425585,
+            -1.6863582187782569
+          ],
+          "path_length_mm": 2.5255175459862067,
+          "max_contacts": 11,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "elapsed_seconds": 3.498301799991168,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            0.4233304133777436,
+            0.01242130164425585,
+            -1.6863582187782569
+          ],
+          "horizontal_displacement_mm": 0.42351260621746417,
+          "yaw_change_deg": -1.2761729314032677,
+          "min_thorax_height_mm": 0.602203822656257,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true,
+          "max_tilt_deg": 7.684244965632533,
+          "overturned_sampled": false,
+          "overturn_metric": "Sampled thorax local vertical at least 90 degrees from world vertical; not a complete fall detector"
+        },
+        "trajectory_sha256": "b6e9f74e76373459c2a2e2e79b4aee3649ccd645965a8d82fce33ecb288e0752"
+      },
+      "new_body": {
+        "status": "ok",
+        "physics_run": true,
+        "dataset": "MaleCNS v1.0",
+        "source_spikes_sha256": "a081dea05b7b31290001995affafb69b39887352138255141c72c3495fb62a25",
+        "source_mapping": "Bad Apple Fly 13 original groups and unchanged motor_commands; type+somaSide; directly driven cells excluded",
+        "motor_spikes": 27,
+        "active_motor_neurons": 18,
+        "motor_activity_in_window": true,
+        "duration_ms": 500.0,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Bad Apple Fly Body + official FlyGym HybridTurningController; original qualitative mouth/wing/grooming programs",
+        "engine": {
+          "flygym": "2.1.0",
+          "mujoco": "3.9.0",
+          "nq": 88,
+          "nv": 87,
+          "nu": 63,
+          "timestep_ms": 0.1,
+          "model": "Bad Apple Fly NeuroMechFly full behavior body / FlatGroundWorld"
+        },
+        "controls": {
+          "active_posture_hold_when_commands_zero": true,
+          "controller_local_feedback": "Official Hybrid foot height/contact and heading feedback; no feedback into the neural connectome",
+          "passive_control": false,
+          "all_actuators_disabled_during_replay": false,
+          "reference_rate_hz": 100.0,
+          "smoothing_ms": 40.0,
+          "bin_ms": 20.0,
+          "powered_steps": 4000,
+          "zero_command_steps": 1000,
+          "max_actuator_force_model_units": 40.0,
+          "max_force_during_zero_commands": 40.0,
+          "neural_feedback": false,
+          "aerodynamics": false,
+          "kinematic_tether": false
+        },
+        "summary": {
+          "displacement_mm": [
+            0.1601170423348045,
+            -0.03956600114562125,
+            -0.19734979214292458
+          ],
+          "path_length_mm": 0.8884657207198048,
+          "max_contacts": 14,
+          "finite_state": true,
+          "physics_warnings": 0
+        },
+        "initialization": {
+          "method": "Unchanged upstream Body() then Body.reset(seed, context)",
+          "constructor_warmup_ms": 50.000000000000405,
+          "constructor_state_discarded": true,
+          "warmup_ms": 50.000000000000405,
+          "warmup_active_posture_control": true,
+          "warmup_neural_commands": false,
+          "neural_time_origin_mujoco_ms": 50.000000000000405,
+          "neural_time_origin": "After the selected reset's original warmup; body.elapsed = 0",
+          "context": "ground",
+          "seed": 5900001,
+          "performed": true
+        },
+        "context": "ground",
+        "geometry_asset": "/assets/neuromechfly-behavior-scene.json",
+        "source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "body_path": "vendor/badapple-fly/backend/body.py",
+          "body_sha256": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+          "evidence_path": "vendor/badapple-fly/backend/evidence.py",
+          "evidence_sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "adapter_sha256": "facd95564ce1829e1cb4387c9d7d90f8e1b88b15711e53e32f530f6891f0d5a4",
+          "reuse": "Body construction, reset, advance, _gesture and Hybrid controller are executed unchanged",
+          "adaptations": [
+            "Replay one original physics step at a time using only completed neural bins.",
+            "Export full-precision body/geom poses and separate warmup and neural timestamps.",
+            "No-command windows return no active trajectory.",
+            "Validation passive replay disables all actuator gains/biases and bypasses the motor controller after the same warmup."
+          ],
+          "license": "No root license file found in the recorded Bad Apple Fly tree. Official FlyGym model/assets: Apache-2.0."
+        },
+        "mapping_source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "file": "backend/evidence.py",
+          "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "url": "https://github.com/kevinlinxc/badapple-fly/blob/6726892e7ebd93e6c5ffab056ab8db09433c28a6/backend/evidence.py"
+        },
+        "model_variant": "badapple-fly-full-behavior",
+        "controller_id": "badapple_hybrid_v1",
+        "command_summary": {
+          "left": {
+            "min": -0.14081937582855475,
+            "max": 0.04918366753592082
+          },
+          "right": {
+            "min": -0.14081937582855475,
+            "max": 0.04918366753592082
+          },
+          "antenna": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "rub": {
+            "min": 0.0,
+            "max": 0.13115644676245553
+          },
+          "anterior": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "feeding": {
+            "min": 0.0,
+            "max": 0.25639747477898106
+          },
+          "song": {
+            "min": 0.0,
+            "max": 0.09836733507184164
+          },
+          "escape": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "flight": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "landing": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "采用 Bad Apple Fly 的定性细胞群映射及原控制公式，增益和动作模板未经行为生理校准。",
+          "只读真实记录的 spike；直接刺激细胞已排除，不能把刺激输出细胞当作下游反应。",
+          "MaleCNS 按 type/somaSide，FlyWire 按 cell_type/side；只匹配原类型名，缺失类型或侧别不猜测补齐。",
+          "DNg12/DNg02 采用原作者明确的下划线子类型家族规则；个别子类型的动作作用未验证。",
+          "FlyWire 不含完整 VNC；同名细胞到同一动作程序的跨数据集应用仍是工程映射。",
+          "先完成神经记录再因果回放身体；没有地面接触向神经网络的感觉反馈。",
+          "行为命令不等于已发生的动作；是否运动须由实际身体仿真轨迹确定。",
+          "复用 Bad Apple Fly 原动作程序与增益；它们是定性工程映射，未经行为或肌肉生理校准。",
+          "原版零命令仍有主动姿态维持及 Hybrid 局部反馈；这种力和位移不是神经指令证据。",
+          "预热使用原版姿态执行器，预热结束另设神经回放时间零点，不计作神经响应。",
+          "身体接触和关节状态只反馈到 Hybrid 局部控制器，没有反馈到连接组神经网络。",
+          "飞行场景为显式系留：固定胸部位置姿态并挥翅；没有气动力或自由飞行。",
+          "NeuroMechFly 雌蝇几何与 MaleCNS 雄蝇连接组未做个体或性别配准。",
+          "此官方模型有 rostrum/haustellum 口器关节，没有独立 labellum 网格或关节；原程序中该名称的分支不会创建新结构。",
+          "行为命令不等于实现的动作；实际位姿来自 MuJoCo，重力和被动关节同样影响运动。"
+        ],
+        "elapsed_seconds": 23.824665399995865,
+        "trajectory_frames": 51,
+        "measured": {
+          "displacement_mm": [
+            0.1601170423348045,
+            -0.03956600114562125,
+            -0.19734979214292458
+          ],
+          "horizontal_displacement_mm": 0.16493312491037354,
+          "yaw_change_deg": -0.21081545798902568,
+          "min_thorax_height_mm": 0.956569792698391,
+          "first_frame_ms": 0.0,
+          "last_frame_ms": 500.0,
+          "feet_finite": true,
+          "max_tilt_deg": 5.039068750331794,
+          "overturned_sampled": false,
+          "overturn_metric": "Sampled thorax local vertical at least 90 degrees from world vertical; not a complete fall detector"
+        },
+        "trajectory_sha256": "67649520ade80c3962e1e8877da072b231270e9c6e3c53cf4253d3e73417ad29",
+        "actual_geometry": {
+          "path": "chatflypt\\web\\assets\\neuromechfly-behavior-scene.json",
+          "sha256": "8c37a825c1dcebd936d9244f8c3a0fff94cbf669bd55af323e94a78c97ccab5a",
+          "asset_top_level_keys": [
+            "schema",
+            "model_variant",
+            "units",
+            "up_axis",
+            "quaternion_order",
+            "transform_order",
+            "body_names",
+            "geoms",
+            "frame",
+            "joint_names",
+            "geom_indices",
+            "initialization",
+            "bounds_mm",
+            "ground",
+            "engine",
+            "validation",
+            "provenance"
+          ],
+          "frame_geom_count": 69,
+          "geom_indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "geom_names": [
+            "fly/c_thorax",
+            "fly/c_head",
+            "fly/l_eye",
+            "fly/c_rostrum",
+            "fly/c_haustellum",
+            "fly/r_eye",
+            "fly/l_pedicel",
+            "fly/l_funiculus",
+            "fly/l_arista",
+            "fly/r_pedicel",
+            "fly/r_funiculus",
+            "fly/r_arista",
+            "fly/c_abdomen12",
+            "fly/c_abdomen3",
+            "fly/c_abdomen4",
+            "fly/c_abdomen5",
+            "fly/c_abdomen6",
+            "fly/l_wing",
+            "fly/r_wing",
+            "fly/l_haltere",
+            "fly/r_haltere",
+            "fly/lf_coxa",
+            "fly/lf_trochanterfemur",
+            "fly/lf_tibia",
+            "fly/lf_tarsus1",
+            "fly/lf_tarsus2",
+            "fly/lf_tarsus3",
+            "fly/lf_tarsus4",
+            "fly/lf_tarsus5",
+            "fly/lm_coxa",
+            "fly/lm_trochanterfemur",
+            "fly/lm_tibia",
+            "fly/lm_tarsus1",
+            "fly/lm_tarsus2",
+            "fly/lm_tarsus3",
+            "fly/lm_tarsus4",
+            "fly/lm_tarsus5",
+            "fly/lh_coxa",
+            "fly/lh_trochanterfemur",
+            "fly/lh_tibia",
+            "fly/lh_tarsus1",
+            "fly/lh_tarsus2",
+            "fly/lh_tarsus3",
+            "fly/lh_tarsus4",
+            "fly/lh_tarsus5",
+            "fly/rf_coxa",
+            "fly/rf_trochanterfemur",
+            "fly/rf_tibia",
+            "fly/rf_tarsus1",
+            "fly/rf_tarsus2",
+            "fly/rf_tarsus3",
+            "fly/rf_tarsus4",
+            "fly/rf_tarsus5",
+            "fly/rm_coxa",
+            "fly/rm_trochanterfemur",
+            "fly/rm_tibia",
+            "fly/rm_tarsus1",
+            "fly/rm_tarsus2",
+            "fly/rm_tarsus3",
+            "fly/rm_tarsus4",
+            "fly/rm_tarsus5",
+            "fly/rh_coxa",
+            "fly/rh_trochanterfemur",
+            "fly/rh_tibia",
+            "fly/rh_tarsus1",
+            "fly/rh_tarsus2",
+            "fly/rh_tarsus3",
+            "fly/rh_tarsus4",
+            "fly/rh_tarsus5"
+          ]
+        }
+      },
+      "completed_bin_timing": {
+        "checked": true,
+        "frames_checked": 51,
+        "timestep_ms": 0.1,
+        "no_future_bin_commands": true,
+        "timing_rule": "Sampled state is at integration end; its recorded command was available at or before that step's start. Initial frame has no neural command."
+      },
+      "geometry": {
+        "checked": true,
+        "asset_sha256": "8c37a825c1dcebd936d9244f8c3a0fff94cbf669bd55af323e94a78c97ccab5a",
+        "asset_path": "chatflypt\\web\\assets\\neuromechfly-behavior-scene.json",
+        "matched_body_names": 69,
+        "matched_joint_names": 81,
+        "matched_geom_names": 69,
+        "frames_checked": 51,
+        "max_geom_position_error_mm": 1.7763568394002505e-15,
+        "max_geom_rotation_error": 4.85722573273506e-15,
+        "passed": true
+      }
+    },
+    {
+      "name": "blank",
+      "raw_sha256_unchanged": true,
+      "response_sha256_unchanged": true,
+      "same_old_new_source_spikes_sha256": "70200482b9fe6656f215a97b71332dd6725b80e2cb32e0052a4d47916ca1579b",
+      "historical_old_trajectory_exact_match": true,
+      "old_body": {
+        "status": "no_motor_activity",
+        "physics_run": false,
+        "reason": "当前物理时间窗内没有可用于此腿控制器的运动神经驱动，未生成主动动作。",
+        "dataset": "FlyWire v783",
+        "source_spikes_sha256": "70200482b9fe6656f215a97b71332dd6725b80e2cb32e0052a4d47916ca1579b",
+        "source_mapping": "FlyWire DNa01/DNa02 + side; each side shared by 3 legs",
+        "motor_spikes": 0,
+        "active_motor_neurons": 0,
+        "motor_activity_in_window": false,
+        "duration_ms": 500.0,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Official FlyGym tripod CPG + recorded joint template; per-leg neural amplitude/gain",
+        "biologically_calibrated": false,
+        "limitations": [
+          "工程控制器，未经过果蝇行为或肌肉生理校准，不能把轨迹称为真实果蝇的预测动作。",
+          "MaleCNS 只使用 fl/ml/hl 腿运动神经元；somaSide 到同侧腿的映射是工程假设，未逐一核验肌肉末梢。",
+          "FlyWire 只使用 DNa01/DNa02 的记录活动；复制到同侧三腿是工程连接，缺少该数据集的 VNC。",
+          "步态相位、12 Hz 振荡器和关节模板来自官方 FlyGym 控制器；神经活动只调制各腿幅值与执行器增益。",
+          "神经试次先运行，身体再回放；地面接触尚未反馈进连接组，不是完整闭环。",
+          "官方 NeuroMechFly 身体源于雌蝇；MaleCNS 是雄蝇连接组，二者未做个体或性别配准。",
+          "位移同时受重力、被动关节和接触影响；位移本身不证明神经系统选择了某种行为。"
+        ],
+        "trajectory_frames": 0
+      },
+      "new_body": {
+        "status": "no_motor_activity",
+        "physics_run": false,
+        "reason": "当前时间窗没有可用的非零行为指令，未生成主动动作记录。",
+        "dataset": "FlyWire v783",
+        "source_spikes_sha256": "70200482b9fe6656f215a97b71332dd6725b80e2cb32e0052a4d47916ca1579b",
+        "source_mapping": "Bad Apple Fly 13 original groups and unchanged motor_commands; cell_type+side; directly driven cells excluded",
+        "motor_spikes": 0,
+        "active_motor_neurons": 0,
+        "motor_activity_in_window": false,
+        "duration_ms": 500.0,
+        "source_duration_ms": 500.0,
+        "truncated": false,
+        "controller": "Bad Apple Fly Body + official FlyGym HybridTurningController; original qualitative mouth/wing/grooming programs",
+        "controls": {
+          "active_posture_hold_when_commands_zero": true,
+          "controller_local_feedback": "Official Hybrid foot height/contact and heading feedback; no feedback into the neural connectome",
+          "passive_control": false
+        },
+        "summary": {
+          "finite_state": null,
+          "physics_warnings": 0
+        },
+        "initialization": {
+          "performed": false
+        },
+        "context": "ground",
+        "geometry_asset": "/assets/neuromechfly-behavior-scene.json",
+        "source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "body_path": "vendor/badapple-fly/backend/body.py",
+          "body_sha256": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+          "evidence_path": "vendor/badapple-fly/backend/evidence.py",
+          "evidence_sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "adapter_sha256": "facd95564ce1829e1cb4387c9d7d90f8e1b88b15711e53e32f530f6891f0d5a4",
+          "reuse": "Body construction, reset, advance, _gesture and Hybrid controller are executed unchanged",
+          "adaptations": [
+            "Replay one original physics step at a time using only completed neural bins.",
+            "Export full-precision body/geom poses and separate warmup and neural timestamps.",
+            "No-command windows return no active trajectory.",
+            "Validation passive replay disables all actuator gains/biases and bypasses the motor controller after the same warmup."
+          ],
+          "license": "No root license file found in the recorded Bad Apple Fly tree. Official FlyGym model/assets: Apache-2.0."
+        },
+        "mapping_source": {
+          "repository": "https://github.com/kevinlinxc/badapple-fly",
+          "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+          "file": "backend/evidence.py",
+          "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+          "url": "https://github.com/kevinlinxc/badapple-fly/blob/6726892e7ebd93e6c5ffab056ab8db09433c28a6/backend/evidence.py"
+        },
+        "model_variant": "badapple-fly-full-behavior",
+        "controller_id": "badapple_hybrid_v1",
+        "command_summary": {
+          "left": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "right": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "antenna": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "rub": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "anterior": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "feeding": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "song": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "escape": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "flight": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "landing": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        "biologically_calibrated": false,
+        "limitations": [
+          "采用 Bad Apple Fly 的定性细胞群映射及原控制公式，增益和动作模板未经行为生理校准。",
+          "只读真实记录的 spike；直接刺激细胞已排除，不能把刺激输出细胞当作下游反应。",
+          "MaleCNS 按 type/somaSide，FlyWire 按 cell_type/side；只匹配原类型名，缺失类型或侧别不猜测补齐。",
+          "DNg12/DNg02 采用原作者明确的下划线子类型家族规则；个别子类型的动作作用未验证。",
+          "FlyWire 不含完整 VNC；同名细胞到同一动作程序的跨数据集应用仍是工程映射。",
+          "先完成神经记录再因果回放身体；没有地面接触向神经网络的感觉反馈。",
+          "行为命令不等于已发生的动作；是否运动须由实际身体仿真轨迹确定。",
+          "复用 Bad Apple Fly 原动作程序与增益；它们是定性工程映射，未经行为或肌肉生理校准。",
+          "原版零命令仍有主动姿态维持及 Hybrid 局部反馈；这种力和位移不是神经指令证据。",
+          "预热使用原版姿态执行器，预热结束另设神经回放时间零点，不计作神经响应。",
+          "身体接触和关节状态只反馈到 Hybrid 局部控制器，没有反馈到连接组神经网络。",
+          "飞行场景为显式系留：固定胸部位置姿态并挥翅；没有气动力或自由飞行。",
+          "NeuroMechFly 雌蝇几何与 MaleCNS 雄蝇连接组未做个体或性别配准。",
+          "此官方模型有 rostrum/haustellum 口器关节，没有独立 labellum 网格或关节；原程序中该名称的分支不会创建新结构。",
+          "行为命令不等于实现的动作；实际位姿来自 MuJoCo，重力和被动关节同样影响运动。"
+        ],
+        "trajectory_frames": 0
+      },
+      "completed_bin_timing": {
+        "checked": false,
+        "reason": "No physics trajectory was generated"
+      },
+      "geometry": {
+        "checked": false,
+        "reason": "No physical frames"
+      }
+    }
+  ]
+}

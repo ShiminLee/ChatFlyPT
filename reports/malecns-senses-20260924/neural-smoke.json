@@ -1,0 +1,86 @@
+{
+  "scope": "Independent labeled direct-neural diagnostics; not environmental or behavioral validation.",
+  "graph_sha256": "5abc663b90d17b025d79bce663551c8575e2e48f858dd20fb68199ad6af3862c",
+  "transmitter_signs_changed": false,
+  "background_drive_added": false,
+  "tests": [
+    {
+      "channels": [
+        "mc_bright"
+      ],
+      "seed": 801927,
+      "duration_ms": 200.0,
+      "input_events": 1176,
+      "internal_spikes": 0,
+      "internal_active_cells": 0,
+      "internal_voltage_response_cells": 1292,
+      "finite_state": true,
+      "dataset": "MaleCNS v1.0",
+      "namespace": "malecns_body_id",
+      "normal_chat_acceptance": false
+    },
+    {
+      "channels": [
+        "mc_yeast"
+      ],
+      "seed": 801928,
+      "duration_ms": 200.0,
+      "input_events": 255,
+      "internal_spikes": 84441,
+      "internal_active_cells": 8102,
+      "internal_voltage_response_cells": 126304,
+      "finite_state": true,
+      "dataset": "MaleCNS v1.0",
+      "namespace": "malecns_body_id",
+      "normal_chat_acceptance": false
+    },
+    {
+      "channels": [
+        "mc_warm"
+      ],
+      "seed": 801929,
+      "duration_ms": 200.0,
+      "input_events": 55,
+      "internal_spikes": 80369,
+      "internal_active_cells": 8262,
+      "internal_voltage_response_cells": 127684,
+      "finite_state": true,
+      "dataset": "MaleCNS v1.0",
+      "namespace": "malecns_body_id",
+      "normal_chat_acceptance": false
+    },
+    {
+      "channels": [
+        "mc_cold"
+      ],
+      "seed": 801930,
+      "duration_ms": 200.0,
+      "input_events": 36,
+      "internal_spikes": 83457,
+      "internal_active_cells": 8349,
+      "internal_voltage_response_cells": 127488,
+      "finite_state": true,
+      "dataset": "MaleCNS v1.0",
+      "namespace": "malecns_body_id",
+      "normal_chat_acceptance": false
+    },
+    {
+      "channels": [
+        "mc_bright",
+        "mc_yeast",
+        "mc_warm",
+        "foreleg_touch"
+      ],
+      "seed": 801931,
+      "duration_ms": 200.0,
+      "input_events": 1691,
+      "internal_spikes": 84611,
+      "internal_active_cells": 8116,
+      "internal_voltage_response_cells": 126963,
+      "finite_state": true,
+      "dataset": "MaleCNS v1.0",
+      "namespace": "malecns_body_id",
+      "normal_chat_acceptance": false
+    }
+  ]
+}

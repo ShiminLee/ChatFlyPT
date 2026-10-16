@@ -1,0 +1,269 @@
+{
+  "message": "右转",
+  "url": "http://127.0.0.1:8766/",
+  "dialogue_record": "reports/dialogue/f4b0c0561986453b94609dea0002962f.json",
+  "primary_dataset": "MaleCNS v1.0",
+  "environment_revision": 5,
+  "environment_object_count": 8,
+  "rows": [
+    {
+      "dataset": "FlyWire v783",
+      "mode": "environment_only",
+      "direct_neural_intervention": false,
+      "reception": {
+        "requested": [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.0,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        "measured_leg_contacts": 0,
+        "contact_recorded": false,
+        "force_calibrated": false
+      },
+      "input_events": 25322,
+      "sampled": [
+        {
+          "time_ms": 0.0,
+          "items": [
+            {
+              "channel": "bright",
+              "side": "left",
+              "intensity": 0.6448767513295782,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "bright",
+              "side": "right",
+              "intensity": 0.6202188458786663,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "left",
+              "intensity": 0.07510640397648614,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "right",
+              "intensity": 0.056547970798715416,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            }
+          ]
+        },
+        {
+          "time_ms": 100.0,
+          "items": [
+            {
+              "channel": "bright",
+              "side": "left",
+              "intensity": 0.651541928719858,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "bright",
+              "side": "right",
+              "intensity": 0.6210982977517174,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "left",
+              "intensity": 0.08007134425675096,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "right",
+              "intensity": 0.059993613326423084,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            }
+          ]
+        },
+        {
+          "time_ms": 200.0,
+          "items": [
+            {
+              "channel": "bright",
+              "side": "left",
+              "intensity": 0.6516916490446072,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "bright",
+              "side": "right",
+              "intensity": 0.6220187727492287,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "left",
+              "intensity": 0.10266583735695252,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "right",
+              "intensity": 0.07978588135418038,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            }
+          ]
+        },
+        {
+          "time_ms": 300.0,
+          "items": [
+            {
+              "channel": "bright",
+              "side": "left",
+              "intensity": 0.6481600517761782,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "bright",
+              "side": "right",
+              "intensity": 0.6371050697263918,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "left",
+              "intensity": 0.14479345758423642,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "right",
+              "intensity": 0.11567613748752348,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            }
+          ]
+        },
+        {
+          "time_ms": 400.0,
+          "items": [
+            {
+              "channel": "bright",
+              "side": "left",
+              "intensity": 0.640523279190172,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "bright",
+              "side": "right",
+              "intensity": 0.6435529544588534,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "left",
+              "intensity": 0.20449442976744384,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            },
+            {
+              "channel": "yeast",
+              "side": "right",
+              "intensity": 0.16737252604021532,
+              "onset_ms": 0.0,
+              "duration_ms": 100.0
+            }
+          ]
+        }
+      ],
+      "physical_contact_frames": [],
+      "visible_probe_frames": 35,
+      "body_summary": {
+        "displacement_mm": [
+          1.5269327869466018,
+          0.19527347943412487,
+          -0.07073428797911818
+        ],
+        "path_length_mm": 2.5544810518926915,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      }
+    },
+    {
+      "dataset": "MaleCNS v1.0",
+      "mode": "environment_only",
+      "direct_neural_intervention": false,
+      "reception": {
+        "requested": [
+          {
+            "kind": "touch",
+            "side": "left",
+            "body_part": "foreleg",
+            "strength": 1.0,
+            "onset_ms": 50.0,
+            "duration_ms": 300.0
+          }
+        ],
+        "measured_leg_contacts": 0,
+        "contact_recorded": false,
+        "force_calibrated": false
+      },
+      "input_events": 0,
+      "sampled": [
+        {
+          "time_ms": 0.0,
+          "items": []
+        },
+        {
+          "time_ms": 100.0,
+          "items": []
+        },
+        {
+          "time_ms": 200.0,
+          "items": []
+        },
+        {
+          "time_ms": 300.0,
+          "items": []
+        },
+        {
+          "time_ms": 400.0,
+          "items": []
+        }
+      ],
+      "physical_contact_frames": [],
+      "visible_probe_frames": 35,
+      "body_summary": {
+        "displacement_mm": [
+          0.06758003055492257,
+          -0.046147217703179796,
+          -0.1330188812878339
+        ],
+        "path_length_mm": 0.29055706793945335,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      }
+    }
+  ],
+  "reply": "FlyWire v783：候选神经读出（连续反馈尚未校准）：我在左侧察觉到了光。我在右侧察觉到了光。",
+  "ui_console_errors": []
+}

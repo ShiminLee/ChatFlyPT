@@ -1,0 +1,271 @@
+{
+  "schema": "chatflypt.readout-coverage.v1",
+  "run_id": "conspecific-v7",
+  "windows": 216,
+  "conditions": {
+    "nudge_left_r2": 6,
+    "nudge_left_r3": 6,
+    "nudge_right_r2": 6,
+    "nudge_right_r3": 6,
+    "pheromone_follow_left_r2": 6,
+    "pheromone_follow_left_r3": 6,
+    "pheromone_follow_right_r2": 6,
+    "pheromone_follow_right_r3": 6,
+    "song_follow_left_r2": 6,
+    "song_follow_left_r3": 6,
+    "song_follow_right_r2": 6,
+    "song_follow_right_r3": 6,
+    "unilateral_cold_left_u1": 6,
+    "unilateral_cold_left_u2": 6,
+    "unilateral_cold_left_u3": 6,
+    "unilateral_cold_left_u4": 6,
+    "unilateral_cold_right_u1": 6,
+    "unilateral_cold_right_u2": 6,
+    "unilateral_cold_right_u3": 6,
+    "unilateral_cold_right_u4": 6,
+    "unilateral_heat_left_u1": 6,
+    "unilateral_heat_left_u2": 6,
+    "unilateral_heat_left_u3": 6,
+    "unilateral_heat_left_u4": 6,
+    "unilateral_heat_right_u1": 6,
+    "unilateral_heat_right_u2": 6,
+    "unilateral_heat_right_u3": 6,
+    "unilateral_heat_right_u4": 6,
+    "unilateral_yeast_left_u1": 6,
+    "unilateral_yeast_left_u2": 6,
+    "unilateral_yeast_left_u3": 6,
+    "unilateral_yeast_left_u4": 6,
+    "unilateral_yeast_right_u1": 6,
+    "unilateral_yeast_right_u2": 6,
+    "unilateral_yeast_right_u3": 6,
+    "unilateral_yeast_right_u4": 6
+  },
+  "labels": {
+    "auditory:left": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "song_follow_left_r2": 6,
+        "song_follow_left_r3": 6,
+        "song_follow_right_r2": 6,
+        "song_follow_right_r3": 6
+      }
+    },
+    "auditory:right": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "song_follow_left_r2": 6,
+        "song_follow_left_r3": 6,
+        "song_follow_right_r2": 6,
+        "song_follow_right_r3": 6
+      }
+    },
+    "bright:left": {
+      "train": 72,
+      "validation": 72,
+      "test": 72,
+      "conditions": {
+        "nudge_left_r2": 6,
+        "nudge_left_r3": 6,
+        "nudge_right_r2": 6,
+        "nudge_right_r3": 6,
+        "pheromone_follow_left_r2": 6,
+        "pheromone_follow_left_r3": 6,
+        "pheromone_follow_right_r2": 6,
+        "pheromone_follow_right_r3": 6,
+        "song_follow_left_r2": 6,
+        "song_follow_left_r3": 6,
+        "song_follow_right_r2": 6,
+        "song_follow_right_r3": 6,
+        "unilateral_cold_left_u1": 6,
+        "unilateral_cold_left_u2": 6,
+        "unilateral_cold_left_u3": 6,
+        "unilateral_cold_left_u4": 6,
+        "unilateral_cold_right_u1": 6,
+        "unilateral_cold_right_u2": 6,
+        "unilateral_cold_right_u3": 6,
+        "unilateral_cold_right_u4": 6,
+        "unilateral_heat_left_u1": 6,
+        "unilateral_heat_left_u2": 6,
+        "unilateral_heat_left_u3": 6,
+        "unilateral_heat_left_u4": 6,
+        "unilateral_heat_right_u1": 6,
+        "unilateral_heat_right_u2": 6,
+        "unilateral_heat_right_u3": 6,
+        "unilateral_heat_right_u4": 6,
+        "unilateral_yeast_left_u1": 6,
+        "unilateral_yeast_left_u2": 6,
+        "unilateral_yeast_left_u3": 6,
+        "unilateral_yeast_left_u4": 6,
+        "unilateral_yeast_right_u1": 6,
+        "unilateral_yeast_right_u2": 6,
+        "unilateral_yeast_right_u3": 6,
+        "unilateral_yeast_right_u4": 6
+      }
+    },
+    "bright:right": {
+      "train": 72,
+      "validation": 72,
+      "test": 72,
+      "conditions": {
+        "nudge_left_r2": 6,
+        "nudge_left_r3": 6,
+        "nudge_right_r2": 6,
+        "nudge_right_r3": 6,
+        "pheromone_follow_left_r2": 6,
+        "pheromone_follow_left_r3": 6,
+        "pheromone_follow_right_r2": 6,
+        "pheromone_follow_right_r3": 6,
+        "song_follow_left_r2": 6,
+        "song_follow_left_r3": 6,
+        "song_follow_right_r2": 6,
+        "song_follow_right_r3": 6,
+        "unilateral_cold_left_u1": 6,
+        "unilateral_cold_left_u2": 6,
+        "unilateral_cold_left_u3": 6,
+        "unilateral_cold_left_u4": 6,
+        "unilateral_cold_right_u1": 6,
+        "unilateral_cold_right_u2": 6,
+        "unilateral_cold_right_u3": 6,
+        "unilateral_cold_right_u4": 6,
+        "unilateral_heat_left_u1": 6,
+        "unilateral_heat_left_u2": 6,
+        "unilateral_heat_left_u3": 6,
+        "unilateral_heat_left_u4": 6,
+        "unilateral_heat_right_u1": 6,
+        "unilateral_heat_right_u2": 6,
+        "unilateral_heat_right_u3": 6,
+        "unilateral_heat_right_u4": 6,
+        "unilateral_yeast_left_u1": 6,
+        "unilateral_yeast_left_u2": 6,
+        "unilateral_yeast_left_u3": 6,
+        "unilateral_yeast_left_u4": 6,
+        "unilateral_yeast_right_u1": 6,
+        "unilateral_yeast_right_u2": 6,
+        "unilateral_yeast_right_u3": 6,
+        "unilateral_yeast_right_u4": 6
+      }
+    },
+    "cold:left": {
+      "train": 4,
+      "validation": 2,
+      "test": 2,
+      "conditions": {
+        "unilateral_cold_left_u3": 3,
+        "unilateral_cold_left_u2": 2,
+        "unilateral_cold_left_u4": 2,
+        "unilateral_cold_left_u1": 1
+      }
+    },
+    "cold:right": {
+      "train": 3,
+      "validation": 3,
+      "test": 4,
+      "conditions": {
+        "unilateral_cold_right_u2": 3,
+        "unilateral_cold_right_u3": 3,
+        "unilateral_cold_right_u4": 3,
+        "unilateral_cold_right_u1": 1
+      }
+    },
+    "cva:left": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "pheromone_follow_left_r2": 6,
+        "pheromone_follow_left_r3": 6,
+        "pheromone_follow_right_r2": 6,
+        "pheromone_follow_right_r3": 6
+      }
+    },
+    "cva:right": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "pheromone_follow_left_r2": 6,
+        "pheromone_follow_left_r3": 6,
+        "pheromone_follow_right_r2": 6,
+        "pheromone_follow_right_r3": 6
+      }
+    },
+    "foreleg_touch:left": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "nudge_right_r2": 6,
+        "nudge_right_r3": 6
+      }
+    },
+    "foreleg_touch:right": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "nudge_left_r2": 6,
+        "nudge_left_r3": 6
+      }
+    },
+    "warm:left": {
+      "train": 3,
+      "validation": 4,
+      "test": 5,
+      "conditions": {
+        "unilateral_heat_left_u1": 3,
+        "unilateral_heat_left_u3": 3,
+        "unilateral_heat_left_u4": 3,
+        "unilateral_heat_left_u2": 2,
+        "unilateral_heat_right_u4": 1
+      }
+    },
+    "warm:right": {
+      "train": 4,
+      "validation": 3,
+      "test": 6,
+      "conditions": {
+        "unilateral_heat_right_u1": 3,
+        "unilateral_heat_right_u2": 3,
+        "unilateral_heat_right_u3": 3,
+        "unilateral_heat_right_u4": 3,
+        "unilateral_heat_left_u1": 1
+      }
+    },
+    "yeast:left": {
+      "train": 4,
+      "validation": 6,
+      "test": 5,
+      "conditions": {
+        "unilateral_yeast_left_u1": 3,
+        "unilateral_yeast_left_u2": 3,
+        "unilateral_yeast_left_u3": 3,
+        "unilateral_yeast_left_u4": 3,
+        "unilateral_yeast_right_u1": 1,
+        "unilateral_yeast_right_u2": 1,
+        "unilateral_yeast_right_u4": 1
+      }
+    },
+    "yeast:right": {
+      "train": 4,
+      "validation": 5,
+      "test": 4,
+      "conditions": {
+        "unilateral_yeast_right_u1": 3,
+        "unilateral_yeast_right_u2": 3,
+        "unilateral_yeast_right_u3": 3,
+        "unilateral_yeast_right_u4": 3,
+        "unilateral_yeast_left_u1": 1
+      }
+    }
+  },
+  "notes": [
+    "Delivered means measured receptor events inside the sampled windows, not the planned scene.",
+    "A label with fewer than two positives in a split cannot pass the per-label gates there.",
+    "Labels whose channels have no presentation route (wing membrane, whole thorax, labellum) cannot appear here at all; that is a documented abstention, not missing data."
+  ],
+  "biologically_calibrated": false
+}

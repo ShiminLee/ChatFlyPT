@@ -1,0 +1,139 @@
+{
+  "cases": [
+    {
+      "context": "ground",
+      "observation_id": "45ea825e4857468e8166fb5d4451f978",
+      "seed": 81000,
+      "response_file": "reports\\general-sensory\\interactive\\45ea825e4857468e8166fb5d4451f978.json",
+      "response_sha256": "feee96fdc68305aa8242d5bafe2cb9ec85ce564fc50802d475ec0ecc22d908ac",
+      "spikes": 189076,
+      "motor_spikes": 97,
+      "frames": 51,
+      "summary": {
+        "displacement_mm": [
+          1.378859611734816,
+          0.13203539960449348,
+          -0.11215943012585394
+        ],
+        "path_length_mm": 2.2162354185465367,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.3334233584855695
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.5511142358615041
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.004684158812944841
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    {
+      "context": "tethered_flight",
+      "observation_id": "d919872880944f67b35328e307bb0e17",
+      "seed": 81001,
+      "response_file": "reports\\general-sensory\\interactive\\d919872880944f67b35328e307bb0e17.json",
+      "response_sha256": "613f0ed8a7abdd67e015f622b669f3780277aefa094bc43e7ba443daab11cf16",
+      "spikes": 189665,
+      "motor_spikes": 99,
+      "frames": 51,
+      "summary": {
+        "displacement_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "path_length_mm": 0.0,
+        "max_contacts": 0,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.22752178241275678
+        }
+      }
+    }
+  ],
+  "assertions_passed": true,
+  "browser_checks": [
+    "Chinese message form to neural response and Hybrid replay",
+    "Timeline changed from 500 ms to recorded 0 ms",
+    "Side/top view and fullscreen controls operated",
+    "Explicit tethered mode selected via experiment settings",
+    "Ground restored as next-run default"
+  ],
+  "note": "Browser tests used separate UI-generated seeds; this is not the same-record controller comparison."
+}

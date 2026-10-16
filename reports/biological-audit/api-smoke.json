@@ -1,0 +1,17 @@
+{
+  "humid": {
+    "decoded": [
+      "humid"
+    ],
+    "target_cells": 16,
+    "spikes": 124532,
+    "observation_id": "6993286d64f44283b642ba7517223d7f"
+  },
+  "left": {
+    "status": "input_prepared",
+    "proposed": true,
+    "target_cells": 100,
+    "neural_observation": null
+  },
+  "llm_configured": false
+}

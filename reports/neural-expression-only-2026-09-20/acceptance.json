@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "right_foreleg_touch",
+      "passed": true,
+      "reply": "我感到右前腿被碰到了。",
+      "observation_id": "6da75bb87cc7467ea468658613985c82",
+      "seconds": 9.979633299983107,
+      "original_neural_and_body_drive_unchanged": true,
+      "body_status": "no_motor_activity"
+    },
+    {
+      "case": "five_senses",
+      "passed": true,
+      "reply": "我察觉到了光。我尝到了甜味。我闻到了醋相关气味。我感到温暖。我闻到了酵母相关气味。",
+      "observation_id": "3bf76ab5cb2d4f4cbdbc0c79ba7201f3",
+      "seconds": 8.529827499995008,
+      "original_neural_and_body_drive_unchanged": true,
+      "body_status": "ok"
+    },
+    {
+      "case": "blank",
+      "passed": true,
+      "reply": "我这轮没有收到新的感觉信号。",
+      "observation_id": "cffbb775740f4ad0871d59fce8aae9aa",
+      "seconds": 1.630942599993432,
+      "original_neural_and_body_drive_unchanged": null,
+      "body_status": "no_motor_activity"
+    }
+  ],
+  "human_direction_translation_preserved": true,
+  "autonomous_model_action_feedback_removed": true,
+  "legacy_enabled_options_cannot_restore_adviser": true
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "chatflypt.slot-readout-protocol.v1",
+  "run_id": "conspecific-v5",
+  "features": "sqrt spikes; log1p positive/negative voltage area; normalized to 500 ms",
+  "feature_rule": "All annotated sensory classes and every registered input cell excluded",
+  "labels": [
+    "pattern:transient",
+    "pattern:sustained",
+    "activity:quiet",
+    "activity:moderate",
+    "activity:busy"
+  ],
+  "ground_truth": {
+    "pattern": "fraction of sampled windows with a delivered receptor event",
+    "activity": "non-sensory non-input spikes in the window"
+  },
+  "pattern_transient_max_fraction": 0.3,
+  "activity_quantiles": [
+    0.33,
+    0.66
+  ],
+  "thresholds_from": "Training split quantiles only, before validation/test labelling",
+  "qualification": {
+    "minimum_positive_windows": 2,
+    "minimum_negative_windows": 2,
+    "precision": 0.9,
+    "recall": 0.75
+  },
+  "threshold_grid": [
+    0.2,
+    0.8,
+    0.01
+  ],
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "explicit_non_claims": [
+    "Pattern and activity are measured properties of the receptor events and of internal activity, not emotions or intentions.",
+    "A slot that fails qualification abstains; nothing is spoken that was not decoded.",
+    "The renderer that consumes these slots may vary phrasing but may not add slots (see generative_renderer.audit_grounding)."
+  ]
+}

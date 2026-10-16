@@ -1,0 +1,662 @@
+{
+  "schema": "chatflypt.controller-sign-probe.v1",
+  "scope": "Synthetic neural drive into the unchanged pinned controller and body; engineering calibration of the command sign, not a neural experiment and not behaviour evidence.",
+  "input": "Synthetic 0.1 ms spike trains in one mapped group/side at a fixed population rate",
+  "rate_hz": 80.0,
+  "duration_ms": 500.0,
+  "reference_rate_hz": 100.0,
+  "context": "ground",
+  "repeats": 2,
+  "group_populations": {
+    "antenna/L": 2,
+    "antenna/R": 2,
+    "anterior/L": 21,
+    "anterior/R": 21,
+    "backward/L": 2,
+    "backward/R": 2,
+    "context_walk/L": 1,
+    "context_walk/R": 1,
+    "escape/L": 1,
+    "escape/R": 1,
+    "feeding/L": 1,
+    "feeding/R": 1,
+    "flight/L": 15,
+    "flight/R": 14,
+    "forward/L": 2,
+    "forward/R": 2,
+    "landing/L": 2,
+    "landing/R": 2,
+    "rub/L": 3,
+    "rub/R": 3,
+    "song/L": 1,
+    "song/R": 1,
+    "turn_inside/L": 1,
+    "turn_inside/R": 1,
+    "turn_outside/L": 1,
+    "turn_outside/R": 1
+  },
+  "mapping_source": {
+    "repository": "https://github.com/kevinlinxc/badapple-fly",
+    "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+    "file": "backend/evidence.py",
+    "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+    "url": "https://github.com/kevinlinxc/badapple-fly/blob/6726892e7ebd93e6c5ffab056ab8db09433c28a6/backend/evidence.py"
+  },
+  "source_sha256": {
+    "behavior_readout.py": "573b413f7b3fe63c331069c3a21bc5e37bac299e8e475f5010e6d54c5feeda0e",
+    "vendor/badapple-fly/backend/evidence.py": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e"
+  },
+  "records": [
+    {
+      "condition": "forward_only",
+      "repeat": 0,
+      "seed": 20261001,
+      "synthetic_spikes": 157,
+      "synthetic_cells": 4,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.687730416323501,
+      "command_right_mean": 0.687730416323501,
+      "command_left_max": 1.0239985934760754,
+      "command_right_max": 1.0239985934760754,
+      "drive_asymmetry_right_minus_left": 0.0,
+      "measured_yaw_deg": 3.478372570443156,
+      "measured_path_mm": 6.343049876624989,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_only-0\\body-result.json"
+    },
+    {
+      "condition": "forward_only",
+      "repeat": 1,
+      "seed": 20262002,
+      "synthetic_spikes": 142,
+      "synthetic_cells": 4,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.6347001912618887,
+      "command_right_mean": 0.6347001912618887,
+      "command_left_max": 1.0527791736666972,
+      "command_right_max": 1.0527791736666972,
+      "drive_asymmetry_right_minus_left": 0.0,
+      "measured_yaw_deg": 3.4694726658102013,
+      "measured_path_mm": 5.605673749470856,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_only-1\\body-result.json"
+    },
+    {
+      "condition": "forward_both_sides_plus_context",
+      "repeat": 0,
+      "seed": 20261003,
+      "synthetic_spikes": 258,
+      "synthetic_cells": 6,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "context_walk",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "context_walk",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.8470150240535581,
+      "command_right_mean": 0.8470150240535581,
+      "command_left_max": 1.1761224270426776,
+      "command_right_max": 1.1761224270426776,
+      "drive_asymmetry_right_minus_left": 0.0,
+      "measured_yaw_deg": 8.92959496964437,
+      "measured_path_mm": 7.429659923709812,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_both_sides_plus_context-0\\body-result.json"
+    },
+    {
+      "condition": "forward_both_sides_plus_context",
+      "repeat": 1,
+      "seed": 20262004,
+      "synthetic_spikes": 230,
+      "synthetic_cells": 6,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "context_walk",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "context_walk",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.8234491701737773,
+      "command_right_mean": 0.8234491701737773,
+      "command_left_max": 1.3820623710569127,
+      "command_right_max": 1.3820623710569127,
+      "drive_asymmetry_right_minus_left": 0.0,
+      "measured_yaw_deg": -5.634386358915663,
+      "measured_path_mm": 7.237058229319123,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_both_sides_plus_context-1\\body-result.json"
+    },
+    {
+      "condition": "forward_turn_inside_L",
+      "repeat": 0,
+      "seed": 20261005,
+      "synthetic_spikes": 204,
+      "synthetic_cells": 5,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "L",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.27966590328495355,
+      "command_right_mean": 0.742138338416018,
+      "command_left_max": 0.6761576888341525,
+      "command_right_max": 0.9587404047013134,
+      "drive_asymmetry_right_minus_left": 0.4624724351310644,
+      "measured_yaw_deg": 46.29541088916031,
+      "measured_path_mm": 5.054675397944156,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_turn_inside_L-0\\body-result.json"
+    },
+    {
+      "condition": "forward_turn_inside_L",
+      "repeat": 1,
+      "seed": 20262006,
+      "synthetic_spikes": 202,
+      "synthetic_cells": 5,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "L",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.4392516156874937,
+      "command_right_mean": 0.7638842837887723,
+      "command_left_max": 0.7255736651331328,
+      "command_right_max": 1.1310928609827946,
+      "drive_asymmetry_right_minus_left": 0.32463266810127855,
+      "measured_yaw_deg": 30.221433168531377,
+      "measured_path_mm": 5.468453765174765,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_turn_inside_L-1\\body-result.json"
+    },
+    {
+      "condition": "forward_turn_inside_R",
+      "repeat": 0,
+      "seed": 20261007,
+      "synthetic_spikes": 212,
+      "synthetic_cells": 5,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.7288274618450202,
+      "command_right_mean": 0.3016195012500364,
+      "command_left_max": 1.0731883259337782,
+      "command_right_max": 0.6632409375751628,
+      "drive_asymmetry_right_minus_left": -0.42720796059498384,
+      "measured_yaw_deg": -38.99027313413987,
+      "measured_path_mm": 5.2461740291894765,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_turn_inside_R-0\\body-result.json"
+    },
+    {
+      "condition": "forward_turn_inside_R",
+      "repeat": 1,
+      "seed": 20262008,
+      "synthetic_spikes": 184,
+      "synthetic_cells": 5,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.6384967172354387,
+      "command_right_mean": 0.29666517518028696,
+      "command_left_max": 1.0198461378140493,
+      "command_right_max": 0.6003278519530708,
+      "drive_asymmetry_right_minus_left": -0.3418315420551517,
+      "measured_yaw_deg": -30.758779561896745,
+      "measured_path_mm": 4.2091013958501335,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_turn_inside_R-1\\body-result.json"
+    },
+    {
+      "condition": "forward_turn_inside_both",
+      "repeat": 0,
+      "seed": 20261009,
+      "synthetic_spikes": 258,
+      "synthetic_cells": 6,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.2717597143513027,
+      "command_right_mean": 0.3757073081461446,
+      "command_left_max": 0.5944730725556648,
+      "command_right_max": 0.7318434468915509,
+      "drive_asymmetry_right_minus_left": 0.10394759379484192,
+      "measured_yaw_deg": 12.570019749600988,
+      "measured_path_mm": 2.9951678998595366,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_turn_inside_both-0\\body-result.json"
+    },
+    {
+      "condition": "forward_turn_inside_both",
+      "repeat": 1,
+      "seed": 20262010,
+      "synthetic_spikes": 233,
+      "synthetic_cells": 6,
+      "recipe": [
+        {
+          "group": "forward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "forward",
+          "side": "R",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "turn_inside",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.4460680492307624,
+      "command_right_mean": 0.44846040370221485,
+      "command_left_max": 0.8907629089431659,
+      "command_right_max": 0.7066572706845593,
+      "drive_asymmetry_right_minus_left": 0.0023923544714524736,
+      "measured_yaw_deg": -7.903257846537258,
+      "measured_path_mm": 4.148944427138081,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\forward_turn_inside_both-1\\body-result.json"
+    },
+    {
+      "condition": "turn_outside_L_only",
+      "repeat": 0,
+      "seed": 20261011,
+      "synthetic_spikes": 39,
+      "synthetic_cells": 1,
+      "recipe": [
+        {
+          "group": "turn_outside",
+          "side": "L",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.0,
+      "command_right_mean": 0.44657553114827336,
+      "command_left_max": 0.0,
+      "command_right_max": 0.7746286723666871,
+      "drive_asymmetry_right_minus_left": 0.44657553114827336,
+      "measured_yaw_deg": 29.24105456907833,
+      "measured_path_mm": 2.6236701877474107,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\turn_outside_L_only-0\\body-result.json"
+    },
+    {
+      "condition": "turn_outside_L_only",
+      "repeat": 1,
+      "seed": 20262012,
+      "synthetic_spikes": 36,
+      "synthetic_cells": 1,
+      "recipe": [
+        {
+          "group": "turn_outside",
+          "side": "L",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.0,
+      "command_right_mean": 0.3913003986094502,
+      "command_left_max": 0.0,
+      "command_right_max": 0.6751680769081105,
+      "drive_asymmetry_right_minus_left": 0.3913003986094502,
+      "measured_yaw_deg": 22.775796988082902,
+      "measured_path_mm": 2.359849491425491,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\turn_outside_L_only-1\\body-result.json"
+    },
+    {
+      "condition": "turn_outside_R_only",
+      "repeat": 0,
+      "seed": 20261013,
+      "synthetic_spikes": 37,
+      "synthetic_cells": 1,
+      "recipe": [
+        {
+          "group": "turn_outside",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.3804059136704425,
+      "command_right_mean": 0.0,
+      "command_left_max": 0.7378386591372325,
+      "command_right_max": 0.0,
+      "drive_asymmetry_right_minus_left": -0.3804059136704425,
+      "measured_yaw_deg": -27.56419452646756,
+      "measured_path_mm": 2.347920613941087,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\turn_outside_R_only-0\\body-result.json"
+    },
+    {
+      "condition": "turn_outside_R_only",
+      "repeat": 1,
+      "seed": 20262014,
+      "synthetic_spikes": 30,
+      "synthetic_cells": 1,
+      "recipe": [
+        {
+          "group": "turn_outside",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": 0.3321031617803325,
+      "command_right_mean": 0.0,
+      "command_left_max": 0.7867995475300443,
+      "command_right_max": 0.0,
+      "drive_asymmetry_right_minus_left": -0.3321031617803325,
+      "measured_yaw_deg": -22.525745172367238,
+      "measured_path_mm": 2.037603830349089,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\turn_outside_R_only-1\\body-result.json"
+    },
+    {
+      "condition": "backward_only",
+      "repeat": 0,
+      "seed": 20261015,
+      "synthetic_spikes": 160,
+      "synthetic_cells": 4,
+      "recipe": [
+        {
+          "group": "backward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "backward",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": -0.7112975637539679,
+      "command_right_mean": -0.7112975637539679,
+      "command_left_max": 0.0,
+      "command_right_max": 0.0,
+      "drive_asymmetry_right_minus_left": 0.0,
+      "measured_yaw_deg": -9.164567111053174,
+      "measured_path_mm": 6.045347121667882,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\backward_only-0\\body-result.json"
+    },
+    {
+      "condition": "backward_only",
+      "repeat": 1,
+      "seed": 20262016,
+      "synthetic_spikes": 153,
+      "synthetic_cells": 4,
+      "recipe": [
+        {
+          "group": "backward",
+          "side": "L",
+          "weight": 1.0
+        },
+        {
+          "group": "backward",
+          "side": "R",
+          "weight": 1.0
+        }
+      ],
+      "command_left_mean": -0.6944046244279355,
+      "command_right_mean": -0.6944046244279355,
+      "command_left_max": 0.0,
+      "command_right_max": 0.0,
+      "drive_asymmetry_right_minus_left": 0.0,
+      "measured_yaw_deg": 7.462948492215816,
+      "measured_path_mm": 5.711151616873023,
+      "body_status": "ok",
+      "physics_warnings": 0,
+      "body_record": "data\\derived\\command-readout\\sign-probe\\backward_only-1\\body-result.json"
+    }
+  ],
+  "summary": {
+    "forward_only": {
+      "repeats": 2,
+      "mean_command_left": 0.6612153037926949,
+      "mean_command_right": 0.6612153037926949,
+      "mean_asymmetry_right_minus_left": 0.0,
+      "mean_yaw_deg": 3.4739226181266787,
+      "yaw_deg": [
+        3.478372570443156,
+        3.4694726658102013
+      ],
+      "mean_path_mm": 5.974361813047922,
+      "sign_consistent": true
+    },
+    "forward_both_sides_plus_context": {
+      "repeats": 2,
+      "mean_command_left": 0.8352320971136677,
+      "mean_command_right": 0.8352320971136677,
+      "mean_asymmetry_right_minus_left": 0.0,
+      "mean_yaw_deg": 1.6476043053643536,
+      "yaw_deg": [
+        8.92959496964437,
+        -5.634386358915663
+      ],
+      "mean_path_mm": 7.333359076514467,
+      "sign_consistent": false
+    },
+    "forward_turn_inside_L": {
+      "repeats": 2,
+      "mean_command_left": 0.35945875948622363,
+      "mean_command_right": 0.753011311102395,
+      "mean_asymmetry_right_minus_left": 0.3935525516161715,
+      "mean_yaw_deg": 38.25842202884584,
+      "yaw_deg": [
+        46.29541088916031,
+        30.221433168531377
+      ],
+      "mean_path_mm": 5.26156458155946,
+      "sign_consistent": true
+    },
+    "forward_turn_inside_R": {
+      "repeats": 2,
+      "mean_command_left": 0.6836620895402294,
+      "mean_command_right": 0.2991423382151617,
+      "mean_asymmetry_right_minus_left": -0.38451975132506777,
+      "mean_yaw_deg": -34.87452634801831,
+      "yaw_deg": [
+        -38.99027313413987,
+        -30.758779561896745
+      ],
+      "mean_path_mm": 4.727637712519805,
+      "sign_consistent": true
+    },
+    "forward_turn_inside_both": {
+      "repeats": 2,
+      "mean_command_left": 0.35891388179103256,
+      "mean_command_right": 0.41208385592417973,
+      "mean_asymmetry_right_minus_left": 0.053169974133147196,
+      "mean_yaw_deg": 2.333380951531865,
+      "yaw_deg": [
+        12.570019749600988,
+        -7.903257846537258
+      ],
+      "mean_path_mm": 3.5720561634988086,
+      "sign_consistent": false
+    },
+    "turn_outside_L_only": {
+      "repeats": 2,
+      "mean_command_left": 0.0,
+      "mean_command_right": 0.4189379648788618,
+      "mean_asymmetry_right_minus_left": 0.4189379648788618,
+      "mean_yaw_deg": 26.008425778580616,
+      "yaw_deg": [
+        29.24105456907833,
+        22.775796988082902
+      ],
+      "mean_path_mm": 2.491759839586451,
+      "sign_consistent": true
+    },
+    "turn_outside_R_only": {
+      "repeats": 2,
+      "mean_command_left": 0.3562545377253875,
+      "mean_command_right": 0.0,
+      "mean_asymmetry_right_minus_left": -0.3562545377253875,
+      "mean_yaw_deg": -25.0449698494174,
+      "yaw_deg": [
+        -27.56419452646756,
+        -22.525745172367238
+      ],
+      "mean_path_mm": 2.192762222145088,
+      "sign_consistent": true
+    },
+    "backward_only": {
+      "repeats": 2,
+      "mean_command_left": -0.7028510940909517,
+      "mean_command_right": -0.7028510940909517,
+      "mean_asymmetry_right_minus_left": 0.0,
+      "mean_yaw_deg": -0.850809309418679,
+      "yaw_deg": [
+        -9.164567111053174,
+        7.462948492215816
+      ],
+      "mean_path_mm": 5.878249369270453,
+      "sign_consistent": false
+    }
+  },
+  "note": "turn_inside is multiplicative on the forward drive; alone it commands nothing."
+}

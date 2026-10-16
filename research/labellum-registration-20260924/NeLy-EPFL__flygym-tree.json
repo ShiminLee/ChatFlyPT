@@ -1,0 +1,2295 @@
+{
+  "repository": "NeLy-EPFL/flygym",
+  "head": "38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+  "date": "2026-06-28T23:43:47Z",
+  "tree_truncated": false,
+  "entries": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870df4ef0d0810f374e8b70488035254ac57aa65",
+      "size": 9549,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/870df4ef0d0810f374e8b70488035254ac57aa65"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ffcefa378293fb3d4905aec5d56deef57f3bda",
+      "size": 97,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/07ffcefa378293fb3d4905aec5d56deef57f3bda"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46f0c6f42bdd22a2c4716904a2ade5d17a07b6a4",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/46f0c6f42bdd22a2c4716904a2ade5d17a07b6a4"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d84fdd8f53d52792b466435349c6a58a575920d",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/1d84fdd8f53d52792b466435349c6a58a575920d"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4c456e5d794e4acba878d3534e2e639e465e5df",
+      "size": 2767,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d4c456e5d794e4acba878d3534e2e639e465e5df"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "407c15fd40c20b3a1b01d83cc267628011a8086b",
+      "size": 8735,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/407c15fd40c20b3a1b01d83cc267628011a8086b"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6324d401a069f4020efcf0ff07442724b52f47c2",
+      "size": 5,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6324d401a069f4020efcf0ff07442724b52f47c2"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf53a2e0f11d638624fcc4859643a451fd3b046",
+      "size": 586,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/abf53a2e0f11d638624fcc4859643a451fd3b046"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f9a061494f0c2a130d27b51b1ee4050d8292ea",
+      "size": 11362,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/08f9a061494f0c2a130d27b51b1ee4050d8292ea"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efdda558b26b41f6b7e988395f3a6392e0d40274",
+      "size": 4127,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/efdda558b26b41f6b7e988395f3a6392e0d40274"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa35ad2a0854ee25e355b0273e3012f324b05f0c",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/fa35ad2a0854ee25e355b0273e3012f324b05f0c"
+    },
+    {
+      "path": "docs/CNAME",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "689c07065576073ab1e6e900a79e1b61bd5bd003",
+      "size": 17,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/689c07065576073ab1e6e900a79e1b61bd5bd003"
+    },
+    {
+      "path": "docs/SUMMARY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08b3bd5342db29ec5e754dbee3fc4c5464c6f6cc",
+      "size": 3285,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/08b3bd5342db29ec5e754dbee3fc4c5464c6f6cc"
+    },
+    {
+      "path": "docs/changelog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0333d49427dc726ada3ee7941d5f9201c4b1c5cd",
+      "size": 15068,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0333d49427dc726ada3ee7941d5f9201c4b1c5cd"
+    },
+    {
+      "path": "docs/citation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb6be2e256bcf0b997922f4cf00f331e02c6aa0c",
+      "size": 2313,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/eb6be2e256bcf0b997922f4cf00f331e02c6aa0c"
+    },
+    {
+      "path": "docs/contributing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf8bc1d4060a26376eadff4f576afbb24a5e25c",
+      "size": 3959,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ccf8bc1d4060a26376eadff4f576afbb24a5e25c"
+    },
+    {
+      "path": "docs/contributors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4cd646458faa420fdbd79b771e08fa5dc1c0155",
+      "size": 1564,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b4cd646458faa420fdbd79b771e08fa5dc1c0155"
+    },
+    {
+      "path": "docs/gen_ref_pages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "854911f07d135b5d9959055833b96f668e378be5",
+      "size": 1654,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/854911f07d135b5d9959055833b96f668e378be5"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5016f72741477398996b2da4d526b6daaed3f533",
+      "size": 4970,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5016f72741477398996b2da4d526b6daaed3f533"
+    },
+    {
+      "path": "docs/installation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901145c2767968c86c514e489213ff76d0bece2a",
+      "size": 7208,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/901145c2767968c86c514e489213ff76d0bece2a"
+    },
+    {
+      "path": "docs/migration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7f78d2ee7754cdd77fb26330b2f917fd8c295f",
+      "size": 2763,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/7e7f78d2ee7754cdd77fb26330b2f917fd8c295f"
+    },
+    {
+      "path": "docs/outreach.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1791b27b5ffbcdf9b763dd5245788ec198953eb2",
+      "size": 6995,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/1791b27b5ffbcdf9b763dd5245788ec198953eb2"
+    },
+    {
+      "path": "docs/tutorials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a0a18a5ac03ad476cff54f815175d39f5e78537",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/8a0a18a5ac03ad476cff54f815175d39f5e78537"
+    },
+    {
+      "path": "docs/tutorials/6_muscle_imitation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95af556c0d8ad71f2501013959f077ee4c28ff1a",
+      "size": 11736,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/95af556c0d8ad71f2501013959f077ee4c28ff1a"
+    },
+    {
+      "path": "docs/tutorials/7_performance_profiling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e18c9cca7d352c37b659c8176fd1279168e40f34",
+      "size": 3947,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e18c9cca7d352c37b659c8176fd1279168e40f34"
+    },
+    {
+      "path": "docs/tutorials/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a467139669d98e2506a287d1f52d2bf717cb9d3b",
+      "size": 762,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a467139669d98e2506a287d1f52d2bf717cb9d3b"
+    },
+    {
+      "path": "docs/video_tutorials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a32e2daa9305a25ef1bdd3a2f6e504a0ba742e50",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/a32e2daa9305a25ef1bdd3a2f6e504a0ba742e50"
+    },
+    {
+      "path": "docs/video_tutorials/captions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "644a4cdd569fcc6357af77295e4e0fff2308a45a",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/644a4cdd569fcc6357af77295e4e0fff2308a45a"
+    },
+    {
+      "path": "docs/video_tutorials/captions/1_general_introduction.en.vtt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0dc58bd61cf2102732fc80c47c803a5c4544d1c",
+      "size": 12721,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f0dc58bd61cf2102732fc80c47c803a5c4544d1c"
+    },
+    {
+      "path": "docs/video_tutorials/captions/2_body_model.en.vtt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "542792e5c48f736b99e66761994329b55b677867",
+      "size": 6392,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/542792e5c48f736b99e66761994329b55b677867"
+    },
+    {
+      "path": "docs/video_tutorials/captions/3_installing_flygym.en.vtt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f376053871eac4d6fc33f8cef72af892096c26",
+      "size": 14484,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/58f376053871eac4d6fc33f8cef72af892096c26"
+    },
+    {
+      "path": "docs/video_tutorials/captions/4_composing_models_and_scenes.en.vtt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ade6444c73d6efeb5bc3ebc882c02e7ec0ba8c5e",
+      "size": 23764,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ade6444c73d6efeb5bc3ebc882c02e7ec0ba8c5e"
+    },
+    {
+      "path": "docs/video_tutorials/captions/5_replaying_behavior_from_experimental_recordings.en.vtt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b56711fc458086ffee3766282fdbb125fc97d64",
+      "size": 19796,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5b56711fc458086ffee3766282fdbb125fc97d64"
+    },
+    {
+      "path": "docs/video_tutorials/captions/6_gpu_accelerated_simulation.en.vtt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1dfb49029c5f8c91e8581fd7b0ffc3ceab8ac11",
+      "size": 36742,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f1dfb49029c5f8c91e8581fd7b0ffc3ceab8ac11"
+    },
+    {
+      "path": "docs/video_tutorials/captions/7_profiling_simulation_performance.en.vtt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac56c083e575d14550d03ad14aab0222cd865fbc",
+      "size": 8894,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ac56c083e575d14550d03ad14aab0222cd865fbc"
+    },
+    {
+      "path": "docs/video_tutorials/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a18fdb84e2097fcd4bcbb78da5c531556d5f41",
+      "size": 6927,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/10a18fdb84e2097fcd4bcbb78da5c531556d5f41"
+    },
+    {
+      "path": "properdocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a02a188d1f477cb983ef9787ca4c1c7c43e66388",
+      "size": 1759,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a02a188d1f477cb983ef9787ca4c1c7c43e66388"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ebac77ec81d420c26b07de42c39e8cfa69d087",
+      "size": 5623,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/67ebac77ec81d420c26b07de42c39e8cfa69d087"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d37b957daa75238750525e3842cde5a3c09827e",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/3d37b957daa75238750525e3842cde5a3c09827e"
+    },
+    {
+      "path": "scripts/dev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7951d2077c6520e9afcf9eb85b3f1c70d18121b4",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/7951d2077c6520e9afcf9eb85b3f1c70d18121b4"
+    },
+    {
+      "path": "scripts/dev/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f3066f4942a0aaa2d84caf1c05ba80adf3fa934",
+      "size": 154,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/9f3066f4942a0aaa2d84caf1c05ba80adf3fa934"
+    },
+    {
+      "path": "scripts/dev/build_wasm_game_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dafb0ee1717330f5a23db0be49f4898d830e93b",
+      "size": 18431,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/3dafb0ee1717330f5a23db0be49f4898d830e93b"
+    },
+    {
+      "path": "scripts/dev/build_wasm_viewer_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ea75f4169c0c68d3768ce55e3e2481bc909b37",
+      "size": 11808,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/19ea75f4169c0c68d3768ce55e3e2481bc909b37"
+    },
+    {
+      "path": "scripts/dev/compute_flybody_eye_cam_orientation_offset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52a6ce9ba246df3d0b33efed3c273e65c12714c",
+      "size": 7457,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a52a6ce9ba246df3d0b33efed3c273e65c12714c"
+    },
+    {
+      "path": "scripts/dev/convert_neutral_pose_from_norotation_rigging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c81f0726069e24d4bb7c351d50b2175a1335abb",
+      "size": 11458,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6c81f0726069e24d4bb7c351d50b2175a1335abb"
+    },
+    {
+      "path": "scripts/dev/convert_pose_to_all_axis_orders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59757b69b84a57a56e5106804912334e0d365db9",
+      "size": 3961,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/59757b69b84a57a56e5106804912334e0d365db9"
+    },
+    {
+      "path": "scripts/dev/gen_compound_eye.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef7df2a2e579acfa844667f3462d35a6fdbf19b",
+      "size": 6155,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/2ef7df2a2e579acfa844667f3462d35a6fdbf19b"
+    },
+    {
+      "path": "scripts/dev/gen_doc_pages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2f9a330a0cddd2b3b4c483245be09cbeb1d485f",
+      "size": 1625,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a2f9a330a0cddd2b3b4c483245be09cbeb1d485f"
+    },
+    {
+      "path": "scripts/dev/get_configs_from_flygym1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fef5b0fd36d90cc04b0d2485c92fefe9c507ef7a",
+      "size": 2380,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/fef5b0fd36d90cc04b0d2485c92fefe9c507ef7a"
+    },
+    {
+      "path": "scripts/dev/make_demo_video.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "483014480bd115c9a86574f7ba60cc99f7124566",
+      "size": 3051,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/483014480bd115c9a86574f7ba60cc99f7124566"
+    },
+    {
+      "path": "scripts/dev/plot_benchmark_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9d6a52d3fc5b26d1bbeafac1c206e10088ed78",
+      "size": 1534,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/9c9d6a52d3fc5b26d1bbeafac1c206e10088ed78"
+    },
+    {
+      "path": "scripts/dev/properdocs_hooks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a15166b288ce5e5f6b4345c465804e2706300a7",
+      "size": 4408,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6a15166b288ce5e5f6b4345c465804e2706300a7"
+    },
+    {
+      "path": "scripts/dev/push_doc_site.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27738c09ca74fec70767d15a68c896420c23c1d9",
+      "size": 2070,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/27738c09ca74fec70767d15a68c896420c23c1d9"
+    },
+    {
+      "path": "scripts/dev/run_all_notebooks.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c37b772d6acff499fef8d5b37a03d5ed39792d2",
+      "size": 1162,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5c37b772d6acff499fef8d5b37a03d5ed39792d2"
+    },
+    {
+      "path": "scripts/dev/run_gpu_benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c82531938c77d5a107dd83752df6e209dfe32b3",
+      "size": 935,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0c82531938c77d5a107dd83752df6e209dfe32b3"
+    },
+    {
+      "path": "scripts/dev/simplify_meshes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7aa28d9da7ecde94a27c9ba250dfec06e02f6c5",
+      "size": 10593,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/c7aa28d9da7ecde94a27c9ba250dfec06e02f6c5"
+    },
+    {
+      "path": "scripts/launch_flybody_interactive_viewer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a8382a3b04af52aec0b19f8dbcf9dbc2cf326c0",
+      "size": 1986,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5a8382a3b04af52aec0b19f8dbcf9dbc2cf326c0"
+    },
+    {
+      "path": "scripts/launch_interactive_viewer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee65ff898765b4e70c80d64cee978453f28d8425",
+      "size": 1779,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ee65ff898765b4e70c80d64cee978453f28d8425"
+    },
+    {
+      "path": "scripts/link_libpython_dylib_macos.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2baccdc27d7c04397ec74bcc6964df93c3ff725d",
+      "size": 1052,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/2baccdc27d7c04397ec74bcc6964df93c3ff725d"
+    },
+    {
+      "path": "scripts/replay_behavior_cpu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758198653b910f97a4c85cd358bb9ae86983ff7e",
+      "size": 20001,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/758198653b910f97a4c85cd358bb9ae86983ff7e"
+    },
+    {
+      "path": "scripts/replay_behavior_gpu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edb960bdb5ec0c5c6b1a4f5e167e033efb6b6233",
+      "size": 16209,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/edb960bdb5ec0c5c6b1a4f5e167e033efb6b6233"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd536eb22dd851d6ab36bf75e75310acdb9ee191",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/dd536eb22dd851d6ab36bf75e75310acdb9ee191"
+    },
+    {
+      "path": "src/flygym",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ba0ed0fb746c78f162e2ee9d881a4f404d1fd13",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/3ba0ed0fb746c78f162e2ee9d881a4f404d1fd13"
+    },
+    {
+      "path": "src/flygym/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9676d5ccfc8193e5bddc4e339d7e66b188b0c2d2",
+      "size": 737,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/9676d5ccfc8193e5bddc4e339d7e66b188b0c2d2"
+    },
+    {
+      "path": "src/flygym/anatomy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b4c318dd2c0ed4ad0c00ef30ad17a8ab99b62d5",
+      "size": 20311,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/7b4c318dd2c0ed4ad0c00ef30ad17a8ab99b62d5"
+    },
+    {
+      "path": "src/flygym/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bca2be41d3c32c9aeb9b0229ce05d62b665d6eb",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/3bca2be41d3c32c9aeb9b0229ce05d62b665d6eb"
+    },
+    {
+      "path": "src/flygym/assets/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87f0b7d029164085ae3484ac4ed983c185c65514",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/87f0b7d029164085ae3484ac4ed983c185c65514"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8533d8a7d29e53404abd0b6c23ef9a8ead1229a5",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/8533d8a7d29e53404abd0b6c23ef9a8ead1229a5"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/actuators.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c1a57d0304d29dd8bf276f6e32c48d30a0cbda",
+      "size": 3645,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/03c1a57d0304d29dd8bf276f6e32c48d30a0cbda"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/all_geom_suffixes.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8915187ddde28d51e2f2ab19da547d4fdf87f679",
+      "size": 1431,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/8915187ddde28d51e2f2ab19da547d4fdf87f679"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/fruitfly.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2bdb75fbf9e790d6474b246721f3aebbdd67b3f",
+      "size": 67648,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f2bdb75fbf9e790d6474b246721f3aebbdd67b3f"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/joints.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe009ee5d19902e06434980bfe966676712fa6d",
+      "size": 10695,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/dfe009ee5d19902e06434980bfe966676712fa6d"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/mujoco_globals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "548fb887955660a75b97bed6edfb6bb2f49df735",
+      "size": 520,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/548fb887955660a75b97bed6edfb6bb2f49df735"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/pose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e991be1a17e71f2e195c82e2b515c9f524299a7",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/2e991be1a17e71f2e195c82e2b515c9f524299a7"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/pose/flight",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b32803cac7ce37aee2b35fea55ed57178befa97",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/0b32803cac7ce37aee2b35fea55ed57178befa97"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/pose/flight/yaw_roll_pitch.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9c06e6a0397c8a9f703b3d646554a706029b753",
+      "size": 1576,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b9c06e6a0397c8a9f703b3d646554a706029b753"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/pose/neutral",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "733ca70b49c1dc3f6368d414f3235b4369cae989",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/733ca70b49c1dc3f6368d414f3235b4369cae989"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/pose/neutral/yaw_roll_pitch.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c3b110b5e8428d642588e7edb0a0c962814615",
+      "size": 149,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/73c3b110b5e8428d642588e7edb0a0c962814615"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/rigging.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5c1c74483703f0ff84171e3c2908c73d2a5069e",
+      "size": 23925,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b5c1c74483703f0ff84171e3c2908c73d2a5069e"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/vision.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51c641e025b2d0e3598974f8ee92c6dce19b504e",
+      "size": 856,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/51c641e025b2d0e3598974f8ee92c6dce19b504e"
+    },
+    {
+      "path": "src/flygym/assets/model/flybody/visuals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb93e5959d9a1fd29d599dfed99612015d36b3f",
+      "size": 933,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6eb93e5959d9a1fd29d599dfed99612015d36b3f"
+    },
+    {
+      "path": "src/flygym/assets/model/musculoskeletal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "611557a50be4c6c64704f974d9dede5087feeabe",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/611557a50be4c6c64704f974d9dede5087feeabe"
+    },
+    {
+      "path": "src/flygym/assets/model/musculoskeletal/best_combined_arm_damping_stiff_cvt3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb32d696aa1d91f7b52c948a3ba804bb13e86ca8",
+      "size": 49670,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/cb32d696aa1d91f7b52c948a3ba804bb13e86ca8"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cba3b18e9839e67609d43ab23c8dd69662a343b",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/4cba3b18e9839e67609d43ab23c8dd69662a343b"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/compound_eye.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf5cff34b838c393ccc4af95f1a373d3307c1c5",
+      "size": 27591,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ddf5cff34b838c393ccc4af95f1a373d3307c1c5"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/legacy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "008becffd75871ff8e47a165623d8177e59d9ff1",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/008becffd75871ff8e47a165623d8177e59d9ff1"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/legacy/flygym1_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67905c2f9dc701b3e6eb4c14ad3fab33d70d22d",
+      "size": 7217,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b67905c2f9dc701b3e6eb4c14ad3fab33d70d22d"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/legacy/flygym1_deepfly3d_rollyawpitch.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "747ed1f3800bf7d2db48bae8dea62170d00c24ff",
+      "size": 47522,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/747ed1f3800bf7d2db48bae8dea62170d00c24ff"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/legacy/flygym1_seqikpy_yawpitchroll.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe43c55ed54133e3b92fc67717c4bafd4613d8ba",
+      "size": 47518,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/fe43c55ed54133e3b92fc67717c4bafd4613d8ba"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d324037a2f9e402eb590a6029635a09d81d473a",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/8d324037a2f9e402eb590a6029635a09d81d473a"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "091f570b142360f7cc61191225cfb5c8b209b759",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/091f570b142360f7cc61191225cfb5c8b209b759"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen12.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a16a3c07054d35dde979e6e7d58e9f9ab3709cfe",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a16a3c07054d35dde979e6e7d58e9f9ab3709cfe"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eef046fc47ca8f5086f3aace946f5ccd9ade69b2",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/eef046fc47ca8f5086f3aace946f5ccd9ade69b2"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02709142afef0c1c6c9369b67212771d09e52403",
+      "size": 99984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/02709142afef0c1c6c9369b67212771d09e52403"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a914fe962890d1d002044a5657d14af820146d51",
+      "size": 99984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a914fe962890d1d002044a5657d14af820146d51"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen6.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0ffe8927eba325814f1c8e120acbf6ebc012e07",
+      "size": 99984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b0ffe8927eba325814f1c8e120acbf6ebc012e07"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_haustellum.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5760d2b021b45574c62c995b1b374e2826f2a8e0",
+      "size": 99984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5760d2b021b45574c62c995b1b374e2826f2a8e0"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_head.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dedbeb8e40a6c7541519b7ad80d63ffe1f8e51e",
+      "size": 99984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/3dedbeb8e40a6c7541519b7ad80d63ffe1f8e51e"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_rostrum.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3130611d2820821b94e3ba50070f5ded04326ac",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a3130611d2820821b94e3ba50070f5ded04326ac"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_thorax.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdd7934d06544c7baf01ce60257c05b0bce21def",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/bdd7934d06544c7baf01ce60257c05b0bce21def"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_arista.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f886e29caf204f88e5b4adaedb5d1953502df4",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d7f886e29caf204f88e5b4adaedb5d1953502df4"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_eye.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82d56fadb0cfafa8aa625577d0e93ede6dbae754",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/82d56fadb0cfafa8aa625577d0e93ede6dbae754"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_funiculus.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375cb105a9d7cc0ae0e0b2fb66f533c758a602ff",
+      "size": 26584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/375cb105a9d7cc0ae0e0b2fb66f533c758a602ff"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_haltere.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5156a9cf450f48272caf6291bfad6dccb9583ef5",
+      "size": 41284,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5156a9cf450f48272caf6291bfad6dccb9583ef5"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_pedicel.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25e240099adc2e8e3271e6dd3afd88a2ae90f4f6",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/25e240099adc2e8e3271e6dd3afd88a2ae90f4f6"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_wing.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8f9253b1f135190787ad85dfe0b6339e3ddb1bd",
+      "size": 100034,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f8f9253b1f135190787ad85dfe0b6339e3ddb1bd"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_coxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e7d4827f5ad1723c73236d3576dfac9fa41b6e",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/00e7d4827f5ad1723c73236d3576dfac9fa41b6e"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c7073a8c2cdbdded5e636844fb47dfa54fa8f6e",
+      "size": 89584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0c7073a8c2cdbdded5e636844fb47dfa54fa8f6e"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "813018b7eb9631c38c03e66201f9288705383c14",
+      "size": 89884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/813018b7eb9631c38c03e66201f9288705383c14"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed475df5bf528a3689ddb862a58c1f2fbb347f06",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ed475df5bf528a3689ddb862a58c1f2fbb347f06"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "532b5c6e9e7a50c5a2b89c8f8199509748d3441d",
+      "size": 100034,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/532b5c6e9e7a50c5a2b89c8f8199509748d3441d"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fb9e5d00acdec2e0c5c35bc043793803c409156",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/7fb9e5d00acdec2e0c5c35bc043793803c409156"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff6d9e1a606df65f90970361a4d11da985acaec",
+      "size": 85534,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/1ff6d9e1a606df65f90970361a4d11da985acaec"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_trochanterfemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c801dca70c3c82edde0a66f7755cdc372904233b",
+      "size": 80984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/c801dca70c3c82edde0a66f7755cdc372904233b"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_coxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ef4c54ca9164af6adcd4e6552c4a46a823ec60",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/93ef4c54ca9164af6adcd4e6552c4a46a823ec60"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "211cc3b30d26cdb0bcd1cab3623a2813e19ee7d2",
+      "size": 38934,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/211cc3b30d26cdb0bcd1cab3623a2813e19ee7d2"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aea81aa4748d5bfef73fbd8a452249e195a7f589",
+      "size": 98684,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/aea81aa4748d5bfef73fbd8a452249e195a7f589"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "966825869751f9e4f14250d3886c73ccec5d2bde",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/966825869751f9e4f14250d3886c73ccec5d2bde"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c908f41d185a6d4730f91f35c89e5c7e2c4892f9",
+      "size": 99984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/c908f41d185a6d4730f91f35c89e5c7e2c4892f9"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd228eda351167e8d56372f98181ceabcaac2567",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/fd228eda351167e8d56372f98181ceabcaac2567"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424a347c0aec393b782873492e426f7acfd0a300",
+      "size": 37484,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/424a347c0aec393b782873492e426f7acfd0a300"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_trochanterfemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1826ae6a147dcf781d75b3cbc7b1494798309556",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/1826ae6a147dcf781d75b3cbc7b1494798309556"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_coxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6922a511219a94d8c9f6c53f73a3cdac9d270d9f",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6922a511219a94d8c9f6c53f73a3cdac9d270d9f"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0151a57a3bb1113838882d4af13545d1f0f1f668",
+      "size": 46284,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0151a57a3bb1113838882d4af13545d1f0f1f668"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71078a5197a9afce741e3639000f1b1adafb7c6f",
+      "size": 77884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/71078a5197a9afce741e3639000f1b1adafb7c6f"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f7e1a4828f7982f98a76b541f44c0972fe82cd4",
+      "size": 92884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/7f7e1a4828f7982f98a76b541f44c0972fe82cd4"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0fd11b58e889cbb8ca35e54a50c238750b8e431",
+      "size": 100084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e0fd11b58e889cbb8ca35e54a50c238750b8e431"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e05e4870a87021e05b6417c53f390f749638bb",
+      "size": 49384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a1e05e4870a87021e05b6417c53f390f749638bb"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52502f1fc827a7ca5a944ca501730ffecf7a6721",
+      "size": 33884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/52502f1fc827a7ca5a944ca501730ffecf7a6721"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_trochanterfemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777b8c1f9286fd7844af2db1599ffa740b1a8247",
+      "size": 41384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/777b8c1f9286fd7844af2db1599ffa740b1a8247"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/simplification_metadata.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12a1329134f41a018396281c40e427333c8d8e79",
+      "size": 4098,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/12a1329134f41a018396281c40e427333c8d8e79"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/mujoco_globals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3beba5db4e88d3ce1202f83f928935f437ae1323",
+      "size": 842,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/3beba5db4e88d3ce1202f83f928935f437ae1323"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbb427451fec654e8ac255a7173dccd6c88af9e6",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/fbb427451fec654e8ac255a7173dccd6c88af9e6"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/_manual_specs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e932be7f9a0cb9375ccd0977657c3d32e02d11ab",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/e932be7f9a0cb9375ccd0977657c3d32e02d11ab"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/_manual_specs/neutral.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152b38e404d8b4233441ed4b81934fca9e53bd32",
+      "size": 1394,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/152b38e404d8b4233441ed4b81934fca9e53bd32"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/neutral",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89f957fc74c5b38c218f3e22e2d875d7055f677e",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/89f957fc74c5b38c218f3e22e2d875d7055f677e"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/neutral/pitch_roll_yaw.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae55e52e57d44f44cb52924e38f6daae3a8fffd2",
+      "size": 1191,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ae55e52e57d44f44cb52924e38f6daae3a8fffd2"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/neutral/pitch_yaw_roll.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9314a846f05065c3adbaddd90e28cd37240c2e2",
+      "size": 1188,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b9314a846f05065c3adbaddd90e28cd37240c2e2"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/neutral/roll_pitch_yaw.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0552fdb9e42ca2cb70227fb5b7f24b5ef13dcead",
+      "size": 1136,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0552fdb9e42ca2cb70227fb5b7f24b5ef13dcead"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/neutral/roll_yaw_pitch.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d5bfdcea6eaa970a6859a9877280b5d7ea0bcd8",
+      "size": 1132,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/4d5bfdcea6eaa970a6859a9877280b5d7ea0bcd8"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/neutral/yaw_pitch_roll.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63a273c34a538ee377072b6c6b84ae5be9eb7a6c",
+      "size": 1184,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/63a273c34a538ee377072b6c6b84ae5be9eb7a6c"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/pose/neutral/yaw_roll_pitch.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ff12785266d2b5be4f3b583961373296cb45e8",
+      "size": 1133,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b6ff12785266d2b5be4f3b583961373296cb45e8"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/rigging.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95da6ad5a7df97715728903581860ae1a23642f9",
+      "size": 6425,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/95da6ad5a7df97715728903581860ae1a23642f9"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/vision.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "249c2628594634a1efdcf5d95a9664d74ceb775e",
+      "size": 874,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/249c2628594634a1efdcf5d95a9664d74ceb775e"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/vision",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f099d7b48d315909cf350b65872c7db0edfa6f5",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/1f099d7b48d315909cf350b65872c7db0edfa6f5"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/vision/ommatidia_id_map.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc2bc08d227396b120970fd22c2c09fed478f596",
+      "size": 460928,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/cc2bc08d227396b120970fd22c2c09fed478f596"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/vision/pale_mask.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4187658404b35ac6a5f10fa9f9a3786b712c721b",
+      "size": 849,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/4187658404b35ac6a5f10fa9f9a3786b712c721b"
+    },
+    {
+      "path": "src/flygym/assets/model/neuromechfly/visuals.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f31b24c5f1cceccc69b9bbed6e8df222da6c0e9",
+      "size": 4566,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5f31b24c5f1cceccc69b9bbed6e8df222da6c0e9"
+    },
+    {
+      "path": "src/flygym/compose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e22250c84bff793ef9c8f5b7dc75b63179fcdc09",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/e22250c84bff793ef9c8f5b7dc75b63179fcdc09"
+    },
+    {
+      "path": "src/flygym/compose/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b252515c723826dabf5bb842c471f007a4cc3cb2",
+      "size": 1294,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b252515c723826dabf5bb842c471f007a4cc3cb2"
+    },
+    {
+      "path": "src/flygym/compose/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4c7518e8eb734aebc1dffeaff1700dbf1f989a7",
+      "size": 4206,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d4c7518e8eb734aebc1dffeaff1700dbf1f989a7"
+    },
+    {
+      "path": "src/flygym/compose/fly",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad84529ddfa1afc838e5834e5ada1556010e9c77",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/ad84529ddfa1afc838e5834e5ada1556010e9c77"
+    },
+    {
+      "path": "src/flygym/compose/fly/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8045fa036cdca1c1eb37db0f5534e30c96a7d515",
+      "size": 846,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/8045fa036cdca1c1eb37db0f5534e30c96a7d515"
+    },
+    {
+      "path": "src/flygym/compose/fly/base_fly.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d63c183ef3d067676911a2f01468f9eeecb51ba",
+      "size": 37477,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/3d63c183ef3d067676911a2f01468f9eeecb51ba"
+    },
+    {
+      "path": "src/flygym/compose/fly/flybody.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "767772879245d2415851d8d324d04a66ee2358ad",
+      "size": 40384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/767772879245d2415851d8d324d04a66ee2358ad"
+    },
+    {
+      "path": "src/flygym/compose/fly/musculoskeletal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c407434589c92bd211a99ae2c4c06f120eb202",
+      "size": 23910,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/a2c407434589c92bd211a99ae2c4c06f120eb202"
+    },
+    {
+      "path": "src/flygym/compose/fly/neuromechfly.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1659b51222020f535a27cb9add0afa14800ead74",
+      "size": 5164,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/1659b51222020f535a27cb9add0afa14800ead74"
+    },
+    {
+      "path": "src/flygym/compose/physics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1de63344c629abbe434d7033d02c987b72150785",
+      "size": 7484,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/1de63344c629abbe434d7033d02c987b72150785"
+    },
+    {
+      "path": "src/flygym/compose/pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdb0b8cd56b2d224bb16d6f89bb7b5b2bf589568",
+      "size": 6176,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/fdb0b8cd56b2d224bb16d6f89bb7b5b2bf589568"
+    },
+    {
+      "path": "src/flygym/compose/world",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07af7326f4e62cae8fd7e5b39a62312753df6b09",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/07af7326f4e62cae8fd7e5b39a62312753df6b09"
+    },
+    {
+      "path": "src/flygym/compose/world/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaec213ac29baedf6f952fb258f20ac933d98e27",
+      "size": 453,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/eaec213ac29baedf6f952fb258f20ac933d98e27"
+    },
+    {
+      "path": "src/flygym/compose/world/base_world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b2bad759c71ecac51309254b7a77e01a7be2dd",
+      "size": 15896,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/25b2bad759c71ecac51309254b7a77e01a7be2dd"
+    },
+    {
+      "path": "src/flygym/compose/world/complex_terrain.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "037cd44f86da101f74c7768cf25cc8dae9450b06",
+      "size": 9055,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/037cd44f86da101f74c7768cf25cc8dae9450b06"
+    },
+    {
+      "path": "src/flygym/compose/world/flat_ground.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5920897cd023daecbcf348fbb93ca8fb676a740",
+      "size": 1934,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b5920897cd023daecbcf348fbb93ca8fb676a740"
+    },
+    {
+      "path": "src/flygym/compose/world/musculoskeletal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891345e64b07f3868b8763aaf727b1a88fbc1552",
+      "size": 4011,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/891345e64b07f3868b8763aaf727b1a88fbc1552"
+    },
+    {
+      "path": "src/flygym/compose/world/tethered_world.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8313069e6dd5a2c117caa66c59b01457337a166c",
+      "size": 1951,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/8313069e6dd5a2c117caa66c59b01457337a166c"
+    },
+    {
+      "path": "src/flygym/flybody",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "335158eac8368b48d5c00617d6fa0f04f565e257",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/335158eac8368b48d5c00617d6fa0f04f565e257"
+    },
+    {
+      "path": "src/flygym/flybody/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c13f6bcdaa45fff3a2774ea82d80d0830f2888a",
+      "size": 180,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/7c13f6bcdaa45fff3a2774ea82d80d0830f2888a"
+    },
+    {
+      "path": "src/flygym/flybody/anatomy_flybody.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12e8f9634c96966234d416812507ff75651032c1",
+      "size": 13878,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/12e8f9634c96966234d416812507ff75651032c1"
+    },
+    {
+      "path": "src/flygym/flybody/parse_flybody.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4733d94ef22b17075489724c6b808817074d1abe",
+      "size": 30009,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/4733d94ef22b17075489724c6b808817074d1abe"
+    },
+    {
+      "path": "src/flygym/rendering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c709e3735353ea9b0f2d3c726d6cb52df2d864",
+      "size": 18968,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d8c709e3735353ea9b0f2d3c726d6cb52df2d864"
+    },
+    {
+      "path": "src/flygym/simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8565dceb17d1705145f1f321f90681aa4f99b3a",
+      "size": 31165,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d8565dceb17d1705145f1f321f90681aa4f99b3a"
+    },
+    {
+      "path": "src/flygym/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68a419357e3b4c9347b205eb25f47db50059f062",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/68a419357e3b4c9347b205eb25f47db50059f062"
+    },
+    {
+      "path": "src/flygym/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/flygym/utils/api1to2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e25f40783ca08b17b97bc2eeaa6de66958b7be1",
+      "size": 2051,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6e25f40783ca08b17b97bc2eeaa6de66958b7be1"
+    },
+    {
+      "path": "src/flygym/utils/assets_lazy_loading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bea4dc4d0db4a9a29982b82f395c2a14abb5bc3",
+      "size": 9674,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/3bea4dc4d0db4a9a29982b82f395c2a14abb5bc3"
+    },
+    {
+      "path": "src/flygym/utils/exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428977f00f106de53cfd6e3b7b9ffd6aa5a90a89",
+      "size": 145,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/428977f00f106de53cfd6e3b7b9ffd6aa5a90a89"
+    },
+    {
+      "path": "src/flygym/utils/math.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97dc092aff7058ce2d3e6f68c46d3ebd84bcb54f",
+      "size": 5734,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/97dc092aff7058ce2d3e6f68c46d3ebd84bcb54f"
+    },
+    {
+      "path": "src/flygym/utils/mjcf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8875d50f2cebd9110ea28f17269ac3f72e20140b",
+      "size": 14383,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/8875d50f2cebd9110ea28f17269ac3f72e20140b"
+    },
+    {
+      "path": "src/flygym/utils/plot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c78d6b2b314c299faf46844825c00f8157e44e",
+      "size": 617,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/17c78d6b2b314c299faf46844825c00f8157e44e"
+    },
+    {
+      "path": "src/flygym/utils/pose_conversion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e646c1dcf412505b71c8d77b6a32e2ba1bd6c99f",
+      "size": 6851,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e646c1dcf412505b71c8d77b6a32e2ba1bd6c99f"
+    },
+    {
+      "path": "src/flygym/utils/profiling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ab130a883216cc8a5f270f8b343398d5e6f2791",
+      "size": 9269,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/3ab130a883216cc8a5f270f8b343398d5e6f2791"
+    },
+    {
+      "path": "src/flygym/utils/video.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe338a654d439e0b34efa9f04c2c706da5faed7",
+      "size": 1209,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/abe338a654d439e0b34efa9f04c2c706da5faed7"
+    },
+    {
+      "path": "src/flygym/vision",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59f91b907bfe858518355ded57aaffa5ad5abd79",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/59f91b907bfe858518355ded57aaffa5ad5abd79"
+    },
+    {
+      "path": "src/flygym/vision/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/flygym/vision/retina.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24738792f7352354312cdf3237014062d7d3d746",
+      "size": 11253,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/24738792f7352354312cdf3237014062d7d3d746"
+    },
+    {
+      "path": "src/flygym/warp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcaee88f38a60868720f8ebfb5c66d98b3628977",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/bcaee88f38a60868720f8ebfb5c66d98b3628977"
+    },
+    {
+      "path": "src/flygym/warp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "427a6d78d338cb1a622054fc167605233d136d8a",
+      "size": 171,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/427a6d78d338cb1a622054fc167605233d136d8a"
+    },
+    {
+      "path": "src/flygym/warp/rendering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be88be5348b0574bc1a11260afb50cd294f79698",
+      "size": 17488,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/be88be5348b0574bc1a11260afb50cd294f79698"
+    },
+    {
+      "path": "src/flygym/warp/simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c4635171f17d8e47daa75a935e7c76b06247a9",
+      "size": 16526,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/36c4635171f17d8e47daa75a935e7c76b06247a9"
+    },
+    {
+      "path": "src/flygym/warp/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dd6253af748f32136df5fe21fa7c564e79bae23",
+      "size": 7562,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5dd6253af748f32136df5fe21fa7c564e79bae23"
+    },
+    {
+      "path": "src/flygym_demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96411399db2da6ca10a0ddb8aeb08cb1abfe4f56",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/96411399db2da6ca10a0ddb8aeb08cb1abfe4f56"
+    },
+    {
+      "path": "src/flygym_demo/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/flygym_demo/ball_flybody_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b42703e12544582400d4b6d2feb8b02b1a158e9",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/8b42703e12544582400d4b6d2feb8b02b1a158e9"
+    },
+    {
+      "path": "src/flygym_demo/ball_flybody_data/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3270b5a3164fc2f1f9519926cd761b9f885851c",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/a3270b5a3164fc2f1f9519926cd761b9f885851c"
+    },
+    {
+      "path": "src/flygym_demo/ball_flybody_data/assets/ball_flybody_clip.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "663553402bdb9d0b7ec92b861bb1a260be9b7f31",
+      "size": 19998,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/663553402bdb9d0b7ec92b861bb1a260be9b7f31"
+    },
+    {
+      "path": "src/flygym_demo/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08e7a51cff07f6fa87d51a6b0c05b8e52563408e",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/08e7a51cff07f6fa87d51a6b0c05b8e52563408e"
+    },
+    {
+      "path": "src/flygym_demo/benchmark/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fef5541045428963626a65c225e34654979b1f1",
+      "size": 344,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0fef5541045428963626a65c225e34654979b1f1"
+    },
+    {
+      "path": "src/flygym_demo/benchmark/time_gpu_simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5693bc298958ccc4ffc53b69aec71d65324de9d0",
+      "size": 6381,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/5693bc298958ccc4ffc53b69aec71d65324de9d0"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f77326a1afedde06f510711b52351c2aa13f2c96",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/f77326a1afedde06f510711b52351c2aa13f2c96"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e3838a5c7df7fcaca57dcc1078888a33951ac3b",
+      "size": 1134,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/8e3838a5c7df7fcaca57dcc1078888a33951ac3b"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b596aba6385e43be5bfab80187d5ae390ea87dd",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/4b596aba6385e43be5bfab80187d5ae390ea87dd"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/assets/flybody_step_selection.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4482d5d85c8808f70badff61532c76f2e549f21b",
+      "size": 543,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/4482d5d85c8808f70badff61532c76f2e549f21b"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/assets/single_steps_flybody.meta.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37743f10f9f06c979e504cac920370ff4c186cd1",
+      "size": 1261,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/37743f10f9f06c979e504cac920370ff4c186cd1"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/assets/single_steps_flybody.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "447d32e0676d15207eef26f214a7ff38334a9567",
+      "size": 28186,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/447d32e0676d15207eef26f214a7ff38334a9567"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/assets/single_steps_untethered.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51958a1281be192f11df9b269c15d6bdfaf37fac",
+      "size": 18024,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/51958a1281be192f11df9b269c15d6bdfaf37fac"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/build_flybody_preprogrammed_steps.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95923f50783fefd13d2f4c9a6b2a9a6af03cc65d",
+      "size": 16267,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/95923f50783fefd13d2f4c9a6b2a9a6af03cc65d"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0d9697237a5597311758f19cfb52cf2840391ef",
+      "size": 3407,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e0d9697237a5597311758f19cfb52cf2840391ef"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/cpg_controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "751348754dc7742925304e0504d346586731023f",
+      "size": 6342,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/751348754dc7742925304e0504d346586731023f"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/flybody_step_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc4b47ee98f0f6e4eb9b01253c6d96daa087a0a5",
+      "size": 18374,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/cc4b47ee98f0f6e4eb9b01253c6d96daa087a0a5"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/hybrid_controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1a4fc299e95fa97fc4bf2620c19c37bb62bd14",
+      "size": 11839,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6e1a4fc299e95fa97fc4bf2620c19c37bb62bd14"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/preprogrammed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cf7c4c1c7b86e16693d7cf7275a1b16dd325001",
+      "size": 12597,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/1cf7c4c1c7b86e16693d7cf7275a1b16dd325001"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/rule_based_controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c49a8cc4a6aa2806a5bf0e7b4b468a51a7043e",
+      "size": 6587,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d0c49a8cc4a6aa2806a5bf0e7b4b468a51a7043e"
+    },
+    {
+      "path": "src/flygym_demo/complex_terrain/turning_controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b08b6fe44174731a35cae12f374062823e755af",
+      "size": 1159,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/2b08b6fe44174731a35cae12f374062823e755af"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cbf4625dcb524f8739c239c9f0f2788c9b4597b",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/9cbf4625dcb524f8739c239c9f0f2788c9b4597b"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b36da3d6967e2db3a46bb5528fe92a5867cabf42",
+      "size": 2021,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b36da3d6967e2db3a46bb5528fe92a5867cabf42"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ffbb2ca2c7646ccfb464046c87239031cc883c",
+      "size": 5445,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/50ffbb2ca2c7646ccfb464046c87239031cc883c"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dccbad632c9f86552ee6097585f4bc3c7a95bf6",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/1dccbad632c9f86552ee6097585f4bc3c7a95bf6"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d02d0226ddbfcd5b12f5610f909bd4b53dbac9d2",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/d02d0226ddbfcd5b12f5610f909bd4b53dbac9d2"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/qpos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f8a661af3cea96787360ef3c0936eb6eb6b32cf",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/0f8a661af3cea96787360ef3c0936eb6eb6b32cf"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/qpos/0002.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42e3421cef232604a032d541a5fbd06f642b7918",
+      "size": 12728,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/42e3421cef232604a032d541a5fbd06f642b7918"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/qvel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "edd6b4efddf6fffc5e6ac89dd2dc0798aed1f8b6",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/edd6b4efddf6fffc5e6ac89dd2dc0798aed1f8b6"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/qvel/0002.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24efaac81a464ce5caafee90008fd283e4c31979",
+      "size": 12728,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/24efaac81a464ce5caafee90008fd283e4c31979"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/xipos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49a62692d7985994618d3f6137da49e1b717a4c2",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/49a62692d7985994618d3f6137da49e1b717a4c2"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/xipos/0002.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98611fcfa1ddeeea47c7fb5349fa0ee7113c9eff",
+      "size": 21728,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/98611fcfa1ddeeea47c7fb5349fa0ee7113c9eff"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/xivel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "920270056a530bace0081f333d739606733542b1",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/920270056a530bace0081f333d739606733542b1"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/assets/mocap/xivel/0002.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e4c5fa2694e58efc7f885c96a61b463f9d41d2",
+      "size": 43328,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d4e4c5fa2694e58efc7f885c96a61b463f9d41d2"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42660e1b8a3d34c518ab4f3ca9151678697ae238",
+      "size": 6621,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/42660e1b8a3d34c518ab4f3ca9151678697ae238"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74882a6b5f8982abca9c84545efe5e786a86e5d3",
+      "size": 15721,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/74882a6b5f8982abca9c84545efe5e786a86e5d3"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/fly.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b82bd076bba903fb7c879a33250e12cfaecfd58c",
+      "size": 2214,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b82bd076bba903fb7c879a33250e12cfaecfd58c"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/record.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce8e97d38fda2db47defda067606ff51ac7a4ee5",
+      "size": 3942,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ce8e97d38fda2db47defda067606ff51ac7a4ee5"
+    },
+    {
+      "path": "src/flygym_demo/muscle_imitation/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e4ddd5515b4f0e4e919ec954adbc4b88c6985ea",
+      "size": 4786,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0e4ddd5515b4f0e4e919ec954adbc4b88c6985ea"
+    },
+    {
+      "path": "src/flygym_demo/spotlight_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d3a4034489f4f1f81245474fb144342999380e2",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/4d3a4034489f4f1f81245474fb144342999380e2"
+    },
+    {
+      "path": "src/flygym_demo/spotlight_data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4e33040c145c4ccf959078003dabcfe93f575f6",
+      "size": 70,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b4e33040c145c4ccf959078003dabcfe93f575f6"
+    },
+    {
+      "path": "src/flygym_demo/spotlight_data/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cd4be6e943ead1cc33344e46218ad8fcf639717",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/0cd4be6e943ead1cc33344e46218ad8fcf639717"
+    },
+    {
+      "path": "src/flygym_demo/spotlight_data/assets/spotlight_behavior_clip.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c2bb4d2ac039423ccfda568e45ae16b2d590bcb",
+      "size": 528912,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/9c2bb4d2ac039423ccfda568e45ae16b2d590bcb"
+    },
+    {
+      "path": "src/flygym_demo/spotlight_data/preprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732b34d495f5b564594842039de53b7bd481b376",
+      "size": 5756,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/732b34d495f5b564594842039de53b7bd481b376"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "658869af35fecfc1685a34ab04a26dfc27841e86",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/658869af35fecfc1685a34ab04a26dfc27841e86"
+    },
+    {
+      "path": "tests/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccca47cc00f0ab037cbc521a2bd1b32549e75428",
+      "size": 50,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/ccca47cc00f0ab037cbc521a2bd1b32549e75428"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20f57fb85718d66fb4b7671f61159fc1d7f88e30",
+      "size": 5911,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/20f57fb85718d66fb4b7671f61159fc1d7f88e30"
+    },
+    {
+      "path": "tests/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1216a739e12ec94499271ea5b8b1132bb0f8615",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/d1216a739e12ec94499271ea5b8b1132bb0f8615"
+    },
+    {
+      "path": "tests/core/test_anatomy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c05ebff3ba95d2415d0f0320c178352029cf4b23",
+      "size": 40747,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/c05ebff3ba95d2415d0f0320c178352029cf4b23"
+    },
+    {
+      "path": "tests/core/test_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d55124973e40129e2c141e0af2a0283d84cf1230",
+      "size": 9942,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d55124973e40129e2c141e0af2a0283d84cf1230"
+    },
+    {
+      "path": "tests/core/test_compose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e70caae5213c7b5db88a8b9f8a9ea25c663d0b75",
+      "size": 36625,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e70caae5213c7b5db88a8b9f8a9ea25c663d0b75"
+    },
+    {
+      "path": "tests/core/test_musculoskeletal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80026fc92d0a45e3ada36a30e196964eb5c4344e",
+      "size": 11243,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/80026fc92d0a45e3ada36a30e196964eb5c4344e"
+    },
+    {
+      "path": "tests/core/test_packaging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1495f77419d078f0e78893c4d0a04211c1786a0",
+      "size": 7634,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f1495f77419d078f0e78893c4d0a04211c1786a0"
+    },
+    {
+      "path": "tests/core/test_parse_flybody.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a0171d2a584ba321894956bca963f716e48f72d",
+      "size": 19175,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0a0171d2a584ba321894956bca963f716e48f72d"
+    },
+    {
+      "path": "tests/core/test_physics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cba530266b72997f001d10463b3f0f67f188e52",
+      "size": 5612,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/8cba530266b72997f001d10463b3f0f67f188e52"
+    },
+    {
+      "path": "tests/core/test_pose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74c27a810f8126e4387b09523440e9f039a98ac2",
+      "size": 10737,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/74c27a810f8126e4387b09523440e9f039a98ac2"
+    },
+    {
+      "path": "tests/core/test_rendering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83e1cef90f682c4a98792df60c1380c9e307b7cd",
+      "size": 11537,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/83e1cef90f682c4a98792df60c1380c9e307b7cd"
+    },
+    {
+      "path": "tests/core/test_simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2376bc60f2b20a747f438cd43a094d27760059a0",
+      "size": 20142,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/2376bc60f2b20a747f438cd43a094d27760059a0"
+    },
+    {
+      "path": "tests/core/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41cbd57fa84a836c1bf9fc94e08c34f61e2d04fd",
+      "size": 19033,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/41cbd57fa84a836c1bf9fc94e08c34f61e2d04fd"
+    },
+    {
+      "path": "tests/core/test_vision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be01abf3669f7a60cb5efc0fbb63312f37f75164",
+      "size": 23661,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/be01abf3669f7a60cb5efc0fbb63312f37f75164"
+    },
+    {
+      "path": "tests/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18c3f41a1676daa986524e41402698317f34ed9f",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/18c3f41a1676daa986524e41402698317f34ed9f"
+    },
+    {
+      "path": "tests/examples/test_complex_terrain_locomotion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88643e97f20b726bbdb4eaac4d35baa8cbb413b2",
+      "size": 4360,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/88643e97f20b726bbdb4eaac4d35baa8cbb413b2"
+    },
+    {
+      "path": "tests/examples/test_flybody_step_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf5d9837d02377fa0e4b17fd625aeb8b26a1122b",
+      "size": 13237,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/bf5d9837d02377fa0e4b17fd625aeb8b26a1122b"
+    },
+    {
+      "path": "tests/examples/test_motion_snippet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d84594744aecbd9b8e04e0671a1ff4bfcea246ce",
+      "size": 6649,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/d84594744aecbd9b8e04e0671a1ff4bfcea246ce"
+    },
+    {
+      "path": "tests/examples/test_muscle_imitation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c900bc31776f179bdb21b4c8ca1a164d355188f1",
+      "size": 8494,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/c900bc31776f179bdb21b4c8ca1a164d355188f1"
+    },
+    {
+      "path": "tests/tutorials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a737420c0b79abe7454fe46f7d5ab50d7f03b97a",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/a737420c0b79abe7454fe46f7d5ab50d7f03b97a"
+    },
+    {
+      "path": "tests/tutorials/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10aaa4d6ccf816992d61e60851ab4ba3f56add3d",
+      "size": 2078,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/10aaa4d6ccf816992d61e60851ab4ba3f56add3d"
+    },
+    {
+      "path": "tests/tutorials/test_tutorials.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f54d4f9f1992b28ff870d7a15555e42eb00bf75",
+      "size": 1589,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0f54d4f9f1992b28ff870d7a15555e42eb00bf75"
+    },
+    {
+      "path": "tests/warp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d193603b4372006a30a78b83f1b0c2a06e3496f",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/8d193603b4372006a30a78b83f1b0c2a06e3496f"
+    },
+    {
+      "path": "tests/warp/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12760ffa1119a4cf911b4e570b043e923eaecd5",
+      "size": 2627,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b12760ffa1119a4cf911b4e570b043e923eaecd5"
+    },
+    {
+      "path": "tests/warp/test_rendering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f92c0d71b2ec2713d2b51816056dbe7c827140d8",
+      "size": 12435,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f92c0d71b2ec2713d2b51816056dbe7c827140d8"
+    },
+    {
+      "path": "tests/warp/test_simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822e86ae5341b930019d1f1a1a44aa1e1a51a7a1",
+      "size": 13466,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/822e86ae5341b930019d1f1a1a44aa1e1a51a7a1"
+    },
+    {
+      "path": "tests/warp/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4568896963afef785fb79d5c10fef9b53a1f2baf",
+      "size": 14626,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/4568896963afef785fb79d5c10fef9b53a1f2baf"
+    },
+    {
+      "path": "tutorials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c6f19d3866530530cdf53798319b701f873fa36",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/4c6f19d3866530530cdf53798319b701f873fa36"
+    },
+    {
+      "path": "tutorials/1a_basic_model_composition.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48bd9e1212b60326752d1f63a1037abb71f83dc2",
+      "size": 23562,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/48bd9e1212b60326752d1f63a1037abb71f83dc2"
+    },
+    {
+      "path": "tutorials/1b_advanced_model_composition.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "144f2986fa12ab6778651af1cf9079e385b8e192",
+      "size": 38083,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/144f2986fa12ab6778651af1cf9079e385b8e192"
+    },
+    {
+      "path": "tutorials/2_replaying_experimental_recordings.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34e68c4a612c4cfcbef718447eae252ff2032548",
+      "size": 24998,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/34e68c4a612c4cfcbef718447eae252ff2032548"
+    },
+    {
+      "path": "tutorials/3_gpu_accelerated_simulation.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5238f0557a1e08231698bf637a10766e5a2007",
+      "size": 33082,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/0e5238f0557a1e08231698bf637a10766e5a2007"
+    },
+    {
+      "path": "tutorials/4a_cpg_controller.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383c2dae7e8d4649be1c7cd3e66663d0776e0dae",
+      "size": 10498,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/383c2dae7e8d4649be1c7cd3e66663d0776e0dae"
+    },
+    {
+      "path": "tutorials/4b_rule_based_controller.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc34609728c26518c6a4ab4f99205accf32bf989",
+      "size": 15808,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/cc34609728c26518c6a4ab4f99205accf32bf989"
+    },
+    {
+      "path": "tutorials/4c_hybrid_controller.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8283bd549789b20655483f9428a6529fa10453f",
+      "size": 8392,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f8283bd549789b20655483f9428a6529fa10453f"
+    },
+    {
+      "path": "tutorials/4d_turning_controller.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16e9088101d039cc23e671efc57cc7953756a060",
+      "size": 8628,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/16e9088101d039cc23e671efc57cc7953756a060"
+    },
+    {
+      "path": "tutorials/5a_replaying_experimental_flybody_onball.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bda4cd49ac1686d53f72c3c860c8a3948fd69fc7",
+      "size": 13944,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/bda4cd49ac1686d53f72c3c860c8a3948fd69fc7"
+    },
+    {
+      "path": "tutorials/5b_using_flybody_model.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c78a8ae87bfdde657415ee57940c580c72ccf24a",
+      "size": 12897,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/c78a8ae87bfdde657415ee57940c580c72ccf24a"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f879f2d4d7c50ddd401cdcb3b34b3481ec83d24c",
+      "size": 523080,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/f879f2d4d7c50ddd401cdcb3b34b3481ec83d24c"
+    },
+    {
+      "path": "wasm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef76d47bd8f5ab9d8ac44ffb7682b9bb086b8b75",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/ef76d47bd8f5ab9d8ac44ffb7682b9bb086b8b75"
+    },
+    {
+      "path": "wasm/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "066bdbb37d3b3e0890ba7076c4df479f4b5c158b",
+      "size": 3066,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/066bdbb37d3b3e0890ba7076c4df479f4b5c158b"
+    },
+    {
+      "path": "wasm/game",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1148c976ba699f786bffd60cd9c2f3f143a173d",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/a1148c976ba699f786bffd60cd9c2f3f143a173d"
+    },
+    {
+      "path": "wasm/game/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51848d921957af9e202cb62c81ec4199cd625cf8",
+      "size": 332,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/51848d921957af9e202cb62c81ec4199cd625cf8"
+    },
+    {
+      "path": "wasm/game/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0fff383bde9e7328ccaef6a7b5193820533f10c",
+      "size": 4884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/b0fff383bde9e7328ccaef6a7b5193820533f10c"
+    },
+    {
+      "path": "wasm/game/game.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5e94b3a2432c7cd0da634d46099bd704e13c082",
+      "size": 6524,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/e5e94b3a2432c7cd0da634d46099bd704e13c082"
+    },
+    {
+      "path": "wasm/game/game.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87c6603783048d995ecf8683527e209cca613f5f",
+      "size": 29369,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/87c6603783048d995ecf8683527e209cca613f5f"
+    },
+    {
+      "path": "wasm/shared",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4c27bcaba1451bdad4843ba187503db6c4bcf96",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/c4c27bcaba1451bdad4843ba187503db6c4bcf96"
+    },
+    {
+      "path": "wasm/shared/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985159dc8d0b3ac13e63d6065df1556b8de1ead9",
+      "size": 337,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/985159dc8d0b3ac13e63d6065df1556b8de1ead9"
+    },
+    {
+      "path": "wasm/shared/scene.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8227122079cddc2bd4dfc23ee76ad7985d5437",
+      "size": 9814,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/2a8227122079cddc2bd4dfc23ee76ad7985d5437"
+    },
+    {
+      "path": "wasm/viewer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca9548a25a9dcb9ea68c08a4fd1c8c987e568a70",
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/trees/ca9548a25a9dcb9ea68c08a4fd1c8c987e568a70"
+    },
+    {
+      "path": "wasm/viewer/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6472e1c160097dd852134a057739c3d96b4b525e",
+      "size": 412,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/6472e1c160097dd852134a057739c3d96b4b525e"
+    },
+    {
+      "path": "wasm/viewer/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa749cefbc512c33995ddd2e7d102c55e5f61da7",
+      "size": 2528,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/fa749cefbc512c33995ddd2e7d102c55e5f61da7"
+    },
+    {
+      "path": "wasm/viewer/viewer.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb3ac917ca39fedc34f849ad93bb3bfa3c7f700",
+      "size": 8323,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/4eb3ac917ca39fedc34f849ad93bb3bfa3c7f700"
+    },
+    {
+      "path": "wasm/viewer/viewer.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afec802558d98b724fcc8eb5cc20a0c7af2da291",
+      "size": 25557,
+      "url": "https://api.github.com/repos/NeLy-EPFL/flygym/git/blobs/afec802558d98b724fcc8eb5cc20a0c7af2da291"
+    }
+  ]
+}

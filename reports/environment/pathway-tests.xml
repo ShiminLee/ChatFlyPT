@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="35" time="78.793" timestamp="2026-09-20T16:30:01.240155+08:00" hostname="BVVD"><testcase classname="tests.test_pathway" name="test_fresh_trial_reply_and_raw_record_have_the_same_neural_source[right]" time="48.806" /><testcase classname="tests.test_pathway" name="test_fresh_trial_reply_and_raw_record_have_the_same_neural_source[left]" time="0.060" /><testcase classname="tests.test_pathway" name="test_fresh_trial_reply_and_raw_record_have_the_same_neural_source[cva]" time="0.082" /><testcase classname="tests.test_pathway" name="test_fresh_trial_reply_and_raw_record_have_the_same_neural_source[song]" time="0.049" /><testcase classname="tests.test_pathway" name="test_fresh_trial_reply_and_raw_record_have_the_same_neural_source[five]" time="0.086" /><testcase classname="tests.test_pathway" name="test_fresh_trial_reply_and_raw_record_have_the_same_neural_source[blank]" time="0.050"><failure message="AssertionError: assert '没有收到新的感觉信号' in '本轮尚无可翻译的对外表达；发声、化学信号等输出的语义读出尚未接入。'">pathway = &lt;chatflypt.server.Application object at 0x000001C6FFEF8800&gt;
+observations = (WindowsPath('C:/Users/33927/AppData/Local/Temp/pytest-of-33927/pytest-49/pathway-records0'), {'right': {'handled': Tr...l_simulation_run': True, 'reply_source': 'expression_status', 'reply': '本轮尚无可翻译的对外表达；发声、化学信号等输出的语义读出尚未接入。', ...}, ...})
+name = 'blank'
+
+    @pytest.mark.parametrize('name', CASES)
+    def test_fresh_trial_reply_and_raw_record_have_the_same_neural_source(pathway, observations, name):
+        output, results = observations
+        result = results[name]
+        observation = result['observation']
+        brain, decoder, view = model_for(pathway, name)
+        assert result['handled'] and result['pathway']['completed']
+        assert result['pathway']['fresh_neural_trial']
+        assert result['pathway']['stages'] == [
+            'text', 'sensory_events', 'connectome_activity', 'blind_readout', 'text']
+        assert result['reply_source'] == 'expression_status'
+        assert all(o['reception']['sensation']['text']==sensation_text(o['decoded'],o['reaction']) for o in result['observations'])
+        assert result['messages']==[] and observation['expression']['text'] is None
+        assert observation['response_text'] == sensory_response_text(observation['decoded'], observation['reaction'])
+        assert observation['seed'] == CASES[name][1]
+    
+        path = output / observation['raw_record']['file']
+        assert path.is_file() and sha256(path) == observation['raw_record']['sha256']
+        with np.load(path, allow_pickle=False) as raw:
+            np.testing.assert_array_equal(raw['neuron_ids'], brain.ids)
+            counts = raw['counts']
+            # Saved counts must be recoverable from the saved spike event stream.
+            np.testing.assert_array_equal(np.bincount(raw['spike_indices'],
+                                                      minlength=len(brain.ids)), counts)
+            assert int(raw['seed']) == CASES[name][1]
+            assert float(raw['duration_ms']) == observation['duration_ms']
+            assert len(raw['spike_indices']) == len(raw['spike_steps'])
+            assert int(counts.sum()) == observation['spikes']
+            assert int(np.count_nonzero(counts)) == observation['active_neurons']
+            state = raw['state_record'] if 'state_record' in raw else None
+            decoded_again = decoder.decode(counts,state) if hasattr(decoder,'decode_trial') else decoder.decode(counts)
+            assert decoded_again['words'] == observation['decoded']['words']
+            assert decoded_again['scores'].keys() == observation['decoded']['scores'].keys()
+            np.testing.assert_allclose(list(decoded_again['scores'].values()),
+                                       list(observation['decoded']['scores'].values()),
+                                       rtol=1e-12, atol=1e-12)
+            replayed_trial = Trial(counts, raw['spike_indices'], raw['spike_steps'],
+                                   int(raw['seed']), float(raw['duration_ms']),state)
+            reaction_again = summarize_reaction(brain, replayed_trial,
+                                                raw['driven_indices'], view.rows)
+            assert reaction_again == observation['reaction']
+            assert observation['response_text'] == sensory_response_text(decoded_again, reaction_again)
+        # Actual movement is not manufactured from a sensory label or motor spikes.
+        assert observation['scene']['body']['trajectory'] == []
+        if name == 'blank':
+            assert observation['spikes'] == observation['reaction']['non_sensory_spikes'] == 0
+&gt;           assert '没有收到新的感觉信号' in result['reply']
+E           AssertionError: assert '没有收到新的感觉信号' in '本轮尚无可翻译的对外表达；发声、化学信号等输出的语义读出尚未接入。'
+
+tests\test_pathway.py:113: AssertionError</failure></testcase><testcase classname="tests.test_pathway" name="test_installed_readouts_ignore_all_sensory_and_driven_cell_counts[right]" time="0.045" /><testcase classname="tests.test_pathway" name="test_installed_readouts_ignore_all_sensory_and_driven_cell_counts[cva]" time="0.045" /><testcase classname="tests.test_pathway" name="test_unsupported_language_without_api_never_runs_a_neural_trial[\u4f60\u597d]" time="0.001" /><testcase classname="tests.test_pathway" name="test_unsupported_language_without_api_never_runs_a_neural_trial[\u4e0d\u8981\u5411\u5de6]" time="0.000" /><testcase classname="tests.test_pathway" name="test_unsupported_language_without_api_never_runs_a_neural_trial[\u5982\u679c\u89e6\u78b0\u53f3\u524d\u817f\u4f1a\u600e\u6837]" time="0.001" /><testcase classname="tests.test_pathway" name="test_unsupported_language_without_api_never_runs_a_neural_trial[\u5411\u5de6\u7136\u540e\u5411\u53f3]" time="0.165" /><testcase classname="tests.test_pathway" name="test_unsupported_language_without_api_never_runs_a_neural_trial[\u7cd6\u5c3f\u75c5]" time="0.100" /><testcase classname="tests.test_pathway" name="test_unsupported_language_without_api_never_runs_a_neural_trial[\u4e0d\u8981\u91ca\u653e\u4fe1\u606f\u7d20]" time="0.001" /><testcase classname="tests.test_pathway" name="test_unsupported_language_without_api_never_runs_a_neural_trial[\u5047\u8bbe\u64ad\u653e\u6c42\u5076\u9e23\u58f0]" time="0.001" /><testcase classname="tests.test_pathway" name="test_question_uses_selected_blind_readout_without_any_model" time="0.012" /><testcase classname="tests.test_general_pathway" name="test_cross_dataset_inputs_keep_distinct_event_and_neuron_spaces" time="26.487" /><testcase classname="tests.test_general_pathway" name="test_unmapped_stimulus_is_not_sent_to_configured_chat_api" time="0.098" /><testcase classname="tests.test_general_pathway" name="test_zero_intensity_has_no_neural_or_interpreted_response" time="0.505" /><testcase classname="tests.test_general_pathway" name="test_advanced_annotation_input_runs_without_fabricated_semantic_readout" time="0.202" /><testcase classname="tests.test_general_pathway" name="test_public_catalogue_exposes_status_without_large_id_tables" time="0.148" /><testcase classname="tests.test_general_pathway" name="test_invalid_stimulus_cannot_produce_partial_trial[items0]" time="0.001" /><testcase classname="tests.test_general_pathway" name="test_invalid_stimulus_cannot_produce_partial_trial[items1]" time="0.000" /><testcase classname="tests.test_general_pathway" name="test_invalid_stimulus_cannot_produce_partial_trial[items2]" time="0.000" /><testcase classname="tests.test_general_pathway" name="test_invalid_stimulus_cannot_produce_partial_trial[items3]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_missing_annotation_cannot_round_long_ids_or_prevent_behavior_readout" time="0.011" /><testcase classname="tests.test_behavior_integration" name="test_explicit_supported_body_contexts[ground]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_explicit_supported_body_contexts[tethered_flight]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_unsupported_body_contexts_are_rejected[free_flight]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_unsupported_body_contexts_are_rejected[None]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_unsupported_body_contexts_are_rejected[context2]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_unsupported_body_contexts_are_rejected[1]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_neural_motor_spikes_do_not_imply_successful_movement[no_motor_activity-\u672a\u5f62\u6210\u5f53\u524d\u63a7\u5236\u5668\u53ef\u7528\u7684\u52a8\u4f5c\u547d\u4ee4]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_neural_motor_spikes_do_not_imply_successful_movement[error-\u672c\u6b21\u8eab\u4f53\u4eff\u771f\u672a\u5b8c\u6210]" time="0.000" /><testcase classname="tests.test_behavior_integration" name="test_neural_motor_spikes_do_not_imply_successful_movement[timeout-\u672c\u6b21\u8eab\u4f53\u4eff\u771f\u672a\u5b8c\u6210]" time="0.000" /></testsuite></testsuites>

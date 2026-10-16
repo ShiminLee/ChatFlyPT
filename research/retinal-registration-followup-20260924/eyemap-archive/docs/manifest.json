@@ -1,0 +1,85 @@
+{
+  "datasets": [
+    {
+      "id": "eyemap_783_20240701",
+      "title": "FAFB / FlyWire (materialization 783)",
+      "source": "783",
+      "region": null,
+      "date": "2024-07-01",
+      "has_rootid": true,
+      "hemispheres": {
+        "left": {
+          "n_points": 781,
+          "files": {
+            "xlsx": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_783_20240701/pqxyztpid_left.xlsx",
+            "csv": "data/eyemap_783_20240701/left.csv",
+            "json": "data/eyemap_783_20240701/left.json"
+          }
+        },
+        "right": {
+          "n_points": 794,
+          "files": {
+            "xlsx": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_783_20240701/pqxyztpid_right.xlsx",
+            "csv": "data/eyemap_783_20240701/right.csv",
+            "json": "data/eyemap_783_20240701/right.json"
+          }
+        }
+      },
+      "rda_file": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_783_20240701/lens_med.rda"
+    },
+    {
+      "id": "eyemap_DRA_mcns_f20240701",
+      "title": "male CNS (maleCNS) \u2014 Dorsal Rim Area (DRA)",
+      "source": "mcns",
+      "region": "DRA",
+      "date": "2024-07-01",
+      "has_rootid": false,
+      "hemispheres": {
+        "left": {
+          "n_points": 828,
+          "files": {
+            "xlsx": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_DRA_mcns_f20240701/pqxyztp_left.xlsx",
+            "csv": "data/eyemap_DRA_mcns_f20240701/left.csv",
+            "json": "data/eyemap_DRA_mcns_f20240701/left.json"
+          }
+        },
+        "right": {
+          "n_points": 846,
+          "files": {
+            "xlsx": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_DRA_mcns_f20240701/pqxyztp_right.xlsx",
+            "csv": "data/eyemap_DRA_mcns_f20240701/right.csv",
+            "json": "data/eyemap_DRA_mcns_f20240701/right.json"
+          }
+        }
+      },
+      "rda_file": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_DRA_mcns_f20240701/lens_med.rda"
+    },
+    {
+      "id": "eyemap_mcns_f20240701",
+      "title": "male CNS (maleCNS)",
+      "source": "mcns",
+      "region": null,
+      "date": "2024-07-01",
+      "has_rootid": false,
+      "hemispheres": {
+        "left": {
+          "n_points": 850,
+          "files": {
+            "xlsx": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_mcns_f20240701/pqxyztp_left.xlsx",
+            "csv": "data/eyemap_mcns_f20240701/left.csv",
+            "json": "data/eyemap_mcns_f20240701/left.json"
+          }
+        },
+        "right": {
+          "n_points": 846,
+          "files": {
+            "xlsx": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_mcns_f20240701/pqxyztp_right.xlsx",
+            "csv": "data/eyemap_mcns_f20240701/right.csv",
+            "json": "data/eyemap_mcns_f20240701/right.json"
+          }
+        }
+      },
+      "rda_file": "https://raw.githubusercontent.com/artxz/eyemap-archive/main/maps/eyemap_mcns_f20240701/lens_med.rda"
+    }
+  ]
+}

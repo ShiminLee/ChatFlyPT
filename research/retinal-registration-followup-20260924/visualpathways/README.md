@@ -1,0 +1,15 @@
+# Visual Pathways Analysis
+
+This repository contains analysis code and companion resources for studying visual pathways in the *Drosophila* Male CNS connectome ([Janelia FlyEM](https://neuprint-cns.janelia.org/?dataset=cns&qt=findneurons)).
+
+The corresponding preprint is [The organization of visual pathways in the *Drosophila* brain](https://www.biorxiv.org/content/10.64898/2025.12.22.696097v2.abstract).
+
+## Interactive Resources
+
+- Interactive HTML figures are available through the [GitHub Pages figure browser](https://reiserlab.github.io/visualpathways/results/html_figures/).
+
+- [Visual Central Brain Neuron gallery](https://reiserlab.github.io/visualpathways/gallery_vcbn/): a browsable cell-type-level gallery for predicted Visual Central Brain Neurons (VCBNs). Each page summarizes cell count, predicted neurotransmitter, VCBN pathway class, median layer, median Visual Input Contribution (VIC), median alpha-hull size, visual-input barcode, pathway summary, anterior-view morphology, and predicted anatomical receptive field (ARF). Use this resource to inspect individual VCBN predictions and generate hypotheses about upstream visual inputs and spatial sampling.
+
+- [Visual Projection Neuron gallery](https://reiserlab.github.io/visualpathways/gallery_vpn/): a browsable cell-type-level gallery for predicted Visual Projection Neurons (VPNs). Each page shows the cell-type instance (right side optic lobe), neuron count, and the visual pathway class (oc); an anterior view morphology rendering for a representative neuron; the visual-input barcode and visual pathway summary, annotated with displayed fraction f, median VIC, and median layer; and the predicted ARF with center of mass, 1-SD Gaussian ellipses, median ellipse size, median α-hull size, and effective-weight scale. Note that each pathway diagram shows the strongest 5 paths from visual input cell types to the VPN, and the fraction of displayed paths f is computed as the ratio between the total effective weight along the selected paths and the total effective weight along all paths. The representative neuron’s ellipse is shown with a thicker outline, and its α-hull is shown in black. The lower panels follow the formatting of Fig. 5g, showing maximum-VIC projection for the VPN’s presynapses and for neurons one and two hops downstream, with the number of cells included in the map. Listed downstream cell types identify the strongest targets, ranked by their input-normalized weight contributed by the VPN. This gallery provides a cell-type-level reference for inspecting VPN visual inputs, predicted spatial sampling, and downstream propagation into the central brain.
+
+- [Interactive Fig. 6c Neuroglancer view](https://neuroglancer-demo.appspot.com/#!gs://flyem-male-cns/auxiliary-data/retinotopy-tbars/retinotopy-tbars.json): an interactive companion to the Fig. 6c visualization. The view shows retinotopy-annotated presynaptic sites (T-bars), enabling inspection of the synaptic locations and retinotopic coordinates used to map spatial visual information across the central brain. Use the Neuroglancer layer, `ME(R)-columns-r-theta`, as a color reference.

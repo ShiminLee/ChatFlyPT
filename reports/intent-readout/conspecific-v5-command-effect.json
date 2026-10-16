@@ -1,0 +1,211 @@
+{
+  "schema": "chatflypt.command-effect-audit.v1",
+  "run_id": "conspecific-v5",
+  "by_command_type": {
+    "both": {
+      "windows": 77,
+      "median_yaw_deg": -0.12574130585440457,
+      "mean_yaw_deg": 0.14261572632088987,
+      "std_yaw_deg": 3.2430404949403338,
+      "left_beyond_1deg": 0.312,
+      "right_beyond_1deg": 0.286,
+      "largest_left_deg": -8.016985976672288,
+      "largest_right_deg": 10.062303685677279
+    },
+    "left_only": {
+      "windows": 37,
+      "median_yaw_deg": -0.27533576793325665,
+      "mean_yaw_deg": -0.3005445350135858,
+      "std_yaw_deg": 0.9041241655449894,
+      "left_beyond_1deg": 0.108,
+      "right_beyond_1deg": 0.054,
+      "largest_left_deg": -2.65879156072819,
+      "largest_right_deg": 2.3281701879795094
+    },
+    "neither": {
+      "windows": 178,
+      "median_yaw_deg": -0.01573200858440771,
+      "mean_yaw_deg": 0.7036693354176753,
+      "std_yaw_deg": 6.864801019542797,
+      "left_beyond_1deg": 0.27,
+      "right_beyond_1deg": 0.287,
+      "largest_left_deg": -19.85531994008187,
+      "largest_right_deg": 59.108491889581785
+    },
+    "right_only": {
+      "windows": 2,
+      "median_yaw_deg": 2.721406405526224,
+      "mean_yaw_deg": 2.721406405526224,
+      "std_yaw_deg": 2.3876646870076144,
+      "left_beyond_1deg": 0.0,
+      "right_beyond_1deg": 0.5,
+      "largest_left_deg": 0.3337417185186098,
+      "largest_right_deg": 5.1090710925338385
+    }
+  },
+  "examples": {
+    "both": [
+      {
+        "yaw": -8.016985976672288,
+        "left": 0.029644324921592344,
+        "right": 0.029484097882701926,
+        "episode": "test-song_partner_left",
+        "turn": 1
+      },
+      {
+        "yaw": -7.040050402237057,
+        "left": 0.07325172830766255,
+        "right": 0.08720071150544582,
+        "episode": "test-song_plume_left",
+        "turn": 1
+      },
+      {
+        "yaw": -6.966097525891371,
+        "left": 0.29293414697466086,
+        "right": 0.29510200521552493,
+        "episode": "test-mouth_block",
+        "turn": 0
+      },
+      {
+        "yaw": 10.062303685677279,
+        "left": 0.1658418542815308,
+        "right": 0.1658418542815308,
+        "episode": "validation-song_partner_right",
+        "turn": 1
+      },
+      {
+        "yaw": 7.452311759877404,
+        "left": 0.18403869050200058,
+        "right": 0.18403869050200058,
+        "episode": "test-song_partner_right",
+        "turn": 0
+      },
+      {
+        "yaw": 6.390100817726307,
+        "left": 0.04825118039042952,
+        "right": 0.04825118039042952,
+        "episode": "validation-song_partner_right",
+        "turn": 0
+      }
+    ],
+    "left_only": [
+      {
+        "yaw": -2.65879156072819,
+        "left": 0.16392485955109537,
+        "right": 0.0,
+        "episode": "train-pheromone_partner_right",
+        "turn": 1
+      },
+      {
+        "yaw": -2.657432728932548,
+        "left": 0.23320895894610522,
+        "right": 0.0,
+        "episode": "test-pheromone_partner_left",
+        "turn": 0
+      },
+      {
+        "yaw": -1.2667131382677326,
+        "left": 0.11803465999875531,
+        "right": 0.0,
+        "episode": "test-yeast",
+        "turn": 0
+      },
+      {
+        "yaw": 2.3281701879795094,
+        "left": 0.11802498654856466,
+        "right": 0.0,
+        "episode": "test-pheromone_left",
+        "turn": 0
+      },
+      {
+        "yaw": 1.8253969381068487,
+        "left": 0.11770277855156437,
+        "right": 0.0,
+        "episode": "train-pheromone_right",
+        "turn": 0
+      },
+      {
+        "yaw": 0.8326818845250159,
+        "left": 0.11796793214966819,
+        "right": 0.0,
+        "episode": "train-yeast",
+        "turn": 0
+      }
+    ],
+    "neither": [
+      {
+        "yaw": -19.85531994008187,
+        "left": 0.0,
+        "right": 0.0,
+        "episode": "test-song_plume_right",
+        "turn": 0
+      },
+      {
+        "yaw": -19.003862858586842,
+        "left": 0.0,
+        "right": 0.0,
+        "episode": "test-unilateral_bright_right",
+        "turn": 0
+      },
+      {
+        "yaw": -12.094487751172494,
+        "left": 0.0,
+        "right": 0.0,
+        "episode": "validation-pheromone_left",
+        "turn": 0
+      },
+      {
+        "yaw": 59.108491889581785,
+        "left": 0.0,
+        "right": 0.0,
+        "episode": "train-far_sugar_control",
+        "turn": 0
+      },
+      {
+        "yaw": 32.41371504089449,
+        "left": 0.0,
+        "right": 0.0,
+        "episode": "train-far_pheromone_control",
+        "turn": 0
+      },
+      {
+        "yaw": 24.94699326754369,
+        "left": 0.0,
+        "right": 0.0,
+        "episode": "test-touch_left",
+        "turn": 1
+      }
+    ],
+    "right_only": [
+      {
+        "yaw": 0.3337417185186098,
+        "left": 0.0,
+        "right": 0.11783773766844391,
+        "episode": "validation-unilateral_cold_right",
+        "turn": 1
+      },
+      {
+        "yaw": 5.1090710925338385,
+        "left": 0.0,
+        "right": 0.0347376646697814,
+        "episode": "validation-nudge_alternating",
+        "turn": 0
+      },
+      {
+        "yaw": 5.1090710925338385,
+        "left": 0.0,
+        "right": 0.0347376646697814,
+        "episode": "validation-nudge_alternating",
+        "turn": 0
+      },
+      {
+        "yaw": 0.3337417185186098,
+        "left": 0.0,
+        "right": 0.11783773766844391,
+        "episode": "validation-unilateral_cold_right",
+        "turn": 1
+      }
+    ]
+  },
+  "interpretation": "A left-only command should produce negative yaw. If the left/right share is near chance, the recorded command does not turn the body consistently in this setup, so a behaviour-validated turn label is not available and the fix belongs to the motor path."
+}

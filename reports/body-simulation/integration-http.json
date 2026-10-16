@@ -1,0 +1,58 @@
+{
+  "http_status": 200,
+  "wall_seconds": 53.752831000019796,
+  "response_bytes": 1865004,
+  "handled": true,
+  "observation_id": "559656a68cd64712a4b3355e1a93350b",
+  "dataset": "MaleCNS v1.0",
+  "readout_model": "uncalibrated",
+  "body_status": "ok",
+  "physics_run": true,
+  "motor_spikes": 32,
+  "trajectory_frames": 51,
+  "body_reason": null,
+  "error": null,
+  "raw_record": {
+    "file": "data\\derived\\pathway-trials\\559656a68cd64712a4b3355e1a93350b.npz",
+    "sha256": "3a242c1ea1a97b3f7623b48ff9c012851fa04c2261db2321435c613750a1b547"
+  },
+  "source_spikes_sha256": "836a2e3458c08a009dc4fee35cce17681a1d1d692b2f431fb6c450f07c7b750b",
+  "body_elapsed_seconds": 14.227111899992451,
+  "observation_latency_seconds": 51.84857169998577,
+  "body_controls": {
+    "reference_rate_hz": 20.0,
+    "smoothing_ms": 30.0,
+    "bin_ms": 10.0,
+    "frequency_hz": 12,
+    "passive_control": false,
+    "powered_steps": 4300,
+    "max_drive": 0.19717533564618886,
+    "max_actuator_force_model_units": 7.688966252744285,
+    "max_force_on_zero_drive_actuators": 0.0
+  },
+  "body_summary": {
+    "displacement_mm": [
+      0.26722218050421076,
+      0.011867859498277445,
+      -1.5769975148565272
+    ],
+    "path_length_mm": 2.0075384133060807,
+    "max_contacts": 11,
+    "finite_state": true,
+    "physics_warnings": 0
+  },
+  "source_checks": [
+    "Raw NPZ checksum matches",
+    "New trial ID; same seed reproduces exact neural arrays",
+    "Rebuilt first-trial source hash matches this HTTP body",
+    "Exact physical trajectory reproduced",
+    "Saved physical trajectory equals HTTP body",
+    "Reply is server neural readout; no separate model call",
+    "Reaction summary includes successful body status"
+  ],
+  "reviewed_file_sha256": {
+    "chatflypt/server.py": "9b6eb852703d904e854350c4b8690342a256365fbd0f3f9c944d775a4913a58e",
+    "chatflypt/web/app.js": "9081e8a7272adb2578f36e9e7fd9d778234bfe5ce0e9ce3097ddb575c24a34be",
+    "chatflypt/body_simulation.py": "406bebe1ccb280d96f05991e0d4ea1d5ed21ba33b9c7ef2b07eb6abc262e0fa9"
+  }
+}

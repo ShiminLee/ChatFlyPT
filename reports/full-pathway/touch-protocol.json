@@ -1,0 +1,2032 @@
+{
+  "name": "malecns-touch-protocol-v1",
+  "cases": [
+    {
+      "id": "train-right-00",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130000,
+      "scale": 0.8699963479515954,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-01",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130001,
+      "scale": 0.8682483389818504,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-02",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130002,
+      "scale": 1.1338290126590895,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-03",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130003,
+      "scale": 1.0902578669266176,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-04",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130004,
+      "scale": 1.0066983222967374,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-05",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130005,
+      "scale": 1.044563818928053,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-06",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130006,
+      "scale": 1.0723027325631767,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-07",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130007,
+      "scale": 0.9447316749780433,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-08",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130008,
+      "scale": 0.9216824654536139,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-09",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130009,
+      "scale": 1.0109124173313486,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-10",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130010,
+      "scale": 0.9004506853020451,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-11",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130011,
+      "scale": 1.023222417000345,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-12",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130012,
+      "scale": 0.8815570728827036,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-13",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130013,
+      "scale": 0.9761801034906744,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-14",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130014,
+      "scale": 0.943024299260034,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-right-15",
+      "split": "train",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 130015,
+      "scale": 0.9092204946854914,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-00",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130016,
+      "scale": 0.8680113160275358,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-01",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130017,
+      "scale": 0.8535224947501437,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-02",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130018,
+      "scale": 0.9853426887651942,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-03",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130019,
+      "scale": 0.9952174713943799,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-04",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130020,
+      "scale": 1.0841303517270342,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-05",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130021,
+      "scale": 0.986281220351739,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-06",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130022,
+      "scale": 1.0951210679919743,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-07",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130023,
+      "scale": 1.1496400684576513,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-08",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130024,
+      "scale": 1.1443568730478801,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-09",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130025,
+      "scale": 0.969137623385153,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-10",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130026,
+      "scale": 1.0988814581544806,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-11",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130027,
+      "scale": 1.1389372545476664,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-12",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130028,
+      "scale": 1.0332989929589211,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-13",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130029,
+      "scale": 1.1141647898679528,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-14",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130030,
+      "scale": 1.0741554094373893,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-left-15",
+      "split": "train",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 130031,
+      "scale": 1.1018958042348217,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-00",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130032,
+      "scale": 0.923969402091716,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-01",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130033,
+      "scale": 1.0545865677515827,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-02",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130034,
+      "scale": 1.0202145573787949,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-03",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130035,
+      "scale": 1.0835441427451349,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-04",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130036,
+      "scale": 0.8765001839220828,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-05",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130037,
+      "scale": 0.981457592110211,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-06",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130038,
+      "scale": 0.9702774242224307,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-07",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130039,
+      "scale": 0.9992164921972101,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-08",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130040,
+      "scale": 0.9249533426543803,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-09",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130041,
+      "scale": 1.0612274878741996,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-10",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130042,
+      "scale": 1.0619507274629396,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-11",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130043,
+      "scale": 1.0709958069941132,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-12",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130044,
+      "scale": 1.0937470760258485,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-13",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130045,
+      "scale": 1.1084088136359602,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-14",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130046,
+      "scale": 0.9407210799039161,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-both-15",
+      "split": "train",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 130047,
+      "scale": 0.8903113418127189,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-00",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130048,
+      "scale": 1.0228212406372037,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-01",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130049,
+      "scale": 0.8874473452180939,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-02",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130050,
+      "scale": 0.9569990474799626,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-03",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130051,
+      "scale": 0.8902070733208236,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-04",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130052,
+      "scale": 1.0448398177918394,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-05",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130053,
+      "scale": 0.9190861771847387,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-06",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130054,
+      "scale": 0.8956560525652064,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-07",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130055,
+      "scale": 0.963923866351541,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-08",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130056,
+      "scale": 1.1283339145357685,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-09",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130057,
+      "scale": 0.8572660112659268,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-10",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130058,
+      "scale": 1.138403360413223,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-11",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130059,
+      "scale": 1.0696504302943468,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-12",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130060,
+      "scale": 0.9788189515488953,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-13",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130061,
+      "scale": 0.8608219456980079,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-14",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130062,
+      "scale": 0.9003437991817342,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "train-blank-15",
+      "split": "train",
+      "condition": "blank",
+      "words": [],
+      "seed": 130063,
+      "scale": 1.0965093746250334,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-right-00",
+      "split": "validation",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 140064,
+      "scale": 1.0873256932819877,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-right-01",
+      "split": "validation",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 140065,
+      "scale": 0.8553652748466892,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-right-02",
+      "split": "validation",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 140066,
+      "scale": 1.0297649987507569,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-right-03",
+      "split": "validation",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 140067,
+      "scale": 0.8673132505115165,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-right-04",
+      "split": "validation",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 140068,
+      "scale": 1.1102628851407073,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-right-05",
+      "split": "validation",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 140069,
+      "scale": 1.1111269046089745,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-left-00",
+      "split": "validation",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 140070,
+      "scale": 1.0519596079701308,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-left-01",
+      "split": "validation",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 140071,
+      "scale": 0.8574757903986361,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-left-02",
+      "split": "validation",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 140072,
+      "scale": 1.0995867137736084,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-left-03",
+      "split": "validation",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 140073,
+      "scale": 1.1381791671484032,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-left-04",
+      "split": "validation",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 140074,
+      "scale": 1.0771164486941855,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-left-05",
+      "split": "validation",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 140075,
+      "scale": 0.9241212346026549,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-both-00",
+      "split": "validation",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 140076,
+      "scale": 1.0788965410353013,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-both-01",
+      "split": "validation",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 140077,
+      "scale": 1.0064470697753296,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-both-02",
+      "split": "validation",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 140078,
+      "scale": 0.9830961719150628,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-both-03",
+      "split": "validation",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 140079,
+      "scale": 0.9701732555143109,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-both-04",
+      "split": "validation",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 140080,
+      "scale": 0.9365705096892384,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-both-05",
+      "split": "validation",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 140081,
+      "scale": 1.0693193200429114,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-blank-00",
+      "split": "validation",
+      "condition": "blank",
+      "words": [],
+      "seed": 140082,
+      "scale": 1.0820093181027173,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-blank-01",
+      "split": "validation",
+      "condition": "blank",
+      "words": [],
+      "seed": 140083,
+      "scale": 0.8541671265601792,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-blank-02",
+      "split": "validation",
+      "condition": "blank",
+      "words": [],
+      "seed": 140084,
+      "scale": 0.9549688558147178,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-blank-03",
+      "split": "validation",
+      "condition": "blank",
+      "words": [],
+      "seed": 140085,
+      "scale": 1.0023105575811875,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-blank-04",
+      "split": "validation",
+      "condition": "blank",
+      "words": [],
+      "seed": 140086,
+      "scale": 0.865428025071928,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "validation-blank-05",
+      "split": "validation",
+      "condition": "blank",
+      "words": [],
+      "seed": 140087,
+      "scale": 0.9444019131325168,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-00",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150088,
+      "scale": 0.8928771669193138,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-01",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150089,
+      "scale": 1.1341847057523633,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-02",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150090,
+      "scale": 1.019608859904077,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-03",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150091,
+      "scale": 0.8918170261234672,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-04",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150092,
+      "scale": 0.9555135262190926,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-05",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150093,
+      "scale": 1.0580071646158238,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-06",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150094,
+      "scale": 0.9447820673897906,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-07",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150095,
+      "scale": 1.1028973606381416,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-08",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150096,
+      "scale": 1.0151152654646534,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-right-09",
+      "split": "test",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 150097,
+      "scale": 0.97879562173339,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-00",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150098,
+      "scale": 0.951959324617142,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-01",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150099,
+      "scale": 1.0191815825178587,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-02",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150100,
+      "scale": 0.9205563713014704,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-03",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150101,
+      "scale": 1.1450542595339872,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-04",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150102,
+      "scale": 0.9328963005572484,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-05",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150103,
+      "scale": 1.057327759726183,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-06",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150104,
+      "scale": 0.9422145359415067,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-07",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150105,
+      "scale": 0.892823965468623,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-08",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150106,
+      "scale": 1.041816902799586,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-left-09",
+      "split": "test",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 150107,
+      "scale": 1.0342094406528628,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-00",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150108,
+      "scale": 1.1022444274554175,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-01",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150109,
+      "scale": 0.9431705033909346,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-02",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150110,
+      "scale": 1.0259028337023983,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-03",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150111,
+      "scale": 1.0366440901391487,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-04",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150112,
+      "scale": 1.1422285847478566,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-05",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150113,
+      "scale": 0.9228964207760291,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-06",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150114,
+      "scale": 1.1439383094963698,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-07",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150115,
+      "scale": 1.0482134286239364,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-08",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150116,
+      "scale": 1.1000401246286278,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-both-09",
+      "split": "test",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 150117,
+      "scale": 0.8889336431808539,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-00",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150118,
+      "scale": 0.8996149308303739,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-01",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150119,
+      "scale": 1.1079097774798863,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-02",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150120,
+      "scale": 1.0966891619646169,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-03",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150121,
+      "scale": 1.036137850723808,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-04",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150122,
+      "scale": 1.0122479484022127,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-05",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150123,
+      "scale": 0.9884110488106961,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-06",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150124,
+      "scale": 1.1457273687822522,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-07",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150125,
+      "scale": 1.0161741661880315,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-08",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150126,
+      "scale": 0.9275690751059689,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "test-blank-09",
+      "split": "test",
+      "condition": "blank",
+      "words": [],
+      "seed": 150127,
+      "scale": 1.0869617290804694,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-00",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160128,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-01",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160129,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-02",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160130,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-03",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160131,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-04",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160132,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-05",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160133,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-06",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160134,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-right-07",
+      "split": "ood",
+      "condition": "right",
+      "words": [
+        "right_foreleg_touch"
+      ],
+      "seed": 160135,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-00",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160136,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-01",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160137,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-02",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160138,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-03",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160139,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-04",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160140,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-05",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160141,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-06",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160142,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-left-07",
+      "split": "ood",
+      "condition": "left",
+      "words": [
+        "left_foreleg_touch"
+      ],
+      "seed": 160143,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-00",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160144,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-01",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160145,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-02",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160146,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-03",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160147,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-04",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160148,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-05",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160149,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-06",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160150,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-both-07",
+      "split": "ood",
+      "condition": "both",
+      "words": [
+        "right_foreleg_touch",
+        "left_foreleg_touch"
+      ],
+      "seed": 160151,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-00",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160152,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-01",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160153,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-02",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160154,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-03",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160155,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-04",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160156,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-05",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160157,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-06",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160158,
+      "scale": 0.6,
+      "duration_ms": 500.0
+    },
+    {
+      "id": "ood-blank-07",
+      "split": "ood",
+      "condition": "blank",
+      "words": [],
+      "seed": 160159,
+      "scale": 1.4,
+      "duration_ms": 500.0
+    }
+  ],
+  "labels": [
+    "right_foreleg_touch",
+    "left_foreleg_touch"
+  ],
+  "label_meaning": "Known simulated sensory stimulus; no motor direction label",
+  "split_rule": "Disjoint random seeds; OOD strengths 0.6/1.4 outside training 0.85..1.15",
+  "feature_rule": "All annotated sensory classes and directly stimulated cells excluded; training-active cells only",
+  "readout": "sqrt internal spike counts -> Ridge alpha=10; thresholds from validation only",
+  "duration_ms": 500.0,
+  "source": "Independent implementation, not Chetaslua source code",
+  "calibration": "Transferred Shiu LIF parameters; candidate foreleg cells and uncalibrated input envelopes",
+  "graph_sha256": "5abc663b90d17b025d79bce663551c8575e2e48f858dd20fb68199ad6af3862c",
+  "channel_specs": {
+    "right_foreleg_touch": {
+      "dataset": "MaleCNS v1.0",
+      "id_namespace": "malecns_body_id",
+      "neuron_ids": [
+        "808535",
+        "810775",
+        "811005",
+        "811312",
+        "812707",
+        "812921",
+        "813129",
+        "813827",
+        "813952",
+        "814045",
+        "814194",
+        "814322",
+        "814878",
+        "814911",
+        "814986",
+        "815090",
+        "815111",
+        "815534",
+        "815642",
+        "815665",
+        "815675",
+        "815866",
+        "815918",
+        "816080",
+        "816249",
+        "816282",
+        "816586",
+        "816657",
+        "816700",
+        "816711",
+        "816783",
+        "816939",
+        "816949",
+        "817253",
+        "817411",
+        "817475",
+        "817665",
+        "817700",
+        "817895",
+        "817908",
+        "817919",
+        "818165",
+        "818406",
+        "818626",
+        "818728",
+        "818823",
+        "819422",
+        "819520",
+        "819860",
+        "820126",
+        "820165",
+        "820367",
+        "820396",
+        "820692",
+        "820749",
+        "821070",
+        "821373",
+        "821459",
+        "821762",
+        "822377",
+        "823059",
+        "824288",
+        "824696",
+        "825572",
+        "825771",
+        "826548",
+        "827075",
+        "828130",
+        "828160",
+        "836008",
+        "846010",
+        "869259",
+        "869772",
+        "872960",
+        "878310",
+        "880296",
+        "904025",
+        "905111",
+        "905684",
+        "906616",
+        "906620",
+        "907868",
+        "908590",
+        "909506",
+        "909751",
+        "909752",
+        "909753",
+        "910744",
+        "911410",
+        "912734",
+        "914646",
+        "914732",
+        "914838",
+        "933093",
+        "1050866915",
+        "1051168067",
+        "1064464421",
+        "1073526879",
+        "1088491057",
+        "1127183799"
+      ],
+      "selection": {
+        "superclass": "vnc_sensory",
+        "class": "mechanosensory_tactile",
+        "subclass": "mechanosensory bristle",
+        "entryNerve": "ProLN",
+        "rootSide": "R"
+      },
+      "source": "https://www.nature.com/articles/nature14024",
+      "evidence": {
+        "signal_and_receptor_class": "Supported: inter-fly distal-leg touch; mechanosensory sensilla and NOMPC; Ramdya 2015 Fig. 3.",
+        "specific_connectome_cells": "Candidate only: whole foreleg bristle population, not a validated distal sensillum subset.",
+        "physiological_spike_encoding": "Uncalibrated engineering envelope.",
+        "human_direction_semantics": "Proposed only; location-dependent trajectories do not establish a universal direction command.",
+        "experimental_context": "Main experiments: adult females, 2-4 days post-eclosion. Transfer to male CNS needs validation."
+      },
+      "biological_signal": "Conspecific contact with the right foreleg",
+      "target_status": "Candidate foreleg bristle population; distal sensillum subset unresolved",
+      "profile": "touch_transient",
+      "parameters": {
+        "onset_ms": 50.0,
+        "end_ms": 150.0,
+        "peak_hz": 150.0,
+        "decay_ms": 15.0
+      },
+      "parameter_evidence": "All rate/timing parameters are engineering assumptions; no calibrated force-to-spike transfer function.",
+      "response_claim": "Encounter locomotion is supported by the paper; no guaranteed left/right turn from this population.",
+      "current_engine": "Event export only: the existing Shiu/FlyWire engine lacks these MaleCNS IDs."
+    },
+    "left_foreleg_touch": {
+      "dataset": "MaleCNS v1.0",
+      "id_namespace": "malecns_body_id",
+      "neuron_ids": [
+        "807971",
+        "808998",
+        "809535",
+        "809633",
+        "809864",
+        "810843",
+        "810901",
+        "811575",
+        "812471",
+        "812784",
+        "813279",
+        "813510",
+        "813534",
+        "813729",
+        "814154",
+        "814303",
+        "814467",
+        "814671",
+        "814754",
+        "814772",
+        "814862",
+        "814900",
+        "815413",
+        "815604",
+        "815631",
+        "815676",
+        "815717",
+        "815723",
+        "815883",
+        "815914",
+        "815947",
+        "816102",
+        "816267",
+        "816331",
+        "816373",
+        "816414",
+        "816495",
+        "816645",
+        "816969",
+        "816981",
+        "817073",
+        "817075",
+        "817194",
+        "817204",
+        "817308",
+        "817705",
+        "817754",
+        "817891",
+        "817957",
+        "818075",
+        "818181",
+        "818196",
+        "818203",
+        "818228",
+        "818335",
+        "818425",
+        "818480",
+        "818488",
+        "818617",
+        "818656",
+        "818746",
+        "818794",
+        "818841",
+        "818849",
+        "819068",
+        "819092",
+        "819115",
+        "819133",
+        "819240",
+        "819271",
+        "819295",
+        "819430",
+        "819465",
+        "819501",
+        "819515",
+        "819516",
+        "819525",
+        "819565",
+        "819839",
+        "820264",
+        "820492",
+        "820516",
+        "820596",
+        "820708",
+        "820762",
+        "820807",
+        "820866",
+        "820969",
+        "820987",
+        "821522",
+        "821613",
+        "821712",
+        "822225",
+        "823510",
+        "823594",
+        "823727",
+        "824134",
+        "824814",
+        "825532",
+        "828046",
+        "828345",
+        "832069",
+        "832136",
+        "845210",
+        "852242",
+        "865833",
+        "903122",
+        "905588",
+        "908113",
+        "908264",
+        "908417",
+        "908426",
+        "908734",
+        "908964",
+        "911325",
+        "911578",
+        "932791",
+        "933400",
+        "935606",
+        "944319",
+        "1050931796",
+        "1066778249",
+        "1073128028",
+        "1085870101"
+      ],
+      "selection": {
+        "superclass": "vnc_sensory",
+        "class": "mechanosensory_tactile",
+        "subclass": "mechanosensory bristle",
+        "entryNerve": "ProLN",
+        "rootSide": "L"
+      },
+      "source": "https://www.nature.com/articles/nature14024",
+      "evidence": {
+        "signal_and_receptor_class": "Supported: inter-fly distal-leg touch; mechanosensory sensilla and NOMPC; Ramdya 2015 Fig. 3.",
+        "specific_connectome_cells": "Candidate only: whole foreleg bristle population, not a validated distal sensillum subset.",
+        "physiological_spike_encoding": "Uncalibrated engineering envelope.",
+        "human_direction_semantics": "Proposed only; location-dependent trajectories do not establish a universal direction command.",
+        "experimental_context": "Main experiments: adult females, 2-4 days post-eclosion. Transfer to male CNS needs validation."
+      },
+      "biological_signal": "Conspecific contact with the left foreleg",
+      "target_status": "Candidate foreleg bristle population; distal sensillum subset unresolved",
+      "profile": "touch_transient",
+      "parameters": {
+        "onset_ms": 50.0,
+        "end_ms": 150.0,
+        "peak_hz": 150.0,
+        "decay_ms": 15.0
+      },
+      "parameter_evidence": "All rate/timing parameters are engineering assumptions; no calibrated force-to-spike transfer function.",
+      "response_claim": "Encounter locomotion is supported by the paper; no guaranteed left/right turn from this population.",
+      "current_engine": "Event export only: the existing Shiu/FlyWire engine lacks these MaleCNS IDs."
+    }
+  },
+  "simulation_source_sha256": "2f797e3616c7d7c674367e48192568d272b895c451da36e01c12058761c3af93",
+  "encoder_source_sha256": "8b46c5c7d6ca08fcc4c58a82b6df735e38467ff3aa9c8a3035f87000f1d46bca",
+  "fingerprint": "f6c3d46fa0faace5355675a0b7a67ecc5711ee856d9704f71c0461a2a94796fd"
+}

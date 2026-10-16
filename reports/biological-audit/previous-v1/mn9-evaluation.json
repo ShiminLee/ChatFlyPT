@@ -1,0 +1,72 @@
+{
+  "dataset": "FlyWire v630",
+  "input_source": "Shiu figures.ipynb",
+  "duration_ms": 1000,
+  "rate_hz": 150,
+  "trials": [
+    {
+      "seed": 70000,
+      "sugar_mn9_hz": 82,
+      "sugar_bitter_mn9_hz": 10
+    },
+    {
+      "seed": 70001,
+      "sugar_mn9_hz": 87,
+      "sugar_bitter_mn9_hz": 8
+    },
+    {
+      "seed": 70002,
+      "sugar_mn9_hz": 85,
+      "sugar_bitter_mn9_hz": 13
+    },
+    {
+      "seed": 70003,
+      "sugar_mn9_hz": 91,
+      "sugar_bitter_mn9_hz": 8
+    },
+    {
+      "seed": 70004,
+      "sugar_mn9_hz": 83,
+      "sugar_bitter_mn9_hz": 7
+    },
+    {
+      "seed": 70005,
+      "sugar_mn9_hz": 81,
+      "sugar_bitter_mn9_hz": 9
+    },
+    {
+      "seed": 70006,
+      "sugar_mn9_hz": 94,
+      "sugar_bitter_mn9_hz": 11
+    },
+    {
+      "seed": 70007,
+      "sugar_mn9_hz": 87,
+      "sugar_bitter_mn9_hz": 11
+    },
+    {
+      "seed": 70008,
+      "sugar_mn9_hz": 83,
+      "sugar_bitter_mn9_hz": 9
+    },
+    {
+      "seed": 70009,
+      "sugar_mn9_hz": 86,
+      "sugar_bitter_mn9_hz": 8
+    }
+  ],
+  "sugar_mean_hz": 85.9,
+  "sugar_bitter_mean_hz": 9.4,
+  "paired_mean_suppression_hz": 76.5,
+  "paired_bootstrap_95_ci_hz": [
+    74.1,
+    79.0
+  ],
+  "direction_passed": true,
+  "author_reported_hz": [
+    78,
+    3
+  ],
+  "exact_numeric_replication": false,
+  "note": "Independent prespecified protocol; no parameter fitting to reported numbers."
+}

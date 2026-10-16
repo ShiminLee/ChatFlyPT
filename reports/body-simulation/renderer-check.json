@@ -1,0 +1,71 @@
+{
+  "kind": "programmatic_canvas_contract_not_browser_test",
+  "source": "data/derived/body-simulation/integration/api-response.json",
+  "checks": [
+    {
+      "width": 640,
+      "height": 230,
+      "progress": 0,
+      "selected_time_ms": 0,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    },
+    {
+      "width": 640,
+      "height": 230,
+      "progress": 0.14,
+      "selected_time_ms": 70,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    },
+    {
+      "width": 640,
+      "height": 230,
+      "progress": 0.5,
+      "selected_time_ms": 250,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    },
+    {
+      "width": 640,
+      "height": 230,
+      "progress": 1,
+      "selected_time_ms": 500,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    },
+    {
+      "width": 290,
+      "height": 180,
+      "progress": 0,
+      "selected_time_ms": 0,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    },
+    {
+      "width": 290,
+      "height": 180,
+      "progress": 0.14,
+      "selected_time_ms": 70,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    },
+    {
+      "width": 290,
+      "height": 180,
+      "progress": 0.5,
+      "selected_time_ms": 250,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    },
+    {
+      "width": 290,
+      "height": 180,
+      "progress": 1,
+      "selected_time_ms": 500,
+      "measured_feet": 6,
+      "finite_and_in_bounds": true
+    }
+  ],
+  "passed": true
+}

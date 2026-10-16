@@ -1,0 +1,162 @@
+[
+  {
+    "case": "no_touch",
+    "input_mode": "environment_only",
+    "direct_neural_intervention": false,
+    "events": 0,
+    "samples": [
+      {
+        "time_ms": 0.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 100.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 200.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 300.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 400.0,
+        "channels": [],
+        "contacts": []
+      }
+    ],
+    "body": {
+      "displacement_mm": [
+        0.04183020356712619,
+        -0.024720010545485133,
+        -0.1369820276609619
+      ],
+      "path_length_mm": 0.2656477743485291,
+      "max_contacts": 14,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "replay_bitwise_identical": true,
+    "recorded_spikes": 0
+  },
+  {
+    "case": "physical_right_touch",
+    "input_mode": "environment_only",
+    "direct_neural_intervention": false,
+    "events": 235,
+    "samples": [
+      {
+        "time_ms": 0.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 100.0,
+        "channels": [
+          "foreleg_touch:right"
+        ],
+        "contacts": [
+          {
+            "object_id": "message_probe_rf",
+            "mode": "mujoco_leg_contact",
+            "side": "right",
+            "body_part": "foreleg",
+            "contacts": [
+              {
+                "object_id": "message_probe_rf",
+                "fly_geom": "fly/rf_tarsus2",
+                "distance_mm": -0.0016610829324002771,
+                "position_mm": [
+                  1.2195782632956746,
+                  -0.8289298728030363,
+                  0.08748532774140451
+                ]
+              }
+            ],
+            "physical_force_calibrated": false
+          }
+        ]
+      },
+      {
+        "time_ms": 200.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 300.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 400.0,
+        "channels": [],
+        "contacts": []
+      }
+    ],
+    "body": {
+      "displacement_mm": [
+        0.10841295372098603,
+        -0.004085413943387835,
+        -0.19093759960201007
+      ],
+      "path_length_mm": 0.46504636705521457,
+      "max_contacts": 14,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "replay_bitwise_identical": true,
+    "recorded_spikes": 3588
+  },
+  {
+    "case": "distant_sugar",
+    "input_mode": "environment_only",
+    "direct_neural_intervention": false,
+    "events": 0,
+    "samples": [
+      {
+        "time_ms": 0.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 100.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 200.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 300.0,
+        "channels": [],
+        "contacts": []
+      },
+      {
+        "time_ms": 400.0,
+        "channels": [],
+        "contacts": []
+      }
+    ],
+    "body": {
+      "displacement_mm": [
+        0.04183020356712619,
+        -0.024720010545485133,
+        -0.1369820276609619
+      ],
+      "path_length_mm": 0.2656477743485291,
+      "max_contacts": 14,
+      "finite_state": true,
+      "physics_warnings": 0
+    },
+    "replay_bitwise_identical": true,
+    "recorded_spikes": 0
+  }
+]

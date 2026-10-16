@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-19",
+  "scope": "Software pathway verification; no body dynamics or measured natural-language comprehension",
+  "tests": {
+    "tests": "80",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "26.672"
+  },
+  "input_delivery": true,
+  "browser": {
+    "url": "http://127.0.0.1:8765",
+    "observed_channels": [
+      "right_foreleg_touch",
+      "left_foreleg_touch",
+      "cva"
+    ],
+    "view_checks": [
+      "Actual decoded reply",
+      "Matching reception and dataset",
+      "Recorded spike playback",
+      "Static body with measured output-cell counts",
+      "MaleCNS brain and VNC fit in canvas"
+    ],
+    "records": [
+      {
+        "record": "reports\\full-pathway\\interactive\\7cf3f172dc8e486a9438104f341f2db0.json",
+        "input": "向左",
+        "seed": 81001,
+        "channel": "right_foreleg_touch",
+        "dataset": "MaleCNS v1.0",
+        "predicted": [
+          "right_foreleg_touch"
+        ],
+        "internal_spikes": 219,
+        "raw_sha256": "56b281f4919507b7f0a75ae289e37e56ccb651bcb58a7129b618d36595a9c085"
+      },
+      {
+        "record": "reports\\full-pathway\\interactive\\524924354512487daebbf84532334b17.json",
+        "input": "向右",
+        "seed": 81002,
+        "channel": "left_foreleg_touch",
+        "dataset": "MaleCNS v1.0",
+        "predicted": [
+          "left_foreleg_touch"
+        ],
+        "internal_spikes": 393,
+        "raw_sha256": "e4ccacf843cb0dded51f99c33661dcc12bacad3ebcbd899a6959ce4130f16454"
+      },
+      {
+        "record": "reports\\full-pathway\\interactive\\bd2dc08536e541eda9784287b38625c3.json",
+        "input": "释放信息素",
+        "seed": 81003,
+        "channel": "cva",
+        "dataset": "FlyWire v783",
+        "predicted": [
+          "cva"
+        ],
+        "internal_spikes": 197084,
+        "raw_sha256": "f10dc20ebe424ef4ab921705b739c9c53f278932f2b9439abfcfeca2ccdf4af9"
+      },
+      {
+        "record": "reports\\full-pathway\\interactive\\902c68d5bf3e4fe9a01ef36623886b87.json",
+        "input": "向左",
+        "seed": 81000,
+        "channel": "right_foreleg_touch",
+        "dataset": "MaleCNS v1.0",
+        "predicted": [
+          "right_foreleg_touch"
+        ],
+        "internal_spikes": 1113,
+        "raw_sha256": "68b862d6715606d02c632a51ac9b2c2bee79fc2db09b9936e80195111ef2f331"
+      }
+    ]
+  },
+  "openai": {
+    "configured": false,
+    "real_api_test": "not_run; API key/model unavailable",
+    "local_readout_works_without_api": true
+  },
+  "models": {
+    "data\\derived\\malecns\\touch-decoder.npz": "e068fc06c403b810341730018dfe60fa2c4e3017118feb5dc1811a5c06ee84cd",
+    "data\\derived\\social-input\\social-decoder.npz": "20b4c26d742ce653aacc7ec87d61dec9597a9ea0ca075f4ce2c2a12e55d75c57"
+  }
+}

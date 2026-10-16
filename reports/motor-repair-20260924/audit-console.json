@@ -1,0 +1,147 @@
+{
+  "paired_replay": [
+    {
+      "case": "491701-leg_sugar",
+      "max_tibia_difference_deg": 13.037378184731214,
+      "joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "joint_motor_spikes": 47,
+      "first_joint_command_ms": 20.0,
+      "no_motion_difference_before_command": true,
+      "source_spikes_sha256": "66d7c6ad08ae417869059f0869d2d866c680a3d68f877c8fbd3b5de5980fc11c",
+      "legacy_body": "data\\derived\\motor-repair-20260924\\replay\\491701-leg_sugar\\legacy\\body-result.json",
+      "new_body": "data\\derived\\motor-repair-20260924\\replay\\491701-leg_sugar\\tibia\\body-result.json"
+    },
+    {
+      "case": "491701-mouth_high_salt",
+      "max_tibia_difference_deg": 3.7972595123435378,
+      "joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "joint_motor_spikes": 4,
+      "first_joint_command_ms": 80.0,
+      "no_motion_difference_before_command": true,
+      "source_spikes_sha256": "ad0412b67f57b0b91b8faca247bd09cf7bf93e12701cd431f14879fa839b00b0",
+      "legacy_body": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_high_salt\\legacy\\body-result.json",
+      "new_body": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_high_salt\\tibia\\body-result.json"
+    },
+    {
+      "case": "491701-mouth_sugar",
+      "max_tibia_difference_deg": 0.9390817926294517,
+      "joint": "lh_trochanterfemur-lh_tibia-pitch",
+      "joint_motor_spikes": 5,
+      "first_joint_command_ms": 220.0,
+      "no_motion_difference_before_command": true,
+      "source_spikes_sha256": "bb0d52175ae96977931f95f9b201c3d8f0ad9d894320687d46f8de493b1375d1",
+      "legacy_body": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_sugar\\legacy\\body-result.json",
+      "new_body": "data\\derived\\motor-repair-20260924\\replay\\491701-mouth_sugar\\tibia\\body-result.json"
+    },
+    {
+      "case": "491702-leg_sugar",
+      "max_tibia_difference_deg": 14.12128939440272,
+      "joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "joint_motor_spikes": 43,
+      "first_joint_command_ms": 20.0,
+      "no_motion_difference_before_command": true,
+      "source_spikes_sha256": "ab0a3be9e5324ac0b72e87be423790f1809a189b6f0b56ef86fd547376bb49ff",
+      "legacy_body": "data\\derived\\motor-repair-20260924\\replay\\491702-leg_sugar\\legacy\\body-result.json",
+      "new_body": "data\\derived\\motor-repair-20260924\\replay\\491702-leg_sugar\\tibia\\body-result.json"
+    },
+    {
+      "case": "491702-mouth_high_salt",
+      "max_tibia_difference_deg": 6.980819014961106,
+      "joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "joint_motor_spikes": 10,
+      "first_joint_command_ms": 60.0,
+      "no_motion_difference_before_command": true,
+      "source_spikes_sha256": "fe6d5f0c953647fd8d70ebc8a2ddf7bff319aa945406d6cae51aae82d2e75c7c",
+      "legacy_body": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_high_salt\\legacy\\body-result.json",
+      "new_body": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_high_salt\\tibia\\body-result.json"
+    },
+    {
+      "case": "491702-mouth_sugar",
+      "max_tibia_difference_deg": 5.4201818178961725,
+      "joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "joint_motor_spikes": 7,
+      "first_joint_command_ms": 180.0,
+      "no_motion_difference_before_command": true,
+      "source_spikes_sha256": "3ba3d5d3c9c4a6e61bb3f1dcc1090bb2864f913776034b2ed8c080f1a3e3c3b2",
+      "legacy_body": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_sugar\\legacy\\body-result.json",
+      "new_body": "data\\derived\\motor-repair-20260924\\replay\\491702-mouth_sugar\\tibia\\body-result.json"
+    }
+  ],
+  "touch_controls": [
+    {
+      "seed": 491701,
+      "touch_identical_to_no_stimulus_body": true,
+      "unmapped_active_cells": 56,
+      "Fe_reductor_cells": [
+        {
+          "neuron_id": "806898",
+          "type": "Fe reductor MN",
+          "side": "R",
+          "segment": "T1",
+          "spikes": 2,
+          "reason": "Fe reductor 的运动功能未确定；身体无独立转节—股节关节。"
+        },
+        {
+          "neuron_id": "811652",
+          "type": "Fe reductor MN",
+          "side": "R",
+          "segment": "T1",
+          "spikes": 2,
+          "reason": "Fe reductor 的运动功能未确定；身体无独立转节—股节关节。"
+        },
+        {
+          "neuron_id": "813566",
+          "type": "Fe reductor MN",
+          "side": "R",
+          "segment": "T1",
+          "spikes": 1,
+          "reason": "Fe reductor 的运动功能未确定；身体无独立转节—股节关节。"
+        }
+      ]
+    },
+    {
+      "seed": 491702,
+      "touch_identical_to_no_stimulus_body": true,
+      "unmapped_active_cells": 51,
+      "Fe_reductor_cells": [
+        {
+          "neuron_id": "806898",
+          "type": "Fe reductor MN",
+          "side": "R",
+          "segment": "T1",
+          "spikes": 2,
+          "reason": "Fe reductor 的运动功能未确定；身体无独立转节—股节关节。"
+        },
+        {
+          "neuron_id": "811652",
+          "type": "Fe reductor MN",
+          "side": "R",
+          "segment": "T1",
+          "spikes": 2,
+          "reason": "Fe reductor 的运动功能未确定；身体无独立转节—股节关节。"
+        },
+        {
+          "neuron_id": "813566",
+          "type": "Fe reductor MN",
+          "side": "R",
+          "segment": "T1",
+          "spikes": 1,
+          "reason": "Fe reductor 的运动功能未确定；身体无独立转节—股节关节。"
+        }
+      ]
+    }
+  ],
+  "physical_runs": 30,
+  "all_physics_finite_without_warnings": true,
+  "closed_loop_runs": 10,
+  "salt_hypothesis_default_enabled": false,
+  "sugar_neural_response_unchanged_by_salt_sign": true,
+  "source_sha256": {
+    "chatflypt\\joint_motor.py": "5c05fffe5413a3ead10edd17085c4e89c2f8dbfaf35bb5b4e1ba3f48f486a141",
+    "chatflypt\\behavior_readout.py": "8912a62e75378b4b370db62d2894c31531c4d014abf51758a6d2873c9dd59cd1",
+    "chatflypt\\behavior_body.py": "34ecf673527ccdc54ff1cc5c8471314c39337b3db8ec1360e382f96202bfd3d5",
+    "chatflypt\\body_feedback.py": "88d92c97edfc7ac699880a8d1180615b0a85af3b1afdef7ecfb0eec82d8c7070",
+    "vendor\\badapple-fly\\backend\\body.py": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+    "vendor\\badapple-fly\\backend\\evidence.py": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e"
+  }
+}

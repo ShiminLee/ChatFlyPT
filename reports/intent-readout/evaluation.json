@@ -1,0 +1,80 @@
+{
+  "schema": "chatflypt.intent-readout-evaluation.v1",
+  "run_id": "conspecific-v9",
+  "mode": "continuous",
+  "protocol_sha256": "cf8cae22de8f771013977c09b3e4b71e8a08271973a8068f837420dfcffe028b",
+  "artifact": "data\\derived\\intent-readout\\malecns-intent.candidate.npz",
+  "artifact_sha256": "1c5f7209b15ee0347dc9937b9295948d5dae4421a78efd4650042b5b1d5e74d2",
+  "windows": {
+    "train": 266,
+    "validation": 266,
+    "test": 266
+  },
+  "features": 17147,
+  "outcome_rules": {
+    "turn_deg": 4.682973961854522,
+    "move_mm": 1.1482873517326588,
+    "turn_quantile": 0.85,
+    "activity_quantile": 0.5,
+    "rule": "Quantiles of the measured outcome distribution in the training split only"
+  },
+  "qualified_targets": [],
+  "unqualified_targets": [
+    "yaw_change_deg",
+    "path_length_mm"
+  ],
+  "validation": {
+    "correlation": {
+      "yaw": 0.09177847032931656,
+      "path": 0.5674392279415309
+    },
+    "turn_sign": {
+      "windows": 35,
+      "accuracy": 0.5428571428571428
+    },
+    "move_gate": {
+      "precision": 0.6774193548387096,
+      "recall": 0.813953488372093,
+      "predicted_active": 155,
+      "measured_active": 129
+    }
+  },
+  "test": {
+    "correlation": {
+      "yaw": 0.1546152104924404,
+      "path": 0.7085708153995643
+    },
+    "turn_sign": {
+      "windows": 41,
+      "accuracy": 0.4634146341463415
+    },
+    "move_gate": {
+      "precision": 0.6566265060240963,
+      "recall": 0.8934426229508197,
+      "predicted_active": 166,
+      "measured_active": 122
+    }
+  },
+  "test_discretized_words": {
+    "turn:left": 0,
+    "turn:right": 0,
+    "move:active": 0,
+    "move:still": 0
+  },
+  "controls": {
+    "shuffled_test_correlation": {
+      "yaw": -0.0009972421584900212,
+      "path": -0.11472086122252233
+    }
+  },
+  "served_matches_fitted_matrix": true,
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "limitations": [
+    "The body is driven by recorded neural activity through a pinned engineering controller; part of what is learned is that controller map.",
+    "A label is a measured movement, not a validated internal intention or a decoded command.",
+    "No window is labelled from the human sentence, the scene, the planned stimulus or the recorded motor commands.",
+    "Small-sample environment-only corpus; windows within a session are correlated.",
+    "Ground walking only; no free-flight aerodynamics."
+  ]
+}

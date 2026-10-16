@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://github.com/janclemenslab/das-menagerie/releases/download/Dmel_single_v1.0/pulse%2Bsine_model.h5",
+    "path": "pulse+sine_model.h5",
+    "sha256": "ca03ced978a8c5f5e294ba1cfb7e3d24cc084a8f4d8bdede938aae6608caef32",
+    "bytes": 8506072
+  },
+  {
+    "url": "https://github.com/janclemenslab/das-menagerie/releases/download/Dmel_single_v1.0/pulse%2Bsine_params.yaml",
+    "path": "pulse+sine_params.yaml",
+    "sha256": "1c7d220c6c622ad7887e6684c91a78490a4f3e3caf34d949340980846d512065",
+    "bytes": 1270
+  },
+  {
+    "url": "https://github.com/janclemenslab/das-menagerie/releases/download/Dmel_single_v1.0/data.npz",
+    "path": "data.npz",
+    "sha256": "21c4455b8baec37ec42dcf166ba9454fa7e20764492a74e65fead46a612a2df9",
+    "bytes": 8995896
+  }
+]

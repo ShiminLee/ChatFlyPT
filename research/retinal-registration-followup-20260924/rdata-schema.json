@@ -1,0 +1,483 @@
+{
+  "data/eyemap.RData": {
+    "sha256": "c3f63c69afdc3f381cdafabb1d376b8e25ec5a71bce67550ae42fcdd79cf618e",
+    "fields": [
+      {
+        "name": "eyemap",
+        "python_type": "ndarray",
+        "shape": [
+          778,
+          2
+        ]
+      },
+      {
+        "name": "med_xyz",
+        "python_type": "DataArray",
+        "shape": [
+          778,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "10",
+            "8",
+            "168",
+            "575",
+            "362"
+          ],
+          "dim_1": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      {
+        "name": "delsgs_mod",
+        "python_type": "DataFrame",
+        "shape": [
+          2285,
+          6
+        ],
+        "columns": [
+          "x1",
+          "y1",
+          "x2",
+          "y2",
+          "ind1",
+          "ind2"
+        ]
+      },
+      {
+        "name": "ucl_rot_sm",
+        "python_type": "DataArray",
+        "shape": [
+          778,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "419",
+            "444",
+            "467",
+            "492",
+            "516"
+          ],
+          "dim_1": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      {
+        "name": "lens_Mi1",
+        "python_type": "ndarray",
+        "shape": [
+          778,
+          2
+        ]
+      },
+      {
+        "name": "lens_ixy",
+        "python_type": "ndarray",
+        "shape": [
+          852,
+          3
+        ]
+      },
+      {
+        "name": "utp_lens_rot",
+        "python_type": "DataFrame",
+        "shape": [
+          852,
+          3
+        ],
+        "columns": [
+          "X",
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "name": "utp_lens_rot_shift",
+        "python_type": "DataFrame",
+        "shape": [
+          852,
+          3
+        ],
+        "columns": [
+          "X",
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "name": "utp_Mi1_rot",
+        "python_type": "DataFrame",
+        "shape": [
+          779,
+          3
+        ],
+        "columns": [
+          "X",
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "name": "utp_Mi1_rot_chiasm",
+        "python_type": "DataFrame",
+        "shape": [
+          779,
+          3
+        ],
+        "columns": [
+          "X",
+          "Y",
+          "Z"
+        ]
+      },
+      {
+        "name": "ind_Up_ucl",
+        "python_type": "ndarray",
+        "shape": [
+          9
+        ]
+      },
+      {
+        "name": "ind_Down_ucl",
+        "python_type": "ndarray",
+        "shape": [
+          10
+        ]
+      },
+      {
+        "name": "ucl_rot_aux",
+        "python_type": "DataArray",
+        "shape": [
+          817,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "419",
+            "444",
+            "467",
+            "492",
+            "516"
+          ],
+          "dim_1": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      {
+        "name": "med_xyz_aux",
+        "python_type": "DataArray",
+        "shape": [
+          817,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "10",
+            "8",
+            "168",
+            "575",
+            "362"
+          ],
+          "dim_1": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      {
+        "name": "eyemap_aux",
+        "python_type": "ndarray",
+        "shape": [
+          817,
+          2
+        ]
+      },
+      {
+        "name": "Npt",
+        "python_type": "ndarray",
+        "shape": [
+          1
+        ]
+      }
+    ]
+  },
+  "data/med_ixy.RData": {
+    "sha256": "4c2430e8e2b8e488d2d26643e141b1622d46b464ea3f43b016d0cb0b27bd5ff7",
+    "fields": [
+      {
+        "name": "med_ixy",
+        "python_type": "DataArray",
+        "shape": [
+          779,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "dim_1": [
+            "ind",
+            "x",
+            "y"
+          ]
+        }
+      }
+    ]
+  },
+  "data/lens_ixy.RData": {
+    "sha256": "49aaf06808a13b55f659ae02fbcd86db52849472196e6d891c54ca5824cc1b25",
+    "fields": [
+      {
+        "name": "lens_ixy",
+        "python_type": "ndarray",
+        "shape": [
+          786,
+          3
+        ]
+      }
+    ]
+  },
+  "data/Mi1_ind.RData": {
+    "sha256": "6993aca23a14ecc66179f2d7ddbdf0035fd2ba5ede46cad344c1130ed1a0d6d8",
+    "fields": [
+      {
+        "name": "Mi1_ind_PR",
+        "python_type": "list",
+        "shape": null
+      },
+      {
+        "name": "Mi1_ind_noPR",
+        "python_type": "ndarray",
+        "shape": [
+          56
+        ]
+      },
+      {
+        "name": "Mi1_ind_DRA",
+        "python_type": "ndarray",
+        "shape": [
+          42
+        ]
+      }
+    ]
+  },
+  "data/microCT/20240701.RData": {
+    "sha256": "8408447f8c5798fbc6d751de79ef4983d08c342a500c9a55b2a3b4b38d92deec",
+    "fields": [
+      {
+        "name": "lens",
+        "python_type": "DataArray",
+        "shape": [
+          1709,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "dim_1": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      {
+        "name": "cone",
+        "python_type": "DataArray",
+        "shape": [
+          1709,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "dim_1": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      {
+        "name": "ind_Up",
+        "python_type": "ndarray",
+        "shape": [
+          18
+        ]
+      },
+      {
+        "name": "ind_Down",
+        "python_type": "ndarray",
+        "shape": [
+          20
+        ]
+      },
+      {
+        "name": "ind_left_lens",
+        "python_type": "ndarray",
+        "shape": [
+          1709
+        ]
+      },
+      {
+        "name": "ind_left_cone",
+        "python_type": "ndarray",
+        "shape": [
+          1709
+        ]
+      },
+      {
+        "name": "eye_pca",
+        "python_type": "dict",
+        "shape": null,
+        "keys": [
+          "sdev",
+          "rotation",
+          "center",
+          "scale",
+          "x"
+        ]
+      },
+      {
+        "name": "vn",
+        "python_type": "ndarray",
+        "shape": [
+          3
+        ]
+      },
+      {
+        "name": "vf",
+        "python_type": "ndarray",
+        "shape": [
+          3
+        ]
+      },
+      {
+        "name": "vleft",
+        "python_type": "ndarray",
+        "shape": [
+          3
+        ]
+      },
+      {
+        "name": "ucl_rot",
+        "python_type": "DataArray",
+        "shape": [
+          1709,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "dim_1": [
+            "vf",
+            "vleft",
+            "vn"
+          ]
+        }
+      },
+      {
+        "name": "L",
+        "python_type": "ndarray",
+        "shape": [
+          1
+        ]
+      },
+      {
+        "name": "i_match",
+        "python_type": "ndarray",
+        "shape": [
+          1709
+        ]
+      },
+      {
+        "name": "ucl",
+        "python_type": "DataArray",
+        "shape": [
+          1709,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "dim_1": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      {
+        "name": "ucl_rot_sm",
+        "python_type": "DataArray",
+        "shape": [
+          1709,
+          3
+        ],
+        "dimensions": {
+          "dim_0": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "dim_1": [
+            "vf",
+            "vleft",
+            "vn"
+          ]
+        }
+      }
+    ]
+  },
+  "data/microCT/20240701_normals.RData": {
+    "sha256": "6d629031b92d3d2fd7e6cfbb042ba8bbbd5b2301f389c63a8c4281bdd7ae0d62",
+    "fields": [
+      {
+        "name": "nucl",
+        "python_type": "ndarray",
+        "shape": [
+          852,
+          3
+        ]
+      }
+    ]
+  }
+}

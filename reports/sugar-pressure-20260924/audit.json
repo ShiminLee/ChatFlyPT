@@ -1,0 +1,433 @@
+{
+  "windows": 28,
+  "cases": 26,
+  "seeds": [
+    491701,
+    491702
+  ],
+  "simulation_ms": 14000,
+  "feedback_samples": 140,
+  "all_physics_finite": true,
+  "physics_warnings": 0,
+  "llm_called": false,
+  "retrained": false,
+  "comparison_checks": [
+    {
+      "seed": 491701,
+      "comparison": "mouth_block vs mouth_sugar",
+      "identical_initial_body": true
+    },
+    {
+      "seed": 491701,
+      "comparison": "mouth_block vs mouth_high_salt",
+      "identical_initial_body": true
+    },
+    {
+      "seed": 491701,
+      "comparison": "mouth_block vs sugar_strong_touch",
+      "identical_initial_body": true
+    },
+    {
+      "seed": 491701,
+      "comparison": "empty vs weak_touch",
+      "identical_entire_body_trajectory": true
+    },
+    {
+      "seed": 491701,
+      "comparison": "empty vs strong_touch",
+      "identical_entire_body_trajectory": true
+    },
+    {
+      "seed": 491702,
+      "comparison": "mouth_block vs mouth_sugar",
+      "identical_initial_body": true
+    },
+    {
+      "seed": 491702,
+      "comparison": "mouth_block vs mouth_high_salt",
+      "identical_initial_body": true
+    },
+    {
+      "seed": 491702,
+      "comparison": "mouth_block vs sugar_strong_touch",
+      "identical_initial_body": true
+    },
+    {
+      "seed": 491702,
+      "comparison": "empty vs weak_touch",
+      "identical_entire_body_trajectory": true
+    },
+    {
+      "seed": 491702,
+      "comparison": "empty vs strong_touch",
+      "identical_entire_body_trajectory": true
+    }
+  ],
+  "records": [
+    {
+      "case": "malecns-491701-empty",
+      "turn": 0,
+      "source_sha256": "31d509e92951d458892af98ba9ce68dc97944558a83e2dce7cd28601755bb5d0",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012146578683150501,
+        "c_rostrum-c_haustellum-pitch": 0.002136410275559467
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "607a3d7f50e5058554a07ca64feabd886d282fd086cede77a592c90c6875475e",
+      "feedback_sha256": "5e6ff7c8e2f0bd30e55b1ed8cf4dffbb28f08582aef48688a1e92cac2ec98f90"
+    },
+    {
+      "case": "malecns-491701-far_sugar",
+      "turn": 0,
+      "source_sha256": "31d509e92951d458892af98ba9ce68dc97944558a83e2dce7cd28601755bb5d0",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012146578683150501,
+        "c_rostrum-c_haustellum-pitch": 0.002136410275559467
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "d2e7a1e1cee3ef927426b9e9db42d268320654f45c5a17d5ab01d99d4e4c8c64",
+      "feedback_sha256": "edb4f3a0824a87c5acbbb2c0dd938d7deeaeb475bbffb88726ad625201c1f119"
+    },
+    {
+      "case": "malecns-491701-mouth_block",
+      "turn": 0,
+      "source_sha256": "31d509e92951d458892af98ba9ce68dc97944558a83e2dce7cd28601755bb5d0",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.4789061909516694,
+        "c_rostrum-c_haustellum-pitch": 0.132737153520674
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "138a317d3cf57f4074504bace1945774c28cdfc36907b5c80a38300328a1ee13",
+      "feedback_sha256": "b783da32d314888a8c95e92ffcf7c6ee40c68df5763f1d46cb2197829d41214a"
+    },
+    {
+      "case": "malecns-491701-mouth_sugar",
+      "turn": 0,
+      "source_sha256": "34227e423526d510ff41d320d17d185a20290dfe507bdb9432cf092cb3b82f4a",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 22.605632139246815,
+        "c_rostrum-c_haustellum-pitch": 22.135361905650925
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "f383976f31eafb770d387bdf79838e38c98d24369c4777075b088f81f76747a1",
+      "feedback_sha256": "acbc7e4a3b01a1bb933496981725d63f17789eb1fc59e74e261e7115cc5eeb45"
+    },
+    {
+      "case": "malecns-491701-mouth_high_salt",
+      "turn": 0,
+      "source_sha256": "6568f5097d25d00dc33a68f1940c0cd5ee2a2e282cfe07817f96e237b1c6282d",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 28.176841662098823,
+        "c_rostrum-c_haustellum-pitch": 28.19931354741885
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "12d57517df5771befed6c8884b94f51ff9e335d3a42659e80f122f61caafd028",
+      "feedback_sha256": "e17f9ce6353eed8c1ad720b6773186cf3ee429cfea951f68b381ec7717fa5f13"
+    },
+    {
+      "case": "malecns-491701-leg_sugar",
+      "turn": 0,
+      "source_sha256": "ce1f9a6b6a49bf50c94e9c211eb19638180698bb5b60483a4d85f6b31ef222c7",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 4.51777673098752,
+        "c_rostrum-c_haustellum-pitch": 4.5056202945559
+      },
+      "raw_reread_agrees": false,
+      "readout_unavailable": true,
+      "body_sha256": "197363a4531dbc6b96527d478e0124772a7847a48a22375ee89bb0466cfc5284",
+      "feedback_sha256": "04319f65e6fac7e321893bb91182100c02ce2f1ac17bf50f031908985cd244ed"
+    },
+    {
+      "case": "malecns-491701-sweet_cue",
+      "turn": 0,
+      "source_sha256": "541c99571799b594c59a7ad955998d006f1f60e53e5828b5d64ebcc9b07f86f4",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 13.944735555563241,
+        "c_rostrum-c_haustellum-pitch": 13.945007340479238
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "2614a5985ddff9b68ef7ae2bbb9628bd66f9049af550483a7916ae5e4952e8ed",
+      "feedback_sha256": "edc9eb659860faedda3b6c28e7e03ad6f34c92b69101e70695e6668882bc9d54"
+    },
+    {
+      "case": "malecns-491701-weak_touch",
+      "turn": 0,
+      "source_sha256": "e567b15cd6ec409a3f0bb213a20edd743edcfad569617b7c3ff20c7e001ca690",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012146578683150501,
+        "c_rostrum-c_haustellum-pitch": 0.002136410275559467
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "d661773839938db84caca78777b43e7e83ded91af9a9bbccb12c1d92e363fa1d",
+      "feedback_sha256": "f2c83342e643880883d79063358b51b3f0c42588a269288e581263f2d890e0f8"
+    },
+    {
+      "case": "malecns-491701-strong_touch",
+      "turn": 0,
+      "source_sha256": "7bbdb4fbd1b151786a3a986c6804143db3875767221e03017b606194d075e192",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012146578683150501,
+        "c_rostrum-c_haustellum-pitch": 0.002136410275559467
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "034222a7df2b830937d18381ad0f36589423c34de6bf5a25e42b7347cdc86332",
+      "feedback_sha256": "3b516102d2e11b20b761dbc49aaad4a778df8b613f3383fff91d775eaa5d533e"
+    },
+    {
+      "case": "malecns-491701-strong_touch",
+      "turn": 1,
+      "source_sha256": "f6085a385b08391e55332ef4f27b6bba215650c16298934095410845a1dd4244",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.0028846795184029827,
+        "c_rostrum-c_haustellum-pitch": 0.0013783292206667533
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "1f7bfd8dd9c6abfcc0a595b5946b521ac012acd59fb529be67abc5821ab2b090",
+      "feedback_sha256": "a4abb8749d958d31d867a8ad89539320bcf26382fa842b074802791063b6433c"
+    },
+    {
+      "case": "malecns-491701-sugar_strong_touch",
+      "turn": 0,
+      "source_sha256": "21e3930b555f18a01a2e809328b2ee0229e085e84a6ee3988f94b7d9cee43a7a",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 22.428733170279123,
+        "c_rostrum-c_haustellum-pitch": 21.915459683649473
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "531ed8f9c42f47f638559862dd378687aef260456df902ff05df5c831837e749",
+      "feedback_sha256": "2fb2b3294493639842318ce6c37fd3dec7c8e1ee71adb562c1a45659209afa83"
+    },
+    {
+      "case": "malecns-491702-empty",
+      "turn": 0,
+      "source_sha256": "ecf39940957b6c44eb838ace8a187fd8501f810a16a69e09e203ce810bcdf77b",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012195395997679976,
+        "c_rostrum-c_haustellum-pitch": 0.0024677624296814975
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "767796d45b0356e21a7fcf910dbfc54a969dd02f6bb9f2cdad06854b9387bdd0",
+      "feedback_sha256": "c227384e1e86c0c862dd9835cd20bda2e6e46e084d20f76051c0ea2e591c3038"
+    },
+    {
+      "case": "malecns-491702-far_sugar",
+      "turn": 0,
+      "source_sha256": "ecf39940957b6c44eb838ace8a187fd8501f810a16a69e09e203ce810bcdf77b",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012195395997679976,
+        "c_rostrum-c_haustellum-pitch": 0.0024677624296814975
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "732ee916edac683c01b79538373df7fc35c4f6ccd4e9fc73959400208d81eadc",
+      "feedback_sha256": "776c1f75c2ca6abb409d760dfe5a69e540ebeaec0a557ebdbf8edb55cebccac5"
+    },
+    {
+      "case": "malecns-491702-mouth_block",
+      "turn": 0,
+      "source_sha256": "ecf39940957b6c44eb838ace8a187fd8501f810a16a69e09e203ce810bcdf77b",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.6880837289403345,
+        "c_rostrum-c_haustellum-pitch": 0.13267402559743538
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "e909d6f2c601a5f30d8de386ce01446f1e0e20e4c23dc145f4389401a6ad0d42",
+      "feedback_sha256": "470cae41da0f3484f4a7f99388d8466016f8f93ce510f429ff0eb68b54f85a12"
+    },
+    {
+      "case": "malecns-491702-mouth_sugar",
+      "turn": 0,
+      "source_sha256": "5b7d2bae4b2a9e70c0a6b61883ebc7299fd8b8402a731837a3d83a68f6e7a2b9",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 20.633542128078062,
+        "c_rostrum-c_haustellum-pitch": 20.13299606344315
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "c1674e9bd574298fed6d18b2244aa281e6c7d8b13cbf1c64097f8be6352a5e57",
+      "feedback_sha256": "09cc257897a420f0acf513dc6813c11e00869106b84dec5d38d8f71da5f2d1e0"
+    },
+    {
+      "case": "malecns-491702-mouth_high_salt",
+      "turn": 0,
+      "source_sha256": "3916d11203ebf59fae8428a9a74dd3549eabd0aabc89f9e6bdfd5c3925a093a8",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 26.855208467719226,
+        "c_rostrum-c_haustellum-pitch": 26.400761312704546
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "7751bb4b80e17a39386fb8618099be56e457b88f0536f853332e745ff2e18e0f",
+      "feedback_sha256": "9235d77a1418d6b4c7053b51d3e96d3831914ec1ad87857a71300a7e693bc887"
+    },
+    {
+      "case": "malecns-491702-leg_sugar",
+      "turn": 0,
+      "source_sha256": "e07bd1eda02f5536ebde5f45ab4260048ea6d9dddba1f72eed66cffe17a87cd8",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 4.51534940607738,
+        "c_rostrum-c_haustellum-pitch": 4.506840326964555
+      },
+      "raw_reread_agrees": false,
+      "readout_unavailable": true,
+      "body_sha256": "1e48efb1e837e258c296d85852210617002e179ded48abd65bc4d2a849b06614",
+      "feedback_sha256": "1b64a2b2bebd21543a2d8ce8a88b11244d8e050ff0a867149c495f097d63519c"
+    },
+    {
+      "case": "malecns-491702-sweet_cue",
+      "turn": 0,
+      "source_sha256": "f902b173d71131bb26dd6d7bfe2268d2b544d65202b0100ad35dd9d62db93ee4",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 27.546589765018062,
+        "c_rostrum-c_haustellum-pitch": 27.555966822219975
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "00884254f6693d4a5f57b8d21f3853dd62efe5d9de9c7f4820250403c759848c",
+      "feedback_sha256": "b78bf571f674455403f688462d8400567f05aa144b43b50d9a5c66908c50f75f"
+    },
+    {
+      "case": "malecns-491702-weak_touch",
+      "turn": 0,
+      "source_sha256": "e1d7f446dcd59d2deefed151b83e98c805cf69ad64b59b5b2a7997c53a6eac78",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012195395997679976,
+        "c_rostrum-c_haustellum-pitch": 0.0024677624296814975
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "27c213af4c81b5b272774b4261b2842441daa0f1a76a73c322ba1fa479dbf9e9",
+      "feedback_sha256": "ac4d96454ebdf6472fe1418ab09434fe43a1dc130afb86a6709fff0b5d3f4da1"
+    },
+    {
+      "case": "malecns-491702-strong_touch",
+      "turn": 0,
+      "source_sha256": "d27feb964b240840695a13c56201deca5b094ef5f6ee3397a07d1bd4f55098ca",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012195395997679976,
+        "c_rostrum-c_haustellum-pitch": 0.0024677624296814975
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "107f9c181daf86e0a303711038b381a623598c81f4804892ded0fe80aea621b2",
+      "feedback_sha256": "01c9d6b7d6eb3e532e9dbea92c6bd0bc0b227d7e70c4544f32a97f3fab672557"
+    },
+    {
+      "case": "malecns-491702-strong_touch",
+      "turn": 1,
+      "source_sha256": "871ec7cf6499fa97d0ee378927276bb201ad9701f2da1734631b0265927b5251",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.005936436519401268,
+        "c_rostrum-c_haustellum-pitch": 0.0024325960053128088
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "343c293ba12769d20a0d4c1439e5631072d381c3af9060b17b2fa8b40e294236",
+      "feedback_sha256": "eb869e0e977090b587abe26dbffa58cdd587b0fa0d4c04fea8880c6834e124a8"
+    },
+    {
+      "case": "malecns-491702-sugar_strong_touch",
+      "turn": 0,
+      "source_sha256": "3189c461d58858363e1b0e05f5b655a1dcd14a2b508352bd161393da1efe1418",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 16.905585745855536,
+        "c_rostrum-c_haustellum-pitch": 16.68795050112715
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "af564aec145bd246d6103f3342ed33050387f8e31daceb9d52897f7c17df5345",
+      "feedback_sha256": "b86240a8080fc6db240e7fd062202fc841214dd9f8c8e47ff1fd8de31fbce431"
+    },
+    {
+      "case": "flywire-491701-empty",
+      "turn": 0,
+      "source_sha256": "77e4688a674eb11e2c9af53ca30d5dbf6f4251bc97b7d431bca7cbd1a6638636",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012146578683150501,
+        "c_rostrum-c_haustellum-pitch": 0.002136410275559467
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "383ecfe9cc29c31948353f8e9c96d0f5d682b7bfc8d0f36abb0a974c8063fb85",
+      "feedback_sha256": "349345b1825945f30d77b93a0e1fa9835bc442a13f78a543b083ec4dbdceb0b4"
+    },
+    {
+      "case": "flywire-491701-far_sugar",
+      "turn": 0,
+      "source_sha256": "6da8037c016ed94cc03c9e29165fa8f9991d6506f27a44c212fe72ad5bfada11",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012146578683150501,
+        "c_rostrum-c_haustellum-pitch": 0.002136410275559467
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "b8f0fcd32bcc88931bdc87d7e59f5579f9a4d47eb1d71e524e34770b9542529f",
+      "feedback_sha256": "db1cacad87f1f5fd2b61a5853e86a249c884b97d3bacb56a2e57353bfce25811"
+    },
+    {
+      "case": "flywire-491701-heat",
+      "turn": 0,
+      "source_sha256": "88bcc3a5d018cb40b41c2a59e94e1659cd5973f7e34df758888f6010aeb90da2",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.03574192338251292,
+        "c_rostrum-c_haustellum-pitch": 0.013124051972154615
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "2bc2b013f812c74adddac10a48928f856ff698064d2393bbd3a2946d9176fa37",
+      "feedback_sha256": "a7caefaaeb3af416f7204a3d2172676a8f1e706f40a9221384e43eff6841e536"
+    },
+    {
+      "case": "flywire-491702-empty",
+      "turn": 0,
+      "source_sha256": "0853c112982e2249419f1f0af1c3574aa60ebd9c287e6f270190131957905e6c",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012195395997679976,
+        "c_rostrum-c_haustellum-pitch": 0.0024677624296814975
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "58c2dcb567370e7c91af9ab5a181c92ae944433bb22266d3bedff5043841b7d9",
+      "feedback_sha256": "e8aeacf2a6be8e38cbf6e6c3345cdcf86f03556be08964d88ae534968868a0d9"
+    },
+    {
+      "case": "flywire-491702-far_sugar",
+      "turn": 0,
+      "source_sha256": "cddefc84ac779a8c2673fad83590dbbbf9dea9b974e3ee5ce5141bd606eb6cf0",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.012195395997679976,
+        "c_rostrum-c_haustellum-pitch": 0.0024677624296814975
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "5f5c07c8e84e4aaf40223122dd7d7a9213c16ead243fed293e3a9195d3afc9cc",
+      "feedback_sha256": "f1988113a5208cb65b31028e03ece627cc755f3991f56ad75181cc1f8aa2727d"
+    },
+    {
+      "case": "flywire-491702-heat",
+      "turn": 0,
+      "source_sha256": "42a27a32e4d0ee7ba4ee6d4788c2daa7a06626236e898f31503cb2775ad13a34",
+      "mouth_joint_excursion_deg": {
+        "c_head-c_rostrum-pitch": 0.02867292894248573,
+        "c_rostrum-c_haustellum-pitch": 0.013052790390148316
+      },
+      "raw_reread_agrees": true,
+      "readout_unavailable": false,
+      "body_sha256": "95582e1d91ae6dbe751b3d732eee12fdf5e80a7f4550d6d47015f5845c654fd3",
+      "feedback_sha256": "d19b7ea78cd56c8b5bd6717441ded7591587061f799b3bc3e804ce10e6ce2c87"
+    }
+  ],
+  "note": "Rereading uses the original archived adapter to reproduce failures, not the current fallback. Correct provenance does not establish correct labels."
+}

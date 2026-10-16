@@ -1,0 +1,3507 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "trials": 410,
+  "features": 242417,
+  "feature_definition": "sqrt spike count; log1p positive and negative voltage area in mV ms",
+  "estimator": {
+    "algorithm": "ridge",
+    "alpha": 10,
+    "solver": "cholesky",
+    "fit_intercept": true
+  },
+  "catalogue_signature": "f42264d4f658419e596c3c8444db96a4eef2c14498ea4ce4217b5e6baeb45487",
+  "model_sha256": "2f665a39c1bc6e00e6cbf34d5d521c5fa2b3dd60a14f575b23e07b28e869e51b",
+  "cache": "data\\derived\\state-sensory\\trials\\malecns\\1f5f06f5134b9b54",
+  "all_sensory_and_direct_cells_excluded": true,
+  "qualified_labels": {
+    "water_specific:left": true,
+    "water_specific:right": true,
+    "sugar_specific:left": true,
+    "sugar_specific:right": true,
+    "high_salt:left": true,
+    "high_salt:right": true,
+    "fatty_acid_taste:left": true,
+    "fatty_acid_taste:right": true,
+    "foreleg_touch:left": false,
+    "foreleg_touch:right": false,
+    "midleg_touch:left": true,
+    "midleg_touch:right": true,
+    "hindleg_touch:left": true,
+    "hindleg_touch:right": true,
+    "wing_touch:left": true,
+    "wing_touch:right": true,
+    "body_touch:left": false,
+    "body_touch:right": true,
+    "chordotonal_proprioception:left": true,
+    "chordotonal_proprioception:right": true,
+    "hair_plate_proprioception:left": true,
+    "hair_plate_proprioception:right": true,
+    "campaniform_proprioception:left": true,
+    "campaniform_proprioception:right": true,
+    "haltere_proprioception:left": true,
+    "haltere_proprioception:right": true,
+    "leg_proprioception:left": true,
+    "leg_proprioception:right": true
+  },
+  "qualification_validation": {
+    "water_specific:left": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "water_specific:right": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "sugar_specific:left": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "sugar_specific:right": {
+      "true_positives": 7,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "high_salt:left": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "high_salt:right": {
+      "true_positives": 7,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "fatty_acid_taste:left": {
+      "true_positives": 10,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "fatty_acid_taste:right": {
+      "true_positives": 10,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "foreleg_touch:left": {
+      "true_positives": 6,
+      "false_positives": 1,
+      "precision": 0.8571428571428571,
+      "qualified": false
+    },
+    "foreleg_touch:right": {
+      "true_positives": 7,
+      "false_positives": 1,
+      "precision": 0.875,
+      "qualified": false
+    },
+    "midleg_touch:left": {
+      "true_positives": 8,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "midleg_touch:right": {
+      "true_positives": 7,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "hindleg_touch:left": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "hindleg_touch:right": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "wing_touch:left": {
+      "true_positives": 8,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "wing_touch:right": {
+      "true_positives": 7,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "body_touch:left": {
+      "true_positives": 7,
+      "false_positives": 1,
+      "precision": 0.875,
+      "qualified": false
+    },
+    "body_touch:right": {
+      "true_positives": 8,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "chordotonal_proprioception:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "chordotonal_proprioception:right": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "hair_plate_proprioception:left": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "hair_plate_proprioception:right": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "campaniform_proprioception:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "campaniform_proprioception:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "haltere_proprioception:left": {
+      "true_positives": 7,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "haltere_proprioception:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "leg_proprioception:left": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "leg_proprioception:right": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    }
+  },
+  "qualification_rule": "All isolated positive validation trials detected; precision >= 0.90 across ALL validation trials, including negative/wrong-side/mixed inputs; counts>0 or voltage peak>1e-6 mV.",
+  "test": {
+    "trials": 109,
+    "exact_set_accuracy": 0.7155963302752294,
+    "micro_f1": 0.8816705336426914,
+    "per_label_f1": {
+      "water_specific:left": 0.9090909090909091,
+      "water_specific:right": 0.9090909090909091,
+      "sugar_specific:left": 0.8235294117647058,
+      "sugar_specific:right": 1.0,
+      "high_salt:left": 0.7058823529411765,
+      "high_salt:right": 0.8421052631578947,
+      "fatty_acid_taste:left": 0.9411764705882353,
+      "fatty_acid_taste:right": 1.0,
+      "foreleg_touch:left": 0.0,
+      "foreleg_touch:right": 0.0,
+      "midleg_touch:left": 1.0,
+      "midleg_touch:right": 1.0,
+      "hindleg_touch:left": 1.0,
+      "hindleg_touch:right": 1.0,
+      "wing_touch:left": 0.9090909090909091,
+      "wing_touch:right": 1.0,
+      "body_touch:left": 0.0,
+      "body_touch:right": 1.0,
+      "chordotonal_proprioception:left": 1.0,
+      "chordotonal_proprioception:right": 1.0,
+      "hair_plate_proprioception:left": 1.0,
+      "hair_plate_proprioception:right": 1.0,
+      "campaniform_proprioception:left": 1.0,
+      "campaniform_proprioception:right": 1.0,
+      "haltere_proprioception:left": 1.0,
+      "haltere_proprioception:right": 1.0,
+      "leg_proprioception:left": 1.0,
+      "leg_proprioception:right": 1.0
+    }
+  },
+  "single": {
+    "trials": 84,
+    "exact_set_accuracy": 0.8571428571428571,
+    "micro_f1": 0.9345794392523364,
+    "per_label_f1": {
+      "water_specific:left": 1.0,
+      "water_specific:right": 1.0,
+      "sugar_specific:left": 1.0,
+      "sugar_specific:right": 1.0,
+      "high_salt:left": 0.8,
+      "high_salt:right": 1.0,
+      "fatty_acid_taste:left": 1.0,
+      "fatty_acid_taste:right": 1.0,
+      "foreleg_touch:left": 0.0,
+      "foreleg_touch:right": 0.0,
+      "midleg_touch:left": 1.0,
+      "midleg_touch:right": 1.0,
+      "hindleg_touch:left": 1.0,
+      "hindleg_touch:right": 1.0,
+      "wing_touch:left": 1.0,
+      "wing_touch:right": 1.0,
+      "body_touch:left": 0.0,
+      "body_touch:right": 1.0,
+      "chordotonal_proprioception:left": 1.0,
+      "chordotonal_proprioception:right": 1.0,
+      "hair_plate_proprioception:left": 1.0,
+      "hair_plate_proprioception:right": 1.0,
+      "campaniform_proprioception:left": 1.0,
+      "campaniform_proprioception:right": 1.0,
+      "haltere_proprioception:left": 1.0,
+      "haltere_proprioception:right": 1.0,
+      "leg_proprioception:left": 1.0,
+      "leg_proprioception:right": 1.0
+    }
+  },
+  "mixture": {
+    "trials": 24,
+    "exact_set_accuracy": 0.20833333333333334,
+    "micro_f1": 0.8294930875576036,
+    "per_label_f1": {
+      "water_specific:left": 0.6666666666666666,
+      "water_specific:right": 0.6666666666666666,
+      "sugar_specific:left": 0.6666666666666666,
+      "sugar_specific:right": 1.0,
+      "high_salt:left": 0.5714285714285714,
+      "high_salt:right": 0.7272727272727273,
+      "fatty_acid_taste:left": 0.8888888888888888,
+      "fatty_acid_taste:right": 1.0,
+      "foreleg_touch:left": 0.0,
+      "foreleg_touch:right": 0.0,
+      "midleg_touch:left": 1.0,
+      "midleg_touch:right": 1.0,
+      "hindleg_touch:left": 1.0,
+      "hindleg_touch:right": 1.0,
+      "wing_touch:left": 0.6666666666666666,
+      "wing_touch:right": 1.0,
+      "body_touch:left": 0.0,
+      "body_touch:right": 1.0,
+      "chordotonal_proprioception:left": 1.0,
+      "chordotonal_proprioception:right": 1.0,
+      "hair_plate_proprioception:left": 1.0,
+      "hair_plate_proprioception:right": 1.0,
+      "campaniform_proprioception:left": 1.0,
+      "campaniform_proprioception:right": 1.0,
+      "haltere_proprioception:left": 1.0,
+      "haltere_proprioception:right": 1.0,
+      "leg_proprioception:left": 1.0,
+      "leg_proprioception:right": 1.0
+    }
+  },
+  "ood": {
+    "trials": 43,
+    "exact_set_accuracy": 0.7209302325581395,
+    "micro_f1": 0.8712871287128713,
+    "per_label_f1": {
+      "water_specific:left": 0.6666666666666666,
+      "water_specific:right": 1.0,
+      "sugar_specific:left": 0.0,
+      "sugar_specific:right": 0.6666666666666666,
+      "high_salt:left": 0.5,
+      "high_salt:right": 1.0,
+      "fatty_acid_taste:left": 1.0,
+      "fatty_acid_taste:right": 0.6666666666666666,
+      "foreleg_touch:left": 0.0,
+      "foreleg_touch:right": 0.0,
+      "midleg_touch:left": 1.0,
+      "midleg_touch:right": 1.0,
+      "hindleg_touch:left": 1.0,
+      "hindleg_touch:right": 1.0,
+      "wing_touch:left": 1.0,
+      "wing_touch:right": 1.0,
+      "body_touch:left": 0.0,
+      "body_touch:right": 1.0,
+      "chordotonal_proprioception:left": 1.0,
+      "chordotonal_proprioception:right": 1.0,
+      "hair_plate_proprioception:left": 1.0,
+      "hair_plate_proprioception:right": 1.0,
+      "campaniform_proprioception:left": 1.0,
+      "campaniform_proprioception:right": 1.0,
+      "haltere_proprioception:left": 1.0,
+      "haltere_proprioception:right": 1.0,
+      "leg_proprioception:left": 1.0,
+      "leg_proprioception:right": 1.0
+    }
+  },
+  "controls": {
+    "shuffled": {
+      "micro_f1": 0.060324825986078884
+    },
+    "zero": {
+      "micro_f1": 0.0,
+      "predicted_labels": []
+    }
+  },
+  "test_predictions": [
+    {
+      "split": "test",
+      "seed": 700170,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1555061747795592,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700171,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1880658074001285,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700172,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9583655390017738,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700173,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 1.2447593784286697,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700174,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.9158446401769367,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:left",
+        "water_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700175,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.8629068760181862,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:left",
+        "water_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700176,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.1319478870387467,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:left",
+        "high_salt:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700177,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.2065574525676201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:left",
+        "high_salt:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700178,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.7604328566166383,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700179,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.2223104046882787,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700180,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.152909288449441,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:left",
+        "sugar_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700181,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.1998331712410666,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:left",
+        "sugar_specific:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700182,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.7547199609012967,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700183,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.1679536527476206,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700184,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.0988785901896276,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700185,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.2320177040977556,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700186,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.0208123877431896,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:left",
+        "high_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700187,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.2329524285305666,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:left",
+        "high_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700188,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 1.1391177399314407,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700189,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.7650918329945561,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700190,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.7760002609664187,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700191,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.8986947081539548,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700192,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.8818663919839665,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left",
+        "fatty_acid_taste:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700193,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.9834575433080941,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left",
+        "fatty_acid_taste:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700194,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.7947537397399753,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700195,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.8779886496305176,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700196,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.7832129185629688,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700197,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.1255543627683946,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700198,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9129540453215108,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700199,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.963812423351233,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700200,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1431793535816563,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700201,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 0.9954301756498924,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700202,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.1597777705350862,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700203,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.0971212585448273,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700204,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8756489553648912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left",
+        "midleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700205,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0473661183955318,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left",
+        "midleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700206,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.803897073039318,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700207,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.0485920474301276,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700208,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.2456878907842102,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700209,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.139504581207283,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700210,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0798138399799488,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700211,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8784987616532871,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700212,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8124025695237915,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wing_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700213,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.2486172290493474,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wing_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700214,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.8460083975919745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wing_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700215,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.9292476725128267,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wing_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700216,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.9323541595474096,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wing_touch:left",
+        "wing_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700217,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.9694433514306313,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wing_touch:left",
+        "wing_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700218,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1462065814704947,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700219,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.0133107277454185,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700220,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.9268754172283902,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "body_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700221,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 1.0142538326763335,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "body_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700222,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.8295816166304555,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "body_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700223,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.7811379368437754,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "body_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700224,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.10242631541403,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700225,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.9939523658141372,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700226,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.8034356298538539,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700227,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 1.08292033045268,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700228,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.993580175153068,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:left",
+        "chordotonal_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700229,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8236504671659026,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:left",
+        "chordotonal_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700230,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.9111956951482916,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700231,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1735821981914745,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700232,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.9178913551894855,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700233,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.8474585760464393,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700234,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9884099672776586,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:left",
+        "hair_plate_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700235,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.7785717848892986,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:left",
+        "hair_plate_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700236,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.9326902718269494,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700237,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.7961650312665403,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700238,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.0675824658663857,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700239,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 1.0800645843317984,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700240,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9604372139745366,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:left",
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700241,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 1.2231678429256014,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:left",
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700242,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.2263335100421762,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700243,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.7533080521607477,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700244,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 1.09154422799389,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700245,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.9517822500985211,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700246,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0043905717105517,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:left",
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700247,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8969381463754489,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:left",
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700248,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8668349437049572,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700249,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.0912834670695801,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700250,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.0727141262125637,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700251,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.9127917745682359,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700252,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.2189084618221049,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:left",
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700253,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.002455083454463,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:left",
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700254,
+      "kind": "blank",
+      "items": [],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700255,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "water_specific:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700256,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "water_specific:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700257,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "water_specific:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700258,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700259,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700260,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "sugar_specific:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700261,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "high_salt:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700262,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "high_salt:left",
+        "high_salt:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700263,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "high_salt:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700264,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700265,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700266,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left",
+        "fatty_acid_taste:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700267,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700268,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700269,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700270,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700271,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "midleg_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700272,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left",
+        "midleg_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700273,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700274,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700275,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700276,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "wing_touch:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700277,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "wing_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700278,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "wing_touch:left",
+        "wing_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700279,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700280,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "body_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700281,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "body_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700282,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700283,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700284,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:left",
+        "chordotonal_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700285,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700286,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700287,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:left",
+        "hair_plate_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700288,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700289,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700290,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "campaniform_proprioception:left",
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700291,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700292,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700293,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "haltere_proprioception:left",
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700294,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700295,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700296,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "leg_proprioception:left",
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700297,
+      "kind": "blank",
+      "items": [],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700386,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 0.8831665386734591,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8831665386734591,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 0.8831665386734591,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left",
+        "hair_plate_proprioception:left",
+        "hair_plate_proprioception:right",
+        "haltere_proprioception:left",
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700387,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.912739539623739,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.912739539623739,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.912739539623739,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700388,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0768584652122475,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left",
+        "fatty_acid_taste:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "haltere_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700389,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "bilateral",
+          "intensity": 1.1718416147053843,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left",
+        "fatty_acid_taste:right",
+        "hindleg_touch:right",
+        "chordotonal_proprioception:left",
+        "haltere_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700390,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8676474351094854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 0.8676474351094854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 0.8676474351094854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:right",
+        "wing_touch:left",
+        "body_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700391,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "bilateral",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "bilateral",
+          "intensity": 1.0402125505847384,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:left",
+        "high_salt:left",
+        "high_salt:right",
+        "body_touch:right",
+        "chordotonal_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700392,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.8396668609973224,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700393,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "right",
+          "intensity": 1.1932002777328201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1932002777328201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.1932002777328201,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "chordotonal_proprioception:right",
+        "haltere_proprioception:left",
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700394,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 1.0764868498972027,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 1.0764868498972027,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:right",
+        "hair_plate_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700395,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 0.8845852104864146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.8845852104864146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 0.8845852104864146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:right",
+        "leg_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700396,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.0221663596102455,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:left",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "haltere_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700397,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 0.8556407220852231,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:left",
+        "haltere_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700398,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "right",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "left",
+          "intensity": 0.9997113673871829,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:right",
+        "fatty_acid_taste:left",
+        "haltere_proprioception:left",
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700399,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.9971991099432636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9971991099432636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9971991099432636,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "campaniform_proprioception:left",
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700400,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "left",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "left",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "right",
+          "intensity": 0.8692177751943654,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:left",
+        "midleg_touch:right",
+        "chordotonal_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700401,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sugar_specific",
+          "side": "bilateral",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "chordotonal_proprioception",
+          "side": "bilateral",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "bilateral",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "right",
+          "intensity": 1.190123806028715,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:left",
+        "sugar_specific:right",
+        "high_salt:right",
+        "chordotonal_proprioception:left",
+        "chordotonal_proprioception:right",
+        "hair_plate_proprioception:left",
+        "campaniform_proprioception:left",
+        "campaniform_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700402,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "right",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "water_specific",
+          "side": "left",
+          "intensity": 1.1480859053569943,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "water_specific:left",
+        "sugar_specific:right",
+        "high_salt:right",
+        "hair_plate_proprioception:left",
+        "hair_plate_proprioception:right",
+        "leg_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700403,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "wing_touch",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "haltere_proprioception",
+          "side": "left",
+          "intensity": 1.1993848503294597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "midleg_touch:left",
+        "hair_plate_proprioception:left",
+        "haltere_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700404,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9918948010187854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 0.9918948010187854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "right",
+          "intensity": 0.9918948010187854,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hair_plate_proprioception:right",
+        "leg_proprioception:left",
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700405,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "haltere_proprioception",
+          "side": "right",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "left",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "foreleg_touch",
+          "side": "left",
+          "intensity": 0.9445755749338576,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sugar_specific:left",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "haltere_proprioception:right",
+        "leg_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700406,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "midleg_touch",
+          "side": "left",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "left",
+          "intensity": 1.1775058754106378,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "fatty_acid_taste:right",
+        "midleg_touch:left",
+        "leg_proprioception:left",
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700407,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hair_plate_proprioception",
+          "side": "bilateral",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "right",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wing_touch",
+          "side": "right",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "body_touch",
+          "side": "right",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "hindleg_touch",
+          "side": "left",
+          "intensity": 1.17518608772319,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "hindleg_touch:left",
+        "wing_touch:right",
+        "body_touch:right",
+        "hair_plate_proprioception:left",
+        "hair_plate_proprioception:right",
+        "leg_proprioception:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700408,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "foreleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "midleg_touch",
+          "side": "bilateral",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "high_salt",
+          "side": "right",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.0690423439745511,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "campaniform_proprioception:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700409,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "hindleg_touch",
+          "side": "right",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sugar_specific",
+          "side": "left",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "fatty_acid_taste",
+          "side": "right",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "leg_proprioception",
+          "side": "bilateral",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "campaniform_proprioception",
+          "side": "left",
+          "intensity": 1.0762391348716431,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "high_salt:left",
+        "fatty_acid_taste:right",
+        "hindleg_touch:right",
+        "campaniform_proprioception:left",
+        "leg_proprioception:left",
+        "leg_proprioception:right"
+      ]
+    }
+  ],
+  "limitations": [
+    "Fixed synthetic intervention benchmark; not natural sensory accuracy.",
+    "Electrical response is under unchanged LIF equations, not calibrated graded visual physiology."
+  ]
+}

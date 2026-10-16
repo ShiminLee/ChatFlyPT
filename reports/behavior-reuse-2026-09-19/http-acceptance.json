@@ -1,0 +1,289 @@
+{
+  "cases": [
+    {
+      "name": "right_foreleg_touch",
+      "route": "/api/communicate",
+      "request": {
+        "message": "模拟右前腿被触碰",
+        "seed": 81000
+      },
+      "observation_id": "18c6ba2ba4894f5bb4ad94d456933e43",
+      "dataset": "MaleCNS v1.0",
+      "spikes": 434,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\18c6ba2ba4894f5bb4ad94d456933e43.npz",
+        "sha256": "1f5cbc613e82b2c3bbd2afe17b27064b61fbbaa48ef51c0e24aa490eba7cf634"
+      },
+      "status": "no_motor_activity",
+      "controller": "badapple_hybrid_v1",
+      "context": "ground",
+      "frames": 0,
+      "motor_spikes": 0,
+      "source_spikes_sha256": "d19b5cc22ae02092a4e78ea3c08055bd9a17f4c9daf7725e2c93d99f21f02755",
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "physical_summary": {
+        "finite_state": null,
+        "physics_warnings": 0
+      },
+      "reply": "内部活动读出为：右侧前腿触毛接触。记录到运动相关神经活动，但未形成当前控制器可用的动作命令。"
+    },
+    {
+      "name": "legacy_sugar_ground",
+      "route": "/api/observe",
+      "request": {
+        "words": [
+          "sugar"
+        ],
+        "seed": 42
+      },
+      "observation_id": "fa22d75da0a64d7b8088a4776816dd9c",
+      "dataset": "FlyWire v783",
+      "spikes": 4052,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\fa22d75da0a64d7b8088a4776816dd9c.npz",
+        "sha256": "6deee29bc88458aa3ff21ea3ce00f3feb64ba1765ec8b7733bde7c7595f4a73a"
+      },
+      "status": "no_motor_activity",
+      "controller": "badapple_hybrid_v1",
+      "context": "ground",
+      "frames": 0,
+      "motor_spikes": 0,
+      "source_spikes_sha256": "29db321ccd93efaf5ac7b499a79aec6f3600d00cb99ac164379c744450992c1e",
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "physical_summary": {
+        "finite_state": null,
+        "physics_warnings": 0
+      },
+      "reply": "我感受到了甜味。刺激后，内部神经网络出现了活动。"
+    },
+    {
+      "name": "legacy_sugar_tethered",
+      "route": "/api/observe",
+      "request": {
+        "words": [
+          "sugar"
+        ],
+        "seed": 42,
+        "body_context": "tethered_flight"
+      },
+      "observation_id": "cf2cbf16ee7f44978058c0a89c8e126c",
+      "dataset": "FlyWire v783",
+      "spikes": 4052,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\cf2cbf16ee7f44978058c0a89c8e126c.npz",
+        "sha256": "6deee29bc88458aa3ff21ea3ce00f3feb64ba1765ec8b7733bde7c7595f4a73a"
+      },
+      "status": "no_motor_activity",
+      "controller": "badapple_hybrid_v1",
+      "context": "tethered_flight",
+      "frames": 0,
+      "motor_spikes": 0,
+      "source_spikes_sha256": "29db321ccd93efaf5ac7b499a79aec6f3600d00cb99ac164379c744450992c1e",
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "physical_summary": {
+        "finite_state": null,
+        "physics_warnings": 0
+      },
+      "reply": "我感受到了甜味。刺激后，内部神经网络出现了活动。"
+    },
+    {
+      "name": "blank",
+      "route": "/api/stimulate",
+      "request": {
+        "items": [],
+        "seed": 5900007
+      },
+      "observation_id": "792fec7f508f4d2eb5e230dd68e7f5f5",
+      "dataset": "FlyWire v783",
+      "spikes": 0,
+      "raw_record": {
+        "file": "data\\derived\\pathway-trials\\792fec7f508f4d2eb5e230dd68e7f5f5.npz",
+        "sha256": "cc5f82fc09152fa5a79b76675cfe7f391d67b12755e0c54b730edf814a0ab6bb"
+      },
+      "status": "no_motor_activity",
+      "controller": "badapple_hybrid_v1",
+      "context": "ground",
+      "frames": 0,
+      "motor_spikes": 0,
+      "source_spikes_sha256": "70200482b9fe6656f215a97b71332dd6725b80e2cb32e0052a4d47916ca1579b",
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "physical_summary": {
+        "finite_state": null,
+        "physics_warnings": 0
+      },
+      "reply": "本次没有记录到可读出的内部神经活动。"
+    }
+  ],
+  "invalid_context_http_status": 400,
+  "geometry_count": 69,
+  "decoder_sha256": {
+    "data\\derived\\state-sensory\\flywire-decoder.npz": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3",
+    "data\\derived\\state-sensory\\malecns-decoder.npz": "1b4d619c4b49580cc955706ebc8ee33da41b510421dccaa1d5d570b297cabb4d"
+  },
+  "assertions_passed": true,
+  "llm_calls": 0
+}

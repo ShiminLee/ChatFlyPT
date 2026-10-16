@@ -1,0 +1,882 @@
+{
+  "schema": "chatflypt.side-delivery-probe.v1",
+  "scope": "Engineering check of the declared-side following source in a real session; no neural or behavioural claim, nothing written to a corpus.",
+  "reach_mm": {
+    "yeast": 0.16,
+    "heat": 0.12,
+    "cold": 0.12
+  },
+  "rows": [
+    {
+      "kind": "yeast",
+      "declared_side": "left",
+      "seed": 991000,
+      "own_side_events": 8,
+      "other_side_events": 0,
+      "strictly_one_sided": true,
+      "per_sample": [
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 2,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 2,
+          "right": 0
+        }
+      ],
+      "group": "yeast"
+    },
+    {
+      "kind": "yeast",
+      "declared_side": "right",
+      "seed": 991000,
+      "own_side_events": 10,
+      "other_side_events": 0,
+      "strictly_one_sided": true,
+      "per_sample": [
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 2
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "group": "yeast"
+    },
+    {
+      "kind": "cold",
+      "declared_side": "left",
+      "seed": 991000,
+      "own_side_events": 12,
+      "other_side_events": 0,
+      "strictly_one_sided": true,
+      "per_sample": [
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 1,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "group": "cold"
+    },
+    {
+      "kind": "cold",
+      "declared_side": "right",
+      "seed": 991000,
+      "own_side_events": 18,
+      "other_side_events": 0,
+      "strictly_one_sided": true,
+      "per_sample": [
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 2
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 2
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 2
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 0
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 1
+        },
+        {
+          "left": 0,
+          "right": 2
+        },
+        {
+          "left": 0,
+          "right": 0
+        }
+      ],
+      "group": "cold"
+    }
+  ],
+  "summary": {
+    "yeast:left": {
+      "windows": 1,
+      "one_sided": 1,
+      "own_events": 8,
+      "other_events": 0
+    },
+    "yeast:right": {
+      "windows": 1,
+      "one_sided": 1,
+      "own_events": 10,
+      "other_events": 0
+    },
+    "cold:left": {
+      "windows": 1,
+      "one_sided": 1,
+      "own_events": 12,
+      "other_events": 0
+    },
+    "cold:right": {
+      "windows": 1,
+      "one_sided": 1,
+      "own_events": 18,
+      "other_events": 0
+    }
+  },
+  "biologically_calibrated": false
+}

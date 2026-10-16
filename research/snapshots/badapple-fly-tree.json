@@ -1,0 +1,240 @@
+{
+  "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21dc229269c62c6c4403a648d08be34d90b6df69",
+      "size": 196,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/21dc229269c62c6c4403a648d08be34d90b6df69"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06c2b480253eae08283db4d3e6223f9392185c65",
+      "size": 2002,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/06c2b480253eae08283db4d3e6223f9392185c65"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0afd55c2ab7587891301dd89a0bb87b01c4e8a8c",
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/trees/0afd55c2ab7587891301dd89a0bb87b01c4e8a8c"
+    },
+    {
+      "path": "assets/badapple-small.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "504388b3548ca3db0318b0038e7c8a8ef67c2143",
+      "size": 7424067,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/504388b3548ca3db0318b0038e7c8a8ef67c2143"
+    },
+    {
+      "path": "backend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cbc256c3a4c5a79b51e5cfc6ccfafed09063013",
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/trees/0cbc256c3a4c5a79b51e5cfc6ccfafed09063013"
+    },
+    {
+      "path": "backend/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7032244ae74a124befa6218971cf76b4c0c2c449",
+      "size": 15313,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/7032244ae74a124befa6218971cf76b4c0c2c449"
+    },
+    {
+      "path": "backend/body.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c10b7e1bba791fba8634b1c1dea9aea2023907",
+      "size": 8150,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/c6c10b7e1bba791fba8634b1c1dea9aea2023907"
+    },
+    {
+      "path": "backend/brain.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8230f47c1f165a7fd80074c46699b09fdfdd4a4e",
+      "size": 4714,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/8230f47c1f165a7fd80074c46699b09fdfdd4a4e"
+    },
+    {
+      "path": "backend/evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "324575f0cfe8dab1712e136cf0fcc765e22f63f7",
+      "size": 8320,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/324575f0cfe8dab1712e136cf0fcc765e22f63f7"
+    },
+    {
+      "path": "backend/recording.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e8be7d054165782be8b11f7f35f645651cc079a",
+      "size": 1308,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/0e8be7d054165782be8b11f7f35f645651cc079a"
+    },
+    {
+      "path": "backend/video.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1253d0d4ea390f2d3c10af585b684e8ebb526d35",
+      "size": 2364,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/1253d0d4ea390f2d3c10af585b684e8ebb526d35"
+    },
+    {
+      "path": "frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5e29aa73990ff935fd80e44b47c44a478fcca8e",
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/trees/d5e29aa73990ff935fd80e44b47c44a478fcca8e"
+    },
+    {
+      "path": "frontend/activity.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a3a4eb59d5af2a2a50b6c11fe2f2f28666c1158",
+      "size": 492,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/3a3a4eb59d5af2a2a50b6c11fe2f2f28666c1158"
+    },
+    {
+      "path": "frontend/group-colors.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6fb012bdd537cbb7fcf99b8ce0d83dacf4660cc",
+      "size": 609,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/a6fb012bdd537cbb7fcf99b8ce0d83dacf4660cc"
+    },
+    {
+      "path": "frontend/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eab349a668324be423ecfaac04bafaad14e6f823",
+      "size": 6264,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/eab349a668324be423ecfaac04bafaad14e6f823"
+    },
+    {
+      "path": "frontend/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96374f33cd8265005e8f08c9e1166d8ecd379682",
+      "size": 28739,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/96374f33cd8265005e8f08c9e1166d8ecd379682"
+    },
+    {
+      "path": "frontend/neuron-groups.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f877beb194772174402cde21c25e9138dec5ab0b",
+      "size": 1469652,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/f877beb194772174402cde21c25e9138dec5ab0b"
+    },
+    {
+      "path": "frontend/recording.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2b5a700457f91e8190239c90d4fa20f68fa5ce8",
+      "size": 2393,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/b2b5a700457f91e8190239c90d4fa20f68fa5ce8"
+    },
+    {
+      "path": "frontend/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "235574210ed4f87a05e25131843dfff227f37d5f",
+      "size": 9155,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/235574210ed4f87a05e25131843dfff227f37d5f"
+    },
+    {
+      "path": "frontend/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "514f95c4180b4ff8ec8f4e9f644d392ed027df12",
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/trees/514f95c4180b4ff8ec8f4e9f644d392ed027df12"
+    },
+    {
+      "path": "frontend/vendor/OrbitControls.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eea26706dae735dade19367026185f6e68f5cf55",
+      "size": 38703,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/eea26706dae735dade19367026185f6e68f5cf55"
+    },
+    {
+      "path": "frontend/vendor/THREE-LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf781430404b0ae0ba7d8dea3457a3515dd7c9b9",
+      "size": 1081,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/cf781430404b0ae0ba7d8dea3457a3515dd7c9b9"
+    },
+    {
+      "path": "frontend/vendor/three.core.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dcd0fbcbc04b8d9a20ecb96c1ce344cb55150d5",
+      "size": 1403455,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/7dcd0fbcbc04b8d9a20ecb96c1ce344cb55150d5"
+    },
+    {
+      "path": "frontend/vendor/three.module.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "477ca4dafa7af919a2b9818e01b5ae25198d4aa4",
+      "size": 603113,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/477ca4dafa7af919a2b9818e01b5ae25198d4aa4"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43173e383f3d2b94d82019f3249e3ad2eeb63aab",
+      "size": 526,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/43173e383f3d2b94d82019f3249e3ad2eeb63aab"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d09e8db7f5215b17dab3509ab70dbc48dbe7f075",
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/trees/d09e8db7f5215b17dab3509ab70dbc48dbe7f075"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9f6d0969398da678bebcf0df511e64ec984ff0",
+      "size": 1529,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/aa9f6d0969398da678bebcf0df511e64ec984ff0"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c5df9d7aa72b0dff7cfc57ff06f6a8f56d256c2",
+      "size": 3500,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/6c5df9d7aa72b0dff7cfc57ff06f6a8f56d256c2"
+    },
+    {
+      "path": "scripts/prepare_visual_groups.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1666d3d17ea5abab93a899a6aa0cdd5c245e6fd",
+      "size": 2778,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/a1666d3d17ea5abab93a899a6aa0cdd5c245e6fd"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7277d4dd3fa59ebfadbaedee410aebed22c5b76",
+      "size": 93863,
+      "url": "https://api.github.com/repos/kevinlinxc/badapple-fly/git/blobs/e7277d4dd3fa59ebfadbaedee410aebed22c5b76"
+    }
+  ]
+}

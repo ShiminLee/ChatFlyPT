@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source": {
+    "id": "flygym",
+    "repository": "https://github.com/NeLy-EPFL/flygym",
+    "commit": "38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+    "archive_sha256": "3bac51eb25b8c6715172eb898665ceff5a91aa78b088715d7077443faa84380a",
+    "local_path": "vendor/flygym",
+    "retrieved_at": "2026-09-19T05:37:53.260366+00:00",
+    "archive_url": "https://codeload.github.com/NeLy-EPFL/flygym/tar.gz/38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+    "license_note": "Apache-2.0",
+    "verified_archive_sha256": "3bac51eb25b8c6715172eb898665ceff5a91aa78b088715d7077443faa84380a",
+    "archive_files_verified_against_vendor": 236,
+    "mismatches": []
+  },
+  "sha256": {
+    "chatflypt/body_simulation.py": "406bebe1ccb280d96f05991e0d4ea1d5ed21ba33b9c7ef2b07eb6abc262e0fa9",
+    "reports/body-simulation/requirements-lock.txt": "e699082a600d314fe67c2828007501b09910bee3cbb1cdcc57c2b188b70405c6",
+    "vendor/flygym/pyproject.toml": "adba22334274b58b48483322ae6bd8aa1568784ae959a71350f9665007abd341",
+    "vendor/flygym/src/flygym_demo/complex_terrain/cpg_controller.py": "86804054621f35e28c74f0a88db6a73faa17db586f5554db00674c9851eab592",
+    "vendor/flygym/src/flygym_demo/complex_terrain/preprogrammed.py": "ad945cee5af607e24f1a17ada0b8becd622c1fabebbb9f4f35e49dc7fd69e97f"
+  },
+  "install": "python -m venv .venv-body; .venv-body/Scripts/python.exe -m pip install -r reports/body-simulation/requirements-lock.txt"
+}

@@ -1,0 +1,7 @@
+.venv/
+.claude/
+__pycache__/
+*.pyc
+.Rproj.user/
+.DS_Store
+Thumbs.db

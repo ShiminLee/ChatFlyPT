@@ -1,0 +1,21 @@
+{
+  "kind": "storage#object",
+  "id": "flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather/1780894899156750",
+  "selfLink": "https://www.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fconnectome-data%2Fflat-connectome%2Fbody-neurotransmitters-male-cns-v1.0.feather",
+  "mediaLink": "https://storage.googleapis.com/download/storage/v1/b/flyem-male-cns/o/v1.0%2Fconnectome-data%2Fflat-connectome%2Fbody-neurotransmitters-male-cns-v1.0.feather?generation=1780894899156750&alt=media",
+  "name": "v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+  "bucket": "flyem-male-cns",
+  "generation": "1780894899156750",
+  "metageneration": "1",
+  "contentType": "application/octet-stream",
+  "storageClass": "STANDARD",
+  "size": "43282834",
+  "md5Hash": "PYQrEv5cSe763lKNfdJKHw==",
+  "contentLanguage": "en",
+  "crc32c": "jcpNFg==",
+  "etag": "CI7u4r7u9pQDEAE=",
+  "timeCreated": "2026-06-08T05:01:39.227Z",
+  "updated": "2026-06-08T05:01:39.227Z",
+  "timeStorageClassUpdated": "2026-06-08T05:01:39.227Z",
+  "timeFinalized": "2026-06-08T05:01:39.227Z"
+}

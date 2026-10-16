@@ -1,0 +1,9 @@
+{
+  "case": "48-cell excitatory/inhibitory recurrent graph, fixed input tape",
+  "spikes_custom": 687,
+  "spikes_brian2": 687,
+  "spikes_identical": true,
+  "max_voltage_error_mv": 4.618527782440651e-13,
+  "max_conductance_error_mv": 2.842170943040401e-14,
+  "passed": true
+}

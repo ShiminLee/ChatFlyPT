@@ -1,0 +1,48 @@
+{
+  "schema": "chatflypt.environment.acceptance.v1",
+  "passed": true,
+  "scene_revision": 2,
+  "object_types": [
+    "sugar",
+    "yeast",
+    "high_salt",
+    "heat",
+    "cold",
+    "light",
+    "shade",
+    "block"
+  ],
+  "observations": 1,
+  "llm_called": false,
+  "fly_messages": [],
+  "body_status": "ok",
+  "physics_warnings": 0,
+  "input_channels": [
+    "bright",
+    "bright",
+    "yeast",
+    "yeast"
+  ],
+  "outgoing_completed": false,
+  "spatial_vision_registration": false,
+  "unit_and_physics_tests": 89,
+  "ui_checks": [
+    "eight ghost objects before apply",
+    "applied environment event in chat",
+    "sensation in reception panel only",
+    "position and rotation form editing",
+    "drag XY",
+    "discard restores coordinates",
+    "retina preview disclosure",
+    "no browser console errors"
+  ],
+  "limitations": [
+    "气味、温度及光照使用位置相关的工程场，强度不是浓度、摄氏度或照度的生理标定。",
+    "糖和高盐仅以 MuJoCo 口器接触触发现有唇部感觉候选群；腿部味觉尚无匹配入口，不能冒用唇部神经。",
+    "暗区衰减局部光照，不是发出黑光，也没有单独注入 OFF 视觉通道。",
+    "场景物体进入官方双眼渲染及复眼采样；当前连接组只接收分眼平均亮度代理，尚无小眼到连接组视网膜列的空间配准或物体身份识别。",
+    "当前每轮从相同身体初始化与重置神经状态开始，环境采样在本轮起点进行；运动中尚无连续感觉反馈。",
+    "不同连接组分别仿真，不能合并成同一个体。"
+  ],
+  "upstream_body_unchanged": true
+}

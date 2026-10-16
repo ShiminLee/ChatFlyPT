@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>3D Viewer &mdash; Eyemap Archive</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <nav>
+    <a class="brand" href="index.html">Eyemap Archive</a>
+    <a href="index.html">Home</a>
+    <a href="browse.html">Browse</a>
+    <a href="view.html" class="active">3D Viewer</a>
+    <a href="https://github.com/artxz/eyemap-archive">GitHub</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Interactive viewer</h1>
+
+  <div class="controls">
+    <div class="control">
+      <label for="dataset-select">Dataset</label>
+      <select id="dataset-select"></select>
+    </div>
+    <div class="control">
+      <label for="side-select">Hemisphere</label>
+      <select id="side-select"></select>
+    </div>
+    <div class="control">
+      <label>View</label>
+      <div class="tabs" id="mode-tabs">
+        <button data-mode="scatter3d" class="active">3D scatter</button>
+        <button data-mode="mollweide">Mollweide</button>
+        <button data-mode="mercator">Mercator</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="plot"></div>
+  <p class="info-note" id="status"></p>
+  <p class="info-note">
+    Points are colored by hex coordinate <code>v = p + q</code>. Hover a point
+    to see its <code>p, q, theta, phi</code> (and <code>rootid</code> where
+    available). Mollweide/Mercator are computed client-side from each point's
+    <code>x, y, z</code> viewing-direction vector — the Mollweide projection
+    is a direct port of the same math used in
+    <a href="https://github.com/YijieYin/connectome_interpreter">connectome_interpreter</a>'s
+    <code>plot_mollweide_projection</code>.
+  </p>
+</main>
+
+<footer>Eyemap Archive &middot; Reiser Lab, Janelia Research Campus</footer>
+
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="js/projections.js"></script>
+<script src="js/viewer.js"></script>
+</body>
+</html>

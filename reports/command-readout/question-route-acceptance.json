@@ -1,0 +1,37 @@
+{
+  "schema": "chatflypt.question-route-acceptance.v1",
+  "real_http": true,
+  "single_individual": true,
+  "llm_called": false,
+  "observation_id": "d5c4b688d13c41ac93544fa3c54b7f62",
+  "turns": [
+    {
+      "question": "它在动吗？",
+      "status": "no_measurement",
+      "topic": "motion",
+      "source": "blind_motor_readout",
+      "reply": "（实测身体运动）本轮没有可用的实测结果：Intent readout unavailable: Intent readout graph, input mappings or blind mask is stale 它读的是实测身体运动（走/停），不是输入意图。",
+      "reply_source": "measured_readout_absent",
+      "neural_simulation_run": false
+    },
+    {
+      "question": "它想往哪转？",
+      "status": "no_measurement",
+      "topic": "steering",
+      "source": "blind_command_readout",
+      "reply": "（自身下发的转向指令）本轮没有可用的实测结果：本轮该读出弃权（没有达到合格条件）。 它读的是它自己下发的转向指令，未经身体行为验证。",
+      "reply_source": "measured_readout_absent",
+      "neural_simulation_run": false
+    },
+    {
+      "question": "它感觉到什么了吗？",
+      "status": "answered",
+      "topic": "sensation",
+      "source": "blind_neural_readout",
+      "reply": "（据上一轮实测记录 · 盲神经感觉读出）候选感觉读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。 它读的是内部活动对应的有限感觉标签，不是主观体验。",
+      "reply_source": "measured_readout_route",
+      "neural_simulation_run": false
+    }
+  ],
+  "biologically_calibrated": false
+}

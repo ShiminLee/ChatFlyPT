@@ -1,0 +1,22 @@
+[
+  {
+    "path": "chatflypt/behavior_body.py",
+    "sha256": "4293d80edc6d36fec8a56103d7337444bce334b27e4c0e7d3a07ee6087e8cc4a"
+  },
+  {
+    "path": "chatflypt/body_feedback.py",
+    "sha256": "2bd54cd87987092b4f2498166a4e074187c7bf913bf02ef4ffcc7f89e099a9aa"
+  },
+  {
+    "path": "chatflypt/joint_motor.py",
+    "sha256": "7964260c806004b8e428c31c26fdd3445cc063476f9d04b3eac9f5593dc797b8"
+  },
+  {
+    "path": "chatflypt/proprioception.py",
+    "sha256": "a763899e8a6d18d0359f39a7c8c8f1bfac2f7f29c06e165b8579d447842fe298"
+  },
+  {
+    "path": "tests/test_body_statistics.py",
+    "sha256": "7e2f205c56b99c00d0c1afb9cc17654905b68e594fd0ac01b4a0d66f9d848da6"
+  }
+]

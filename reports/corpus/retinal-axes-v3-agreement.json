@@ -1,0 +1,199 @@
+{
+  "schema": "chatflypt.readout-agreement.v1",
+  "run_id": "retinal-axes-v3",
+  "evaluation": "reports\\unified-readout\\runs\\retinal-axes-v3\\evaluation.json",
+  "artifact_sha256": "13e33caf01112d2c1ba2b6007c4df15fd375d1766cebb60b44b5f18a33423083",
+  "annotators": "independent test sessions (separate physical/neural runs of one individual)",
+  "compared": {
+    "A": "offline measured receptor delivery",
+    "B": "blind readout prediction"
+  },
+  "windows": 52,
+  "sessions": 24,
+  "qualified_labels": [
+    "bright:left",
+    "bright:right",
+    "foreleg_touch:left",
+    "foreleg_touch:right",
+    "hindleg_touch:left",
+    "hindleg_touch:right",
+    "leg_appetitive_ascending:left",
+    "leg_appetitive_ascending:right",
+    "leg_sweet_local:left",
+    "leg_sweet_local:right",
+    "midleg_touch:left",
+    "midleg_touch:right",
+    "warm:right"
+  ],
+  "cohens_kappa_by_label": {
+    "bright:left": 1.0,
+    "bright:right": 1.0,
+    "cold:left": {
+      "status": "abstained: label not qualified, so no spoken prediction exists"
+    },
+    "cold:right": {
+      "status": "abstained: label not qualified, so no spoken prediction exists"
+    },
+    "foreleg_touch:left": 1.0,
+    "foreleg_touch:right": 0.952205882352941,
+    "hindleg_touch:left": 1.0,
+    "hindleg_touch:right": 1.0,
+    "leg_appetitive_ascending:left": 0.8470588235294114,
+    "leg_appetitive_ascending:right": 0.8470588235294114,
+    "leg_sweet_local:left": 0.8470588235294114,
+    "leg_sweet_local:right": 0.8470588235294114,
+    "midleg_touch:left": 1.0,
+    "midleg_touch:right": 1.0,
+    "warm:left": {
+      "status": "abstained: label not qualified, so no spoken prediction exists"
+    },
+    "warm:right": 0.7903225806451609,
+    "yeast:left": {
+      "status": "abstained: label not qualified, so no spoken prediction exists"
+    },
+    "yeast:right": {
+      "status": "abstained: label not qualified, so no spoken prediction exists"
+    }
+  },
+  "per_session": {
+    "test-bright": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-cold": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-dark": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-dark_leg_block_control": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-dark_leg_sugar_control": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.5,
+      "exact_set_accuracy_qualified_labels": 0.5
+    },
+    "test-dark_yeast": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-far_sugar_control": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-heat": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-leg_block_control": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-leg_sugar": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-mouth_block": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-mouth_high_salt": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-mouth_sugar": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-touch_left": {
+      "windows": 4,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-touch_right": {
+      "windows": 4,
+      "exact_set_accuracy_all_labels": 0.75,
+      "exact_set_accuracy_qualified_labels": 0.75
+    },
+    "test-unilateral_bright_left": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-unilateral_bright_right": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-unilateral_cold_left": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.5,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-unilateral_cold_right": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.5,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-unilateral_heat_left": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 1.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-unilateral_heat_right": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.5,
+      "exact_set_accuracy_qualified_labels": 0.5
+    },
+    "test-unilateral_yeast_left": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.5,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-unilateral_yeast_right": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.5,
+      "exact_set_accuracy_qualified_labels": 1.0
+    },
+    "test-yeast": {
+      "windows": 2,
+      "exact_set_accuracy_all_labels": 0.0,
+      "exact_set_accuracy_qualified_labels": 1.0
+    }
+  },
+  "session_accuracy": {
+    "qualified_labels": {
+      "min": 0.5,
+      "median": 1.0,
+      "max": 1.0
+    },
+    "all_labels": {
+      "min": 0.0,
+      "median": 1.0,
+      "max": 1.0,
+      "note": "Counts unqualified labels that are deliberately abstained on as misses."
+    },
+    "note": "Spread across sessions is between-session variation, reported rather than averaged away."
+  },
+  "limitations": [
+    "Sessions are correlated within a split; this is not independent-animal replication.",
+    "Labels are measured receptor events, not semantic meaning.",
+    "Kappa is undefined when a label never changes value in the test split."
+  ]
+}

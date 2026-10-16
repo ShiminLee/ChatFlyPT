@@ -1,0 +1,151 @@
+{
+  "yeast:left": {
+    "isolated_positive_minimum_score": 0.43816101502021604,
+    "maximum_threshold_preserving_all_isolated_positives": 0.43816101502021604,
+    "all_validation_positives": 6,
+    "unavoidable_false_positives_at_or_below_ceiling": 2,
+    "optimistic_precision_upper_bound": 0.75,
+    "unavoidable_negative_cases": [
+      {
+        "seed": 700227,
+        "score": 0.6007402049962314,
+        "items": [
+          {
+            "channel": "yeast",
+            "side": "right",
+            "intensity": 0.993580175153068,
+            "onset_ms": 50,
+            "duration_ms": 300
+          }
+        ]
+      },
+      {
+        "seed": 700565,
+        "score": 0.8742544245071108,
+        "items": [
+          {
+            "channel": "co2",
+            "side": "left",
+            "intensity": 1.1775058754106378,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "yeast",
+            "side": "right",
+            "intensity": 1.1775058754106378,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "eye_touch",
+            "side": "bilateral",
+            "intensity": 1.1775058754106378,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "cold",
+            "side": "left",
+            "intensity": 1.1775058754106378,
+            "onset_ms": 50,
+            "duration_ms": 300
+          }
+        ]
+      }
+    ]
+  },
+  "yeast:right": {
+    "isolated_positive_minimum_score": 0.5043333097915806,
+    "maximum_threshold_preserving_all_isolated_positives": 0.5043333097915806,
+    "all_validation_positives": 3,
+    "unavoidable_false_positives_at_or_below_ceiling": 1,
+    "optimistic_precision_upper_bound": 0.75,
+    "unavoidable_negative_cases": [
+      {
+        "seed": 700557,
+        "score": 0.6976675213361506,
+        "items": [
+          {
+            "channel": "yeast",
+            "side": "left",
+            "intensity": 0.9997113673871829,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "bright",
+            "side": "right",
+            "intensity": 0.9997113673871829,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "eye_touch",
+            "side": "right",
+            "intensity": 0.9997113673871829,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "geosmin",
+            "side": "left",
+            "intensity": 0.9997113673871829,
+            "onset_ms": 50,
+            "duration_ms": 300
+          }
+        ]
+      }
+    ]
+  },
+  "cva:left": {
+    "isolated_positive_minimum_score": 0.5772763231194742,
+    "maximum_threshold_preserving_all_isolated_positives": 0.5772763231194742,
+    "all_validation_positives": 4,
+    "unavoidable_false_positives_at_or_below_ceiling": 1,
+    "optimistic_precision_upper_bound": 0.8,
+    "unavoidable_negative_cases": [
+      {
+        "seed": 700568,
+        "score": 0.7061472702631094,
+        "items": [
+          {
+            "channel": "wind_gravity",
+            "side": "right",
+            "intensity": 1.1749307770415858,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "geosmin",
+            "side": "bilateral",
+            "intensity": 1.1749307770415858,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "vision_dra",
+            "side": "bilateral",
+            "intensity": 1.1749307770415858,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "cva",
+            "side": "right",
+            "intensity": 1.1749307770415858,
+            "onset_ms": 50,
+            "duration_ms": 300
+          },
+          {
+            "channel": "sweet_water",
+            "side": "right",
+            "intensity": 1.1749307770415858,
+            "onset_ms": 50,
+            "duration_ms": 300
+          }
+        ]
+      }
+    ]
+  }
+}

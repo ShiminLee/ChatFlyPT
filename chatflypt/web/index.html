@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#121615"><title>ChatFlyPT · 与果蝇的感知对话</title><link rel="stylesheet" href="/app.css"></head>
+<body>
+<svg class="symbols" aria-hidden="true"><defs>
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></symbol>
+<symbol id="play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+<symbol id="reset" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></symbol>
+<symbol id="expand" viewBox="0 0 24 24"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></symbol>
+<symbol id="sliders" viewBox="0 0 24 24"><path d="M4 7h5m4 0h7M4 17h9m4 0h3M9 4v6m4 4v6"/></symbol>
+<symbol id="plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+</defs></svg>
+<header class="topbar">
+<a class="brand" href="/" aria-label="ChatFlyPT 首页"><svg class="flymark" viewBox="0 0 38 38" fill="none" aria-hidden="true"><path d="M19 14C12-1 0 7 7 19c4 4 8 1 12-3M19 14C26-1 38 7 31 19c-4 4-8 1-12-3" stroke="currentColor" stroke-width="1.5"/><path d="M19 12v21m0-15-9 8m9-8 9 8m-9-3-6 9m6-9 6 9" stroke="currentColor" stroke-width="1.5"/><ellipse cx="19" cy="10" rx="3" ry="4" fill="currentColor"/><ellipse cx="19" cy="23" rx="3" ry="8" fill="currentColor"/></svg><span>ChatFlyPT<span class="brand-dot">.</span></span><span class="brand-tag">感知之间</span></a>
+<div class="top-actions"><span class="connection" id="backendState"><i></i>正在连接</span><button class="quiet-button" id="inputChannels" type="button">感觉通道</button><button class="quiet-button api-settings-button" id="apiSettings" type="button" hidden>API 设置</button><button class="quiet-button" id="example">环境示例 <span>↗</span></button><button class="icon-button" id="settings" aria-label="实验设置" title="实验设置"><svg><use href="#sliders"/></svg></button></div>
+</header>
+<main class="workspace">
+<section class="chat-panel" aria-label="与果蝇对话">
+<div class="section-heading"><div><span class="eyebrow">CONVERSATION</span><h1>对话</h1></div><button class="quiet-button small" id="newChat"><svg><use href="#plus"/></svg>新对话</button></div>
+<div class="conversation" id="conversation" role="log" aria-label="对话记录" aria-live="polite">
+<div class="welcome" id="welcome"><div class="welcome-mark">✳</div><h2>与另一种感知对话。</h2><p>你的一句话，会变成怎样的感觉？<br>查看实际接收与神经响应。</p><div class="welcome-hint"><span class="mini-dot"></span>从一条简单的信息开始</div></div>
+</div>
+<div class="compose-area"><div class="suggestions" aria-label="示例消息"><button data-message="左转">左转 <span>↖</span></button><button data-message="右转">右转 <span>↗</span></button><button data-message="看看环境">看看环境</button><button data-message="糖在哪里">糖在哪里</button></div>
+
+<form id="chatForm" class="composer"><label class="sr-only" for="message">给果蝇发送消息</label><textarea id="message" rows="2" placeholder="给果蝇发送一条消息…" maxlength="4000"></textarea><div class="composer-bottom"><span><i class="mini-dot"></i><span id="apiState">正在连接神经读出</span></span><button class="send-button" id="send" type="submit" aria-label="发送消息"><svg><use href="#arrow"/></svg></button></div></form>
+<div class="composer-foot"><span id="chatHint">Enter 发送 · Shift + Enter 换行</span><span>实验预览</span></div><div id="error" role="alert"></div></div>
+</section>
+<section class="observation-panel" aria-label="果蝇接收与反应">
+<section class="view-card brain-card" aria-label="神经活动图">
+<div class="card-heading"><div class="card-title"><span class="number">01</span><h2>神经活动</h2><span class="pill" id="brainState">等待输入</span></div><div class="card-tools"><span class="dataset" id="dataset">连接组</span><button class="icon-button compact" id="resetView" title="重置神经图视角" aria-label="重置神经图视角"><svg><use href="#reset"/></svg></button></div></div>
+<div class="observation-switch" id="observationSwitch" hidden><label for="observationSelect">本次记录</label><select id="observationSelect" aria-describedby="observationIsolation"></select><span id="observationIsolation">不同连接组分别仿真</span></div>
+<div class="canvas-wrap" id="brainWrap"><canvas id="brain" aria-label="神经活动图，可拖动旋转"></canvas><div class="brain-caption" id="brainCaption">等待连接组数据</div><div class="brain-metrics" id="brainMetrics">尚无活动记录</div><div class="geometry-note" id="geometryNote">神经图等待连接组数据。</div><div class="canvas-tip" id="neuronTip" hidden></div><div class="view-hint">拖动旋转 · 滚轮缩放</div><div class="legend"><span><i class="input-dot"></i>感觉输入</span><span><i class="response-dot"></i>下游响应</span><span><i class="motor-dot"></i>下行 / 运动</span></div></div>
+<div class="playback"><button id="playback" class="icon-button compact" aria-label="播放神经活动" disabled><svg><use href="#play"/></svg></button><span id="time">0 ms</span><label class="sr-only" for="timeline">神经活动时间</label><input type="range" id="timeline" min="0" max="1000" value="0" disabled><span id="endTime">—</span><span class="replay-label" id="replayLabel">位置采样</span></div>
+</section>
+<section class="reception-card" id="reception" aria-label="信息如何被果蝇接收">
+<div class="reception-top"><span class="eyebrow">信息如何被接收</span><span class="route-state" id="routeState">等待消息</span></div><div class="route-main"><span class="intent-tag" id="intent">人类语言</span><span class="route-arrow">→</span><h2 id="stimulusDescription">环境呈现与实际接收会显示在这里</h2><button class="route-detail" id="routeDetail" disabled aria-label="查看感觉通路详情">↗</button></div><div class="reception-sensation" id="receptionSensation" hidden><span>果蝇 · 感觉读出</span><p id="sensationText"></p><p class="reception-gloss" id="sensationGloss"></p></div><div class="reception-sensation" id="receptionIntent" hidden><span>果蝇 · 运动意图（候选）</span><p id="intentText"></p></div><div class="reception-sensation" id="receptionCommand" hidden><span>果蝇 · 自身下发的转向指令（候选）</span><p id="commandText"></p></div><details id="eyeVision" class="eye-vision" hidden><summary>果蝇双眼实际画面</summary><div><figure><img id="leftEye" alt="左眼复眼采样前画面"><figcaption>左眼</figcaption></figure><figure><img id="rightEye" alt="右眼复眼采样前画面"><figcaption>右眼</figcaption></figure></div><p>官方双眼渲染 · 721 小眼/眼；局部亮度经候选视网膜柱映射进入 MaleCNS，物体名称未直接送入大脑。</p></details><p id="targetDescription">物理环境 → 实测感受器 → 神经活动 → 盲读出</p><div class="route-footer"><span id="routeNote">每一条消息，都保留它进入神经系统的方式。</span><svg id="inputTrace" viewBox="0 0 120 16" aria-label="输入事件包络"><path d="M0 13H120"/></svg></div>
+</section>
+<section class="view-card world-card" aria-label="果蝇模拟空间">
+<div class="card-heading"><div class="card-title"><span class="number">02</span><h2>NeuroMechFly</h2></div><div class="body-view-tools" aria-label="身体视角"><button id="environmentToggle" type="button">编辑环境</button><button id="bodySide" type="button" class="active" aria-pressed="true">侧视</button><button id="bodyTop" type="button" aria-pressed="false">俯视</button><button id="bodyReset" type="button" title="重置身体视角" aria-label="重置身体视角">↺</button><button id="bodyExpand" type="button" title="展开身体视图" aria-label="展开身体视图">⛶</button></div></div><div class="canvas-wrap world-wrap" id="bodyViewport"><div id="world" role="img" aria-label="NeuroMechFly 三维身体，可拖动旋转与滚轮缩放"></div><div class="body-scene-status" id="bodySceneStatus" role="status">正在加载三维身体…</div><div class="world-origin"><span class="body-live-dot"></span><span id="worldState">等待运动活动</span><span id="bodyFrameTime">初始姿态</span></div><div class="world-cue" id="worldCue" hidden></div><div class="world-bottom"><span id="bodyNote">官方身体初始姿态 · 尚无动作记录</span><span id="motorEvidence"></span></div><div class="body-view-hint">拖动旋转 · 滚轮缩放</div><a class="body-view-source" href="https://github.com/kevinlinxc/badapple-fly" target="_blank" rel="noopener noreferrer" title="视图改编自 Kevin Lin 的 Bad Apple Fly">视图来源 ↗</a></div><aside id="environmentEditor" class="environment-editor" hidden aria-label="环境物品编辑器"></aside>
+</section>
+<div class="observation-foot"><span><i></i>神经活动来自仿真记录</span><button id="evidenceButton" disabled>查看本次记录 ↗</button></div>
+</section>
+</main>
+<dialog id="settingsDialog"><div class="dialog-heading"><h2>实验设置</h2><button class="icon-button close-dialog" aria-label="关闭实验设置">×</button></div><p class="muted">实验性直接神经干预：绕过环境，用于检查连接组；与正常聊天会话隔离。</p><div id="stimuli" class="stimuli-grid"></div><div class="seed-row"><label for="bodyContext">身体环境</label><select id="bodyContext"><option value="ground">地面接触</option><option value="tethered_flight">系留振翅</option></select></div><p class="fineprint">此设置用于下一次仿真。系留模式固定身体位置，用于观察翼部和伸腿程序。</p><div class="seed-row"><label for="seed">随机种子</label><input id="seed" type="number" value="81000" min="0" max="4294967295"></div><button class="primary-button" id="runExperiment">运行神经仿真</button><p class="fineprint">每次试次重置神经状态。感觉刺激使用模型代理；功能相关神经群的活动经 Hybrid 控制器和姿态程序驱动身体；动作映射尚未经行为标定。</p></dialog>
+<dialog id="inputChannelsDialog" aria-labelledby="inputChannelsTitle">
+<div class="dialog-heading"><h2 id="inputChannelsTitle">感觉通道与输入覆盖</h2><button class="icon-button close-dialog" type="button" aria-label="关闭感觉通道">×</button></div>
+<p class="muted">此面板用于独立的直接神经干预实验，不代表环境自然感知。正常聊天的感觉只来自实际环境采样。</p>
+<div class="input-coverage-summary" id="inputCoverageSummary" role="status" aria-live="polite">正在读取通道…</div>
+<div id="inputCoverageDatasets" class="input-coverage-datasets"></div>
+<p class="fineprint">通道状态描述当前软件的映射与运行能力。候选通路的接收范围或参数仍需核实。</p>
+<form id="inputStimulusForm" class="input-stimulus-form">
+<div class="input-form-heading"><h3>组合感觉输入</h3><button id="addStimulus" class="secondary-button" type="button">添加通道</button></div>
+<div id="stimulusRows"></div>
+<p class="fineprint">输入在第 50 ms 开始；强度为模型输入系数。多个数据集分别运行，并分别显示记录。</p>
+<div id="inputFormStatus" class="input-form-status" role="status" aria-live="polite"></div>
+<button id="runStimulus" class="primary-button" type="submit" disabled>运行所选输入</button>
+</form>
+<label class="input-coverage-search" for="inputCoverageSearch">查找通道<input id="inputCoverageSearch" type="search" placeholder="名称、感觉类型或通道 ID" autocomplete="off"></label>
+<div id="inputCoverageList" class="input-coverage-list"></div>
+</dialog>
+<dialog id="apiSettingsDialog" aria-labelledby="apiSettingsTitle">
+<div class="dialog-heading"><h2 id="apiSettingsTitle">API 设置</h2><button class="icon-button close-dialog" type="button" aria-label="关闭 API 设置">×</button></div>
+<p class="muted">配置 OpenAI 或兼容网关，供独立 API 实验使用。当前果蝇聊天由盲神经读出生成文字，身体由神经活动驱动，不使用这些模型决定回答或动作。</p>
+<form id="apiSettingsForm" class="api-settings-form" autocomplete="off">
+<div class="api-field"><label for="apiBaseUrl">接口地址 <span>Base URL</span></label><input id="apiBaseUrl" name="base_url" type="url" placeholder="https://api.openai.com/v1" required spellcheck="false" autocomplete="off" aria-describedby="apiBaseHint"><p class="api-field-hint" id="apiBaseHint">可填写根地址，保存时自动补上 /v1。更换地址时，请同时填写该网关的新密钥。</p></div>
+<div class="api-field"><label for="apiKey">API 密钥</label><input id="apiKey" name="api_key" type="password" placeholder="填写 API 密钥" autocomplete="new-password" spellcheck="false" aria-describedby="apiKeyHint"><p class="api-field-hint" id="apiKeyHint">密钥不会回显；关闭窗口或保存后会清空此输入框。</p></div>
+<div class="api-field"><label for="apiModel">模型 <span>可手动填写</span></label><div class="api-inline"><input id="apiModel" name="model" type="text" list="apiModelOptions" placeholder="填写模型 ID，或读取可用模型" required spellcheck="false" autocomplete="off"><button id="apiReadModels" class="secondary-button" type="button">读取模型</button></div><datalist id="apiModelOptions"></datalist></div>
+<div class="api-field"><label for="apiStyle">接口协议</label><select id="apiStyle" name="api_style" aria-describedby="apiStyleHint"><option value="responses">Responses API</option><option value="chat_completions">Chat Completions API</option></select><p class="api-field-hint" id="apiStyleHint">使用 OpenAI 兼容协议；请按服务商支持的接口选择。测试连接会发送一次真实的小型模型请求。</p></div>
+<div id="apiSettingsResult" class="api-settings-result" role="status" aria-live="polite" aria-atomic="true"></div>
+<div class="api-settings-actions"><button id="apiTest" class="secondary-button" type="button">测试连接</button><button id="apiSave" class="primary-button" type="submit">保存设置</button></div>
+<p class="fineprint" id="apiStorage">保存仅更新独立 API 实验配置，不改变当前果蝇通路。</p>
+</form></dialog>
+<dialog id="detailsDialog"><div class="dialog-heading"><h2 id="detailsTitle">接收通路</h2><button class="icon-button close-dialog" aria-label="关闭详情">×</button></div><div id="detailsContent"></div></dialog>
+<script type="importmap">{"imports":{"three":"/vendor/three.module.js"}}</script>
+<script src="/app.js"></script>
+<script src="/environment-inspection.js"></script>
+<script type="module" src="/body-view.js"></script>
+</body></html>

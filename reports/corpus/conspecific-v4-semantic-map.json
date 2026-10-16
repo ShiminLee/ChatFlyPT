@@ -1,0 +1,1164 @@
+{
+  "schema": "chatflypt.semantic-map.v1",
+  "run_id": "conspecific-v4",
+  "source_index": "reports\\corpus\\conspecific-v4-index.json",
+  "windows": 228,
+  "rules": {
+    "turn_deg": 4.5514916970261226,
+    "move_mm": 1.3209899359887314,
+    "turn_quantile": 0.85,
+    "activity_quantile": 0.5,
+    "rule": "Quantiles of the measured outcome distribution in the training split only"
+  },
+  "scope": "Measured signals x measured contexts x measured reactions; holes are explicit.",
+  "contexts": [
+    "odor",
+    "other",
+    "platform",
+    "probe",
+    "song",
+    "thermal",
+    "visual"
+  ],
+  "context_windows": {
+    "visual": 12,
+    "thermal": 12,
+    "platform": 42,
+    "odor": 30,
+    "song": 18,
+    "other": 6,
+    "probe": 108
+  },
+  "signals": [
+    {
+      "signal": "foreleg_touch:left",
+      "windows": 47,
+      "sessions": 31,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 35,
+        "probe": 12,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 0.766,
+        "still": 0.234,
+        "turn_right": 0.064,
+        "turn_left": 0.043
+      },
+      "holes": [
+        "odor",
+        "other",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "foreleg_touch:right",
+      "windows": 46,
+      "sessions": 31,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 32,
+        "probe": 14,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 0.783,
+        "still": 0.217,
+        "turn_left": 0.087,
+        "turn_right": 0.043
+      },
+      "holes": [
+        "odor",
+        "other",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "hindleg_touch:left",
+      "windows": 24,
+      "sessions": 12,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 24,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0,
+        "turn_right": 0.042
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "hindleg_touch:right",
+      "windows": 24,
+      "sessions": 12,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 24,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0,
+        "turn_right": 0.042
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_appetitive_ascending:left@foreleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_appetitive_ascending:left@hindleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_appetitive_ascending:left@midleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_appetitive_ascending:right@foreleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_appetitive_ascending:right@hindleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_appetitive_ascending:right@midleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_sweet_local:left@foreleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_sweet_local:left@hindleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_sweet_local:left@midleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_sweet_local:right@foreleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_sweet_local:right@hindleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "leg_sweet_local:right@midleg",
+      "windows": 12,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 12,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_auditory:left",
+      "windows": 7,
+      "sessions": 4,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": null,
+        "probe": null,
+        "song": 7,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 0.857,
+        "still": 0.143
+      },
+      "holes": [
+        "odor",
+        "other",
+        "platform",
+        "probe",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_auditory:right",
+      "windows": 8,
+      "sessions": 5,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": null,
+        "probe": null,
+        "song": 8,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 0.875,
+        "still": 0.125,
+        "turn_left": 0.125
+      },
+      "holes": [
+        "odor",
+        "other",
+        "platform",
+        "probe",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_bright:left",
+      "windows": 204,
+      "sessions": 96,
+      "contexts": {
+        "odor": 24,
+        "other": 6,
+        "platform": 30,
+        "probe": 108,
+        "song": 18,
+        "thermal": 12,
+        "visual": 6
+      },
+      "reactions": {
+        "still": 0.569,
+        "active": 0.431,
+        "turn_left": 0.083,
+        "turn_right": 0.064
+      },
+      "holes": []
+    },
+    {
+      "signal": "mc_bright:right",
+      "windows": 202,
+      "sessions": 96,
+      "contexts": {
+        "odor": 24,
+        "other": 6,
+        "platform": 30,
+        "probe": 106,
+        "song": 18,
+        "thermal": 12,
+        "visual": 6
+      },
+      "reactions": {
+        "still": 0.569,
+        "active": 0.431,
+        "turn_left": 0.079,
+        "turn_right": 0.064
+      },
+      "holes": []
+    },
+    {
+      "signal": "mc_cold:left",
+      "windows": 9,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": null,
+        "probe": 3,
+        "song": null,
+        "thermal": 6,
+        "visual": null
+      },
+      "reactions": {
+        "still": 0.556,
+        "active": 0.444,
+        "turn_right": 0.111
+      },
+      "holes": [
+        "odor",
+        "other",
+        "platform",
+        "song",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_cold:right",
+      "windows": 10,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": null,
+        "probe": 4,
+        "song": null,
+        "thermal": 6,
+        "visual": null
+      },
+      "reactions": {
+        "still": 0.8,
+        "active": 0.2,
+        "turn_right": 0.1,
+        "turn_left": 0.1
+      },
+      "holes": [
+        "odor",
+        "other",
+        "platform",
+        "song",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_cva:left",
+      "windows": 5,
+      "sessions": 5,
+      "contexts": {
+        "odor": 5,
+        "other": null,
+        "platform": null,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0,
+        "turn_right": 0.2
+      },
+      "holes": [
+        "other",
+        "platform",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_cva:right",
+      "windows": 4,
+      "sessions": 4,
+      "contexts": {
+        "odor": 4,
+        "other": null,
+        "platform": null,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 0.75,
+        "still": 0.25
+      },
+      "holes": [
+        "other",
+        "platform",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_warm:left",
+      "windows": 9,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": null,
+        "probe": 3,
+        "song": null,
+        "thermal": 6,
+        "visual": null
+      },
+      "reactions": {
+        "still": 0.889,
+        "active": 0.111
+      },
+      "holes": [
+        "odor",
+        "other",
+        "platform",
+        "song",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_warm:right",
+      "windows": 11,
+      "sessions": 6,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": null,
+        "probe": 5,
+        "song": null,
+        "thermal": 6,
+        "visual": null
+      },
+      "reactions": {
+        "still": 0.727,
+        "active": 0.273,
+        "turn_left": 0.091
+      },
+      "holes": [
+        "odor",
+        "other",
+        "platform",
+        "song",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_yeast:left",
+      "windows": 15,
+      "sessions": 9,
+      "contexts": {
+        "odor": 12,
+        "other": null,
+        "platform": null,
+        "probe": 3,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "still": 0.933,
+        "active": 0.067
+      },
+      "holes": [
+        "other",
+        "platform",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "mc_yeast:right",
+      "windows": 15,
+      "sessions": 9,
+      "contexts": {
+        "odor": 12,
+        "other": null,
+        "platform": null,
+        "probe": 3,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "still": 1.0
+      },
+      "holes": [
+        "other",
+        "platform",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "midleg_touch:left",
+      "windows": 24,
+      "sessions": 12,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 24,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0,
+        "turn_right": 0.042
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    },
+    {
+      "signal": "midleg_touch:right",
+      "windows": 24,
+      "sessions": 12,
+      "contexts": {
+        "odor": null,
+        "other": null,
+        "platform": 24,
+        "probe": null,
+        "song": null,
+        "thermal": null,
+        "visual": null
+      },
+      "reactions": {
+        "active": 1.0,
+        "turn_right": 0.042
+      },
+      "holes": [
+        "odor",
+        "other",
+        "probe",
+        "song",
+        "thermal",
+        "visual"
+      ]
+    }
+  ],
+  "cooccurrence": {
+    "signals": [
+      "foreleg_touch:left",
+      "foreleg_touch:right",
+      "hindleg_touch:left",
+      "hindleg_touch:right",
+      "leg_appetitive_ascending:left@foreleg",
+      "leg_appetitive_ascending:left@hindleg",
+      "leg_appetitive_ascending:left@midleg",
+      "leg_appetitive_ascending:right@foreleg",
+      "leg_appetitive_ascending:right@hindleg",
+      "leg_appetitive_ascending:right@midleg",
+      "leg_sweet_local:left@foreleg",
+      "leg_sweet_local:left@hindleg",
+      "leg_sweet_local:left@midleg",
+      "leg_sweet_local:right@foreleg",
+      "leg_sweet_local:right@hindleg",
+      "leg_sweet_local:right@midleg",
+      "mc_auditory:left",
+      "mc_auditory:right",
+      "mc_bright:left",
+      "mc_bright:right",
+      "mc_cold:left",
+      "mc_cold:right",
+      "mc_cva:left",
+      "mc_cva:right",
+      "mc_warm:left",
+      "mc_warm:right",
+      "mc_yeast:left",
+      "mc_yeast:right",
+      "midleg_touch:left",
+      "midleg_touch:right"
+    ],
+    "contexts": [
+      "odor",
+      "other",
+      "platform",
+      "probe",
+      "song",
+      "thermal",
+      "visual"
+    ],
+    "counts": [
+      [
+        null,
+        null,
+        35,
+        12,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        32,
+        14,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        24,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        24,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        12,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        7,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        8,
+        null,
+        null
+      ],
+      [
+        24,
+        6,
+        30,
+        108,
+        18,
+        12,
+        6
+      ],
+      [
+        24,
+        6,
+        30,
+        106,
+        18,
+        12,
+        6
+      ],
+      [
+        null,
+        null,
+        null,
+        3,
+        null,
+        6,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        4,
+        null,
+        6,
+        null
+      ],
+      [
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        3,
+        null,
+        6,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        5,
+        null,
+        6,
+        null
+      ],
+      [
+        12,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      [
+        12,
+        null,
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        24,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        24,
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "fields_by_context_profile": [
+    {
+      "field": 0,
+      "signals": [
+        "mc_bright:left",
+        "mc_bright:right",
+        "mc_cold:left",
+        "mc_cold:right",
+        "mc_warm:left",
+        "mc_warm:right"
+      ]
+    },
+    {
+      "field": 1,
+      "signals": [
+        "mc_cva:left",
+        "mc_cva:right",
+        "mc_yeast:left",
+        "mc_yeast:right"
+      ]
+    },
+    {
+      "field": 2,
+      "signals": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_appetitive_ascending:left@foreleg",
+        "leg_appetitive_ascending:left@hindleg",
+        "leg_appetitive_ascending:left@midleg",
+        "leg_appetitive_ascending:right@foreleg",
+        "leg_appetitive_ascending:right@hindleg",
+        "leg_appetitive_ascending:right@midleg",
+        "leg_sweet_local:left@foreleg",
+        "leg_sweet_local:left@hindleg",
+        "leg_sweet_local:left@midleg",
+        "leg_sweet_local:right@foreleg",
+        "leg_sweet_local:right@hindleg",
+        "leg_sweet_local:right@midleg",
+        "midleg_touch:left",
+        "midleg_touch:right"
+      ]
+    },
+    {
+      "field": 3,
+      "signals": [
+        "mc_auditory:left",
+        "mc_auditory:right"
+      ]
+    }
+  ],
+  "limitations": [
+    "A signal appearing in several contexts is polysemy, not several words.",
+    "One session per condition per split; counts are not independent replicates.",
+    "No human message or intended stimulus enters any cell of this map."
+  ]
+}

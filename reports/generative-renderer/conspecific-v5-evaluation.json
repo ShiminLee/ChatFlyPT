@@ -1,0 +1,296 @@
+{
+  "schema": "chatflypt.generative-renderer-evaluation.v1",
+  "run_id": "conspecific-v5",
+  "windows": 98,
+  "rendered": 98,
+  "abstained": 0,
+  "distinct_sentences": 61,
+  "fixed_template_baseline": "the per-channel template join produced at most one sentence per label set",
+  "top_sentences": [
+    [
+      "这一轮它挺活跃。我在左侧察觉到了光；而且我在右侧察觉到了光。整个窗口里这种感觉都没有停。",
+      4
+    ],
+    [
+      "它这一轮：这一轮它比较安静。我在左侧察觉到了光；同时我在右侧察觉到了光。这种感觉一直持续着。",
+      3
+    ],
+    [
+      "以下是这一轮盲读出的内容：这段时间它很安静。我在左侧察觉到了光；同时我在右侧察觉到了光。这种感觉一直持续着。",
+      3
+    ],
+    [
+      "以下是这一轮盲读出的内容：这一轮它比较安静。我在左侧察觉到了光；而且我在右侧察觉到了光。整个窗口里这种感觉都没有停。",
+      3
+    ],
+    [
+      "它这一轮：这段时间它很安静。我在左侧察觉到了光；而且我在右侧察觉到了光。整个窗口里这种感觉都没有停。",
+      3
+    ],
+    [
+      "以下是这一轮盲读出的内容：这一轮它比较安静。我在左侧察觉到了光；同时我在右侧察觉到了光。整个窗口里这种感觉都没有停。",
+      2
+    ],
+    [
+      "以下是这一轮盲读出的内容：它这会儿不太活跃。这种感觉一直持续着。",
+      2
+    ],
+    [
+      "这一轮它的活动很密集。我感到左前腿被碰到了；同时我感到右前腿被碰到了；同时我感到左后腿被碰到了；同时我感到右后腿被碰到了；同时我感到左中腿被碰到了；同时我感到右中腿被碰到了。整个窗口里这种感觉都没有停。",
+      2
+    ]
+  ],
+  "slot_histogram": {
+    "activity:quiet": 35,
+    "bright:left": 90,
+    "bright:right": 90,
+    "pattern:sustained": 97,
+    "activity:busy": 33,
+    "foreleg_touch:left": 20,
+    "foreleg_touch:right": 21,
+    "hindleg_touch:left": 8,
+    "hindleg_touch:right": 8,
+    "midleg_touch:left": 8,
+    "midleg_touch:right": 8,
+    "leg_appetitive_ascending:left": 3,
+    "leg_appetitive_ascending:right": 3,
+    "leg_sweet_local:left": 3,
+    "leg_sweet_local:right": 3,
+    "yeast:right": 4,
+    "warm:right": 2,
+    "activity:moderate": 27,
+    "cva:left": 9,
+    "cva:right": 8,
+    "auditory:left": 9,
+    "auditory:right": 9
+  },
+  "invented_slots": 0,
+  "unsupported_slots": 0,
+  "contradicted_slots": 12,
+  "contradictions": [
+    {
+      "episode": "test-dark",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "pattern:sustained",
+          "measured": "pattern:transient"
+        }
+      ],
+      "rendered": [
+        "activity:quiet",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-dark",
+      "turn": 1,
+      "contradicted": [
+        {
+          "slot": "pattern:sustained",
+          "measured": "pattern:transient"
+        }
+      ],
+      "rendered": [
+        "activity:quiet",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:busy",
+          "measured": "activity:moderate"
+        }
+      ],
+      "rendered": [
+        "activity:busy",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 1,
+      "contradicted": [
+        {
+          "slot": "activity:busy",
+          "measured": "activity:moderate"
+        }
+      ],
+      "rendered": [
+        "activity:busy",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-leg_block_control",
+      "turn": 1,
+      "contradicted": [
+        {
+          "slot": "activity:busy",
+          "measured": "activity:moderate"
+        }
+      ],
+      "rendered": [
+        "activity:busy",
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-song_right",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:quiet",
+          "measured": "activity:moderate"
+        }
+      ],
+      "rendered": [
+        "activity:quiet",
+        "bright:left",
+        "bright:right",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_left",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:quiet",
+          "measured": "activity:moderate"
+        }
+      ],
+      "rendered": [
+        "activity:quiet",
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-tap1x180_right",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:moderate",
+          "measured": "activity:quiet"
+        }
+      ],
+      "rendered": [
+        "activity:moderate",
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-tap3x60_right",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:moderate",
+          "measured": "activity:quiet"
+        }
+      ],
+      "rendered": [
+        "activity:moderate",
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:moderate",
+          "measured": "activity:quiet"
+        }
+      ],
+      "rendered": [
+        "activity:moderate",
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:moderate",
+          "measured": "activity:quiet"
+        }
+      ],
+      "rendered": [
+        "activity:moderate",
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right",
+        "pattern:sustained"
+      ]
+    },
+    {
+      "episode": "test-unilateral_heat_left",
+      "turn": 0,
+      "contradicted": [
+        {
+          "slot": "activity:quiet",
+          "measured": "activity:moderate"
+        }
+      ],
+      "rendered": [
+        "activity:quiet",
+        "bright:left",
+        "bright:right",
+        "pattern:sustained"
+      ]
+    }
+  ],
+  "rules": {
+    "pattern_transient_max_fraction": 0.3,
+    "activity_spike_quantiles": [
+      2746.6299999999997,
+      28614.7
+    ],
+    "training_windows": 98,
+    "rule": "Transient/sustained split is fixed at 0.3 of sampled windows; activity bands are the training split's 33rd and 66th percentiles of measured non-sensory spikes."
+  },
+  "decoder": "data\\derived\\unified-readout\\malecns-decoder.npz",
+  "slot_artifact": "data\\derived\\slot-readout\\malecns-slots.npz",
+  "scope": "Every slot is decoded from internal activity; the renderer varies wording only.",
+  "limitations": [
+    "Contradictions are decoded misreads, reported with their measured values.",
+    "Slot bands are fixed from the training split of this corpus.",
+    "No language model is involved; the realizer is a fixed grammar."
+  ]
+}

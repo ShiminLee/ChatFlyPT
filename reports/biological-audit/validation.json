@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-19",
+  "mapping_revision": "2026-09-19-v2-moist-VP5",
+  "correction": {
+    "word": "humid",
+    "old_cell_type": "HRN_VP1l",
+    "old_cells": 13,
+    "new_cell_type": "HRN_VP5",
+    "new_cells": 16,
+    "old_biological_label_invalid": true
+  },
+  "corpus": {
+    "fingerprint": "f755a613589671a59ec30e50d361a9cbf3212c40e636bad9347067ef76810d01",
+    "trials": 776,
+    "splits": {
+      "train": 424,
+      "validation": 120,
+      "test": 168,
+      "ood": 64
+    },
+    "resimulated": true
+  },
+  "readout": {
+    "all_non_sensory": {
+      "trials": 168,
+      "exact_set_accuracy": 0.9940476190476191,
+      "micro_f1": 0.9986091794158554,
+      "macro_f1": 0.9982142857142857,
+      "per_word_f1": {
+        "sugar": 1.0,
+        "bitter": 1.0,
+        "water": 1.0,
+        "salt": 1.0,
+        "vinegar": 1.0,
+        "yeast": 1.0,
+        "geosmin": 1.0,
+        "pheromone": 1.0,
+        "warm": 1.0,
+        "cold": 1.0,
+        "humid": 1.0,
+        "dry": 1.0,
+        "bright": 0.9714285714285714,
+        "touch": 1.0,
+        "sound": 1.0,
+        "wind": 1.0
+      },
+      "single_word_top1_accuracy": 1.0,
+      "single_word_trials": 96
+    },
+    "descending_motor": {
+      "trials": 168,
+      "exact_set_accuracy": 0.35714285714285715,
+      "micro_f1": 0.7669902912621359,
+      "macro_f1": 0.7975414193904105,
+      "per_word_f1": {
+        "sugar": 1.0,
+        "bitter": 1.0,
+        "water": 1.0,
+        "salt": 0.5588235294117647,
+        "vinegar": 0.782608695652174,
+        "yeast": 0.5185185185185185,
+        "geosmin": 0.35294117647058826,
+        "pheromone": 1.0,
+        "warm": 0.7450980392156863,
+        "cold": 0.6153846153846154,
+        "humid": 0.95,
+        "dry": 1.0,
+        "bright": 0.23728813559322035,
+        "touch": 1.0,
+        "sound": 1.0,
+        "wind": 1.0
+      },
+      "single_word_top1_accuracy": 0.9166666666666666,
+      "single_word_trials": 96
+    }
+  },
+  "controls": {
+    "shuffled_neural_observations": {
+      "trials": 168,
+      "exact_set_accuracy": 0.02976190476190476,
+      "micro_f1": 0.1502086230876217,
+      "macro_f1": 0.14572018055473937,
+      "per_word_f1": {
+        "sugar": 0.125,
+        "bitter": 0.13636363636363635,
+        "water": 0.125,
+        "salt": 0.14285714285714285,
+        "vinegar": 0.09090909090909091,
+        "yeast": 0.17857142857142858,
+        "geosmin": 0.17647058823529413,
+        "pheromone": 0.058823529411764705,
+        "warm": 0.16666666666666666,
+        "cold": 0.047619047619047616,
+        "humid": 0.14285714285714285,
+        "dry": 0.11538461538461539,
+        "bright": 0.17142857142857143,
+        "touch": 0.26666666666666666,
+        "sound": 0.09523809523809523,
+        "wind": 0.2916666666666667
+      },
+      "single_word_top1_accuracy": 0.0625,
+      "single_word_trials": 96
+    },
+    "zero_neural_observations": {
+      "trials": 168,
+      "exact_set_accuracy": 0.047619047619047616,
+      "micro_f1": 0.0,
+      "macro_f1": 0.0,
+      "per_word_f1": {
+        "sugar": 0.0,
+        "bitter": 0.0,
+        "water": 0.0,
+        "salt": 0.0,
+        "vinegar": 0.0,
+        "yeast": 0.0,
+        "geosmin": 0.0,
+        "pheromone": 0.0,
+        "warm": 0.0,
+        "cold": 0.0,
+        "humid": 0.0,
+        "dry": 0.0,
+        "bright": 0.0,
+        "touch": 0.0,
+        "sound": 0.0,
+        "wind": 0.0
+      },
+      "single_word_top1_accuracy": 0.0625,
+      "single_word_trials": 96
+    },
+    "interpretation": "Negative controls test whether predictions depend on neural observations. No claim of connectome superiority over random wiring is made."
+  },
+  "first_sentence": {
+    "successes": 20,
+    "total": 20,
+    "current_decoder_verified_against_all_saved_spike_counts": true
+  },
+  "tests": {
+    "tests": 18,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "api_smoke": {
+    "humid": {
+      "decoded": [
+        "humid"
+      ],
+      "target_cells": 16,
+      "spikes": 124532,
+      "observation_id": "6993286d64f44283b642ba7517223d7f"
+    },
+    "left": {
+      "status": "input_prepared",
+      "proposed": true,
+      "target_cells": 100,
+      "neural_observation": null
+    },
+    "llm_configured": false
+  },
+  "unchanged_checks": {
+    "auditory_command_input_cells_and_readout_indices_identical": true,
+    "mn9_physiology_unchanged": true,
+    "social_stimulus_ids_profiles_and_parameters_checked_unchanged": true
+  },
+  "remaining": [
+    "Foreleg distal sensillum subset unresolved",
+    "MaleCNS/VNC dynamics not connected",
+    "Stimulus-to-spike transfer functions uncalibrated",
+    "OpenAI credentials/model unavailable",
+    "Exact author code/data/weights not located"
+  ],
+  "report_pdf_visual_check": {
+    "file": "reports/reconstruction/results.pdf",
+    "pages": 1,
+    "rendered_and_inspected": true,
+    "clipping_or_overlap_found": false
+  }
+}

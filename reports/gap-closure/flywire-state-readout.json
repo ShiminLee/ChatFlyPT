@@ -1,0 +1,5033 @@
+{
+  "dataset": "FlyWire v783",
+  "trials": 599,
+  "features": 193482,
+  "feature_definition": "sqrt spike count; log1p positive and negative voltage area in mV ms",
+  "estimator": {
+    "algorithm": "ridge",
+    "alpha": 10,
+    "solver": "cholesky",
+    "fit_intercept": true
+  },
+  "catalogue_signature": "bd31aedcd13ccd6ff49405c03d96f503895725cbec29a0009270650475106622",
+  "model_sha256": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3",
+  "cache": "data\\derived\\state-sensory\\trials\\flywire\\63ccf50adf7bff82",
+  "all_sensory_and_direct_cells_excluded": true,
+  "qualified_labels": {
+    "bright:left": true,
+    "bright:right": true,
+    "vision_r7:left": true,
+    "vision_r7:right": true,
+    "vision_r8:left": true,
+    "vision_r8:right": true,
+    "vision_dra:left": true,
+    "vision_dra:right": true,
+    "vision_ocelli:left": true,
+    "vision_ocelli:right": true,
+    "vinegar:left": true,
+    "vinegar:right": true,
+    "yeast:left": false,
+    "yeast:right": false,
+    "geosmin:left": true,
+    "geosmin:right": true,
+    "cva:left": false,
+    "cva:right": true,
+    "co2:left": true,
+    "co2:right": true,
+    "sweet_water:left": true,
+    "sweet_water:right": true,
+    "bitter:left": true,
+    "bitter:right": true,
+    "low_salt:left": true,
+    "low_salt:right": true,
+    "warm:left": true,
+    "warm:right": true,
+    "cold:left": true,
+    "cold:right": true,
+    "moist:left": true,
+    "moist:right": true,
+    "dry:left": true,
+    "dry:right": true,
+    "evaporative_cooling:left": true,
+    "evaporative_cooling:right": true,
+    "auditory:left": true,
+    "auditory:right": true,
+    "wind_gravity:left": true,
+    "wind_gravity:right": true,
+    "head_touch:left": true,
+    "head_touch:right": true,
+    "eye_touch:left": true,
+    "eye_touch:right": true
+  },
+  "qualification_validation": {
+    "bright:left": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "bright:right": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_r7:left": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_r7:right": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_r8:left": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_r8:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_dra:left": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_dra:right": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_ocelli:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vision_ocelli:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vinegar:left": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "vinegar:right": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "yeast:left": {
+      "true_positives": 6,
+      "false_positives": 2,
+      "precision": 0.75,
+      "qualified": false
+    },
+    "yeast:right": {
+      "true_positives": 3,
+      "false_positives": 1,
+      "precision": 0.75,
+      "qualified": false
+    },
+    "geosmin:left": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "geosmin:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "cva:left": {
+      "true_positives": 4,
+      "false_positives": 2,
+      "precision": 0.6666666666666666,
+      "qualified": false
+    },
+    "cva:right": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "co2:left": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "co2:right": {
+      "true_positives": 7,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "sweet_water:left": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "sweet_water:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "bitter:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "bitter:right": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "low_salt:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "low_salt:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "warm:left": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "warm:right": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "cold:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "cold:right": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "moist:left": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "moist:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "dry:left": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "dry:right": {
+      "true_positives": 6,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "evaporative_cooling:left": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "evaporative_cooling:right": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "auditory:left": {
+      "true_positives": 8,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "auditory:right": {
+      "true_positives": 9,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "wind_gravity:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "wind_gravity:right": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "head_touch:left": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "head_touch:right": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "eye_touch:left": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    },
+    "eye_touch:right": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "precision": 1.0,
+      "qualified": true
+    }
+  },
+  "qualification_rule": "All isolated positive validation trials detected; precision >= 0.90 across ALL validation trials, including negative/wrong-side/mixed inputs; counts>0 or voltage peak>1e-6 mV.",
+  "test": {
+    "trials": 163,
+    "exact_set_accuracy": 0.7852760736196319,
+    "micro_f1": 0.8942807625649913,
+    "per_label_f1": {
+      "bright:left": 1.0,
+      "bright:right": 1.0,
+      "vision_r7:left": 1.0,
+      "vision_r7:right": 1.0,
+      "vision_r8:left": 1.0,
+      "vision_r8:right": 1.0,
+      "vision_dra:left": 1.0,
+      "vision_dra:right": 1.0,
+      "vision_ocelli:left": 1.0,
+      "vision_ocelli:right": 1.0,
+      "vinegar:left": 0.6666666666666666,
+      "vinegar:right": 0.8235294117647058,
+      "yeast:left": 0.0,
+      "yeast:right": 0.0,
+      "geosmin:left": 0.6153846153846154,
+      "geosmin:right": 0.75,
+      "cva:left": 0.0,
+      "cva:right": 1.0,
+      "co2:left": 0.875,
+      "co2:right": 0.8571428571428571,
+      "sweet_water:left": 1.0,
+      "sweet_water:right": 0.9230769230769231,
+      "bitter:left": 1.0,
+      "bitter:right": 0.9230769230769231,
+      "low_salt:left": 1.0,
+      "low_salt:right": 1.0,
+      "warm:left": 0.9411764705882353,
+      "warm:right": 0.9473684210526315,
+      "cold:left": 1.0,
+      "cold:right": 0.9090909090909091,
+      "moist:left": 0.7272727272727273,
+      "moist:right": 0.8,
+      "dry:left": 0.8333333333333334,
+      "dry:right": 0.875,
+      "evaporative_cooling:left": 0.875,
+      "evaporative_cooling:right": 0.36363636363636365,
+      "auditory:left": 1.0,
+      "auditory:right": 1.0,
+      "wind_gravity:left": 1.0,
+      "wind_gravity:right": 1.0,
+      "head_touch:left": 1.0,
+      "head_touch:right": 0.9090909090909091,
+      "eye_touch:left": 1.0,
+      "eye_touch:right": 1.0
+    }
+  },
+  "single": {
+    "trials": 138,
+    "exact_set_accuracy": 0.8695652173913043,
+    "micro_f1": 0.9405099150141643,
+    "per_label_f1": {
+      "bright:left": 1.0,
+      "bright:right": 1.0,
+      "vision_r7:left": 1.0,
+      "vision_r7:right": 1.0,
+      "vision_r8:left": 1.0,
+      "vision_r8:right": 1.0,
+      "vision_dra:left": 1.0,
+      "vision_dra:right": 1.0,
+      "vision_ocelli:left": 1.0,
+      "vision_ocelli:right": 1.0,
+      "vinegar:left": 0.6666666666666666,
+      "vinegar:right": 0.8888888888888888,
+      "yeast:left": 0.0,
+      "yeast:right": 0.0,
+      "geosmin:left": 0.8,
+      "geosmin:right": 0.8571428571428571,
+      "cva:left": 0.0,
+      "cva:right": 1.0,
+      "co2:left": 1.0,
+      "co2:right": 1.0,
+      "sweet_water:left": 1.0,
+      "sweet_water:right": 1.0,
+      "bitter:left": 1.0,
+      "bitter:right": 1.0,
+      "low_salt:left": 1.0,
+      "low_salt:right": 1.0,
+      "warm:left": 1.0,
+      "warm:right": 1.0,
+      "cold:left": 1.0,
+      "cold:right": 1.0,
+      "moist:left": 1.0,
+      "moist:right": 1.0,
+      "dry:left": 0.8571428571428571,
+      "dry:right": 1.0,
+      "evaporative_cooling:left": 1.0,
+      "evaporative_cooling:right": 0.6666666666666666,
+      "auditory:left": 1.0,
+      "auditory:right": 1.0,
+      "wind_gravity:left": 1.0,
+      "wind_gravity:right": 1.0,
+      "head_touch:left": 1.0,
+      "head_touch:right": 1.0,
+      "eye_touch:left": 1.0,
+      "eye_touch:right": 1.0
+    }
+  },
+  "mixture": {
+    "trials": 24,
+    "exact_set_accuracy": 0.2916666666666667,
+    "micro_f1": 0.8214285714285714,
+    "per_label_f1": {
+      "bright:left": 0.0,
+      "bright:right": 0.0,
+      "vision_r7:left": 1.0,
+      "vision_r7:right": 1.0,
+      "vision_r8:left": 1.0,
+      "vision_r8:right": 1.0,
+      "vision_dra:left": 1.0,
+      "vision_dra:right": 1.0,
+      "vision_ocelli:left": 1.0,
+      "vision_ocelli:right": 1.0,
+      "vinegar:left": 0.6666666666666666,
+      "vinegar:right": 0.75,
+      "yeast:left": 0.0,
+      "yeast:right": 0.0,
+      "geosmin:left": 0.0,
+      "geosmin:right": 0.0,
+      "cva:left": 0.0,
+      "cva:right": 1.0,
+      "co2:left": 0.75,
+      "co2:right": 0.6666666666666666,
+      "sweet_water:left": 1.0,
+      "sweet_water:right": 0.8,
+      "bitter:left": 1.0,
+      "bitter:right": 0.8,
+      "low_salt:left": 1.0,
+      "low_salt:right": 1.0,
+      "warm:left": 0.8888888888888888,
+      "warm:right": 0.9090909090909091,
+      "cold:left": 1.0,
+      "cold:right": 0.6666666666666666,
+      "moist:left": 0.0,
+      "moist:right": 0.0,
+      "dry:left": 0.8,
+      "dry:right": 0.75,
+      "evaporative_cooling:left": 0.75,
+      "evaporative_cooling:right": 0.0,
+      "auditory:left": 1.0,
+      "auditory:right": 1.0,
+      "wind_gravity:left": 1.0,
+      "wind_gravity:right": 1.0,
+      "head_touch:left": 1.0,
+      "head_touch:right": 0.6666666666666666,
+      "eye_touch:left": 1.0,
+      "eye_touch:right": 1.0
+    }
+  },
+  "ood": {
+    "trials": 70,
+    "exact_set_accuracy": 0.6857142857142857,
+    "micro_f1": 0.8354430379746836,
+    "per_label_f1": {
+      "bright:left": 1.0,
+      "bright:right": 1.0,
+      "vision_r7:left": 1.0,
+      "vision_r7:right": 1.0,
+      "vision_r8:left": 0.0,
+      "vision_r8:right": 0.6666666666666666,
+      "vision_dra:left": 0.6666666666666666,
+      "vision_dra:right": 1.0,
+      "vision_ocelli:left": 1.0,
+      "vision_ocelli:right": 1.0,
+      "vinegar:left": 0.0,
+      "vinegar:right": 0.0,
+      "yeast:left": 0.0,
+      "yeast:right": 0.0,
+      "geosmin:left": 0.6666666666666666,
+      "geosmin:right": 0.0,
+      "cva:left": 0.0,
+      "cva:right": 1.0,
+      "co2:left": 1.0,
+      "co2:right": 1.0,
+      "sweet_water:left": 1.0,
+      "sweet_water:right": 0.6666666666666666,
+      "bitter:left": 1.0,
+      "bitter:right": 1.0,
+      "low_salt:left": 0.6666666666666666,
+      "low_salt:right": 0.6666666666666666,
+      "warm:left": 1.0,
+      "warm:right": 0.6666666666666666,
+      "cold:left": 1.0,
+      "cold:right": 0.6666666666666666,
+      "moist:left": 1.0,
+      "moist:right": 1.0,
+      "dry:left": 0.0,
+      "dry:right": 0.6666666666666666,
+      "evaporative_cooling:left": 1.0,
+      "evaporative_cooling:right": 1.0,
+      "auditory:left": 1.0,
+      "auditory:right": 1.0,
+      "wind_gravity:left": 1.0,
+      "wind_gravity:right": 1.0,
+      "head_touch:left": 1.0,
+      "head_touch:right": 1.0,
+      "eye_touch:left": 0.6666666666666666,
+      "eye_touch:right": 1.0
+    }
+  },
+  "controls": {
+    "shuffled": {
+      "micro_f1": 0.024263431542461005
+    },
+    "zero": {
+      "micro_f1": 0.0,
+      "predicted_labels": []
+    }
+  },
+  "test_predictions": [
+    {
+      "split": "test",
+      "seed": 700278,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 1.1816707805649547,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bright:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700279,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 1.184679742092648,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bright:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700280,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.961755527564902,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bright:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700281,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 1.1269922418852183,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bright:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700282,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "bilateral",
+          "intensity": 0.8378154629813084,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700283,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "bilateral",
+          "intensity": 1.1871634025774263,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700284,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 1.0833664668149092,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700285,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 0.9744485465592725,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700286,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "right",
+          "intensity": 0.788520374475156,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700287,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "right",
+          "intensity": 1.1062662271031025,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700288,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "bilateral",
+          "intensity": 0.8739459916778696,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_r7:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700289,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "bilateral",
+          "intensity": 1.1756907342179297,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_r7:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700290,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "left",
+          "intensity": 1.0668504030011638,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700291,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "left",
+          "intensity": 0.9612325586961361,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700292,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "right",
+          "intensity": 1.1433899851950526,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700293,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "right",
+          "intensity": 1.0377405447170587,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700294,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "bilateral",
+          "intensity": 1.1970658980487552,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:left",
+        "vision_r8:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700295,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "bilateral",
+          "intensity": 1.18154127012004,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:left",
+        "vision_r8:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700296,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "left",
+          "intensity": 0.798250052694014,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700297,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "left",
+          "intensity": 0.9220733650720827,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700298,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "right",
+          "intensity": 1.0464353749391295,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700299,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "right",
+          "intensity": 1.0784625937084593,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700300,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "bilateral",
+          "intensity": 0.7611654961311951,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:left",
+        "vision_dra:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700301,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "bilateral",
+          "intensity": 1.2307135004910053,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:left",
+        "vision_dra:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700302,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "left",
+          "intensity": 0.9733940931773146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700303,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "left",
+          "intensity": 0.817827279742759,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700304,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "right",
+          "intensity": 0.9990060939129999,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700305,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "right",
+          "intensity": 1.244392248663448,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700306,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "bilateral",
+          "intensity": 1.2005361799023007,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:left",
+        "vision_ocelli:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700307,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "bilateral",
+          "intensity": 1.0582861300081234,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:left",
+        "vision_ocelli:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700308,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "left",
+          "intensity": 1.0680607285388548,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700309,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "left",
+          "intensity": 0.753678647589935,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700310,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "right",
+          "intensity": 0.8177679524514445,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700311,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "right",
+          "intensity": 0.8930542062265866,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700312,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "bilateral",
+          "intensity": 0.930659668837476,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:left",
+        "vinegar:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700313,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "bilateral",
+          "intensity": 1.2060300251812857,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:left",
+        "vinegar:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700314,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "left",
+          "intensity": 1.0810435203693827,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700315,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "left",
+          "intensity": 0.829078844400865,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700316,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "right",
+          "intensity": 0.8974026287315671,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700317,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "right",
+          "intensity": 1.1991043257728193,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700318,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "bilateral",
+          "intensity": 1.094502558442885,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700319,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "bilateral",
+          "intensity": 0.7914117677295007,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700320,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "left",
+          "intensity": 1.2057825080777649,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700321,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "left",
+          "intensity": 1.1460421090017623,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700322,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "right",
+          "intensity": 0.926057219098461,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700323,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "right",
+          "intensity": 1.0666221161356622,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700324,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "bilateral",
+          "intensity": 0.9009904776584514,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700325,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "bilateral",
+          "intensity": 0.8065719197485505,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:left",
+        "geosmin:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700326,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "left",
+          "intensity": 0.7838666974867912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700327,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "left",
+          "intensity": 1.1655533767466657,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700328,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "right",
+          "intensity": 0.8207517759878149,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cva:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700329,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "right",
+          "intensity": 1.1338028527398767,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cva:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700330,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "bilateral",
+          "intensity": 0.811491938508871,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cva:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700331,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "bilateral",
+          "intensity": 0.9884679019745044,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cva:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700332,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "left",
+          "intensity": 0.9310702072268233,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "co2:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700333,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "left",
+          "intensity": 1.1630337681600773,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "co2:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700334,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "right",
+          "intensity": 1.2478531867284746,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "co2:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700335,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "right",
+          "intensity": 1.232020201989028,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "co2:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700336,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "bilateral",
+          "intensity": 0.9313927019663012,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "co2:left",
+        "co2:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700337,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "bilateral",
+          "intensity": 1.0427089112214007,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "co2:left",
+        "co2:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700338,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "left",
+          "intensity": 0.8531307038306748,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sweet_water:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700339,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "left",
+          "intensity": 0.8556531560825336,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sweet_water:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700340,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "right",
+          "intensity": 1.0052463003606085,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sweet_water:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700341,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "right",
+          "intensity": 1.008638939671766,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sweet_water:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700342,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "bilateral",
+          "intensity": 0.8361707404990426,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sweet_water:left",
+        "sweet_water:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700343,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "bilateral",
+          "intensity": 1.1232836740201146,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sweet_water:left",
+        "sweet_water:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700344,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "left",
+          "intensity": 0.8955850907140449,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bitter:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700345,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "left",
+          "intensity": 0.9586251596040658,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bitter:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700346,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "right",
+          "intensity": 1.1165134373439727,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:left",
+        "bitter:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700347,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "right",
+          "intensity": 1.196964577339953,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:left",
+        "bitter:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700348,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "bilateral",
+          "intensity": 0.8185647665399234,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bitter:left",
+        "bitter:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700349,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "bilateral",
+          "intensity": 1.1495996160543018,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "bitter:left",
+        "bitter:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700350,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "left",
+          "intensity": 0.8175548766940801,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "low_salt:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700351,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "left",
+          "intensity": 0.8739310873293052,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "low_salt:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700352,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "right",
+          "intensity": 1.0407707234084536,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "low_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700353,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "right",
+          "intensity": 0.8219820434325084,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "low_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700354,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "bilateral",
+          "intensity": 0.9069519577121392,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "low_salt:left",
+        "low_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700355,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "bilateral",
+          "intensity": 0.9828949970657195,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "low_salt:left",
+        "low_salt:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700356,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "left",
+          "intensity": 0.7757813710519458,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "warm:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700357,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "left",
+          "intensity": 0.8582579083974771,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "warm:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700358,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "right",
+          "intensity": 0.768893859672942,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700359,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "right",
+          "intensity": 0.813515711073571,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700360,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "bilateral",
+          "intensity": 1.0715166093194597,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "warm:left",
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700361,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "bilateral",
+          "intensity": 1.15345300735237,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "warm:left",
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700362,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "left",
+          "intensity": 1.0386517329406557,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cold:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700363,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "left",
+          "intensity": 1.107392529384386,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cold:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700364,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "right",
+          "intensity": 1.1160873048991218,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cold:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700365,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "right",
+          "intensity": 1.0469360365769464,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cold:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700366,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "bilateral",
+          "intensity": 0.9972286826111909,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700367,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "bilateral",
+          "intensity": 1.1615710807367807,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700368,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "left",
+          "intensity": 1.084496731456024,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "moist:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700369,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "left",
+          "intensity": 1.1342624153565382,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "moist:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700370,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "right",
+          "intensity": 0.9007198719455994,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "moist:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700371,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "right",
+          "intensity": 1.11997653552765,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "moist:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700372,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "bilateral",
+          "intensity": 0.7561304933928408,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "moist:left",
+        "moist:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700373,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "bilateral",
+          "intensity": 0.8468605586554478,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "moist:left",
+        "moist:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700374,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "left",
+          "intensity": 1.003452862972163,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700375,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "left",
+          "intensity": 1.1636763075771914,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "dry:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700376,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "right",
+          "intensity": 0.7900572727909667,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "dry:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700377,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "right",
+          "intensity": 1.1884812016081165,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "dry:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700378,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "bilateral",
+          "intensity": 1.0862657010218788,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "dry:left",
+        "dry:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700379,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "bilateral",
+          "intensity": 1.0149744081385845,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "dry:left",
+        "dry:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700380,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "left",
+          "intensity": 1.1425282809826016,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700381,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "left",
+          "intensity": 0.8652818893694861,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700382,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "right",
+          "intensity": 0.9062948923572675,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700383,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "right",
+          "intensity": 0.8205580028005117,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700384,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "bilateral",
+          "intensity": 1.1521912013143876,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700385,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "bilateral",
+          "intensity": 0.8104604240567352,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:left",
+        "evaporative_cooling:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700386,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "left",
+          "intensity": 1.0502548475155342,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700387,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "left",
+          "intensity": 0.9671847728970924,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700388,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "right",
+          "intensity": 1.066358843122563,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700389,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "right",
+          "intensity": 1.0632530789737311,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700390,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "bilateral",
+          "intensity": 0.9808782307544891,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700391,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "bilateral",
+          "intensity": 0.7505828093950786,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700392,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "left",
+          "intensity": 0.9462251085202513,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700393,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "left",
+          "intensity": 0.8765000642055634,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700394,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "right",
+          "intensity": 1.0761944474382577,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700395,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "right",
+          "intensity": 1.174830744005464,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700396,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "bilateral",
+          "intensity": 0.8295352610412037,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700397,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "bilateral",
+          "intensity": 1.0076229097427953,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700398,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "left",
+          "intensity": 1.0537036512134523,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wind_gravity:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700399,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "left",
+          "intensity": 1.242339849162959,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wind_gravity:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700400,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "right",
+          "intensity": 0.8419050614449328,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wind_gravity:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700401,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "right",
+          "intensity": 1.2090562806402918,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wind_gravity:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700402,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "bilateral",
+          "intensity": 1.204286557548152,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wind_gravity:left",
+        "wind_gravity:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700403,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "bilateral",
+          "intensity": 0.8383648611049115,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wind_gravity:left",
+        "wind_gravity:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700404,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "left",
+          "intensity": 1.230168021155095,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "head_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700405,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "left",
+          "intensity": 1.0824781359763391,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "head_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700406,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "right",
+          "intensity": 1.0960847106565454,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "head_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700407,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "right",
+          "intensity": 0.7541794808881139,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "head_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700408,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "bilateral",
+          "intensity": 0.9479117807443153,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "head_touch:left",
+        "head_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700409,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "bilateral",
+          "intensity": 1.2079602740390976,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "head_touch:left",
+        "head_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700410,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "left",
+          "intensity": 1.0620052951049774,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "eye_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700411,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "left",
+          "intensity": 0.9084521602352886,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "eye_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700412,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "right",
+          "intensity": 0.9071357381605285,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700413,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "right",
+          "intensity": 0.8487836231598961,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700414,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "bilateral",
+          "intensity": 0.8345364435141761,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "eye_touch:left",
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700415,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "bilateral",
+          "intensity": 0.8161449100004137,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "eye_touch:left",
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700416,
+      "kind": "blank",
+      "items": [],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700417,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "bright:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700418,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "bright:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700419,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bright",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700420,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_r7:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700421,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_r7:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700422,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_r7:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700423,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700424,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700425,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_r8",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_r8:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700426,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_dra:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700427,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_dra:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700428,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_dra",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_dra:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700429,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700430,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700431,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:left",
+        "vision_ocelli:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700432,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700433,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700434,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700435,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700436,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700437,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700438,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700439,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700440,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "geosmin:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700441,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700442,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "cva:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700443,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cva",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "cva:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700444,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "co2:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700445,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "co2:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700446,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "co2:left",
+        "co2:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700447,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "sweet_water:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700448,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "sweet_water:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700449,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "sweet_water:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700450,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "bitter:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700451,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "bitter:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700452,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "bitter:left",
+        "bitter:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700453,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "low_salt:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700454,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "low_salt:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700455,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "low_salt",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700456,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "warm:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700457,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700458,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "warm:left",
+        "warm:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700459,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "cold:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700460,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700461,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "cold",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700462,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "moist:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700463,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "moist:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700464,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "moist:left",
+        "moist:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700465,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700466,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "dry:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700467,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "dry",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "ood",
+      "seed": 700468,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700469,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700470,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "evaporative_cooling:left",
+        "evaporative_cooling:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700471,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "auditory:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700472,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700473,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700474,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "auditory:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700475,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700476,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "auditory:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700477,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "wind_gravity:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700478,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "wind_gravity:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700479,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "wind_gravity",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "wind_gravity:left",
+        "wind_gravity:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700480,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "head_touch:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700481,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "head_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700482,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "head_touch:left",
+        "head_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700483,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "left",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "eye_touch:left"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700484,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "right",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700485,
+      "kind": "single",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "bilateral",
+          "intensity": 0.5,
+          "onset_ms": 50,
+          "duration_ms": 180
+        }
+      ],
+      "predicted": [
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "ood",
+      "seed": 700486,
+      "kind": "blank",
+      "items": [],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700575,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "left",
+          "intensity": 0.8511630544132442,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "dry",
+          "side": "right",
+          "intensity": 0.8511630544132442,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "evaporative_cooling",
+          "side": "right",
+          "intensity": 0.8511630544132442,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "cva",
+          "side": "left",
+          "intensity": 0.8511630544132442,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "seed": 700576,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "right",
+          "intensity": 0.9880602028860226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "yeast",
+          "side": "bilateral",
+          "intensity": 0.9880602028860226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "warm",
+          "side": "bilateral",
+          "intensity": 0.9880602028860226,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:right",
+        "warm:left",
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700577,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "geosmin",
+          "side": "bilateral",
+          "intensity": 1.1210010407276783,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sweet_water",
+          "side": "right",
+          "intensity": 1.1210010407276783,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "warm",
+          "side": "right",
+          "intensity": 1.1210010407276783,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "sweet_water:right",
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700578,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 1.0579794596058054,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r8",
+          "side": "left",
+          "intensity": 1.0579794596058054,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "head_touch",
+          "side": "left",
+          "intensity": 1.0579794596058054,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "courtship_pulse",
+          "side": "bilateral",
+          "intensity": 1.0579794596058054,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_r8:left",
+        "auditory:left",
+        "auditory:right",
+        "head_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700579,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "right",
+          "intensity": 0.9443562215341259,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wind_gravity",
+          "side": "left",
+          "intensity": 0.9443562215341259,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "cold",
+          "side": "bilateral",
+          "intensity": 0.9443562215341259,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "bitter",
+          "side": "bilateral",
+          "intensity": 0.9443562215341259,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:right",
+        "geosmin:left",
+        "bitter:left",
+        "bitter:right",
+        "cold:left",
+        "cold:right",
+        "wind_gravity:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700580,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "vinegar",
+          "side": "bilateral",
+          "intensity": 1.0103472361165278,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_dra",
+          "side": "bilateral",
+          "intensity": 1.0103472361165278,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "low_salt",
+          "side": "bilateral",
+          "intensity": 1.0103472361165278,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "evaporative_cooling",
+          "side": "bilateral",
+          "intensity": 1.0103472361165278,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r8",
+          "side": "left",
+          "intensity": 1.0103472361165278,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:left",
+        "vision_dra:left",
+        "vision_dra:right",
+        "vinegar:left",
+        "vinegar:right",
+        "low_salt:left",
+        "low_salt:right",
+        "evaporative_cooling:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700581,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "courtship_pulse",
+          "side": "right",
+          "intensity": 1.1346473529821965,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_dra",
+          "side": "left",
+          "intensity": 1.1346473529821965,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 1.1346473529821965,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_ocelli",
+          "side": "bilateral",
+          "intensity": 1.1346473529821965,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "dry",
+          "side": "left",
+          "intensity": 1.1346473529821965,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_dra:left",
+        "vision_ocelli:left",
+        "vision_ocelli:right",
+        "dry:right",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700582,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "left",
+          "intensity": 1.1980422524543255,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "warm",
+          "side": "bilateral",
+          "intensity": 1.1980422524543255,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "low_salt",
+          "side": "left",
+          "intensity": 1.1980422524543255,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "evaporative_cooling",
+          "side": "bilateral",
+          "intensity": 1.1980422524543255,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 1.1980422524543255,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "low_salt:left",
+        "warm:left",
+        "warm:right",
+        "evaporative_cooling:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700583,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 0.8649351291960801,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "low_salt",
+          "side": "left",
+          "intensity": 0.8649351291960801,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_ocelli",
+          "side": "right",
+          "intensity": 0.8649351291960801,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_ocelli:right",
+        "low_salt:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700584,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "left",
+          "intensity": 0.9506896855936942,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "evaporative_cooling",
+          "side": "bilateral",
+          "intensity": 0.9506896855936942,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "dry",
+          "side": "bilateral",
+          "intensity": 0.9506896855936942,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "eye_touch",
+          "side": "left",
+          "intensity": 0.9506896855936942,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r7",
+          "side": "right",
+          "intensity": 0.9506896855936942,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:right",
+        "dry:left",
+        "dry:right",
+        "head_touch:left",
+        "head_touch:right",
+        "eye_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700585,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "evaporative_cooling",
+          "side": "bilateral",
+          "intensity": 1.1510390076735366,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r7",
+          "side": "bilateral",
+          "intensity": 1.1510390076735366,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_r7:right",
+        "evaporative_cooling:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700586,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "left",
+          "intensity": 0.8921040927919061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 0.8921040927919061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vinegar",
+          "side": "left",
+          "intensity": 0.8921040927919061,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vision_ocelli:left",
+        "vinegar:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700587,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "warm",
+          "side": "right",
+          "intensity": 1.075633080955999,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r8",
+          "side": "right",
+          "intensity": 1.075633080955999,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r8:right",
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700588,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "moist",
+          "side": "bilateral",
+          "intensity": 1.0789398678273003,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "warm",
+          "side": "bilateral",
+          "intensity": 1.0789398678273003,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "evaporative_cooling",
+          "side": "left",
+          "intensity": 1.0789398678273003,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vinegar",
+          "side": "left",
+          "intensity": 1.0789398678273003,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "auditory",
+          "side": "right",
+          "intensity": 1.0789398678273003,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:right",
+        "warm:left",
+        "auditory:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700589,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "bitter",
+          "side": "left",
+          "intensity": 0.8659288200753938,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vinegar",
+          "side": "bilateral",
+          "intensity": 0.8659288200753938,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_r7",
+          "side": "left",
+          "intensity": 0.8659288200753938,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "co2",
+          "side": "left",
+          "intensity": 0.8659288200753938,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "warm",
+          "side": "left",
+          "intensity": 0.8659288200753938,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_r7:left",
+        "vinegar:left",
+        "vinegar:right",
+        "bitter:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700590,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "bilateral",
+          "intensity": 0.9828261609033919,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "dry",
+          "side": "right",
+          "intensity": 0.9828261609033919,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "auditory",
+          "side": "left",
+          "intensity": 0.9828261609033919,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "dry:right",
+        "auditory:left",
+        "eye_touch:left",
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700591,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "head_touch",
+          "side": "bilateral",
+          "intensity": 1.004127568396246,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "yeast",
+          "side": "right",
+          "intensity": 1.004127568396246,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_ocelli",
+          "side": "bilateral",
+          "intensity": 1.004127568396246,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "cold",
+          "side": "bilateral",
+          "intensity": 1.004127568396246,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "moist",
+          "side": "left",
+          "intensity": 1.004127568396246,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_ocelli:left",
+        "vision_ocelli:right",
+        "cold:left",
+        "head_touch:left",
+        "head_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700592,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "vision_ocelli",
+          "side": "bilateral",
+          "intensity": 0.9453249123137165,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_dra",
+          "side": "left",
+          "intensity": 0.9453249123137165,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "sweet_water",
+          "side": "left",
+          "intensity": 0.9453249123137165,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "co2",
+          "side": "bilateral",
+          "intensity": 0.9453249123137165,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:left",
+        "vision_ocelli:left",
+        "vision_ocelli:right",
+        "co2:left",
+        "co2:right",
+        "sweet_water:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700593,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "right",
+          "intensity": 0.9111510740201912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "warm",
+          "side": "bilateral",
+          "intensity": 0.9111510740201912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "moist",
+          "side": "right",
+          "intensity": 0.9111510740201912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "co2",
+          "side": "right",
+          "intensity": 0.9111510740201912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "bitter",
+          "side": "right",
+          "intensity": 0.9111510740201912,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "co2:right",
+        "warm:left",
+        "warm:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700594,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "eye_touch",
+          "side": "right",
+          "intensity": 1.0652879049597321,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "wind_gravity",
+          "side": "bilateral",
+          "intensity": 1.0652879049597321,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "wind_gravity:left",
+        "wind_gravity:right",
+        "eye_touch:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700595,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "sweet_water",
+          "side": "right",
+          "intensity": 0.9121593921119651,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vinegar",
+          "side": "left",
+          "intensity": 0.9121593921119651,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:left",
+        "sweet_water:right"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700596,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "yeast",
+          "side": "right",
+          "intensity": 0.9287455783374516,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "cva",
+          "side": "bilateral",
+          "intensity": 0.9287455783374516,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "eye_touch",
+          "side": "left",
+          "intensity": 0.9287455783374516,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vision_dra",
+          "side": "bilateral",
+          "intensity": 0.9287455783374516,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vision_dra:left",
+        "vision_dra:right",
+        "cva:right",
+        "eye_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700597,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "co2",
+          "side": "bilateral",
+          "intensity": 1.1101362912924184,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "auditory",
+          "side": "right",
+          "intensity": 1.1101362912924184,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "vinegar",
+          "side": "bilateral",
+          "intensity": 1.1101362912924184,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "eye_touch",
+          "side": "left",
+          "intensity": 1.1101362912924184,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "vinegar:right",
+        "co2:left",
+        "auditory:right",
+        "eye_touch:left"
+      ]
+    },
+    {
+      "split": "test",
+      "seed": 700598,
+      "kind": "mixture",
+      "items": [
+        {
+          "channel": "auditory",
+          "side": "left",
+          "intensity": 0.8017363550791561,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "dry",
+          "side": "bilateral",
+          "intensity": 0.8017363550791561,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "bitter",
+          "side": "bilateral",
+          "intensity": 0.8017363550791561,
+          "onset_ms": 50,
+          "duration_ms": 300
+        },
+        {
+          "channel": "co2",
+          "side": "bilateral",
+          "intensity": 0.8017363550791561,
+          "onset_ms": 50,
+          "duration_ms": 300
+        }
+      ],
+      "predicted": [
+        "geosmin:left",
+        "co2:left",
+        "bitter:left",
+        "bitter:right",
+        "dry:left",
+        "dry:right",
+        "auditory:left"
+      ]
+    }
+  ],
+  "limitations": [
+    "Fixed synthetic intervention benchmark; not natural sensory accuracy.",
+    "Electrical response is under unchanged LIF equations, not calibrated graded visual physiology."
+  ],
+  "threshold_selection": "Validation only; prioritize reporting qualification, then F1; original 0.20..0.80 grid in 0.01 increments."
+}

@@ -1,0 +1,231 @@
+{
+  "schema": "chatflypt.readout-coverage.v1",
+  "run_id": "conspecific-v6",
+  "windows": 144,
+  "conditions": {
+    "cold_follow_left_r1": 6,
+    "cold_follow_left_r2": 6,
+    "cold_follow_left_r3": 6,
+    "cold_follow_right_r1": 6,
+    "cold_follow_right_r2": 6,
+    "cold_follow_right_r3": 6,
+    "heat_follow_left_r1": 6,
+    "heat_follow_left_r2": 6,
+    "heat_follow_left_r3": 6,
+    "heat_follow_right_r1": 6,
+    "heat_follow_right_r2": 6,
+    "heat_follow_right_r3": 6,
+    "nudge_left_r1": 6,
+    "nudge_right_r1": 6,
+    "pheromone_follow_left_r1": 6,
+    "pheromone_follow_right_r1": 6,
+    "song_follow_left_r1": 6,
+    "song_follow_right_r1": 6,
+    "yeast_follow_left_r1": 6,
+    "yeast_follow_left_r2": 6,
+    "yeast_follow_left_r3": 6,
+    "yeast_follow_right_r1": 6,
+    "yeast_follow_right_r2": 6,
+    "yeast_follow_right_r3": 6
+  },
+  "labels": {
+    "auditory:left": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "song_follow_left_r1": 6,
+        "song_follow_right_r1": 6
+      }
+    },
+    "auditory:right": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "song_follow_left_r1": 6,
+        "song_follow_right_r1": 6
+      }
+    },
+    "bright:left": {
+      "train": 48,
+      "validation": 48,
+      "test": 48,
+      "conditions": {
+        "cold_follow_left_r1": 6,
+        "cold_follow_left_r2": 6,
+        "cold_follow_left_r3": 6,
+        "cold_follow_right_r1": 6,
+        "cold_follow_right_r2": 6,
+        "cold_follow_right_r3": 6,
+        "heat_follow_left_r1": 6,
+        "heat_follow_left_r2": 6,
+        "heat_follow_left_r3": 6,
+        "heat_follow_right_r1": 6,
+        "heat_follow_right_r2": 6,
+        "heat_follow_right_r3": 6,
+        "nudge_left_r1": 6,
+        "nudge_right_r1": 6,
+        "pheromone_follow_left_r1": 6,
+        "pheromone_follow_right_r1": 6,
+        "song_follow_left_r1": 6,
+        "song_follow_right_r1": 6,
+        "yeast_follow_left_r1": 6,
+        "yeast_follow_left_r2": 6,
+        "yeast_follow_left_r3": 6,
+        "yeast_follow_right_r1": 6,
+        "yeast_follow_right_r2": 6,
+        "yeast_follow_right_r3": 6
+      }
+    },
+    "bright:right": {
+      "train": 48,
+      "validation": 48,
+      "test": 48,
+      "conditions": {
+        "cold_follow_left_r1": 6,
+        "cold_follow_left_r2": 6,
+        "cold_follow_left_r3": 6,
+        "cold_follow_right_r1": 6,
+        "cold_follow_right_r2": 6,
+        "cold_follow_right_r3": 6,
+        "heat_follow_left_r1": 6,
+        "heat_follow_left_r2": 6,
+        "heat_follow_left_r3": 6,
+        "heat_follow_right_r1": 6,
+        "heat_follow_right_r2": 6,
+        "heat_follow_right_r3": 6,
+        "nudge_left_r1": 6,
+        "nudge_right_r1": 6,
+        "pheromone_follow_left_r1": 6,
+        "pheromone_follow_right_r1": 6,
+        "song_follow_left_r1": 6,
+        "song_follow_right_r1": 6,
+        "yeast_follow_left_r1": 6,
+        "yeast_follow_left_r2": 6,
+        "yeast_follow_left_r3": 6,
+        "yeast_follow_right_r1": 6,
+        "yeast_follow_right_r2": 6,
+        "yeast_follow_right_r3": 6
+      }
+    },
+    "cold:left": {
+      "train": 12,
+      "validation": 12,
+      "test": 12,
+      "conditions": {
+        "cold_follow_left_r1": 6,
+        "cold_follow_left_r2": 6,
+        "cold_follow_left_r3": 6,
+        "cold_follow_right_r1": 6,
+        "cold_follow_right_r2": 6,
+        "cold_follow_right_r3": 6
+      }
+    },
+    "cold:right": {
+      "train": 12,
+      "validation": 12,
+      "test": 12,
+      "conditions": {
+        "cold_follow_left_r1": 6,
+        "cold_follow_left_r2": 6,
+        "cold_follow_left_r3": 6,
+        "cold_follow_right_r1": 6,
+        "cold_follow_right_r2": 6,
+        "cold_follow_right_r3": 6
+      }
+    },
+    "cva:left": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "pheromone_follow_left_r1": 6,
+        "pheromone_follow_right_r1": 6
+      }
+    },
+    "cva:right": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "pheromone_follow_left_r1": 6,
+        "pheromone_follow_right_r1": 6
+      }
+    },
+    "foreleg_touch:left": {
+      "train": 2,
+      "validation": 2,
+      "test": 2,
+      "conditions": {
+        "nudge_right_r1": 6
+      }
+    },
+    "foreleg_touch:right": {
+      "train": 2,
+      "validation": 2,
+      "test": 2,
+      "conditions": {
+        "nudge_left_r1": 6
+      }
+    },
+    "warm:left": {
+      "train": 12,
+      "validation": 12,
+      "test": 12,
+      "conditions": {
+        "heat_follow_left_r1": 6,
+        "heat_follow_left_r2": 6,
+        "heat_follow_left_r3": 6,
+        "heat_follow_right_r1": 6,
+        "heat_follow_right_r2": 6,
+        "heat_follow_right_r3": 6
+      }
+    },
+    "warm:right": {
+      "train": 12,
+      "validation": 12,
+      "test": 12,
+      "conditions": {
+        "heat_follow_left_r1": 6,
+        "heat_follow_left_r2": 6,
+        "heat_follow_left_r3": 6,
+        "heat_follow_right_r1": 6,
+        "heat_follow_right_r2": 6,
+        "heat_follow_right_r3": 6
+      }
+    },
+    "yeast:left": {
+      "train": 12,
+      "validation": 12,
+      "test": 12,
+      "conditions": {
+        "yeast_follow_left_r1": 6,
+        "yeast_follow_left_r2": 6,
+        "yeast_follow_left_r3": 6,
+        "yeast_follow_right_r1": 6,
+        "yeast_follow_right_r2": 6,
+        "yeast_follow_right_r3": 6
+      }
+    },
+    "yeast:right": {
+      "train": 12,
+      "validation": 12,
+      "test": 12,
+      "conditions": {
+        "yeast_follow_left_r1": 6,
+        "yeast_follow_left_r2": 6,
+        "yeast_follow_left_r3": 6,
+        "yeast_follow_right_r1": 6,
+        "yeast_follow_right_r2": 6,
+        "yeast_follow_right_r3": 6
+      }
+    }
+  },
+  "notes": [
+    "Delivered means measured receptor events inside the sampled windows, not the planned scene.",
+    "A label with fewer than two positives in a split cannot pass the per-label gates there.",
+    "Labels whose channels have no presentation route (wing membrane, whole thorax, labellum) cannot appear here at all; that is a documented abstention, not missing data."
+  ],
+  "biologically_calibrated": false
+}

@@ -1,0 +1,2415 @@
+{
+  "evaluation_sha256": "b304198cf782192ba9c96fd684ea76f7c6d16fd0cde994e09e9ba2f346ca9279",
+  "rows": [
+    {
+      "episode": "test-bright",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-bright\\turn-0\\measured-body.json",
+      "physical_record_sha256": "3bb8485e8aee49e5a17f55b3d75d9a12f6ec7e8f5d6f3f74254ca28e64dcd5cb",
+      "physics": {
+        "displacement_mm": [
+          0.13189030897919896,
+          0.0858769546859355,
+          -0.16086324220386228
+        ],
+        "path_length_mm": 0.640497945234073,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 2,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.09837469804687295
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-bright",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-bright\\turn-1\\measured-body.json",
+      "physical_record_sha256": "e3fe6f6fd10b4f2e2df786f42190e15b4cc49d1d316374b28e5e5f697adccab5",
+      "physics": {
+        "displacement_mm": [
+          0.12317225438903723,
+          -0.02772491460878864,
+          0.023016334198344923
+        ],
+        "path_length_mm": 0.999296931040207,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 5,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 4.466204381733689e-06,
+          "max": 0.19673737903357336
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark",
+      "turn": 0,
+      "expected": [],
+      "predicted": [],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-dark\\turn-0\\measured-body.json",
+      "physical_record_sha256": "58201aa9aac689ac4b278d2ece8eaf31b472d49ff45ca494611b072e0818e8af",
+      "physics": {
+        "displacement_mm": [
+          0.007793197550095443,
+          0.3425449257838595,
+          -0.19295042949110952
+        ],
+        "path_length_mm": 1.177390375846039,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 5,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.31606027941427883
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark",
+      "turn": 1,
+      "expected": [],
+      "predicted": [],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-dark\\turn-1\\measured-body.json",
+      "physical_record_sha256": "61063881d2bb86ced384e2ea7dd1b460e86fdab17d272b4bd333ba8b69e46ca1",
+      "physics": {
+        "displacement_mm": [
+          0.2720181497619196,
+          -0.11305351138776809,
+          -0.0034170797657698815
+        ],
+        "path_length_mm": 0.8896996978532199,
+        "max_contacts": 8,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 7,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 1.9798862865443774e-08,
+          "max": 0.19673468215230064
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-yeast\\turn-0\\measured-body.json",
+      "physical_record_sha256": "1260a0d64bf396471414bf8014bc0c9b3b472e58292274709424e6a1caa929e8",
+      "physics": {
+        "displacement_mm": [
+          0.06759521827615367,
+          0.035613539986115626,
+          -0.24507546610641717
+        ],
+        "path_length_mm": 1.0788006018048586,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 9,
+      "motor_spikes": 42,
+      "controller_program_steps": {
+        "locomotion": 2400,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 4600,
+        "song": 4600,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.11803465999875531
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.004684158812944841
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.467011884861071
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-yeast\\turn-1\\measured-body.json",
+      "physical_record_sha256": "d08e5a395ba6180478f1fd330675764d2deddacccf473f75aaf0e74b1f154738",
+      "physics": {
+        "displacement_mm": [
+          0.0011335056452377312,
+          -0.04599674159742263,
+          -0.006340953058644461
+        ],
+        "path_length_mm": 0.5890014336529704,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 9,
+      "motor_spikes": 79,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 1.792285268605029e-09,
+          "max": 0.0002925938573663873
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 1.7456235298781154e-08,
+          "max": 0.0070529073941822664
+        },
+        "feeding": {
+          "min": 0.06580648597770915,
+          "max": 0.42398892574748176
+        },
+        "song": {
+          "min": 6.1225251965717154e-12,
+          "max": 9.964703113256256e-07
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 0,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-dark_yeast\\turn-0\\measured-body.json",
+      "physical_record_sha256": "4908817ad4bf6f77d7a0532ca6332a6e4c0e2928e7536d4640af30df800ff42c",
+      "physics": {
+        "displacement_mm": [
+          0.10398314314291934,
+          0.0492952228801625,
+          -0.2641212827880245
+        ],
+        "path_length_mm": 0.9852056425673389,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 48,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 4600,
+        "song": 4600,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.004684158812944841
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.3896452635628166
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 1,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-dark_yeast\\turn-1\\measured-body.json",
+      "physical_record_sha256": "8390ba779608223969d16fccb64e50679428a3c822940f7add86f5166df574a1",
+      "physics": {
+        "displacement_mm": [
+          0.012467075394887894,
+          -0.060844610334059586,
+          0.03050920785576794
+        ],
+        "path_length_mm": 0.590009874568751,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 90,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 2.5907350267300215e-06,
+          "max": 0.007526197826112877
+        },
+        "feeding": {
+          "min": 0.17460639801027283,
+          "max": 0.44388300643264883
+        },
+        "song": {
+          "min": 6.1225251965717154e-12,
+          "max": 9.964703113256256e-07
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-heat",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-heat\\turn-0\\measured-body.json",
+      "physical_record_sha256": "76a391956fe1ef4a030cade07f6013a81d4d37ae381a2434d5efd63f2c457bf8",
+      "physics": {
+        "displacement_mm": [
+          0.09105645063473311,
+          -0.08407791332343521,
+          -0.28207073643049907
+        ],
+        "path_length_mm": 1.094397589023552,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 45,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1600,
+        "landing": 0,
+        "feeding": 4400,
+        "song": 4400,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.007577281051996601
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.42485407769757844
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.1967346701436833
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.31606027941427883
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-heat",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-heat\\turn-1\\measured-body.json",
+      "physical_record_sha256": "70d353857bbca99ce8f865baa9087d8ba0db4db3d5ad20bd06e096ee6dfbf9b4",
+      "physics": {
+        "displacement_mm": [
+          -0.020072062108576705,
+          0.019328202103352704,
+          -0.0008926453969064774
+        ],
+        "path_length_mm": 0.5569510899909053,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 12,
+      "motor_spikes": 81,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 1.78001164080029e-06,
+          "max": 0.00936939725752447
+        },
+        "feeding": {
+          "min": 0.0787571060703916,
+          "max": 0.3704981826150304
+        },
+        "song": {
+          "min": 2.0188675043970544e-11,
+          "max": 3.285803595807475e-06
+        },
+        "escape": {
+          "min": 1.9672048886311158e-11,
+          "max": 3.201720213276021e-06
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-cold",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-cold\\turn-0\\measured-body.json",
+      "physical_record_sha256": "780c3edb271ea9baefb660c4f9a85c9ba0b05812d8c81cfe2f4648685db0916c",
+      "physics": {
+        "displacement_mm": [
+          0.1403369873242455,
+          0.056999921166291594,
+          -0.2559345273420154
+        ],
+        "path_length_mm": 0.9171668835209087,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 9,
+      "motor_spikes": 35,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 4600,
+        "song": 3600,
+        "flight": 0,
+        "joint_targets": 4600
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.010366330682973199
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.34329925683065565
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-cold",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-cold\\turn-1\\measured-body.json",
+      "physical_record_sha256": "c0a454434071b1ecae747830919df6ceb48abab22a07f1985f9316a4d0ee1f10",
+      "physics": {
+        "displacement_mm": [
+          0.0048991526414127184,
+          0.017456598859896297,
+          -0.020451275709472805
+        ],
+        "path_length_mm": 0.651641882868327,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 13,
+      "motor_spikes": 65,
+      "controller_program_steps": {
+        "locomotion": 1000,
+        "grooming": 200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.11729721658197687
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 5.6357675273659787e-05,
+          "max": 0.012230136390989256
+        },
+        "feeding": {
+          "min": 0.008823421458892694,
+          "max": 0.5012167373370506
+        },
+        "song": {
+          "min": 2.0017111233944342e-05,
+          "max": 0.10326536077261095
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-mouth_block\\turn-0\\measured-body.json",
+      "physical_record_sha256": "90ce17375df34908f08ea353f38bc7f411e138e180183a1a3c398b312ee9e821",
+      "physics": {
+        "displacement_mm": [
+          0.1307697168254478,
+          0.13917551556334587,
+          -0.1014405713472113
+        ],
+        "path_length_mm": 2.553682961979305,
+        "max_contacts": 18,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 18,
+      "controller_program_steps": {
+        "locomotion": 2200,
+        "grooming": 0,
+        "escape": 2800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 2200
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.06863445753535831,
+          "max": 0.29293414697466086
+        },
+        "right": {
+          "min": -0.06882044415815199,
+          "max": 0.29510200521552493
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.29510200521552493
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [
+        "foreleg_touch:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-mouth_block\\turn-1\\measured-body.json",
+      "physical_record_sha256": "4c1019b446c46789f117d2e3864a8ddb70866585a4f8a58769e471c4ceb289e8",
+      "physics": {
+        "displacement_mm": [
+          0.057714158656931414,
+          -0.024275624121510964,
+          -0.0028579256597520697
+        ],
+        "path_length_mm": 0.7715717154307161,
+        "max_contacts": 21,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 20,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 2200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.0007645031233405268,
+          "max": -4.603608640726104e-09
+        },
+        "right": {
+          "min": -0.0007645260759132086,
+          "max": -4.6974105600674796e-09
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.00010887270611124455,
+          "max": 0.19684647042573988
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-mouth_sugar\\turn-0\\measured-body.json",
+      "physical_record_sha256": "59a55a9d4125d953b50283f777e8cc255ebfc245a1a5488a732d5eca1d8f38cd",
+      "physics": {
+        "displacement_mm": [
+          0.09573288075161035,
+          0.011066184327738477,
+          -0.09517631666931115
+        ],
+        "path_length_mm": 1.1915142525613904,
+        "max_contacts": 19,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 9,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3600
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.5127949495579621
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [
+        "foreleg_touch:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-mouth_sugar\\turn-1\\measured-body.json",
+      "physical_record_sha256": "a4d39eedb596188b0cb452b5b455cfec58d0418b22b86f91f50b68061e269d41",
+      "physics": {
+        "displacement_mm": [
+          0.1624246285337485,
+          -0.009915047686336786,
+          0.00675454331889247
+        ],
+        "path_length_mm": 2.422880401742778,
+        "max_contacts": 22,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 3,
+      "motor_spikes": 17,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 3200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0004876734404676547,
+          "max": 0.5129743545907155
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-mouth_high_salt\\turn-0\\measured-body.json",
+      "physical_record_sha256": "ae04e6229ec30a3d05952e3b0b31f9f7f88fad170670132b04690bfef5cb5010",
+      "physics": {
+        "displacement_mm": [
+          0.10456031452660575,
+          0.04928945019323021,
+          -0.09537810460623808
+        ],
+        "path_length_mm": 1.6500536551830565,
+        "max_contacts": 18,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 16,
+      "controller_program_steps": {
+        "locomotion": 3200,
+        "grooming": 0,
+        "escape": 3200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.06469722499687927,
+          "max": 0.2176929443424372
+        },
+        "right": {
+          "min": -0.06469722499687927,
+          "max": 0.2176929443424372
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.3547648098508227
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-mouth_high_salt\\turn-1\\measured-body.json",
+      "physical_record_sha256": "a839adba862f66929703cf9063c3a3029285d6435b37f0ac3d1730637ab477a5",
+      "physics": {
+        "displacement_mm": [
+          0.08992790915130344,
+          -0.013026945609555092,
+          -0.008555443238944749
+        ],
+        "path_length_mm": 0.6998199332422446,
+        "max_contacts": 21,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 28,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -5.899623269607706e-05,
+          "max": 0.21769289054483656
+        },
+        "right": {
+          "min": -5.899623269607706e-05,
+          "max": 0.21769289054483656
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 2.2976670986147868e-05,
+          "max": 0.39355754617298316
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-leg_sugar\\turn-0\\measured-body.json",
+      "physical_record_sha256": "32ea3b5a2b041e26efdbca31c49f70ef3f5e9c9273b778a4f1398e4ad52f16f5",
+      "physics": {
+        "displacement_mm": [
+          0.5420983053913343,
+          0.4450011736546752,
+          -0.20008355649676868
+        ],
+        "path_length_mm": 2.885828795538856,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 20,
+      "motor_spikes": 64,
+      "controller_program_steps": {
+        "locomotion": 4800,
+        "grooming": 1200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 4800
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.47925523389875896,
+          "max": 0.09836733507184164
+        },
+        "right": {
+          "min": -0.47925523389875896,
+          "max": 0.09836733507184164
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.08546582492632701
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.004684158812944841
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-leg_sugar\\turn-1\\measured-body.json",
+      "physical_record_sha256": "a0d800bad3aa928757e1b569972c22bf1699e7fa1ea43a7a516ba85f5f6e5a68",
+      "physics": {
+        "displacement_mm": [
+          0.3227350294887663,
+          0.46291691345184616,
+          0.016035708450275132
+        ],
+        "path_length_mm": 2.1218295165744183,
+        "max_contacts": 9,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 20,
+      "motor_spikes": 94,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.4123595021829513,
+          "max": -0.01223955590201418
+        },
+        "right": {
+          "min": -0.4123599234677123,
+          "max": -0.013033843744144355
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 8.770400080180748e-12,
+          "max": 1.4274246357110333e-06
+        },
+        "anterior": {
+          "min": 2.9154881888436735e-13,
+          "max": 4.7450967205982166e-08
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_left\\turn-0\\measured-body.json",
+      "physical_record_sha256": "e9039c9984c5fa3fd459a6a49acfb98543354536c9cb61f454c66faba961de9e",
+      "physics": {
+        "displacement_mm": [
+          0.029341199344567692,
+          -0.04390970928780591,
+          -0.18586318238530586
+        ],
+        "path_length_mm": 0.5220346363144759,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 2,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3600
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.1967346701436833
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_left\\turn-1\\measured-body.json",
+      "physical_record_sha256": "ca2d1dbec873da0f70f1679316d3be4e3c97be42016dbc3abe1d7f69ee1989f5",
+      "physics": {
+        "displacement_mm": [
+          -0.008011276687865054,
+          -0.11388161418886858,
+          0.010360315051740066
+        ],
+        "path_length_mm": 0.46573971286717536,
+        "max_contacts": 13,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 3,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 9.96503596823597e-07,
+          "max": 0.09837062087543744
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_left\\turn-2\\measured-body.json",
+      "physical_record_sha256": "fb4fd0a53d7f4fa9107e642ea0892e0be929d65e998683e7628ab61f2c55464c",
+      "physics": {
+        "displacement_mm": [
+          0.01930581378435081,
+          0.08293970084420199,
+          0.00229987813712218
+        ],
+        "path_length_mm": 0.38778726874616076,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 3,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 3.713623290090461e-12,
+          "max": 6.044099839874283e-07
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_left\\turn-3\\measured-body.json",
+      "physical_record_sha256": "8ae7b568282149c344f5351dfef8ec59a2b7ecb6693430f9f6dc00833f037732",
+      "physics": {
+        "displacement_mm": [
+          -0.027747633086748436,
+          -0.26916945937988124,
+          0.019685511348246698
+        ],
+        "path_length_mm": 0.6928820780535587,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 5,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 600,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 6.20238250387785e-17,
+          "max": 0.19673467014368334
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "foreleg_touch:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_right\\turn-0\\measured-body.json",
+      "physical_record_sha256": "2ddf9e407bf6d4e126b0c3eb01eb92372096dd960fc294278103b8747872eadb",
+      "physics": {
+        "displacement_mm": [
+          0.051397487839591305,
+          0.2212035750576986,
+          -0.11227410062649557
+        ],
+        "path_length_mm": 2.32160719901349,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 6,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.3757304470246079
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_right\\turn-1\\measured-body.json",
+      "physical_record_sha256": "a13a9b9fc35b0a5c7b8291d44a5e7830ca26d368dc14ddc8b2b02f3b444e638e",
+      "physics": {
+        "displacement_mm": [
+          0.037637825027902694,
+          -0.02884885864044781,
+          -0.051176519028264034
+        ],
+        "path_length_mm": 0.2221772622901489,
+        "max_contacts": 10,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 6,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 3.124306573425831e-07,
+          "max": 0.05084958646869441
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_right\\turn-2\\measured-body.json",
+      "physical_record_sha256": "a28ace2abc9abea90a16191b93473adf4cc745da46d049fdf696561aa29f8bb9",
+      "physics": {
+        "displacement_mm": [
+          0.07004861843501431,
+          0.05141904083968277,
+          -0.018419628345716532
+        ],
+        "path_length_mm": 1.7822187926065953,
+        "max_contacts": 15,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 29,
+      "controller_program_steps": {
+        "locomotion": 3200,
+        "grooming": 1000,
+        "escape": 2400,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3600
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.3934693402873666,
+          "max": 0.0
+        },
+        "right": {
+          "min": -0.28567755719664334,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.07256431478081238
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 2.564587007802973e-08,
+          "max": 0.29510202077053144
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\receptors-v2\\trials\\test-touch_right\\turn-3\\measured-body.json",
+      "physical_record_sha256": "274075e4ab5670c9c0fe7125e7b1325497db37b2896ed303e1824becdfa4a377",
+      "physics": {
+        "displacement_mm": [
+          0.005437767671271798,
+          0.47330282395909823,
+          0.060407588345158914
+        ],
+        "path_length_mm": 1.5140057230844066,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 36,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 2600,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.00031135908855323233,
+          "max": -1.9132650637904347e-09
+        },
+        "right": {
+          "min": -0.0003113282653441252,
+          "max": -1.91326506262669e-09
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 6.703092050431435e-10,
+          "max": 0.00010909603485303513
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 7.337872439026055e-05,
+          "max": 0.3160872739384014
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    }
+  ],
+  "scope": "Frozen predictions and actual simulation records; no test-set retuning",
+  "behavior_goal_success_evaluated": false,
+  "biologically_calibrated": false
+}

@@ -1,0 +1,2035 @@
+{
+  "repository": "TuragaLab/flybody",
+  "head": "d015e9bfe441bd90ae431bac24c55cb74bdbce26",
+  "date": "2025-07-30T22:49:01Z",
+  "tree_truncated": false,
+  "entries": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ad95fe3d951f2a410cfc1ba63c4aa4342b4c863",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/3ad95fe3d951f2a410cfc1ba63c4aa4342b4c863"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67364dbabfe386e63c4c7d7904b4895c4d7c30b1",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/67364dbabfe386e63c4c7d7904b4895c4d7c30b1"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "604a4295ffc7fb2b697e9a30fa5e902b8f7aa0d8",
+      "size": 516,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/604a4295ffc7fb2b697e9a30fa5e902b8f7aa0d8"
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c746253be6ec99630b598b782d8cc7606780ccd9",
+      "size": 570,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c746253be6ec99630b598b782d8cc7606780ccd9"
+    },
+    {
+      "path": ".github/workflows/pyversions.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5a26b19975f35d9a17450bc31679b1ea97d64f",
+      "size": 730,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9a5a26b19975f35d9a17450bc31679b1ea97d64f"
+    },
+    {
+      "path": ".github/workflows/tf-test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db3f8eaf6640ae972274d111f90a92e2c437967e",
+      "size": 695,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/db3f8eaf6640ae972274d111f90a92e2c437967e"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1042f71bb3cf6ad974de830ea3cf6f01cc47b7b6",
+      "size": 54,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1042f71bb3cf6ad974de830ea3cf6f01cc47b7b6"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b14a6cec005665fc5c6b992ba2c3fbf28be2df7",
+      "size": 6615,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4b14a6cec005665fc5c6b992ba2c3fbf28be2df7"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5944f8e4c8c12d8583cc987bd4aea8019f9418d1",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/5944f8e4c8c12d8583cc987bd4aea8019f9418d1"
+    },
+    {
+      "path": "docs/controller-reuse-vision-flight.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7312e4d6848836708f349371999e8efca082546b",
+      "size": 2214501,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/7312e4d6848836708f349371999e8efca082546b"
+    },
+    {
+      "path": "docs/fly-env-examples.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7eb0e9234d1f1c0a2ee0cd1cabfa200bdae44aa",
+      "size": 4779812,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c7eb0e9234d1f1c0a2ee0cd1cabfa200bdae44aa"
+    },
+    {
+      "path": "docs/fly-on-ball-minimal.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "94b4ede093950e1a99f7ccbd4a9c7c38dd98021e",
+      "size": 440628,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/94b4ede093950e1a99f7ccbd4a9c7c38dd98021e"
+    },
+    {
+      "path": "docs/getting-started.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97a3bc421eed51a8d17e195c76e4772278c52eac",
+      "size": 2183092,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/97a3bc421eed51a8d17e195c76e4772278c52eac"
+    },
+    {
+      "path": "docs/sensory-input-tracking.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fca709f4b61bd15daa0ede425b1a3326e66f815",
+      "size": 886601,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4fca709f4b61bd15daa0ede425b1a3326e66f815"
+    },
+    {
+      "path": "fly-white.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "45944d5025994b6010a06477d4a1a0b314a3917e",
+      "size": 826856,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/45944d5025994b6010a06477d4a1a0b314a3917e"
+    },
+    {
+      "path": "flybody",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f6d0d7b0e4cd6c8fd196e6de2fef08e0f8ae25d",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/8f6d0d7b0e4cd6c8fd196e6de2fef08e0f8ae25d"
+    },
+    {
+      "path": "flybody/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "flybody/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22812f776eb39894b3f35ee3a5189ad825b79278",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/22812f776eb39894b3f35ee3a5189ad825b79278"
+    },
+    {
+      "path": "flybody/agents/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "flybody/agents/actors.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6921545e3201736a936e64df020cf7b3e2a33a84",
+      "size": 3773,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/6921545e3201736a936e64df020cf7b3e2a33a84"
+    },
+    {
+      "path": "flybody/agents/agent_dmpo.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3fc5865b8a157ce517ed0b672e4a6ad9075b2e99",
+      "size": 15765,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/3fc5865b8a157ce517ed0b672e4a6ad9075b2e99"
+    },
+    {
+      "path": "flybody/agents/counting.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ba908bfa9097687e51f86c487e24cb7015473a09",
+      "size": 4542,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ba908bfa9097687e51f86c487e24cb7015473a09"
+    },
+    {
+      "path": "flybody/agents/learning_dmpo.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "130074b26e1f11b24112d54aa8bdd1865a5a6ac7",
+      "size": 16276,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/130074b26e1f11b24112d54aa8bdd1865a5a6ac7"
+    },
+    {
+      "path": "flybody/agents/losses_mpo.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "478317e9f5f932cd34880441caa486af2d9338fe",
+      "size": 22680,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/478317e9f5f932cd34880441caa486af2d9338fe"
+    },
+    {
+      "path": "flybody/agents/network_factory.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cb60560a7ae50fbdd4abe9b5a9437a1b94712232",
+      "size": 5691,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/cb60560a7ae50fbdd4abe9b5a9437a1b94712232"
+    },
+    {
+      "path": "flybody/agents/network_factory_vis.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "10ad3a251faa86d49f84ebba3aa32d28d0adbd9d",
+      "size": 13565,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/10ad3a251faa86d49f84ebba3aa32d28d0adbd9d"
+    },
+    {
+      "path": "flybody/agents/ray_distributed_dmpo.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2e192a18385aed436afc39597179a3fb3fc57c74",
+      "size": 15195,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/2e192a18385aed436afc39597179a3fb3fc57c74"
+    },
+    {
+      "path": "flybody/agents/remote_as_local_wrapper.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "34b138733b78e76526b7edb2084f1b2319d0963c",
+      "size": 2760,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/34b138733b78e76526b7edb2084f1b2319d0963c"
+    },
+    {
+      "path": "flybody/agents/utils_ray.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ee13bed0552ea8d6a915c5b2b9d206248b623114",
+      "size": 562,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ee13bed0552ea8d6a915c5b2b9d206248b623114"
+    },
+    {
+      "path": "flybody/agents/utils_tf.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "399b2d6d65d5527f10be51f9156031e032cdf062",
+      "size": 3756,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/399b2d6d65d5527f10be51f9156031e032cdf062"
+    },
+    {
+      "path": "flybody/download_data.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5a2bb29e86be3b114c534d4f6c1193d3b598806c",
+      "size": 2015,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/5a2bb29e86be3b114c534d4f6c1193d3b598806c"
+    },
+    {
+      "path": "flybody/ellipsoid_fluid_model.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "951eb72d342fcc450bd6a86f3d52611f58c44601",
+      "size": 12145,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/951eb72d342fcc450bd6a86f3d52611f58c44601"
+    },
+    {
+      "path": "flybody/fly_envs.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "08a5aec0ae5d3145dabfaf45b0c4a0a12066808f",
+      "size": 13859,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/08a5aec0ae5d3145dabfaf45b0c4a0a12066808f"
+    },
+    {
+      "path": "flybody/fruitfly",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35967815b7282497fa0140d76867eeaa7903ff80",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/35967815b7282497fa0140d76867eeaa7903ff80"
+    },
+    {
+      "path": "flybody/fruitfly/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "flybody/fruitfly/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "756bb11c6b4837907c6534f40811a356eeb8c2e3",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/756bb11c6b4837907c6534f40811a356eeb8c2e3"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_1_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91595837b0036f62a7e1358115c58d3d96f03a1",
+      "size": 787312,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e91595837b0036f62a7e1358115c58d3d96f03a1"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_1_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf6a42ff08c02bf82e2e605384b9055e41bae4c",
+      "size": 257805,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ecf6a42ff08c02bf82e2e605384b9055e41bae4c"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_2_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2cd8d2c2bd0124ea893837f8a44362a7319a795",
+      "size": 331650,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a2cd8d2c2bd0124ea893837f8a44362a7319a795"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_2_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fecd5dedd35d6573dad655e8f92c3114b3aa24c",
+      "size": 274657,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/0fecd5dedd35d6573dad655e8f92c3114b3aa24c"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_3_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ab89dc0de15a35a203e11e3b900dd0eb924da36",
+      "size": 398902,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1ab89dc0de15a35a203e11e3b900dd0eb924da36"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_3_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "317a56f2c6a2b82861953b4053379e56e9388f42",
+      "size": 324270,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/317a56f2c6a2b82861953b4053379e56e9388f42"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_4_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5bd4bdaaff33a260538c32c46805b36687055cb",
+      "size": 397790,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/d5bd4bdaaff33a260538c32c46805b36687055cb"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_4_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6843711fac2cd3859de7ea493984dc0670b5f3ba",
+      "size": 323970,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/6843711fac2cd3859de7ea493984dc0670b5f3ba"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_5_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d207b9d81eede267c89ba970d6f9af80069f3362",
+      "size": 388232,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/d207b9d81eede267c89ba970d6f9af80069f3362"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_5_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fc3d6a199f3773de69f7fa97ecc45903436f218",
+      "size": 349771,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/8fc3d6a199f3773de69f7fa97ecc45903436f218"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_6_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e98f76817aed6fd66703ff6ff65bb62871ce95",
+      "size": 397553,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f7e98f76817aed6fd66703ff6ff65bb62871ce95"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_6_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcaf48f1147531b97d0788e98e119e66af093f59",
+      "size": 323874,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/bcaf48f1147531b97d0788e98e119e66af093f59"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_7_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5284cd832a81c26e84d24582e14d4a803c42d877",
+      "size": 397608,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/5284cd832a81c26e84d24582e14d4a803c42d877"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_7_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdae0bb6fddbcca54e07ca7f072153db33519a39",
+      "size": 323778,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/bdae0bb6fddbcca54e07ca7f072153db33519a39"
+    },
+    {
+      "path": "flybody/fruitfly/assets/abdomen_8_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d115e358a30a5cb6f456365860fad8a89a84d51",
+      "size": 902381,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/2d115e358a30a5cb6f456365860fad8a89a84d51"
+    },
+    {
+      "path": "flybody/fruitfly/assets/antenna_left_black.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1927bae6f6f253edf50858e42793445da672ea87",
+      "size": 853134,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1927bae6f6f253edf50858e42793445da672ea87"
+    },
+    {
+      "path": "flybody/fruitfly/assets/antenna_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d1339ead15696e207f62045df9c5bdc5891613",
+      "size": 2058111,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b5d1339ead15696e207f62045df9c5bdc5891613"
+    },
+    {
+      "path": "flybody/fruitfly/assets/antenna_right_black.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aff83ed6d52632c91c9829d2fa25116c3f241bf",
+      "size": 848016,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/7aff83ed6d52632c91c9829d2fa25116c3f241bf"
+    },
+    {
+      "path": "flybody/fruitfly/assets/antenna_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b37348331e6580718ae7ead5b9704777f3afd14f",
+      "size": 2045592,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b37348331e6580718ae7ead5b9704777f3afd14f"
+    },
+    {
+      "path": "flybody/fruitfly/assets/blender_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afd193f25836d25121e71dfa640f27c2f8654130",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/afd193f25836d25121e71dfa640f27c2f8654130"
+    },
+    {
+      "path": "flybody/fruitfly/assets/blender_model/drosophila.blend",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bb622aa83224d342d1baeec98304c5aa4b02f7cc",
+      "size": 20751800,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/bb622aa83224d342d1baeec98304c5aa4b02f7cc"
+    },
+    {
+      "path": "flybody/fruitfly/assets/coxa_T1_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d9239052d5b48569f58e28abd6f2ded13090a5",
+      "size": 1105100,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/40d9239052d5b48569f58e28abd6f2ded13090a5"
+    },
+    {
+      "path": "flybody/fruitfly/assets/coxa_T1_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c379dc967b7404bd5ef7e74984d268c68d118898",
+      "size": 1102424,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c379dc967b7404bd5ef7e74984d268c68d118898"
+    },
+    {
+      "path": "flybody/fruitfly/assets/coxa_T2_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a18a76668f5ce43aac4ca24c5bb8b9c81e929d4",
+      "size": 1250039,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1a18a76668f5ce43aac4ca24c5bb8b9c81e929d4"
+    },
+    {
+      "path": "flybody/fruitfly/assets/coxa_T2_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9db7b0096e38467e37e9260d97e8affd27ac0ff6",
+      "size": 1244997,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9db7b0096e38467e37e9260d97e8affd27ac0ff6"
+    },
+    {
+      "path": "flybody/fruitfly/assets/coxa_T3_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c955ece9d099362a9af9ad8f14360fa6529b6a",
+      "size": 865841,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e2c955ece9d099362a9af9ad8f14360fa6529b6a"
+    },
+    {
+      "path": "flybody/fruitfly/assets/coxa_T3_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147430365f5cbe24c9123eef0ee2a828e0f92fbf",
+      "size": 859909,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/147430365f5cbe24c9123eef0ee2a828e0f92fbf"
+    },
+    {
+      "path": "flybody/fruitfly/assets/femur_T1_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b56b0bd8df3dbf87dca0159558d87e6fc97220b",
+      "size": 1154869,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/3b56b0bd8df3dbf87dca0159558d87e6fc97220b"
+    },
+    {
+      "path": "flybody/fruitfly/assets/femur_T1_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db8e889bcba2d70588c54b350dcf4ce90899ba8e",
+      "size": 1140432,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/db8e889bcba2d70588c54b350dcf4ce90899ba8e"
+    },
+    {
+      "path": "flybody/fruitfly/assets/femur_T2_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35d76422693d5eff13dedc95a8284ca72c0bd648",
+      "size": 1614762,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/35d76422693d5eff13dedc95a8284ca72c0bd648"
+    },
+    {
+      "path": "flybody/fruitfly/assets/femur_T2_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9caeefbd0c6260dd1fa9ee4e45de3ae5377f35c6",
+      "size": 1605906,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9caeefbd0c6260dd1fa9ee4e45de3ae5377f35c6"
+    },
+    {
+      "path": "flybody/fruitfly/assets/femur_T3_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6179315c01edb8882843cdbddaba5dfc1e30a88",
+      "size": 1652601,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c6179315c01edb8882843cdbddaba5dfc1e30a88"
+    },
+    {
+      "path": "flybody/fruitfly/assets/femur_T3_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910184733fd5ea3d48a75e6d4e11c336755efb6b",
+      "size": 1640717,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/910184733fd5ea3d48a75e6d4e11c336755efb6b"
+    },
+    {
+      "path": "flybody/fruitfly/assets/floor.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2bf705c8e822897548d7eaa6bb64bb07a63f738",
+      "size": 572,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b2bf705c8e822897548d7eaa6bb64bb07a63f738"
+    },
+    {
+      "path": "flybody/fruitfly/assets/fruitfly.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58fb7c74376005afa9aeb2908c28f8b5e977762b",
+      "size": 65787,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/58fb7c74376005afa9aeb2908c28f8b5e977762b"
+    },
+    {
+      "path": "flybody/fruitfly/assets/haltere_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f582e77cf888fa0a79a23e7d112e3ec151f4b61",
+      "size": 653095,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1f582e77cf888fa0a79a23e7d112e3ec151f4b61"
+    },
+    {
+      "path": "flybody/fruitfly/assets/haltere_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5eb20fdec1c1a69042147e7b0c1fdf5c2b4e50",
+      "size": 649901,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/0e5eb20fdec1c1a69042147e7b0c1fdf5c2b4e50"
+    },
+    {
+      "path": "flybody/fruitfly/assets/haustellum_black.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f41566d28e3b4692be4b4f34edd77e573ace998",
+      "size": 1324760,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/0f41566d28e3b4692be4b4f34edd77e573ace998"
+    },
+    {
+      "path": "flybody/fruitfly/assets/haustellum_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9fc683757a09bb8b622b5d77bdf07dc7cb635c",
+      "size": 1869810,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/3c9fc683757a09bb8b622b5d77bdf07dc7cb635c"
+    },
+    {
+      "path": "flybody/fruitfly/assets/head_black.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ad110afebf2f02f5ee1f33a3394ec3852d3d841",
+      "size": 12364825,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/5ad110afebf2f02f5ee1f33a3394ec3852d3d841"
+    },
+    {
+      "path": "flybody/fruitfly/assets/head_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "364e79b53f5e54da2351f307322675ee6ab08e81",
+      "size": 6161382,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/364e79b53f5e54da2351f307322675ee6ab08e81"
+    },
+    {
+      "path": "flybody/fruitfly/assets/head_ocelli.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a03182814a359c2b9b24e9ed124f32a6a181b233",
+      "size": 6158153,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a03182814a359c2b9b24e9ed124f32a6a181b233"
+    },
+    {
+      "path": "flybody/fruitfly/assets/head_red.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcde7b1190290cb45719cfb3398fd2b3c57ac5b1",
+      "size": 31095839,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/fcde7b1190290cb45719cfb3398fd2b3c57ac5b1"
+    },
+    {
+      "path": "flybody/fruitfly/assets/labrum_left_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e43ec25397214e5d325513276cdb3d8c97b6fe",
+      "size": 501599,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/87e43ec25397214e5d325513276cdb3d8c97b6fe"
+    },
+    {
+      "path": "flybody/fruitfly/assets/labrum_right_lower.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d89d00a36f23c215f4b24ea869673e62f1694a8",
+      "size": 515939,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1d89d00a36f23c215f4b24ea869673e62f1694a8"
+    },
+    {
+      "path": "flybody/fruitfly/assets/rostrum_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b3deb4f7b25c5e05ccdb4e8ffaad98810540c3",
+      "size": 2118298,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/99b3deb4f7b25c5e05ccdb4e8ffaad98810540c3"
+    },
+    {
+      "path": "flybody/fruitfly/assets/rostrum_bristle-brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcd4152012fd3e0f5be86ce7ae4e11b538aec28c",
+      "size": 1549365,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/dcd4152012fd3e0f5be86ce7ae4e11b538aec28c"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsal_claw_T1_left_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09fdf1e616cd8a3a8c5843680428779aa4d77aa5",
+      "size": 798635,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/09fdf1e616cd8a3a8c5843680428779aa4d77aa5"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsal_claw_T1_right_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57bc146367d898a85acdfa5d41106d6600500e73",
+      "size": 822582,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/57bc146367d898a85acdfa5d41106d6600500e73"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsal_claw_T2_left_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "962cd348aaaf909f7e5df1f61a0b4b70bbe47211",
+      "size": 842537,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/962cd348aaaf909f7e5df1f61a0b4b70bbe47211"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsal_claw_T2_right_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4cc24efa435bf477a369047e7fb8920d8388ab3",
+      "size": 868092,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b4cc24efa435bf477a369047e7fb8920d8388ab3"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsal_claw_T3_left_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f8aaf7f83cdac465a89e35a321291748c65dad",
+      "size": 910050,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/55f8aaf7f83cdac465a89e35a321291748c65dad"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsal_claw_T3_right_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eacc7816a76cd2253582a53355782c0e7537ca8",
+      "size": 947595,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/6eacc7816a76cd2253582a53355782c0e7537ca8"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_1_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c352a9f61c1e660d82586f0843b9596889d95f",
+      "size": 345465,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f3c352a9f61c1e660d82586f0843b9596889d95f"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_1_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e1de80a118f4d12f7a7aa153ffb17bf2b022bd1",
+      "size": 349162,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/5e1de80a118f4d12f7a7aa153ffb17bf2b022bd1"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_2_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32517b6625742a03da3e68ed333f68f7d3f03255",
+      "size": 312982,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/32517b6625742a03da3e68ed333f68f7d3f03255"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_2_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1166f7519fbdb93cd60bc7c292fc897548bd1598",
+      "size": 316628,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1166f7519fbdb93cd60bc7c292fc897548bd1598"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_3_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f021272e166c5ba16d531d5f7e4f8d8dc2a8f7",
+      "size": 313430,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/13f021272e166c5ba16d531d5f7e4f8d8dc2a8f7"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_3_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8a9c02301864d09a56f5250f054b340628e0bad",
+      "size": 317108,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c8a9c02301864d09a56f5250f054b340628e0bad"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_4_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9edbd0efbdbc3afd471989e1840fb3aeb3630853",
+      "size": 314245,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9edbd0efbdbc3afd471989e1840fb3aeb3630853"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T1_4_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ea5cc653246ba0f0d0de863dff47611e265b8b",
+      "size": 318044,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a7ea5cc653246ba0f0d0de863dff47611e265b8b"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_1_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe4a7f0fe47c94f4b04b029d92a3930ba6882069",
+      "size": 592366,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/fe4a7f0fe47c94f4b04b029d92a3930ba6882069"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_1_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ce28017dfd3377920c34846b297c576d1ff8e2c",
+      "size": 605394,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/8ce28017dfd3377920c34846b297c576d1ff8e2c"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_2_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73646af98c6d2e961f6126e8df61a829e75ab2ed",
+      "size": 416307,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/73646af98c6d2e961f6126e8df61a829e75ab2ed"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_2_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7140da27ec4a5a5fb9c85f098c7f850340c391e",
+      "size": 421543,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f7140da27ec4a5a5fb9c85f098c7f850340c391e"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_3_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be6bb97cc451b82f05055580aaf285485ccaaef",
+      "size": 347736,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/2be6bb97cc451b82f05055580aaf285485ccaaef"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_3_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec29505eb4de005ee23b1f6864d4c1810a52dfc5",
+      "size": 352255,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ec29505eb4de005ee23b1f6864d4c1810a52dfc5"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_4_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d53948c3b5c824bbcd10212629b8940944ef26",
+      "size": 315831,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/92d53948c3b5c824bbcd10212629b8940944ef26"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T2_4_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ffb6110c30772fb64e9f13ecd33573e9d6efef2",
+      "size": 319508,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9ffb6110c30772fb64e9f13ecd33573e9d6efef2"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_1_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3502bbb930aea4e28968e33b14eb6ece2dc0c944",
+      "size": 831974,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/3502bbb930aea4e28968e33b14eb6ece2dc0c944"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_1_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2fd12f85e7fd560e2821cd3354c90a2a5f8e05c",
+      "size": 846729,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c2fd12f85e7fd560e2821cd3354c90a2a5f8e05c"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_2_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f49212a89435cdeb0bb9561b27e3e01ba72a99f7",
+      "size": 478593,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f49212a89435cdeb0bb9561b27e3e01ba72a99f7"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_2_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94316a89fe0d57223b8341a9b92db869edd1eec",
+      "size": 486458,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a94316a89fe0d57223b8341a9b92db869edd1eec"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_3_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb8cf218a5e4f2af702c564c56fddd4890ea170",
+      "size": 344280,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4cb8cf218a5e4f2af702c564c56fddd4890ea170"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_3_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f5e1e94c7e53bba273ea636c02b0aa4d95a7190",
+      "size": 348822,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9f5e1e94c7e53bba273ea636c02b0aa4d95a7190"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_4_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04f1808adec3e69cf8f9dbf9ee0aee46c0ba205f",
+      "size": 350442,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/04f1808adec3e69cf8f9dbf9ee0aee46c0ba205f"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tarsus_T3_4_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971b3c1280760b570fa4c8bd9eca27b2844e8a20",
+      "size": 350447,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/971b3c1280760b570fa4c8bd9eca27b2844e8a20"
+    },
+    {
+      "path": "flybody/fruitfly/assets/thorax_black.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b235e1578b9468d6a4687dbef068ca06904a04a2",
+      "size": 12653964,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b235e1578b9468d6a4687dbef068ca06904a04a2"
+    },
+    {
+      "path": "flybody/fruitfly/assets/thorax_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8e6cac46959e66a02adcd728528aa77d4cbad1",
+      "size": 9431470,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1f8e6cac46959e66a02adcd728528aa77d4cbad1"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tibia_T1_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee66921433cfdb4db6cb2f2e0e725d1e53e9d218",
+      "size": 516940,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ee66921433cfdb4db6cb2f2e0e725d1e53e9d218"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tibia_T1_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb46344a8617025ce9ef4bdd1ae97de73fb0e0f8",
+      "size": 515517,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/fb46344a8617025ce9ef4bdd1ae97de73fb0e0f8"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tibia_T2_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9ead61fb978b79f0ce071f8c5bebe7b7688dc34",
+      "size": 660368,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c9ead61fb978b79f0ce071f8c5bebe7b7688dc34"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tibia_T2_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f147ae1714314db77e1ddd8b8dea486522ece0b1",
+      "size": 669281,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f147ae1714314db77e1ddd8b8dea486522ece0b1"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tibia_T3_left_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75238e7d4a895ae3b9525e6e1ea8ad5618c0ec5f",
+      "size": 1180232,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/75238e7d4a895ae3b9525e6e1ea8ad5618c0ec5f"
+    },
+    {
+      "path": "flybody/fruitfly/assets/tibia_T3_right_body.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfb3f813a8c23167bf6d95d9f5eb3fcba6cc584a",
+      "size": 1140937,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/cfb3f813a8c23167bf6d95d9f5eb3fcba6cc584a"
+    },
+    {
+      "path": "flybody/fruitfly/assets/wing_left_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e69ba80230ca6e16ffdcfc696f200d4db272b45",
+      "size": 2824706,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1e69ba80230ca6e16ffdcfc696f200d4db272b45"
+    },
+    {
+      "path": "flybody/fruitfly/assets/wing_left_membrane.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e5ec2b41448e4ecb076d773fdcbb5d1f30d841",
+      "size": 221433,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f9e5ec2b41448e4ecb076d773fdcbb5d1f30d841"
+    },
+    {
+      "path": "flybody/fruitfly/assets/wing_right_brown.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74d66dcd3ba858fa1e2089a77e5d48b1a8588671",
+      "size": 2805048,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/74d66dcd3ba858fa1e2089a77e5d48b1a8588671"
+    },
+    {
+      "path": "flybody/fruitfly/assets/wing_right_membrane.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56a487d917cdc2322c43331b1c107a9eedacc60c",
+      "size": 219913,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/56a487d917cdc2322c43331b1c107a9eedacc60c"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54c32a224b7caf8d08e14b0442540233533dbcca",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/54c32a224b7caf8d08e14b0442540233533dbcca"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df8caecfb36cccc462d58410e8813567de984960",
+      "size": 1208,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/df8caecfb36cccc462d58410e8813567de984960"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/add_flyid_labels.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "479e734c056008e5e293052bd079612e228b7e80",
+      "size": 2058,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/479e734c056008e5e293052bd079612e228b7e80"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d68d34293967b6865ce672e0238c82e7d1c72c5b",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/d68d34293967b6865ce672e0238c82e7d1c72c5b"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_1_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd0e732f4a1dc9d8b6b288063e86b4f70d8f062",
+      "size": 157480,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/6fd0e732f4a1dc9d8b6b288063e86b4f70d8f062"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_1_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe06a6087aeffccfe178f12f85d9744603859ebd",
+      "size": 51856,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/fe06a6087aeffccfe178f12f85d9744603859ebd"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_2_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9e39f09ebf4f68b77dce9d1193a3a62a58de6d",
+      "size": 66976,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1d9e39f09ebf4f68b77dce9d1193a3a62a58de6d"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_2_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50c6e35fad38b15f1d32aa907cf856cf9d0979e7",
+      "size": 55312,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/50c6e35fad38b15f1d32aa907cf856cf9d0979e7"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_3_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb74f96f8144b51f1ef44363da8ac232c8405729",
+      "size": 80800,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/bb74f96f8144b51f1ef44363da8ac232c8405729"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_3_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9b4fc624cfb87bac0285ad390225f54a0e824a",
+      "size": 65680,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9c9b4fc624cfb87bac0285ad390225f54a0e824a"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_4_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18f5df14066baf9fd0ce9989f170ddb953839764",
+      "size": 80800,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/18f5df14066baf9fd0ce9989f170ddb953839764"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_4_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d553612631f23376cdfde6cffa4381493826a5bd",
+      "size": 65680,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/d553612631f23376cdfde6cffa4381493826a5bd"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_5_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df98adb799e5a4a58b63602d7869b85c3974ca53",
+      "size": 79072,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/df98adb799e5a4a58b63602d7869b85c3974ca53"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_5_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c23560efbe69af45defa5ce400b5dca859f21650",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c23560efbe69af45defa5ce400b5dca859f21650"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_6_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1112a79870341b7ca45f3f7403830121a1a131d4",
+      "size": 80800,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/1112a79870341b7ca45f3f7403830121a1a131d4"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_6_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb6a4a1f4bd0384d3e9f9ae477ca33fff0cddfef",
+      "size": 65680,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/eb6a4a1f4bd0384d3e9f9ae477ca33fff0cddfef"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_7_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6aba9c8674260d377e71c242c9326820b9e819e",
+      "size": 80800,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/d6aba9c8674260d377e71c242c9326820b9e819e"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_7_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1a40d27eae00804bb8028d2a57454c844d39d62",
+      "size": 65680,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a1a40d27eae00804bb8028d2a57454c844d39d62"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/abdomen_8_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c53f118653b1d548654c3b7b06900e8993f4e7",
+      "size": 182104,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e5c53f118653b1d548654c3b7b06900e8993f4e7"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/antenna_left_black.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "353f67a6107010f21839aad28f444ffdf9b50cd0",
+      "size": 185776,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/353f67a6107010f21839aad28f444ffdf9b50cd0"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/antenna_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c274dc87d520049f4c106af3437d141a7fad28de",
+      "size": 445840,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c274dc87d520049f4c106af3437d141a7fad28de"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/antenna_right_black.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a742a36a94e339ce1517b1fd4eeeec0ec6c377a",
+      "size": 185776,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9a742a36a94e339ce1517b1fd4eeeec0ec6c377a"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/antenna_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0493295a9fa9095aa94c3c78c6d98c6aab7a424",
+      "size": 445840,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a0493295a9fa9095aa94c3c78c6d98c6aab7a424"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/coxa_T1_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9df055b0edec171d550030bf5f4594200764fd32",
+      "size": 241072,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9df055b0edec171d550030bf5f4594200764fd32"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/coxa_T1_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "990dd6c6092d49e00518e6229d945ef609482f4f",
+      "size": 241072,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/990dd6c6092d49e00518e6229d945ef609482f4f"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/coxa_T2_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef693f0e2a48428d78e2c19761d5fbf1adb7aeb5",
+      "size": 275200,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ef693f0e2a48428d78e2c19761d5fbf1adb7aeb5"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/coxa_T2_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98be03ac7dd1c560ed176565deb55e87d56f1415",
+      "size": 275200,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/98be03ac7dd1c560ed176565deb55e87d56f1415"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/coxa_T3_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256dc0cc5881c3b909ea8b8ae5ff6be547c2a9fb",
+      "size": 208672,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/256dc0cc5881c3b909ea8b8ae5ff6be547c2a9fb"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/coxa_T3_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e7814a1fa971b4ffb403689b9b2300ca97f0660",
+      "size": 208672,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/3e7814a1fa971b4ffb403689b9b2300ca97f0660"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/drosophila.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa7332fb55715bec1159df6db0f41f404163f5d9",
+      "size": 72321,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/aa7332fb55715bec1159df6db0f41f404163f5d9"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/drosophila_defaults.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c148861ff5b717d756bc5a1242c183653c9394a4",
+      "size": 8545,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c148861ff5b717d756bc5a1242c183653c9394a4"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/drosophila_fused.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11abf9ccf2467bfe5f555d62653bd4a13dac52b5",
+      "size": 45421,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/11abf9ccf2467bfe5f555d62653bd4a13dac52b5"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/femur_T1_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59d3fc7bed926daa7d0a5452c35ea4998f66f509",
+      "size": 232000,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/59d3fc7bed926daa7d0a5452c35ea4998f66f509"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/femur_T1_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d385990b742b698f202132ece5f72a06ed535c8",
+      "size": 232000,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/0d385990b742b698f202132ece5f72a06ed535c8"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/femur_T2_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd49ae925953aaee3da07142c9d1e661d265b1ea",
+      "size": 321424,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/cd49ae925953aaee3da07142c9d1e661d265b1ea"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/femur_T2_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2804b089fb4f0492ca5cc4684b04f0dbfd9fa302",
+      "size": 321424,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/2804b089fb4f0492ca5cc4684b04f0dbfd9fa302"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/femur_T3_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3ce197f74099f975cc8da0fd2a810428453da8a",
+      "size": 331792,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a3ce197f74099f975cc8da0fd2a810428453da8a"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/femur_T3_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93819cee022132025e4debc6f2b1940f80b10409",
+      "size": 331792,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/93819cee022132025e4debc6f2b1940f80b10409"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/haltere_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc4d52d1b1af0923b0eaee1ee2d04a029a0cf132",
+      "size": 134800,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/bc4d52d1b1af0923b0eaee1ee2d04a029a0cf132"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/haltere_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "545cbab095108b8ec6191c771381d2367ae03208",
+      "size": 134800,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/545cbab095108b8ec6191c771381d2367ae03208"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/haustellum_black.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce3c56f3d9ef3d18db7cb73e873b6fdbac720637",
+      "size": 285136,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ce3c56f3d9ef3d18db7cb73e873b6fdbac720637"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/haustellum_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9d83b9984fd69de21d3b53e36e993a53548b684",
+      "size": 395728,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f9d83b9984fd69de21d3b53e36e993a53548b684"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/head_black.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffb2f26bd18f69a956f1f32544d3adad3ba3315a",
+      "size": 2589856,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ffb2f26bd18f69a956f1f32544d3adad3ba3315a"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/head_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4236c6db5f21703109a411c993430f25f4561c93",
+      "size": 1291696,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4236c6db5f21703109a411c993430f25f4561c93"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/head_ocelli.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a4c281a8fdb52fac1936318f694162c935b691d",
+      "size": 1285648,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4a4c281a8fdb52fac1936318f694162c935b691d"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/head_red.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53d30f86c0b2c8a7df68d823fe759ebf94078093",
+      "size": 6404848,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/53d30f86c0b2c8a7df68d823fe759ebf94078093"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/labrum_left_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f00f225670d6d9e246f216f5b7fa7d7f4c111009",
+      "size": 103696,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f00f225670d6d9e246f216f5b7fa7d7f4c111009"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/labrum_right_lower.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b183450cc0c74e27449624d9d960cfb7a8b881cf",
+      "size": 103696,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b183450cc0c74e27449624d9d960cfb7a8b881cf"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/rostrum_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0bd54e3fa5421d3ef05c0c67fb89eee8940603d",
+      "size": 456640,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f0bd54e3fa5421d3ef05c0c67fb89eee8940603d"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/rostrum_bristle-brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5dca5352236b2587d04903bb4bebc72151d24d5",
+      "size": 332656,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f5dca5352236b2587d04903bb4bebc72151d24d5"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsal_claw_T1_left_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "104fa46fc43ae0f806e5e18d97b40bf29fed01de",
+      "size": 170224,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/104fa46fc43ae0f806e5e18d97b40bf29fed01de"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsal_claw_T1_right_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a8ce9020a95f83fa552a4c564bac9c5d355426",
+      "size": 170224,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/51a8ce9020a95f83fa552a4c564bac9c5d355426"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsal_claw_T2_left_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd8426aeedf48c3a2522d2c9b86feae0e93af66",
+      "size": 178864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9fd8426aeedf48c3a2522d2c9b86feae0e93af66"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsal_claw_T2_right_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8127c62abe147d6a32af1f97cbd21532880aaa",
+      "size": 178864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/bd8127c62abe147d6a32af1f97cbd21532880aaa"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsal_claw_T3_left_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c224a0da45cf6466609147f74aa9cd08fdd656c",
+      "size": 196144,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4c224a0da45cf6466609147f74aa9cd08fdd656c"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsal_claw_T3_right_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1a125410393a45313b527dadb0fe33017b59d9e",
+      "size": 196144,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f1a125410393a45313b527dadb0fe33017b59d9e"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_1_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d2926cc5a378c3b61e4870b10eb10c8c4555e25",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/0d2926cc5a378c3b61e4870b10eb10c8c4555e25"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_1_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2238e9a7f74f9eba46da7faccb500b6e577adcf",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b2238e9a7f74f9eba46da7faccb500b6e577adcf"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_2_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8c0375fa9a62debe16851cf1b0f307decde5148",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/f8c0375fa9a62debe16851cf1b0f307decde5148"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_2_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81eba2eabe3171779a10de0feb99fc4d39be79e2",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/81eba2eabe3171779a10de0feb99fc4d39be79e2"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_3_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1e169dd5ba8ff9b806300596a571937165e0b3",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ae1e169dd5ba8ff9b806300596a571937165e0b3"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_3_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "475817de0fbfcd9e810e6c875ac99afe0d6e2c93",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/475817de0fbfcd9e810e6c875ac99afe0d6e2c93"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_4_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "116844cb7149519c332589aba0767a5364fba6dc",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/116844cb7149519c332589aba0767a5364fba6dc"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T1_4_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97acf78de18ff1bc0a509274bce8cd509bcea081",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/97acf78de18ff1bc0a509274bce8cd509bcea081"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_1_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ed4fb43eebbee296642d0c119a0a241418eb96",
+      "size": 120976,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/46ed4fb43eebbee296642d0c119a0a241418eb96"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_1_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b49ee4c20a1a0f48a802fd92481508eaed5d686f",
+      "size": 120976,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/b49ee4c20a1a0f48a802fd92481508eaed5d686f"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_2_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b81306c72420e9328b0ad9141b159fd4bec28bf",
+      "size": 84688,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/7b81306c72420e9328b0ad9141b159fd4bec28bf"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_2_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a7d6efeaa9a0ad1dc6fa79d2634f7aa6ec3407",
+      "size": 84688,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/d1a7d6efeaa9a0ad1dc6fa79d2634f7aa6ec3407"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_3_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa26f25a605d890f6dcae8ced9842b28cea338ab",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/fa26f25a605d890f6dcae8ced9842b28cea338ab"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_3_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e66cb2de20df88babb161052bfd4bef5953be6e5",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e66cb2de20df88babb161052bfd4bef5953be6e5"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_4_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fb71ef455af283e8b335c562ec644d275199bc",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/72fb71ef455af283e8b335c562ec644d275199bc"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T2_4_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "563fb5e0b5cf61ee05764b3f34fef0c4edfe5ed1",
+      "size": 63952,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/563fb5e0b5cf61ee05764b3f34fef0c4edfe5ed1"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_1_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf0ad6f86cb32a611601a9a8442b75a0d3b03d1",
+      "size": 170656,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/5cf0ad6f86cb32a611601a9a8442b75a0d3b03d1"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_1_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b35ea01a7e32d204c6fdef43c82e84876200c0",
+      "size": 170656,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/45b35ea01a7e32d204c6fdef43c82e84876200c0"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_2_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a6e05926f20dec98b49c299bc27a1fc93e3d427",
+      "size": 98512,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/3a6e05926f20dec98b49c299bc27a1fc93e3d427"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_2_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ee5024e80a9664ad461a1ea342836bacebe47cb",
+      "size": 98512,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/7ee5024e80a9664ad461a1ea342836bacebe47cb"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_3_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fca2447f26a1f5ba1580327ae169ffe5be9aede",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9fca2447f26a1f5ba1580327ae169ffe5be9aede"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_3_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "416e429d7b584436948c79b6bd5247737f345d2b",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/416e429d7b584436948c79b6bd5247737f345d2b"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_4_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae0322491bb7e03401444af821954d44792e118e",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ae0322491bb7e03401444af821954d44792e118e"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tarsus_T3_4_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb4a36d598389551aa4cb385983ac647c5c5e7ef",
+      "size": 70864,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/fb4a36d598389551aa4cb385983ac647c5c5e7ef"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/thorax_black.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "652ba9fc8158ec479c19f761b27edad4c7fe31bd",
+      "size": 2663080,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/652ba9fc8158ec479c19f761b27edad4c7fe31bd"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/thorax_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31965586bcb55d9f36bee80ac0445f9e984c807b",
+      "size": 1977712,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/31965586bcb55d9f36bee80ac0445f9e984c807b"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tibia_T1_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6104c166c51db85a8bf1b7de9254da2f6bbe79",
+      "size": 106936,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/0c6104c166c51db85a8bf1b7de9254da2f6bbe79"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tibia_T1_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "533335e263b2852f537fc2145c183b40cc810ab9",
+      "size": 106936,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/533335e263b2852f537fc2145c183b40cc810ab9"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tibia_T2_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba38624c29ba054a12e5160a3b29f09e220b8f40",
+      "size": 135016,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ba38624c29ba054a12e5160a3b29f09e220b8f40"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tibia_T2_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61ab8cf526524c75909ecbbe344d6e5622d815ec",
+      "size": 135016,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/61ab8cf526524c75909ecbbe344d6e5622d815ec"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tibia_T3_left_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30f9d4f69deaa1d412079d6f365a8d368b95c77",
+      "size": 243880,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/c30f9d4f69deaa1d412079d6f365a8d368b95c77"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/tibia_T3_right_body.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5575a19d78dbe9247448f4e08e36370553d4e0",
+      "size": 243880,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/8a5575a19d78dbe9247448f4e08e36370553d4e0"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/wing_left_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c30f77473fc62c26a0b45a37878fc6e95576557",
+      "size": 672640,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/7c30f77473fc62c26a0b45a37878fc6e95576557"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/wing_left_membrane.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07ca11a4dbd4c3687a1c4e8dc26ed87c751b7d0",
+      "size": 54016,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a07ca11a4dbd4c3687a1c4e8dc26ed87c751b7d0"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/wing_right_brown.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee5f18ec2032dd8756345b698428439440b8e689",
+      "size": 672640,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ee5f18ec2032dd8756345b698428439440b8e689"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/assets/wing_right_membrane.msh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3550adf8f7b11dc8907d82e2e4c8234042ab02d6",
+      "size": 54016,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/3550adf8f7b11dc8907d82e2e4c8234042ab02d6"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/floor.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98b1861bd80d53914ec8c92e3c19f79f7c47d7a9",
+      "size": 571,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/98b1861bd80d53914ec8c92e3c19f79f7c47d7a9"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/fruitfly.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58fb7c74376005afa9aeb2908c28f8b5e977762b",
+      "size": 65787,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/58fb7c74376005afa9aeb2908c28f8b5e977762b"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/fuse_fruitfly.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8b8440ae7b9fd327b8ce36572ef95d6e757d1d5",
+      "size": 1444,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/d8b8440ae7b9fd327b8ce36572ef95d6e757d1d5"
+    },
+    {
+      "path": "flybody/fruitfly/build_fruitfly/make_fruitfly.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "052a6844643ea3833d7917465ab0dc316763dff6",
+      "size": 52899,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/052a6844643ea3833d7917465ab0dc316763dff6"
+    },
+    {
+      "path": "flybody/fruitfly/fruitfly.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "aacf41c173219e3423ba86428e4a980e5989a978",
+      "size": 29784,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/aacf41c173219e3423ba86428e4a980e5989a978"
+    },
+    {
+      "path": "flybody/inverse_kinematics.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9336241d0147eb131412c01192eb4313f87df291",
+      "size": 13193,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/9336241d0147eb131412c01192eb4313f87df291"
+    },
+    {
+      "path": "flybody/loggers.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ac250e3f1045d4c2012e03cecf7d67df8d400afb",
+      "size": 5352,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ac250e3f1045d4c2012e03cecf7d67df8d400afb"
+    },
+    {
+      "path": "flybody/quaternions.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "aa760b5859a5d19d4658f12ad517f9c876da8abd",
+      "size": 13440,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/aa760b5859a5d19d4658f12ad517f9c876da8abd"
+    },
+    {
+      "path": "flybody/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "319dece2878cacc9bee845f2e893f7894884c737",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/319dece2878cacc9bee845f2e893f7894884c737"
+    },
+    {
+      "path": "flybody/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "flybody/tasks/arenas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95e8464dd2a86bae1080be79a4da7dded2a26f14",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/95e8464dd2a86bae1080be79a4da7dded2a26f14"
+    },
+    {
+      "path": "flybody/tasks/arenas/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "flybody/tasks/arenas/ball.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0a06da01da1e161817f7bca56a451fc0487e8826",
+      "size": 2348,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/0a06da01da1e161817f7bca56a451fc0487e8826"
+    },
+    {
+      "path": "flybody/tasks/arenas/hills.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ffc509e87c28e56f1021012cdddfdcf650d0cad2",
+      "size": 18781,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ffc509e87c28e56f1021012cdddfdcf650d0cad2"
+    },
+    {
+      "path": "flybody/tasks/base.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4aad34974b846df6bde423c327b8862114cf912f",
+      "size": 18781,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4aad34974b846df6bde423c327b8862114cf912f"
+    },
+    {
+      "path": "flybody/tasks/constants.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a2471ffe65e4f7426cb1038f77d50a93c2e656d8",
+      "size": 825,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a2471ffe65e4f7426cb1038f77d50a93c2e656d8"
+    },
+    {
+      "path": "flybody/tasks/flight_imitation.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39a36a2a14366e40b3630a01303ec1ae2c4cf64e",
+      "size": 10412,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/39a36a2a14366e40b3630a01303ec1ae2c4cf64e"
+    },
+    {
+      "path": "flybody/tasks/pattern_generators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37324f78c0dda64888aaeeb8694fc192ed748eb7",
+      "size": 9196,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/37324f78c0dda64888aaeeb8694fc192ed748eb7"
+    },
+    {
+      "path": "flybody/tasks/rewards.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7d6b78f994813514c99ada457f1c7591db5eccb7",
+      "size": 4037,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/7d6b78f994813514c99ada457f1c7591db5eccb7"
+    },
+    {
+      "path": "flybody/tasks/synthetic_trajectories.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dc600927258215b96963a8acbd7721b75bf2b328",
+      "size": 2866,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/dc600927258215b96963a8acbd7721b75bf2b328"
+    },
+    {
+      "path": "flybody/tasks/task_utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d846360b0b80fd8ad061155736cd1b4854056624",
+      "size": 9748,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/d846360b0b80fd8ad061155736cd1b4854056624"
+    },
+    {
+      "path": "flybody/tasks/template_task.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "013facee5270d9b777b66113d31ed19e4528c934",
+      "size": 3423,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/013facee5270d9b777b66113d31ed19e4528c934"
+    },
+    {
+      "path": "flybody/tasks/trajectory_loaders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca069339d0ff6a99e3f8f514e17bcfc0c9897cff",
+      "size": 11671,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/ca069339d0ff6a99e3f8f514e17bcfc0c9897cff"
+    },
+    {
+      "path": "flybody/tasks/vision_flight.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "76b63d2d6b9129a25015728ad8471994e49e01e5",
+      "size": 11676,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/76b63d2d6b9129a25015728ad8471994e49e01e5"
+    },
+    {
+      "path": "flybody/tasks/walk_imitation.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dcf9e04a8a33a9ebd9493f70eaec6a94e5811f2f",
+      "size": 8899,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/dcf9e04a8a33a9ebd9493f70eaec6a94e5811f2f"
+    },
+    {
+      "path": "flybody/tasks/walk_on_ball.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "170f7d5df7e08b4ea72129901f80b389842d8361",
+      "size": 3523,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/170f7d5df7e08b4ea72129901f80b389842d8361"
+    },
+    {
+      "path": "flybody/train_dmpo_ray.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4100f31983a6b35cef2fd3e96f888159ae88f287",
+      "size": 8737,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/4100f31983a6b35cef2fd3e96f888159ae88f287"
+    },
+    {
+      "path": "flybody/utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a2c3630eea1ca431b505cb25d6a172a32a368755",
+      "size": 2900,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/a2c3630eea1ca431b505cb25d6a172a32a368755"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "712b1123564fb7fe1797172c92cf990a5f65f23f",
+      "size": 1368,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/712b1123564fb7fe1797172c92cf990a5f65f23f"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ada9afbdd5cac1ebba53263b7582906d463b85b",
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/trees/7ada9afbdd5cac1ebba53263b7582906d463b85b"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/common.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "92eda9d1b9d3292c737f628c5a82926474e76bd5",
+      "size": 1085,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/92eda9d1b9d3292c737f628c5a82926474e76bd5"
+    },
+    {
+      "path": "tests/test-tf.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8ee0374f35bb525707743d2339b02a44f7355acf",
+      "size": 1092,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/8ee0374f35bb525707743d2339b02a44f7355acf"
+    },
+    {
+      "path": "tests/test_core.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "67bf7a4a4faa7b4da72f650c0f8af65a8b8a6d87",
+      "size": 3119,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/67bf7a4a4faa7b4da72f650c0f8af65a8b8a6d87"
+    },
+    {
+      "path": "tests/test_flybare.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "187cea6c51a6b1e77177f27a9a622784aeb6e56f",
+      "size": 3347,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/187cea6c51a6b1e77177f27a9a622784aeb6e56f"
+    },
+    {
+      "path": "tests/test_flywalker.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e60c20eb6b63ed003d65ea993f1006edac1b4ae9",
+      "size": 8076,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/e60c20eb6b63ed003d65ea993f1006edac1b4ae9"
+    },
+    {
+      "path": "tests/test_walking_env.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "60979b3443b00f1f623b5734bdf85ee04eba3c2c",
+      "size": 2443,
+      "url": "https://api.github.com/repos/TuragaLab/flybody/git/blobs/60979b3443b00f1f623b5734bdf85ee04eba3c2c"
+    }
+  ]
+}

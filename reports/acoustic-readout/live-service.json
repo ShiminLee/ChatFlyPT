@@ -1,0 +1,14 @@
+{
+  "http_status": 200,
+  "dialogue_mode": "neural_readout_only",
+  "llm_in_pathway": false,
+  "external_action_control": false,
+  "acoustic_readout": {
+    "decoder": "DAS Dmel_single_v1.0",
+    "installed": true,
+    "scope": "acoustic_classification_only",
+    "semantic_decoder": false,
+    "body_signal_producer": false,
+    "validation_report": "reports/acoustic-readout/das-acceptance.json"
+  }
+}

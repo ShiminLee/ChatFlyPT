@@ -1,0 +1,39 @@
+{
+  "schema": "chatflypt.command-readout-protocol.v1",
+  "run_id": "conspecific-v5",
+  "dataset": "MaleCNS v1.0",
+  "input_mode": "environment_only",
+  "duration_ms": 500.0,
+  "split_unit": "whole_session",
+  "label_source": "Recorded steering command of the same window: mean over the window's sampled frames of (right - left) leg-stepping drive, read from the commands that acted in that window's own physical run",
+  "features": "sqrt spikes; log1p positive/negative voltage area; normalized to 500 ms",
+  "feature_rule": "Annotated sensory classes and registered input cells excluded by the shared blind mask; every mapped motor-group cell additionally excluded; training-active internal cells only",
+  "readout": "sqrt spike counts and log1p voltage areas -> Ridge alpha=10",
+  "thresholds_from": "Training split |command| quantile only, before any validation or test window is scored",
+  "qualification": {
+    "correlation": "r(predicted, recorded command) >= 0.5 on validation",
+    "sign": "sign agreement >= 0.75 on validation windows whose |recorded command| exceeds the training quantile",
+    "silence": "at most 10% of validation windows with a zero command may be predicted as turning",
+    "support": "at least 6 informative validation windows",
+    "direction": "a direction word needs >= 2 windows of that direction in validation, otherwise it is withheld"
+  },
+  "controls": [
+    "Motor-group-only fit (documented ceiling: the excluded shortcut)",
+    "Shuffled-label fit",
+    "Zero-input prediction",
+    "Test split opened after freezing"
+  ],
+  "explicit_non_claims": [
+    "The command is a recorded controller output, not a validated intention of the fly.",
+    "A qualified readout does not claim that the body followed the command; measured motion is reported separately.",
+    "No window is labelled from the human sentence, the scene, the planned stimulus or the measured body motion."
+  ],
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "revision_history": [
+    "The two earlier intent revisions predicted measured body outcomes and both left the turn component unqualified. This revision reads the command instead, which is what \"转向\" means here: the fly's own descending steering output, not the body's weak response to it.",
+    "Discarded preregistration 33114c0244198c7b843dcd073ad423f827945171d769b599e8f3b292f9e24be5: it named the persisted drive record as the label source, but that record spans the whole session, so its first 500 ms are not this window's commands. It was replaced before any window was fitted or scored; labels now come from the commands recorded in the window's own physical run.",
+    "The direction gate was added before the served artifact existed: the corpus contains 41 informative right-turn commands and 1 left-turn command, so a left word has no validation support and is withheld instead of being spoken on an untested direction. This replaced preregistration e70d0760bb1dd05e12aca6c9c112222eea9564a2f34107685b1a7514f7d3616d, whose candidate fit the same rules but had no direction gate and was never published.",
+    "Threshold bug fixed before this fit: the informative-window quantile was filtered with \"if is_train\" on the split names, and a non-empty string is always truthy, so the quantile covered the whole corpus instead of the training split only. On this corpus the two values coincide to five decimals (0.011943583629361808), so no reported number moves, but the rule as written was wrong and is now enforced and unit-tested. This replaced preregistration 377e16dd374190ae8ba8368c56764b31b08525e8463dd7033268c5cb34062a2b, which was also never used for a published artifact."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "input": {
+    "message": "右边有糖",
+    "seed": 2026091921,
+    "history": [],
+    "observation_id": ""
+  },
+  "parser": {
+    "kind": "unsupported",
+    "words": [],
+    "channel": null,
+    "proposed": false,
+    "reason": "这句话有尚未定义的含义；请明确描述糖、气味、声音或某侧前腿触碰。"
+  },
+  "http_status": 503,
+  "elapsed_seconds": 55.082,
+  "response": {
+    "error": "API 请求超时（55 秒）；请稍后重试或更换模型。"
+  },
+  "full_pathway_passed": false,
+  "neural_simulation_run": false,
+  "context": "Fresh request with no earlier conversation or neural observation; no input remapping or code changes.",
+  "source_sha256": {
+    "chatflypt/communication.py": "b678d4f944e341cda81937502e3bfc4776a2a0c75ce96d64bc2d059bc8e06b23",
+    "chatflypt/server.py": "a2ab87aee63e70a3575bffd40bcd99fe9bceb0cad346105799b089238a1cb814"
+  }
+}

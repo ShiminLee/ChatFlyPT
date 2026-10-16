@@ -1,0 +1,210 @@
+{
+  "repo": "artxz/eyemap-archive",
+  "commit": "503c7f055d5491a48b60b49ade8c71798d24d8f1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/.gitignore",
+      "bytes": 68,
+      "sha256": "af8c679fa39ea3d351f1cbf1baee754c0d9e6342bbe83ddb8a0fd8dc5a7a3ad4"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/LICENSE",
+      "bytes": 1769,
+      "sha256": "9ca079480114e10adfc35d495618ec543662c75988786b386f21d8fced6cd871"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/README.md",
+      "bytes": 2251,
+      "sha256": "0c2fbb185d2650daf3c97ce068a6e5a774c78cd8f3e99cf4c520d51bcd9b6606"
+    },
+    {
+      "path": "docs/browse.html",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/browse.html",
+      "bytes": 1025,
+      "sha256": "fd769f9c058e34f18903c3a8c8e1b3fbeb2d90e9c68f049604fb4b6855099a80"
+    },
+    {
+      "path": "docs/css/style.css",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/css/style.css",
+      "bytes": 3834,
+      "sha256": "aa5fe81c5c6d65e14bec2a1632c6ad0d5711b5ef50ba57e1d35e26cd2f36cd1a"
+    },
+    {
+      "path": "docs/data/eyemap_783_20240701/left.csv",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_783_20240701/left.csv",
+      "bytes": 54010,
+      "sha256": "d894e9fc6db531b11d3b6c6b2ef508185f1ec1a0ee35dc6715f7ee1358d30115"
+    },
+    {
+      "path": "docs/data/eyemap_783_20240701/left.json",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_783_20240701/left.json",
+      "bytes": 90691,
+      "sha256": "cb28d870213309fa2edcc19b357b8539fbaf3b510ae04721b22006b2d4e1986f"
+    },
+    {
+      "path": "docs/data/eyemap_783_20240701/right.csv",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_783_20240701/right.csv",
+      "bytes": 54933,
+      "sha256": "bb2f8e035c03e53e6bf5891ce7bbcaf5ebf8ebbb47a7d89981c945fd29e4ce5f"
+    },
+    {
+      "path": "docs/data/eyemap_783_20240701/right.json",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_783_20240701/right.json",
+      "bytes": 92225,
+      "sha256": "4461ce7a17d10663d5804468fd0d50a18f77cf00cb1f767c035f6a015eac9630"
+    },
+    {
+      "path": "docs/data/eyemap_DRA_mcns_f20240701/left.csv",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_DRA_mcns_f20240701/left.csv",
+      "bytes": 46269,
+      "sha256": "f5f86ec61e1f396987ca5cd424cac279ee56e6e7974a2c8f97aa05657ea85fee"
+    },
+    {
+      "path": "docs/data/eyemap_DRA_mcns_f20240701/left.json",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_DRA_mcns_f20240701/left.json",
+      "bytes": 87641,
+      "sha256": "784cb753675c936d68d06df1a82342872d515f9ba5b5a3359d444fa438200efd"
+    },
+    {
+      "path": "docs/data/eyemap_DRA_mcns_f20240701/right.csv",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_DRA_mcns_f20240701/right.csv",
+      "bytes": 47338,
+      "sha256": "c9ee7b14656dbd58acc853a849330b740e9a193bff23d8a3839485e9ad1cc67c"
+    },
+    {
+      "path": "docs/data/eyemap_DRA_mcns_f20240701/right.json",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_DRA_mcns_f20240701/right.json",
+      "bytes": 89609,
+      "sha256": "e5118de79b963389b2cb98e873fb1a7bbb83c190a673311040017b3ec9b2b1fb"
+    },
+    {
+      "path": "docs/data/eyemap_mcns_f20240701/left.csv",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_mcns_f20240701/left.csv",
+      "bytes": 47525,
+      "sha256": "abfe62cad8e2b066155d779e8ebbc70054124c82ade3da4fead3a84df6b0c2f3"
+    },
+    {
+      "path": "docs/data/eyemap_mcns_f20240701/left.json",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_mcns_f20240701/left.json",
+      "bytes": 89997,
+      "sha256": "34d7d4bdfee2dbf17857f2e99f24604a9ece6b6c45b051a49c28cc646e0fad87"
+    },
+    {
+      "path": "docs/data/eyemap_mcns_f20240701/right.csv",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_mcns_f20240701/right.csv",
+      "bytes": 47338,
+      "sha256": "c9ee7b14656dbd58acc853a849330b740e9a193bff23d8a3839485e9ad1cc67c"
+    },
+    {
+      "path": "docs/data/eyemap_mcns_f20240701/right.json",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/data/eyemap_mcns_f20240701/right.json",
+      "bytes": 89609,
+      "sha256": "e5118de79b963389b2cb98e873fb1a7bbb83c190a673311040017b3ec9b2b1fb"
+    },
+    {
+      "path": "docs/index.html",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/index.html",
+      "bytes": 4212,
+      "sha256": "59b5ced875d3bf598e2a65fd55f88777177dd6e684e3612d48dc5e3e48019cfb"
+    },
+    {
+      "path": "docs/js/catalog.js",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/js/catalog.js",
+      "bytes": 1976,
+      "sha256": "b6821d3b826217a62909a9fa195e9deaa7e0c0018adf149c5afecaa8ad10f6f3"
+    },
+    {
+      "path": "docs/js/projections.js",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/js/projections.js",
+      "bytes": 3297,
+      "sha256": "c0e684a07f87d782905103b18a8cf5e62fe6f568217e6f2a64178a2445bd684c"
+    },
+    {
+      "path": "docs/js/viewer.js",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/js/viewer.js",
+      "bytes": 5769,
+      "sha256": "16dcaacec6bb3cbbd1252137cd0c041c279a066f2f60f75c1401583641f87d40"
+    },
+    {
+      "path": "docs/manifest.json",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/manifest.json",
+      "bytes": 3121,
+      "sha256": "6933ba222135689f77b85d2d76646685eca8ba315cc981de854a8ea274fca377"
+    },
+    {
+      "path": "docs/view.html",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/docs/view.html",
+      "bytes": 2023,
+      "sha256": "bb3958c3e098efe0afcf0af2da09f9591743a46dd5c3863995c1563aa1935add"
+    },
+    {
+      "path": "maps/eyemap_783_20240701/lens_med.rda",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_783_20240701/lens_med.rda",
+      "bytes": 5853,
+      "sha256": "a26a747e5e99288937ff699ff437e4d79e43a6366c0c368aa312db51bb9dabdf"
+    },
+    {
+      "path": "maps/eyemap_783_20240701/pqxyztpid_left.xlsx",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_783_20240701/pqxyztpid_left.xlsx",
+      "bytes": 74609,
+      "sha256": "c9e430814ffbf051336893fab4389f49b8a4343a29a186c75c8fba2d7d1847b1"
+    },
+    {
+      "path": "maps/eyemap_783_20240701/pqxyztpid_right.xlsx",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_783_20240701/pqxyztpid_right.xlsx",
+      "bytes": 75708,
+      "sha256": "4f1268ceb526f4b5e6fe8135f3513a481d7e4c041fc63b20222f4726fca23894"
+    },
+    {
+      "path": "maps/eyemap_DRA_mcns_f20240701/lens_med.rda",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_DRA_mcns_f20240701/lens_med.rda",
+      "bytes": 3910,
+      "sha256": "1e75051c326c59094eae7be5e9eee6ff40c1af9271b59d6204933f51d82b75e7"
+    },
+    {
+      "path": "maps/eyemap_DRA_mcns_f20240701/pqxyztp_left.xlsx",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_DRA_mcns_f20240701/pqxyztp_left.xlsx",
+      "bytes": 76869,
+      "sha256": "de4e02bb8e65429e5af8f270113ae28f2d0be61381a14dbb6eba44080e801dd4"
+    },
+    {
+      "path": "maps/eyemap_DRA_mcns_f20240701/pqxyztp_right.xlsx",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_DRA_mcns_f20240701/pqxyztp_right.xlsx",
+      "bytes": 78309,
+      "sha256": "fd89ce601acac30172624b741e9aea03a1aa3910b24bc5ae0c9bf902e661af71"
+    },
+    {
+      "path": "maps/eyemap_mcns_f20240701/lens_med.rda",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_mcns_f20240701/lens_med.rda",
+      "bytes": 3910,
+      "sha256": "1e75051c326c59094eae7be5e9eee6ff40c1af9271b59d6204933f51d82b75e7"
+    },
+    {
+      "path": "maps/eyemap_mcns_f20240701/pqxyztp_left.xlsx",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_mcns_f20240701/pqxyztp_left.xlsx",
+      "bytes": 78768,
+      "sha256": "e42e1781dc40bcecb2f90bd154172b626bfb58841dd68218362aeaebe90abd30"
+    },
+    {
+      "path": "maps/eyemap_mcns_f20240701/pqxyztp_right.xlsx",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/maps/eyemap_mcns_f20240701/pqxyztp_right.xlsx",
+      "bytes": 78309,
+      "sha256": "f78e2059a5dceaab9380fb0893fe88cc1b2902954d9d11165e174093587af793"
+    },
+    {
+      "path": "scripts/build_manifest.py",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/scripts/build_manifest.py",
+      "bytes": 3854,
+      "sha256": "8d55a493d7fa25b1bbfae64a32d64f16ce6e12e40eafcae211d3cf4b9e838498"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "url": "https://raw.githubusercontent.com/artxz/eyemap-archive/503c7f055d5491a48b60b49ade8c71798d24d8f1/scripts/requirements.txt",
+      "bytes": 16,
+      "sha256": "2d336d83666a509295f946650ce0283583148e4e0628fede8141c8d2bab3e7f5"
+    }
+  ]
+}

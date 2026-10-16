@@ -1,0 +1,4499 @@
+{
+  "evaluation_sha256": "320ef9522cd763a403cdf42afabd71b627fa85467bc455434144f3cb8f9f8d6a",
+  "rows": [
+    {
+      "episode": "test-bright",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-bright\\turn-0\\measured-body.json",
+      "physical_record_sha256": "dce7fb3bcc61d1921c4008699da1afac44e5b0f478dd18f140a40aa6d6250cc5",
+      "physics": {
+        "displacement_mm": [
+          0.13189030897919896,
+          0.0858769546859355,
+          -0.16086324220386228
+        ],
+        "path_length_mm": 0.640497945234073,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 2,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.09837469804687295
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-bright",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-bright\\turn-1\\measured-body.json",
+      "physical_record_sha256": "587af62ddae6c369aaa19698d82c998e3fee3d9c3108cd5de0c802302296dad2",
+      "physics": {
+        "displacement_mm": [
+          0.12317225438903723,
+          -0.02772491460878864,
+          0.023016334198344923
+        ],
+        "path_length_mm": 0.999296931040207,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 5,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 4.466204381733689e-06,
+          "max": 0.19673737903357336
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark",
+      "turn": 0,
+      "expected": [],
+      "predicted": [],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark\\turn-0\\measured-body.json",
+      "physical_record_sha256": "a08e8bebaa65b912ac9cb5807be84dc8b01d74d065b126d370cb6f4d25da0219",
+      "physics": {
+        "displacement_mm": [
+          0.007793197550095443,
+          0.3425449257838595,
+          -0.19295042949110952
+        ],
+        "path_length_mm": 1.177390375846039,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 5,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.31606027941427883
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark",
+      "turn": 1,
+      "expected": [],
+      "predicted": [],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark\\turn-1\\measured-body.json",
+      "physical_record_sha256": "c868246b73e36e2b6b3af34ae27cf1cc2d1c7c9928ce5893d69b76a183bb4e7d",
+      "physics": {
+        "displacement_mm": [
+          0.2720181497619196,
+          -0.11305351138776809,
+          -0.0034170797657698815
+        ],
+        "path_length_mm": 0.8896996978532199,
+        "max_contacts": 8,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 7,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 1.9798862865443774e-08,
+          "max": 0.19673468215230064
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-yeast\\turn-0\\measured-body.json",
+      "physical_record_sha256": "a7f9ef7761ea26b671b00ab3b5e4bbad40670f11169bbb4a2f35be6d40ca72e8",
+      "physics": {
+        "displacement_mm": [
+          0.06759521827615367,
+          0.035613539986115626,
+          -0.24507546610641717
+        ],
+        "path_length_mm": 1.0788006018048586,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 9,
+      "motor_spikes": 42,
+      "controller_program_steps": {
+        "locomotion": 2400,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 4600,
+        "song": 4600,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.11803465999875531
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.004684158812944841
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.467011884861071
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-yeast\\turn-1\\measured-body.json",
+      "physical_record_sha256": "930bfb62ac3278772035e27497b1e7fa4b877d6996be0569262b63af0cca72d7",
+      "physics": {
+        "displacement_mm": [
+          0.0011335056452377312,
+          -0.04599674159742263,
+          -0.006340953058644461
+        ],
+        "path_length_mm": 0.5890014336529704,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 9,
+      "motor_spikes": 79,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 1.792285268605029e-09,
+          "max": 0.0002925938573663873
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 1.7456235298781154e-08,
+          "max": 0.0070529073941822664
+        },
+        "feeding": {
+          "min": 0.06580648597770915,
+          "max": 0.42398892574748176
+        },
+        "song": {
+          "min": 6.1225251965717154e-12,
+          "max": 9.964703113256256e-07
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 0,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [],
+      "false_positive": [],
+      "missed": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark_yeast\\turn-0\\measured-body.json",
+      "physical_record_sha256": "b9e7353532664221f635a99d59500439adb09fd99edea8a8561e1b06a8f46207",
+      "physics": {
+        "displacement_mm": [
+          0.10398314314291934,
+          0.0492952228801625,
+          -0.2641212827880245
+        ],
+        "path_length_mm": 0.9852056425673389,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 48,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 4600,
+        "song": 4600,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.004684158812944841
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.3896452635628166
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 1,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [],
+      "false_positive": [],
+      "missed": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark_yeast\\turn-1\\measured-body.json",
+      "physical_record_sha256": "8065b27b5ff069c701f40858e32ca59c1765b42d8a824f832bfb92cedaa6569b",
+      "physics": {
+        "displacement_mm": [
+          0.012467075394887894,
+          -0.060844610334059586,
+          0.03050920785576794
+        ],
+        "path_length_mm": 0.590009874568751,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 90,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 2.5907350267300215e-06,
+          "max": 0.007526197826112877
+        },
+        "feeding": {
+          "min": 0.17460639801027283,
+          "max": 0.44388300643264883
+        },
+        "song": {
+          "min": 6.1225251965717154e-12,
+          "max": 9.964703113256256e-07
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-heat",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "warm:left"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-heat\\turn-0\\measured-body.json",
+      "physical_record_sha256": "22202eb1c7f62ef771671fa3983553c9830ea34f3b075f8b69c4c4c9dd68de5c",
+      "physics": {
+        "displacement_mm": [
+          0.09105645063473311,
+          -0.08407791332343521,
+          -0.28207073643049907
+        ],
+        "path_length_mm": 1.094397589023552,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 45,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1600,
+        "landing": 0,
+        "feeding": 4400,
+        "song": 4400,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.007577281051996601
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.42485407769757844
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.1967346701436833
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.31606027941427883
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-heat",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "warm:left"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-heat\\turn-1\\measured-body.json",
+      "physical_record_sha256": "c77329fa7a2e6cb9051f66bfcbf7aa0b1f0c4b34755e66359d39b4ece5ea7adb",
+      "physics": {
+        "displacement_mm": [
+          -0.020072062108576705,
+          0.019328202103352704,
+          -0.0008926453969064774
+        ],
+        "path_length_mm": 0.5569510899909053,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 12,
+      "motor_spikes": 81,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 1.78001164080029e-06,
+          "max": 0.00936939725752447
+        },
+        "feeding": {
+          "min": 0.0787571060703916,
+          "max": 0.3704981826150304
+        },
+        "song": {
+          "min": 2.0188675043970544e-11,
+          "max": 3.285803595807475e-06
+        },
+        "escape": {
+          "min": 1.9672048886311158e-11,
+          "max": 3.201720213276021e-06
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-cold",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "cold:left",
+        "cold:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-cold\\turn-0\\measured-body.json",
+      "physical_record_sha256": "41ade05417063ef4a60ef8115e5708fea7300a574c06b4128155250250171d63",
+      "physics": {
+        "displacement_mm": [
+          0.1403369873242455,
+          0.056999921166291594,
+          -0.2559345273420154
+        ],
+        "path_length_mm": 0.9171668835209087,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 9,
+      "motor_spikes": 35,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 4600,
+        "song": 3600,
+        "flight": 0,
+        "joint_targets": 4600
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.010366330682973199
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.34329925683065565
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-cold",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "cold:left",
+        "cold:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-cold\\turn-1\\measured-body.json",
+      "physical_record_sha256": "f670c31d334b2df858fbe035327f6094da65db6d1ed33adb659b0f3c1a827158",
+      "physics": {
+        "displacement_mm": [
+          0.0048991526414127184,
+          0.017456598859896297,
+          -0.020451275709472805
+        ],
+        "path_length_mm": 0.651641882868327,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 13,
+      "motor_spikes": 65,
+      "controller_program_steps": {
+        "locomotion": 1000,
+        "grooming": 200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.11729721658197687
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 5.6357675273659787e-05,
+          "max": 0.012230136390989256
+        },
+        "feeding": {
+          "min": 0.008823421458892694,
+          "max": 0.5012167373370506
+        },
+        "song": {
+          "min": 2.0017111233944342e-05,
+          "max": 0.10326536077261095
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-mouth_block\\turn-0\\measured-body.json",
+      "physical_record_sha256": "1f500af50553f223bb97e5e9f26f11fa48421f163d713fd8b9abe7d85161be17",
+      "physics": {
+        "displacement_mm": [
+          0.1307697168254478,
+          0.13917551556334587,
+          -0.1014405713472113
+        ],
+        "path_length_mm": 2.553682961979305,
+        "max_contacts": 18,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 18,
+      "controller_program_steps": {
+        "locomotion": 2200,
+        "grooming": 0,
+        "escape": 2800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 2200
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.06863445753535831,
+          "max": 0.29293414697466086
+        },
+        "right": {
+          "min": -0.06882044415815199,
+          "max": 0.29510200521552493
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.29510200521552493
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-mouth_block\\turn-1\\measured-body.json",
+      "physical_record_sha256": "e76486a989d907c96143eda0ed02510cc18118aee027df0a24caeee4e194d76b",
+      "physics": {
+        "displacement_mm": [
+          0.057714158656931414,
+          -0.024275624121510964,
+          -0.0028579256597520697
+        ],
+        "path_length_mm": 0.7715717154307161,
+        "max_contacts": 21,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 20,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 2200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.0007645031233405268,
+          "max": -4.603608640726104e-09
+        },
+        "right": {
+          "min": -0.0007645260759132086,
+          "max": -4.6974105600674796e-09
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.00010887270611124455,
+          "max": 0.19684647042573988
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-mouth_sugar\\turn-0\\measured-body.json",
+      "physical_record_sha256": "232209fc2aec9378fbc1ac58c05c10c265524f6383f1fad7276291ee45392b10",
+      "physics": {
+        "displacement_mm": [
+          0.09573288075161035,
+          0.011066184327738477,
+          -0.09517631666931115
+        ],
+        "path_length_mm": 1.1915142525613904,
+        "max_contacts": 19,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 9,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3600
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.5127949495579621
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-mouth_sugar\\turn-1\\measured-body.json",
+      "physical_record_sha256": "907aeb7c0f38ec45bd3ccd472a93baa9f93d32524303acf44d7f73a881a6002f",
+      "physics": {
+        "displacement_mm": [
+          0.1624246285337485,
+          -0.009915047686336786,
+          0.00675454331889247
+        ],
+        "path_length_mm": 2.422880401742778,
+        "max_contacts": 22,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 3,
+      "motor_spikes": 17,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 3200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0004876734404676547,
+          "max": 0.5129743545907155
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-mouth_high_salt\\turn-0\\measured-body.json",
+      "physical_record_sha256": "a631f3e558c48f12f44d1fda16c99aadd41a41d575c19d9fda8fe8478bb7018d",
+      "physics": {
+        "displacement_mm": [
+          0.10456031452660575,
+          0.04928945019323021,
+          -0.09537810460623808
+        ],
+        "path_length_mm": 1.6500536551830565,
+        "max_contacts": 18,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 16,
+      "controller_program_steps": {
+        "locomotion": 3200,
+        "grooming": 0,
+        "escape": 3200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.06469722499687927,
+          "max": 0.2176929443424372
+        },
+        "right": {
+          "min": -0.06469722499687927,
+          "max": 0.2176929443424372
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.3547648098508227
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-mouth_high_salt\\turn-1\\measured-body.json",
+      "physical_record_sha256": "51a0183e2ddf32c31fa18351802935dc3ffbaa10dc788c32fc3da12fed5a75b2",
+      "physics": {
+        "displacement_mm": [
+          0.08992790915130344,
+          -0.013026945609555092,
+          -0.008555443238944749
+        ],
+        "path_length_mm": 0.6998199332422446,
+        "max_contacts": 21,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 28,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -5.899623269607706e-05,
+          "max": 0.21769289054483656
+        },
+        "right": {
+          "min": -5.899623269607706e-05,
+          "max": 0.21769289054483656
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 2.2976670986147868e-05,
+          "max": 0.39355754617298316
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-leg_sugar\\turn-0\\measured-body.json",
+      "physical_record_sha256": "f957c672371c5f993ae91766ee14cd9970812c1fb93e3a9a89b5c2005185da9a",
+      "physics": {
+        "displacement_mm": [
+          0.5420983053913343,
+          0.4450011736546752,
+          -0.20008355649676868
+        ],
+        "path_length_mm": 2.885828795538856,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 20,
+      "motor_spikes": 64,
+      "controller_program_steps": {
+        "locomotion": 4800,
+        "grooming": 1200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 4800
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.47925523389875896,
+          "max": 0.09836733507184164
+        },
+        "right": {
+          "min": -0.47925523389875896,
+          "max": 0.09836733507184164
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.08546582492632701
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.004684158812944841
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-leg_sugar\\turn-1\\measured-body.json",
+      "physical_record_sha256": "399a06ce61499e0c2a2020343b2da2d3a9cae6b775c43a9725af481feddbb405",
+      "physics": {
+        "displacement_mm": [
+          0.3227350294887663,
+          0.46291691345184616,
+          0.016035708450275132
+        ],
+        "path_length_mm": 2.1218295165744183,
+        "max_contacts": 9,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 20,
+      "motor_spikes": 94,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.4123595021829513,
+          "max": -0.01223955590201418
+        },
+        "right": {
+          "min": -0.4123599234677123,
+          "max": -0.013033843744144355
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 8.770400080180748e-12,
+          "max": 1.4274246357110333e-06
+        },
+        "anterior": {
+          "min": 2.9154881888436735e-13,
+          "max": 4.7450967205982166e-08
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_left\\turn-0\\measured-body.json",
+      "physical_record_sha256": "dde6eb947b20ffb158ea1ae3f0e4816b334891fbef6e1ff45c6ef2b258cfcd8c",
+      "physics": {
+        "displacement_mm": [
+          0.029341199344567692,
+          -0.04390970928780591,
+          -0.18586318238530586
+        ],
+        "path_length_mm": 0.5220346363144759,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 2,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3600
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.1967346701436833
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_left\\turn-1\\measured-body.json",
+      "physical_record_sha256": "e278dd855c229bd289dfd0ae05db63a81804b057839fb283b9563a28d3cd8cfb",
+      "physics": {
+        "displacement_mm": [
+          -0.008011276687865054,
+          -0.11388161418886858,
+          0.010360315051740066
+        ],
+        "path_length_mm": 0.46573971286717536,
+        "max_contacts": 13,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 3,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 9.96503596823597e-07,
+          "max": 0.09837062087543744
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_left\\turn-2\\measured-body.json",
+      "physical_record_sha256": "af685c5de21f53f052bc0075365737bf55c0d9e79a48892fa7e91106d36ef07e",
+      "physics": {
+        "displacement_mm": [
+          0.01930581378435081,
+          0.08293970084420199,
+          0.00229987813712218
+        ],
+        "path_length_mm": 0.38778726874616076,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 3,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 3.713623290090461e-12,
+          "max": 6.044099839874283e-07
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_left\\turn-3\\measured-body.json",
+      "physical_record_sha256": "c7402b232b284e783f97b0ce8cdbecfd67c99267ecb0ed98de4f20d98644e585",
+      "physics": {
+        "displacement_mm": [
+          -0.027747633086748436,
+          -0.26916945937988124,
+          0.019685511348246698
+        ],
+        "path_length_mm": 0.6928820780535587,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 5,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 600,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 6.20238250387785e-17,
+          "max": 0.19673467014368334
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "foreleg_touch:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_right\\turn-0\\measured-body.json",
+      "physical_record_sha256": "665f830ddf018af7725ab497ca9fba325abba2cb19660b253586c91ca34aede8",
+      "physics": {
+        "displacement_mm": [
+          0.051397487839591305,
+          0.2212035750576986,
+          -0.11227410062649557
+        ],
+        "path_length_mm": 2.32160719901349,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 6,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.3757304470246079
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_right\\turn-1\\measured-body.json",
+      "physical_record_sha256": "1e40617b4e963086c8eb7be04feed25a1924bbd5089917aaf761448863ffbe00",
+      "physics": {
+        "displacement_mm": [
+          0.037637825027902694,
+          -0.02884885864044781,
+          -0.051176519028264034
+        ],
+        "path_length_mm": 0.2221772622901489,
+        "max_contacts": 10,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 6,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 3.124306573425831e-07,
+          "max": 0.05084958646869441
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_right\\turn-2\\measured-body.json",
+      "physical_record_sha256": "d5764ed985de6cfd4aa977e6899712cc2bf7c63eabca2bfaaf2aa7b56d7ddcae",
+      "physics": {
+        "displacement_mm": [
+          0.07004861843501431,
+          0.05141904083968277,
+          -0.018419628345716532
+        ],
+        "path_length_mm": 1.7822187926065953,
+        "max_contacts": 15,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 29,
+      "controller_program_steps": {
+        "locomotion": 3200,
+        "grooming": 1000,
+        "escape": 2400,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 3600
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.3934693402873666,
+          "max": 0.0
+        },
+        "right": {
+          "min": -0.28567755719664334,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.07256431478081238
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 2.564587007802973e-08,
+          "max": 0.29510202077053144
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-touch_right\\turn-3\\measured-body.json",
+      "physical_record_sha256": "430cdf83dfb039d3aadb50bf3610b32a94a3ace2ce03c6f494a476c93599bc34",
+      "physics": {
+        "displacement_mm": [
+          0.005437767671271798,
+          0.47330282395909823,
+          0.060407588345158914
+        ],
+        "path_length_mm": 1.5140057230844066,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 11,
+      "motor_spikes": 36,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 2600,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.00031135908855323233,
+          "max": -1.9132650637904347e-09
+        },
+        "right": {
+          "min": -0.0003113282653441252,
+          "max": -1.91326506262669e-09
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 6.703092050431435e-10,
+          "max": 0.00010909603485303513
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 7.337872439026055e-05,
+          "max": 0.3160872739384014
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-leg_block_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-leg_block_control\\turn-0\\measured-body.json",
+      "physical_record_sha256": "7d4f99c96e3b10d0662de6ae735498150f043fd149894e304f135451711be08a",
+      "physics": {
+        "displacement_mm": [
+          0.16429139040644913,
+          0.14754481338012487,
+          -0.21715045372362085
+        ],
+        "path_length_mm": 1.6193864984600812,
+        "max_contacts": 10,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 15,
+      "motor_spikes": 34,
+      "controller_program_steps": {
+        "locomotion": 4800,
+        "grooming": 1200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 4800,
+        "flight": 0,
+        "joint_targets": 4800
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.33328795906686187,
+          "max": 0.09836733507184164
+        },
+        "right": {
+          "min": -0.36604704946631583,
+          "max": 0.09836733507184164
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.06473915332096417
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-leg_block_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-leg_block_control\\turn-1\\measured-body.json",
+      "physical_record_sha256": "1861fd12ebffc808cc938fc3bac4b054d4c5ea9d7e97bb2b5a383c5f28f775d5",
+      "physics": {
+        "displacement_mm": [
+          0.0932229905757761,
+          0.12499424290794783,
+          0.059383057402299766
+        ],
+        "path_length_mm": 1.799679735726876,
+        "max_contacts": 7,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 17,
+      "motor_spikes": 67,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.2747729662231121,
+          "max": -0.0030970554883744607
+        },
+        "right": {
+          "min": -0.3501656729225139,
+          "max": -0.0031021969231855686
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 1.0953203901560172e-11,
+          "max": 1.782686416368246e-06
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 3.7134992465838635e-12,
+          "max": 6.043897953123849e-07
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-far_sugar_control",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-far_sugar_control\\turn-0\\measured-body.json",
+      "physical_record_sha256": "70aa4b6813c4ab573cb718a70e0b92def0931b5c82c26b7b3195dea2beb3e15c",
+      "physics": {
+        "displacement_mm": [
+          0.2511128054695593,
+          0.32686040933736593,
+          -0.14063837191667328
+        ],
+        "path_length_mm": 2.4514199658896776,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 6,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2400,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.4144276144861205
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-far_sugar_control",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-far_sugar_control\\turn-1\\measured-body.json",
+      "physical_record_sha256": "7d76315f5e9d53e6f1193019d3ee39228843011279d3afb2b73bc3575c514b15",
+      "physics": {
+        "displacement_mm": [
+          0.12847986991192928,
+          -0.017800904116442806,
+          -0.0189359533817951
+        ],
+        "path_length_mm": 0.6393936212793486,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 7,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1400,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 3.3004876447141186e-05,
+          "max": 0.09838735354132687
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_leg_sugar_control",
+      "turn": 0,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark_leg_sugar_control\\turn-0\\measured-body.json",
+      "physical_record_sha256": "60a485c37144c6f3ef52c36b5bd6cd87e75614caf35a3d98f693bee4624626c6",
+      "physics": {
+        "displacement_mm": [
+          0.36921613528448805,
+          -0.30762427156843763,
+          -0.20727650079825222
+        ],
+        "path_length_mm": 2.088589810488295,
+        "max_contacts": 8,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 18,
+      "motor_spikes": 46,
+      "controller_program_steps": {
+        "locomotion": 4800,
+        "grooming": 1200,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 2000,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 4800
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.2755866274095758,
+          "max": 0.09836733507184164
+        },
+        "right": {
+          "min": -0.31723096807848433,
+          "max": 0.09836733507184164
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.08546582492632701
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_leg_sugar_control",
+      "turn": 1,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark_leg_sugar_control\\turn-1\\measured-body.json",
+      "physical_record_sha256": "ac8f298e27aad8c18448c7afc1e12bfe7777dac3c3e4d44de8a8082cd1a1af69",
+      "physics": {
+        "displacement_mm": [
+          0.1657224246907053,
+          -0.02993082889219706,
+          0.019278109163154422
+        ],
+        "path_length_mm": 1.4903575583063773,
+        "max_contacts": 9,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 19,
+      "motor_spikes": 69,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.29235506307888254,
+          "max": -0.005142839018300738
+        },
+        "right": {
+          "min": -0.2983687245596845,
+          "max": -0.005385922296997506
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 8.770400080180748e-12,
+          "max": 1.4274246357110333e-06
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 8.179526413391996e-08,
+          "max": 0.09836738468317716
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 0,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark_leg_block_control\\turn-0\\measured-body.json",
+      "physical_record_sha256": "363c11de8b7ca6e9daa8a054495d42def56a5c8f71314c2b96aefcedf9bf2c16",
+      "physics": {
+        "displacement_mm": [
+          0.2802057747185396,
+          0.16024154577385574,
+          -0.2296448236157107
+        ],
+        "path_length_mm": 1.9356101388944766,
+        "max_contacts": 10,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 13,
+      "motor_spikes": 34,
+      "controller_program_steps": {
+        "locomotion": 4800,
+        "grooming": 1000,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 4800
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.3352639998998305,
+          "max": 0.09836733507184164
+        },
+        "right": {
+          "min": -0.3932950838413215,
+          "max": 0.09836733507184164
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.05267671323571313
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-dark_leg_block_control",
+      "turn": 1,
+      "expected": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "predicted": [
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-dark_leg_block_control\\turn-1\\measured-body.json",
+      "physical_record_sha256": "8ff446a017cd922c304f8f95b5a3f4c7dab850e47a95ec3b552fe9be286d67bc",
+      "physics": {
+        "displacement_mm": [
+          -0.021961091338390526,
+          0.07905944543066007,
+          0.012351407117542124
+        ],
+        "path_length_mm": 1.8646005245680137,
+        "max_contacts": 8,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 15,
+      "motor_spikes": 51,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": -0.25626613532570364,
+          "max": 0.08190970440679385
+        },
+        "right": {
+          "min": -0.23396408658641618,
+          "max": 0.09603162321349666
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 5.405620906185659e-12,
+          "max": 8.797907030764541e-07
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_bright_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_bright_left\\turn-0\\measured-body.json",
+      "physical_record_sha256": "a6bc9f98181b73cbbb6d3e788d9076b924a8117add06a40a118b82234f3638b5",
+      "physics": {
+        "displacement_mm": [
+          -0.018838614211300952,
+          -0.11872334498704243,
+          -0.1844340822139119
+        ],
+        "path_length_mm": 1.7325796792882941,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 6,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1400,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.4353858886848744
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_bright_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_bright_left\\turn-1\\measured-body.json",
+      "physical_record_sha256": "637ec5d48597d3d61901ad5b96ee53d2a33747ba09b4fe1bfb6a495de647eb22",
+      "physics": {
+        "displacement_mm": [
+          0.06313856498420889,
+          0.21775708168391372,
+          0.013286389347149874
+        ],
+        "path_length_mm": 1.594014572321982,
+        "max_contacts": 10,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 12,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2600,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0005994976344185592,
+          "max": 0.3987508355633923
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_yeast_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "yeast:left"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_yeast_left\\turn-0\\measured-body.json",
+      "physical_record_sha256": "caa9910c7541499b706e90f20a8c2be7195e2f173f48c41d087a1708c69b920f",
+      "physics": {
+        "displacement_mm": [
+          0.11061327214616934,
+          0.13157387139341772,
+          -0.22978190329988102
+        ],
+        "path_length_mm": 1.003325229678335,
+        "max_contacts": 18,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 47,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 4400,
+        "song": 4400,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.006640575074475292
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.45891770647998387
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_yeast_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_yeast_left\\turn-1\\measured-body.json",
+      "physical_record_sha256": "9ee8cf6148d3b7eac34df5fef88167b3027d419f279072943b2e214ba28c84ad",
+      "physics": {
+        "displacement_mm": [
+          0.030594513181384175,
+          -0.11208940999893317,
+          -0.058025984460541524
+        ],
+        "path_length_mm": 0.6011026502478855,
+        "max_contacts": 16,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 10,
+      "motor_spikes": 84,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 5000,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 5.2219161896772893e-05,
+          "max": 0.004919977600614864
+        },
+        "feeding": {
+          "min": 0.05807150933371585,
+          "max": 0.4738872136781626
+        },
+        "song": {
+          "min": 1.0094337521985272e-11,
+          "max": 1.6429017979037376e-06
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_heat_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_heat_left\\turn-0\\measured-body.json",
+      "physical_record_sha256": "fe2d545c5603d3134f6b2f95bd3f78a926512b29ffb7f3d40231d0105dd6f2d3",
+      "physics": {
+        "displacement_mm": [
+          -0.024641221334129493,
+          0.06292836414561441,
+          -0.2386856812674195
+        ],
+        "path_length_mm": 1.289032449666524,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 9,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 3200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.3934693402873666
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_heat_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_heat_left\\turn-1\\measured-body.json",
+      "physical_record_sha256": "447bfa083c3fb560817832d6a174b353cf36194baea30fe1c5a9057d6dd7c6ac",
+      "physics": {
+        "displacement_mm": [
+          0.014445387446605729,
+          0.006126949764461348,
+          0.03288843324818458
+        ],
+        "path_length_mm": 0.528045077929535,
+        "max_contacts": 11,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 11,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 1.654045656274208e-05,
+          "max": 0.19674470243771428
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_cold_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "cold:left"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_cold_left\\turn-0\\measured-body.json",
+      "physical_record_sha256": "91a4e201f0ed105e083f45984c09831b4898cc62b2f7121a8e5430f2c2b6bbf9",
+      "physics": {
+        "displacement_mm": [
+          0.07628101517510055,
+          -0.2148445060277944,
+          -0.26145884677968645
+        ],
+        "path_length_mm": 1.5697194371498076,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 13,
+      "motor_spikes": 42,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 200,
+        "escape": 1600,
+        "landing": 0,
+        "feeding": 4400,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.01505048949591804
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.38720967882808177
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.31606027941427883
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_cold_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_cold_left\\turn-1\\measured-body.json",
+      "physical_record_sha256": "6a86a9c8f01af59395a7ad4f2deeb58bb74fee8c09d9e359a35f85847fb0bff1",
+      "physics": {
+        "displacement_mm": [
+          0.024852696372379524,
+          -0.013024921264038147,
+          -0.018658720311753196
+        ],
+        "path_length_mm": 0.6537120030584395,
+        "max_contacts": 16,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 14,
+      "motor_spikes": 84,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 2600,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.00010712006722769114,
+          "max": 0.0065092778769190104
+        },
+        "feeding": {
+          "min": 0.09784595980674152,
+          "max": 0.4007326999232476
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 1.9672048886311158e-11,
+          "max": 3.201720213276021e-06
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_bright_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_bright_right\\turn-0\\measured-body.json",
+      "physical_record_sha256": "27862910621f9d86c23a3239be26cf6b2b93c8b03e3ee99ccb0b1d0c198ea7cb",
+      "physics": {
+        "displacement_mm": [
+          -0.29433332012703534,
+          0.37491265092278536,
+          -0.1840304820701767
+        ],
+        "path_length_mm": 2.18893114808599,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 5,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1800,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.3934693402873666
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_bright_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_bright_right\\turn-1\\measured-body.json",
+      "physical_record_sha256": "561288937c71eef9164564560fd54d8a518b49e6c1ad81bb0cd63a3ab468fa83",
+      "physics": {
+        "displacement_mm": [
+          0.13129138113378225,
+          0.2527334540293382,
+          -0.009189980572999357
+        ],
+        "path_length_mm": 1.1238373955606569,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 9,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1600,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 7.617729474297592e-07,
+          "max": 0.3934698023260149
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_yeast_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "yeast:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_yeast_right\\turn-0\\measured-body.json",
+      "physical_record_sha256": "299872966bb8f05dea5b3f22abad1599a7293161b9b14c3bc8b14ce56340046c",
+      "physics": {
+        "displacement_mm": [
+          0.15835833726918203,
+          -0.04917283740813508,
+          -0.2702011438499097
+        ],
+        "path_length_mm": 0.8701440472311281,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 12,
+      "motor_spikes": 42,
+      "controller_program_steps": {
+        "locomotion": 3200,
+        "grooming": 0,
+        "escape": 1400,
+        "landing": 0,
+        "feeding": 4400,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 4400
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.11810603196488101
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0064073645394092755
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.40324460479072954
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.15803013970713942
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_yeast_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_yeast_right\\turn-1\\measured-body.json",
+      "physical_record_sha256": "d4b8e1b8f8803679429f6e7b90302dfa3bc8d582c55988af49b4a6afdaf1e7d6",
+      "physics": {
+        "displacement_mm": [
+          -0.030529524819948528,
+          0.11039975079547851,
+          0.03141400019376828
+        ],
+        "path_length_mm": 0.6997816418296892,
+        "max_contacts": 17,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 13,
+      "motor_spikes": 82,
+      "controller_program_steps": {
+        "locomotion": 5000,
+        "grooming": 0,
+        "escape": 0,
+        "landing": 0,
+        "feeding": 5000,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 5000
+      },
+      "command_ranges": {
+        "left": {
+          "min": 4.392076239996223e-07,
+          "max": 0.07163494300185694
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 3.936820835531559e-08,
+          "max": 0.00951838068175581
+        },
+        "feeding": {
+          "min": 0.12164484453690749,
+          "max": 0.44324560259862783
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 9.836024443155579e-12,
+          "max": 1.6008601066380105e-06
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_heat_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "warm:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_heat_right\\turn-0\\measured-body.json",
+      "physical_record_sha256": "3cf0e123e66d5237d99d5b2a68e9921ff4d7707d4e093b51c290daf306bc0abf",
+      "physics": {
+        "displacement_mm": [
+          0.3047110506160098,
+          -0.2882514030604121,
+          -0.22583197463061044
+        ],
+        "path_length_mm": 4.488246475550453,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 14,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 3200,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.6086450744490131
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_heat_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_heat_right\\turn-1\\measured-body.json",
+      "physical_record_sha256": "12072da17d20dc9222e8b0e87f333ff56f8ffdd9de3995a3fa5f79b0edd4f14a",
+      "physics": {
+        "displacement_mm": [
+          -0.15936642564052095,
+          0.20219987252514468,
+          0.021723693233622332
+        ],
+        "path_length_mm": 1.0815287979945454,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 2,
+      "motor_spikes": 19,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 3000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 8.860253973364216e-05,
+          "max": 0.32938012350680945
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_cold_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [
+        "cold:right"
+      ],
+      "exact_set": false,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_cold_right\\turn-0\\measured-body.json",
+      "physical_record_sha256": "fb74a72bf82e4a5170c063a01cf0b84a818f3ebe5e409302e1aa6cdf62c436f2",
+      "physics": {
+        "displacement_mm": [
+          0.07718128977427641,
+          0.039696651612086034,
+          -0.18164474382922335
+        ],
+        "path_length_mm": 0.43239602925777143,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 1,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 1000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    },
+    {
+      "episode": "test-unilateral_cold_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ],
+      "false_positive": [],
+      "missed": [],
+      "exact_set": true,
+      "physical_record": "data\\derived\\unified-readout\\runs\\retinal-axes-v3\\trials\\test-unilateral_cold_right\\turn-1\\measured-body.json",
+      "physical_record_sha256": "b161f9c0ef0f18fb8111a6a3366cb8300007f487117301d34ddb69705239a830",
+      "physics": {
+        "displacement_mm": [
+          0.19729343650004827,
+          0.036284358158120956,
+          -0.00034506694912339597
+        ],
+        "path_length_mm": 0.7792053353422864,
+        "max_contacts": 12,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "active_motor_neurons": 1,
+      "motor_spikes": 4,
+      "controller_program_steps": {
+        "locomotion": 0,
+        "grooming": 0,
+        "escape": 2000,
+        "landing": 0,
+        "feeding": 0,
+        "song": 0,
+        "flight": 0,
+        "joint_targets": 0
+      },
+      "command_ranges": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 1.3485759182012917e-07,
+          "max": 0.1967347519389474
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "behavior_goal_success": null
+    }
+  ],
+  "scope": "Frozen predictions and actual simulation records; no test-set retuning",
+  "behavior_goal_success_evaluated": false,
+  "biologically_calibrated": false
+}

@@ -1,0 +1,1764 @@
+{
+  "repository": "NeLy-EPFL/NeuroMechFly",
+  "head": "6fdc6212bcf5b71fcd47bca119876c92092c2cd6",
+  "date": "2024-10-11T21:39:41Z",
+  "tree_truncated": false,
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a1944bd685f1cf5b5c11d1bf5bd00f15c72be6",
+      "size": 44,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/80a1944bd685f1cf5b5c11d1bf5bd00f15c72be6"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a50dbee7295eb7d9d567944e13ff761436e8019",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/3a50dbee7295eb7d9d567944e13ff761436e8019"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a7e47f0c3ce89c3594f63d05a1fb744149552f6",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/9a7e47f0c3ce89c3594f63d05a1fb744149552f6"
+    },
+    {
+      "path": ".github/workflows/pages.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb9c5ba12aacefc10609ee20f17961c6cdeb92ec",
+      "size": 1431,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/fb9c5ba12aacefc10609ee20f17961c6cdeb92ec"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b78268fadb2298bcea74e1f83840b3d11a202545",
+      "size": 1875,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/b78268fadb2298bcea74e1f83840b3d11a202545"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839b1e8d5f168368fd7405015879cc1641dea131",
+      "size": 11409,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/839b1e8d5f168368fd7405015879cc1641dea131"
+    },
+    {
+      "path": "NeuroMechFly",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e67e8e0346eec84fb456c99d044bfa18da86861",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/3e67e8e0346eec84fb456c99d044bfa18da86861"
+    },
+    {
+      "path": "NeuroMechFly/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79973e79f78bb8c3a4e9ba3260420b5458062378",
+      "size": 77,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/79973e79f78bb8c3a4e9ba3260420b5458062378"
+    },
+    {
+      "path": "NeuroMechFly/control",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1583f0212fe91aba891ef462f6bdacff53df4129",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/1583f0212fe91aba891ef462f6bdacff53df4129"
+    },
+    {
+      "path": "NeuroMechFly/control/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "NeuroMechFly/control/spring_damper_muscles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d90a58d2261002b6c494181935d2201b037b6f10",
+      "size": 4113,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/d90a58d2261002b6c494181935d2201b037b6f10"
+    },
+    {
+      "path": "NeuroMechFly/experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a9d42935dda957f0e52533ab1f3ffc50fb75bf3",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/5a9d42935dda957f0e52533ab1f3ffc50fb75bf3"
+    },
+    {
+      "path": "NeuroMechFly/experiments/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "NeuroMechFly/experiments/kinematic_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4426debf4dd3f4d304b5edb0a6550ae5abdf0b8",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/a4426debf4dd3f4d304b5edb0a6550ae5abdf0b8"
+    },
+    {
+      "path": "NeuroMechFly/experiments/kinematic_replay/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "NeuroMechFly/experiments/kinematic_replay/kinematic_replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34e2655637cac505d05691320f459865eede1c75",
+      "size": 8429,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/34e2655637cac505d05691320f459865eede1c75"
+    },
+    {
+      "path": "NeuroMechFly/experiments/kinematic_replay/kinematic_replay_no_support.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da60447f22ba4eba74abcb47b3cadec2e06136d2",
+      "size": 9827,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/da60447f22ba4eba74abcb47b3cadec2e06136d2"
+    },
+    {
+      "path": "NeuroMechFly/experiments/network_optimization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f92494d121137cae27255b605804e25968da2c81",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/f92494d121137cae27255b605804e25968da2c81"
+    },
+    {
+      "path": "NeuroMechFly/experiments/network_optimization/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "NeuroMechFly/experiments/network_optimization/multiobj_optimization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f5c944bd92dc30022f2d9196476ec0148158b1",
+      "size": 13518,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/67f5c944bd92dc30022f2d9196476ec0148158b1"
+    },
+    {
+      "path": "NeuroMechFly/experiments/network_optimization/neuromuscular_control.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95a7ddacfdf4aff2d0bab9ab9192ce17f72fe12c",
+      "size": 20550,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/95a7ddacfdf4aff2d0bab9ab9192ce17f72fe12c"
+    },
+    {
+      "path": "NeuroMechFly/sdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84a5f63c6013370a0bda295a621baa0df19b181e",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/84a5f63c6013370a0bda295a621baa0df19b181e"
+    },
+    {
+      "path": "NeuroMechFly/sdf/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55686e703be10bec1ecdc79e2f81409d9031e510",
+      "size": 17,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/55686e703be10bec1ecdc79e2f81409d9031e510"
+    },
+    {
+      "path": "NeuroMechFly/sdf/bullet_load_sdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "691c626e1abd598b9031e32328e602c0f061d1f6",
+      "size": 15567,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/691c626e1abd598b9031e32328e602c0f061d1f6"
+    },
+    {
+      "path": "NeuroMechFly/sdf/sdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6d0738b8eaa95307819c2a6067056be536429ca",
+      "size": 46702,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/c6d0738b8eaa95307819c2a6067056be536429ca"
+    },
+    {
+      "path": "NeuroMechFly/sdf/units.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d458f3cd1696f774e4a2897fee47238360f380f7",
+      "size": 2718,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/d458f3cd1696f774e4a2897fee47238360f380f7"
+    },
+    {
+      "path": "NeuroMechFly/sdf/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43654ae9bb0eb5e70ae08fac302518166213d84d",
+      "size": 5276,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/43654ae9bb0eb5e70ae08fac302518166213d84d"
+    },
+    {
+      "path": "NeuroMechFly/simulation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0a5c86ae0a82de828e2036c27128d6225607573",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/a0a5c86ae0a82de828e2036c27128d6225607573"
+    },
+    {
+      "path": "NeuroMechFly/simulation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "NeuroMechFly/simulation/bullet_sensors.pxd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2bf5c26a9387dbce473dfce2388bae03a1b9623",
+      "size": 1418,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/d2bf5c26a9387dbce473dfce2388bae03a1b9623"
+    },
+    {
+      "path": "NeuroMechFly/simulation/bullet_sensors.pyx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d38941c19d5cc2704c64ab514df275cd4d724793",
+      "size": 9074,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/d38941c19d5cc2704c64ab514df275cd4d724793"
+    },
+    {
+      "path": "NeuroMechFly/simulation/bullet_simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a15e03ffae978669a6ab035ec2610008a7a5274f",
+      "size": 38724,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/a15e03ffae978669a6ab035ec2610008a7a5274f"
+    },
+    {
+      "path": "NeuroMechFly/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1253da50bad142af56cdbc93d4afb002ca1536e2",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/1253da50bad142af56cdbc93d4afb002ca1536e2"
+    },
+    {
+      "path": "NeuroMechFly/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b8150fd47a71f1ab52bc56942af09e7a63d1191",
+      "size": 12,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/7b8150fd47a71f1ab52bc56942af09e7a63d1191"
+    },
+    {
+      "path": "NeuroMechFly/utils/options.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08c177f160e2da0cd4961990da7caa760f1e42fe",
+      "size": 2478,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/08c177f160e2da0cd4961990da7caa760f1e42fe"
+    },
+    {
+      "path": "NeuroMechFly/utils/plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2cc09046a5241c969a03a99ae2d18d427f2748",
+      "size": 81801,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/7e2cc09046a5241c969a03a99ae2d18d427f2748"
+    },
+    {
+      "path": "NeuroMechFly/utils/profiler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7321ed675f7dd29ba1c021fbe7fdac41ddb3b88b",
+      "size": 1523,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/7321ed675f7dd29ba1c021fbe7fdac41ddb3b88b"
+    },
+    {
+      "path": "NeuroMechFly/utils/sensitivity_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "408976898949bef12421bf901e0558ea33b5c097",
+      "size": 6208,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/408976898949bef12421bf901e0558ea33b5c097"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d228686ee651e0d6abda0bf1c431d02508a92c6",
+      "size": 12243,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/8d228686ee651e0d6abda0bf1c431d02508a92c6"
+    },
+    {
+      "path": "README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "288e9248368f37a76bce677d6b5ce49f86627575",
+      "size": 2186,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/288e9248368f37a76bce677d6b5ce49f86627575"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e9c1ed198672bb1d0e2bab3532d2e380328be82",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/5e9c1ed198672bb1d0e2bab3532d2e380328be82"
+    },
+    {
+      "path": "data/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddcb7d192720b89945284020b6f6446da7e18592",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/ddcb7d192720b89945284020b6f6446da7e18592"
+    },
+    {
+      "path": "data/config/network",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a170980b83fc12d726146a8a0dedf6194bd8ddf",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/8a170980b83fc12d726146a8a0dedf6194bd8ddf"
+    },
+    {
+      "path": "data/config/network/locomotion_network.graphml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf7dd8eaaef6066c0d44981d8fd249b75aa5b49d",
+      "size": 24473,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/cf7dd8eaaef6066c0d44981d8fd249b75aa5b49d"
+    },
+    {
+      "path": "data/config/network/locomotion_network_tripod.graphml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062ea3d66b8ad52deeeebc0dafde2d0c58d388f6",
+      "size": 24476,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/062ea3d66b8ad52deeeebc0dafde2d0c58d388f6"
+    },
+    {
+      "path": "data/config/pose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "102dbb358a272b6ece7defbf3b139f2188a34d35",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/102dbb358a272b6ece7defbf3b139f2188a34d35"
+    },
+    {
+      "path": "data/config/pose/fixed_joints.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "449ea08a919a32e66382ea4398172aa58d2da8dd",
+      "size": 1961,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/449ea08a919a32e66382ea4398172aa58d2da8dd"
+    },
+    {
+      "path": "data/config/pose/fixed_joints_kinematic_replay.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d706f1ce2664da9bc4ae20402a83250ac7193ee",
+      "size": 1239,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/6d706f1ce2664da9bc4ae20402a83250ac7193ee"
+    },
+    {
+      "path": "data/config/pose/pose_default.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20dc6e1d74dbe922c2db347dd45834fae0c1ecc",
+      "size": 3604,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/f20dc6e1d74dbe922c2db347dd45834fae0c1ecc"
+    },
+    {
+      "path": "data/config/pose/pose_stretch.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07387ff5b083b7bcde442fd0f19acbd36b7f2a96",
+      "size": 683,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/07387ff5b083b7bcde442fd0f19acbd36b7f2a96"
+    },
+    {
+      "path": "data/config/pose/pose_tripod.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dea84658237b2668cb93139e410bd6308def86dd",
+      "size": 719,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/dea84658237b2668cb93139e410bd6308def86dd"
+    },
+    {
+      "path": "data/design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14aceec17edcd62a1f14812d10903a9dc67f354e",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/14aceec17edcd62a1f14812d10903a9dc67f354e"
+    },
+    {
+      "path": "data/design/blender",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d70ce8677f508ce1c3fc46b3404793e41e3dfc4",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/0d70ce8677f508ce1c3fc46b3404793e41e3dfc4"
+    },
+    {
+      "path": "data/design/blender/neuromechfly_full_model.blend",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d595c459bd7f28191d4a7e40c1a9fce7db9b369e",
+      "size": 133,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/d595c459bd7f28191d4a7e40c1a9fce7db9b369e"
+    },
+    {
+      "path": "data/design/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b17e1b3a3ffefc0241b3bd90fe8af93c22f1b01",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/5b17e1b3a3ffefc0241b3bd90fe8af93c22f1b01"
+    },
+    {
+      "path": "data/design/meshes/stl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8f438615996e2865f502a28da949b0472854e26",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/e8f438615996e2865f502a28da949b0472854e26"
+    },
+    {
+      "path": "data/design/meshes/stl/A1A2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb438cddb42789003870199e2b4032c5d8d82f7",
+      "size": 144334,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9fb438cddb42789003870199e2b4032c5d8d82f7"
+    },
+    {
+      "path": "data/design/meshes/stl/A3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bcc6613c2aa3db3d4fc665474d896dff7875f1b",
+      "size": 140084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9bcc6613c2aa3db3d4fc665474d896dff7875f1b"
+    },
+    {
+      "path": "data/design/meshes/stl/A4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6efed3c8aadb9dfee5245e61bbcf7c13f2b9287e",
+      "size": 143384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/6efed3c8aadb9dfee5245e61bbcf7c13f2b9287e"
+    },
+    {
+      "path": "data/design/meshes/stl/A5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d4ccf995c4857a6e9b9c5b6f5d91d07ede487c",
+      "size": 158834,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/51d4ccf995c4857a6e9b9c5b6f5d91d07ede487c"
+    },
+    {
+      "path": "data/design/meshes/stl/A6.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a8fff406021e78c4d1663decd6b557a0eecb6b",
+      "size": 203134,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/51a8fff406021e78c4d1663decd6b557a0eecb6b"
+    },
+    {
+      "path": "data/design/meshes/stl/Haustellum.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d4e401db587dd091833abe19c505e97d4b0977",
+      "size": 215634,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/25d4e401db587dd091833abe19c505e97d4b0977"
+    },
+    {
+      "path": "data/design/meshes/stl/Head.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea4a01cca03b744e3c363ca419c156f9349b953",
+      "size": 4117984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/fea4a01cca03b744e3c363ca419c156f9349b953"
+    },
+    {
+      "path": "data/design/meshes/stl/LAntenna.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d7086e3815df23c99120504d22f03dd2951a3ad",
+      "size": 87334,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/1d7086e3815df23c99120504d22f03dd2951a3ad"
+    },
+    {
+      "path": "data/design/meshes/stl/LEye.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ddb55736fac814a9a3b39ea5e112c8b82771677",
+      "size": 1133584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/5ddb55736fac814a9a3b39ea5e112c8b82771677"
+    },
+    {
+      "path": "data/design/meshes/stl/LFCoxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd322be90c6a6c1025e6c86e3e99bb283dafb8f1",
+      "size": 184034,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/bd322be90c6a6c1025e6c86e3e99bb283dafb8f1"
+    },
+    {
+      "path": "data/design/meshes/stl/LFFemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34cc1cac35c6a7ff24814b858d6bb37841db821b",
+      "size": 80984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/34cc1cac35c6a7ff24814b858d6bb37841db821b"
+    },
+    {
+      "path": "data/design/meshes/stl/LFTarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5b75a251d706fdb1668fa3eab1e327b913dd626",
+      "size": 89584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/b5b75a251d706fdb1668fa3eab1e327b913dd626"
+    },
+    {
+      "path": "data/design/meshes/stl/LFTarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2512f0ed77b413b26d5c95f32feeb0014971c3c",
+      "size": 89884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e2512f0ed77b413b26d5c95f32feeb0014971c3c"
+    },
+    {
+      "path": "data/design/meshes/stl/LFTarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30b0aa482b4e14cb923bf141b54fbe1e3298e0e6",
+      "size": 152584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/30b0aa482b4e14cb923bf141b54fbe1e3298e0e6"
+    },
+    {
+      "path": "data/design/meshes/stl/LFTarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b081e7e37c0b2fe39701537433390b875aea8fe",
+      "size": 164234,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/0b081e7e37c0b2fe39701537433390b875aea8fe"
+    },
+    {
+      "path": "data/design/meshes/stl/LFTarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5569c7f258290201ddd5356e5dea10eb0b9816b3",
+      "size": 142184,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/5569c7f258290201ddd5356e5dea10eb0b9816b3"
+    },
+    {
+      "path": "data/design/meshes/stl/LFTibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "064a3bc8732f5df3c901bbec223ca06acbef4b73",
+      "size": 85534,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/064a3bc8732f5df3c901bbec223ca06acbef4b73"
+    },
+    {
+      "path": "data/design/meshes/stl/LHCoxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcbbad30bfd0c6c20ce9503ccfb559b8ae7208c4",
+      "size": 199084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/dcbbad30bfd0c6c20ce9503ccfb559b8ae7208c4"
+    },
+    {
+      "path": "data/design/meshes/stl/LHFemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1461e0e9d5491906af60c870068cc6154be9f15",
+      "size": 165884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e1461e0e9d5491906af60c870068cc6154be9f15"
+    },
+    {
+      "path": "data/design/meshes/stl/LHTarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "335f4f85ba2b80d80a11c2397f5f9fdbca80a38d",
+      "size": 38934,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/335f4f85ba2b80d80a11c2397f5f9fdbca80a38d"
+    },
+    {
+      "path": "data/design/meshes/stl/LHTarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ddafadab84c0a4c23ffa101ea0007bbaacdaa2d",
+      "size": 98684,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/8ddafadab84c0a4c23ffa101ea0007bbaacdaa2d"
+    },
+    {
+      "path": "data/design/meshes/stl/LHTarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f9f63950b9b797966530afd5017a1f06544b7ec",
+      "size": 129584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9f9f63950b9b797966530afd5017a1f06544b7ec"
+    },
+    {
+      "path": "data/design/meshes/stl/LHTarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0572c16518ae22b2d9e981d38d1c0f1c436740",
+      "size": 130984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/2c0572c16518ae22b2d9e981d38d1c0f1c436740"
+    },
+    {
+      "path": "data/design/meshes/stl/LHTarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f00658195e86c4916bfc3719773511747ae455ab",
+      "size": 147084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/f00658195e86c4916bfc3719773511747ae455ab"
+    },
+    {
+      "path": "data/design/meshes/stl/LHTibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81e4959c78a09c0b0ee4e4a6208f772819cd66d",
+      "size": 37484,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e81e4959c78a09c0b0ee4e4a6208f772819cd66d"
+    },
+    {
+      "path": "data/design/meshes/stl/LHaltere.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e04ab46400d792eb8b763c1c3d14ef1bc85a240a",
+      "size": 41284,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e04ab46400d792eb8b763c1c3d14ef1bc85a240a"
+    },
+    {
+      "path": "data/design/meshes/stl/LMCoxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aa1804c8a9b8236bc9814392813d1ece381bc1c",
+      "size": 130384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/0aa1804c8a9b8236bc9814392813d1ece381bc1c"
+    },
+    {
+      "path": "data/design/meshes/stl/LMFemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e208d86ccc0483c84eeab09559f4e9a794eb542",
+      "size": 41384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/6e208d86ccc0483c84eeab09559f4e9a794eb542"
+    },
+    {
+      "path": "data/design/meshes/stl/LMTarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58fa68e9cd256d1a2def33ec3118fdbeeaefcc96",
+      "size": 46284,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/58fa68e9cd256d1a2def33ec3118fdbeeaefcc96"
+    },
+    {
+      "path": "data/design/meshes/stl/LMTarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12164ad9792f43fa18c77fa6b61dd274663d1e11",
+      "size": 77884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/12164ad9792f43fa18c77fa6b61dd274663d1e11"
+    },
+    {
+      "path": "data/design/meshes/stl/LMTarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2412b088b739ea3d4796fcae29e121dba540b9c",
+      "size": 92884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/f2412b088b739ea3d4796fcae29e121dba540b9c"
+    },
+    {
+      "path": "data/design/meshes/stl/LMTarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d409a7915d9148cd36c6b2a1e33220bd5398656",
+      "size": 159584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9d409a7915d9148cd36c6b2a1e33220bd5398656"
+    },
+    {
+      "path": "data/design/meshes/stl/LMTarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9024bdf75c15d526080f813b71d7d55231d76ced",
+      "size": 49384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9024bdf75c15d526080f813b71d7d55231d76ced"
+    },
+    {
+      "path": "data/design/meshes/stl/LMTibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc573b10eaf076d069c22df51b483b050f84da30",
+      "size": 33884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/fc573b10eaf076d069c22df51b483b050f84da30"
+    },
+    {
+      "path": "data/design/meshes/stl/LWing.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9ab3da05377caa1f0bac1ca45dbc0fdb009856",
+      "size": 996734,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/3c9ab3da05377caa1f0bac1ca45dbc0fdb009856"
+    },
+    {
+      "path": "data/design/meshes/stl/RAntenna.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc0c0fb7093df5796d121c4912449d22498eb25",
+      "size": 87334,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9fc0c0fb7093df5796d121c4912449d22498eb25"
+    },
+    {
+      "path": "data/design/meshes/stl/REye.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30eec0f272994c63a6a15e1f3961b211b5a28af5",
+      "size": 2616284,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/30eec0f272994c63a6a15e1f3961b211b5a28af5"
+    },
+    {
+      "path": "data/design/meshes/stl/RFCoxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcb2edd16a8373aec73ae4657ab0e10a1cb4fc9d",
+      "size": 184034,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/bcb2edd16a8373aec73ae4657ab0e10a1cb4fc9d"
+    },
+    {
+      "path": "data/design/meshes/stl/RFFemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa631d8f9fa02cb1ee9919b3ad4693474f1230fc",
+      "size": 80984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/aa631d8f9fa02cb1ee9919b3ad4693474f1230fc"
+    },
+    {
+      "path": "data/design/meshes/stl/RFTarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96bf423aa1b13eae8fe0711ba5bb06a91c961b1a",
+      "size": 89584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/96bf423aa1b13eae8fe0711ba5bb06a91c961b1a"
+    },
+    {
+      "path": "data/design/meshes/stl/RFTarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18877a5386264efc907c8b597ce2f05bb953f7fe",
+      "size": 89884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/18877a5386264efc907c8b597ce2f05bb953f7fe"
+    },
+    {
+      "path": "data/design/meshes/stl/RFTarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b1809249228f86a8c9862172d59e45d621dccff",
+      "size": 152584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9b1809249228f86a8c9862172d59e45d621dccff"
+    },
+    {
+      "path": "data/design/meshes/stl/RFTarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf2113cad46dfd287f4f12c43627d73be8dd327f",
+      "size": 164234,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/cf2113cad46dfd287f4f12c43627d73be8dd327f"
+    },
+    {
+      "path": "data/design/meshes/stl/RFTarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f1c39e00fda5fdbc5cd050818e7f56b42c64ac7",
+      "size": 142184,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/3f1c39e00fda5fdbc5cd050818e7f56b42c64ac7"
+    },
+    {
+      "path": "data/design/meshes/stl/RFTibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901d4851923fd0daa3d41ce691120117ce1e9e2b",
+      "size": 85534,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/901d4851923fd0daa3d41ce691120117ce1e9e2b"
+    },
+    {
+      "path": "data/design/meshes/stl/RHCoxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b29ae3b0b390642026fb4491891120cf0552ef8a",
+      "size": 199084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/b29ae3b0b390642026fb4491891120cf0552ef8a"
+    },
+    {
+      "path": "data/design/meshes/stl/RHFemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fec436d3784c7db7fcabdae38c3ad63c7743e33",
+      "size": 165884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/4fec436d3784c7db7fcabdae38c3ad63c7743e33"
+    },
+    {
+      "path": "data/design/meshes/stl/RHTarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "324ea459837dad33589119128fcb2df397a158bc",
+      "size": 38934,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/324ea459837dad33589119128fcb2df397a158bc"
+    },
+    {
+      "path": "data/design/meshes/stl/RHTarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d3d41af65076b1b010eabfaa9e735f104bc6e5",
+      "size": 98684,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/43d3d41af65076b1b010eabfaa9e735f104bc6e5"
+    },
+    {
+      "path": "data/design/meshes/stl/RHTarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b475eb6da16ee84f0164a75ddeca94d62e91db9",
+      "size": 129584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9b475eb6da16ee84f0164a75ddeca94d62e91db9"
+    },
+    {
+      "path": "data/design/meshes/stl/RHTarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6879da6646e6eee514c69b5db5655ba04ba38220",
+      "size": 130984,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/6879da6646e6eee514c69b5db5655ba04ba38220"
+    },
+    {
+      "path": "data/design/meshes/stl/RHTarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b0f7cfeb808ff4671807dd12a8019090e1fddbe",
+      "size": 147084,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/5b0f7cfeb808ff4671807dd12a8019090e1fddbe"
+    },
+    {
+      "path": "data/design/meshes/stl/RHTibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a212829914297e3bd9db40780118879953cf14",
+      "size": 37484,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/88a212829914297e3bd9db40780118879953cf14"
+    },
+    {
+      "path": "data/design/meshes/stl/RHaltere.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4e4e5b6f381226ffb325786ba74fcd217e0dda3",
+      "size": 41284,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/b4e4e5b6f381226ffb325786ba74fcd217e0dda3"
+    },
+    {
+      "path": "data/design/meshes/stl/RMCoxa.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bda465772efb8d7033905d531c34b60c8948fd80",
+      "size": 130384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/bda465772efb8d7033905d531c34b60c8948fd80"
+    },
+    {
+      "path": "data/design/meshes/stl/RMFemur.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13d3de61bcaf5d8bd73471b91359b46b6ca69ccb",
+      "size": 41384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/13d3de61bcaf5d8bd73471b91359b46b6ca69ccb"
+    },
+    {
+      "path": "data/design/meshes/stl/RMTarsus1.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f3fe3c53ef2278252630d6bbedc0dbd97404ef2",
+      "size": 46284,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/2f3fe3c53ef2278252630d6bbedc0dbd97404ef2"
+    },
+    {
+      "path": "data/design/meshes/stl/RMTarsus2.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf030efb3a9a320390b37d323cf3046f426b2d2",
+      "size": 77884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/ddf030efb3a9a320390b37d323cf3046f426b2d2"
+    },
+    {
+      "path": "data/design/meshes/stl/RMTarsus3.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec340845369a8ec365488965298f2592077f2727",
+      "size": 92884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/ec340845369a8ec365488965298f2592077f2727"
+    },
+    {
+      "path": "data/design/meshes/stl/RMTarsus4.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0fea707b6c75287f13a72165d3bbf68e39e8fe5",
+      "size": 159584,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/c0fea707b6c75287f13a72165d3bbf68e39e8fe5"
+    },
+    {
+      "path": "data/design/meshes/stl/RMTarsus5.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde0716ef0ddd3ce56c82c31288319fe46213f95",
+      "size": 49384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/bde0716ef0ddd3ce56c82c31288319fe46213f95"
+    },
+    {
+      "path": "data/design/meshes/stl/RMTibia.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53f25bd616a5cc65066e0c3c6d61d74f1d37180",
+      "size": 33884,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e53f25bd616a5cc65066e0c3c6d61d74f1d37180"
+    },
+    {
+      "path": "data/design/meshes/stl/RWing.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "421e98a59477b845ee6824455a6fbacaf1d4c05e",
+      "size": 996734,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/421e98a59477b845ee6824455a6fbacaf1d4c05e"
+    },
+    {
+      "path": "data/design/meshes/stl/Rostrum.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d97e5a6cbf546abf2160d2156fa7db50a7cb810",
+      "size": 189384,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/6d97e5a6cbf546abf2160d2156fa7db50a7cb810"
+    },
+    {
+      "path": "data/design/meshes/stl/Thorax.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a103156bf48458a8325b483ebb4a8836b08297",
+      "size": 281534,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/a4a103156bf48458a8325b483ebb4a8836b08297"
+    },
+    {
+      "path": "data/design/sdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "624d19a77d247fb6d117a1762d5d86b1c8f662cc",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/624d19a77d247fb6d117a1762d5d86b1c8f662cc"
+    },
+    {
+      "path": "data/design/sdf/edit_sdf_limits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9c1dcc648cca81ebf24dd17a62bd1fb93a6eae",
+      "size": 3494,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9e9c1dcc648cca81ebf24dd17a62bd1fb93a6eae"
+    },
+    {
+      "path": "data/design/sdf/neuromechfly_frontleg_antenna_cylinder.sdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5ef3ef79c5259203572808445764f7f5c81e4c",
+      "size": 131725,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/4e5ef3ef79c5259203572808445764f7f5c81e4c"
+    },
+    {
+      "path": "data/design/sdf/neuromechfly_frontleg_cylinder_antenna_normal.sdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "491f27e633df4a7fc2aa6e9df0044e87575d5951",
+      "size": 131817,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/491f27e633df4a7fc2aa6e9df0044e87575d5951"
+    },
+    {
+      "path": "data/design/sdf/neuromechfly_locomotion_optimization.sdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d8558911052ae708eccc025ba6f5dbcaa418103",
+      "size": 138648,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/3d8558911052ae708eccc025ba6f5dbcaa418103"
+    },
+    {
+      "path": "data/design/sdf/neuromechfly_noLimits.sdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f403070e6b194f5d76dc864caaa03f264009adef",
+      "size": 130442,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/f403070e6b194f5d76dc864caaa03f264009adef"
+    },
+    {
+      "path": "data/design/sdf/neuromechfly_noLimits_ground.sdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42a3fdde2a9691d0092457f7fd77f42736945ffe",
+      "size": 128285,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/42a3fdde2a9691d0092457f7fd77f42736945ffe"
+    },
+    {
+      "path": "data/design/sdf/sphere_1cm.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c871843a73f07d15f3f5a770d6b1c3adf51cb35",
+      "size": 403,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/8c871843a73f07d15f3f5a770d6b1c3adf51cb35"
+    },
+    {
+      "path": "data/design/textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23f3da846e3a4eeb8b38f67d0a47aaa240264acc",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/23f3da846e3a4eeb8b38f67d0a47aaa240264acc"
+    },
+    {
+      "path": "data/design/textures/ball",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "214dbc980e662decb56141fb597da88dbc390dc2",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/214dbc980e662decb56141fb597da88dbc390dc2"
+    },
+    {
+      "path": "data/design/textures/ball/chequered_0048.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "248d1c5098b925ae2481f5fa7db70495a6fe06d7",
+      "size": 29116,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/248d1c5098b925ae2481f5fa7db70495a6fe06d7"
+    },
+    {
+      "path": "data/joint_tracking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "956266dbe8ecc068485025a47a20bcaf7a847040",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/956266dbe8ecc068485025a47a20bcaf7a847040"
+    },
+    {
+      "path": "data/joint_tracking/grooming",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c224f55d8d1a6cf6808c1d75f89465c4465ad216",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/c224f55d8d1a6cf6808c1d75f89465c4465ad216"
+    },
+    {
+      "path": "data/joint_tracking/grooming/fly1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a620821a0985a4c7bda706160af3715a5690d3fa",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/a620821a0985a4c7bda706160af3715a5690d3fa"
+    },
+    {
+      "path": "data/joint_tracking/grooming/fly1/df3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5579bd38d576f0e6278fbfa9ac7dc20cc50486e1",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/5579bd38d576f0e6278fbfa9ac7dc20cc50486e1"
+    },
+    {
+      "path": "data/joint_tracking/grooming/fly1/df3d/joint_angles__180921_aDN_CsCh_Fly6_003_SG1_behData_images_images.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aacb63fd3667be892492b0c86626ec4a1123dd9",
+      "size": 23401096,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/4aacb63fd3667be892492b0c86626ec4a1123dd9"
+    },
+    {
+      "path": "data/joint_tracking/grooming/fly1/df3d/joint_velocities__180921_aDN_CsCh_Fly6_003_SG1_behData_images_images.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "598e38561ce844d3b8085739cc1669e6d88e0a95",
+      "size": 6040756,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/598e38561ce844d3b8085739cc1669e6d88e0a95"
+    },
+    {
+      "path": "data/joint_tracking/grooming/fly1/df3d/pose_result__180921_aDN_CsCh_Fly6_003_SG1_behData_images_images.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "686fc26c39146cae8718680f23bd8c14b79febfc",
+      "size": 5474606,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/686fc26c39146cae8718680f23bd8c14b79febfc"
+    },
+    {
+      "path": "data/joint_tracking/walking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fd4cb728d8559d3adc382f3a86e853c3d6c3909",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/1fd4cb728d8559d3adc382f3a86e853c3d6c3909"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9c23ab81d132488c37da9c5eeb39d168a95b251",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/b9c23ab81d132488c37da9c5eeb39d168a95b251"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1/df3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "863f18867640d71effd5e6ddc27f225dc82e264a",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/863f18867640d71effd5e6ddc27f225dc82e264a"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1/df3d/joint_angles__210902_PR_Fly1.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a60f20240e341fa9755f954fc162624a86f33cc7",
+      "size": 26005264,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/a60f20240e341fa9755f954fc162624a86f33cc7"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1/df3d/joint_velocities__210902_PR_Fly1.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21e41de23df793aa713d8d687f7e7b558cf4580b",
+      "size": 6712756,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/21e41de23df793aa713d8d687f7e7b558cf4580b"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1/df3d/pose_result__210902_PR_Fly1.pkl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e9a8690317bbd48e906199cffa1ee7e76eea7798",
+      "size": 6082407,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e9a8690317bbd48e906199cffa1ee7e76eea7798"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1/df3d/treadmill_info__210902_PR_Fly1.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c81862cc1c5880daac243ad04a43158a2d0f26df",
+      "size": 221,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/c81862cc1c5880daac243ad04a43158a2d0f26df"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1/fictrac_data.dat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13afc17e26afbb1dbeaa7c9210b3d629ae4153f7",
+      "size": 415171,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/13afc17e26afbb1dbeaa7c9210b3d629ae4153f7"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly1/ground_truth_contact.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd4527ea8928c6bdc650a6a273364eaff26f4e7b",
+      "size": 7276,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/fd4527ea8928c6bdc650a6a273364eaff26f4e7b"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbfb8331b2b03b7c82ef60c58a1cf6b6bd200909",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/fbfb8331b2b03b7c82ef60c58a1cf6b6bd200909"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2/df3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79059b89a7739f6cc414dee4a674f4ad0f594528",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/79059b89a7739f6cc414dee4a674f4ad0f594528"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2/df3d/joint_angles__210902_PR_Fly2.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "508305936208c1d6be04d988846b5986c1c03894",
+      "size": 26005264,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/508305936208c1d6be04d988846b5986c1c03894"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2/df3d/joint_velocities__210902_PR_Fly2.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eabdfbd6488e0b8045f966d23fb522a01dc67508",
+      "size": 6712756,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/eabdfbd6488e0b8045f966d23fb522a01dc67508"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2/df3d/pose_result__210902_PR_Fly2.pkl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2d9e43d023c91060713552509c9c91039a368c60",
+      "size": 6082606,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/2d9e43d023c91060713552509c9c91039a368c60"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2/df3d/treadmill_info__210902_PR_Fly2.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c1b72a6f58c8f776eb78f7e835de335c671943a",
+      "size": 221,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/2c1b72a6f58c8f776eb78f7e835de335c671943a"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2/fictrac_data.dat",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4f76976cc26d0d5ced1e2c938f81ef0664ee3486",
+      "size": 404981,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/4f76976cc26d0d5ced1e2c938f81ef0664ee3486"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly2/ground_truth_contact.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22307587bdc7ef0a49f50537b86d1f327e69866c",
+      "size": 7288,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/22307587bdc7ef0a49f50537b86d1f327e69866c"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c195b94593407728c7041467dd7c8627e9f512e8",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/c195b94593407728c7041467dd7c8627e9f512e8"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3/df3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94b82bd2608b801d6b27c838ad650216ee15a47e",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/94b82bd2608b801d6b27c838ad650216ee15a47e"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3/df3d/joint_angles__210902_PR_Fly3.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c00b2eea1e26d4a30057108085930193de1940",
+      "size": 26005264,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/f9c00b2eea1e26d4a30057108085930193de1940"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3/df3d/joint_velocities__210902_PR_Fly3.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83abbc46f737c3a8056ad64549f33db08bc35252",
+      "size": 6712756,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/83abbc46f737c3a8056ad64549f33db08bc35252"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3/df3d/pose_result__210902_PR_Fly3.pkl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4639cb363cfd64d6adabd5a6348f9450ceca035e",
+      "size": 6082606,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/4639cb363cfd64d6adabd5a6348f9450ceca035e"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3/df3d/treadmill_info__210902_PR_Fly3.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "305b7eb5bd78a25014ef1c95db48da1a06ca8b01",
+      "size": 221,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/305b7eb5bd78a25014ef1c95db48da1a06ca8b01"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3/fictrac_data.dat",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e1aeb1b66b59adc899c820ab0fa6c29f47849134",
+      "size": 405032,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e1aeb1b66b59adc899c820ab0fa6c29f47849134"
+    },
+    {
+      "path": "data/joint_tracking/walking/fly3/ground_truth_contact.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49f4b838ac7a03af219dc9e06340c79708660ea5",
+      "size": 7288,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/49f4b838ac7a03af219dc9e06340c79708660ea5"
+    },
+    {
+      "path": "data/locomotion_network",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c33bea7c043c964110bb85d19029a9e1afd65430",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/c33bea7c043c964110bb85d19029a9e1afd65430"
+    },
+    {
+      "path": "data/locomotion_network/locomotion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86fd94dc8db9b1f2297758340cdb43a475ebf5bd",
+      "size": 7383,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/86fd94dc8db9b1f2297758340cdb43a475ebf5bd"
+    },
+    {
+      "path": "data/locomotion_network/locomotion_network_node_positions.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea416dcff7a96f2774a1795abcfa1ca00aec5a4b",
+      "size": 1545,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/ea416dcff7a96f2774a1795abcfa1ca00aec5a4b"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ffd7e8b0c6afce2c7ff5ba2989498e1e974ccf8",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/4ffd7e8b0c6afce2c7ff5ba2989498e1e974ccf8"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2495f2b7a67184e1183bd08fd3450dad92e701f",
+      "size": 5780,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/c2495f2b7a67184e1183bd08fd3450dad92e701f"
+    },
+    {
+      "path": "docs/angleprocessing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d20a6130cab88147b6106846dbc69330fe8f99",
+      "size": 1712,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/c1d20a6130cab88147b6106846dbc69330fe8f99"
+    },
+    {
+      "path": "docs/biomechanical_tutorial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "601567f860006ee766c9525269db432073d1dcc2",
+      "size": 7560,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/601567f860006ee766c9525269db432073d1dcc2"
+    },
+    {
+      "path": "docs/buildsite.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f196d8108d871d32fb10f493a6d695e30eb38a7b",
+      "size": 1948,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/f196d8108d871d32fb10f493a6d695e30eb38a7b"
+    },
+    {
+      "path": "docs/controller_tutorial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a8e43be9eb1f7d60cf11391b30b16e35d6a812b",
+      "size": 4862,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/6a8e43be9eb1f7d60cf11391b30b16e35d6a812b"
+    },
+    {
+      "path": "docs/environment_tutorial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25e19e437d6486666ab744614b1ee43b52354811",
+      "size": 5542,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/25e19e437d6486666ab744614b1ee43b52354811"
+    },
+    {
+      "path": "docs/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bad34c9c7e3d1c28ccccc41fbe807a07ef0fcf8",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/9bad34c9c7e3d1c28ccccc41fbe807a07ef0fcf8"
+    },
+    {
+      "path": "docs/images/NeuroMechFly.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5302a0d9bf98867b9b8bde0014b76c61df520d8c",
+      "size": 622173,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/5302a0d9bf98867b9b8bde0014b76c61df520d8c"
+    },
+    {
+      "path": "docs/images/km_grooming.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29cdc1236087c0cd7bd3ca9f6670f1bf8b07e334",
+      "size": 3971441,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/29cdc1236087c0cd7bd3ca9f6670f1bf8b07e334"
+    },
+    {
+      "path": "docs/images/km_walking.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a8070c6a8d422e9d264aab82ae0ecd43339b342",
+      "size": 9772861,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9a8070c6a8d422e9d264aab82ae0ecd43339b342"
+    },
+    {
+      "path": "docs/images/optimization.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ac16de6f237581d9039efc5ae3aca3564d877d5",
+      "size": 21689040,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/0ac16de6f237581d9039efc5ae3aca3564d877d5"
+    },
+    {
+      "path": "docs/images/perturbation.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b46a2d60e27a8721859fa1226205d13a98bd58",
+      "size": 5323476,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/44b46a2d60e27a8721859fa1226205d13a98bd58"
+    },
+    {
+      "path": "docs/images/stretched_pose.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94bb4ddb761b7f8864524d821ece9731e9114030",
+      "size": 212651,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/94bb4ddb761b7f8864524d821ece9731e9114030"
+    },
+    {
+      "path": "docs/installation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a6403301e125ac6e514291ecae626b8eb942f7",
+      "size": 1890,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/18a6403301e125ac6e514291ecae626b8eb942f7"
+    },
+    {
+      "path": "docs/make.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2119f51099bf37e4fdb6071dce9f451ea44c62dd",
+      "size": 795,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/2119f51099bf37e4fdb6071dce9f451ea44c62dd"
+    },
+    {
+      "path": "docs/muscles_tutorial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "094cbe3da14f0cfacf40bce859b7152939d9f393",
+      "size": 2487,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/094cbe3da14f0cfacf40bce859b7152939d9f393"
+    },
+    {
+      "path": "docs/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e140c1d8843d0f63716584f4cbb946d1559a7bc0",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/e140c1d8843d0f63716584f4cbb946d1559a7bc0"
+    },
+    {
+      "path": "docs/source/angleprocessing.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff064ad691f24e70f401f478795b675b51dc6c2",
+      "size": 1786,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/bff064ad691f24e70f401f478795b675b51dc6c2"
+    },
+    {
+      "path": "docs/source/biomechanical_tutorial.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95c9fbc3de4694b210fd47a31423613724995cb",
+      "size": 8176,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/f95c9fbc3de4694b210fd47a31423613724995cb"
+    },
+    {
+      "path": "docs/source/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e78eb8bd99b1484257a0d2be5a7a90eef8ac72f4",
+      "size": 5567,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e78eb8bd99b1484257a0d2be5a7a90eef8ac72f4"
+    },
+    {
+      "path": "docs/source/controller_tutorial.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6769939fee83ea57ccedb071f7ee8f812a086b49",
+      "size": 5027,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/6769939fee83ea57ccedb071f7ee8f812a086b49"
+    },
+    {
+      "path": "docs/source/environment_tutorial.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1db6238fa0ad11a3802ade39a4505cdf9c816c",
+      "size": 5733,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/4b1db6238fa0ad11a3802ade39a4505cdf9c816c"
+    },
+    {
+      "path": "docs/source/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4c62f6d39d330ae264bfc23bfe214f766633f21",
+      "size": 2880,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/d4c62f6d39d330ae264bfc23bfe214f766633f21"
+    },
+    {
+      "path": "docs/source/installation.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a004c9147bd88eeff7d060ae26f2bcde65b66787",
+      "size": 3409,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/a004c9147bd88eeff7d060ae26f2bcde65b66787"
+    },
+    {
+      "path": "docs/source/misc.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff5936a37ab68814fa41810fc44ddfd2410b5e8",
+      "size": 3246,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/1ff5936a37ab68814fa41810fc44ddfd2410b5e8"
+    },
+    {
+      "path": "docs/source/muscles_tutorial.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa40476d425c7c3a06503494e22eee480eeb7c43",
+      "size": 2586,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/fa40476d425c7c3a06503494e22eee480eeb7c43"
+    },
+    {
+      "path": "docs/source/reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c82c1571f608f70ceaf33c289bbcc9ea174ea153",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/c82c1571f608f70ceaf33c289bbcc9ea174ea153"
+    },
+    {
+      "path": "docs/source/reference/control.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50d9717dd125fb41bc04dd07d583e24b5377a258",
+      "size": 155,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/50d9717dd125fb41bc04dd07d583e24b5377a258"
+    },
+    {
+      "path": "docs/source/reference/experiments.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06a0f495f3ceec691aae058db16e235cfa9c6537",
+      "size": 496,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/06a0f495f3ceec691aae058db16e235cfa9c6537"
+    },
+    {
+      "path": "docs/source/reference/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd369148cf959d8f83afcda475a71cb5bb5a26df",
+      "size": 208,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/cd369148cf959d8f83afcda475a71cb5bb5a26df"
+    },
+    {
+      "path": "docs/source/reference/sdf.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1915b85cf56878871bc7c019b6651d89e0cb5c",
+      "size": 329,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/5b1915b85cf56878871bc7c019b6651d89e0cb5c"
+    },
+    {
+      "path": "docs/source/reference/simulation.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9cac9c3e83a3bdeb6d2d89c0335d59254e61fc7",
+      "size": 175,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/a9cac9c3e83a3bdeb6d2d89c0335d59254e61fc7"
+    },
+    {
+      "path": "docs/source/reference/utils.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c775a67e3136c3c5d572cec298efa6471f06c8a6",
+      "size": 298,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/c775a67e3136c3c5d572cec298efa6471f06c8a6"
+    },
+    {
+      "path": "docs/source/replication.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97a3ff6abad88de51e052b5f1561cb8e1c2cc017",
+      "size": 4603,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/97a3ff6abad88de51e052b5f1561cb8e1c2cc017"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e79f62f2a99e7e3e97bb408b15a4af494ee1e6c4",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/e79f62f2a99e7e3e97bb408b15a4af494ee1e6c4"
+    },
+    {
+      "path": "scripts/kinematic_replay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f08834ff15a82f45e4c321ad5d52857ae18a5119",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/f08834ff15a82f45e4c321ad5d52857ae18a5119"
+    },
+    {
+      "path": "scripts/kinematic_replay/run_kinematic_replay",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c1ecbb6a6be9658c4af77c5d4d41ec61d213d856",
+      "size": 5803,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/c1ecbb6a6be9658c4af77c5d4d41ec61d213d856"
+    },
+    {
+      "path": "scripts/kinematic_replay/run_kinematic_replay_ground",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7748eaf04fd8f2abe25e184a4c2ecd3e74cee52a",
+      "size": 5337,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/7748eaf04fd8f2abe25e184a4c2ecd3e74cee52a"
+    },
+    {
+      "path": "scripts/kinematic_replay/run_morphology_experiment",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e36a1c3eab63b8a14e0bf2ed6eee5ec0f342c8fd",
+      "size": 5672,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/e36a1c3eab63b8a14e0bf2ed6eee5ec0f342c8fd"
+    },
+    {
+      "path": "scripts/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1e35c588af542ff23cab1a6ca96f3582bcbe755",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/f1e35c588af542ff23cab1a6ca96f3582bcbe755"
+    },
+    {
+      "path": "scripts/model/change_sdf_forelegs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25bf23a09c1d8c62734563f044ee6b6c67b6b9a3",
+      "size": 4096,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/25bf23a09c1d8c62734563f044ee6b6c67b6b9a3"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67dfebb245b65d53e03ae877d66a1d401db20573",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/67dfebb245b65d53e03ae877d66a1d401db20573"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/FUN.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89c66a986faef4ab8298d0ba202e38936a4844a5",
+      "size": 7957,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/89c66a986faef4ab8298d0ba202e38936a4844a5"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/VAR.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a7d8d99a0218b88cf6b9743a852e547e06ddda0",
+      "size": 250732,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/7a7d8d99a0218b88cf6b9743a852e547e06ddda0"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/optimization_results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f42d4012a55b4169ee18534d7ad01460441e3b4",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/1f42d4012a55b4169ee18534d7ad01460441e3b4"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/optimization_results/run_Drosophila_example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb7c680b50d37361b6f494f422d1740dce1e9fd0",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/eb7c680b50d37361b6f494f422d1740dce1e9fd0"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/optimization_results/run_Drosophila_example/FUN.59",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89c66a986faef4ab8298d0ba202e38936a4844a5",
+      "size": 7957,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/89c66a986faef4ab8298d0ba202e38936a4844a5"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/optimization_results/run_Drosophila_example/VAR.59",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a7d8d99a0218b88cf6b9743a852e547e06ddda0",
+      "size": 250732,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/7a7d8d99a0218b88cf6b9743a852e547e06ddda0"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/run_multiobj_optimization",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bb46de4e58b6435c67f710f478cca367a620ecf2",
+      "size": 4526,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/bb46de4e58b6435c67f710f478cca367a620ecf2"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/run_neuromuscular_control",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3c58a967c7b77f128a14791fecf6f3523e415bed",
+      "size": 8364,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/3c58a967c7b77f128a14791fecf6f3523e415bed"
+    },
+    {
+      "path": "scripts/neuromuscular_optimization/run_optimization_analysis",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03ac9e7d78277e666ac2debf46bc4a2acdb4e9bc",
+      "size": 8903,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/03ac9e7d78277e666ac2debf46bc4a2acdb4e9bc"
+    },
+    {
+      "path": "scripts/sensitivity_analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58702981edff81c34c58eea36ddd772ae4928ab3",
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/trees/58702981edff81c34c58eea36ddd772ae4928ab3"
+    },
+    {
+      "path": "scripts/sensitivity_analysis/run_grid_search",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9b9a394f05c5b1d06709918133e0ab98273bb091",
+      "size": 6663,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9b9a394f05c5b1d06709918133e0ab98273bb091"
+    },
+    {
+      "path": "scripts/sensitivity_analysis/run_sensitivity_analysis",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1e800839952e5adaac4d790307234afa5614d3f2",
+      "size": 14634,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/1e800839952e5adaac4d790307234afa5614d3f2"
+    },
+    {
+      "path": "scripts/sensitivity_analysis/sensitivity_erp_cfm.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "acef8bca1585e4bcf0e473a3dad372aa10793d23",
+      "size": 429,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/acef8bca1585e4bcf0e473a3dad372aa10793d23"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cb52a11fa1a226411bbb489145c7189afc3b401",
+      "size": 2893,
+      "url": "https://api.github.com/repos/NeLy-EPFL/NeuroMechFly/git/blobs/9cb52a11fa1a226411bbb489145c7189afc3b401"
+    }
+  ]
+}

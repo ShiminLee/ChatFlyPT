@@ -1,0 +1,150 @@
+{
+  "schema": "chatflypt.conspecific-placement.v1",
+  "neutral_receptors_mm": {
+    "left_funiculus": [
+      1.0560902041669535,
+      0.10785251385696054,
+      1.1859366230476975
+    ],
+    "left_pedicel": [
+      1.0124750393723547,
+      0.08604387829811753,
+      1.2325008559309047
+    ],
+    "left_arista": [
+      1.0700763016993582,
+      0.18887282564351435,
+      1.1512633169777007
+    ],
+    "right_funiculus": [
+      1.0560915038350354,
+      -0.10785907037419784,
+      1.1861566084458162
+    ],
+    "right_pedicel": [
+      1.01247607567643,
+      -0.08595603225729952,
+      1.2326762636121138
+    ],
+    "right_arista": [
+      1.0700785780906061,
+      -0.1889497655742428,
+      1.1516486252282683
+    ]
+  },
+  "source_geometry_mm": [
+    0.05,
+    0.05,
+    0.05
+  ],
+  "source_offset_mm": 0.08,
+  "source_range_mm": 0.2,
+  "local_sources": {
+    "pheromone": {
+      "left": {
+        "position_mm": [
+          1.0560902041669535,
+          0.18785251385696056,
+          1.1859366230476975
+        ],
+        "range_mm": 0.2,
+        "receptor_site": "left_funiculus"
+      },
+      "right": {
+        "position_mm": [
+          1.0560915038350354,
+          -0.18785907037419786,
+          1.1861566084458162
+        ],
+        "range_mm": 0.2,
+        "receptor_site": "right_funiculus"
+      }
+    },
+    "song": {
+      "left": {
+        "position_mm": [
+          1.0124750393723547,
+          0.16604387829811754,
+          1.2325008559309047
+        ],
+        "range_mm": 0.2,
+        "receptor_site": "left_pedicel"
+      },
+      "right": {
+        "position_mm": [
+          1.01247607567643,
+          -0.16595603225729952,
+          1.2326762636121138
+        ],
+        "range_mm": 0.2,
+        "receptor_site": "right_pedicel"
+      }
+    }
+  },
+  "checks": [
+    {
+      "kind": "pheromone",
+      "side": "left",
+      "contacts": [],
+      "max_initial_body_position_change_mm": 0.0,
+      "record": "reports\\unified-readout\\placement-checks-v4\\pheromone-left-probe.json",
+      "sha256": "4a579015d7185f6e14d59ed8985db95c8ac68063c984f5f2bcaaafaf8c75a86d"
+    },
+    {
+      "kind": "pheromone",
+      "side": "right",
+      "contacts": [],
+      "max_initial_body_position_change_mm": 0.0,
+      "record": "reports\\unified-readout\\placement-checks-v4\\pheromone-right-probe.json",
+      "sha256": "4a579015d7185f6e14d59ed8985db95c8ac68063c984f5f2bcaaafaf8c75a86d"
+    },
+    {
+      "kind": "song",
+      "side": "left",
+      "contacts": [],
+      "max_initial_body_position_change_mm": 0.0,
+      "record": "reports\\unified-readout\\placement-checks-v4\\song-left-probe.json",
+      "sha256": "4a579015d7185f6e14d59ed8985db95c8ac68063c984f5f2bcaaafaf8c75a86d"
+    },
+    {
+      "kind": "song",
+      "side": "right",
+      "contacts": [],
+      "max_initial_body_position_change_mm": 0.0,
+      "record": "reports\\unified-readout\\placement-checks-v4\\song-right-probe.json",
+      "sha256": "4a579015d7185f6e14d59ed8985db95c8ac68063c984f5f2bcaaafaf8c75a86d"
+    }
+  ],
+  "initial_unilateral_fields": {
+    "pheromone": {
+      "left": {
+        "left": 0.3599999999999998,
+        "right": 0.0
+      },
+      "right": {
+        "left": 0.0,
+        "right": 0.3599999999999998
+      }
+    },
+    "song": {
+      "left": {
+        "left": 0.3600000000000001,
+        "right": 0.0
+      },
+      "right": {
+        "left": 0.0,
+        "right": 0.3600000000000001
+      }
+    }
+  },
+  "neutral_record": "reports\\unified-readout\\placement-checks-v4\\neutral-probe.json",
+  "neutral_record_sha256": "4a579015d7185f6e14d59ed8985db95c8ac68063c984f5f2bcaaafaf8c75a86d",
+  "rationale": [
+    "cVA is sampled at the actual funiculus body position, where the antennal Or67d/DA1 ORNs sit; song is sampled at the actual pedicel body position, where Johnston's organ sits. Neither site substitutes for another part.",
+    "Both sources are non-solid, so they cannot contact the body; the warmup pose is verified bit-identical and zero contacts are recorded.",
+    "Offset 0.08 mm from the receptor gives an initial ipsilateral field of about 0.36 with the 0.20 mm engineering range; closer real cubes were rejected in the odor checks for contact, and this offset is not a calibrated concentration or sound pressure.",
+    "The pedicel field is static at initialization; song timing (36 ms interpulse interval, 5 ms gate) is applied by the receptor encoder, not by moving the source.",
+    "Movement can end, switch or combine receptor exposure; targets always require actually delivered events."
+  ],
+  "biologically_calibrated": false
+}

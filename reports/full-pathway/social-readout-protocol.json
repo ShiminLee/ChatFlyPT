@@ -1,0 +1,587 @@
+{
+  "cases": [
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150000,
+      "scale": 1.0358421262851485
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150001,
+      "scale": 1.0358904796414306
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150002,
+      "scale": 0.9780260360452768
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150003,
+      "scale": 0.8903274524657866
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150004,
+      "scale": 0.9863977007771677
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150005,
+      "scale": 0.9270168849950681
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150006,
+      "scale": 1.0618753007457404
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150007,
+      "scale": 0.9195216609195636
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150008,
+      "scale": 1.0596248702671873
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150009,
+      "scale": 1.1410379100589796
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150010,
+      "scale": 1.055628652486304
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150011,
+      "scale": 1.0191919364369977
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150012,
+      "scale": 1.07469506718691
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150013,
+      "scale": 1.117339658992651
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150014,
+      "scale": 0.9989858027836382
+    },
+    {
+      "split": "train",
+      "channel": null,
+      "seed": 150015,
+      "scale": 1.1375124818219773
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150016,
+      "scale": 1.0113000619869266
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150017,
+      "scale": 0.941109288379775
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150018,
+      "scale": 1.1065732460757671
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150019,
+      "scale": 1.0867590123034148
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150020,
+      "scale": 0.87065730909587
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150021,
+      "scale": 1.129513062854824
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150022,
+      "scale": 1.1336218528019437
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150023,
+      "scale": 0.9978542664501566
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150024,
+      "scale": 1.0605482172622245
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150025,
+      "scale": 1.0433488411338645
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150026,
+      "scale": 0.9937060346887858
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150027,
+      "scale": 0.938748391531482
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150028,
+      "scale": 1.0193996305647157
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150029,
+      "scale": 1.112462533738025
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150030,
+      "scale": 1.0308543596725674
+    },
+    {
+      "split": "train",
+      "channel": "cva",
+      "seed": 150031,
+      "scale": 1.0282315307567318
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150032,
+      "scale": 1.0772558309810831
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150033,
+      "scale": 1.1286248457593573
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150034,
+      "scale": 1.0103635952686538
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150035,
+      "scale": 1.1120469454707553
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150036,
+      "scale": 0.9381326290922544
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150037,
+      "scale": 0.9410887195065765
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150038,
+      "scale": 1.1049694601003757
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150039,
+      "scale": 0.865160581299404
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150040,
+      "scale": 0.8554573907550821
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150041,
+      "scale": 1.0425332378015695
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150042,
+      "scale": 1.1403367137701084
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150043,
+      "scale": 1.14376267487344
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150044,
+      "scale": 0.9708142579478147
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150045,
+      "scale": 0.9524874029462586
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150046,
+      "scale": 1.0924509545086805
+    },
+    {
+      "split": "train",
+      "channel": "courtship_pulse",
+      "seed": 150047,
+      "scale": 0.955788749612532
+    },
+    {
+      "split": "validation",
+      "channel": null,
+      "seed": 150048,
+      "scale": 1.0121055879509657
+    },
+    {
+      "split": "validation",
+      "channel": null,
+      "seed": 150049,
+      "scale": 1.0827034056590519
+    },
+    {
+      "split": "validation",
+      "channel": null,
+      "seed": 150050,
+      "scale": 1.1467923380556424
+    },
+    {
+      "split": "validation",
+      "channel": null,
+      "seed": 150051,
+      "scale": 1.0828621674510575
+    },
+    {
+      "split": "validation",
+      "channel": null,
+      "seed": 150052,
+      "scale": 1.0883821329225478
+    },
+    {
+      "split": "validation",
+      "channel": null,
+      "seed": 150053,
+      "scale": 1.0342187482152407
+    },
+    {
+      "split": "validation",
+      "channel": "cva",
+      "seed": 150054,
+      "scale": 0.8936208304458498
+    },
+    {
+      "split": "validation",
+      "channel": "cva",
+      "seed": 150055,
+      "scale": 1.038944956386218
+    },
+    {
+      "split": "validation",
+      "channel": "cva",
+      "seed": 150056,
+      "scale": 1.0806516896911398
+    },
+    {
+      "split": "validation",
+      "channel": "cva",
+      "seed": 150057,
+      "scale": 0.909723638386899
+    },
+    {
+      "split": "validation",
+      "channel": "cva",
+      "seed": 150058,
+      "scale": 1.010241350942386
+    },
+    {
+      "split": "validation",
+      "channel": "cva",
+      "seed": 150059,
+      "scale": 1.0945496841403013
+    },
+    {
+      "split": "validation",
+      "channel": "courtship_pulse",
+      "seed": 150060,
+      "scale": 0.9881237024300532
+    },
+    {
+      "split": "validation",
+      "channel": "courtship_pulse",
+      "seed": 150061,
+      "scale": 1.1412576754831782
+    },
+    {
+      "split": "validation",
+      "channel": "courtship_pulse",
+      "seed": 150062,
+      "scale": 0.8895557070999122
+    },
+    {
+      "split": "validation",
+      "channel": "courtship_pulse",
+      "seed": 150063,
+      "scale": 1.063524240887556
+    },
+    {
+      "split": "validation",
+      "channel": "courtship_pulse",
+      "seed": 150064,
+      "scale": 0.8732617826795809
+    },
+    {
+      "split": "validation",
+      "channel": "courtship_pulse",
+      "seed": 150065,
+      "scale": 0.884080654047571
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150066,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150067,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150068,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150069,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150070,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150071,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150072,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150073,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150074,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150075,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150076,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150077,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150078,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150079,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150080,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150081,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150082,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150083,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150084,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150085,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150086,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150087,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150088,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150089,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150090,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150091,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150092,
+      "scale": 0.75
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150093,
+      "scale": 1.0
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150094,
+      "scale": 1.25
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150095,
+      "scale": 0.75
+    }
+  ],
+  "duration_ms": 500,
+  "labels": [
+    "cva",
+    "courtship_pulse"
+  ],
+  "train_test_seed_overlap": false,
+  "input_cells_excluded": true
+}

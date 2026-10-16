@@ -1,0 +1,36 @@
+Eyemap Archive — Data License
+
+The data in this repository (files under maps/ and their derived exports
+under docs/data/) is licensed under the Creative Commons Attribution-ShareAlike
+4.0 International License (CC BY-SA 4.0):
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to share and adapt this data for any purpose, including
+commercially, as long as you give appropriate credit and distribute any
+derivative works under this same license. When using this data, please cite:
+
+    Zhao et al. 2022, bioRxiv (https://doi.org/10.1101/2022.12.14.520178)
+    Nern et al. 2025, Nature (https://doi.org/10.1038/s41586-025-08746-0)
+
+Code in this repository (scripts/, docs/js/, docs/css/) is licensed under the
+MIT License:
+
+Copyright (c) 2026 Arthur Zhao / Reiser Lab, Janelia Research Campus
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.

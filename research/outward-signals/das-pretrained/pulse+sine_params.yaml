@@ -1,0 +1,73 @@
+batch_level_subsampling: false
+batch_norm: true
+batch_size: 32
+class_names:
+- noise
+- sine
+- pulse
+class_names_pulse:
+- noise
+- pulse
+class_names_sine:
+- noise
+- sine
+class_types:
+- segment
+- segment
+- event
+class_types_pulse:
+- segment
+- event
+class_types_pulse_fss:
+- segment
+- event
+class_types_sine:
+- segment
+- segment
+class_types_sine_fss:
+- segment
+- segment
+data_dir: ../dat/dmel_single_stern_raw.npy
+data_padding: 96
+eventtimes_units: seconds
+filename_endsample_test: []
+filename_endsample_train: []
+filename_endsample_val: []
+filename_startsample_test: []
+filename_startsample_train: []
+filename_startsample_val: []
+filename_test: []
+filename_train: []
+filename_val: []
+first_sample_train: 0
+first_sample_val: 0
+fraction_data: null
+ignore_boundaries: true
+kernel_size: 32
+last_sample_train: null
+last_sample_val: null
+model_name: tcn
+nb_channels: 1
+nb_classes: 3
+nb_conv: 3
+nb_epoch: 400
+nb_filters: 32
+nb_freq: 1
+nb_hist: 4096
+nb_pre_conv: 0
+nb_stacks: 2
+output_stride: 1
+reduce_lr: false
+return_sequences: true
+sample_weight_mode: temporal
+samplerate_x_Hz: 10000
+samplerate_y_Hz: 10000
+save_dir: /scratch/clemens10/dss/res.stern_raw/res.all
+seed: null
+stride: 3904
+verbose: 2
+with_y_hist: true
+x_suffix: ''
+y_offset: 0
+y_suffix: ''
+datename: 20200507_173738

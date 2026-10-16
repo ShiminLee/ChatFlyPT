@@ -1,0 +1,77 @@
+{
+  "schema": "chatflypt.das-acceptance.v1",
+  "weights": "published, not retrained or tuned",
+  "example_recording": "research\\outward-signals\\das-pretrained\\data.npz",
+  "example_sha256": "21c4455b8baec37ec42dcf166ba9454fa7e20764492a74e65fead46a612a2df9",
+  "model_sha256": "e8724980d93a56fa682c0b9fc35f8e902ad8afc8489fc7a8b44eb082f7f2a83c",
+  "numeric_reference_max_absolute_error": 8.344650268554688e-07,
+  "shifted_window_max_absolute_error": 0.0,
+  "numeric_reference": "independent NumPy graph implementation",
+  "original_tensorflow_executed": false,
+  "duration_s": 112.4352,
+  "context_samples": {
+    "left": 1440,
+    "right": 1443
+  },
+  "model_training_overlap_with_example": "unknown; do not claim independent test",
+  "metrics": {
+    "confusion_matrix": [
+      [
+        926791,
+        7871,
+        2315
+      ],
+      [
+        4842,
+        158573,
+        63
+      ],
+      [
+        4021,
+        0,
+        16993
+      ]
+    ],
+    "row_and_column_classes": [
+      "noise",
+      "sine",
+      "pulse"
+    ],
+    "classes": {
+      "noise": {
+        "precision": 0.9905274813125364,
+        "recall": 0.9891288686915474,
+        "f1": 0.9898276809472875,
+        "samples": 936977
+      },
+      "sine": {
+        "precision": 0.9527108216577347,
+        "recall": 0.969995962759515,
+        "f1": 0.9612756954674135,
+        "samples": 163478
+      },
+      "pulse": {
+        "precision": 0.8772391719580817,
+        "recall": 0.8086513752736271,
+        "f1": 0.841550080475424,
+        "samples": 21014
+      }
+    },
+    "accuracy": 0.9829580666072802,
+    "macro_f1": 0.9308844856300417
+  },
+  "semantic_translation": false,
+  "body_emitted_this_recording": false,
+  "llm_called": false,
+  "controls": {
+    "silence": {
+      "song_argmax_samples": 0,
+      "tested_samples": 1213
+    },
+    "white_noise": {
+      "song_argmax_samples": 0,
+      "tested_samples": 1213
+    }
+  },
+  "wall_seconds": 69.26292759997887
+}

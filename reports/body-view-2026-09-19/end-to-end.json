@@ -1,0 +1,17 @@
+{
+  "ui_message": "模拟右前腿被触碰",
+  "observation_id": "7972d97a4ddb4d06a404f9781d6aa09f",
+  "source_record": "reports/general-sensory/interactive/7972d97a4ddb4d06a404f9781d6aa09f.json",
+  "neurons_active": 259,
+  "spikes": 434,
+  "body_status": "ok",
+  "physics_run": true,
+  "frames": 51,
+  "body_names_match_asset": true,
+  "body_parts": 69,
+  "time_range_ms": [
+    0.0,
+    500.0
+  ],
+  "geometry_sha256": "afceec16c68347240783521f3b956cdc54391ef3b59b57bf32d1129a053ce37d"
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-19",
+  "snapshots": [
+    {
+      "file": "research\\snapshots\\chetaslua-tweet-oembed.json",
+      "bytes": 903,
+      "sha256": "7cc9b9f546521bf7d7579ad6aa5e670d1694bfce15cf0ca35d54bd43a79dccb2"
+    },
+    {
+      "file": "research\\snapshots\\chetaslua-2098819578994507891-oembed.json",
+      "bytes": 889,
+      "sha256": "81e216de06fe42a18ef58b4ac31d42847d7a9831187fab1cd8ca1a4240d43d90"
+    },
+    {
+      "file": "research\\snapshots\\chetaslua-original-page.html",
+      "bytes": 202866,
+      "sha256": "1e8a151b7effd3d591463a11519c86db1e2ba3e1dbd356829b0359c8688cb7c8"
+    },
+    {
+      "file": "research\\snapshots\\chetaslua-repos-recheck.json",
+      "bytes": 30661,
+      "sha256": "68ae6254c7f90ae5ae01a535ed4de51c30e952a13067cb47afdc6e7e63b2f908"
+    },
+    {
+      "file": "research\\snapshots\\chetaslua-gists-recheck.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "research\\snapshots\\ramdya-nature2015.pdf",
+      "bytes": 3252789,
+      "sha256": "7e571325c57536dc8d4e34b737047cb197ea41fca72ac6b770bb18730c984b63"
+    }
+  ]
+}

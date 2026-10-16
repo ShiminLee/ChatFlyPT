@@ -1,0 +1,279 @@
+{
+  "dataset": "FlyWire v783",
+  "labels": [
+    "cva",
+    "courtship_pulse"
+  ],
+  "trials": 96,
+  "test_trials": 30,
+  "features": 8248,
+  "model_sha256": "20b4c26d742ce653aacc7ec87d61dec9597a9ea0ca075f4ce2c2a12e55d75c57",
+  "input_and_all_sensory_cells_excluded": true,
+  "test": {
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0
+  },
+  "controls": {
+    "shuffled_observations": {
+      "exact_set_accuracy": 0.43333333333333335,
+      "micro_f1": 0.45
+    },
+    "zero_observations": {
+      "exact_set_accuracy": 0.3333333333333333,
+      "micro_f1": 0.0
+    }
+  },
+  "test_predictions": [
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150066,
+      "scale": 0.75,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150067,
+      "scale": 1.0,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150068,
+      "scale": 1.25,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150069,
+      "scale": 0.75,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150070,
+      "scale": 1.0,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150071,
+      "scale": 1.25,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150072,
+      "scale": 0.75,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150073,
+      "scale": 1.0,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150074,
+      "scale": 1.25,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": null,
+      "seed": 150075,
+      "scale": 0.75,
+      "predicted": []
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150076,
+      "scale": 0.75,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150077,
+      "scale": 1.0,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150078,
+      "scale": 1.25,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150079,
+      "scale": 0.75,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150080,
+      "scale": 1.0,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150081,
+      "scale": 1.25,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150082,
+      "scale": 0.75,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150083,
+      "scale": 1.0,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150084,
+      "scale": 1.25,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "cva",
+      "seed": 150085,
+      "scale": 0.75,
+      "predicted": [
+        "cva"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150086,
+      "scale": 0.75,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150087,
+      "scale": 1.0,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150088,
+      "scale": 1.25,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150089,
+      "scale": 0.75,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150090,
+      "scale": 1.0,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150091,
+      "scale": 1.25,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150092,
+      "scale": 0.75,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150093,
+      "scale": 1.0,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150094,
+      "scale": 1.25,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    },
+    {
+      "split": "test",
+      "channel": "courtship_pulse",
+      "seed": 150095,
+      "scale": 0.75,
+      "predicted": [
+        "courtship_pulse"
+      ]
+    }
+  ],
+  "meaning": "Predicted intervention labels from internal spikes; not semantic understanding or observed behavior."
+}

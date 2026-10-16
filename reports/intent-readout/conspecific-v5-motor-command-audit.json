@@ -1,0 +1,64 @@
+{
+  "schema": "chatflypt.motor-command-audit.v1",
+  "run_id": "conspecific-v5",
+  "windows": 294,
+  "windows_with_turn_command": 116,
+  "turn_command_breakdown": {
+    "left_only": 37,
+    "right_only": 2,
+    "both": 77
+  },
+  "nonzero_windows_by_group": {
+    "escape": 219,
+    "feeding": 105,
+    "anterior": 103,
+    "song": 73,
+    "left": 114,
+    "right": 79,
+    "rub": 93
+  },
+  "abs_yaw_deg": {
+    "with_turn_command": {
+      "windows": 116,
+      "median": 0.9214826274654939,
+      "p85": 3.8696163783865103,
+      "max": 10.062303685677279
+    },
+    "without_turn_command": {
+      "windows": 178,
+      "median": 1.3632251911857907,
+      "p85": 5.5704215827958645,
+      "max": 59.108491889581785
+    }
+  },
+  "path_mm": {
+    "with_turn_command": {
+      "windows": 116,
+      "median": 1.3546830399886631,
+      "p85": 2.565172427879723,
+      "max": 3.9691881475133948
+    },
+    "without_turn_command": {
+      "windows": 178,
+      "median": 1.3209899359887314,
+      "p85": 2.450099896198663,
+      "max": 11.90706426495325
+    }
+  },
+  "by_split": {
+    "test": {
+      "windows": 98,
+      "with_turn_command": 36
+    },
+    "train": {
+      "windows": 98,
+      "with_turn_command": 37
+    },
+    "validation": {
+      "windows": 98,
+      "with_turn_command": 43
+    }
+  },
+  "conclusion": "Turn commands do occur; check whether the windows with commands are separable.",
+  "source": "command_summary recorded by the pinned physical controller in each measured body record"
+}

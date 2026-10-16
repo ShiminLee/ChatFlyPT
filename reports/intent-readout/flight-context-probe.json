@@ -1,0 +1,255 @@
+{
+  "schema": "chatflypt.flight-context-probe.v1",
+  "seeds": 3,
+  "conditions": [
+    {
+      "context": "ground",
+      "condition": "yeast",
+      "seed": 990000,
+      "turn_command": {
+        "left": 0.1183317719641352,
+        "right": 0.11764572208919236
+      },
+      "measured_yaw_deg": -1.030864282061799,
+      "measured_path_mm": 2.0589713407940837,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "yeast",
+      "seed": 990001,
+      "turn_command": {
+        "left": 0.11833411722345505,
+        "right": 1.4567386222429238e-05
+      },
+      "measured_yaw_deg": -6.4174883260869535,
+      "measured_path_mm": 1.6882242932858325,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "yeast",
+      "seed": 990002,
+      "turn_command": {
+        "left": 0.11804606193969809,
+        "right": 5.428756683312397e-11
+      },
+      "measured_yaw_deg": -0.6847336137447542,
+      "measured_path_mm": 1.0085411548142933,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "pheromone_left",
+      "seed": 990000,
+      "turn_command": {
+        "left": 0.11935181456505728,
+        "right": 2.0228239930771275e-16
+      },
+      "measured_yaw_deg": -0.6808977904128142,
+      "measured_path_mm": 0.6375933583870423,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "pheromone_left",
+      "seed": 990001,
+      "turn_command": {
+        "left": 0.12359949645746597,
+        "right": 0.23387838696304938
+      },
+      "measured_yaw_deg": -0.3426210202881066,
+      "measured_path_mm": 0.7797050517584697,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "pheromone_left",
+      "seed": 990002,
+      "turn_command": {
+        "left": 0.11776702570844909,
+        "right": 3.942755740445371e-06
+      },
+      "measured_yaw_deg": -0.09313394785840501,
+      "measured_path_mm": 0.6450104444421453,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "nudge_right",
+      "seed": 990000,
+      "turn_command": {
+        "left": 0.07149455692548375,
+        "right": 1.467337071807356e-11
+      },
+      "measured_yaw_deg": 13.393550124938969,
+      "measured_path_mm": 2.7311201390559328,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "nudge_right",
+      "seed": 990001,
+      "turn_command": {
+        "left": 0.1215881247890471,
+        "right": 5.4756731399644496e-17
+      },
+      "measured_yaw_deg": 1.8725589528147282,
+      "measured_path_mm": 3.5925987447943477,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "ground",
+      "condition": "nudge_right",
+      "seed": 990002,
+      "turn_command": {
+        "left": 0.12383920758317428,
+        "right": 2.0277074225044042e-22
+      },
+      "measured_yaw_deg": 12.700635306032893,
+      "measured_path_mm": 2.5501498061357286,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "yeast",
+      "seed": 990000,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "yeast",
+      "seed": 990001,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "yeast",
+      "seed": 990002,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "pheromone_left",
+      "seed": 990000,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "pheromone_left",
+      "seed": 990001,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "pheromone_left",
+      "seed": 990002,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "nudge_right",
+      "seed": 990000,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "nudge_right",
+      "seed": 990001,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    },
+    {
+      "context": "tethered_flight",
+      "condition": "nudge_right",
+      "seed": 990002,
+      "turn_command": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "measured_yaw_deg": 0.0,
+      "measured_path_mm": 0.0,
+      "body_status": "ok",
+      "physics_warnings": 0
+    }
+  ],
+  "note": "Tethered flight fixes the thorax; flight steering comes from descending activity. No free-flight aerodynamics.",
+  "ground_summary": {
+    "windows": 9,
+    "command_windows": 9,
+    "abs_yaw_median": 1.030864282061799,
+    "abs_yaw_max": 13.393550124938969,
+    "command_windows_abs_yaw_median": 1.030864282061799
+  },
+  "tethered_flight_summary": {
+    "windows": 9,
+    "command_windows": 0,
+    "abs_yaw_median": 0.0,
+    "abs_yaw_max": 0.0,
+    "command_windows_abs_yaw_median": null
+  }
+}

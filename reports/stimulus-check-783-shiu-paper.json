@@ -1,0 +1,10 @@
+{
+  "dataset_version": "783",
+  "stimulus_set": "shiu-paper",
+  "missing_ids": [
+    "720575940620900446",
+    "720575940618600651"
+  ],
+  "status": "rejected_before_simulation",
+  "reason": "Version-specific neuron IDs must not be silently replaced or dropped"
+}

@@ -1,0 +1,108 @@
+{
+  "flywire": [
+    {
+      "version": "630",
+      "origin": "philshiu/Drosophila_brain_model",
+      "neurons": 127400,
+      "connection_rows": 14687178,
+      "columns": [
+        "Presynaptic_ID",
+        "Postsynaptic_ID",
+        "Presynaptic_Index",
+        "Postsynaptic_Index",
+        "Connectivity",
+        "Excitatory",
+        "Excitatory x Connectivity"
+      ],
+      "neuron_columns": [
+        "Completed"
+      ],
+      "neuron_id_dtype": "int64",
+      "positive_rows": 8800532,
+      "negative_rows": 5886646,
+      "zero_rows": 0,
+      "sum_abs_model_weights": 52793639.0,
+      "index_bounds_valid": true,
+      "files": [
+        {
+          "path": "vendor\\shiu-brain\\2023_03_23_completeness_630_final.csv",
+          "bytes": 3057611,
+          "sha256": "e6b71e17671a9bdb05f55e4bc6774640a1418cb7a05125e0fc994ad40f9bfdfb"
+        },
+        {
+          "path": "vendor\\shiu-brain\\2023_03_23_connectivity_630_final.parquet",
+          "bytes": 86630944,
+          "sha256": "94db8c650533bc36ffa3223f2e62325d5648b8d6bd31c3a4e1c804628c7557b3"
+        }
+      ]
+    },
+    {
+      "version": "783",
+      "origin": "philshiu/Drosophila_brain_model",
+      "neurons": 138639,
+      "connection_rows": 15091983,
+      "columns": [
+        "Presynaptic_ID",
+        "Postsynaptic_ID",
+        "Presynaptic_Index",
+        "Postsynaptic_Index",
+        "Connectivity",
+        "Excitatory",
+        "Excitatory x Connectivity"
+      ],
+      "neuron_columns": [
+        "Completed"
+      ],
+      "neuron_id_dtype": "int64",
+      "positive_rows": 9059302,
+      "negative_rows": 6032681,
+      "zero_rows": 0,
+      "sum_abs_model_weights": 54492922.0,
+      "index_bounds_valid": true,
+      "files": [
+        {
+          "path": "vendor\\shiu-brain\\Completeness_783.csv",
+          "bytes": 3327347,
+          "sha256": "bbb847a4cc2caaa7a16349722d220c087317b946d148d4d592d94d250617a311"
+        },
+        {
+          "path": "vendor\\shiu-brain\\Connectivity_783.parquet",
+          "bytes": 100804642,
+          "sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+        }
+      ]
+    }
+  ],
+  "malecns": {
+    "version": "v1.0",
+    "annotation_rows": 211577,
+    "retained_neurons": 166700,
+    "filter": "nonempty superclass and status != Glia; retain both edge endpoints",
+    "annotation_schema": "assignedOlHex1: double\nassignedOlHex2: double\nbodyId: int64\nflywireType: string\ngroup: double\ninstance: string\nsomaSide: string\nstatusLabel: dictionary<values=string, indices=int8, ordered=1>\nsuperclass: string\ntype: string\nvfbId: string\nhemibrainType: string\nitoleeHl: string\nsupertype: string\nbirthtime: string\nmancBodyid: double\nmancGroup: double\nmancType: string\nsubclass: string\nsynonyms: string\nclass: string\nrootSide: string\nsomaNeuromere: string\ntrumanHl: string\ndimorphism: string\nmatchingNotes: string\nentryNerve: string\nmancSerial: double\nmcnsSerial: double\nserialMotif: string\nfruDsx: string\nexitNerve: string\nreceptorType: string\nsomaLocation: list<item: int64>\n  child 0, item: int64\ntosomaLocation: list<item: int64>\n  child 0, item: int64\nstatus: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 4583",
+    "nt_rows": 1835518,
+    "nt_schema": "body: int64\ncell_type: string\ntotal_nt_predictions: int32\npredicted_nt_confidence: double\npredicted_nt: string\nground_truth: string\ncelltype_total_nt_predictions: int32\ncelltype_predicted_nt: string\ncelltype_predicted_nt_confidence: double\nconsensus_nt: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 1606",
+    "raw_connection_rows": 151856684,
+    "raw_contact_sum": 311833243,
+    "retained_connection_rows": 25582938,
+    "retained_contact_sum": 124177617,
+    "connection_schema": "body_pre: int64\nbody_post: int64\nweight: int64\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 604",
+    "weight_interpretation": "unsigned anatomical contact count, not fitted physiological weight",
+    "files": [
+      {
+        "path": "data\\raw\\malecns-v1.0\\body-annotations-male-cns-v1.0-minconf-0.5.feather",
+        "bytes": 14483314,
+        "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+      },
+      {
+        "path": "data\\raw\\malecns-v1.0\\body-neurotransmitters-male-cns-v1.0.feather",
+        "bytes": 43282834,
+        "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+      },
+      {
+        "path": "data\\raw\\malecns-v1.0\\connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+        "bytes": 1051241946,
+        "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1"
+      }
+    ]
+  }
+}

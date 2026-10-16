@@ -1,0 +1,2273 @@
+{
+  "protocol_sha256": "2eac1c05fa1bc29e2223d57c5ea88efba774dc70dab66e4ef7d31ec2c2d64ecc",
+  "records": [
+    {
+      "case": "flywire-491701-empty",
+      "condition": "empty",
+      "label": "空环境",
+      "turn": 0,
+      "dataset": "FlyWire v783",
+      "seed": 491701,
+      "message": "",
+      "input_plan": {
+        "kind": "silence",
+        "items": []
+      },
+      "spikes": 23386,
+      "reaction": {
+        "non_sensory_spikes": 3,
+        "active_non_sensory_neurons": 3,
+        "duration_ms": 500.0,
+        "compartments": {
+          "sensory": {
+            "spikes": 23383,
+            "active_cells": 7515,
+            "first_spike_ms": 0.1
+          },
+          "central_brain": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_intrinsic": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "ascending": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "DN": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "cb_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          }
+        },
+        "DN": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "vnc_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "cb_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "motor_evidence": [
+          {
+            "neuron_id": "720575940604737708",
+            "type": "DNa02",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940610236514",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940616026939",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940627787609",
+            "type": "DNa01",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940629327659",
+            "type": "DNa02",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940631082808",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940640331472",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940644438551",
+            "type": "DNa01",
+            "side": "right",
+            "spikes": 0
+          }
+        ],
+        "behavior_inference": "Not assigned: output cell spikes are not an observed movement or subjective intention.",
+        "membrane_response": {
+          "internal_cells": 5807,
+          "depolarized_cells": 5442,
+          "hyperpolarized_cells": 2293,
+          "positive_area_mv_ms": 649113.1319978482,
+          "negative_area_mv_ms": 110422.70727057345,
+          "max_depolarization_mv": 7.025588612840906,
+          "max_hyperpolarization_mv": 5.426715960704378,
+          "scope": "LIF voltage relative to -52 mV; includes subthreshold responses, excludes sensory and driven cells."
+        }
+      },
+      "decoded": {
+        "words": [
+          "bright:left",
+          "bright:right"
+        ],
+        "scores": {
+          "bright:left": 0.9838794222145057,
+          "bright:right": 0.9838794222145057,
+          "vision_r7:left": 0.002260265777360793,
+          "vision_r7:right": -0.0006707342023491587,
+          "vision_r8:left": 0.0178153519228709,
+          "vision_r8:right": 0.014943910587983751,
+          "vision_dra:left": -0.007253483175768283,
+          "vision_dra:right": 0.004257988693624024,
+          "vision_ocelli:left": 0.0006642160418827113,
+          "vision_ocelli:right": 0.007104124954357442,
+          "vinegar:left": -0.0005391895823683967,
+          "vinegar:right": -0.0035518079293283414,
+          "yeast:left": 0.00042831643796667116,
+          "yeast:right": 0.00042831643796667116,
+          "geosmin:left": 0.020263610860971844,
+          "geosmin:right": -0.004152695768113947,
+          "cva:left": 0.00040859911188271755,
+          "cva:right": -0.011887999854761392,
+          "co2:left": -0.005108135276384173,
+          "co2:right": 0.009592017050394272,
+          "sweet_water:left": 0.003370291266565715,
+          "sweet_water:right": -0.0027369043569570417,
+          "bitter:left": -0.0018010443762753194,
+          "bitter:right": 0.0017694270665956652,
+          "low_salt:left": 0.00576320025486003,
+          "low_salt:right": 0.010272314555348211,
+          "warm:left": 0.007493871890788635,
+          "warm:right": -0.011732948405432448,
+          "cold:left": -0.016390697160026557,
+          "cold:right": -0.004329944431875307,
+          "moist:left": -0.008043014964838457,
+          "moist:right": -0.004178535486070229,
+          "dry:left": -0.007242002919985967,
+          "dry:right": 0.0011010617217252217,
+          "evaporative_cooling:left": 0.01185946334672393,
+          "evaporative_cooling:right": 0.010698361444390847,
+          "auditory:left": 0.01621040588296312,
+          "auditory:right": 0.007009090640630496,
+          "wind_gravity:left": -0.0012111950119263284,
+          "wind_gravity:right": 5.4518100476131046e-05,
+          "head_touch:left": -0.0013741987019671982,
+          "head_touch:right": -0.0010895903813018983,
+          "eye_touch:left": 0.00018337768380669218,
+          "eye_touch:right": 0.0014814740427680968
+        },
+        "descriptions": {
+          "bright:left": "左侧光照：外层视感受器 R1–R6",
+          "bright:right": "右侧光照：外层视感受器 R1–R6"
+        },
+        "unqualified_words": [],
+        "status": "decoded",
+        "score_type": "linear neural-state intervention scores, not probabilities",
+        "scope": "Spikes and subthreshold LIF voltage; artificial input identity, not natural perception.",
+        "feedback_adaptation": {
+          "applied": true,
+          "labels": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "artifact": "data\\derived\\feedback-readout\\flywire-adapter.npz",
+          "sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+          "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+          "scope": "Small session-separated simulation benchmark; still candidate neural readout",
+          "globally_calibrated": false,
+          "biologically_calibrated": false
+        }
+      },
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "candidate",
+        "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+            "source": "blind_neural_readout",
+            "status": "candidate",
+            "dataset": "FlyWire v783",
+            "observation_id": "flywire-491701-empty-0",
+            "labels": [
+              "bright:left",
+              "bright:right"
+            ]
+          }
+        ],
+        "labels": [
+          "bright:left",
+          "bright:right"
+        ],
+        "observation_id": "flywire-491701-empty-0",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 3,
+          "membrane_internal_cells": 5807
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "部分标签经过有限模拟场景的分会话验证；不代表全词汇、所有环境或生理校准。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "environment_items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 0.6031804133192283,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.59240051505419,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "contact_geoms": [],
+      "contact_evidence": [],
+      "unmapped": [],
+      "body_summary": {
+        "displacement_mm": [
+          0.0727199562622588,
+          0.011079261392863337,
+          -0.1344675478858517
+        ],
+        "path_length_mm": 0.2630023491135009,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "powered_steps": 0,
+      "yaw_change_deg": -0.008617045157969728,
+      "feedback": {
+        "sample_count": 5,
+        "session_start_ms": 0.0,
+        "session_end_ms": 500.0,
+        "neural_reset_count": 1,
+        "body_reset_count": 1,
+        "llm_called": false,
+        "goal_controller": false
+      },
+      "raw_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-empty\\turn-0\\observation.npz",
+      "raw_sha256": "77e4688a674eb11e2c9af53ca30d5dbf6f4251bc97b7d431bca7cbd1a6638636",
+      "body_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-empty\\turn-0\\body-result.json",
+      "feedback_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-empty\\turn-0\\feedback.json",
+      "base_readout_sha256": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3"
+    },
+    {
+      "case": "flywire-491701-far_sugar",
+      "condition": "far_sugar",
+      "label": "远处糖",
+      "turn": 0,
+      "dataset": "FlyWire v783",
+      "seed": 491701,
+      "message": "",
+      "input_plan": {
+        "kind": "silence",
+        "items": []
+      },
+      "spikes": 23580,
+      "reaction": {
+        "non_sensory_spikes": 3,
+        "active_non_sensory_neurons": 3,
+        "duration_ms": 500.0,
+        "compartments": {
+          "sensory": {
+            "spikes": 23577,
+            "active_cells": 7525,
+            "first_spike_ms": 0.1
+          },
+          "central_brain": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_intrinsic": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "ascending": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "DN": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "cb_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          }
+        },
+        "DN": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "vnc_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "cb_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "motor_evidence": [
+          {
+            "neuron_id": "720575940604737708",
+            "type": "DNa02",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940610236514",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940616026939",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940627787609",
+            "type": "DNa01",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940629327659",
+            "type": "DNa02",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940631082808",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940640331472",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940644438551",
+            "type": "DNa01",
+            "side": "right",
+            "spikes": 0
+          }
+        ],
+        "behavior_inference": "Not assigned: output cell spikes are not an observed movement or subjective intention.",
+        "membrane_response": {
+          "internal_cells": 5809,
+          "depolarized_cells": 5444,
+          "hyperpolarized_cells": 2292,
+          "positive_area_mv_ms": 653276.745931946,
+          "negative_area_mv_ms": 112014.9739446083,
+          "max_depolarization_mv": 7.025588612840906,
+          "max_hyperpolarization_mv": 5.47117685210231,
+          "scope": "LIF voltage relative to -52 mV; includes subthreshold responses, excludes sensory and driven cells."
+        }
+      },
+      "decoded": {
+        "words": [
+          "bright:left",
+          "bright:right"
+        ],
+        "scores": {
+          "bright:left": 0.9858245024589221,
+          "bright:right": 0.9858245024589221,
+          "vision_r7:left": 0.002210226336346081,
+          "vision_r7:right": -0.0006393700020681686,
+          "vision_r8:left": 0.017613280545231667,
+          "vision_r8:right": 0.015547384525137757,
+          "vision_dra:left": -0.007616066840511464,
+          "vision_dra:right": 0.006676949535323002,
+          "vision_ocelli:left": 0.0006177898479898412,
+          "vision_ocelli:right": 0.006889214502546227,
+          "vinegar:left": -0.0006175293117323526,
+          "vinegar:right": -0.003776661247719174,
+          "yeast:left": 0.0004365012042116228,
+          "yeast:right": 0.0004365012042116228,
+          "geosmin:left": 0.02109129953349354,
+          "geosmin:right": -0.00425326184071077,
+          "cva:left": 0.0007585310188262578,
+          "cva:right": -0.011926588064067909,
+          "co2:left": -0.005028834764944456,
+          "co2:right": 0.009123349323058036,
+          "sweet_water:left": 0.003375969184072422,
+          "sweet_water:right": -0.0027983437658139804,
+          "bitter:left": -0.001753627895030989,
+          "bitter:right": 0.0017827712862008552,
+          "low_salt:left": 0.005772830047560545,
+          "low_salt:right": 0.010394111042597874,
+          "warm:left": 0.0072832809334107355,
+          "warm:right": -0.011466257862489056,
+          "cold:left": -0.016533578368289573,
+          "cold:right": -0.004353430844108854,
+          "moist:left": -0.008127026413775721,
+          "moist:right": -0.004244234425187914,
+          "dry:left": -0.007384470554523504,
+          "dry:right": 0.001053389060867648,
+          "evaporative_cooling:left": 0.01271874293315536,
+          "evaporative_cooling:right": 0.011275122496770556,
+          "auditory:left": 0.016509951965518417,
+          "auditory:right": 0.007223921482214032,
+          "wind_gravity:left": -0.0012677923735301558,
+          "wind_gravity:right": 9.269387210628574e-05,
+          "head_touch:left": -0.0014186706032171916,
+          "head_touch:right": -0.0013065342250107401,
+          "eye_touch:left": 0.000200882350642319,
+          "eye_touch:right": 0.0015303803537832336
+        },
+        "descriptions": {
+          "bright:left": "左侧光照：外层视感受器 R1–R6",
+          "bright:right": "右侧光照：外层视感受器 R1–R6"
+        },
+        "unqualified_words": [],
+        "status": "decoded",
+        "score_type": "linear neural-state intervention scores, not probabilities",
+        "scope": "Spikes and subthreshold LIF voltage; artificial input identity, not natural perception.",
+        "feedback_adaptation": {
+          "applied": true,
+          "labels": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "artifact": "data\\derived\\feedback-readout\\flywire-adapter.npz",
+          "sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+          "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+          "scope": "Small session-separated simulation benchmark; still candidate neural readout",
+          "globally_calibrated": false,
+          "biologically_calibrated": false
+        }
+      },
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "candidate",
+        "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+            "source": "blind_neural_readout",
+            "status": "candidate",
+            "dataset": "FlyWire v783",
+            "observation_id": "flywire-491701-far_sugar-0",
+            "labels": [
+              "bright:left",
+              "bright:right"
+            ]
+          }
+        ],
+        "labels": [
+          "bright:left",
+          "bright:right"
+        ],
+        "observation_id": "flywire-491701-far_sugar-0",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 3,
+          "membrane_internal_cells": 5809
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "部分标签经过有限模拟场景的分会话验证；不代表全词汇、所有环境或生理校准。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "environment_items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 0.6031804133192283,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.6036189331733026,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "contact_geoms": [],
+      "contact_evidence": [
+        {
+          "time_ms": 0.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 100.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 200.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 300.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 400.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        }
+      ],
+      "unmapped": [],
+      "body_summary": {
+        "displacement_mm": [
+          0.0727199562622588,
+          0.011079261392863337,
+          -0.1344675478858517
+        ],
+        "path_length_mm": 0.2630023491135009,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "powered_steps": 0,
+      "yaw_change_deg": -0.008617045157969728,
+      "feedback": {
+        "sample_count": 5,
+        "session_start_ms": 0.0,
+        "session_end_ms": 500.0,
+        "neural_reset_count": 1,
+        "body_reset_count": 1,
+        "llm_called": false,
+        "goal_controller": false
+      },
+      "raw_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-far_sugar\\turn-0\\observation.npz",
+      "raw_sha256": "6da8037c016ed94cc03c9e29165fa8f9991d6506f27a44c212fe72ad5bfada11",
+      "body_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-far_sugar\\turn-0\\body-result.json",
+      "feedback_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-far_sugar\\turn-0\\feedback.json",
+      "base_readout_sha256": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3"
+    },
+    {
+      "case": "flywire-491701-heat",
+      "condition": "heat",
+      "label": "位置相关热源",
+      "turn": 0,
+      "dataset": "FlyWire v783",
+      "seed": 491701,
+      "message": "",
+      "input_plan": {
+        "kind": "silence",
+        "items": []
+      },
+      "spikes": 249997,
+      "reaction": {
+        "non_sensory_spikes": 218027,
+        "active_non_sensory_neurons": 7868,
+        "duration_ms": 500.0,
+        "compartments": {
+          "sensory": {
+            "spikes": 31970,
+            "active_cells": 7937,
+            "first_spike_ms": 0.1
+          },
+          "central_brain": {
+            "spikes": 214535,
+            "active_cells": 7585,
+            "first_spike_ms": 4.9
+          },
+          "vnc_intrinsic": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "ascending": {
+            "spikes": 54,
+            "active_cells": 5,
+            "first_spike_ms": 43.800000000000004
+          },
+          "DN": {
+            "spikes": 2432,
+            "active_cells": 157,
+            "first_spike_ms": 13.4
+          },
+          "vnc_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "cb_motor": {
+            "spikes": 8,
+            "active_cells": 2,
+            "first_spike_ms": 57.1
+          }
+        },
+        "DN": {
+          "spikes": 2432,
+          "active_cells": 157,
+          "first_spike_ms": 13.4
+        },
+        "vnc_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "cb_motor": {
+          "spikes": 8,
+          "active_cells": 2,
+          "first_spike_ms": 57.1
+        },
+        "motor_evidence": [
+          {
+            "neuron_id": "720575940604737708",
+            "type": "DNa02",
+            "side": "right",
+            "spikes": 1
+          },
+          {
+            "neuron_id": "720575940610236514",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940616026939",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940627787609",
+            "type": "DNa01",
+            "side": "left",
+            "spikes": 11
+          },
+          {
+            "neuron_id": "720575940629327659",
+            "type": "DNa02",
+            "side": "left",
+            "spikes": 22
+          },
+          {
+            "neuron_id": "720575940631082808",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940640331472",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940644438551",
+            "type": "DNa01",
+            "side": "right",
+            "spikes": 4
+          }
+        ],
+        "behavior_inference": "Not assigned: output cell spikes are not an observed movement or subjective intention.",
+        "membrane_response": {
+          "internal_cells": 101602,
+          "depolarized_cells": 72614,
+          "hyperpolarized_cells": 73899,
+          "positive_area_mv_ms": 20940541.233796924,
+          "negative_area_mv_ms": 29820167.233503412,
+          "max_depolarization_mv": 10.90612031475601,
+          "max_hyperpolarization_mv": 245.0957178592662,
+          "scope": "LIF voltage relative to -52 mV; includes subthreshold responses, excludes sensory and driven cells."
+        }
+      },
+      "decoded": {
+        "words": [
+          "bright:left",
+          "bright:right",
+          "yeast:left",
+          "yeast:right",
+          "warm:left",
+          "warm:right"
+        ],
+        "scores": {
+          "bright:left": 0.959457720173684,
+          "bright:right": 0.959457720173684,
+          "vision_r7:left": 0.016738206073043257,
+          "vision_r7:right": -0.008363601454896542,
+          "vision_r8:left": 0.04605071737147739,
+          "vision_r8:right": 0.02284995855862587,
+          "vision_dra:left": -0.017931280065938835,
+          "vision_dra:right": -0.04218511230860592,
+          "vision_ocelli:left": 0.009489637410670819,
+          "vision_ocelli:right": 0.04403439814542686,
+          "vinegar:left": 0.1972230843410703,
+          "vinegar:right": 0.10514906248626699,
+          "yeast:left": 0.9981503296269603,
+          "yeast:right": 0.9981503296269603,
+          "geosmin:left": -0.04608750256080097,
+          "geosmin:right": -0.1009956795727701,
+          "cva:left": -0.04863977157331033,
+          "cva:right": -0.10259793630067457,
+          "co2:left": -0.02743671621716493,
+          "co2:right": 0.06594792750126224,
+          "sweet_water:left": 0.019749416488990847,
+          "sweet_water:right": -0.0625806951110405,
+          "bitter:left": 0.015425198158079086,
+          "bitter:right": -0.020267401095308484,
+          "low_salt:left": -0.00032829523187010145,
+          "low_salt:right": 0.13451019199667646,
+          "warm:left": 0.7647050218897427,
+          "warm:right": 0.674525611081581,
+          "cold:left": -0.0034309518056734097,
+          "cold:right": -0.07402042531906242,
+          "moist:left": -0.10535505498720443,
+          "moist:right": 0.16320276259266464,
+          "dry:left": 0.04995482768574869,
+          "dry:right": 0.0639621098831851,
+          "evaporative_cooling:left": 0.3594459381887319,
+          "evaporative_cooling:right": 0.35547560688234275,
+          "auditory:left": 0.1192727685068108,
+          "auditory:right": 0.042156778726283,
+          "wind_gravity:left": -0.009876441343648453,
+          "wind_gravity:right": -0.016779702707668764,
+          "head_touch:left": -0.009325218053598991,
+          "head_touch:right": -0.0058066536636061,
+          "eye_touch:left": 0.031792015687057563,
+          "eye_touch:right": 0.04763886532128001
+        },
+        "descriptions": {
+          "bright:left": "左侧光照：外层视感受器 R1–R6",
+          "bright:right": "右侧光照：外层视感受器 R1–R6",
+          "yeast:left": "左侧酵母相关气味代理",
+          "yeast:right": "右侧酵母相关气味代理",
+          "warm:left": "左侧升温通道",
+          "warm:right": "右侧升温通道"
+        },
+        "unqualified_words": [],
+        "status": "decoded",
+        "score_type": "linear neural-state intervention scores, not probabilities",
+        "scope": "Spikes and subthreshold LIF voltage; artificial input identity, not natural perception.",
+        "feedback_adaptation": {
+          "applied": true,
+          "labels": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "artifact": "data\\derived\\feedback-readout\\flywire-adapter.npz",
+          "sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+          "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+          "scope": "Small session-separated simulation benchmark; still candidate neural readout",
+          "globally_calibrated": false,
+          "biologically_calibrated": false
+        }
+      },
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "candidate",
+        "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。我在左侧感到温暖。我在右侧感到温暖。我在左侧闻到了酵母相关气味。我在右侧闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。我在左侧感到温暖。我在右侧感到温暖。我在左侧闻到了酵母相关气味。我在右侧闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "candidate",
+            "dataset": "FlyWire v783",
+            "observation_id": "flywire-491701-heat-0",
+            "labels": [
+              "bright:left",
+              "bright:right",
+              "warm:left",
+              "warm:right",
+              "yeast:left",
+              "yeast:right"
+            ]
+          }
+        ],
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "warm:left",
+          "warm:right",
+          "yeast:left",
+          "yeast:right"
+        ],
+        "observation_id": "flywire-491701-heat-0",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 218027,
+          "membrane_internal_cells": 101602
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "部分标签经过有限模拟场景的分会话验证；不代表全词汇、所有环境或生理校准。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "environment_items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 0.6004501740858356,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.5997086763776323,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "warm",
+          "side": "left",
+          "intensity": 0.4908310599857578,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "warm",
+          "side": "right",
+          "intensity": 0.4920175241926265,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "contact_geoms": [],
+      "contact_evidence": [
+        {
+          "time_ms": 0.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.892025226895593,
+            "right": 0.8919364213811425
+          }
+        },
+        {
+          "time_ms": 100.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.8997033026825396,
+            "right": 0.9095918335886087
+          }
+        },
+        {
+          "time_ms": 200.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.7970301479098594,
+            "right": 0.7974644669369723
+          }
+        },
+        {
+          "time_ms": 300.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.649499947352984,
+            "right": 0.6456773560004081
+          }
+        },
+        {
+          "time_ms": 400.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.4908310599857578,
+            "right": 0.4920175241926265
+          }
+        }
+      ],
+      "unmapped": [],
+      "body_summary": {
+        "displacement_mm": [
+          1.5140989530868463,
+          0.17407175581360237,
+          -0.1599019152765041
+        ],
+        "path_length_mm": 2.64701539235701,
+        "max_contacts": 15,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.3772024599409138
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.5502475443969294
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "powered_steps": 4600,
+      "yaw_change_deg": 9.299870931639546,
+      "feedback": {
+        "sample_count": 5,
+        "session_start_ms": 0.0,
+        "session_end_ms": 500.0,
+        "neural_reset_count": 1,
+        "body_reset_count": 1,
+        "llm_called": false,
+        "goal_controller": false
+      },
+      "raw_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-heat\\turn-0\\observation.npz",
+      "raw_sha256": "88bcc3a5d018cb40b41c2a59e94e1659cd5973f7e34df758888f6010aeb90da2",
+      "body_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-heat\\turn-0\\body-result.json",
+      "feedback_record": "data\\derived\\sugar-pressure-20260924\\flywire-491701-heat\\turn-0\\feedback.json",
+      "base_readout_sha256": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3"
+    },
+    {
+      "case": "flywire-491702-empty",
+      "condition": "empty",
+      "label": "空环境",
+      "turn": 0,
+      "dataset": "FlyWire v783",
+      "seed": 491702,
+      "message": "",
+      "input_plan": {
+        "kind": "silence",
+        "items": []
+      },
+      "spikes": 23858,
+      "reaction": {
+        "non_sensory_spikes": 6,
+        "active_non_sensory_neurons": 6,
+        "duration_ms": 500.0,
+        "compartments": {
+          "sensory": {
+            "spikes": 23852,
+            "active_cells": 7536,
+            "first_spike_ms": 0.1
+          },
+          "central_brain": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_intrinsic": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "ascending": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "DN": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "cb_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          }
+        },
+        "DN": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "vnc_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "cb_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "motor_evidence": [
+          {
+            "neuron_id": "720575940604737708",
+            "type": "DNa02",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940610236514",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940616026939",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940627787609",
+            "type": "DNa01",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940629327659",
+            "type": "DNa02",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940631082808",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940640331472",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940644438551",
+            "type": "DNa01",
+            "side": "right",
+            "spikes": 0
+          }
+        ],
+        "behavior_inference": "Not assigned: output cell spikes are not an observed movement or subjective intention.",
+        "membrane_response": {
+          "internal_cells": 5978,
+          "depolarized_cells": 5565,
+          "hyperpolarized_cells": 2333,
+          "positive_area_mv_ms": 660530.4570318285,
+          "negative_area_mv_ms": 111470.33774393104,
+          "max_depolarization_mv": 7.05144716748967,
+          "max_hyperpolarization_mv": 4.90181031501519,
+          "scope": "LIF voltage relative to -52 mV; includes subthreshold responses, excludes sensory and driven cells."
+        }
+      },
+      "decoded": {
+        "words": [
+          "bright:left",
+          "bright:right"
+        ],
+        "scores": {
+          "bright:left": 0.9847445877836913,
+          "bright:right": 0.9847445877836913,
+          "vision_r7:left": 0.00031941508840284643,
+          "vision_r7:right": -0.0021351188982272657,
+          "vision_r8:left": 0.010775192346840516,
+          "vision_r8:right": 0.017256985626274993,
+          "vision_dra:left": 0.011248485433066346,
+          "vision_dra:right": 0.0046249832257675505,
+          "vision_ocelli:left": -0.00043341127545601897,
+          "vision_ocelli:right": 0.0072366563791784145,
+          "vinegar:left": 0.006506199427152007,
+          "vinegar:right": -0.003022771476849837,
+          "yeast:left": 0.0006058314026552969,
+          "yeast:right": 0.0006058314026552969,
+          "geosmin:left": 0.007779122518443007,
+          "geosmin:right": -0.0011972328440748282,
+          "cva:left": -0.0005591216458127272,
+          "cva:right": -0.013255817986783266,
+          "co2:left": -0.0022374753389096296,
+          "co2:right": 0.005784967742408919,
+          "sweet_water:left": 0.004238319633077926,
+          "sweet_water:right": -0.003149765045064594,
+          "bitter:left": -0.0009623883417598071,
+          "bitter:right": -0.0005671285480533179,
+          "low_salt:left": 0.01028581671810634,
+          "low_salt:right": 0.015974775225515055,
+          "warm:left": 0.004877654277833934,
+          "warm:right": -0.019562370448024585,
+          "cold:left": -0.014399503680331282,
+          "cold:right": 0.0012766924751777874,
+          "moist:left": -0.010161047935569031,
+          "moist:right": -0.0015917176113625351,
+          "dry:left": -0.0047837803502294935,
+          "dry:right": 0.006777471300998732,
+          "evaporative_cooling:left": 0.009362749514826654,
+          "evaporative_cooling:right": 0.001970000518176271,
+          "auditory:left": 0.011938630603700245,
+          "auditory:right": 0.012518361146313333,
+          "wind_gravity:left": -0.0006289984006702179,
+          "wind_gravity:right": 0.0008196173586399446,
+          "head_touch:left": -0.0025716841360117503,
+          "head_touch:right": -0.0012049632717775142,
+          "eye_touch:left": 0.002593238847157392,
+          "eye_touch:right": 7.83112199590827e-05
+        },
+        "descriptions": {
+          "bright:left": "左侧光照：外层视感受器 R1–R6",
+          "bright:right": "右侧光照：外层视感受器 R1–R6"
+        },
+        "unqualified_words": [],
+        "status": "decoded",
+        "score_type": "linear neural-state intervention scores, not probabilities",
+        "scope": "Spikes and subthreshold LIF voltage; artificial input identity, not natural perception.",
+        "feedback_adaptation": {
+          "applied": true,
+          "labels": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "artifact": "data\\derived\\feedback-readout\\flywire-adapter.npz",
+          "sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+          "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+          "scope": "Small session-separated simulation benchmark; still candidate neural readout",
+          "globally_calibrated": false,
+          "biologically_calibrated": false
+        }
+      },
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "candidate",
+        "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+            "source": "blind_neural_readout",
+            "status": "candidate",
+            "dataset": "FlyWire v783",
+            "observation_id": "flywire-491702-empty-0",
+            "labels": [
+              "bright:left",
+              "bright:right"
+            ]
+          }
+        ],
+        "labels": [
+          "bright:left",
+          "bright:right"
+        ],
+        "observation_id": "flywire-491702-empty-0",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 6,
+          "membrane_internal_cells": 5978
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "部分标签经过有限模拟场景的分会话验证；不代表全词汇、所有环境或生理校准。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "environment_items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 0.6026620514348193,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.5915714329296486,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "contact_geoms": [],
+      "contact_evidence": [],
+      "unmapped": [],
+      "body_summary": {
+        "displacement_mm": [
+          0.086025616935681,
+          0.02473410356134876,
+          -0.14354559002655098
+        ],
+        "path_length_mm": 0.22340525275533843,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "powered_steps": 0,
+      "yaw_change_deg": -0.04479825766738529,
+      "feedback": {
+        "sample_count": 5,
+        "session_start_ms": 0.0,
+        "session_end_ms": 500.0,
+        "neural_reset_count": 1,
+        "body_reset_count": 1,
+        "llm_called": false,
+        "goal_controller": false
+      },
+      "raw_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-empty\\turn-0\\observation.npz",
+      "raw_sha256": "0853c112982e2249419f1f0af1c3574aa60ebd9c287e6f270190131957905e6c",
+      "body_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-empty\\turn-0\\body-result.json",
+      "feedback_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-empty\\turn-0\\feedback.json",
+      "base_readout_sha256": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3"
+    },
+    {
+      "case": "flywire-491702-far_sugar",
+      "condition": "far_sugar",
+      "label": "远处糖",
+      "turn": 0,
+      "dataset": "FlyWire v783",
+      "seed": 491702,
+      "message": "",
+      "input_plan": {
+        "kind": "silence",
+        "items": []
+      },
+      "spikes": 24072,
+      "reaction": {
+        "non_sensory_spikes": 6,
+        "active_non_sensory_neurons": 6,
+        "duration_ms": 500.0,
+        "compartments": {
+          "sensory": {
+            "spikes": 24066,
+            "active_cells": 7542,
+            "first_spike_ms": 0.1
+          },
+          "central_brain": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_intrinsic": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "ascending": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "DN": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "vnc_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "cb_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          }
+        },
+        "DN": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "vnc_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "cb_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "motor_evidence": [
+          {
+            "neuron_id": "720575940604737708",
+            "type": "DNa02",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940610236514",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940616026939",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940627787609",
+            "type": "DNa01",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940629327659",
+            "type": "DNa02",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940631082808",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940640331472",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940644438551",
+            "type": "DNa01",
+            "side": "right",
+            "spikes": 0
+          }
+        ],
+        "behavior_inference": "Not assigned: output cell spikes are not an observed movement or subjective intention.",
+        "membrane_response": {
+          "internal_cells": 5978,
+          "depolarized_cells": 5564,
+          "hyperpolarized_cells": 2328,
+          "positive_area_mv_ms": 665551.0929436833,
+          "negative_area_mv_ms": 112496.98351889648,
+          "max_depolarization_mv": 7.05144716748967,
+          "max_hyperpolarization_mv": 4.923797374458346,
+          "scope": "LIF voltage relative to -52 mV; includes subthreshold responses, excludes sensory and driven cells."
+        }
+      },
+      "decoded": {
+        "words": [
+          "bright:left",
+          "bright:right"
+        ],
+        "scores": {
+          "bright:left": 0.9867905879789245,
+          "bright:right": 0.9867905879789245,
+          "vision_r7:left": 0.0005657658924488639,
+          "vision_r7:right": -0.0018738214517022656,
+          "vision_r8:left": 0.010883361417071014,
+          "vision_r8:right": 0.016702449213924195,
+          "vision_dra:left": 0.011081975505544898,
+          "vision_dra:right": 0.005309735386928181,
+          "vision_ocelli:left": -0.0003380722657333971,
+          "vision_ocelli:right": 0.00738979321860258,
+          "vinegar:left": 0.006441187015790712,
+          "vinegar:right": -0.0030605554060943465,
+          "yeast:left": 0.0006022299531228334,
+          "yeast:right": 0.0006022299531228334,
+          "geosmin:left": 0.008140628164868446,
+          "geosmin:right": -0.0013598621829708718,
+          "cva:left": -0.0001581403709128828,
+          "cva:right": -0.013917783797784062,
+          "co2:left": -0.0021333792781719012,
+          "co2:right": 0.005715484788366983,
+          "sweet_water:left": 0.004265247204045546,
+          "sweet_water:right": -0.0033333342561273176,
+          "bitter:left": -0.0010361341836200885,
+          "bitter:right": -0.0005793554389297225,
+          "low_salt:left": 0.01033852609116787,
+          "low_salt:right": 0.016222879663665174,
+          "warm:left": 0.004875886647517451,
+          "warm:right": -0.019553490983924626,
+          "cold:left": -0.014980433153746803,
+          "cold:right": 0.0011316651146746392,
+          "moist:left": -0.010241384034014794,
+          "moist:right": -0.0017612917018551047,
+          "dry:left": -0.004872736568900731,
+          "dry:right": 0.006670492214767691,
+          "evaporative_cooling:left": 0.009391753910927936,
+          "evaporative_cooling:right": 0.0024387596753365458,
+          "auditory:left": 0.01214505260070492,
+          "auditory:right": 0.01239455336498737,
+          "wind_gravity:left": -0.0006478825350996666,
+          "wind_gravity:right": 0.0009014506922412726,
+          "head_touch:left": -0.0025000916295116514,
+          "head_touch:right": -0.0010046592807653977,
+          "eye_touch:left": 0.002615640143364449,
+          "eye_touch:right": -0.00014389885754127323
+        },
+        "descriptions": {
+          "bright:left": "左侧光照：外层视感受器 R1–R6",
+          "bright:right": "右侧光照：外层视感受器 R1–R6"
+        },
+        "unqualified_words": [],
+        "status": "decoded",
+        "score_type": "linear neural-state intervention scores, not probabilities",
+        "scope": "Spikes and subthreshold LIF voltage; artificial input identity, not natural perception.",
+        "feedback_adaptation": {
+          "applied": true,
+          "labels": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "artifact": "data\\derived\\feedback-readout\\flywire-adapter.npz",
+          "sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+          "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+          "scope": "Small session-separated simulation benchmark; still candidate neural readout",
+          "globally_calibrated": false,
+          "biologically_calibrated": false
+        }
+      },
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "candidate",
+        "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。",
+            "source": "blind_neural_readout",
+            "status": "candidate",
+            "dataset": "FlyWire v783",
+            "observation_id": "flywire-491702-far_sugar-0",
+            "labels": [
+              "bright:left",
+              "bright:right"
+            ]
+          }
+        ],
+        "labels": [
+          "bright:left",
+          "bright:right"
+        ],
+        "observation_id": "flywire-491702-far_sugar-0",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 6,
+          "membrane_internal_cells": 5978
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "部分标签经过有限模拟场景的分会话验证；不代表全词汇、所有环境或生理校准。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "environment_items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 0.6026620514348193,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.6028312544824782,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "contact_geoms": [],
+      "contact_evidence": [
+        {
+          "time_ms": 0.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 100.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 200.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 300.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        },
+        {
+          "time_ms": 400.0,
+          "object_id": "sample",
+          "mode": "mujoco_mouth_contact",
+          "contacts": [],
+          "activated": false,
+          "intensities": {
+            "bilateral": 0.0
+          }
+        }
+      ],
+      "unmapped": [],
+      "body_summary": {
+        "displacement_mm": [
+          0.086025616935681,
+          0.02473410356134876,
+          -0.14354559002655098
+        ],
+        "path_length_mm": 0.22340525275533843,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "powered_steps": 0,
+      "yaw_change_deg": -0.04479825766738529,
+      "feedback": {
+        "sample_count": 5,
+        "session_start_ms": 0.0,
+        "session_end_ms": 500.0,
+        "neural_reset_count": 1,
+        "body_reset_count": 1,
+        "llm_called": false,
+        "goal_controller": false
+      },
+      "raw_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-far_sugar\\turn-0\\observation.npz",
+      "raw_sha256": "cddefc84ac779a8c2673fad83590dbbbf9dea9b974e3ee5ce5141bd606eb6cf0",
+      "body_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-far_sugar\\turn-0\\body-result.json",
+      "feedback_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-far_sugar\\turn-0\\feedback.json",
+      "base_readout_sha256": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3"
+    },
+    {
+      "case": "flywire-491702-heat",
+      "condition": "heat",
+      "label": "位置相关热源",
+      "turn": 0,
+      "dataset": "FlyWire v783",
+      "seed": 491702,
+      "message": "",
+      "input_plan": {
+        "kind": "silence",
+        "items": []
+      },
+      "spikes": 250784,
+      "reaction": {
+        "non_sensory_spikes": 218143,
+        "active_non_sensory_neurons": 7867,
+        "duration_ms": 500.0,
+        "compartments": {
+          "sensory": {
+            "spikes": 32641,
+            "active_cells": 7972,
+            "first_spike_ms": 0.1
+          },
+          "central_brain": {
+            "spikes": 214764,
+            "active_cells": 7593,
+            "first_spike_ms": 8.4
+          },
+          "vnc_intrinsic": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "ascending": {
+            "spikes": 52,
+            "active_cells": 5,
+            "first_spike_ms": 46.0
+          },
+          "DN": {
+            "spikes": 2386,
+            "active_cells": 152,
+            "first_spike_ms": 15.200000000000001
+          },
+          "vnc_motor": {
+            "spikes": 0,
+            "active_cells": 0,
+            "first_spike_ms": null
+          },
+          "cb_motor": {
+            "spikes": 9,
+            "active_cells": 3,
+            "first_spike_ms": 85.60000000000001
+          }
+        },
+        "DN": {
+          "spikes": 2386,
+          "active_cells": 152,
+          "first_spike_ms": 15.200000000000001
+        },
+        "vnc_motor": {
+          "spikes": 0,
+          "active_cells": 0,
+          "first_spike_ms": null
+        },
+        "cb_motor": {
+          "spikes": 9,
+          "active_cells": 3,
+          "first_spike_ms": 85.60000000000001
+        },
+        "motor_evidence": [
+          {
+            "neuron_id": "720575940604737708",
+            "type": "DNa02",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940610236514",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940616026939",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940627787609",
+            "type": "DNa01",
+            "side": "left",
+            "spikes": 11
+          },
+          {
+            "neuron_id": "720575940629327659",
+            "type": "DNa02",
+            "side": "left",
+            "spikes": 24
+          },
+          {
+            "neuron_id": "720575940631082808",
+            "type": "MDN",
+            "side": "left",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940640331472",
+            "type": "MDN",
+            "side": "right",
+            "spikes": 0
+          },
+          {
+            "neuron_id": "720575940644438551",
+            "type": "DNa01",
+            "side": "right",
+            "spikes": 6
+          }
+        ],
+        "behavior_inference": "Not assigned: output cell spikes are not an observed movement or subjective intention.",
+        "membrane_response": {
+          "internal_cells": 102009,
+          "depolarized_cells": 72156,
+          "hyperpolarized_cells": 74366,
+          "positive_area_mv_ms": 20717251.830240823,
+          "negative_area_mv_ms": 30000632.40728961,
+          "max_depolarization_mv": 10.689996442737723,
+          "max_hyperpolarization_mv": 240.73398346228993,
+          "scope": "LIF voltage relative to -52 mV; includes subthreshold responses, excludes sensory and driven cells."
+        }
+      },
+      "decoded": {
+        "words": [
+          "bright:left",
+          "bright:right",
+          "yeast:left",
+          "yeast:right",
+          "warm:left",
+          "warm:right",
+          "evaporative_cooling:left"
+        ],
+        "scores": {
+          "bright:left": 0.969912593602998,
+          "bright:right": 0.969912593602998,
+          "vision_r7:left": 0.018051890192846386,
+          "vision_r7:right": -0.0059492493751766,
+          "vision_r8:left": 0.046049391956302754,
+          "vision_r8:right": 0.01156316251482814,
+          "vision_dra:left": 0.02950735439682976,
+          "vision_dra:right": -0.005616255849754165,
+          "vision_ocelli:left": 0.014937554907646464,
+          "vision_ocelli:right": 0.08933149198550314,
+          "vinegar:left": -0.004409030861249114,
+          "vinegar:right": 0.04011697550240173,
+          "yeast:left": 0.9962511976845552,
+          "yeast:right": 0.9962511976845552,
+          "geosmin:left": -0.04424319652958111,
+          "geosmin:right": -0.13823712332126278,
+          "cva:left": 0.16257808651575428,
+          "cva:right": -0.15177152000778263,
+          "co2:left": 0.06977079196824497,
+          "co2:right": 0.1500675766741323,
+          "sweet_water:left": -0.0011152462293087017,
+          "sweet_water:right": -0.0393096469987311,
+          "bitter:left": 0.04138246236127139,
+          "bitter:right": -0.015210178973967703,
+          "low_salt:left": 0.06664209676234889,
+          "low_salt:right": 0.029647209596944866,
+          "warm:left": 0.9810386923720639,
+          "warm:right": 0.7934857239799125,
+          "cold:left": -0.016404126654465813,
+          "cold:right": -0.018329253187423112,
+          "moist:left": -0.031121143583246677,
+          "moist:right": 0.052788418617894094,
+          "dry:left": 0.0570803201855852,
+          "dry:right": 0.10288600557179375,
+          "evaporative_cooling:left": 0.41427727610957443,
+          "evaporative_cooling:right": 0.1792169822838684,
+          "auditory:left": 0.09095811607204464,
+          "auditory:right": 0.07415742222282629,
+          "wind_gravity:left": 0.002356571798340465,
+          "wind_gravity:right": 0.007915550533519734,
+          "head_touch:left": 0.021635976595153074,
+          "head_touch:right": 0.01062721667490802,
+          "eye_touch:left": 0.004020358382348296,
+          "eye_touch:right": 0.039572106298907186
+        },
+        "descriptions": {
+          "bright:left": "左侧光照：外层视感受器 R1–R6",
+          "bright:right": "右侧光照：外层视感受器 R1–R6",
+          "yeast:left": "左侧酵母相关气味代理",
+          "yeast:right": "右侧酵母相关气味代理",
+          "warm:left": "左侧升温通道",
+          "warm:right": "右侧升温通道",
+          "evaporative_cooling:left": "左侧蒸发冷却候选通道"
+        },
+        "unqualified_words": [],
+        "status": "decoded",
+        "score_type": "linear neural-state intervention scores, not probabilities",
+        "scope": "Spikes and subthreshold LIF voltage; artificial input identity, not natural perception.",
+        "feedback_adaptation": {
+          "applied": true,
+          "labels": [
+            "bright:left",
+            "bright:right",
+            "yeast:left",
+            "yeast:right"
+          ],
+          "artifact": "data\\derived\\feedback-readout\\flywire-adapter.npz",
+          "sha256": "94f72d9b22dca0efdcd423fc1a7902e0676c1f983db7055514fc73d3fe582d96",
+          "protocol_sha256": "a65758fd481355a9bb279a50ed67cba17ee08764294e1b075d07cbbc464ae165",
+          "scope": "Small session-separated simulation benchmark; still candidate neural readout",
+          "globally_calibrated": false,
+          "biologically_calibrated": false
+        }
+      },
+      "expression": {
+        "schema": "chatflypt.expression.v2",
+        "source": "blind_neural_readout",
+        "status": "candidate",
+        "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。我在左侧察觉到了蒸发冷却相关信号。我在左侧感到温暖。我在右侧感到温暖。我在左侧闻到了酵母相关气味。我在右侧闻到了酵母相关气味。",
+        "messages": [
+          {
+            "kind": "expression",
+            "text": "候选神经读出（连续反馈仅有限验证）：我在左侧察觉到了光。我在右侧察觉到了光。我在左侧察觉到了蒸发冷却相关信号。我在左侧感到温暖。我在右侧感到温暖。我在左侧闻到了酵母相关气味。我在右侧闻到了酵母相关气味。",
+            "source": "blind_neural_readout",
+            "status": "candidate",
+            "dataset": "FlyWire v783",
+            "observation_id": "flywire-491702-heat-0",
+            "labels": [
+              "bright:left",
+              "bright:right",
+              "evaporative_cooling:left",
+              "warm:left",
+              "warm:right",
+              "yeast:left",
+              "yeast:right"
+            ]
+          }
+        ],
+        "labels": [
+          "bright:left",
+          "bright:right",
+          "evaporative_cooling:left",
+          "warm:left",
+          "warm:right",
+          "yeast:left",
+          "yeast:right"
+        ],
+        "observation_id": "flywire-491702-heat-0",
+        "dataset": "FlyWire v783",
+        "activity": {
+          "non_sensory_spikes": 218143,
+          "membrane_internal_cells": 102009
+        },
+        "llm_called": false,
+        "scope": "finite_neural_labels_to_language",
+        "outward_signal_decoded": false,
+        "limitations": [
+          "第一人称是模拟感觉读出的表达，不是主观体验的证据。",
+          "侧别是读出的感觉入口侧，不等于物体位置或运动方向。",
+          "部分标签经过有限模拟场景的分会话验证；不代表全词汇、所有环境或生理校准。",
+          "文字来自有限词汇的内部活动读出，不证明任意语言理解、主观体验或真实发声。"
+        ],
+        "reason": "已将内部神经读出翻译为有限词汇的自然语言。"
+      },
+      "environment_items": [
+        {
+          "channel": "bright",
+          "side": "left",
+          "intensity": 0.6082409295550085,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "bright",
+          "side": "right",
+          "intensity": 0.5954288487908086,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "warm",
+          "side": "left",
+          "intensity": 0.5106457504077999,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        },
+        {
+          "channel": "warm",
+          "side": "right",
+          "intensity": 0.5080632959025941,
+          "onset_ms": 50.0,
+          "duration_ms": 300.0
+        }
+      ],
+      "contact_geoms": [],
+      "contact_evidence": [
+        {
+          "time_ms": 0.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.892025226895593,
+            "right": 0.8919364213811425
+          }
+        },
+        {
+          "time_ms": 100.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.8984616918765741,
+            "right": 0.9178558833556549
+          }
+        },
+        {
+          "time_ms": 200.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.8080639604857235,
+            "right": 0.8231037633686332
+          }
+        },
+        {
+          "time_ms": 300.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.6584596207476447,
+            "right": 0.664962532627252
+          }
+        },
+        {
+          "time_ms": 400.0,
+          "object_id": "sample",
+          "mode": "position_field",
+          "intensities": {
+            "left": 0.5106457504077999,
+            "right": 0.5080632959025941
+          }
+        }
+      ],
+      "unmapped": [],
+      "body_summary": {
+        "displacement_mm": [
+          1.4120472309374343,
+          0.1807386378024142,
+          -0.18746942680317602
+        ],
+        "path_length_mm": 2.582971400863572,
+        "max_contacts": 14,
+        "finite_state": true,
+        "physics_warnings": 0
+      },
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.36912132611268594
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.5818883207018938
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "powered_steps": 4400,
+      "yaw_change_deg": 15.181679000344761,
+      "feedback": {
+        "sample_count": 5,
+        "session_start_ms": 0.0,
+        "session_end_ms": 500.0,
+        "neural_reset_count": 1,
+        "body_reset_count": 1,
+        "llm_called": false,
+        "goal_controller": false
+      },
+      "raw_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-heat\\turn-0\\observation.npz",
+      "raw_sha256": "42a27a32e4d0ee7ba4ee6d4788c2daa7a06626236e898f31503cb2775ad13a34",
+      "body_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-heat\\turn-0\\body-result.json",
+      "feedback_record": "data\\derived\\sugar-pressure-20260924\\flywire-491702-heat\\turn-0\\feedback.json",
+      "base_readout_sha256": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "brain_run": false,
+  "compared_fields": [
+    "time_ms",
+    "position_mm",
+    "quaternion_wxyz",
+    "yaw_rad",
+    "feet_mm",
+    "joint_angles_rad",
+    "joint_positions_rad",
+    "joint_velocities_rad_s",
+    "body_contacts",
+    "body_positions_mm",
+    "body_quaternions_wxyz",
+    "geom_positions_mm",
+    "geom_rotation_matrices",
+    "contact_count",
+    "environment_contacts",
+    "commands",
+    "joint_motor_offsets_rad",
+    "max_actuator_force_model_units"
+  ],
+  "records": [
+    {
+      "turn": 0,
+      "physical_records_equal": true,
+      "frames": 11,
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.3934693402873666
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "controls": {
+        "active_posture_hold_when_commands_zero": true,
+        "controller_local_feedback": "Official Hybrid local feedback; measured receptors separately return to neural state",
+        "statistics_scope": "Actual integration steps in this observation window; no cumulative maxima",
+        "activity_definition": "Pinned controller branch eligibility, not measured action or new neural spikes",
+        "integration_steps": 1000,
+        "requested_command_steps": 600,
+        "powered_steps": 600,
+        "effective_program_steps": {
+          "locomotion": 0,
+          "grooming": 0,
+          "escape": 600,
+          "landing": 0,
+          "feeding": 0,
+          "song": 0,
+          "flight": 0,
+          "joint_targets": 0
+        },
+        "zero_command_steps": 400,
+        "no_effective_command_steps": 400,
+        "max_actuator_force_model_units": 40.54214112286357,
+        "max_force_during_zero_commands": 40.0,
+        "max_force_without_effective_commands": 40.0,
+        "neural_feedback": true,
+        "feedback_interval_ms": 100.0,
+        "passive_control": false,
+        "aerodynamics": false,
+        "kinematic_tether": false
+      },
+      "motor_activity_in_window": true
+    },
+    {
+      "turn": 1,
+      "physical_records_equal": true,
+      "frames": 11,
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.011881744533584322,
+          "max": 0.08779487691181714
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "controls": {
+        "active_posture_hold_when_commands_zero": true,
+        "controller_local_feedback": "Official Hybrid local feedback; measured receptors separately return to neural state",
+        "statistics_scope": "Actual integration steps in this observation window; no cumulative maxima",
+        "activity_definition": "Pinned controller branch eligibility, not measured action or new neural spikes",
+        "integration_steps": 1000,
+        "requested_command_steps": 1000,
+        "powered_steps": 1000,
+        "effective_program_steps": {
+          "locomotion": 0,
+          "grooming": 0,
+          "escape": 1000,
+          "landing": 0,
+          "feeding": 0,
+          "song": 0,
+          "flight": 0,
+          "joint_targets": 0
+        },
+        "zero_command_steps": 0,
+        "no_effective_command_steps": 0,
+        "max_actuator_force_model_units": 40.0,
+        "max_force_during_zero_commands": null,
+        "max_force_without_effective_commands": null,
+        "neural_feedback": true,
+        "feedback_interval_ms": 99.99999999999817,
+        "passive_control": false,
+        "aerodynamics": false,
+        "kinematic_tether": false
+      },
+      "motor_activity_in_window": true
+    },
+    {
+      "turn": 2,
+      "physical_records_equal": true,
+      "frames": 11,
+      "command_summary": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0009753129836887861,
+          "max": 0.007206642350491874
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "controls": {
+        "active_posture_hold_when_commands_zero": true,
+        "controller_local_feedback": "Official Hybrid local feedback; measured receptors separately return to neural state",
+        "statistics_scope": "Actual integration steps in this observation window; no cumulative maxima",
+        "activity_definition": "Pinned controller branch eligibility, not measured action or new neural spikes",
+        "integration_steps": 1000,
+        "requested_command_steps": 1000,
+        "powered_steps": 0,
+        "effective_program_steps": {
+          "locomotion": 0,
+          "grooming": 0,
+          "escape": 0,
+          "landing": 0,
+          "feeding": 0,
+          "song": 0,
+          "flight": 0,
+          "joint_targets": 0
+        },
+        "zero_command_steps": 0,
+        "no_effective_command_steps": 1000,
+        "max_actuator_force_model_units": 40.0,
+        "max_force_during_zero_commands": null,
+        "max_force_without_effective_commands": 40.0,
+        "neural_feedback": true,
+        "feedback_interval_ms": 100.00000000000571,
+        "passive_control": false,
+        "aerodynamics": false,
+        "kinematic_tether": false
+      },
+      "motor_activity_in_window": false
+    }
+  ]
+}

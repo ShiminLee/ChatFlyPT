@@ -1,0 +1,565 @@
+{
+  "schema": "chatflypt.acoustic-readout.v1",
+  "status": "research_candidate",
+  "source": "external_DAS_recording_test_partition",
+  "sample_rate_hz": 10000,
+  "duration_ms": 32435.2,
+  "analysis_window_ms": 20.0,
+  "hop_ms": 5.0,
+  "lookahead_ms": 10.0,
+  "unscored_edge_ms_each": 7.5,
+  "model_sha256": "cc3ef4092581b6632f893b47c6aae8a0d05447906df8c158cc111a6cb74f5be4",
+  "class_names": [
+    "unannotated_background",
+    "pulse",
+    "sine"
+  ],
+  "frame_counts": {
+    "unannotated_background": 5990,
+    "pulse": 0,
+    "sine": 221
+  },
+  "abstained_frames": 273,
+  "intervals": [
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 397.5,
+      "end_ms": 402.5,
+      "minimum_score": 0.5886195692567127,
+      "mean_score": 0.5886195692567127
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1222.5,
+      "end_ms": 1227.5,
+      "minimum_score": 0.5751435156654369,
+      "mean_score": 0.5751435156654369
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1257.5,
+      "end_ms": 1272.5,
+      "minimum_score": 0.5602965589501417,
+      "mean_score": 0.581191643705962
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1382.5,
+      "end_ms": 1387.5,
+      "minimum_score": 0.5591688295725655,
+      "mean_score": 0.5591688295725655
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1447.5,
+      "end_ms": 1462.5,
+      "minimum_score": 0.6434605099657148,
+      "mean_score": 0.7349341064619477
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1482.5,
+      "end_ms": 1492.5,
+      "minimum_score": 0.7490530187751698,
+      "mean_score": 0.7658854083404494
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1587.5,
+      "end_ms": 1592.5,
+      "minimum_score": 0.6148632366710347,
+      "mean_score": 0.6148632366710347
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1647.5,
+      "end_ms": 1652.5,
+      "minimum_score": 0.6439551722486712,
+      "mean_score": 0.6439551722486712
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1677.5,
+      "end_ms": 1682.5,
+      "minimum_score": 0.6508288356069122,
+      "mean_score": 0.6508288356069122
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1797.5,
+      "end_ms": 1802.5,
+      "minimum_score": 0.6785788053013947,
+      "mean_score": 0.6785788053013947
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 1892.5,
+      "end_ms": 1897.5,
+      "minimum_score": 0.5696645105581456,
+      "mean_score": 0.5696645105581456
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 2017.5,
+      "end_ms": 2027.5,
+      "minimum_score": 0.7288200743489237,
+      "mean_score": 0.732459464736855
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 2067.5,
+      "end_ms": 2142.5,
+      "minimum_score": 0.6757466146964665,
+      "mean_score": 0.8764552793805189
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 2167.5,
+      "end_ms": 2282.5,
+      "minimum_score": 0.6026560046366681,
+      "mean_score": 0.9108966786354508
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 2332.5,
+      "end_ms": 2337.5,
+      "minimum_score": 0.5720487013784292,
+      "mean_score": 0.5720487013784292
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 3812.5,
+      "end_ms": 3817.5,
+      "minimum_score": 0.5762304646317142,
+      "mean_score": 0.5762304646317142
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 3862.5,
+      "end_ms": 3877.5,
+      "minimum_score": 0.6554233956597851,
+      "mean_score": 0.6744345694985254
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 3897.5,
+      "end_ms": 3952.5,
+      "minimum_score": 0.6217458711089895,
+      "mean_score": 0.7656911011165835
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 3957.5,
+      "end_ms": 3962.5,
+      "minimum_score": 0.5448784629242602,
+      "mean_score": 0.5448784629242602
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 3972.5,
+      "end_ms": 3982.5,
+      "minimum_score": 0.5433403889517319,
+      "mean_score": 0.5595646962185502
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4012.5,
+      "end_ms": 4032.5,
+      "minimum_score": 0.553388363433649,
+      "mean_score": 0.6863108106252646
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4047.5,
+      "end_ms": 4052.5,
+      "minimum_score": 0.6019311169169118,
+      "mean_score": 0.6019311169169118
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4107.5,
+      "end_ms": 4272.5,
+      "minimum_score": 0.6486236448104008,
+      "mean_score": 0.8956471247365375
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4302.5,
+      "end_ms": 4337.5,
+      "minimum_score": 0.5442276750494263,
+      "mean_score": 0.6441089795898838
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4397.5,
+      "end_ms": 4407.5,
+      "minimum_score": 0.6373984177764387,
+      "mean_score": 0.6784815787007374
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4427.5,
+      "end_ms": 4432.5,
+      "minimum_score": 0.5485631109874526,
+      "mean_score": 0.5485631109874526
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4452.5,
+      "end_ms": 4457.5,
+      "minimum_score": 0.6264304440126846,
+      "mean_score": 0.6264304440126846
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4492.5,
+      "end_ms": 4507.5,
+      "minimum_score": 0.6564500995086884,
+      "mean_score": 0.7405526580204067
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4512.5,
+      "end_ms": 4537.5,
+      "minimum_score": 0.6582382557808917,
+      "mean_score": 0.7648209237379031
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4547.5,
+      "end_ms": 4572.5,
+      "minimum_score": 0.6593298570337357,
+      "mean_score": 0.7448459240668506
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4652.5,
+      "end_ms": 4657.5,
+      "minimum_score": 0.5901783021840268,
+      "mean_score": 0.5901783021840268
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4662.5,
+      "end_ms": 4667.5,
+      "minimum_score": 0.6329830958555324,
+      "mean_score": 0.6329830958555324
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4712.5,
+      "end_ms": 4777.5,
+      "minimum_score": 0.632027485519599,
+      "mean_score": 0.7886691659821583
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4792.5,
+      "end_ms": 4812.5,
+      "minimum_score": 0.6292103320955668,
+      "mean_score": 0.6892158416470363
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4827.5,
+      "end_ms": 4837.5,
+      "minimum_score": 0.6142594958880048,
+      "mean_score": 0.6410868929248048
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4857.5,
+      "end_ms": 4862.5,
+      "minimum_score": 0.7236059633482522,
+      "mean_score": 0.7236059633482522
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 4872.5,
+      "end_ms": 4882.5,
+      "minimum_score": 0.556591208328124,
+      "mean_score": 0.6708379302813333
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 5147.5,
+      "end_ms": 5152.5,
+      "minimum_score": 0.5751165376952547,
+      "mean_score": 0.5751165376952547
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 6877.5,
+      "end_ms": 6882.5,
+      "minimum_score": 0.6175202209469258,
+      "mean_score": 0.6175202209469258
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 7617.5,
+      "end_ms": 7632.5,
+      "minimum_score": 0.5672758525840632,
+      "mean_score": 0.6992665307241858
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 7672.5,
+      "end_ms": 7682.5,
+      "minimum_score": 0.6886444110780373,
+      "mean_score": 0.7129838952967649
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 7872.5,
+      "end_ms": 7882.5,
+      "minimum_score": 0.600335282402695,
+      "mean_score": 0.645979839462328
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 8047.5,
+      "end_ms": 8052.5,
+      "minimum_score": 0.7329788234468656,
+      "mean_score": 0.7329788234468656
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 8232.5,
+      "end_ms": 8237.5,
+      "minimum_score": 0.6652453401735615,
+      "mean_score": 0.6652453401735615
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 8262.5,
+      "end_ms": 8277.5,
+      "minimum_score": 0.5584098823560618,
+      "mean_score": 0.5681556866026513
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 8287.5,
+      "end_ms": 8292.5,
+      "minimum_score": 0.7178520627057972,
+      "mean_score": 0.7178520627057972
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 8322.5,
+      "end_ms": 8327.5,
+      "minimum_score": 0.5629222025272369,
+      "mean_score": 0.5629222025272369
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 8492.5,
+      "end_ms": 8547.5,
+      "minimum_score": 0.5526779254714651,
+      "mean_score": 0.8362437501443225
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 8572.5,
+      "end_ms": 8577.5,
+      "minimum_score": 0.6958733912566298,
+      "mean_score": 0.6958733912566298
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 9147.5,
+      "end_ms": 9152.5,
+      "minimum_score": 0.6772304536504211,
+      "mean_score": 0.6772304536504211
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 9342.5,
+      "end_ms": 9347.5,
+      "minimum_score": 0.550727228211656,
+      "mean_score": 0.550727228211656
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 9827.5,
+      "end_ms": 9832.5,
+      "minimum_score": 0.6953912757929871,
+      "mean_score": 0.6953912757929871
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 9847.5,
+      "end_ms": 9902.5,
+      "minimum_score": 0.7829647441488774,
+      "mean_score": 0.8974670850052504
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 10077.5,
+      "end_ms": 10082.5,
+      "minimum_score": 0.6350710115074246,
+      "mean_score": 0.6350710115074246
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 10112.5,
+      "end_ms": 10122.5,
+      "minimum_score": 0.5410275454855716,
+      "mean_score": 0.6476882195089574
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 10132.5,
+      "end_ms": 10142.5,
+      "minimum_score": 0.6088788836812359,
+      "mean_score": 0.6680734190193242
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17012.5,
+      "end_ms": 17017.5,
+      "minimum_score": 0.5991670244441444,
+      "mean_score": 0.5991670244441444
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17057.5,
+      "end_ms": 17062.5,
+      "minimum_score": 0.6236067516216047,
+      "mean_score": 0.6236067516216047
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17097.5,
+      "end_ms": 17102.5,
+      "minimum_score": 0.6819936886844259,
+      "mean_score": 0.6819936886844259
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17122.5,
+      "end_ms": 17127.5,
+      "minimum_score": 0.6788764972345526,
+      "mean_score": 0.6788764972345526
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17172.5,
+      "end_ms": 17177.5,
+      "minimum_score": 0.6380640169448255,
+      "mean_score": 0.6380640169448255
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17762.5,
+      "end_ms": 17767.5,
+      "minimum_score": 0.6761093910202293,
+      "mean_score": 0.6761093910202293
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17902.5,
+      "end_ms": 17907.5,
+      "minimum_score": 0.5881622290482236,
+      "mean_score": 0.5881622290482236
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 17927.5,
+      "end_ms": 17937.5,
+      "minimum_score": 0.622859700181262,
+      "mean_score": 0.6419059302250392
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 19912.5,
+      "end_ms": 19917.5,
+      "minimum_score": 0.5870211497469335,
+      "mean_score": 0.5870211497469335
+    },
+    {
+      "class": "sine",
+      "label": "持续鸣声候选",
+      "start_ms": 31077.5,
+      "end_ms": 31092.5,
+      "minimum_score": 0.6139303966112465,
+      "mean_score": 0.6561573612447212
+    }
+  ],
+  "llm_called": false,
+  "semantics_decoded": false,
+  "expression_messages": [],
+  "limitations": [
+    "Acoustic classes only; no intentions, sentence meanings or subjective state.",
+    "One recording; no independent animal/microphone or simulation validation.",
+    "Random-forest vote scores are not calibrated probabilities.",
+    "Missing annotations are background for this benchmark, not verified silence.",
+    "Overlapping analysis windows do not define individual pulse events.",
+    "No acoustic emitter is implemented in the current body model."
+  ],
+  "recording_offset_ms": 80000.0
+}

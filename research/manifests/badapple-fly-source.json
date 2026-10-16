@@ -1,0 +1,121 @@
+{
+  "repository": "https://github.com/kevinlinxc/badapple-fly",
+  "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "ecc3561d772481707d0d9f1c5a078f2a19b06c8ec559edcab5bbdd9361f4ed55",
+      "size": 196
+    },
+    {
+      "path": "README.md",
+      "sha256": "4f105807da4cf27dfd176b2d80c0b067ecc66e938e0745c02ec80a6d70d026cf",
+      "size": 2002
+    },
+    {
+      "path": "backend/app.py",
+      "sha256": "1c9e14e0b165024a18b0ac91ca5c10b3f3a30902f39be107812bb636be4da792",
+      "size": 15313
+    },
+    {
+      "path": "backend/body.py",
+      "sha256": "1702dc665e4fce9196fa3e18bb19454aae1ad743b81a6834cab6118337af27cc",
+      "size": 8150
+    },
+    {
+      "path": "backend/brain.py",
+      "sha256": "25ad55ca3eb8d32f955ea18010f4db49c4fa73932071b94776ae68fd51965b24",
+      "size": 4714
+    },
+    {
+      "path": "backend/evidence.py",
+      "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+      "size": 8320
+    },
+    {
+      "path": "backend/recording.py",
+      "sha256": "547bc6175c9957590f5b39f34dd5c0d9ab01d794e23123db36e4d99bf5862ec1",
+      "size": 1308
+    },
+    {
+      "path": "backend/video.py",
+      "sha256": "84804a1477fedc55722128e2b75bdd9bfe2ae056f107e074688b378551dee358",
+      "size": 2364
+    },
+    {
+      "path": "frontend/activity.js",
+      "sha256": "dbcf1a22434f07af1c7bf38b9a9ffb756d845ea195e00215984d126b85b173b4",
+      "size": 492
+    },
+    {
+      "path": "frontend/group-colors.js",
+      "sha256": "8b7575d605ae7c3547585c5753b71134d40a4badc475e38125346c3ccc77b268",
+      "size": 609
+    },
+    {
+      "path": "frontend/index.html",
+      "sha256": "1790ee4fee24ed6cef52e05856ad526916f3e91df7bc3c8c66bae9d6fe002c62",
+      "size": 6264
+    },
+    {
+      "path": "frontend/main.js",
+      "sha256": "1d21c99499ebad0b526657c4e0ca76b0d9526ad8792a4d8da2d28a8d5ce67977",
+      "size": 28739
+    },
+    {
+      "path": "frontend/recording.js",
+      "sha256": "de815b77dcd3254b2b93b8314399d429c605ed48e34d5be2100114613b91adcb",
+      "size": 2393
+    },
+    {
+      "path": "frontend/style.css",
+      "sha256": "8cdfbbca9cb57210a07a75d8a8d1463e1ed8cb80ed83ac4e764127835ed66d9d",
+      "size": 9155
+    },
+    {
+      "path": "frontend/vendor/OrbitControls.js",
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+      "size": 38703
+    },
+    {
+      "path": "frontend/vendor/THREE-LICENSE.txt",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "size": 1081
+    },
+    {
+      "path": "frontend/vendor/three.core.js",
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "size": 1403455
+    },
+    {
+      "path": "frontend/vendor/three.module.js",
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "size": 603113
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9eac6acd1b30ce741ee9013f3c4f945214fe5712d19495fceeef450f08b69143",
+      "size": 526
+    },
+    {
+      "path": "scripts/download_data.py",
+      "sha256": "c0f5ba652998d705b2117d2c61eef024c0cab517ca4d9e99b1f93b969b35a5cd",
+      "size": 1529
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "sha256": "df07fac1afcf50ad15197f82d9ab13bc786d542f6660cd836116580ede3af4be",
+      "size": 3500
+    },
+    {
+      "path": "scripts/prepare_visual_groups.py",
+      "sha256": "be732541fd56f87aa74c42cc04a03d41409db4fd054c593582961e1045c81e59",
+      "size": 2778
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "19f552bf302123bdc81403347e6ff8428cbb7cab4caf3a1ff876cb1b44635ae4",
+      "size": 93863
+    }
+  ]
+}

@@ -1,0 +1,7161 @@
+{
+  "schema": "chatflypt.behavior-drive.v1",
+  "dataset": "MaleCNS v1.0",
+  "context": "ground",
+  "seed": 492401,
+  "duration_ms": 500.0,
+  "bin_ms": 20.0,
+  "smoothing_ms": 40.0,
+  "reference_rate_hz": 100.0,
+  "available_at_ms": [
+    20.0,
+    40.0,
+    60.0,
+    80.0,
+    100.0,
+    120.0,
+    140.0,
+    160.0,
+    180.0,
+    200.0,
+    220.0,
+    240.0,
+    260.0,
+    280.0,
+    300.0,
+    320.0,
+    340.0,
+    360.0,
+    380.0,
+    400.0,
+    420.0,
+    440.0,
+    460.0,
+    480.0,
+    500.0
+  ],
+  "commands": [
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "antenna": 0.0,
+      "rub": 0.0,
+      "anterior": 0.0,
+      "feeding": 0.0,
+      "song": 0.0,
+      "escape": 0.0,
+      "flight": 0.0,
+      "landing": 0.0
+    }
+  ],
+  "readouts_hz": [
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    }
+  ],
+  "population_rate_hz": [
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    {
+      "forward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "backward": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_inside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "turn_outside": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "context_walk": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "antenna": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "rub": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "anterior": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "feeding": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "song": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "flight": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "landing": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "escape": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    }
+  ],
+  "spike_counts": [
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "forward": {
+        "L": 0,
+        "R": 0
+      },
+      "backward": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_inside": {
+        "L": 0,
+        "R": 0
+      },
+      "turn_outside": {
+        "L": 0,
+        "R": 0
+      },
+      "context_walk": {
+        "L": 0,
+        "R": 0
+      },
+      "antenna": {
+        "L": 0,
+        "R": 0
+      },
+      "rub": {
+        "L": 0,
+        "R": 0
+      },
+      "anterior": {
+        "L": 0,
+        "R": 0
+      },
+      "feeding": {
+        "L": 0,
+        "R": 0
+      },
+      "song": {
+        "L": 0,
+        "R": 0
+      },
+      "flight": {
+        "L": 0,
+        "R": 0
+      },
+      "landing": {
+        "L": 0,
+        "R": 0
+      },
+      "escape": {
+        "L": 0,
+        "R": 0
+      }
+    }
+  ],
+  "motor_spikes": 0,
+  "active_motor_neurons": 0,
+  "source_spikes_sha256": "6b6b40c3bddf84b1281ef0b18db06927c2bf61c5f4cb32a4219ec9b7839dc2e5",
+  "source_spikes_encoding": {
+    "neuron_ids": "numpy:<i8",
+    "spike_ids": "numpy:<i8",
+    "spike_steps": "numpy:<i4"
+  },
+  "annotation_mapping_sha256": "f9f0fb50bdf5111f3d37825b173b58e06f12abcdb4dafbdfe2f07e7c6db4ab8d",
+  "directly_driven_cells_excluded": 0,
+  "directly_driven_neuron_ids": [],
+  "directly_driven_spikes_excluded": 0,
+  "groups": [
+    {
+      "id": "forward",
+      "label": "Forward walking",
+      "types": [
+        "DNg100",
+        "DNg97"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "10045",
+            "13805"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "10056",
+            "230783"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "backward",
+      "label": "Backward walking",
+      "types": [
+        "MDN"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "11288",
+            "12348"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "10763",
+            "11332"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "turn_inside",
+      "label": "Steering · inner strides",
+      "types": [
+        "DNa02"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "523769"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "10360"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "turn_outside",
+      "label": "Steering · outer strides",
+      "types": [
+        "DNg13"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "11074"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "512006"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "context_walk",
+      "label": "Context-dependent walk / halt",
+      "types": [
+        "DNp09"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "10783"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "11177"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "antenna",
+      "label": "Antennal grooming",
+      "types": [
+        "DNg62",
+        "DNge078"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "13624",
+            "14537"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "15148",
+            "36541"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "rub",
+      "label": "Front-leg rubbing",
+      "types": [
+        "DNg11"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "14686",
+            "16399",
+            "19633"
+          ],
+          "neuron_count": 3,
+          "annotated_neuron_count": 3,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "15568",
+            "18562",
+            "909612"
+          ],
+          "neuron_count": 3,
+          "annotated_neuron_count": 3,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "anterior",
+      "label": "Anterior grooming",
+      "types": [
+        "DNg12"
+      ],
+      "family": true,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "19441",
+            "19455",
+            "20288",
+            "21624",
+            "22033",
+            "22128",
+            "22190",
+            "22596",
+            "23960",
+            "24619",
+            "25180",
+            "32413",
+            "40701",
+            "47102",
+            "48408",
+            "55021",
+            "63287",
+            "322714",
+            "326964",
+            "544361",
+            "818789"
+          ],
+          "neuron_count": 21,
+          "annotated_neuron_count": 21,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "17386",
+            "18616",
+            "19268",
+            "19631",
+            "19946",
+            "20129",
+            "20473",
+            "20788",
+            "22080",
+            "22474",
+            "22564",
+            "23628",
+            "24880",
+            "24961",
+            "26441",
+            "36379",
+            "37686",
+            "44836",
+            "47285",
+            "482128",
+            "531434"
+          ],
+          "neuron_count": 21,
+          "annotated_neuron_count": 21,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "feeding",
+      "label": "Proboscis extension",
+      "types": [
+        "MN9"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "10331"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "16949"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "song",
+      "label": "Courtship wing movement",
+      "types": [
+        "pIP10"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "523998"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "11116"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "flight",
+      "label": "Flight wing amplitude",
+      "types": [
+        "DNg02"
+      ],
+      "family": true,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "19773",
+            "20849",
+            "20962",
+            "21122",
+            "22404",
+            "25357",
+            "25852",
+            "28905",
+            "33333",
+            "33424",
+            "35988",
+            "37135",
+            "177685",
+            "302599",
+            "525126"
+          ],
+          "neuron_count": 15,
+          "annotated_neuron_count": 15,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "17331",
+            "18183",
+            "20289",
+            "22393",
+            "22462",
+            "23411",
+            "26049",
+            "26079",
+            "30228",
+            "31641",
+            "225466",
+            "262979",
+            "295340",
+            "516667"
+          ],
+          "neuron_count": 14,
+          "annotated_neuron_count": 14,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "landing",
+      "label": "Landing leg extension",
+      "types": [
+        "DNp07",
+        "DNp10"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "10425",
+            "11704"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "10433",
+            "11513"
+          ],
+          "neuron_count": 2,
+          "annotated_neuron_count": 2,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    },
+    {
+      "id": "escape",
+      "label": "Escape leg extension",
+      "types": [
+        "DNp01"
+      ],
+      "family": false,
+      "sides": {
+        "L": {
+          "neuron_ids": [
+            "10010"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        },
+        "R": {
+          "neuron_ids": [
+            "10001"
+          ],
+          "neuron_count": 1,
+          "annotated_neuron_count": 1,
+          "spikes": 0,
+          "active_neurons": 0,
+          "excluded_neuron_ids": [],
+          "excluded_spikes": 0,
+          "missing_types": [],
+          "status": "available"
+        }
+      },
+      "unknown_side_ids": []
+    }
+  ],
+  "source_mapping": "Bad Apple Fly 13 original groups and unchanged motor_commands; type+somaSide; directly driven cells excluded",
+  "mapping_source": {
+    "repository": "https://github.com/kevinlinxc/badapple-fly",
+    "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+    "file": "backend/evidence.py",
+    "sha256": "17c7a2aec96a027e0bc8a1b4691ca7ec9048abba4b81fda58fe4642dc9ad891e",
+    "url": "https://github.com/kevinlinxc/badapple-fly/blob/6726892e7ebd93e6c5ffab056ab8db09433c28a6/backend/evidence.py"
+  },
+  "causality": "Half-open bins; commands available at completed-bin ends only; no future spikes or time stretching",
+  "has_command_in_window": false,
+  "limitations": [
+    "采用 Bad Apple Fly 的定性细胞群映射及原控制公式，增益和动作模板未经行为生理校准。",
+    "只读真实记录的 spike；直接刺激细胞已排除，不能把刺激输出细胞当作下游反应。",
+    "MaleCNS 按 type/somaSide，FlyWire 按 cell_type/side；只匹配原类型名，缺失类型或侧别不猜测补齐。",
+    "DNg12/DNg02 采用原作者明确的下划线子类型家族规则；个别子类型的动作作用未验证。",
+    "FlyWire 不含完整 VNC；同名细胞到同一动作程序的跨数据集应用仍是工程映射。",
+    "动作适配器只读取已完成的神经时间窗；感觉反馈由外层具身会话提供，独立身体回放没有该反馈。",
+    "行为命令不等于已发生的动作；是否运动须由实际身体仿真轨迹确定。",
+    "新增胫节屈/伸运动神经元到六腿 tibia pitch 的有界工程适配；侧别、胸节、出神经均须匹配。角度增益未做肌肉生理校准；不同运动单位等权，未模拟肌肉力长关系或拮抗共同收缩；与 Hybrid 步态叠加未经协同校准。Fe reductor 功能及独立关节缺失，不代接成抬腿或转向。"
+  ],
+  "joint_motor": {
+    "schema": "chatflypt.tibia-motor.v1",
+    "channels": [
+      {
+        "channel": "lf_flexor",
+        "neuron_ids": [
+          "806599",
+          "807165",
+          "809912",
+          "815246",
+          "816215",
+          "816404",
+          "817283",
+          "818057",
+          "819384",
+          "819869",
+          "825516",
+          "867630",
+          "903298",
+          "909831",
+          "1050115387"
+        ],
+        "cells": [
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "lf_extensor",
+        "neuron_ids": [
+          "800636",
+          "815344"
+        ],
+        "cells": [
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "lm_flexor",
+        "neuron_ids": [
+          "802295",
+          "809670",
+          "818295",
+          "819674",
+          "823739",
+          "824041",
+          "825485",
+          "830480",
+          "908094",
+          "927808",
+          "1051356801"
+        ],
+        "cells": [
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "lm_extensor",
+        "neuron_ids": [
+          "800911",
+          "801234"
+        ],
+        "cells": [
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "lh_flexor",
+        "neuron_ids": [
+          "803147",
+          "804919",
+          "817374",
+          "819112",
+          "822945",
+          "829873",
+          "843389",
+          "908762",
+          "929376",
+          "934519",
+          "1050003192",
+          "1050088257",
+          "1050100010",
+          "1050123559",
+          "1050166426",
+          "1050233038",
+          "1050263576"
+        ],
+        "cells": [
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "lh_extensor",
+        "neuron_ids": [
+          "800621",
+          "812953"
+        ],
+        "cells": [
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "L",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "rf_flexor",
+        "neuron_ids": [
+          "810098",
+          "817509",
+          "821635",
+          "827188",
+          "833140",
+          "837745",
+          "909713",
+          "1050005026",
+          "1050031705",
+          "1050091581",
+          "1050126678",
+          "1050156705",
+          "1050189039",
+          "1050268065"
+        ],
+        "cells": [
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "rf_extensor",
+        "neuron_ids": [
+          "804257",
+          "815678"
+        ],
+        "cells": [
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          },
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T1",
+            "exitNerve": "ProLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "rm_flexor",
+        "neuron_ids": [
+          "804405",
+          "805010",
+          "805568",
+          "812531",
+          "816222",
+          "822013",
+          "903363",
+          "905235",
+          "907848",
+          "909255",
+          "1052521030"
+        ],
+        "cells": [
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "rm_extensor",
+        "neuron_ids": [
+          "830514",
+          "928579"
+        ],
+        "cells": [
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          },
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T2",
+            "exitNerve": "MesoLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "rh_flexor",
+        "neuron_ids": [
+          "801637",
+          "803072",
+          "808685",
+          "813629",
+          "823665",
+          "827968",
+          "840740",
+          "910178",
+          "910296",
+          "1050013311",
+          "1050032839",
+          "1050160514",
+          "1050202461",
+          "1050303231",
+          "1050460102",
+          "1059707690"
+        ],
+        "cells": [
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Acc. ti flexor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      },
+      {
+        "channel": "rh_extensor",
+        "neuron_ids": [
+          "800158",
+          "809935"
+        ],
+        "cells": [
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          },
+          {
+            "type": "Ti extensor MN",
+            "somaSide": "R",
+            "superclass": "vnc_motor",
+            "somaNeuromere": "T3",
+            "exitNerve": "MetaLN"
+          }
+        ],
+        "spikes": 0,
+        "active_neurons": 0
+      }
+    ],
+    "spike_counts": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "population_rate_hz": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "readouts_hz": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "offsets_rad": [
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      },
+      {
+        "lf": 0.0,
+        "lm": 0.0,
+        "lh": 0.0,
+        "rf": 0.0,
+        "rm": 0.0,
+        "rh": 0.0
+      }
+    ],
+    "motor_spikes": 0,
+    "gain_rad": 0.6,
+    "biologically_calibrated": false,
+    "mapping_sha256": "5dbacf5451ad61ed9af4a35a9bc76a9c10cc8ee4d7a0d5d0f882ff6c87b87121",
+    "sources": [
+      "https://www.nature.com/articles/s41586-024-07389-x",
+      "https://elifesciences.org/articles/56754"
+    ],
+    "limitation": "新增胫节屈/伸运动神经元到六腿 tibia pitch 的有界工程适配；侧别、胸节、出神经均须匹配。角度增益未做肌肉生理校准；不同运动单位等权，未模拟肌肉力长关系或拮抗共同收缩；与 Hybrid 步态叠加未经协同校准。Fe reductor 功能及独立关节缺失，不代接成抬腿或转向。",
+    "coverage": {
+      "scope": "Cumulative recorded motor-related activity; directly driven cells excluded.",
+      "recorded_motor_spikes": 0,
+      "active_motor_neurons": 0,
+      "unmapped_motor_spikes": 0,
+      "unmapped_active_neurons": 0,
+      "upstream_group_spikes": 0,
+      "joint_group_spikes": 0,
+      "unmapped": []
+    }
+  },
+  "motor_coverage": {
+    "scope": "Cumulative recorded motor-related activity; directly driven cells excluded.",
+    "recorded_motor_spikes": 0,
+    "active_motor_neurons": 0,
+    "unmapped_motor_spikes": 0,
+    "unmapped_active_neurons": 0,
+    "upstream_group_spikes": 0,
+    "joint_group_spikes": 0,
+    "unmapped": []
+  },
+  "has_joint_command_in_window": false
+}

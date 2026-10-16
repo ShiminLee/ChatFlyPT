@@ -1,0 +1,278 @@
+{
+  "protocol": "protocol.json",
+  "results": [
+    {
+      "name": "forward",
+      "source": "External fixed command; not neural activity",
+      "external_descending_signal_left_right": [
+        1.0,
+        1.0
+      ],
+      "status": "completed",
+      "failure": null,
+      "physics": {
+        "flygym": "2.1.0",
+        "mujoco": "3.9.0",
+        "nq": 73,
+        "nv": 72,
+        "nu": 48,
+        "dt_ms": 0.1,
+        "measured_duration_ms": 1000.0,
+        "warmup_ms": 50.000000000000405,
+        "finite_state": true,
+        "warnings_total": 0,
+        "warnings_during_warmup": 0,
+        "warning_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "motion": {
+        "displacement_mm": [
+          12.727946294325301,
+          3.14961114951291,
+          0.0017887312230246977
+        ],
+        "horizontal_displacement_mm": 13.111852167575915,
+        "forward_projection_mm": 12.727954186924421,
+        "xy_path_length_mm": 17.56291488652831,
+        "yaw_change_deg_unwrapped": 11.78061578418562,
+        "observed_yaw_sign": "left"
+      },
+      "stability": {
+        "max_thorax_tilt_deg": 9.005022682632767,
+        "min_thorax_height_mm": 0.7841163487891063,
+        "longest_fall_criterion_ms": 0.0,
+        "fell_by_engineering_criterion": false,
+        "inverted_ms": 0.0,
+        "max_contacts": 14
+      },
+      "feedback": {
+        "correction_steps": {
+          "retraction": 0,
+          "stumbling": 281,
+          "net": 281
+        },
+        "max_abs_joint_correction_multiplier": 4.82417033933553,
+        "max_actuator_force_native_mixed_units": 40.0
+      },
+      "units": {
+        "position": "mm",
+        "time": "ms",
+        "orientation": "radians in frames; degrees in summary",
+        "actuator": "native MuJoCo per-actuator units; mixed force/torque, no SI conversion"
+      },
+      "elapsed_seconds": 8.107639599998947,
+      "render": "official-forward-final.png"
+    },
+    {
+      "name": "left_command",
+      "source": "External fixed command; not neural activity",
+      "external_descending_signal_left_right": [
+        0.4,
+        1.2
+      ],
+      "status": "completed",
+      "failure": null,
+      "physics": {
+        "flygym": "2.1.0",
+        "mujoco": "3.9.0",
+        "nq": 73,
+        "nv": 72,
+        "nu": 48,
+        "dt_ms": 0.1,
+        "measured_duration_ms": 1000.0,
+        "warmup_ms": 50.000000000000405,
+        "finite_state": true,
+        "warnings_total": 0,
+        "warnings_during_warmup": 0,
+        "warning_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "motion": {
+        "displacement_mm": [
+          -1.1229316655500887,
+          7.780656650965774,
+          -0.08062582060467571
+        ],
+        "horizontal_displacement_mm": 7.861271744807772,
+        "forward_projection_mm": -1.1229121679286465,
+        "xy_path_length_mm": 14.08219069314584,
+        "yaw_change_deg_unwrapped": 159.34472984613723,
+        "observed_yaw_sign": "left"
+      },
+      "stability": {
+        "max_thorax_tilt_deg": 10.449315655250357,
+        "min_thorax_height_mm": 0.7896931179005562,
+        "longest_fall_criterion_ms": 0.0,
+        "fell_by_engineering_criterion": false,
+        "inverted_ms": 0.0,
+        "max_contacts": 17
+      },
+      "feedback": {
+        "correction_steps": {
+          "retraction": 0,
+          "stumbling": 107,
+          "net": 107
+        },
+        "max_abs_joint_correction_multiplier": 3.037184481634774,
+        "max_actuator_force_native_mixed_units": 40.0
+      },
+      "units": {
+        "position": "mm",
+        "time": "ms",
+        "orientation": "radians in frames; degrees in summary",
+        "actuator": "native MuJoCo per-actuator units; mixed force/torque, no SI conversion"
+      },
+      "elapsed_seconds": 8.076494400011143
+    },
+    {
+      "name": "right_command",
+      "source": "External fixed command; not neural activity",
+      "external_descending_signal_left_right": [
+        1.2,
+        0.4
+      ],
+      "status": "completed",
+      "failure": null,
+      "physics": {
+        "flygym": "2.1.0",
+        "mujoco": "3.9.0",
+        "nq": 73,
+        "nv": 72,
+        "nu": 48,
+        "dt_ms": 0.1,
+        "measured_duration_ms": 1000.0,
+        "warmup_ms": 50.000000000000405,
+        "finite_state": true,
+        "warnings_total": 0,
+        "warnings_during_warmup": 0,
+        "warning_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "motion": {
+        "displacement_mm": [
+          1.4618174195799534,
+          -7.259059110964958,
+          -0.004125725478860254
+        ],
+        "horizontal_displacement_mm": 7.404785570472027,
+        "forward_projection_mm": 1.461799229033443,
+        "xy_path_length_mm": 13.712077660128054,
+        "yaw_change_deg_unwrapped": -144.65749969228423,
+        "observed_yaw_sign": "right"
+      },
+      "stability": {
+        "max_thorax_tilt_deg": 10.376504436580872,
+        "min_thorax_height_mm": 0.8229453135490895,
+        "longest_fall_criterion_ms": 0.0,
+        "fell_by_engineering_criterion": false,
+        "inverted_ms": 0.0,
+        "max_contacts": 14
+      },
+      "feedback": {
+        "correction_steps": {
+          "retraction": 0,
+          "stumbling": 113,
+          "net": 113
+        },
+        "max_abs_joint_correction_multiplier": 2.0874598926172196,
+        "max_actuator_force_native_mixed_units": 40.0
+      },
+      "units": {
+        "position": "mm",
+        "time": "ms",
+        "orientation": "radians in frames; degrees in summary",
+        "actuator": "native MuJoCo per-actuator units; mixed force/torque, no SI conversion"
+      },
+      "elapsed_seconds": 8.07422760000918
+    },
+    {
+      "name": "zero_descending",
+      "source": "External fixed command; not neural activity",
+      "external_descending_signal_left_right": [
+        0.0,
+        0.0
+      ],
+      "status": "completed",
+      "failure": null,
+      "physics": {
+        "flygym": "2.1.0",
+        "mujoco": "3.9.0",
+        "nq": 73,
+        "nv": 72,
+        "nu": 48,
+        "dt_ms": 0.1,
+        "measured_duration_ms": 1000.0,
+        "warmup_ms": 50.000000000000405,
+        "finite_state": true,
+        "warnings_total": 0,
+        "warnings_during_warmup": 0,
+        "warning_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "motion": {
+        "displacement_mm": [
+          0.05983669550105675,
+          0.022656955163057293,
+          -0.14097642879727101
+        ],
+        "horizontal_displacement_mm": 0.06398255813694051,
+        "forward_projection_mm": 0.059836752277137854,
+        "xy_path_length_mm": 0.23144727802791082,
+        "yaw_change_deg_unwrapped": 0.36419302683275895,
+        "observed_yaw_sign": "near_zero"
+      },
+      "stability": {
+        "max_thorax_tilt_deg": 1.8267863334092715,
+        "min_thorax_height_mm": 1.0166045066289329,
+        "longest_fall_criterion_ms": 0.0,
+        "fell_by_engineering_criterion": false,
+        "inverted_ms": 0.0,
+        "max_contacts": 14
+      },
+      "feedback": {
+        "correction_steps": {
+          "retraction": 0,
+          "stumbling": 0,
+          "net": 0
+        },
+        "max_abs_joint_correction_multiplier": 0.0,
+        "max_actuator_force_native_mixed_units": 40.0
+      },
+      "units": {
+        "position": "mm",
+        "time": "ms",
+        "orientation": "radians in frames; degrees in summary",
+        "actuator": "native MuJoCo per-actuator units; mixed force/torque, no SI conversion"
+      },
+      "elapsed_seconds": 7.7181873000226915
+    }
+  ]
+}

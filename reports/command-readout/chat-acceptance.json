@@ -1,0 +1,437 @@
+{
+  "schema": "chatflypt.command-chat-acceptance.v1",
+  "real_http": true,
+  "single_individual": true,
+  "llm_called": false,
+  "messages": [
+    "看看环境",
+    "右边有糖",
+    "左转",
+    "看看环境",
+    "右侧有酵母",
+    "看看环境"
+  ],
+  "windows": 6,
+  "windows_with_spoken_direction": 0,
+  "served_directions": {
+    "command:turn-left": false,
+    "command:turn-right": true
+  },
+  "turns": [
+    {
+      "message": "看看环境",
+      "readout_model": "general_sensory_unified",
+      "command": {
+        "status": "decoded",
+        "text": null,
+        "labels": [],
+        "reason": null,
+        "withheld_direction": null,
+        "served_directions": {
+          "command:turn-left": false,
+          "command:turn-right": true
+        },
+        "prediction": {
+          "steer_command": 0.0007403255394673111,
+          "informative_abs_command": 0.015274723326867565
+        },
+        "measured_outcome": null,
+        "limitations": [
+          "文字来自内部活动的有限命令读出：读出的是它自己下发的踏步驱动不对称。",
+          "不是实测转动，也不证明它有意转向；身体是否跟随由物理仿真单独记录。",
+          "读出特征已排除全部已映射运动群细胞，避免直接复述固定控制公式。"
+        ]
+      },
+      "intent": null,
+      "body_commands": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 0.0,
+          "max": 0.31606027941427883
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "record": "reports/dialogue/b392b4d068684993997ad699603f7b09.json"
+    },
+    {
+      "message": "右边有糖",
+      "readout_model": "general_sensory_unified",
+      "command": {
+        "status": "decoded",
+        "text": null,
+        "labels": [],
+        "reason": null,
+        "withheld_direction": null,
+        "served_directions": {
+          "command:turn-left": false,
+          "command:turn-right": true
+        },
+        "prediction": {
+          "steer_command": -0.00012760391182535958,
+          "informative_abs_command": 0.015274723326867565
+        },
+        "measured_outcome": null,
+        "limitations": [
+          "文字来自内部活动的有限命令读出：读出的是它自己下发的踏步驱动不对称。",
+          "不是实测转动，也不证明它有意转向；身体是否跟随由物理仿真单独记录。",
+          "读出特征已排除全部已映射运动群细胞，避免直接复述固定控制公式。"
+        ]
+      },
+      "intent": null,
+      "body_commands": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 1.9798862865443774e-08,
+          "max": 0.19673468215230064
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "record": "reports/dialogue/63bc693f5eb949188ea1ea1c7b55008f.json"
+    },
+    {
+      "message": "左转",
+      "readout_model": "general_sensory_unified",
+      "command": {
+        "status": "decoded",
+        "text": null,
+        "labels": [],
+        "reason": null,
+        "withheld_direction": null,
+        "served_directions": {
+          "command:turn-left": false,
+          "command:turn-right": true
+        },
+        "prediction": {
+          "steer_command": 0.00017604481732950896,
+          "informative_abs_command": 0.015274723326867565
+        },
+        "measured_outcome": null,
+        "limitations": [
+          "文字来自内部活动的有限命令读出：读出的是它自己下发的踏步驱动不对称。",
+          "不是实测转动，也不证明它有意转向；身体是否跟随由物理仿真单独记录。",
+          "读出特征已排除全部已映射运动群细胞，避免直接复述固定控制公式。"
+        ]
+      },
+      "intent": null,
+      "body_commands": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 6.599713347437618e-05,
+          "max": 0.3935093695722719
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "record": "reports/dialogue/042746c7e38c4f2e88f4b7dedfec85ab.json"
+    },
+    {
+      "message": "看看环境",
+      "readout_model": "general_sensory_unified",
+      "command": {
+        "status": "decoded",
+        "text": null,
+        "labels": [],
+        "reason": null,
+        "withheld_direction": null,
+        "served_directions": {
+          "command:turn-left": false,
+          "command:turn-right": true
+        },
+        "prediction": {
+          "steer_command": 0.0011882558234411781,
+          "informative_abs_command": 0.015274723326867565
+        },
+        "measured_outcome": null,
+        "limitations": [
+          "文字来自内部活动的有限命令读出：读出的是它自己下发的踏步驱动不对称。",
+          "不是实测转动，也不证明它有意转向；身体是否跟随由物理仿真单独记录。",
+          "读出特征已排除全部已映射运动群细胞，避免直接复述固定控制公式。"
+        ]
+      },
+      "intent": null,
+      "body_commands": {
+        "left": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "escape": {
+          "min": 6.610148527248048e-05,
+          "max": 0.19704575047832185
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "record": "reports/dialogue/31a42783e92b4cd49b98f2ff0e90f68a.json"
+    },
+    {
+      "message": "右侧有酵母",
+      "readout_model": "general_sensory_unified",
+      "command": {
+        "status": "decoded",
+        "text": null,
+        "labels": [],
+        "reason": null,
+        "withheld_direction": null,
+        "served_directions": {
+          "command:turn-left": false,
+          "command:turn-right": true
+        },
+        "prediction": {
+          "steer_command": -0.009669865887478854,
+          "informative_abs_command": 0.015274723326867565
+        },
+        "measured_outcome": null,
+        "limitations": [
+          "文字来自内部活动的有限命令读出：读出的是它自己下发的踏步驱动不对称。",
+          "不是实测转动，也不证明它有意转向；身体是否跟随由物理仿真单独记录。",
+          "读出特征已排除全部已映射运动群细胞，避免直接复述固定控制公式。"
+        ]
+      },
+      "intent": null,
+      "body_commands": {
+        "left": {
+          "min": 0.0,
+          "max": 0.12819202746419167
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 0.0,
+          "max": 0.014436975608549221
+        },
+        "feeding": {
+          "min": 0.0,
+          "max": 0.3604272650222714
+        },
+        "song": {
+          "min": 0.0,
+          "max": 0.09836733507184164
+        },
+        "escape": {
+          "min": 4.1165093124245153e-08,
+          "max": 0.006699816145180393
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "record": "reports/dialogue/c4ca3dd0082648f2a1fa4f0dbc40f7c6.json"
+    },
+    {
+      "message": "看看环境",
+      "readout_model": "general_sensory_unified",
+      "command": {
+        "status": "decoded",
+        "text": null,
+        "labels": [],
+        "reason": null,
+        "withheld_direction": null,
+        "served_directions": {
+          "command:turn-left": false,
+          "command:turn-right": true
+        },
+        "prediction": {
+          "steer_command": -0.009815375107512188,
+          "informative_abs_command": 0.015274723326867565
+        },
+        "measured_outcome": null,
+        "limitations": [
+          "文字来自内部活动的有限命令读出：读出的是它自己下发的踏步驱动不对称。",
+          "不是实测转动，也不证明它有意转向；身体是否跟随由物理仿真单独记录。",
+          "读出特征已排除全部已映射运动群细胞，避免直接复述固定控制公式。"
+        ]
+      },
+      "intent": null,
+      "body_commands": {
+        "left": {
+          "min": 1.0658752854403744e-07,
+          "max": 0.017333194291411284
+        },
+        "right": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "antenna": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "rub": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "anterior": {
+          "min": 1.9360163235416426e-05,
+          "max": 0.004737275751024766
+        },
+        "feeding": {
+          "min": 0.11178103429891484,
+          "max": 0.43371605831536336
+        },
+        "song": {
+          "min": 6.1225251965717154e-12,
+          "max": 9.964703113256256e-07
+        },
+        "escape": {
+          "min": 1.5340802487038197e-13,
+          "max": 2.49678910897804e-08
+        },
+        "flight": {
+          "min": 0.0,
+          "max": 0.0
+        },
+        "landing": {
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "record": "reports/dialogue/f4d93b6831eb4d16819d5645533b5307.json"
+    }
+  ],
+  "biologically_calibrated": false
+}

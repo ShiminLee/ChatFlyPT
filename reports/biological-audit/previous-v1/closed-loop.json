@@ -1,0 +1,958 @@
+{
+  "status": "executed",
+  "environment": "Our 7x7 toy grid; fixed central food; no odor gradient or biomechanics",
+  "original_environment_available": false,
+  "advice_source": "explicit deterministic policy; LLM unavailable",
+  "fresh_api_requests_per_neural_trial": false,
+  "wall_example": [
+    {
+      "seed": 83000,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83001,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83002,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83003,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83004,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83005,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83006,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83007,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83008,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83009,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83010,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83011,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83012,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83013,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83014,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83015,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83016,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83017,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83018,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83019,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83020,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83021,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83022,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83023,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83024,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83025,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83026,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83027,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83028,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83029,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83030,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83031,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83032,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83033,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83034,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83035,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    },
+    {
+      "seed": 83036,
+      "model_advice": "left",
+      "decoded_action": "left",
+      "heading_before": "east",
+      "heading_after": "north",
+      "left_turn": true
+    }
+  ],
+  "left_turns": 37,
+  "wall_trials": 37,
+  "foraging": {
+    "food_position": [
+      3,
+      3
+    ],
+    "steps": 64,
+    "food_found": false,
+    "trajectory": [
+      {
+        "step": 0,
+        "position": [
+          2,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 1,
+        "position": [
+          3,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 2,
+        "position": [
+          4,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 3,
+        "position": [
+          5,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 4,
+        "position": [
+          5,
+          1
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 5,
+        "position": [
+          5,
+          2
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 6,
+        "position": [
+          5,
+          3
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 7,
+        "position": [
+          5,
+          4
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 8,
+        "position": [
+          5,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 9,
+        "position": [
+          5,
+          5
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 10,
+        "position": [
+          4,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 11,
+        "position": [
+          3,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 12,
+        "position": [
+          2,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 13,
+        "position": [
+          1,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 14,
+        "position": [
+          1,
+          5
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 15,
+        "position": [
+          1,
+          4
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 16,
+        "position": [
+          1,
+          3
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 17,
+        "position": [
+          1,
+          2
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 18,
+        "position": [
+          1,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 19,
+        "position": [
+          1,
+          1
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 20,
+        "position": [
+          2,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 21,
+        "position": [
+          3,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 22,
+        "position": [
+          4,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 23,
+        "position": [
+          5,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 24,
+        "position": [
+          5,
+          1
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 25,
+        "position": [
+          5,
+          2
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 26,
+        "position": [
+          5,
+          3
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 27,
+        "position": [
+          5,
+          4
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 28,
+        "position": [
+          5,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 29,
+        "position": [
+          5,
+          5
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 30,
+        "position": [
+          4,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 31,
+        "position": [
+          3,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 32,
+        "position": [
+          2,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 33,
+        "position": [
+          1,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 34,
+        "position": [
+          1,
+          5
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 35,
+        "position": [
+          1,
+          4
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 36,
+        "position": [
+          1,
+          3
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 37,
+        "position": [
+          1,
+          2
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 38,
+        "position": [
+          1,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 39,
+        "position": [
+          1,
+          1
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 40,
+        "position": [
+          2,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 41,
+        "position": [
+          3,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 42,
+        "position": [
+          4,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 43,
+        "position": [
+          5,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 44,
+        "position": [
+          5,
+          1
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 45,
+        "position": [
+          5,
+          2
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 46,
+        "position": [
+          5,
+          3
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 47,
+        "position": [
+          5,
+          4
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 48,
+        "position": [
+          5,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 49,
+        "position": [
+          5,
+          5
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 50,
+        "position": [
+          4,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 51,
+        "position": [
+          3,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 52,
+        "position": [
+          2,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 53,
+        "position": [
+          1,
+          5
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 54,
+        "position": [
+          1,
+          5
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 55,
+        "position": [
+          1,
+          4
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 56,
+        "position": [
+          1,
+          3
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 57,
+        "position": [
+          1,
+          2
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 58,
+        "position": [
+          1,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 59,
+        "position": [
+          1,
+          1
+        ],
+        "advice": "right",
+        "decoded": "right",
+        "food_found": false
+      },
+      {
+        "step": 60,
+        "position": [
+          2,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 61,
+        "position": [
+          3,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 62,
+        "position": [
+          4,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      },
+      {
+        "step": 63,
+        "position": [
+          5,
+          1
+        ],
+        "advice": "forward",
+        "decoded": "forward",
+        "food_found": false
+      }
+    ]
+  },
+  "interpretation": "External learned readout controls the grid. This tests a constructed communication channel, not innate semantic understanding or consciousness."
+}

@@ -1,0 +1,1276 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "artifact": "data\\derived\\unified-readout\\runs\\receptors-v2\\malecns-decoder.candidate.npz",
+  "artifact_sha256": "64735275cd406ecc01f286418bb3b7b34a85c8006ec4672c6bb8ab7fe5ea0ba9",
+  "protocol_sha256": "20f6ce0ca6f0d11d6a485cabfb3c64e68247a0ff654ae1d5ef16c45be860188f",
+  "contract": {
+    "schema": "chatflypt.unified-neural-readout.v1",
+    "dataset": "MaleCNS v1.0",
+    "neurons": 166700,
+    "graph": {
+      "ids": "e6b1bf8ffd66796cef781324c78c6c60b142851eb80ceb0efc0e7e0881832f6a",
+      "indptr": "f5454c71497faea87d4c6078af2d8233fb1bf0ee3b3da1bd0fd71c81af7a396f",
+      "indices": "4b1983ff790b5a46584b882f9127fd072c9eb37d6caa69b696075dd71cb324bb",
+      "weights": "da2f9cfd08c94a9f1810e25c088f8674bdfe00437d9bc1cbe1f7f4e5f952ef27"
+    },
+    "input_mapping_sha256": "e0c945e9275234a0fc953a95ac595b26f01b2ced0747a3aa76a4b8ad38bd5f05",
+    "blind_mask_sha256": "875e8a546604c3daecb7cc17fb6f3379bbfe4d29ba820b9bb27d82147270c9ad",
+    "engine": {
+      "brain.py": "5ee9078ce125e44b309db1676b155c2b5516b607b5a7d91774dcb344ab13a3e9",
+      "malecns.py": "3ffd95d1332187127c5209c9d2a6a1d777059cebdb0411cdc37d75ce1c492483",
+      "neural_session.py": "a3a3ee1c3ef2798ca071a12a01ea1571fc607a00616af58f159215d44ce3e491",
+      "sensory_events.py": "0b7468ac325289abe94343b13e2af9bcb2b6b1b1259f493223bb4ffa3bc34a1e",
+      "social.py": "8144896801dcf7fa6f9a3e9e4921019515a17dbd355635d92735fb58d409c33f"
+    },
+    "physical_transduction": {
+      "environment.py": "f2533497febafe1f081a991a8af9b1dd87ec63638fde76b031c5583b12d381a9",
+      "embodied.py": "203ec8ac8527df95f0bc7b802376152c6defdc5b01cbc3f16e71a09336f4a822",
+      "body_feedback.py": "2bd54cd87987092b4f2498166a4e074187c7bf913bf02ef4ffcc7f89e099a9aa",
+      "physical_touch.py": "fd7f972148975952809b4ea5cbd876a4ba9c0210bf6057ff396410be4170fe63",
+      "malecns_senses.py": "b25c665d23e936228e3ce6f9e8077c07a34f78fcc174afc9d7f49a0384fffa95",
+      "proprioception.py": "a763899e8a6d18d0359f39a7c8c8f1bfac2f7f29c06e165b8579d447842fe298",
+      "spatial_vision.py": "37c9b7c2c9f34e868cc363a2d0c7725b52f659f7caa0d1625e80b806806edacc",
+      "behavior_readout.py": "573b413f7b3fe63c331069c3a21bc5e37bac299e8e475f5010e6d54c5feeda0e",
+      "behavior_body.py": "4293d80edc6d36fec8a56103d7337444bce334b27e4c0e7d3a07ee6087e8cc4a",
+      "joint_motor.py": "7964260c806004b8e428c31c26fdd3445cc063476f9d04b3eac9f5593dc797b8",
+      "live_environment.py": "5066b15355d0a37dd6c0be0e2622e7e1e184d3c5cca47453cfbcdc30d3ce2a5f"
+    },
+    "source_artifacts": {
+      "malecns_annotations": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "spatial_vision_receptor_map": "867d66de2ce189361971a418dcdb5cd2b93000779264a629341347247d2c2d41",
+      "spatial_vision_mapping_provenance": "0582803fad7384a75a5e01f48f80d3a813864ff07abf8f8996f5f9f8dee4124d"
+    },
+    "readout_features_sha256": "c5a300e7f824e49a1055d8a77f9ccae07a5b32fbc1d410c925af95265320f415",
+    "features": "sqrt spikes; log1p positive/negative voltage area; normalized to 500 ms"
+  },
+  "features": 241527,
+  "all_sensory_and_direct_cells_excluded": true,
+  "train_windows": 28,
+  "validation_windows": 28,
+  "test_windows": 28,
+  "groups": {
+    "train": [
+      "unified-train-bright",
+      "unified-train-cold",
+      "unified-train-dark",
+      "unified-train-dark_yeast",
+      "unified-train-heat",
+      "unified-train-leg_sugar",
+      "unified-train-mouth_block",
+      "unified-train-mouth_high_salt",
+      "unified-train-mouth_sugar",
+      "unified-train-touch_left",
+      "unified-train-touch_right",
+      "unified-train-yeast"
+    ],
+    "validation": [
+      "unified-validation-bright",
+      "unified-validation-cold",
+      "unified-validation-dark",
+      "unified-validation-dark_yeast",
+      "unified-validation-heat",
+      "unified-validation-leg_sugar",
+      "unified-validation-mouth_block",
+      "unified-validation-mouth_high_salt",
+      "unified-validation-mouth_sugar",
+      "unified-validation-touch_left",
+      "unified-validation-touch_right",
+      "unified-validation-yeast"
+    ],
+    "test": [
+      "unified-test-bright",
+      "unified-test-cold",
+      "unified-test-dark",
+      "unified-test-dark_yeast",
+      "unified-test-heat",
+      "unified-test-leg_sugar",
+      "unified-test-mouth_block",
+      "unified-test-mouth_high_salt",
+      "unified-test-mouth_sugar",
+      "unified-test-touch_left",
+      "unified-test-touch_right",
+      "unified-test-yeast"
+    ]
+  },
+  "qualified_labels": [
+    "bright:left",
+    "bright:right",
+    "yeast:left",
+    "yeast:right",
+    "warm:left",
+    "warm:right",
+    "cold:left",
+    "cold:right",
+    "foreleg_touch:left",
+    "foreleg_touch:right",
+    "midleg_touch:left",
+    "midleg_touch:right",
+    "hindleg_touch:left",
+    "hindleg_touch:right",
+    "leg_sweet_local:left",
+    "leg_sweet_local:right",
+    "leg_appetitive_ascending:left",
+    "leg_appetitive_ascending:right"
+  ],
+  "unqualified_labels": [
+    "body_touch:left",
+    "body_touch:right",
+    "wing_touch:left",
+    "wing_touch:right",
+    "sugar_specific:left",
+    "sugar_specific:right",
+    "high_salt:left",
+    "high_salt:right"
+  ],
+  "validation": {
+    "windows": 28,
+    "exact_set_accuracy": 1.0,
+    "micro_f1": 1.0,
+    "per_label": {
+      "bright:left": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 0,
+        "positives": 24,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "bright:right": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 0,
+        "positives": 24,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 24,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 24,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "warm:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "warm:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cold:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cold:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "foreleg_touch:left": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "positives": 5,
+        "negatives": 23,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "positives": 6,
+        "negatives": 22,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_sweet_local:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "test": {
+    "windows": 28,
+    "exact_set_accuracy": 0.8928571428571429,
+    "micro_f1": 0.9844559585492227,
+    "per_label": {
+      "bright:left": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 0,
+        "positives": 24,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "bright:right": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 0,
+        "positives": 24,
+        "negatives": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:left": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 24,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "yeast:right": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "positives": 4,
+        "negatives": 24,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "warm:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "warm:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cold:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "cold:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "foreleg_touch:left": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "positives": 9,
+        "negatives": 19,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "foreleg_touch:right": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 3,
+        "positives": 9,
+        "negatives": 19,
+        "precision": 1.0,
+        "recall": 0.6666666666666666
+      },
+      "midleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "midleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "hindleg_touch:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_sweet_local:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "shuffled_control": {
+    "windows": 28,
+    "exact_set_accuracy": 0.07142857142857142,
+    "micro_f1": 0.45595854922279794,
+    "per_label": {
+      "bright:left": {
+        "tp": 20,
+        "fp": 4,
+        "fn": 4,
+        "positives": 24,
+        "negatives": 4,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334
+      },
+      "bright:right": {
+        "tp": 20,
+        "fp": 4,
+        "fn": 4,
+        "positives": 24,
+        "negatives": 4,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334
+      },
+      "yeast:left": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 3,
+        "positives": 4,
+        "negatives": 24,
+        "precision": 0.25,
+        "recall": 0.25
+      },
+      "yeast:right": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 3,
+        "positives": 4,
+        "negatives": 24,
+        "precision": 0.25,
+        "recall": 0.25
+      },
+      "warm:left": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "warm:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:left": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "cold:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "foreleg_touch:left": {
+        "tp": 2,
+        "fp": 7,
+        "fn": 7,
+        "positives": 9,
+        "negatives": 19,
+        "precision": 0.2222222222222222,
+        "recall": 0.2222222222222222
+      },
+      "foreleg_touch:right": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 9,
+        "positives": 9,
+        "negatives": 19,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "midleg_touch:left": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "midleg_touch:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "hindleg_touch:left": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "hindleg_touch:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "body_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "wing_touch:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "sugar_specific:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:left": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "high_salt:right": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "positives": 0,
+        "negatives": 28,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:left": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_sweet_local:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_appetitive_ascending:left": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "leg_appetitive_ascending:right": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "positives": 2,
+        "negatives": 26,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  "zero_false_positives": 0,
+  "serving_matches_test_matrix": true,
+  "selection": "Train selects features/weights; validation selects thresholds and per-label qualification; saved before opening test.",
+  "candidate_only": true,
+  "biologically_calibrated": false,
+  "test_predictions": [
+    {
+      "episode": "test-bright",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-bright",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-dark",
+      "turn": 0,
+      "expected": [],
+      "predicted": []
+    },
+    {
+      "episode": "test-dark",
+      "turn": 1,
+      "expected": [],
+      "predicted": []
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-yeast",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "yeast:left",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 0,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "yeast:left",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-dark_yeast",
+      "turn": 1,
+      "expected": [
+        "yeast:left",
+        "yeast:right"
+      ],
+      "predicted": [
+        "yeast:left",
+        "yeast:right"
+      ]
+    },
+    {
+      "episode": "test-heat",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ]
+    },
+    {
+      "episode": "test-heat",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "warm:left",
+        "warm:right"
+      ]
+    },
+    {
+      "episode": "test-cold",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-cold",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "cold:left",
+        "cold:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_block",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-mouth_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-mouth_high_salt",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-leg_sugar",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left",
+        "foreleg_touch:right",
+        "midleg_touch:left",
+        "midleg_touch:right",
+        "hindleg_touch:left",
+        "hindleg_touch:right",
+        "leg_sweet_local:left",
+        "leg_sweet_local:right",
+        "leg_appetitive_ascending:left",
+        "leg_appetitive_ascending:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ]
+    },
+    {
+      "episode": "test-touch_left",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 0,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 1,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 2,
+      "expected": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right",
+        "foreleg_touch:left"
+      ]
+    },
+    {
+      "episode": "test-touch_right",
+      "turn": 3,
+      "expected": [
+        "bright:left",
+        "bright:right"
+      ],
+      "predicted": [
+        "bright:left",
+        "bright:right"
+      ]
+    }
+  ],
+  "limitations": [
+    "Some conditions occupy only one session per split.",
+    "Persistent windows within a session are correlated, not independent replicates.",
+    "Lateralized population delivery is not spatial object localization.",
+    "No natural-language intent or behavior target is fitted.",
+    "No held-out test failure is retuned away in this run.",
+    "Whole-brain dynamics, receptor transduction and motor behavior are not calibrated by this classifier."
+  ]
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eyemap Archive</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <nav>
+    <a class="brand" href="index.html">Eyemap Archive</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="browse.html">Browse</a>
+    <a href="view.html">3D Viewer</a>
+    <a href="https://github.com/artxz/eyemap-archive">GitHub</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Eyemap Archive</h1>
+  <p class="lede">
+    Pre-computed maps between the hexagonal lattice of the <em>Drosophila</em>
+    compound eye and the 3D viewing direction of each ommatidium/optic-lobe
+    column &mdash; ready to browse, inspect in 3D, and download.
+  </p>
+
+  <h2>What is an "eyemap"?</h2>
+  <p>
+    Each ommatidium (facet) of the fly's compound eye corresponds to a column
+    of neurons running through the optic lobe. An <strong>eyemap</strong>
+    records, for every column, its position in a hexagonal lattice (
+    <code>p</code>, <code>q</code>) alongside the 3D direction that column
+    looks out into the world &mdash; a unit vector (<code>x</code>,
+    <code>y</code>, <code>z</code>) on the sphere of gaze directions,
+    equivalently given as spherical angles (<code>theta</code>,
+    <code>phi</code>). Some datasets also link each column to a specific
+    identified neuron (<code>rootid</code>) in a connectome reconstruction.
+  </p>
+
+  <table class="cols">
+    <tr><th>Column</th><th>Meaning</th></tr>
+    <tr><td><code>p, q</code></td><td>Hexagonal lattice coordinates of the column (oblique axes)</td></tr>
+    <tr><td><code>x, y, z</code></td><td>Unit viewing-direction vector — a point on the unit sphere (+x forward, +y left, +z up/dorsal)</td></tr>
+    <tr><td><code>theta, phi</code></td><td>The same direction as spherical angles, in degrees</td></tr>
+    <tr><td><code>rootid</code></td><td>Connectome neuron ID at that column (only present for some datasets)</td></tr>
+  </table>
+
+  <p>
+    This archive currently hosts eyemaps registered to the FAFB/FlyWire and
+    male CNS (maleCNS) connectomes, including a Dorsal Rim Area (DRA) variant
+    for the polarized-light-sensing region of the eye. See
+    <a href="browse.html">Browse</a> for the full list with per-dataset
+    details.
+  </p>
+
+  <h2>Using the site</h2>
+  <p>
+    <a href="browse.html"><strong>Browse</strong></a> lists every available
+    eyemap with its source connectome, date, hemisphere coverage, and point
+    count. From there, open the <a href="view.html"><strong>3D
+    Viewer</strong></a> to rotate a dataset as a 3D scatter of viewing
+    directions, or switch to a flattened Mollweide or Mercator projection
+    (the same views used in downstream analysis code). Each dataset card also
+    links directly to its raw <code>.xlsx</code>/<code>.rda</code> files plus
+    plain CSV/JSON exports.
+  </p>
+
+  <h2>Programmatic download</h2>
+  <p>
+    <a href="manifest.json"><code>manifest.json</code></a> is a
+    machine-readable index of every dataset and its stable download URLs —
+    fetch it first, then pull whichever files you need without scraping the
+    site.
+  </p>
+  <pre><code># Python
+import requests, pandas as pd
+
+manifest = requests.get(
+    "https://artxz.github.io/eyemap-archive/manifest.json"
+).json()
+
+ds = next(d for d in manifest["datasets"] if d["id"] == "eyemap_783_20240701")
+url = ds["hemispheres"]["left"]["files"]["csv"]
+df = pd.read_csv("https://artxz.github.io/eyemap-archive/" + url)
+</code></pre>
+  <pre><code># R
+manifest &lt;- jsonlite::fromJSON("https://artxz.github.io/eyemap-archive/manifest.json")
+ds &lt;- manifest$datasets[manifest$datasets$id == "eyemap_783_20240701", ]
+df &lt;- read.csv(paste0("https://artxz.github.io/eyemap-archive/", ds$hemispheres$left$files$csv))
+</code></pre>
+
+  <h2>Citing this data</h2>
+  <p>
+    Zhao et al. 2022,
+    <a href="https://doi.org/10.1101/2022.12.14.520178">bioRxiv</a><br />
+    Nern et al. 2025, <a href="https://doi.org/10.1038/s41586-025-08746-0">Nature</a>
+  </p>
+</main>
+
+<footer>Eyemap Archive &middot; Reiser Lab, Janelia Research Campus</footer>
+</body>
+</html>

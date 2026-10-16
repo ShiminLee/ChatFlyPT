@@ -1,0 +1,392 @@
+{
+  "schema": "chatflypt.readout-coverage.v1",
+  "run_id": "conspecific-v5",
+  "windows": 294,
+  "conditions": {
+    "bright": 6,
+    "cold": 6,
+    "dark": 6,
+    "dark_leg_block_control": 6,
+    "dark_leg_sugar_control": 6,
+    "dark_yeast": 6,
+    "far_pheromone_control": 6,
+    "far_song_control": 6,
+    "far_sugar_control": 6,
+    "heat": 6,
+    "leg_block_control": 6,
+    "leg_sugar": 6,
+    "mouth_block": 6,
+    "mouth_high_salt": 6,
+    "mouth_sugar": 6,
+    "nudge_alternating": 6,
+    "nudge_left": 6,
+    "nudge_right": 6,
+    "pheromone_left": 6,
+    "pheromone_partner_left": 6,
+    "pheromone_partner_right": 6,
+    "pheromone_plume_left": 6,
+    "pheromone_plume_right": 6,
+    "pheromone_right": 6,
+    "song_left": 6,
+    "song_partner_left": 6,
+    "song_partner_right": 6,
+    "song_plume_left": 6,
+    "song_plume_right": 6,
+    "song_right": 6,
+    "tap1x180_left": 6,
+    "tap1x180_right": 6,
+    "tap3x60_left": 6,
+    "tap3x60_right": 6,
+    "tap6x30_left": 6,
+    "tap6x30_right": 6,
+    "touch_left": 12,
+    "touch_right": 12,
+    "unilateral_bright_left": 6,
+    "unilateral_bright_right": 6,
+    "unilateral_cold_left": 6,
+    "unilateral_cold_right": 6,
+    "unilateral_heat_left": 6,
+    "unilateral_heat_right": 6,
+    "unilateral_yeast_left": 6,
+    "unilateral_yeast_right": 6,
+    "yeast": 6
+  },
+  "labels": {
+    "auditory:left": {
+      "train": 9,
+      "validation": 9,
+      "test": 11,
+      "conditions": {
+        "song_partner_left": 6,
+        "song_partner_right": 6,
+        "song_plume_left": 6,
+        "song_plume_right": 6,
+        "song_left": 3,
+        "song_right": 2
+      }
+    },
+    "auditory:right": {
+      "train": 10,
+      "validation": 10,
+      "test": 12,
+      "conditions": {
+        "song_partner_left": 6,
+        "song_partner_right": 6,
+        "song_plume_left": 6,
+        "song_plume_right": 6,
+        "song_right": 5,
+        "song_left": 3
+      }
+    },
+    "bright:left": {
+      "train": 90,
+      "validation": 90,
+      "test": 90,
+      "conditions": {
+        "touch_left": 12,
+        "touch_right": 12,
+        "bright": 6,
+        "cold": 6,
+        "far_pheromone_control": 6,
+        "far_song_control": 6,
+        "far_sugar_control": 6,
+        "heat": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6,
+        "mouth_block": 6,
+        "mouth_high_salt": 6,
+        "mouth_sugar": 6,
+        "nudge_alternating": 6,
+        "nudge_left": 6,
+        "nudge_right": 6,
+        "pheromone_left": 6,
+        "pheromone_partner_left": 6,
+        "pheromone_partner_right": 6,
+        "pheromone_plume_left": 6,
+        "pheromone_plume_right": 6,
+        "pheromone_right": 6,
+        "song_left": 6,
+        "song_partner_left": 6,
+        "song_partner_right": 6,
+        "song_plume_left": 6,
+        "song_plume_right": 6,
+        "song_right": 6,
+        "tap1x180_left": 6,
+        "tap1x180_right": 6,
+        "tap3x60_left": 6,
+        "tap3x60_right": 6,
+        "tap6x30_left": 6,
+        "tap6x30_right": 6,
+        "unilateral_bright_left": 6,
+        "unilateral_bright_right": 6,
+        "unilateral_cold_left": 6,
+        "unilateral_cold_right": 6,
+        "unilateral_heat_left": 6,
+        "unilateral_heat_right": 6,
+        "unilateral_yeast_left": 6,
+        "unilateral_yeast_right": 6,
+        "yeast": 6
+      }
+    },
+    "bright:right": {
+      "train": 89,
+      "validation": 89,
+      "test": 90,
+      "conditions": {
+        "touch_left": 12,
+        "touch_right": 12,
+        "bright": 6,
+        "cold": 6,
+        "far_pheromone_control": 6,
+        "far_song_control": 6,
+        "far_sugar_control": 6,
+        "heat": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6,
+        "mouth_block": 6,
+        "mouth_high_salt": 6,
+        "mouth_sugar": 6,
+        "nudge_alternating": 6,
+        "nudge_left": 6,
+        "nudge_right": 6,
+        "pheromone_left": 6,
+        "pheromone_partner_left": 6,
+        "pheromone_partner_right": 6,
+        "pheromone_plume_left": 6,
+        "pheromone_plume_right": 6,
+        "pheromone_right": 6,
+        "song_left": 6,
+        "song_partner_left": 6,
+        "song_partner_right": 6,
+        "song_plume_left": 6,
+        "song_plume_right": 6,
+        "song_right": 6,
+        "tap1x180_left": 6,
+        "tap1x180_right": 6,
+        "tap3x60_left": 6,
+        "tap3x60_right": 6,
+        "tap6x30_left": 6,
+        "tap6x30_right": 6,
+        "unilateral_bright_right": 6,
+        "unilateral_cold_left": 6,
+        "unilateral_cold_right": 6,
+        "unilateral_heat_left": 6,
+        "unilateral_heat_right": 6,
+        "unilateral_yeast_left": 6,
+        "unilateral_yeast_right": 6,
+        "yeast": 6,
+        "unilateral_bright_left": 4
+      }
+    },
+    "cold:left": {
+      "train": 3,
+      "validation": 3,
+      "test": 3,
+      "conditions": {
+        "cold": 6,
+        "unilateral_cold_left": 3
+      }
+    },
+    "cold:right": {
+      "train": 2,
+      "validation": 3,
+      "test": 3,
+      "conditions": {
+        "cold": 6,
+        "unilateral_cold_right": 2
+      }
+    },
+    "cva:left": {
+      "train": 10,
+      "validation": 10,
+      "test": 9,
+      "conditions": {
+        "pheromone_partner_left": 6,
+        "pheromone_partner_right": 6,
+        "pheromone_plume_left": 6,
+        "pheromone_plume_right": 6,
+        "pheromone_left": 3,
+        "pheromone_right": 2
+      }
+    },
+    "cva:right": {
+      "train": 9,
+      "validation": 9,
+      "test": 10,
+      "conditions": {
+        "pheromone_partner_left": 6,
+        "pheromone_partner_right": 6,
+        "pheromone_plume_left": 6,
+        "pheromone_plume_right": 6,
+        "pheromone_right": 3,
+        "pheromone_left": 1
+      }
+    },
+    "foreleg_touch:left": {
+      "train": 19,
+      "validation": 16,
+      "test": 20,
+      "conditions": {
+        "dark_leg_block_control": 6,
+        "dark_leg_sugar_control": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6,
+        "nudge_right": 6,
+        "mouth_block": 4,
+        "mouth_high_salt": 3,
+        "mouth_sugar": 3,
+        "nudge_alternating": 3,
+        "tap3x60_left": 3,
+        "tap6x30_left": 3,
+        "tap1x180_left": 2,
+        "touch_left": 2,
+        "touch_right": 2
+      }
+    },
+    "foreleg_touch:right": {
+      "train": 16,
+      "validation": 17,
+      "test": 21,
+      "conditions": {
+        "dark_leg_block_control": 6,
+        "dark_leg_sugar_control": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6,
+        "nudge_left": 6,
+        "mouth_high_salt": 3,
+        "nudge_alternating": 3,
+        "tap3x60_right": 3,
+        "tap6x30_right": 3,
+        "touch_left": 3,
+        "touch_right": 3,
+        "mouth_block": 2,
+        "mouth_sugar": 2,
+        "tap1x180_right": 2
+      }
+    },
+    "hindleg_touch:left": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "dark_leg_block_control": 6,
+        "dark_leg_sugar_control": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "hindleg_touch:right": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "dark_leg_block_control": 6,
+        "dark_leg_sugar_control": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "leg_appetitive_ascending:left": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "dark_leg_sugar_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "leg_appetitive_ascending:right": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "dark_leg_sugar_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "leg_sweet_local:left": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "dark_leg_sugar_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "leg_sweet_local:right": {
+      "train": 4,
+      "validation": 4,
+      "test": 4,
+      "conditions": {
+        "dark_leg_sugar_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "midleg_touch:left": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "dark_leg_block_control": 6,
+        "dark_leg_sugar_control": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "midleg_touch:right": {
+      "train": 8,
+      "validation": 8,
+      "test": 8,
+      "conditions": {
+        "dark_leg_block_control": 6,
+        "dark_leg_sugar_control": 6,
+        "leg_block_control": 6,
+        "leg_sugar": 6
+      }
+    },
+    "warm:left": {
+      "train": 3,
+      "validation": 3,
+      "test": 2,
+      "conditions": {
+        "heat": 6,
+        "unilateral_heat_left": 2
+      }
+    },
+    "warm:right": {
+      "train": 3,
+      "validation": 3,
+      "test": 3,
+      "conditions": {
+        "heat": 6,
+        "unilateral_heat_right": 3
+      }
+    },
+    "yeast:left": {
+      "train": 5,
+      "validation": 5,
+      "test": 5,
+      "conditions": {
+        "dark_yeast": 6,
+        "yeast": 6,
+        "unilateral_yeast_left": 3
+      }
+    },
+    "yeast:right": {
+      "train": 5,
+      "validation": 5,
+      "test": 5,
+      "conditions": {
+        "dark_yeast": 6,
+        "yeast": 6,
+        "unilateral_yeast_right": 3
+      }
+    }
+  },
+  "notes": [
+    "Delivered means measured receptor events inside the sampled windows, not the planned scene.",
+    "A label with fewer than two positives in a split cannot pass the per-label gates there.",
+    "Labels whose channels have no presentation route (wing membrane, whole thorax, labellum) cannot appear here at all; that is a documented abstention, not missing data."
+  ],
+  "biologically_calibrated": false
+}

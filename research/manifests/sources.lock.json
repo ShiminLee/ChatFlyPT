@@ -1,0 +1,91 @@
+[
+  {
+    "id": "shiu-brain",
+    "repository": "https://github.com/philshiu/Drosophila_brain_model",
+    "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+    "archive_sha256": "367715eaa76f574873da2ea8286daee92a26fc3a842501d8f132f93c17de2961",
+    "local_path": "vendor/shiu-brain",
+    "retrieved_at": "2026-10-15T09:54:25.329359+00:00",
+    "archive_url": "https://codeload.github.com/philshiu/Drosophila_brain_model/tar.gz/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+    "license_note": "MIT"
+  },
+  {
+    "id": "eon-fly-brain",
+    "repository": "https://github.com/eonsystemspbc/fly-brain",
+    "commit": "a3db62f9436074e485c0278290c2164ed6150808",
+    "archive_sha256": "c45fa46b7cf1c27aa6b4e30d6dc3799789fd8bae888f3a69df835f82ca25615a",
+    "local_path": "vendor/eon-fly-brain",
+    "retrieved_at": "2026-10-15T09:54:25.470243+00:00",
+    "archive_url": "https://codeload.github.com/eonsystemspbc/fly-brain/tar.gz/a3db62f9436074e485c0278290c2164ed6150808",
+    "license_note": "GPL-2.0 (review upstream LICENSE for exact terms)"
+  },
+  {
+    "id": "flm",
+    "repository": "https://github.com/nftechie/flm",
+    "commit": "7251a8921db4f891c39bd75ee5ad827f7031a24b",
+    "archive_sha256": "41a39106a2810e2d57ee849479acf39c11a75563b1d26c37a7e72277d5de84a9",
+    "local_path": "vendor/flm",
+    "retrieved_at": "2026-10-15T09:54:25.472299+00:00",
+    "archive_url": "https://codeload.github.com/nftechie/flm/tar.gz/7251a8921db4f891c39bd75ee5ad827f7031a24b",
+    "license_note": "MIT for original code; upstream models/data retain separate terms"
+  },
+  {
+    "id": "fly-brain-chat",
+    "repository": "https://github.com/lixiang1076/fly-brain",
+    "commit": "f6d525ab10c7a3ed4853d3d8b4b5e73f24cfe52b",
+    "archive_sha256": "e42f084f919ff81460b62dbf86d3d6b5ba38e3da4208c7d7dc3bbe8e9422fe0c",
+    "local_path": "vendor/fly-brain-chat",
+    "retrieved_at": "2026-10-15T09:54:25.474337+00:00",
+    "archive_url": "https://codeload.github.com/lixiang1076/fly-brain/tar.gz/f6d525ab10c7a3ed4853d3d8b4b5e73f24cfe52b",
+    "license_note": "MIT declared; inherited-code provenance requires review before reuse"
+  },
+  {
+    "id": "flyvis",
+    "repository": "https://github.com/TuragaLab/flyvis",
+    "commit": "92b3845cc426dd309a1a0e1b3890156c42e14021",
+    "archive_sha256": "f137d0221644b871dc2100b43761a28d4204dfc7f2c5ea3432b22379e79ff91f",
+    "local_path": "vendor/flyvis",
+    "retrieved_at": "2026-10-15T09:54:25.502722+00:00",
+    "archive_url": "https://codeload.github.com/TuragaLab/flyvis/tar.gz/92b3845cc426dd309a1a0e1b3890156c42e14021",
+    "license_note": "MIT"
+  },
+  {
+    "id": "flygym",
+    "repository": "https://github.com/NeLy-EPFL/flygym",
+    "commit": "38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+    "archive_sha256": "3bac51eb25b8c6715172eb898665ceff5a91aa78b088715d7077443faa84380a",
+    "local_path": "vendor/flygym",
+    "retrieved_at": "2026-10-15T09:54:25.506781+00:00",
+    "archive_url": "https://codeload.github.com/NeLy-EPFL/flygym/tar.gz/38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+    "license_note": "Apache-2.0"
+  },
+  {
+    "id": "flygym-gymnasium",
+    "repository": "https://github.com/NeLy-EPFL/flygym-gymnasium",
+    "commit": "d285260a1c8a7b3494150cd1590f2c9fe4b5e06b",
+    "archive_sha256": "be78f1000ceb99dba6aa457b0fca53d3f128e5d94a4ec8835841235de12c5b10",
+    "local_path": "vendor/flygym-gymnasium",
+    "retrieved_at": "2026-10-15T09:54:25.526249+00:00",
+    "archive_url": "https://codeload.github.com/NeLy-EPFL/flygym-gymnasium/tar.gz/d285260a1c8a7b3494150cd1590f2c9fe4b5e06b",
+    "license_note": "Apache-2.0"
+  },
+  {
+    "id": "flywire-annotations",
+    "repository": "https://github.com/flyconnectome/flywire_annotations",
+    "commit": "8587524c1748ce5ef2080822a2fc890fc03bf597",
+    "archive_sha256": "e7261c9988e5b96a403e1f85fb9714b676b9641d7219ec94f5eeba6852d491ff",
+    "local_path": "vendor/flywire-annotations",
+    "retrieved_at": "2026-10-15T09:54:25.537414+00:00",
+    "archive_url": "https://codeload.github.com/flyconnectome/flywire_annotations/tar.gz/8587524c1748ce5ef2080822a2fc890fc03bf597",
+    "license_note": "No root LICENSE detected; retain upstream data citation/attribution requirements; do not assume a code license."
+  },
+  {
+    "id": "badapple-fly",
+    "repository": "https://github.com/kevinlinxc/badapple-fly",
+    "commit": "6726892e7ebd93e6c5ffab056ab8db09433c28a6",
+    "archive_sha256": "0239523ebd777ffd34462b2f6ef2901a00c8d6da0ba8438e3472b649a90b99e7",
+    "local_path": "vendor/badapple-fly",
+    "retrieved_at": "2026-10-15T09:54:32.328403+00:00",
+    "archive_url": "https://codeload.github.com/kevinlinxc/badapple-fly/tar.gz/6726892e7ebd93e6c5ffab056ab8db09433c28a6"
+  }
+]

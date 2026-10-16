@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Browse &mdash; Eyemap Archive</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <nav>
+    <a class="brand" href="index.html">Eyemap Archive</a>
+    <a href="index.html">Home</a>
+    <a href="browse.html" class="active">Browse</a>
+    <a href="view.html">3D Viewer</a>
+    <a href="https://github.com/artxz/eyemap-archive">GitHub</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Browse eyemaps</h1>
+  <p class="lede">
+    Every eyemap currently in the archive. "View in 3D" opens the interactive
+    viewer; each hemisphere links to its raw <code>.xlsx</code> plus plain
+    CSV/JSON exports.
+  </p>
+
+  <div id="cards" class="card-grid">
+    <p class="info-note">Loading manifest&hellip;</p>
+  </div>
+</main>
+
+<footer>Eyemap Archive &middot; Reiser Lab, Janelia Research Campus</footer>
+
+<script src="js/catalog.js"></script>
+</body>
+</html>

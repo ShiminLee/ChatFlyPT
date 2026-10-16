@@ -1,0 +1,44 @@
+[
+  {
+    "id": "annotations",
+    "dataset": "MaleCNS",
+    "version": "v1.0",
+    "source_page": "https://male-cns.janelia.org/download/",
+    "license": "CC-BY-4.0",
+    "generation": "1780494878811468",
+    "size_bytes": 14483314,
+    "upstream_md5": "50a7718770c57220f160ba4f431ab89e",
+    "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather?generation=1780494878811468",
+    "local_path": "data/raw/malecns-v1.0/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+    "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "verified_at": "2026-09-19T05:28:27.060670+00:00"
+  },
+  {
+    "id": "neurotransmitters",
+    "dataset": "MaleCNS",
+    "version": "v1.0",
+    "source_page": "https://male-cns.janelia.org/download/",
+    "license": "CC-BY-4.0",
+    "generation": "1780894899156750",
+    "size_bytes": 43282834,
+    "upstream_md5": "3d842b12fe5c49eefade528d7dd24a1f",
+    "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather?generation=1780894899156750",
+    "local_path": "data/raw/malecns-v1.0/body-neurotransmitters-male-cns-v1.0.feather",
+    "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+    "verified_at": "2026-09-19T05:28:32.242096+00:00"
+  },
+  {
+    "id": "connections",
+    "dataset": "MaleCNS",
+    "version": "v1.0",
+    "source_page": "https://male-cns.janelia.org/download/",
+    "license": "CC-BY-4.0",
+    "generation": "1780494887545976",
+    "size_bytes": 1051241946,
+    "upstream_md5": "f30e9dcca25cfd021bf1e7b3d975599e",
+    "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather?generation=1780494887545976",
+    "local_path": "data/raw/malecns-v1.0/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+    "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+    "verified_at": "2026-09-19T05:30:55.149234+00:00"
+  }
+]

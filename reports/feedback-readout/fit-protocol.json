@@ -1,0 +1,26 @@
+{
+  "labels": {
+    "flywire": [
+      "bright:left",
+      "bright:right",
+      "yeast:left",
+      "yeast:right"
+    ],
+    "malecns": [
+      "foreleg_touch:left",
+      "foreleg_touch:right"
+    ]
+  },
+  "alpha": 10,
+  "threshold_grid": [
+    0.2,
+    0.8,
+    0.01
+  ],
+  "minimum_validation_positives": 2,
+  "minimum_validation_negatives": 2,
+  "precision": 0.9,
+  "recall": 0.75,
+  "selection": "validation F1 at least baseline; test never tunes model",
+  "candidate_only": true
+}

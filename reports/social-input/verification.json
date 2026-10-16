@@ -1,0 +1,128 @@
+{
+  "scope": "Input delivery and downstream activity, not natural behavior validation",
+  "flywire_trials": [
+    {
+      "channel": "cva",
+      "seed": 91000,
+      "input_events": 3852,
+      "total_spikes": 208011,
+      "nonsensory_spikes": 196734,
+      "active_nonsensory_cells": 7823,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    },
+    {
+      "channel": "cva",
+      "seed": 91001,
+      "input_events": 3828,
+      "total_spikes": 207609,
+      "nonsensory_spikes": 196315,
+      "active_nonsensory_cells": 7847,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    },
+    {
+      "channel": "cva",
+      "seed": 91002,
+      "input_events": 3793,
+      "total_spikes": 207676,
+      "nonsensory_spikes": 196565,
+      "active_nonsensory_cells": 7893,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    },
+    {
+      "channel": "courtship_pulse",
+      "seed": 91000,
+      "input_events": 3065,
+      "total_spikes": 3053,
+      "nonsensory_spikes": 34,
+      "active_nonsensory_cells": 16,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    },
+    {
+      "channel": "courtship_pulse",
+      "seed": 91001,
+      "input_events": 3035,
+      "total_spikes": 3045,
+      "nonsensory_spikes": 49,
+      "active_nonsensory_cells": 18,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    },
+    {
+      "channel": "courtship_pulse",
+      "seed": 91002,
+      "input_events": 3020,
+      "total_spikes": 3004,
+      "nonsensory_spikes": 35,
+      "active_nonsensory_cells": 15,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    }
+  ],
+  "exports": [
+    {
+      "message": "right_foreleg_touch",
+      "channel": "right_foreleg_touch",
+      "seed": 91000,
+      "selected_cells": 100,
+      "input_events": 213,
+      "event_file": "D:\\Projects\\python\\fly\\data\\derived\\social-input\\right_foreleg_touch-91000.npz",
+      "event_sha256": "463577d61809d14e5771d10488de275497f7ac127a4f04fe9c18f4d4effab190"
+    },
+    {
+      "message": "left_foreleg_touch",
+      "channel": "left_foreleg_touch",
+      "seed": 91000,
+      "selected_cells": 124,
+      "input_events": 280,
+      "event_file": "D:\\Projects\\python\\fly\\data\\derived\\social-input\\left_foreleg_touch-91000.npz",
+      "event_sha256": "c8f6118793e78c46ff1a371a262a6a7727394377d2ceaa7f594edbb04d151ca8"
+    },
+    {
+      "message": "cva",
+      "channel": "cva",
+      "seed": 91000,
+      "selected_cells": 126,
+      "input_events": 3852,
+      "event_file": "D:\\Projects\\python\\fly\\data\\derived\\social-input\\cva-91000.npz",
+      "event_sha256": "739238c63b490b8293e5207453e60b934e95aed86f8c3b82cf97bc37fdcfcfd6"
+    },
+    {
+      "message": "courtship_pulse",
+      "channel": "courtship_pulse",
+      "seed": 91000,
+      "selected_cells": 341,
+      "input_events": 3065,
+      "event_file": "D:\\Projects\\python\\fly\\data\\derived\\social-input\\courtship_pulse-91000.npz",
+      "event_sha256": "2f505f85da76c41b56e53222802ea18cbe150e8a1754d85f12080e490f9c8d1e"
+    }
+  ],
+  "foreleg_dynamic_simulation": "Separate MaleCNS brain and VNC engine; uncalibrated transferred LIF parameters",
+  "malecns_trials": [
+    {
+      "channel": "right_foreleg_touch",
+      "seed": 91000,
+      "input_events": 213,
+      "total_spikes": 1677,
+      "nonsensory_spikes": 1465,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    },
+    {
+      "channel": "left_foreleg_touch",
+      "seed": 91000,
+      "input_events": 280,
+      "total_spikes": 841,
+      "nonsensory_spikes": 562,
+      "spikes_before_input": 0,
+      "delivery_passed": true
+    }
+  ],
+  "natural_touch_calibration": "pending distal receptor selection and physiological spike calibration",
+  "blank_total_spikes": 0,
+  "cross_dataset_input_rejected": true,
+  "input_delivery_checks_passed": true
+}

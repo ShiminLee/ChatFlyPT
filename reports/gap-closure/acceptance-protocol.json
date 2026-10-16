@@ -1,0 +1,104 @@
+{
+  "cases": [
+    [
+      "visual_voltage",
+      "/api/stimulate",
+      {
+        "items": [
+          {
+            "channel": "vision_r7",
+            "side": "left"
+          }
+        ]
+      }
+    ],
+    [
+      "ordinary_sugar",
+      "/api/communicate",
+      {
+        "message": "模拟左侧甜味"
+      }
+    ],
+    [
+      "ordinary_water",
+      "/api/communicate",
+      {
+        "message": "模拟右侧水"
+      }
+    ],
+    [
+      "high_salt",
+      "/api/stimulate",
+      {
+        "items": [
+          {
+            "channel": "high_salt",
+            "side": "left"
+          }
+        ]
+      }
+    ],
+    [
+      "hexanoic_candidate",
+      "/api/stimulate",
+      {
+        "items": [
+          {
+            "channel": "fatty_acid_taste",
+            "side": "right"
+          }
+        ]
+      }
+    ],
+    [
+      "cross_dataset_and_body",
+      "/api/stimulate",
+      {
+        "items": [
+          {
+            "channel": "cold",
+            "side": "left"
+          },
+          {
+            "channel": "foreleg_touch",
+            "side": "right"
+          }
+        ]
+      }
+    ],
+    [
+      "zero_intensity",
+      "/api/stimulate",
+      {
+        "items": [
+          {
+            "channel": "bitter",
+            "side": "left",
+            "intensity": 0
+          }
+        ]
+      }
+    ],
+    [
+      "blank",
+      "/api/communicate",
+      {
+        "message": "停止刺激"
+      }
+    ],
+    [
+      "unmapped",
+      "/api/communicate",
+      {
+        "message": "施加饥饿刺激"
+      }
+    ]
+  ],
+  "seed_base": 5900000,
+  "model_sha256": {
+    "flywire": "0aefc5ca3d0e00fdf69af33c8c0e323e113447953e43c2397fff82589356dae3",
+    "malecns": "1b4d619c4b49580cc955706ebc8ee33da41b510421dccaa1d5d570b297cabb4d"
+  },
+  "with_chat": true,
+  "purpose": "HTTP integration and provenance; classifier not tuned using these results."
+}

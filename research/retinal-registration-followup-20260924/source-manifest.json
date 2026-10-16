@@ -1,0 +1,126 @@
+{
+  "repo": "https://github.com/reiserlab/eyemap_T4",
+  "commit": "99d2a43123db636cedb55af9ff31a59657e7d17e",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/README.md",
+      "bytes": 966,
+      "sha256": "450860e6a1291b465b8969ecc5b44c4b3ca9083df3b61313e9b19328efd03896"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "proc_eyemap.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/proc_eyemap.R",
+      "bytes": 16098,
+      "sha256": "35c0d8d48a67ea6bd11237464f01a6e87f13146e07baef7ad863ec1e8795df6d"
+    },
+    {
+      "path": "proc_uCT.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/proc_uCT.R",
+      "bytes": 11235,
+      "sha256": "ba96990c55887a5e046323f5ea6e58e676f92de5909c0ef08ba10a4bc9acf65f"
+    },
+    {
+      "path": "eyemap_func.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/eyemap_func.R",
+      "bytes": 27327,
+      "sha256": "d139cd26ef5aa2ef60b54236b399a1eaef8cc3ce0c95d7026884d34c68d948ac"
+    },
+    {
+      "path": "Fig_0.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/Fig_0.R",
+      "bytes": 13851,
+      "sha256": "201c3a1fddd4b336e8c067f5041cc76fefb6b470eb728c59bdecf8fbbd0b5a96"
+    },
+    {
+      "path": "Fig_1.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/Fig_1.R",
+      "bytes": 13245,
+      "sha256": "1d393c72c2162eb62747819578eb4c32118258ff54ec32ddaae6368c196d96da"
+    },
+    {
+      "path": "Fig_2_EM.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/Fig_2_EM.R",
+      "bytes": 34809,
+      "sha256": "b09bcee879c8b5dd83fea40c1ac8b5576f1f7eed9403f3233f4d650c2778cb3e"
+    },
+    {
+      "path": "Fig_3_uCT.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/Fig_3_uCT.R",
+      "bytes": 18120,
+      "sha256": "34a0c26d8bf629c244ca22238616fcac3ba1ead0486a1c568b9642c01baadf0b"
+    },
+    {
+      "path": "ED_fig_1.R",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/ED_fig_1.R",
+      "bytes": 20771,
+      "sha256": "96ac2cf391098bc6c6839e63fe80c9719de066806b7fb809f0488782707a3864"
+    },
+    {
+      "path": "data/eyemap.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/eyemap.RData",
+      "bytes": 182218,
+      "sha256": "c3f63c69afdc3f381cdafabb1d376b8e25ec5a71bce67550ae42fcdd79cf618e"
+    },
+    {
+      "path": "data/Mi1_ind.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/Mi1_ind.RData",
+      "bytes": 561,
+      "sha256": "6993aca23a14ecc66179f2d7ddbdf0035fd2ba5ede46cad344c1130ed1a0d6d8"
+    },
+    {
+      "path": "data/lens_ixy.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/lens_ixy.RData",
+      "bytes": 2816,
+      "sha256": "49aaf06808a13b55f659ae02fbcd86db52849472196e6d891c54ca5824cc1b25"
+    },
+    {
+      "path": "data/med_ixy.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/med_ixy.RData",
+      "bytes": 2337,
+      "sha256": "4c2430e8e2b8e488d2d26643e141b1622d46b464ea3f43b016d0cb0b27bd5ff7"
+    },
+    {
+      "path": "data/hexnb_ind_dist.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/hexnb_ind_dist.RData",
+      "bytes": 44853,
+      "sha256": "6827b5c2005320152f029eff8f603249f4bd129f1b004976562fc40a69900d5c"
+    },
+    {
+      "path": "data/L2_med.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/L2_med.RData",
+      "bytes": 43725,
+      "sha256": "6ee5c9da9cc52f85531fac3cbffca54804706b1a23cfbfa49738ce0ca62ce254"
+    },
+    {
+      "path": "data/microCT/20240701.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/microCT/20240701.RData",
+      "bytes": 310361,
+      "sha256": "8408447f8c5798fbc6d751de79ef4983d08c342a500c9a55b2a3b4b38d92deec"
+    },
+    {
+      "path": "data/microCT/20240701_normals.RData",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/microCT/20240701_normals.RData",
+      "bytes": 17683,
+      "sha256": "6d629031b92d3d2fd7e6cfbb042ba8bbbd5b2301f389c63a8c4281bdd7ae0d62"
+    },
+    {
+      "path": "data/microCT/20240701_position/lens.csv",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/microCT/20240701_position/lens.csv",
+      "bytes": 82071,
+      "sha256": "477fbef0bd60c0a340aded55770c73ddae9fb4a5baf73738bf7ea9c128599c0f"
+    },
+    {
+      "path": "data/microCT/20240701_position/cone.csv",
+      "url": "https://raw.githubusercontent.com/reiserlab/eyemap_T4/99d2a43123db636cedb55af9ff31a59657e7d17e/data/microCT/20240701_position/cone.csv",
+      "bytes": 84009,
+      "sha256": "a2d1b6f5b8296e6fb6a26a7d0bdf96ccba1260923ca2a81fb0b1123f2557c355"
+    }
+  ]
+}

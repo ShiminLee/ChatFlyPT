@@ -1,0 +1,42 @@
+{
+  "purpose": "installation/data/execution smoke test; not statistical or biological validation",
+  "dataset": "FlyWire v783",
+  "neurons": 138639,
+  "backend": "Brian2 numpy",
+  "brian2_version": "2.10.1",
+  "dt_ms": 0.1,
+  "upstream_model_sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+  "upstream_code_modified": false,
+  "stimulus_ids_source": "pinned Eon code/benchmark.py EXPERIMENTS sugar (v783); no inferred ID mapping",
+  "stimulus_set": "eon-783",
+  "mn9_id": "720575940660219265",
+  "trials": [
+    {
+      "condition": "no_input",
+      "seed": 42,
+      "duration_ms": 100.0,
+      "sugar_hz": 0,
+      "bitter_hz": 0,
+      "total_spikes": 0,
+      "active_neurons": 0,
+      "non_input_spikes": 0,
+      "mn9_spikes": 0,
+      "mn9_rate_hz": 0.0,
+      "wall_seconds": 7.4556666999997105
+    },
+    {
+      "condition": "sugar",
+      "seed": 42,
+      "duration_ms": 100.0,
+      "sugar_hz": 200.0,
+      "bitter_hz": 0,
+      "total_spikes": 1499,
+      "active_neurons": 318,
+      "non_input_spikes": 1091,
+      "mn9_spikes": 10,
+      "mn9_rate_hz": 100.0,
+      "wall_seconds": 7.4568241000088165
+    }
+  ],
+  "checks_passed": true
+}

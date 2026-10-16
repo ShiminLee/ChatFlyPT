@@ -1,0 +1,9788 @@
+{
+  "name": "chatflypt-independent-protocol-v1",
+  "author_exact_protocol": false,
+  "words": [
+    "sugar",
+    "bitter",
+    "water",
+    "salt",
+    "vinegar",
+    "yeast",
+    "geosmin",
+    "pheromone",
+    "warm",
+    "cold",
+    "humid",
+    "dry",
+    "bright",
+    "touch",
+    "sound",
+    "wind"
+  ],
+  "duration_ms": 300,
+  "model": "Shiu LIF equations; full FlyWire v783 graph",
+  "all_sensory_cells_excluded": true,
+  "train_test_seed_overlap": false,
+  "mixture_configurations_disjoint": true,
+  "held_out_demo": [
+    "vinegar",
+    "yeast",
+    "sugar",
+    "warm",
+    "bright"
+  ],
+  "readout": "Linear ridge regression, alpha=10; thresholds chosen on validation only",
+  "criteria": {
+    "single_accuracy_target": 1.0,
+    "motor_accuracy_reference": 0.85,
+    "first_sentence_exact_recovery": true,
+    "command_success_reference": [
+      37,
+      37
+    ]
+  },
+  "caveat": "Targets quote reported demo metrics; vocabulary, sampling, dynamics settings and reverse code are our independent choices.",
+  "cases": [
+    {
+      "id": "trial-10000",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.9121398579030606,
+      "seed": 10000,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10001",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.1095405625965675,
+      "seed": 10001,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10002",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.0763253361986478,
+      "seed": 10002,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10003",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.084909848378595,
+      "seed": 10003,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10004",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.1459044312962274,
+      "seed": 10004,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10005",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.0231065636060106,
+      "seed": 10005,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10006",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.8682409274314141,
+      "seed": 10006,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10007",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.1129188631839655,
+      "seed": 10007,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10008",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.9717367432304378,
+      "seed": 10008,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10009",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.968750342241956,
+      "seed": 10009,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10010",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.8835824293454064,
+      "seed": 10010,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10011",
+      "split": "train",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.0906088760064288,
+      "seed": 10011,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10012",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9773206848521825,
+      "seed": 10012,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10013",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.1303783467378399,
+      "seed": 10013,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10014",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.8605827189126403,
+      "seed": 10014,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10015",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9813892653229919,
+      "seed": 10015,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10016",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.0509632358121002,
+      "seed": 10016,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10017",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.0154166625638823,
+      "seed": 10017,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10018",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.1298046706406728,
+      "seed": 10018,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10019",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9868149653730124,
+      "seed": 10019,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10020",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.078747145118445,
+      "seed": 10020,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10021",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9263061832334997,
+      "seed": 10021,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10022",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9579346696561906,
+      "seed": 10022,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10023",
+      "split": "train",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.1112611246835935,
+      "seed": 10023,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10024",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 0.8869176392574771,
+      "seed": 10024,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10025",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 0.8869709929639205,
+      "seed": 10025,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10026",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 0.918170290634905,
+      "seed": 10026,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10027",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 1.1115653504835656,
+      "seed": 10027,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10028",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 0.9501399515670454,
+      "seed": 10028,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10029",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0585196473626501,
+      "seed": 10029,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10030",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 1.1352111513977814,
+      "seed": 10030,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10031",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 1.1092776884563578,
+      "seed": 10031,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10032",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0443058882950504,
+      "seed": 10032,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10033",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0389038412917717,
+      "seed": 10033,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10034",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 0.9068531339670262,
+      "seed": 10034,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10035",
+      "split": "train",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0079486471604322,
+      "seed": 10035,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10036",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.0238733130974953,
+      "seed": 10036,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10037",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.0733999956460791,
+      "seed": 10037,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10038",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.0899171414233182,
+      "seed": 10038,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10039",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.0388493635327045,
+      "seed": 10039,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10040",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.9667256917603794,
+      "seed": 10040,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10041",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.1136792819534218,
+      "seed": 10041,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10042",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.8803207951819533,
+      "seed": 10042,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10043",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.0797076228607554,
+      "seed": 10043,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10044",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.0811185947811879,
+      "seed": 10044,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10045",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.9529135418966765,
+      "seed": 10045,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10046",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.060796326939946,
+      "seed": 10046,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10047",
+      "split": "train",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.9345149369905658,
+      "seed": 10047,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10048",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0709213686803911,
+      "seed": 10048,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10049",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.8849270319665606,
+      "seed": 10049,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10050",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.9171823001879298,
+      "seed": 10050,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10051",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.1302129661513902,
+      "seed": 10051,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10052",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0373160590486366,
+      "seed": 10052,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10053",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0731398269731205,
+      "seed": 10053,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10054",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.8554078057573719,
+      "seed": 10054,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10055",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.9530258238909616,
+      "seed": 10055,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10056",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.9278016854131765,
+      "seed": 10056,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10057",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.052491396098947,
+      "seed": 10057,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10058",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0069351051741662,
+      "seed": 10058,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10059",
+      "split": "train",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.1249800907449998,
+      "seed": 10059,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10060",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0306030138255262,
+      "seed": 10060,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10061",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.1021919868583543,
+      "seed": 10061,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10062",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0869841935650049,
+      "seed": 10062,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10063",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0083761350187666,
+      "seed": 10063,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10064",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 0.892012832588531,
+      "seed": 10064,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10065",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.1464905219490045,
+      "seed": 10065,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10066",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.1336222028935308,
+      "seed": 10066,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10067",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.077793723999651,
+      "seed": 10067,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10068",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0795549062739704,
+      "seed": 10068,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10069",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 0.930107360757301,
+      "seed": 10069,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10070",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.074259678205064,
+      "seed": 10070,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10071",
+      "split": "train",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0676287227869279,
+      "seed": 10071,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10072",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.1054630003564991,
+      "seed": 10072,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10073",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.8637494526422579,
+      "seed": 10073,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10074",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.0926021034217752,
+      "seed": 10074,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10075",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.9408195506477833,
+      "seed": 10075,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10076",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.9613382096181322,
+      "seed": 10076,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10077",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.0445284305811842,
+      "seed": 10077,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10078",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.0200544086274672,
+      "seed": 10078,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10079",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.928037944812779,
+      "seed": 10079,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10080",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.1014084427565494,
+      "seed": 10080,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10081",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.8657232544303151,
+      "seed": 10081,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10082",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.9103515632162001,
+      "seed": 10082,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10083",
+      "split": "train",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.1357609346200768,
+      "seed": 10083,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10084",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9874597626301759,
+      "seed": 10084,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10085",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9021287688833618,
+      "seed": 10085,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10086",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.131539564538323,
+      "seed": 10086,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10087",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.938112739444692,
+      "seed": 10087,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10088",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9435006737321779,
+      "seed": 10088,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10089",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.006948495232143,
+      "seed": 10089,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10090",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9609629366424867,
+      "seed": 10090,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10091",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.855194682348777,
+      "seed": 10091,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10092",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.0674733176543891,
+      "seed": 10092,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10093",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.1484670690600176,
+      "seed": 10093,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10094",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.082256955008593,
+      "seed": 10094,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10095",
+      "split": "train",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.1455255569765828,
+      "seed": 10095,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10096",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 0.8999103085841333,
+      "seed": 10096,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10097",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.0935983899097421,
+      "seed": 10097,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10098",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.1485530728729911,
+      "seed": 10098,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10099",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.1336565074200529,
+      "seed": 10099,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10100",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 0.9967935540835483,
+      "seed": 10100,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10101",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.0689003034866986,
+      "seed": 10101,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10102",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.0350916934975014,
+      "seed": 10102,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10103",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.1149617516574724,
+      "seed": 10103,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10104",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 0.921955995152153,
+      "seed": 10104,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10105",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.0815536407297532,
+      "seed": 10105,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10106",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 0.9138759078234369,
+      "seed": 10106,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10107",
+      "split": "train",
+      "words": [
+        "warm"
+      ],
+      "scale": 0.9222011085888082,
+      "seed": 10107,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10108",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0055768204232232,
+      "seed": 10108,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10109",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.025359183707623,
+      "seed": 10109,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10110",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.902647516120556,
+      "seed": 10110,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10111",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.033470129887642,
+      "seed": 10111,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10112",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0886841273441676,
+      "seed": 10112,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10113",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.8525415099725505,
+      "seed": 10113,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10114",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0645630957080103,
+      "seed": 10114,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10115",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.8723571151888436,
+      "seed": 10115,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10116",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.1429963629038413,
+      "seed": 10116,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10117",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0629741890631086,
+      "seed": 10117,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10118",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.8640841196359559,
+      "seed": 10118,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10119",
+      "split": "train",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0050223940223293,
+      "seed": 10119,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10120",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.054672252698144,
+      "seed": 10120,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10121",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.8702836068372566,
+      "seed": 10121,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10122",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.0865182524942618,
+      "seed": 10122,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10123",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9223461967914007,
+      "seed": 10123,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10124",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9768206648225132,
+      "seed": 10124,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10125",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9295130746965227,
+      "seed": 10125,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10126",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.8579081694500872,
+      "seed": 10126,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10127",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.8850626295386415,
+      "seed": 10127,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10128",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.8624344936978922,
+      "seed": 10128,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10129",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9785349675281093,
+      "seed": 10129,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10130",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9610086534374033,
+      "seed": 10130,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10131",
+      "split": "train",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.036566829163356,
+      "seed": 10131,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10132",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.9136990312631832,
+      "seed": 10132,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10133",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.026137329885939,
+      "seed": 10133,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10134",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.9626678946077423,
+      "seed": 10134,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10135",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.0121482804426936,
+      "seed": 10135,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10136",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.087133628151915,
+      "seed": 10136,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10137",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.9840913476519666,
+      "seed": 10137,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10138",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.1182356436606777,
+      "seed": 10138,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10139",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.8743578511560957,
+      "seed": 10139,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10140",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.0897571363574472,
+      "seed": 10140,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10141",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.0509934178224698,
+      "seed": 10141,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10142",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.0958774856802354,
+      "seed": 10142,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10143",
+      "split": "train",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.8953529400354647,
+      "seed": 10143,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10144",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.9417551485863067,
+      "seed": 10144,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10145",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.1330513680055982,
+      "seed": 10145,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10146",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.9850658266512058,
+      "seed": 10146,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10147",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.0649565920900044,
+      "seed": 10147,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10148",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.8921244858191816,
+      "seed": 10148,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10149",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.1031737146520162,
+      "seed": 10149,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10150",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.098474095237275,
+      "seed": 10150,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10151",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.9748522571103827,
+      "seed": 10151,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10152",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.9202895966103267,
+      "seed": 10152,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10153",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.1231844743842891,
+      "seed": 10153,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10154",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.9403774421879086,
+      "seed": 10154,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10155",
+      "split": "train",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.9971318598010601,
+      "seed": 10155,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10156",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.0453415901894358,
+      "seed": 10156,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10157",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.1296053049081194,
+      "seed": 10157,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10158",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.8628334688392717,
+      "seed": 10158,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10159",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.978701565764579,
+      "seed": 10159,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10160",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.8528601574212256,
+      "seed": 10160,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10161",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.0125450087087629,
+      "seed": 10161,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10162",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.1459121496404723,
+      "seed": 10162,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10163",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.1388867596189778,
+      "seed": 10163,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10164",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.0612978885616429,
+      "seed": 10164,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10165",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.139997609070899,
+      "seed": 10165,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10166",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.9653907777300723,
+      "seed": 10166,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10167",
+      "split": "train",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.1006732905261563,
+      "seed": 10167,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10168",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9387365504210291,
+      "seed": 10168,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10169",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.8549056476019743,
+      "seed": 10169,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10170",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.012025344131443,
+      "seed": 10170,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10171",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.1408023936764855,
+      "seed": 10171,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10172",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.1294619530993093,
+      "seed": 10172,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10173",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.1082355114872517,
+      "seed": 10173,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10174",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9108076515435569,
+      "seed": 10174,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10175",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9821334686530105,
+      "seed": 10175,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10176",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.8579569408947314,
+      "seed": 10176,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10177",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9633024460283759,
+      "seed": 10177,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10178",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.080569939457566,
+      "seed": 10178,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10179",
+      "split": "train",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.8934112429786953,
+      "seed": 10179,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10180",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.1190833334460943,
+      "seed": 10180,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10181",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.1324695628615025,
+      "seed": 10181,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10182",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.1444207588580604,
+      "seed": 10182,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10183",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.1320128389443074,
+      "seed": 10183,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10184",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.0319104011176534,
+      "seed": 10184,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10185",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.9306122335640234,
+      "seed": 10185,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10186",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.939312716928061,
+      "seed": 10186,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10187",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.0318121972755385,
+      "seed": 10187,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10188",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.9953406747553011,
+      "seed": 10188,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10189",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.9621258603925291,
+      "seed": 10189,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10190",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.107581128653902,
+      "seed": 10190,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10191",
+      "split": "train",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.1353955473856372,
+      "seed": 10191,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10192",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10192,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10193",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10193,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10194",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10194,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10195",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10195,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10196",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10196,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10197",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10197,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10198",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10198,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10199",
+      "split": "train",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10199,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10200",
+      "split": "validation",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.8641574130743528,
+      "seed": 10200,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10201",
+      "split": "validation",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.932538952635882,
+      "seed": 10201,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10202",
+      "split": "validation",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.0696283027792972,
+      "seed": 10202,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10203",
+      "split": "validation",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.0195851651831764,
+      "seed": 10203,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10204",
+      "split": "validation",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.1400076401101589,
+      "seed": 10204,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10205",
+      "split": "validation",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.1063876074373225,
+      "seed": 10205,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10206",
+      "split": "validation",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0362724277256796,
+      "seed": 10206,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10207",
+      "split": "validation",
+      "words": [
+        "water"
+      ],
+      "scale": 0.9892556977765637,
+      "seed": 10207,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10208",
+      "split": "validation",
+      "words": [
+        "water"
+      ],
+      "scale": 0.9174989745623674,
+      "seed": 10208,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10209",
+      "split": "validation",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.9648992724064065,
+      "seed": 10209,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10210",
+      "split": "validation",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.14589053826771,
+      "seed": 10210,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10211",
+      "split": "validation",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.8890689864985689,
+      "seed": 10211,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10212",
+      "split": "validation",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0442655054083616,
+      "seed": 10212,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10213",
+      "split": "validation",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.1389894861520455,
+      "seed": 10213,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10214",
+      "split": "validation",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.9717373982056974,
+      "seed": 10214,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10215",
+      "split": "validation",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0214413004349332,
+      "seed": 10215,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10216",
+      "split": "validation",
+      "words": [
+        "yeast"
+      ],
+      "scale": 0.8869842992725103,
+      "seed": 10216,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10217",
+      "split": "validation",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.090554076539701,
+      "seed": 10217,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10218",
+      "split": "validation",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.102686127912425,
+      "seed": 10218,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10219",
+      "split": "validation",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.9728135295946743,
+      "seed": 10219,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10220",
+      "split": "validation",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.102435350536473,
+      "seed": 10220,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10221",
+      "split": "validation",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9518887272175657,
+      "seed": 10221,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10222",
+      "split": "validation",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.8566970242812416,
+      "seed": 10222,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10223",
+      "split": "validation",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.8935601888852186,
+      "seed": 10223,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10224",
+      "split": "validation",
+      "words": [
+        "warm"
+      ],
+      "scale": 0.8614330789466386,
+      "seed": 10224,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10225",
+      "split": "validation",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.1190191709664812,
+      "seed": 10225,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10226",
+      "split": "validation",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.0476078049942426,
+      "seed": 10226,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10227",
+      "split": "validation",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0351112805694453,
+      "seed": 10227,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10228",
+      "split": "validation",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0716789272609177,
+      "seed": 10228,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10229",
+      "split": "validation",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.942955945100753,
+      "seed": 10229,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10230",
+      "split": "validation",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9659142223048266,
+      "seed": 10230,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10231",
+      "split": "validation",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.0053957600048062,
+      "seed": 10231,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10232",
+      "split": "validation",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.8938476195750924,
+      "seed": 10232,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10233",
+      "split": "validation",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.1393345525982919,
+      "seed": 10233,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10234",
+      "split": "validation",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.0213430680925537,
+      "seed": 10234,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10235",
+      "split": "validation",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.013105347933077,
+      "seed": 10235,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10236",
+      "split": "validation",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.8626475814465316,
+      "seed": 10236,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10237",
+      "split": "validation",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.0781174513016714,
+      "seed": 10237,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10238",
+      "split": "validation",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.8505667911572239,
+      "seed": 10238,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10239",
+      "split": "validation",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.8830231370816664,
+      "seed": 10239,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10240",
+      "split": "validation",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.8932868882200684,
+      "seed": 10240,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10241",
+      "split": "validation",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.9473814952814609,
+      "seed": 10241,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10242",
+      "split": "validation",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9597766894905041,
+      "seed": 10242,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10243",
+      "split": "validation",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.0916200434177885,
+      "seed": 10243,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10244",
+      "split": "validation",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9372400418497175,
+      "seed": 10244,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10245",
+      "split": "validation",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.1318430208660581,
+      "seed": 10245,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10246",
+      "split": "validation",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.9754514558265315,
+      "seed": 10246,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10247",
+      "split": "validation",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.8624964181857204,
+      "seed": 10247,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10248",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10248,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10249",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10249,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10250",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10250,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10251",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10251,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10252",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10252,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10253",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10253,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10254",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10254,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10255",
+      "split": "validation",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10255,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10256",
+      "split": "test",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.0117862772791233,
+      "seed": 10256,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10257",
+      "split": "test",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.0832305421854538,
+      "seed": 10257,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10258",
+      "split": "test",
+      "words": [
+        "sugar"
+      ],
+      "scale": 0.9661236501044405,
+      "seed": 10258,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10259",
+      "split": "test",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.104829658015655,
+      "seed": 10259,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10260",
+      "split": "test",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.1190332118998472,
+      "seed": 10260,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10261",
+      "split": "test",
+      "words": [
+        "sugar"
+      ],
+      "scale": 1.0563723312756004,
+      "seed": 10261,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10262",
+      "split": "test",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9864805969648799,
+      "seed": 10262,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10263",
+      "split": "test",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9703804096997386,
+      "seed": 10263,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10264",
+      "split": "test",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.0421981399564202,
+      "seed": 10264,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10265",
+      "split": "test",
+      "words": [
+        "bitter"
+      ],
+      "scale": 1.1360584949976904,
+      "seed": 10265,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10266",
+      "split": "test",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.8920258925114043,
+      "seed": 10266,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10267",
+      "split": "test",
+      "words": [
+        "bitter"
+      ],
+      "scale": 0.9179798633498566,
+      "seed": 10267,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10268",
+      "split": "test",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0751877102319245,
+      "seed": 10268,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10269",
+      "split": "test",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0968060029040645,
+      "seed": 10269,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10270",
+      "split": "test",
+      "words": [
+        "water"
+      ],
+      "scale": 1.0642653723794515,
+      "seed": 10270,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10271",
+      "split": "test",
+      "words": [
+        "water"
+      ],
+      "scale": 1.111882031340945,
+      "seed": 10271,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10272",
+      "split": "test",
+      "words": [
+        "water"
+      ],
+      "scale": 0.9212242351459675,
+      "seed": 10272,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10273",
+      "split": "test",
+      "words": [
+        "water"
+      ],
+      "scale": 0.9779930682428712,
+      "seed": 10273,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10274",
+      "split": "test",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.02821971130246,
+      "seed": 10274,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10275",
+      "split": "test",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.03999331447547,
+      "seed": 10275,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10276",
+      "split": "test",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.0651829240608417,
+      "seed": 10276,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10277",
+      "split": "test",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.8623258751695198,
+      "seed": 10277,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10278",
+      "split": "test",
+      "words": [
+        "salt"
+      ],
+      "scale": 1.043364956736998,
+      "seed": 10278,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10279",
+      "split": "test",
+      "words": [
+        "salt"
+      ],
+      "scale": 0.9255652045972456,
+      "seed": 10279,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10280",
+      "split": "test",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.9386702294852514,
+      "seed": 10280,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10281",
+      "split": "test",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0824917519193356,
+      "seed": 10281,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10282",
+      "split": "test",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 0.9112169808614287,
+      "seed": 10282,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10283",
+      "split": "test",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0543199679524964,
+      "seed": 10283,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10284",
+      "split": "test",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.100097989821606,
+      "seed": 10284,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10285",
+      "split": "test",
+      "words": [
+        "vinegar"
+      ],
+      "scale": 1.0610244830025968,
+      "seed": 10285,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10286",
+      "split": "test",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.070988746573499,
+      "seed": 10286,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10287",
+      "split": "test",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0770910679265513,
+      "seed": 10287,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10288",
+      "split": "test",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.1449072682216086,
+      "seed": 10288,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10289",
+      "split": "test",
+      "words": [
+        "yeast"
+      ],
+      "scale": 0.9116712697438334,
+      "seed": 10289,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10290",
+      "split": "test",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.1140405593140295,
+      "seed": 10290,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10291",
+      "split": "test",
+      "words": [
+        "yeast"
+      ],
+      "scale": 1.0329165687793076,
+      "seed": 10291,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10292",
+      "split": "test",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.9090113751885599,
+      "seed": 10292,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10293",
+      "split": "test",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.9416723669749845,
+      "seed": 10293,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10294",
+      "split": "test",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.08057393177994,
+      "seed": 10294,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10295",
+      "split": "test",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.1254371649584343,
+      "seed": 10295,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10296",
+      "split": "test",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 0.8707204011011372,
+      "seed": 10296,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10297",
+      "split": "test",
+      "words": [
+        "geosmin"
+      ],
+      "scale": 1.0210725000799805,
+      "seed": 10297,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10298",
+      "split": "test",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9158982475553565,
+      "seed": 10298,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10299",
+      "split": "test",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.0028376074952507,
+      "seed": 10299,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10300",
+      "split": "test",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9067358975267913,
+      "seed": 10300,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10301",
+      "split": "test",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9290452576399808,
+      "seed": 10301,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10302",
+      "split": "test",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 0.9539707136018762,
+      "seed": 10302,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10303",
+      "split": "test",
+      "words": [
+        "pheromone"
+      ],
+      "scale": 1.032955993717154,
+      "seed": 10303,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10304",
+      "split": "test",
+      "words": [
+        "warm"
+      ],
+      "scale": 0.8923774075602539,
+      "seed": 10304,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10305",
+      "split": "test",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.144954938070032,
+      "seed": 10305,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10306",
+      "split": "test",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.0297922561933592,
+      "seed": 10306,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10307",
+      "split": "test",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.0680316416531432,
+      "seed": 10307,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10308",
+      "split": "test",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.004216806100285,
+      "seed": 10308,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10309",
+      "split": "test",
+      "words": [
+        "warm"
+      ],
+      "scale": 1.1411364041143672,
+      "seed": 10309,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10310",
+      "split": "test",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.028469113835976,
+      "seed": 10310,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10311",
+      "split": "test",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.9569393411136881,
+      "seed": 10311,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10312",
+      "split": "test",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.8857299896976354,
+      "seed": 10312,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10313",
+      "split": "test",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.1096256082065157,
+      "seed": 10313,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10314",
+      "split": "test",
+      "words": [
+        "cold"
+      ],
+      "scale": 0.9511620078826035,
+      "seed": 10314,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10315",
+      "split": "test",
+      "words": [
+        "cold"
+      ],
+      "scale": 1.0826283549514146,
+      "seed": 10315,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10316",
+      "split": "test",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.1033240401252162,
+      "seed": 10316,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10317",
+      "split": "test",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.0587145421735786,
+      "seed": 10317,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10318",
+      "split": "test",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.0613188012502135,
+      "seed": 10318,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10319",
+      "split": "test",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9327185416636137,
+      "seed": 10319,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10320",
+      "split": "test",
+      "words": [
+        "humid"
+      ],
+      "scale": 1.1257518804816127,
+      "seed": 10320,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10321",
+      "split": "test",
+      "words": [
+        "humid"
+      ],
+      "scale": 0.9635520874637952,
+      "seed": 10321,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10322",
+      "split": "test",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.1311690499888607,
+      "seed": 10322,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10323",
+      "split": "test",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.8576893325464939,
+      "seed": 10323,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10324",
+      "split": "test",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.8552171512936985,
+      "seed": 10324,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10325",
+      "split": "test",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.8541683730654481,
+      "seed": 10325,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10326",
+      "split": "test",
+      "words": [
+        "dry"
+      ],
+      "scale": 1.1191077285674549,
+      "seed": 10326,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10327",
+      "split": "test",
+      "words": [
+        "dry"
+      ],
+      "scale": 0.9801272193151502,
+      "seed": 10327,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10328",
+      "split": "test",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.129904938575295,
+      "seed": 10328,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10329",
+      "split": "test",
+      "words": [
+        "bright"
+      ],
+      "scale": 1.0997529581063794,
+      "seed": 10329,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10330",
+      "split": "test",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.980950969027282,
+      "seed": 10330,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10331",
+      "split": "test",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.8593557119741152,
+      "seed": 10331,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10332",
+      "split": "test",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.9530659135899662,
+      "seed": 10332,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10333",
+      "split": "test",
+      "words": [
+        "bright"
+      ],
+      "scale": 0.8566541280202002,
+      "seed": 10333,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10334",
+      "split": "test",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.1447157655784947,
+      "seed": 10334,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10335",
+      "split": "test",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.964903392807054,
+      "seed": 10335,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10336",
+      "split": "test",
+      "words": [
+        "touch"
+      ],
+      "scale": 1.0160037098909598,
+      "seed": 10336,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10337",
+      "split": "test",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.8709666815201629,
+      "seed": 10337,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10338",
+      "split": "test",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.8650011295294102,
+      "seed": 10338,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10339",
+      "split": "test",
+      "words": [
+        "touch"
+      ],
+      "scale": 0.8510984663208299,
+      "seed": 10339,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10340",
+      "split": "test",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.01441944664623,
+      "seed": 10340,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10341",
+      "split": "test",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9411577536123841,
+      "seed": 10341,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10342",
+      "split": "test",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.0833660851339548,
+      "seed": 10342,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10343",
+      "split": "test",
+      "words": [
+        "sound"
+      ],
+      "scale": 0.9701112360915736,
+      "seed": 10343,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10344",
+      "split": "test",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.0110809060744501,
+      "seed": 10344,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10345",
+      "split": "test",
+      "words": [
+        "sound"
+      ],
+      "scale": 1.0727387391819534,
+      "seed": 10345,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10346",
+      "split": "test",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.0415276726268672,
+      "seed": 10346,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10347",
+      "split": "test",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.0803272011042737,
+      "seed": 10347,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10348",
+      "split": "test",
+      "words": [
+        "wind"
+      ],
+      "scale": 1.0094649440251837,
+      "seed": 10348,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10349",
+      "split": "test",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.9728531567129882,
+      "seed": 10349,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10350",
+      "split": "test",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.91726833623016,
+      "seed": 10350,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10351",
+      "split": "test",
+      "words": [
+        "wind"
+      ],
+      "scale": 0.9941180527803741,
+      "seed": 10351,
+      "duration_ms": 300,
+      "kind": "single"
+    },
+    {
+      "id": "trial-10352",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10352,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10353",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10353,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10354",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10354,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10355",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10355,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10356",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10356,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10357",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10357,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10358",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10358,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10359",
+      "split": "test",
+      "words": [],
+      "scale": 1.0,
+      "seed": 10359,
+      "duration_ms": 300,
+      "kind": "silence"
+    },
+    {
+      "id": "trial-10360",
+      "split": "train",
+      "words": [
+        "bitter",
+        "dry",
+        "humid",
+        "pheromone",
+        "sound",
+        "yeast"
+      ],
+      "scale": 0.8555331750369343,
+      "seed": 10360,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10361",
+      "split": "train",
+      "words": [
+        "bright",
+        "humid",
+        "pheromone",
+        "water"
+      ],
+      "scale": 1.1219912738691393,
+      "seed": 10361,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10362",
+      "split": "train",
+      "words": [
+        "bright",
+        "dry",
+        "sugar",
+        "warm",
+        "wind"
+      ],
+      "scale": 0.9764562280434219,
+      "seed": 10362,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10363",
+      "split": "train",
+      "words": [
+        "salt",
+        "warm"
+      ],
+      "scale": 1.1124873643769937,
+      "seed": 10363,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10364",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "salt"
+      ],
+      "scale": 0.9992552447364513,
+      "seed": 10364,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10365",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "salt",
+        "yeast"
+      ],
+      "scale": 0.9798945779600596,
+      "seed": 10365,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10366",
+      "split": "train",
+      "words": [
+        "bright",
+        "cold",
+        "sound",
+        "touch"
+      ],
+      "scale": 0.9667667644970641,
+      "seed": 10366,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10367",
+      "split": "train",
+      "words": [
+        "cold",
+        "pheromone",
+        "yeast"
+      ],
+      "scale": 0.9821173782891829,
+      "seed": 10367,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10368",
+      "split": "train",
+      "words": [
+        "bitter",
+        "yeast"
+      ],
+      "scale": 1.0598439595758424,
+      "seed": 10368,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10369",
+      "split": "train",
+      "words": [
+        "cold",
+        "geosmin",
+        "sound",
+        "vinegar"
+      ],
+      "scale": 1.0613946262006968,
+      "seed": 10369,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10370",
+      "split": "train",
+      "words": [
+        "cold",
+        "geosmin",
+        "pheromone",
+        "warm",
+        "water"
+      ],
+      "scale": 1.1067015411818824,
+      "seed": 10370,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10371",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "touch",
+        "water",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.015523513772081,
+      "seed": 10371,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10372",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "humid",
+        "salt"
+      ],
+      "scale": 0.8575415265437003,
+      "seed": 10372,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10373",
+      "split": "train",
+      "words": [
+        "vinegar",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.0837419345557253,
+      "seed": 10373,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10374",
+      "split": "train",
+      "words": [
+        "cold",
+        "pheromone",
+        "touch",
+        "vinegar",
+        "warm",
+        "wind"
+      ],
+      "scale": 0.8608815083881634,
+      "seed": 10374,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10375",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright"
+      ],
+      "scale": 0.9362010950365531,
+      "seed": 10375,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10376",
+      "split": "train",
+      "words": [
+        "dry",
+        "salt",
+        "warm",
+        "wind"
+      ],
+      "scale": 1.0627199686736146,
+      "seed": 10376,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10377",
+      "split": "train",
+      "words": [
+        "salt",
+        "touch",
+        "warm",
+        "wind"
+      ],
+      "scale": 0.9153553471243225,
+      "seed": 10377,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10378",
+      "split": "train",
+      "words": [
+        "dry",
+        "humid",
+        "salt",
+        "sugar",
+        "water"
+      ],
+      "scale": 1.1021254614308935,
+      "seed": 10378,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10379",
+      "split": "train",
+      "words": [
+        "cold",
+        "salt",
+        "warm"
+      ],
+      "scale": 0.9686313637450152,
+      "seed": 10379,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10380",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "geosmin",
+        "salt"
+      ],
+      "scale": 1.0673473205123187,
+      "seed": 10380,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10381",
+      "split": "train",
+      "words": [
+        "warm",
+        "wind"
+      ],
+      "scale": 0.8547519336917175,
+      "seed": 10381,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10382",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "geosmin"
+      ],
+      "scale": 0.9128837860387777,
+      "seed": 10382,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10383",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "sugar",
+        "vinegar",
+        "warm",
+        "water"
+      ],
+      "scale": 1.116564668291212,
+      "seed": 10383,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10384",
+      "split": "train",
+      "words": [
+        "humid",
+        "touch",
+        "vinegar",
+        "water"
+      ],
+      "scale": 0.9762791629169552,
+      "seed": 10384,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10385",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "sugar",
+        "water"
+      ],
+      "scale": 0.8803883070197435,
+      "seed": 10385,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10386",
+      "split": "train",
+      "words": [
+        "sound",
+        "warm",
+        "water",
+        "wind"
+      ],
+      "scale": 0.8868579625697306,
+      "seed": 10386,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10387",
+      "split": "train",
+      "words": [
+        "touch",
+        "water"
+      ],
+      "scale": 0.8646511018144297,
+      "seed": 10387,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10388",
+      "split": "train",
+      "words": [
+        "bitter",
+        "geosmin",
+        "pheromone",
+        "touch",
+        "water",
+        "wind"
+      ],
+      "scale": 0.9182118471417262,
+      "seed": 10388,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10389",
+      "split": "train",
+      "words": [
+        "humid",
+        "yeast"
+      ],
+      "scale": 0.9689210839387852,
+      "seed": 10389,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10390",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "humid",
+        "sound",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.9986364033936798,
+      "seed": 10390,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10391",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "salt"
+      ],
+      "scale": 0.9909838023554529,
+      "seed": 10391,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10392",
+      "split": "train",
+      "words": [
+        "bright",
+        "dry",
+        "yeast"
+      ],
+      "scale": 0.9567444320924644,
+      "seed": 10392,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10393",
+      "split": "train",
+      "words": [
+        "cold",
+        "dry",
+        "geosmin"
+      ],
+      "scale": 1.1199312715853962,
+      "seed": 10393,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10394",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "dry",
+        "sugar",
+        "vinegar",
+        "water"
+      ],
+      "scale": 0.9756951795718514,
+      "seed": 10394,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10395",
+      "split": "train",
+      "words": [
+        "bright",
+        "pheromone",
+        "salt",
+        "touch",
+        "yeast"
+      ],
+      "scale": 1.0851856249632508,
+      "seed": 10395,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10396",
+      "split": "train",
+      "words": [
+        "bright",
+        "cold",
+        "dry",
+        "pheromone",
+        "salt"
+      ],
+      "scale": 0.9576111091586199,
+      "seed": 10396,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10397",
+      "split": "train",
+      "words": [
+        "cold",
+        "salt",
+        "water"
+      ],
+      "scale": 0.904623620361235,
+      "seed": 10397,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10398",
+      "split": "train",
+      "words": [
+        "bright",
+        "pheromone",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.9557393291309934,
+      "seed": 10398,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10399",
+      "split": "train",
+      "words": [
+        "dry",
+        "geosmin",
+        "pheromone",
+        "sound",
+        "touch",
+        "yeast"
+      ],
+      "scale": 0.9022666138104924,
+      "seed": 10399,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10400",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "sound"
+      ],
+      "scale": 0.9716695573250596,
+      "seed": 10400,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10401",
+      "split": "train",
+      "words": [
+        "bitter",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.114107016752321,
+      "seed": 10401,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10402",
+      "split": "train",
+      "words": [
+        "bright",
+        "yeast"
+      ],
+      "scale": 1.1091045812470206,
+      "seed": 10402,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10403",
+      "split": "train",
+      "words": [
+        "dry",
+        "salt",
+        "warm"
+      ],
+      "scale": 0.8924122394986823,
+      "seed": 10403,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10404",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "humid",
+        "touch"
+      ],
+      "scale": 0.9756908937829,
+      "seed": 10404,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10405",
+      "split": "train",
+      "words": [
+        "bitter",
+        "sugar",
+        "touch"
+      ],
+      "scale": 1.1387287055659536,
+      "seed": 10405,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10406",
+      "split": "train",
+      "words": [
+        "bitter",
+        "water",
+        "wind"
+      ],
+      "scale": 1.0854111293961959,
+      "seed": 10406,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10407",
+      "split": "train",
+      "words": [
+        "bright",
+        "dry",
+        "humid",
+        "sugar",
+        "touch"
+      ],
+      "scale": 1.1063654975272457,
+      "seed": 10407,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10408",
+      "split": "train",
+      "words": [
+        "cold",
+        "humid",
+        "salt",
+        "vinegar"
+      ],
+      "scale": 1.121865261980515,
+      "seed": 10408,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10409",
+      "split": "train",
+      "words": [
+        "dry",
+        "pheromone",
+        "sound",
+        "sugar"
+      ],
+      "scale": 1.0406404657212025,
+      "seed": 10409,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10410",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "sound",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.8992778469590905,
+      "seed": 10410,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10411",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.932149399432984,
+      "seed": 10411,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10412",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "geosmin",
+        "sound",
+        "touch",
+        "water"
+      ],
+      "scale": 0.9193203510062142,
+      "seed": 10412,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10413",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "cold",
+        "salt",
+        "touch",
+        "vinegar"
+      ],
+      "scale": 1.019698579725378,
+      "seed": 10413,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10414",
+      "split": "train",
+      "words": [
+        "dry",
+        "salt",
+        "sugar",
+        "touch",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.8854698522505868,
+      "seed": 10414,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10415",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "sound",
+        "warm"
+      ],
+      "scale": 0.9723334251550194,
+      "seed": 10415,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10416",
+      "split": "train",
+      "words": [
+        "dry",
+        "geosmin",
+        "humid",
+        "sugar",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.8612348971787813,
+      "seed": 10416,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10417",
+      "split": "train",
+      "words": [
+        "bright",
+        "humid",
+        "touch"
+      ],
+      "scale": 1.1404858980136003,
+      "seed": 10417,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10418",
+      "split": "train",
+      "words": [
+        "bright",
+        "cold",
+        "dry",
+        "geosmin",
+        "pheromone",
+        "vinegar"
+      ],
+      "scale": 1.001933907195117,
+      "seed": 10418,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10419",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "pheromone"
+      ],
+      "scale": 1.0504394788706226,
+      "seed": 10419,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10420",
+      "split": "train",
+      "words": [
+        "bright",
+        "dry",
+        "geosmin",
+        "sound",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9139784790270229,
+      "seed": 10420,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10421",
+      "split": "train",
+      "words": [
+        "sugar",
+        "touch"
+      ],
+      "scale": 0.8909848118541085,
+      "seed": 10421,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10422",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "dry",
+        "pheromone",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.9436264951648807,
+      "seed": 10422,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10423",
+      "split": "train",
+      "words": [
+        "dry",
+        "geosmin"
+      ],
+      "scale": 1.0176052401275089,
+      "seed": 10423,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10424",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "sound",
+        "vinegar"
+      ],
+      "scale": 0.9459546697320431,
+      "seed": 10424,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10425",
+      "split": "train",
+      "words": [
+        "cold",
+        "dry",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9051973375248912,
+      "seed": 10425,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10426",
+      "split": "train",
+      "words": [
+        "bitter",
+        "sugar",
+        "touch",
+        "vinegar",
+        "water"
+      ],
+      "scale": 0.8904526592037078,
+      "seed": 10426,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10427",
+      "split": "train",
+      "words": [
+        "cold",
+        "dry",
+        "geosmin",
+        "humid",
+        "pheromone",
+        "wind"
+      ],
+      "scale": 0.9537537324775076,
+      "seed": 10427,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10428",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "vinegar",
+        "warm"
+      ],
+      "scale": 1.026610991893157,
+      "seed": 10428,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10429",
+      "split": "train",
+      "words": [
+        "bright",
+        "sound",
+        "warm"
+      ],
+      "scale": 1.1218882148285423,
+      "seed": 10429,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10430",
+      "split": "train",
+      "words": [
+        "salt",
+        "sound",
+        "warm",
+        "water",
+        "wind"
+      ],
+      "scale": 1.0316546933751123,
+      "seed": 10430,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10431",
+      "split": "train",
+      "words": [
+        "bitter",
+        "geosmin",
+        "pheromone",
+        "salt"
+      ],
+      "scale": 0.8563208210582447,
+      "seed": 10431,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10432",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "geosmin",
+        "sugar",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.068367306487318,
+      "seed": 10432,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10433",
+      "split": "train",
+      "words": [
+        "sound",
+        "sugar",
+        "touch"
+      ],
+      "scale": 0.9811173262707484,
+      "seed": 10433,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10434",
+      "split": "train",
+      "words": [
+        "cold",
+        "sugar",
+        "touch"
+      ],
+      "scale": 1.1297618853566171,
+      "seed": 10434,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10435",
+      "split": "train",
+      "words": [
+        "dry",
+        "sugar",
+        "water",
+        "wind"
+      ],
+      "scale": 0.8769312566175811,
+      "seed": 10435,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10436",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "vinegar"
+      ],
+      "scale": 0.9312901573943617,
+      "seed": 10436,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10437",
+      "split": "train",
+      "words": [
+        "bitter",
+        "pheromone"
+      ],
+      "scale": 1.0004300219958928,
+      "seed": 10437,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10438",
+      "split": "train",
+      "words": [
+        "bitter",
+        "humid",
+        "sound",
+        "yeast"
+      ],
+      "scale": 0.9256609510509375,
+      "seed": 10438,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10439",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "cold",
+        "salt",
+        "warm",
+        "wind"
+      ],
+      "scale": 1.0496517026955288,
+      "seed": 10439,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10440",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "pheromone",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.093094661963863,
+      "seed": 10440,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10441",
+      "split": "train",
+      "words": [
+        "bright",
+        "cold",
+        "geosmin",
+        "sugar",
+        "water",
+        "wind"
+      ],
+      "scale": 1.0971859041065388,
+      "seed": 10441,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10442",
+      "split": "train",
+      "words": [
+        "cold",
+        "salt",
+        "sound",
+        "sugar",
+        "warm",
+        "water"
+      ],
+      "scale": 1.1067261203148178,
+      "seed": 10442,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10443",
+      "split": "train",
+      "words": [
+        "bitter",
+        "humid",
+        "yeast"
+      ],
+      "scale": 0.8548702988701685,
+      "seed": 10443,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10444",
+      "split": "train",
+      "words": [
+        "salt",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.8769728159712831,
+      "seed": 10444,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10445",
+      "split": "train",
+      "words": [
+        "cold",
+        "dry",
+        "humid",
+        "touch",
+        "vinegar"
+      ],
+      "scale": 1.1261153502922476,
+      "seed": 10445,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10446",
+      "split": "train",
+      "words": [
+        "cold",
+        "geosmin",
+        "sugar",
+        "touch",
+        "yeast"
+      ],
+      "scale": 0.874401197487384,
+      "seed": 10446,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10447",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "sugar",
+        "water"
+      ],
+      "scale": 1.015482684090048,
+      "seed": 10447,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10448",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "humid"
+      ],
+      "scale": 0.9075918769069794,
+      "seed": 10448,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10449",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "dry",
+        "pheromone",
+        "sugar",
+        "yeast"
+      ],
+      "scale": 0.8775608893833615,
+      "seed": 10449,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10450",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "sound",
+        "touch",
+        "vinegar",
+        "water",
+        "wind"
+      ],
+      "scale": 1.1082354422191887,
+      "seed": 10450,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10451",
+      "split": "train",
+      "words": [
+        "dry",
+        "touch",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.9484635150566486,
+      "seed": 10451,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10452",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "geosmin",
+        "salt",
+        "touch",
+        "water"
+      ],
+      "scale": 1.0425689503022941,
+      "seed": 10452,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10453",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "salt",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.8870047794888705,
+      "seed": 10453,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10454",
+      "split": "train",
+      "words": [
+        "dry",
+        "sound",
+        "sugar",
+        "vinegar"
+      ],
+      "scale": 1.014014087445617,
+      "seed": 10454,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10455",
+      "split": "train",
+      "words": [
+        "bitter",
+        "dry",
+        "humid",
+        "pheromone",
+        "warm"
+      ],
+      "scale": 1.0538894800402268,
+      "seed": 10455,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10456",
+      "split": "train",
+      "words": [
+        "bitter",
+        "water"
+      ],
+      "scale": 0.8943804492431467,
+      "seed": 10456,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10457",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "salt",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.9584324233863579,
+      "seed": 10457,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10458",
+      "split": "train",
+      "words": [
+        "bitter",
+        "vinegar"
+      ],
+      "scale": 1.0361903434042068,
+      "seed": 10458,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10459",
+      "split": "train",
+      "words": [
+        "bitter",
+        "geosmin",
+        "humid",
+        "salt",
+        "touch"
+      ],
+      "scale": 1.0729679156850098,
+      "seed": 10459,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10460",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "humid",
+        "salt"
+      ],
+      "scale": 0.9268423671392467,
+      "seed": 10460,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10461",
+      "split": "train",
+      "words": [
+        "dry",
+        "geosmin",
+        "pheromone",
+        "salt",
+        "sugar"
+      ],
+      "scale": 0.9814087790898209,
+      "seed": 10461,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10462",
+      "split": "train",
+      "words": [
+        "humid",
+        "sugar"
+      ],
+      "scale": 1.0346029237884993,
+      "seed": 10462,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10463",
+      "split": "train",
+      "words": [
+        "cold",
+        "sound",
+        "water"
+      ],
+      "scale": 1.0579052412785228,
+      "seed": 10463,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10464",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "sound"
+      ],
+      "scale": 0.9323496902506202,
+      "seed": 10464,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10465",
+      "split": "train",
+      "words": [
+        "humid",
+        "water"
+      ],
+      "scale": 0.9500998859375618,
+      "seed": 10465,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10466",
+      "split": "train",
+      "words": [
+        "salt",
+        "sugar",
+        "yeast"
+      ],
+      "scale": 0.928535459296401,
+      "seed": 10466,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10467",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "sound"
+      ],
+      "scale": 1.0108088674162616,
+      "seed": 10467,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10468",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "salt",
+        "sugar",
+        "touch",
+        "warm",
+        "wind"
+      ],
+      "scale": 1.1428386105100699,
+      "seed": 10468,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10469",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "salt",
+        "sound",
+        "touch",
+        "water"
+      ],
+      "scale": 1.0064786250850744,
+      "seed": 10469,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10470",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "sound",
+        "wind"
+      ],
+      "scale": 1.0681369174036897,
+      "seed": 10470,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10471",
+      "split": "train",
+      "words": [
+        "dry",
+        "salt",
+        "sound",
+        "touch",
+        "water",
+        "wind"
+      ],
+      "scale": 0.8748244679586816,
+      "seed": 10471,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10472",
+      "split": "train",
+      "words": [
+        "bitter",
+        "humid",
+        "vinegar"
+      ],
+      "scale": 1.0599504708938072,
+      "seed": 10472,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10473",
+      "split": "train",
+      "words": [
+        "sound",
+        "touch",
+        "warm",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.8877436980244127,
+      "seed": 10473,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10474",
+      "split": "train",
+      "words": [
+        "cold",
+        "dry",
+        "sugar"
+      ],
+      "scale": 1.1035261473364786,
+      "seed": 10474,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10475",
+      "split": "train",
+      "words": [
+        "bitter",
+        "geosmin",
+        "humid",
+        "touch",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 1.017607868067906,
+      "seed": 10475,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10476",
+      "split": "train",
+      "words": [
+        "cold",
+        "wind"
+      ],
+      "scale": 1.0794255348088484,
+      "seed": 10476,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10477",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "sound",
+        "sugar",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 1.1166901118503236,
+      "seed": 10477,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10478",
+      "split": "train",
+      "words": [
+        "bright",
+        "pheromone"
+      ],
+      "scale": 0.8688541507704287,
+      "seed": 10478,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10479",
+      "split": "train",
+      "words": [
+        "dry",
+        "pheromone",
+        "salt"
+      ],
+      "scale": 1.0569290815601087,
+      "seed": 10479,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10480",
+      "split": "train",
+      "words": [
+        "bitter",
+        "geosmin"
+      ],
+      "scale": 0.9329194280041769,
+      "seed": 10480,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10481",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "sound",
+        "yeast"
+      ],
+      "scale": 1.1149256411842396,
+      "seed": 10481,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10482",
+      "split": "train",
+      "words": [
+        "cold",
+        "salt",
+        "sound",
+        "warm",
+        "wind"
+      ],
+      "scale": 1.072841145910766,
+      "seed": 10482,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10483",
+      "split": "train",
+      "words": [
+        "dry",
+        "humid"
+      ],
+      "scale": 1.080928140288666,
+      "seed": 10483,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10484",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "salt",
+        "sound"
+      ],
+      "scale": 0.9266740753646129,
+      "seed": 10484,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10485",
+      "split": "train",
+      "words": [
+        "bright",
+        "humid",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.9081178893527557,
+      "seed": 10485,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10486",
+      "split": "train",
+      "words": [
+        "sugar",
+        "wind"
+      ],
+      "scale": 0.9172002678529713,
+      "seed": 10486,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10487",
+      "split": "train",
+      "words": [
+        "cold",
+        "sound",
+        "sugar",
+        "touch",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.1448313511277044,
+      "seed": 10487,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10488",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "humid",
+        "sound",
+        "wind"
+      ],
+      "scale": 1.14524302279702,
+      "seed": 10488,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10489",
+      "split": "train",
+      "words": [
+        "sound",
+        "vinegar",
+        "warm"
+      ],
+      "scale": 1.1073713656106121,
+      "seed": 10489,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10490",
+      "split": "train",
+      "words": [
+        "bright",
+        "cold",
+        "humid",
+        "water"
+      ],
+      "scale": 0.8827620155009641,
+      "seed": 10490,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10491",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "cold",
+        "dry",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.9934010746231181,
+      "seed": 10491,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10492",
+      "split": "train",
+      "words": [
+        "bitter",
+        "sound",
+        "sugar",
+        "touch",
+        "wind"
+      ],
+      "scale": 1.1190599291671073,
+      "seed": 10492,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10493",
+      "split": "train",
+      "words": [
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.8970961553251012,
+      "seed": 10493,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10494",
+      "split": "train",
+      "words": [
+        "cold",
+        "humid",
+        "touch",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.8768147333346301,
+      "seed": 10494,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10495",
+      "split": "train",
+      "words": [
+        "bitter",
+        "humid",
+        "salt",
+        "touch",
+        "warm",
+        "water"
+      ],
+      "scale": 0.9743052453767853,
+      "seed": 10495,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10496",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "water",
+        "wind"
+      ],
+      "scale": 1.029854584902402,
+      "seed": 10496,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10497",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "water"
+      ],
+      "scale": 0.9202822976157882,
+      "seed": 10497,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10498",
+      "split": "train",
+      "words": [
+        "sound",
+        "yeast"
+      ],
+      "scale": 0.9944737255056185,
+      "seed": 10498,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10499",
+      "split": "train",
+      "words": [
+        "bitter",
+        "dry",
+        "geosmin",
+        "humid",
+        "sound"
+      ],
+      "scale": 0.9349859203216001,
+      "seed": 10499,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10500",
+      "split": "train",
+      "words": [
+        "humid",
+        "warm",
+        "water",
+        "wind"
+      ],
+      "scale": 1.1232846856181866,
+      "seed": 10500,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10501",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "humid",
+        "salt",
+        "sugar",
+        "wind"
+      ],
+      "scale": 0.9199957798283218,
+      "seed": 10501,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10502",
+      "split": "train",
+      "words": [
+        "bright",
+        "dry",
+        "sound",
+        "touch",
+        "water"
+      ],
+      "scale": 1.0939074738507764,
+      "seed": 10502,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10503",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "sound",
+        "sugar",
+        "vinegar"
+      ],
+      "scale": 0.9483092224359344,
+      "seed": 10503,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10504",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "wind"
+      ],
+      "scale": 0.8562136810860889,
+      "seed": 10504,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10505",
+      "split": "train",
+      "words": [
+        "sugar",
+        "vinegar"
+      ],
+      "scale": 1.103846516735375,
+      "seed": 10505,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10506",
+      "split": "train",
+      "words": [
+        "cold",
+        "dry",
+        "salt",
+        "sound",
+        "sugar",
+        "yeast"
+      ],
+      "scale": 1.0120373955671385,
+      "seed": 10506,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10507",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "sugar",
+        "warm"
+      ],
+      "scale": 0.8695022007685467,
+      "seed": 10507,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10508",
+      "split": "train",
+      "words": [
+        "dry",
+        "humid",
+        "vinegar"
+      ],
+      "scale": 0.8631180330220551,
+      "seed": 10508,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10509",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "vinegar"
+      ],
+      "scale": 1.0387834050090485,
+      "seed": 10509,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10510",
+      "split": "train",
+      "words": [
+        "cold",
+        "dry",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.877441151651283,
+      "seed": 10510,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10511",
+      "split": "train",
+      "words": [
+        "salt",
+        "sugar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.9067513299768191,
+      "seed": 10511,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10512",
+      "split": "train",
+      "words": [
+        "cold",
+        "sugar",
+        "water"
+      ],
+      "scale": 0.85912326984791,
+      "seed": 10512,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10513",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "geosmin",
+        "pheromone",
+        "touch"
+      ],
+      "scale": 0.9031893710145852,
+      "seed": 10513,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10514",
+      "split": "train",
+      "words": [
+        "humid",
+        "warm",
+        "wind"
+      ],
+      "scale": 0.9748040890537992,
+      "seed": 10514,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10515",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 0.9931299464382368,
+      "seed": 10515,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10516",
+      "split": "train",
+      "words": [
+        "touch",
+        "warm"
+      ],
+      "scale": 1.1448800147203182,
+      "seed": 10516,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10517",
+      "split": "train",
+      "words": [
+        "cold",
+        "salt"
+      ],
+      "scale": 1.0792930941373473,
+      "seed": 10517,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10518",
+      "split": "train",
+      "words": [
+        "bright",
+        "cold",
+        "touch",
+        "vinegar",
+        "warm",
+        "water"
+      ],
+      "scale": 1.0433914929013157,
+      "seed": 10518,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10519",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "touch",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.8540899536432357,
+      "seed": 10519,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10520",
+      "split": "train",
+      "words": [
+        "humid",
+        "sugar",
+        "vinegar",
+        "warm",
+        "water"
+      ],
+      "scale": 0.9400903652102974,
+      "seed": 10520,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10521",
+      "split": "train",
+      "words": [
+        "water",
+        "wind"
+      ],
+      "scale": 0.9201143241704834,
+      "seed": 10521,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10522",
+      "split": "train",
+      "words": [
+        "humid",
+        "touch",
+        "water"
+      ],
+      "scale": 0.9993199902514818,
+      "seed": 10522,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10523",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "dry",
+        "pheromone",
+        "sound"
+      ],
+      "scale": 0.8754134225603495,
+      "seed": 10523,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10524",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "dry",
+        "geosmin",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.9612010221853969,
+      "seed": 10524,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10525",
+      "split": "train",
+      "words": [
+        "humid",
+        "vinegar"
+      ],
+      "scale": 0.9618633700552287,
+      "seed": 10525,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10526",
+      "split": "train",
+      "words": [
+        "bitter",
+        "geosmin",
+        "humid",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.1033034248394502,
+      "seed": 10526,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10527",
+      "split": "train",
+      "words": [
+        "humid",
+        "salt",
+        "touch"
+      ],
+      "scale": 1.108598248857343,
+      "seed": 10527,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10528",
+      "split": "train",
+      "words": [
+        "dry",
+        "touch",
+        "wind"
+      ],
+      "scale": 1.0987393631329845,
+      "seed": 10528,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10529",
+      "split": "train",
+      "words": [
+        "bitter",
+        "humid"
+      ],
+      "scale": 1.1423806552616755,
+      "seed": 10529,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10530",
+      "split": "train",
+      "words": [
+        "humid",
+        "pheromone",
+        "sugar",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.0331266462674855,
+      "seed": 10530,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10531",
+      "split": "train",
+      "words": [
+        "dry",
+        "vinegar",
+        "warm",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9411759927070029,
+      "seed": 10531,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10532",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "pheromone",
+        "sugar",
+        "touch",
+        "vinegar"
+      ],
+      "scale": 0.9750374869247163,
+      "seed": 10532,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10533",
+      "split": "train",
+      "words": [
+        "cold",
+        "vinegar",
+        "water"
+      ],
+      "scale": 0.9359693965713076,
+      "seed": 10533,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10534",
+      "split": "train",
+      "words": [
+        "bitter",
+        "pheromone",
+        "sound",
+        "vinegar"
+      ],
+      "scale": 1.0356083236848366,
+      "seed": 10534,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10535",
+      "split": "train",
+      "words": [
+        "bitter",
+        "dry",
+        "sugar",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.9526376061224351,
+      "seed": 10535,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10536",
+      "split": "train",
+      "words": [
+        "salt",
+        "sugar",
+        "water",
+        "wind"
+      ],
+      "scale": 1.0533442399326445,
+      "seed": 10536,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10537",
+      "split": "train",
+      "words": [
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9756307521825878,
+      "seed": 10537,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10538",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "touch"
+      ],
+      "scale": 1.0660358577883573,
+      "seed": 10538,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10539",
+      "split": "train",
+      "words": [
+        "vinegar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.1239971841629361,
+      "seed": 10539,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10540",
+      "split": "train",
+      "words": [
+        "cold",
+        "pheromone",
+        "warm"
+      ],
+      "scale": 0.9518429877348872,
+      "seed": 10540,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10541",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "salt"
+      ],
+      "scale": 1.0163253138210941,
+      "seed": 10541,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10542",
+      "split": "train",
+      "words": [
+        "cold",
+        "sound",
+        "vinegar",
+        "water",
+        "wind"
+      ],
+      "scale": 0.8978039269505925,
+      "seed": 10542,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10543",
+      "split": "train",
+      "words": [
+        "humid",
+        "wind"
+      ],
+      "scale": 1.1041123946282854,
+      "seed": 10543,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10544",
+      "split": "train",
+      "words": [
+        "cold",
+        "humid",
+        "pheromone",
+        "touch"
+      ],
+      "scale": 1.0154501976805566,
+      "seed": 10544,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10545",
+      "split": "train",
+      "words": [
+        "humid",
+        "sugar",
+        "vinegar",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.1486940098803178,
+      "seed": 10545,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10546",
+      "split": "train",
+      "words": [
+        "bright",
+        "sugar",
+        "touch"
+      ],
+      "scale": 0.9323618634771282,
+      "seed": 10546,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10547",
+      "split": "train",
+      "words": [
+        "bitter",
+        "humid",
+        "salt",
+        "sound",
+        "wind"
+      ],
+      "scale": 1.0280648357396414,
+      "seed": 10547,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10548",
+      "split": "train",
+      "words": [
+        "bright",
+        "humid",
+        "sugar",
+        "wind"
+      ],
+      "scale": 1.1456812034911175,
+      "seed": 10548,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10549",
+      "split": "train",
+      "words": [
+        "sugar",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.0488376114621965,
+      "seed": 10549,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10550",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "sound"
+      ],
+      "scale": 0.9043217666849549,
+      "seed": 10550,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10551",
+      "split": "train",
+      "words": [
+        "bright",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 1.1162502379141093,
+      "seed": 10551,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10552",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "touch",
+        "yeast"
+      ],
+      "scale": 0.9849931901719318,
+      "seed": 10552,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10553",
+      "split": "train",
+      "words": [
+        "dry",
+        "geosmin",
+        "pheromone",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 1.0062842212874594,
+      "seed": 10553,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10554",
+      "split": "train",
+      "words": [
+        "salt",
+        "sugar",
+        "vinegar"
+      ],
+      "scale": 0.8568862311875001,
+      "seed": 10554,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10555",
+      "split": "train",
+      "words": [
+        "bright",
+        "sugar",
+        "touch",
+        "vinegar",
+        "warm"
+      ],
+      "scale": 0.9682191750231454,
+      "seed": 10555,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10556",
+      "split": "train",
+      "words": [
+        "bitter",
+        "sugar",
+        "vinegar",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.8981755015709534,
+      "seed": 10556,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10557",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "vinegar",
+        "warm"
+      ],
+      "scale": 1.03769084366432,
+      "seed": 10557,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10558",
+      "split": "train",
+      "words": [
+        "cold",
+        "pheromone",
+        "sound",
+        "yeast"
+      ],
+      "scale": 1.02558325475718,
+      "seed": 10558,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10559",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "humid",
+        "warm",
+        "water"
+      ],
+      "scale": 0.9395832112013448,
+      "seed": 10559,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10560",
+      "split": "train",
+      "words": [
+        "dry",
+        "humid",
+        "water"
+      ],
+      "scale": 0.9225322860771441,
+      "seed": 10560,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10561",
+      "split": "train",
+      "words": [
+        "cold",
+        "yeast"
+      ],
+      "scale": 1.0654350082181805,
+      "seed": 10561,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10562",
+      "split": "train",
+      "words": [
+        "dry",
+        "salt"
+      ],
+      "scale": 1.1394508390901148,
+      "seed": 10562,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10563",
+      "split": "train",
+      "words": [
+        "pheromone",
+        "salt",
+        "sound",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.057333738526168,
+      "seed": 10563,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10564",
+      "split": "train",
+      "words": [
+        "humid",
+        "touch",
+        "yeast"
+      ],
+      "scale": 1.0936679486482355,
+      "seed": 10564,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10565",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin",
+        "pheromone",
+        "warm"
+      ],
+      "scale": 1.0893685734765006,
+      "seed": 10565,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10566",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "geosmin",
+        "humid",
+        "sugar",
+        "wind"
+      ],
+      "scale": 1.0144556246986194,
+      "seed": 10566,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10567",
+      "split": "train",
+      "words": [
+        "dry",
+        "geosmin",
+        "sugar",
+        "wind"
+      ],
+      "scale": 1.1123796558414945,
+      "seed": 10567,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10568",
+      "split": "train",
+      "words": [
+        "bitter",
+        "dry",
+        "sugar",
+        "vinegar",
+        "water",
+        "wind"
+      ],
+      "scale": 0.8620357762886949,
+      "seed": 10568,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10569",
+      "split": "train",
+      "words": [
+        "sugar",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.9529898039417515,
+      "seed": 10569,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10570",
+      "split": "train",
+      "words": [
+        "bitter",
+        "wind"
+      ],
+      "scale": 0.9004164615742143,
+      "seed": 10570,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10571",
+      "split": "train",
+      "words": [
+        "bitter",
+        "geosmin",
+        "touch",
+        "vinegar",
+        "water",
+        "wind"
+      ],
+      "scale": 1.0922067167899137,
+      "seed": 10571,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10572",
+      "split": "train",
+      "words": [
+        "bitter",
+        "touch"
+      ],
+      "scale": 0.9278849730400965,
+      "seed": 10572,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10573",
+      "split": "train",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "touch",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 1.0579998813547797,
+      "seed": 10573,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10574",
+      "split": "train",
+      "words": [
+        "bitter",
+        "bright",
+        "geosmin",
+        "pheromone",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.0471716720246254,
+      "seed": 10574,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10575",
+      "split": "train",
+      "words": [
+        "bright",
+        "geosmin"
+      ],
+      "scale": 0.8984946474549539,
+      "seed": 10575,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10576",
+      "split": "train",
+      "words": [
+        "sound",
+        "sugar",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9571287015993265,
+      "seed": 10576,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10577",
+      "split": "train",
+      "words": [
+        "bright",
+        "dry",
+        "salt"
+      ],
+      "scale": 0.9980139121124024,
+      "seed": 10577,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10578",
+      "split": "train",
+      "words": [
+        "vinegar",
+        "water"
+      ],
+      "scale": 0.8735087930145311,
+      "seed": 10578,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10579",
+      "split": "train",
+      "words": [
+        "bitter",
+        "cold",
+        "pheromone",
+        "sugar",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.8836020590458176,
+      "seed": 10579,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10580",
+      "split": "train",
+      "words": [
+        "bright",
+        "salt",
+        "vinegar"
+      ],
+      "scale": 1.0677129787612019,
+      "seed": 10580,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10581",
+      "split": "train",
+      "words": [
+        "bright",
+        "dry",
+        "humid",
+        "touch",
+        "warm",
+        "water"
+      ],
+      "scale": 0.9779405974063585,
+      "seed": 10581,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10582",
+      "split": "train",
+      "words": [
+        "sugar",
+        "touch",
+        "water"
+      ],
+      "scale": 1.0203254221577431,
+      "seed": 10582,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10583",
+      "split": "train",
+      "words": [
+        "dry",
+        "geosmin",
+        "pheromone",
+        "vinegar"
+      ],
+      "scale": 1.0933079440584923,
+      "seed": 10583,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10584",
+      "split": "validation",
+      "words": [
+        "bright",
+        "humid",
+        "touch",
+        "warm",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9998102436362167,
+      "seed": 10584,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10585",
+      "split": "validation",
+      "words": [
+        "cold",
+        "sugar",
+        "warm",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.1122642393906104,
+      "seed": 10585,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10586",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "dry",
+        "sound",
+        "water"
+      ],
+      "scale": 1.0987017919943376,
+      "seed": 10586,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10587",
+      "split": "validation",
+      "words": [
+        "salt",
+        "water",
+        "wind"
+      ],
+      "scale": 0.9122772353273563,
+      "seed": 10587,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10588",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "humid",
+        "wind"
+      ],
+      "scale": 1.0553183057772415,
+      "seed": 10588,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10589",
+      "split": "validation",
+      "words": [
+        "dry",
+        "sound",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 1.148815752364407,
+      "seed": 10589,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10590",
+      "split": "validation",
+      "words": [
+        "sugar",
+        "warm"
+      ],
+      "scale": 0.9535970592230292,
+      "seed": 10590,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10591",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "cold",
+        "pheromone",
+        "warm"
+      ],
+      "scale": 1.089542472167405,
+      "seed": 10591,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10592",
+      "split": "validation",
+      "words": [
+        "dry",
+        "wind"
+      ],
+      "scale": 1.1252855813459286,
+      "seed": 10592,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10593",
+      "split": "validation",
+      "words": [
+        "bright",
+        "humid",
+        "sugar",
+        "water"
+      ],
+      "scale": 0.8937430387979413,
+      "seed": 10593,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10594",
+      "split": "validation",
+      "words": [
+        "geosmin",
+        "yeast"
+      ],
+      "scale": 1.0920520492187382,
+      "seed": 10594,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10595",
+      "split": "validation",
+      "words": [
+        "cold",
+        "pheromone"
+      ],
+      "scale": 1.0587834577463628,
+      "seed": 10595,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10596",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "geosmin",
+        "pheromone",
+        "wind"
+      ],
+      "scale": 0.8831999180483177,
+      "seed": 10596,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10597",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "dry",
+        "touch",
+        "water"
+      ],
+      "scale": 0.852745546275411,
+      "seed": 10597,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10598",
+      "split": "validation",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "touch",
+        "water",
+        "wind"
+      ],
+      "scale": 1.0621216214113458,
+      "seed": 10598,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10599",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "bright",
+        "salt",
+        "sound",
+        "vinegar",
+        "warm"
+      ],
+      "scale": 0.9417095940824513,
+      "seed": 10599,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10600",
+      "split": "validation",
+      "words": [
+        "bright",
+        "cold",
+        "sound"
+      ],
+      "scale": 0.8914081952723059,
+      "seed": 10600,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10601",
+      "split": "validation",
+      "words": [
+        "sound",
+        "touch"
+      ],
+      "scale": 1.040947155481747,
+      "seed": 10601,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10602",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "cold",
+        "vinegar"
+      ],
+      "scale": 0.9035001478133847,
+      "seed": 10602,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10603",
+      "split": "validation",
+      "words": [
+        "bright",
+        "humid",
+        "wind"
+      ],
+      "scale": 1.062786022315401,
+      "seed": 10603,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10604",
+      "split": "validation",
+      "words": [
+        "cold",
+        "dry",
+        "humid",
+        "sugar",
+        "warm",
+        "water"
+      ],
+      "scale": 1.0115607539657812,
+      "seed": 10604,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10605",
+      "split": "validation",
+      "words": [
+        "pheromone",
+        "warm"
+      ],
+      "scale": 0.892157017495626,
+      "seed": 10605,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10606",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "dry",
+        "humid",
+        "vinegar",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.0440639959782092,
+      "seed": 10606,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10607",
+      "split": "validation",
+      "words": [
+        "cold",
+        "humid",
+        "sound",
+        "water"
+      ],
+      "scale": 1.1255359767882829,
+      "seed": 10607,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10608",
+      "split": "validation",
+      "words": [
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.8889267655342054,
+      "seed": 10608,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10609",
+      "split": "validation",
+      "words": [
+        "vinegar",
+        "water",
+        "wind"
+      ],
+      "scale": 1.1230906005016883,
+      "seed": 10609,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10610",
+      "split": "validation",
+      "words": [
+        "sugar",
+        "yeast"
+      ],
+      "scale": 1.0636669470982927,
+      "seed": 10610,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10611",
+      "split": "validation",
+      "words": [
+        "humid",
+        "pheromone",
+        "salt",
+        "sugar",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.1394202937094888,
+      "seed": 10611,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10612",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "bright",
+        "humid",
+        "salt"
+      ],
+      "scale": 0.9823877179203535,
+      "seed": 10612,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10613",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "cold"
+      ],
+      "scale": 0.9332302600166444,
+      "seed": 10613,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10614",
+      "split": "validation",
+      "words": [
+        "salt",
+        "sound",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.9316410284756044,
+      "seed": 10614,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10615",
+      "split": "validation",
+      "words": [
+        "geosmin",
+        "salt",
+        "vinegar"
+      ],
+      "scale": 0.9557535195298532,
+      "seed": 10615,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10616",
+      "split": "validation",
+      "words": [
+        "sound",
+        "sugar",
+        "yeast"
+      ],
+      "scale": 1.0942426832799825,
+      "seed": 10616,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10617",
+      "split": "validation",
+      "words": [
+        "dry",
+        "vinegar",
+        "warm",
+        "water"
+      ],
+      "scale": 0.9750124553324933,
+      "seed": 10617,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10618",
+      "split": "validation",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "salt",
+        "warm"
+      ],
+      "scale": 1.096836292614524,
+      "seed": 10618,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10619",
+      "split": "validation",
+      "words": [
+        "touch",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.9315892218257753,
+      "seed": 10619,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10620",
+      "split": "validation",
+      "words": [
+        "salt",
+        "sound",
+        "touch",
+        "water"
+      ],
+      "scale": 0.8586031412280566,
+      "seed": 10620,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10621",
+      "split": "validation",
+      "words": [
+        "humid",
+        "sugar",
+        "touch",
+        "vinegar",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.9669920347109424,
+      "seed": 10621,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10622",
+      "split": "validation",
+      "words": [
+        "cold",
+        "pheromone",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 0.8522956803329288,
+      "seed": 10622,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10623",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "cold",
+        "pheromone",
+        "sound",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.0638759199968635,
+      "seed": 10623,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10624",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "dry",
+        "sugar",
+        "touch",
+        "yeast"
+      ],
+      "scale": 1.026597447729462,
+      "seed": 10624,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10625",
+      "split": "validation",
+      "words": [
+        "cold",
+        "pheromone",
+        "vinegar"
+      ],
+      "scale": 0.8759631863263198,
+      "seed": 10625,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10626",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "dry",
+        "yeast"
+      ],
+      "scale": 0.9284441139424939,
+      "seed": 10626,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10627",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "geosmin",
+        "sound",
+        "vinegar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.1117206237006205,
+      "seed": 10627,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10628",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "bright",
+        "cold",
+        "salt",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.949839469417286,
+      "seed": 10628,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10629",
+      "split": "validation",
+      "words": [
+        "cold",
+        "dry",
+        "warm"
+      ],
+      "scale": 1.055536294172342,
+      "seed": 10629,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10630",
+      "split": "validation",
+      "words": [
+        "humid",
+        "pheromone",
+        "warm"
+      ],
+      "scale": 1.090100553139562,
+      "seed": 10630,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10631",
+      "split": "validation",
+      "words": [
+        "bright",
+        "sound",
+        "sugar"
+      ],
+      "scale": 0.8807703459825154,
+      "seed": 10631,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10632",
+      "split": "validation",
+      "words": [
+        "bright",
+        "dry",
+        "humid",
+        "pheromone",
+        "salt",
+        "water"
+      ],
+      "scale": 0.9561968930626307,
+      "seed": 10632,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10633",
+      "split": "validation",
+      "words": [
+        "cold",
+        "sound",
+        "sugar",
+        "water"
+      ],
+      "scale": 1.0906711138653513,
+      "seed": 10633,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10634",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "geosmin",
+        "sound"
+      ],
+      "scale": 1.0366391382558657,
+      "seed": 10634,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10635",
+      "split": "validation",
+      "words": [
+        "bright",
+        "salt",
+        "touch",
+        "water",
+        "wind"
+      ],
+      "scale": 0.9621485379114544,
+      "seed": 10635,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10636",
+      "split": "validation",
+      "words": [
+        "bitter",
+        "bright",
+        "dry",
+        "warm",
+        "water",
+        "wind"
+      ],
+      "scale": 0.9474684315195011,
+      "seed": 10636,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10637",
+      "split": "validation",
+      "words": [
+        "dry",
+        "pheromone",
+        "salt",
+        "vinegar"
+      ],
+      "scale": 1.099720370938942,
+      "seed": 10637,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10638",
+      "split": "validation",
+      "words": [
+        "cold",
+        "geosmin",
+        "wind"
+      ],
+      "scale": 1.02810320641166,
+      "seed": 10638,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10639",
+      "split": "validation",
+      "words": [
+        "cold",
+        "dry"
+      ],
+      "scale": 1.0635458521568166,
+      "seed": 10639,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10640",
+      "split": "validation",
+      "words": [
+        "geosmin",
+        "humid",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.875095496391678,
+      "seed": 10640,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10641",
+      "split": "validation",
+      "words": [
+        "dry",
+        "geosmin",
+        "sound"
+      ],
+      "scale": 0.9037936111981911,
+      "seed": 10641,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10642",
+      "split": "validation",
+      "words": [
+        "bright",
+        "dry",
+        "touch"
+      ],
+      "scale": 1.0384058215605783,
+      "seed": 10642,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10643",
+      "split": "validation",
+      "words": [
+        "sound",
+        "vinegar"
+      ],
+      "scale": 1.1219080173788942,
+      "seed": 10643,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10644",
+      "split": "validation",
+      "words": [
+        "salt",
+        "sound",
+        "touch",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.0131127583295798,
+      "seed": 10644,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10645",
+      "split": "validation",
+      "words": [
+        "dry",
+        "sugar",
+        "vinegar",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.1246042836637278,
+      "seed": 10645,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10646",
+      "split": "validation",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "salt",
+        "touch",
+        "vinegar",
+        "warm"
+      ],
+      "scale": 0.9305226146898489,
+      "seed": 10646,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10647",
+      "split": "validation",
+      "words": [
+        "bright",
+        "geosmin",
+        "humid",
+        "sound"
+      ],
+      "scale": 1.0815181125473567,
+      "seed": 10647,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10648",
+      "split": "test",
+      "words": [
+        "salt",
+        "wind"
+      ],
+      "scale": 0.8526392937330659,
+      "seed": 10648,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10649",
+      "split": "test",
+      "words": [
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.9158000374555568,
+      "seed": 10649,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10650",
+      "split": "test",
+      "words": [
+        "pheromone",
+        "salt",
+        "sugar",
+        "warm"
+      ],
+      "scale": 0.9501487774177522,
+      "seed": 10650,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10651",
+      "split": "test",
+      "words": [
+        "bright",
+        "dry",
+        "salt",
+        "sound",
+        "sugar",
+        "water"
+      ],
+      "scale": 0.9416707821988572,
+      "seed": 10651,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10652",
+      "split": "test",
+      "words": [
+        "humid",
+        "warm"
+      ],
+      "scale": 0.9831769993290058,
+      "seed": 10652,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10653",
+      "split": "test",
+      "words": [
+        "bright",
+        "warm"
+      ],
+      "scale": 1.0040789007123354,
+      "seed": 10653,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10654",
+      "split": "test",
+      "words": [
+        "bright",
+        "dry",
+        "touch",
+        "wind"
+      ],
+      "scale": 1.0247277959825984,
+      "seed": 10654,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10655",
+      "split": "test",
+      "words": [
+        "bitter",
+        "sound",
+        "warm",
+        "wind"
+      ],
+      "scale": 0.9732044505759578,
+      "seed": 10655,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10656",
+      "split": "test",
+      "words": [
+        "bitter",
+        "bright",
+        "humid",
+        "water"
+      ],
+      "scale": 0.8886609162349177,
+      "seed": 10656,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10657",
+      "split": "test",
+      "words": [
+        "salt",
+        "sugar",
+        "touch",
+        "vinegar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.955436822637362,
+      "seed": 10657,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10658",
+      "split": "test",
+      "words": [
+        "bright",
+        "dry",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.016101851591088,
+      "seed": 10658,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10659",
+      "split": "test",
+      "words": [
+        "humid",
+        "touch"
+      ],
+      "scale": 1.0623804425650774,
+      "seed": 10659,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10660",
+      "split": "test",
+      "words": [
+        "cold",
+        "salt",
+        "sugar",
+        "vinegar"
+      ],
+      "scale": 1.097810009558593,
+      "seed": 10660,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10661",
+      "split": "test",
+      "words": [
+        "bitter",
+        "dry",
+        "geosmin",
+        "pheromone",
+        "yeast"
+      ],
+      "scale": 0.9373253849442104,
+      "seed": 10661,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10662",
+      "split": "test",
+      "words": [
+        "bitter",
+        "cold",
+        "salt",
+        "touch",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 1.06206650025949,
+      "seed": 10662,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10663",
+      "split": "test",
+      "words": [
+        "cold",
+        "dry",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.0572702513384642,
+      "seed": 10663,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10664",
+      "split": "test",
+      "words": [
+        "humid",
+        "salt",
+        "sound",
+        "vinegar"
+      ],
+      "scale": 0.9220169578345614,
+      "seed": 10664,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10665",
+      "split": "test",
+      "words": [
+        "cold",
+        "dry",
+        "touch",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 0.9312861901842544,
+      "seed": 10665,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10666",
+      "split": "test",
+      "words": [
+        "bitter",
+        "pheromone",
+        "water"
+      ],
+      "scale": 0.9420942632600128,
+      "seed": 10666,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10667",
+      "split": "test",
+      "words": [
+        "bitter",
+        "dry",
+        "sound",
+        "sugar",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.1494793288943572,
+      "seed": 10667,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10668",
+      "split": "test",
+      "words": [
+        "bright",
+        "pheromone",
+        "sound",
+        "vinegar"
+      ],
+      "scale": 0.8937084378260367,
+      "seed": 10668,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10669",
+      "split": "test",
+      "words": [
+        "cold",
+        "dry",
+        "humid",
+        "touch"
+      ],
+      "scale": 1.0055574686690798,
+      "seed": 10669,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10670",
+      "split": "test",
+      "words": [
+        "cold",
+        "sound",
+        "wind"
+      ],
+      "scale": 0.9235782965342867,
+      "seed": 10670,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10671",
+      "split": "test",
+      "words": [
+        "cold",
+        "dry",
+        "water"
+      ],
+      "scale": 0.903543589952334,
+      "seed": 10671,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10672",
+      "split": "test",
+      "words": [
+        "pheromone",
+        "sound",
+        "touch",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.122786262649443,
+      "seed": 10672,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10673",
+      "split": "test",
+      "words": [
+        "cold",
+        "geosmin",
+        "touch",
+        "water",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.0969767451196142,
+      "seed": 10673,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10674",
+      "split": "test",
+      "words": [
+        "bitter",
+        "sugar",
+        "wind"
+      ],
+      "scale": 1.0761686921422666,
+      "seed": 10674,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10675",
+      "split": "test",
+      "words": [
+        "bright",
+        "dry",
+        "geosmin",
+        "sound"
+      ],
+      "scale": 0.8947884358349874,
+      "seed": 10675,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10676",
+      "split": "test",
+      "words": [
+        "cold",
+        "geosmin",
+        "sound",
+        "warm",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9869253377096132,
+      "seed": 10676,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10677",
+      "split": "test",
+      "words": [
+        "bright",
+        "wind"
+      ],
+      "scale": 1.0829703329430882,
+      "seed": 10677,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10678",
+      "split": "test",
+      "words": [
+        "cold",
+        "touch",
+        "yeast"
+      ],
+      "scale": 0.9449560372061993,
+      "seed": 10678,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10679",
+      "split": "test",
+      "words": [
+        "pheromone",
+        "salt",
+        "sound",
+        "touch",
+        "wind"
+      ],
+      "scale": 0.9102540397156534,
+      "seed": 10679,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10680",
+      "split": "test",
+      "words": [
+        "cold",
+        "dry",
+        "pheromone",
+        "touch",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.1299218473882937,
+      "seed": 10680,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10681",
+      "split": "test",
+      "words": [
+        "dry",
+        "vinegar",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.0091735907002608,
+      "seed": 10681,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10682",
+      "split": "test",
+      "words": [
+        "bitter",
+        "dry",
+        "sugar"
+      ],
+      "scale": 1.086276076844007,
+      "seed": 10682,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10683",
+      "split": "test",
+      "words": [
+        "dry",
+        "humid",
+        "pheromone",
+        "salt",
+        "vinegar"
+      ],
+      "scale": 1.0918165188627103,
+      "seed": 10683,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10684",
+      "split": "test",
+      "words": [
+        "bitter",
+        "sugar",
+        "water"
+      ],
+      "scale": 0.9432023737926105,
+      "seed": 10684,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10685",
+      "split": "test",
+      "words": [
+        "touch",
+        "wind"
+      ],
+      "scale": 1.0021791811812284,
+      "seed": 10685,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10686",
+      "split": "test",
+      "words": [
+        "bitter",
+        "cold",
+        "sugar",
+        "water",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.141641467417411,
+      "seed": 10686,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10687",
+      "split": "test",
+      "words": [
+        "bitter",
+        "cold",
+        "dry",
+        "geosmin",
+        "yeast"
+      ],
+      "scale": 1.0999243647697545,
+      "seed": 10687,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10688",
+      "split": "test",
+      "words": [
+        "bitter",
+        "warm",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.8768251955197319,
+      "seed": 10688,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10689",
+      "split": "test",
+      "words": [
+        "dry",
+        "touch",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.1251061689312798,
+      "seed": 10689,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10690",
+      "split": "test",
+      "words": [
+        "salt",
+        "touch",
+        "vinegar",
+        "water",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.0975359461300738,
+      "seed": 10690,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10691",
+      "split": "test",
+      "words": [
+        "touch",
+        "vinegar",
+        "water"
+      ],
+      "scale": 0.9475516520956826,
+      "seed": 10691,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10692",
+      "split": "test",
+      "words": [
+        "bitter",
+        "bright",
+        "geosmin",
+        "humid",
+        "water",
+        "wind"
+      ],
+      "scale": 0.8628354205171863,
+      "seed": 10692,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10693",
+      "split": "test",
+      "words": [
+        "humid",
+        "sound",
+        "touch",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.0792486311097371,
+      "seed": 10693,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10694",
+      "split": "test",
+      "words": [
+        "bitter",
+        "bright",
+        "salt",
+        "warm",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.0026116420030329,
+      "seed": 10694,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10695",
+      "split": "test",
+      "words": [
+        "cold",
+        "geosmin",
+        "warm",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.0116451871023229,
+      "seed": 10695,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10696",
+      "split": "test",
+      "words": [
+        "geosmin",
+        "humid",
+        "pheromone",
+        "sound",
+        "wind"
+      ],
+      "scale": 1.1275297055716789,
+      "seed": 10696,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10697",
+      "split": "test",
+      "words": [
+        "touch",
+        "yeast"
+      ],
+      "scale": 1.0327282905456685,
+      "seed": 10697,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10698",
+      "split": "test",
+      "words": [
+        "pheromone",
+        "touch",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.1187118077901435,
+      "seed": 10698,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10699",
+      "split": "test",
+      "words": [
+        "humid",
+        "sound",
+        "sugar",
+        "touch"
+      ],
+      "scale": 1.0481265515603044,
+      "seed": 10699,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10700",
+      "split": "test",
+      "words": [
+        "bright",
+        "cold",
+        "humid",
+        "salt",
+        "sugar",
+        "yeast"
+      ],
+      "scale": 0.8673693183474163,
+      "seed": 10700,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10701",
+      "split": "test",
+      "words": [
+        "bright",
+        "dry",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.8996231651766142,
+      "seed": 10701,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10702",
+      "split": "test",
+      "words": [
+        "vinegar",
+        "warm"
+      ],
+      "scale": 0.9723326283114608,
+      "seed": 10702,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10703",
+      "split": "test",
+      "words": [
+        "dry",
+        "sugar",
+        "wind"
+      ],
+      "scale": 0.9868636927832246,
+      "seed": 10703,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10704",
+      "split": "test",
+      "words": [
+        "humid",
+        "sound",
+        "touch",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 0.9150834641293049,
+      "seed": 10704,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10705",
+      "split": "test",
+      "words": [
+        "humid",
+        "salt"
+      ],
+      "scale": 1.1157216807220895,
+      "seed": 10705,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10706",
+      "split": "test",
+      "words": [
+        "dry",
+        "sound",
+        "sugar",
+        "touch"
+      ],
+      "scale": 0.9543748303914447,
+      "seed": 10706,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10707",
+      "split": "test",
+      "words": [
+        "bitter",
+        "geosmin",
+        "humid",
+        "salt",
+        "sugar"
+      ],
+      "scale": 1.0763482167648775,
+      "seed": 10707,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10708",
+      "split": "test",
+      "words": [
+        "sugar",
+        "touch",
+        "vinegar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.9165174203413833,
+      "seed": 10708,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10709",
+      "split": "test",
+      "words": [
+        "bitter",
+        "dry",
+        "humid",
+        "pheromone",
+        "sugar",
+        "warm"
+      ],
+      "scale": 1.0304545673515044,
+      "seed": 10709,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10710",
+      "split": "test",
+      "words": [
+        "geosmin",
+        "salt",
+        "sugar",
+        "water",
+        "yeast"
+      ],
+      "scale": 0.9349424905124533,
+      "seed": 10710,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10711",
+      "split": "test",
+      "words": [
+        "geosmin",
+        "sugar"
+      ],
+      "scale": 1.1418413448809837,
+      "seed": 10711,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10712",
+      "split": "ood",
+      "words": [
+        "bright",
+        "pheromone",
+        "vinegar",
+        "water"
+      ],
+      "scale": 0.6,
+      "seed": 10712,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10713",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "geosmin",
+        "humid",
+        "pheromone",
+        "sugar",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10713,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10714",
+      "split": "ood",
+      "words": [
+        "humid",
+        "pheromone",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 0.6,
+      "seed": 10714,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10715",
+      "split": "ood",
+      "words": [
+        "salt",
+        "sound",
+        "sugar",
+        "vinegar"
+      ],
+      "scale": 1.4,
+      "seed": 10715,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10716",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "salt"
+      ],
+      "scale": 0.6,
+      "seed": 10716,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10717",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "cold",
+        "dry",
+        "pheromone",
+        "salt",
+        "water"
+      ],
+      "scale": 1.4,
+      "seed": 10717,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10718",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "dry",
+        "warm",
+        "water"
+      ],
+      "scale": 0.6,
+      "seed": 10718,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10719",
+      "split": "ood",
+      "words": [
+        "cold",
+        "pheromone",
+        "sound",
+        "touch",
+        "water",
+        "wind"
+      ],
+      "scale": 1.4,
+      "seed": 10719,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10720",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "water",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10720,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10721",
+      "split": "ood",
+      "words": [
+        "cold",
+        "geosmin",
+        "humid",
+        "wind"
+      ],
+      "scale": 1.4,
+      "seed": 10721,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10722",
+      "split": "ood",
+      "words": [
+        "cold",
+        "geosmin"
+      ],
+      "scale": 0.6,
+      "seed": 10722,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10723",
+      "split": "ood",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "salt",
+        "touch"
+      ],
+      "scale": 1.4,
+      "seed": 10723,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10724",
+      "split": "ood",
+      "words": [
+        "bright",
+        "geosmin",
+        "pheromone",
+        "sound",
+        "wind"
+      ],
+      "scale": 0.6,
+      "seed": 10724,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10725",
+      "split": "ood",
+      "words": [
+        "dry",
+        "geosmin",
+        "sugar",
+        "warm",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10725,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10726",
+      "split": "ood",
+      "words": [
+        "geosmin",
+        "pheromone",
+        "sound",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10726,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10727",
+      "split": "ood",
+      "words": [
+        "dry",
+        "humid",
+        "sound"
+      ],
+      "scale": 1.4,
+      "seed": 10727,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10728",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "bright",
+        "humid",
+        "sugar"
+      ],
+      "scale": 0.6,
+      "seed": 10728,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10729",
+      "split": "ood",
+      "words": [
+        "cold",
+        "sugar",
+        "touch",
+        "vinegar",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10729,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10730",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "bright",
+        "cold",
+        "salt",
+        "sugar",
+        "touch"
+      ],
+      "scale": 0.6,
+      "seed": 10730,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10731",
+      "split": "ood",
+      "words": [
+        "bright",
+        "humid",
+        "sugar"
+      ],
+      "scale": 1.4,
+      "seed": 10731,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10732",
+      "split": "ood",
+      "words": [
+        "humid",
+        "salt",
+        "warm"
+      ],
+      "scale": 0.6,
+      "seed": 10732,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10733",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "bright",
+        "dry",
+        "touch",
+        "vinegar",
+        "wind"
+      ],
+      "scale": 1.4,
+      "seed": 10733,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10734",
+      "split": "ood",
+      "words": [
+        "salt",
+        "sugar",
+        "warm"
+      ],
+      "scale": 0.6,
+      "seed": 10734,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10735",
+      "split": "ood",
+      "words": [
+        "bright",
+        "geosmin",
+        "sugar",
+        "touch",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10735,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10736",
+      "split": "ood",
+      "words": [
+        "bright",
+        "sound",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10736,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10737",
+      "split": "ood",
+      "words": [
+        "bright",
+        "cold",
+        "salt",
+        "vinegar",
+        "water"
+      ],
+      "scale": 1.4,
+      "seed": 10737,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10738",
+      "split": "ood",
+      "words": [
+        "vinegar",
+        "wind"
+      ],
+      "scale": 0.6,
+      "seed": 10738,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10739",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "bright",
+        "cold",
+        "pheromone",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10739,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10740",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "bright",
+        "humid",
+        "sugar",
+        "water"
+      ],
+      "scale": 0.6,
+      "seed": 10740,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10741",
+      "split": "ood",
+      "words": [
+        "dry",
+        "salt",
+        "sound",
+        "sugar",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10741,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10742",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "humid",
+        "water"
+      ],
+      "scale": 0.6,
+      "seed": 10742,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10743",
+      "split": "ood",
+      "words": [
+        "bright",
+        "cold",
+        "geosmin",
+        "salt",
+        "touch",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10743,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10744",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "dry",
+        "geosmin",
+        "salt",
+        "warm",
+        "water"
+      ],
+      "scale": 0.6,
+      "seed": 10744,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10745",
+      "split": "ood",
+      "words": [
+        "dry",
+        "pheromone",
+        "salt",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10745,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10746",
+      "split": "ood",
+      "words": [
+        "salt",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10746,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10747",
+      "split": "ood",
+      "words": [
+        "bright",
+        "dry",
+        "touch",
+        "wind",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10747,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10748",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "dry",
+        "pheromone",
+        "sound"
+      ],
+      "scale": 0.6,
+      "seed": 10748,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10749",
+      "split": "ood",
+      "words": [
+        "bright",
+        "cold",
+        "warm",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10749,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10750",
+      "split": "ood",
+      "words": [
+        "dry",
+        "humid",
+        "touch"
+      ],
+      "scale": 0.6,
+      "seed": 10750,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10751",
+      "split": "ood",
+      "words": [
+        "dry",
+        "touch"
+      ],
+      "scale": 1.4,
+      "seed": 10751,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10752",
+      "split": "ood",
+      "words": [
+        "bright",
+        "humid",
+        "sound",
+        "vinegar",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10752,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10753",
+      "split": "ood",
+      "words": [
+        "cold",
+        "pheromone",
+        "sound",
+        "water"
+      ],
+      "scale": 1.4,
+      "seed": 10753,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10754",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "geosmin",
+        "salt",
+        "touch",
+        "vinegar"
+      ],
+      "scale": 0.6,
+      "seed": 10754,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10755",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "humid",
+        "sugar",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10755,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10756",
+      "split": "ood",
+      "words": [
+        "pheromone",
+        "salt",
+        "sound",
+        "sugar"
+      ],
+      "scale": 0.6,
+      "seed": 10756,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10757",
+      "split": "ood",
+      "words": [
+        "geosmin",
+        "sound",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10757,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10758",
+      "split": "ood",
+      "words": [
+        "bright",
+        "geosmin",
+        "sound",
+        "sugar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10758,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10759",
+      "split": "ood",
+      "words": [
+        "bright",
+        "cold",
+        "sound",
+        "sugar",
+        "water"
+      ],
+      "scale": 1.4,
+      "seed": 10759,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10760",
+      "split": "ood",
+      "words": [
+        "dry",
+        "humid",
+        "sound",
+        "sugar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10760,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10761",
+      "split": "ood",
+      "words": [
+        "bright",
+        "salt",
+        "sound",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10761,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10762",
+      "split": "ood",
+      "words": [
+        "pheromone",
+        "salt",
+        "sound",
+        "sugar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10762,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10763",
+      "split": "ood",
+      "words": [
+        "salt",
+        "sound",
+        "vinegar",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10763,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10764",
+      "split": "ood",
+      "words": [
+        "cold",
+        "dry",
+        "pheromone",
+        "salt",
+        "touch",
+        "warm"
+      ],
+      "scale": 0.6,
+      "seed": 10764,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10765",
+      "split": "ood",
+      "words": [
+        "bright",
+        "salt",
+        "sugar",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10765,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10766",
+      "split": "ood",
+      "words": [
+        "dry",
+        "vinegar"
+      ],
+      "scale": 0.6,
+      "seed": 10766,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10767",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "dry",
+        "geosmin",
+        "warm",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10767,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10768",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "geosmin",
+        "pheromone",
+        "salt",
+        "sound"
+      ],
+      "scale": 0.6,
+      "seed": 10768,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10769",
+      "split": "ood",
+      "words": [
+        "dry",
+        "pheromone",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10769,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10770",
+      "split": "ood",
+      "words": [
+        "bright",
+        "dry",
+        "humid",
+        "sound",
+        "wind",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10770,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10771",
+      "split": "ood",
+      "words": [
+        "bright",
+        "humid",
+        "pheromone",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10771,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10772",
+      "split": "ood",
+      "words": [
+        "cold",
+        "salt",
+        "sound",
+        "sugar",
+        "warm"
+      ],
+      "scale": 0.6,
+      "seed": 10772,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10773",
+      "split": "ood",
+      "words": [
+        "bitter",
+        "bright",
+        "sound",
+        "sugar",
+        "touch",
+        "warm"
+      ],
+      "scale": 1.4,
+      "seed": 10773,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10774",
+      "split": "ood",
+      "words": [
+        "dry",
+        "sugar",
+        "vinegar",
+        "warm",
+        "yeast"
+      ],
+      "scale": 0.6,
+      "seed": 10774,
+      "duration_ms": 300,
+      "kind": "mixture"
+    },
+    {
+      "id": "trial-10775",
+      "split": "ood",
+      "words": [
+        "cold",
+        "pheromone",
+        "sound",
+        "water",
+        "yeast"
+      ],
+      "scale": 1.4,
+      "seed": 10775,
+      "duration_ms": 300,
+      "kind": "mixture"
+    }
+  ],
+  "fingerprint": "81d2001e08ba45cf454f4919e22a091a61b3045c5d1b60f836a9c9b3e156eb22"
+}

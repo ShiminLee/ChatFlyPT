@@ -1,0 +1,120 @@
+{
+  "scope": "Unmodified official controller; four external commands, not neural outputs",
+  "source": {
+    "id": "flygym",
+    "repository": "https://github.com/NeLy-EPFL/flygym",
+    "commit": "38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+    "archive_sha256": "3bac51eb25b8c6715172eb898665ceff5a91aa78b088715d7077443faa84380a",
+    "local_path": "vendor/flygym",
+    "retrieved_at": "2026-09-19T05:37:53.260366+00:00",
+    "archive_url": "https://codeload.github.com/NeLy-EPFL/flygym/tar.gz/38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+    "license_note": "Apache-2.0"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "flygym": "2.1.0",
+    "mujoco": "3.9.0",
+    "controller_module": "D:\\Projects\\python\\fly\\vendor\\flygym\\src\\flygym_demo\\complex_terrain\\turning_controller.py"
+  },
+  "source_sha256": {
+    "tutorials/4d_turning_controller.ipynb": "aa1d5969264f57fc2cf77ec555bf41ebbfd4e8849e4b1f78a7593a0d9869a9a5",
+    "src/flygym_demo/complex_terrain/common.py": "306b5a287de6aa26a3de110dbe16f706b9df8c592386b6fdc770d6724d38ffd8",
+    "src/flygym_demo/complex_terrain/cpg_controller.py": "86804054621f35e28c74f0a88db6a73faa17db586f5554db00674c9851eab592",
+    "src/flygym_demo/complex_terrain/hybrid_controller.py": "a29b189e2e2310acedceae993f67f93e8697e954e91326163cf92d1e078e2608",
+    "src/flygym_demo/complex_terrain/turning_controller.py": "385f1b0169c60f0f241a63e0b4f4112aa1c4e65e4b9aec7e5b38cee8cdc6b1b7",
+    "src/flygym_demo/complex_terrain/preprogrammed.py": "ad945cee5af607e24f1a17ada0b8becd622c1fabebbb9f4f35e49dc7fd69e97f",
+    "src/flygym/assets/model/neuromechfly/rigging.yaml": "4e51d5ed3f151aefc125c91ff9298921b3b79a9d64e03e6fe88f1ce9945dbe3d",
+    "src/flygym/assets/model/neuromechfly/mujoco_globals.yaml": "e5b70e5bd5199ab2a9a68eb119ce9ef3f0b1dfa1890e13f1adb6d6cc20579988"
+  },
+  "benchmark_sha256": "910e58b1fe6be221d80ad1046d0041168122f23d115ab8edcff65fcdd5d4eaeb",
+  "cases": [
+    {
+      "name": "forward",
+      "external_descending_signal_left_right": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "left_command",
+      "external_descending_signal_left_right": [
+        0.4,
+        1.2
+      ]
+    },
+    {
+      "name": "right_command",
+      "external_descending_signal_left_right": [
+        1.2,
+        0.4
+      ]
+    },
+    {
+      "name": "zero_descending",
+      "external_descending_signal_left_right": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "seed": 0,
+  "duration_s_per_case": 1.0,
+  "warmup_s": 0.05,
+  "tutorial_configuration": {
+    "spawn_position_mm": [
+      0,
+      0,
+      0.8
+    ],
+    "spawn_quaternion_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "ground_contacts": "ContactBodiesPreset.TIBIA_TARSUS_ONLY",
+    "fly": "make_locomotion_fly(add_adhesion=True, colorize=True); other defaults unchanged",
+    "joint_stiffness": 0.05,
+    "joint_damping": 0.06,
+    "passive_tarsus_stiffness": 7.5,
+    "passive_tarsus_damping": 0.01,
+    "actuator_gain": 45,
+    "actuator_forcerange": [
+      -65,
+      65
+    ],
+    "adhesion_gain": 40,
+    "warmup": "Official template default pose plus all-leg adhesion, then sim.warmup(0.05); not included in measured 1 s",
+    "controller": "HybridTurningController with official PreprogrammedSteps and output DOF order",
+    "cpg": {
+      "frequency_hz": 12,
+      "coupling_strength": 10,
+      "convergence_coefficient": 20,
+      "initial_phases": "official reset(seed=0) random phases",
+      "initial_magnitudes": "zero"
+    },
+    "hybrid": {
+      "stumbling_force_threshold": -1,
+      "retraction_height_threshold_mm": 0.05,
+      "retraction_rates": [
+        800,
+        700
+      ],
+      "stumbling_rates": [
+        2200,
+        1800
+      ],
+      "max_correction": 80,
+      "swing_extension_rad": 0.7853981633974483,
+      "retraction_persistence_steps": 20
+    }
+  },
+  "fall_criterion": "Engineering diagnostic: thorax tilt >60 degrees OR thorax center height <0.5 mm continuously for >=100 ms. Not biological validation.",
+  "zero_command_note": "Zero descending amplitude is NOT passive: position actuators, adhesion and hybrid feedback remain enabled, as in the official API.",
+  "deviations_from_tutorial": [
+    "The tutorial alternates [1.2,.4] and [.4,1.2] for 1 s each in a single 2 s run; here each is an independent 1 s reset for comparability.",
+    "Adds symmetric [1,1] and zero [0,0] controls; no controller equations, gains or feedback rules changed.",
+    "No profiling or continuous video loop; records sampled state and one final render."
+  ]
+}
