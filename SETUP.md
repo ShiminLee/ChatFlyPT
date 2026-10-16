@@ -71,6 +71,11 @@ commit 与归档 sha256 记录进 `research/manifests/sources.lock.json`。
 clone 即有，**无需重训**。若权重缺失或契约不匹配，读出会如实显示
 "尚未校准"而不是拿旧权重充数。
 
+**例外**：`data/derived/state-sensory/` 下两份"实验设置"直刺激面板用的历史解码器
+（FlyWire 16 词 62.1 MiB、MaleCNS 触觉 49.9 MiB）体积过大未入库，挂在
+[Release decoder-weights](https://github.com/ShiminLee/ChatFlyPT/releases/tag/decoder-weights)。
+需要跑直刺激实验时下载后放入 `data/derived/state-sensory/`；只用正常聊天则不需要它们。
+
 ## 已知限制（照实说）
 
 - 全新空机器的端到端走查**未执行**：每条命令都在开发机上验证过（包括
